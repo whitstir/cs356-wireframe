@@ -102,8 +102,14 @@
   }
   // Keep the sticky filter column below the test-mode task bar.
   function syncStickyTop() {
+    const root = document.documentElement;
     const h = taskbar.hidden ? 0 : taskbar.offsetHeight;
-    document.documentElement.style.setProperty("--sticky-top", h + 16 + "px");
+    root.style.setProperty("--sticky-top", h + 16 + "px");
+    // Space below the Explore grid (page padding + footer). The sticky filter column is
+    // shortened by this much so the footer can't push its top off screen at the bottom.
+    const grid = $(".explore");
+    const below = grid ? root.scrollHeight - (grid.getBoundingClientRect().bottom + window.scrollY) : 0;
+    root.style.setProperty("--below-explore", Math.max(0, Math.round(below)) + "px");
   }
 
   function closeMenus() {
@@ -350,6 +356,7 @@
       render();
     });
     update();
+    syncStickyTop();
   }
 
   // ---------- Venue endpoint ----------
@@ -369,6 +376,11 @@
     return lines.length > 1 ? `<ul>${lines.map((l) => `<li>${esc(l)}</li>`).join("")}</ul>` : esc(lines[0] || "");
   }
   const yesList = (obj) => Object.keys(obj).filter((k) => obj[k]);
+  function websiteLink(url) {
+    const u = (url || "").trim();
+    if (!/^https?:\/\//i.test(u)) return u ? esc(u) : "Not listed";
+    return `<a href="${esc(u)}" target="_blank" rel="noopener" data-log="Venue website">${esc(u)}</a>`;
+  }
 
   function viewVenue(id) {
     const v = venueById(id);
@@ -378,6 +390,7 @@
       `${item} (${modes.map((m) => (m === "rent" ? "for rent" : "included")).join(", ")})`);
     const facts = [
       ["City", v.city || "Not listed"],
+      ["Website", { html: websiteLink(v.raw.link) }],
       ["Price", priceLabel(v)],
       ["Seated capacity", v.seated == null ? "Not listed" : String(v.seated)],
       ["Standing capacity", v.standing == null ? "Not listed" : String(v.standing)],
@@ -389,7 +402,7 @@
     ];
     const groups = DETAIL_GROUPS.map(([title, fields]) => {
       const rows = fields.filter(([k]) => v.raw[k]).map(([k, label]) =>
-        `<dt>${esc(label)}</dt><dd>${fieldValue(v.raw[k])}</dd>`);
+        `<dt>${esc(label)}</dt><dd>${k === "link" ? websiteLink(v.raw[k]) : fieldValue(v.raw[k])}</dd>`);
       return rows.length ? `<h3>${esc(title)}</h3><dl class="facts">${rows.join("")}</dl>` : "";
     }).join("");
 
@@ -400,7 +413,7 @@
         <h1 id="venue-name">${esc(v.name)}</h1>
         <p class="muted">${esc(v.description)}</p>
         <dl class="facts">
-          ${facts.map(([k, val]) => `<dt>${esc(k)}</dt><dd>${Array.isArray(val)
+          ${facts.map(([k, val]) => `<dt>${esc(k)}</dt><dd>${val && val.html ? val.html : Array.isArray(val)
             ? `<ul>${val.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : esc(val)}</dd>`).join("")}
         </dl>
       </section>

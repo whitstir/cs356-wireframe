@@ -58,11 +58,12 @@ main:focus { outline: none; }
 
 /* Explore */
 .explore { display: grid; grid-template-columns: 300px 1fr; gap: 24px; align-items: start; }
-@media (max-width: 800px) { .explore { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .explore { grid-template-columns: 240px 1fr; gap: 16px; } }
+@media (max-width: 639px) { .explore { grid-template-columns: 1fr; } }
 .filters { display: flex; flex-direction: column; gap: 12px; }
 /* Desktop: filters stick beside the results and scroll on their own, so venues stay in view. */
-@media (min-width: 801px) {
-  .filters { position: sticky; top: var(--sticky-top, 16px); max-height: calc(100vh - var(--sticky-top, 16px) - 16px); overflow-y: auto; overscroll-behavior: contain; padding-right: 8px; }
+@media (min-width: 640px) {
+  .filters { position: sticky; top: var(--sticky-top, 16px); max-height: calc(100vh - var(--sticky-top, 16px) - 16px - var(--below-explore, 0px)); overflow-y: auto; overscroll-behavior: contain; padding-right: 8px; }
 }
 .filters-head { display: flex; justify-content: space-between; align-items: center; }
 .f-group { border: 1px solid #000; margin: 0; padding: 10px 12px 12px; min-width: 0; }

@@ -38,7 +38,7 @@ Home
 - Every venue is reachable through Location, Style (each venue has at least one style), and Explore.
 
 ### Categorization 2 — Explore page: *by feature* (faceted filters)
-Left column (stacks on top on mobile) = local navigation. Right column = live results ("Showing N venues").
+Left column = local navigation. At widths 640px and up it sticks in place and scrolls on its own, so results stay visible; below 640px it stacks on top. Right column = live results ("Showing N venues").
 
 | Filter | Control | Match rule |
 |---|---|---|
@@ -70,7 +70,7 @@ A "Clear all filters" button resets everything. Filter state is kept in the URL 
 |---|---|
 | `#/` | Landing page with carousel |
 | `#/explore?…` | Filter page |
-| `#/venue/<id>` | **Endpoint.** Line reading "End of path: [Venue name]". Summary box: name, city, description, price, seated + standing capacity, styles, key features. Below it, an expandable "All details" section with every CSV field, grouped (Pricing & packages, Capacity & time, Space & decor, Services, Policies, Contact) and empty fields hidden. |
+| `#/venue/<id>` | **Endpoint.** Line reading "End of path: [Venue name]". Summary box: name, city, website link, description, price, seated + standing capacity, styles, key features. Below it, an expandable "All details" section with every CSV field, grouped (Pricing & packages, Capacity & time, Space & decor, Services, Policies, Contact) and empty fields hidden. |
 | `#/log` | Click log: table, Download JSON, Download CSV, Copy, Clear |
 
 Venue list boxes show: name, city, price text, seated capacity, styles. Each box is a link to the endpoint.
@@ -147,6 +147,7 @@ decisions.md        decision log
 wireframe-spec.md   this file
 ```
 Hosted on GitHub Pages from `main` (root). No build step and no external libraries.
+After changing CSS/JS/data, bump the `?v=` number on the four asset tags in `index.html` so browsers don't use cached copies.
 
 ## 9. Before running participants
 - Do a full dry run with a teammate: run `?test`, complete all 10 tasks (including one give-up), open `?results`, download the CSV, and confirm a give-up is distinguishable from a wrong-venue finish.
