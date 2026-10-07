@@ -1,0 +1,126 @@
+/* Wireframe fidelity: black and white only, one font, generic boxes. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #fff; color: #000; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.45; }
+h1, h2, h3, legend, summary, th, strong { font-weight: normal; }
+h1 { font-size: 1.6rem; margin: 0 0 8px; }
+h2 { font-size: 1.25rem; margin: 0 0 10px; }
+h3 { font-size: 1.05rem; margin: 18px 0 6px; }
+p { margin: 0 0 12px; }
+a { color: #000; }
+button, select, input { font: inherit; color: #000; }
+button { background: #fff; border: 1px solid #000; border-radius: 0; padding: 8px 12px; cursor: pointer; }
+button:hover { background: #000; color: #fff; }
+select { background: #fff; border: 1px solid #000; border-radius: 0; padding: 6px 8px; width: 100%; }
+:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+[hidden] { display: none !important; }
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+main.wrap { padding-top: 24px; padding-bottom: 48px; min-height: 60vh; }
+main:focus { outline: none; }
+.box { border: 1px solid #000; padding: 16px; }
+.muted { margin: 0; }
+
+/* Header + global nav */
+.site-header { border-bottom: 1px solid #000; }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 12px; padding-bottom: 12px; }
+.brand { font-size: 1.15rem; text-decoration: none; border: 1px solid #000; padding: 8px 12px; }
+.global-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+.nav-btn { display: inline-block; background: #fff; border: 1px solid #000; padding: 8px 14px; text-decoration: none; cursor: pointer; }
+.nav-btn:hover, .nav-btn[aria-expanded="true"] { background: #000; color: #fff; }
+.menu { position: relative; }
+.menu-list { position: absolute; top: calc(100% + 4px); left: 0; z-index: 30; background: #fff; border: 1px solid #000; list-style: none; margin: 0; padding: 4px 0; min-width: 200px; max-height: 70vh; overflow-y: auto; }
+.menu-list a { display: block; padding: 8px 14px; text-decoration: none; }
+.menu-list a:hover { background: #000; color: #fff; }
+
+.site-footer { border-top: 1px solid #000; padding: 16px 0; }
+
+/* Breadcrumbs */
+.crumbs { margin-bottom: 16px; }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.crumbs li + li::before { content: "›"; margin-right: 6px; }
+
+/* Landing */
+.hero { margin-bottom: 28px; }
+.carousel-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+.carousel-controls { display: flex; gap: 8px; }
+.carousel { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+.tile { flex: 0 0 calc(50% - 8px); scroll-snap-align: start; display: flex; flex-direction: column; justify-content: space-between; min-height: 180px; border: 1px solid #000; padding: 20px; text-decoration: none; }
+.tile:hover { background: #000; color: #fff; }
+.tile-title { font-size: 1.35rem; display: block; margin-bottom: 8px; }
+.tile-go { text-decoration: underline; }
+@media (max-width: 640px) { .tile { flex-basis: 85%; } }
+
+/* Venue lists */
+.list-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.venue-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.venue-card { display: block; border: 1px solid #000; padding: 12px; text-decoration: none; }
+.venue-card:hover { background: #000; color: #fff; }
+.vc-name { display: block; font-size: 1.1rem; text-decoration: underline; margin-bottom: 6px; }
+.vc-line { display: block; }
+.empty { border: 1px dashed #000; padding: 16px; }
+
+/* Explore */
+.explore { display: grid; grid-template-columns: 300px 1fr; gap: 24px; align-items: start; }
+@media (max-width: 800px) { .explore { grid-template-columns: 1fr; } }
+.filters { display: flex; flex-direction: column; gap: 12px; }
+.filters-head { display: flex; justify-content: space-between; align-items: center; }
+.f-group { border: 1px solid #000; margin: 0; padding: 10px 12px 12px; min-width: 0; }
+.f-group legend { padding: 0 4px; }
+details.f-group { padding: 0; }
+details.f-group > summary { cursor: pointer; padding: 10px 12px; list-style-position: inside; }
+details.f-group > .f-body { padding: 0 12px 12px; }
+.f-sub { margin: 10px 0 4px; }
+.f-sub + .check { margin-top: 0; }
+.check { display: flex; gap: 8px; align-items: flex-start; padding: 3px 0; cursor: pointer; }
+.check input { accent-color: #000; width: 16px; height: 16px; margin: 3px 0 0; flex: none; }
+.f-modes { border: 1px solid #000; padding: 8px 10px; margin-top: 4px; }
+.readout { margin-bottom: 6px; }
+
+/* Dual-handle range slider */
+.dual { position: relative; height: 28px; }
+.dual .track { position: absolute; left: 8px; right: 8px; top: 13px; height: 2px; background: #000; }
+.dual input[type=range] { position: absolute; left: 0; top: 0; width: 100%; height: 28px; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
+.dual input[type=range]::-webkit-slider-runnable-track { background: none; height: 28px; }
+.dual input[type=range]::-moz-range-track { background: none; }
+.dual input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 18px; height: 18px; margin-top: 5px; border: 2px solid #000; border-radius: 50%; background: #fff; cursor: pointer; }
+.dual input[type=range]::-moz-range-thumb { pointer-events: auto; width: 14px; height: 14px; border: 2px solid #000; border-radius: 50%; background: #fff; cursor: pointer; }
+.dual input[type=range]:focus-visible { outline: none; }
+.dual input[type=range]:focus-visible::-webkit-slider-thumb { background: #000; }
+.dual input[type=range]:focus-visible::-moz-range-thumb { background: #000; }
+.scale { display: flex; justify-content: space-between; font-size: 0.85rem; }
+
+/* Venue endpoint */
+.endstate { border: 2px solid #000; padding: 12px 16px; margin-bottom: 16px; }
+.summary h1 { margin-bottom: 4px; }
+.facts { display: grid; grid-template-columns: 200px 1fr; gap: 8px 16px; margin: 16px 0 0; }
+.facts dt { border-top: 1px solid #000; padding-top: 6px; }
+.facts dd { margin: 0; border-top: 1px solid #000; padding-top: 6px; }
+.facts ul { margin: 0; padding-left: 18px; }
+@media (max-width: 640px) { .facts { grid-template-columns: 1fr; gap: 0 0; } .facts dd { border-top: 0; padding-top: 0; padding-bottom: 8px; } }
+.all-details { margin-top: 16px; padding: 0; }
+.all-details > summary { cursor: pointer; padding: 14px 16px; }
+.all-details > .detail-body { padding: 0 16px 16px; }
+.all-details h3 { border-bottom: 1px solid #000; padding-bottom: 4px; }
+
+/* Tables (log, results) */
+.table-wrap { overflow-x: auto; border: 1px solid #000; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { border: 1px solid #000; padding: 6px 8px; text-align: left; vertical-align: top; }
+thead th { border-top: 0; }
+tr > :first-child { border-left: 0; }
+tr > :last-child { border-right: 0; }
+tbody tr:last-child > * { border-bottom: 0; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
+
+/* Test mode */
+#taskbar { position: sticky; top: 0; z-index: 50; background: #fff; border-bottom: 2px solid #000; }
+.taskbar-inner { display: flex; gap: 16px; align-items: center; justify-content: space-between; padding-top: 10px; padding-bottom: 10px; }
+.taskbar-text { margin: 0; }
+#overlay { position: fixed; inset: 0; z-index: 100; background: #fff; overflow-y: auto; padding: 16px; display: flex; align-items: flex-start; justify-content: center; }
+.dialog { border: 2px solid #000; padding: 24px; max-width: 560px; width: 100%; margin-top: 10vh; }
+.dialog label { display: block; margin-bottom: 6px; }
+.dialog input[type=text] { width: 100%; border: 1px solid #000; border-radius: 0; padding: 8px; margin-bottom: 16px; }
+.scenario { border: 1px solid #000; padding: 16px; font-size: 1.15rem; margin: 12px 0 20px; }
+td { min-width: 6em; }

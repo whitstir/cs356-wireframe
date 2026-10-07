@@ -117,6 +117,8 @@ The footer "Click log" link is hidden during a test. There is no search box anyw
 **Results (`?results`)**: summary table per task (success %, give-up %, median time, most common first click) plus the raw rows. Buttons: Download CSV, Download JSON, Clear all (asks to confirm). Results persist in this browser's `localStorage`, so **run every session on the same device and browser**, and export after each study day.
 
 ## 7. Task scenarios
+**Status:** draft only. `data/tasks.js` has 10 blank slots (T1–T10). Test mode skips blank tasks and shows a "no scenarios set up" screen until they're filled in. Each slot takes `text`, `target` (venue id or exact name), and `expectedFirstClick`.
+
 Written in the user's words, with no category labels quoted. Each task has exactly one correct venue under the current data (checked by script).
 
 | ID | Scenario | Target | Predicted first click | Likely paths |

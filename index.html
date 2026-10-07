@@ -3,13 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wireframe</title>
-  <style>
-    body { margin: 0; padding: 16px; font-family: Arial, sans-serif; background: #fff; color: #000; }
-    .box { border: 1px solid #000; padding: 16px; max-width: 640px; margin: 40px auto; }
-  </style>
+  <title>Utah County Wedding Venues</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="box">Wireframe coming soon.</div>
+  <div id="taskbar" data-nolog hidden></div>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/" data-log="Home (site title)">Utah County Wedding Venues</a>
+      <nav class="global-nav" aria-label="Main">
+        <div class="menu">
+          <button type="button" class="nav-btn" data-menu="m-location" aria-expanded="false" aria-controls="m-location" data-log="Location">Location ▾</button>
+          <ul class="menu-list" id="m-location" hidden></ul>
+        </div>
+        <div class="menu">
+          <button type="button" class="nav-btn" data-menu="m-style" aria-expanded="false" aria-controls="m-style" data-log="Style">Style ▾</button>
+          <ul class="menu-list" id="m-style" hidden></ul>
+        </div>
+        <a class="nav-btn" href="#/explore" data-log="Explore">Explore</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="wrap" tabindex="-1"></main>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="wrap">
+      <a href="#/log">Click log</a>
+    </div>
+  </footer>
+
+  <div id="overlay" data-nolog hidden></div>
+
+  <script src="data/venues.js"></script>
+  <script src="data/tasks.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
