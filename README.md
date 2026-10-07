@@ -82,22 +82,24 @@ Follows the course Tree Test spec:
 1. **Start:** the participant enters an ID and is told that the site's structure is being tested, not them.
 2. **Tasks:** the tasks are shuffled separately for each participant.
 3. **Each task:** the scenario is shown, the participant presses OK, the timer starts, and every click is recorded.
-4. **End of a task:** the task ends when they reach any venue page or press **I would give up**.
-5. **Each task records:**
+4. **End of a task:** a bar at the bottom of every page has two buttons, **I give up** and **I think I'm done**. The task ends only when the participant presses one of them. Opening a venue page does not end it.
+5. **Scoring:** each task lists the facets a participant is expected to apply (`expected` in [data/tasks.js](data/tasks.js)). The score is the share of those parts satisfied by the filters applied when the task ends, from 0 to 1. For example, 2 of 3 expected facets scores 0.67.
+6. **Each task records:**
    - participant, task, and order
-   - target venue
-   - outcome: `success`, `fail` (wrong venue), or `gave_up`
-   - the venue reached
-   - first click and the predicted first click
+   - target (the expected facets)
+   - outcome: `success` (score 1), `partial`, `fail` (score 0), or `gave_up`
+   - score, how many facets were right, which facets were right, and which were missed
+   - every filter that was applied at the end, and the page or venue they finished on
+   - first click, the predicted first click, and whether they match
    - full click path and click count
    - backtracks (returns to a page already visited)
    - elapsed time
-6. **`?results`:** shows a summary per task (success %, give-up %, median time, most common first click) plus every result row, with CSV/JSON download.
+7. **`?results`:** shows a summary per task (mean score, success/partial/fail/give-up %, most-missed facet, median time, most common first click) plus every result row, with CSV/JSON download.
 
 **Important:** results are stored in the browser where the test ran. Run every participant on the **same laptop and browser**, and download the CSV after each session.
 
 ## Status and to-dos
-- [ ] **Scenarios are blank on purpose.** The team will write the exact wording. Fill in the 10 slots in [data/tasks.js](data/tasks.js), each with `text`, `target` (venue name or id) and `expectedFirstClick`. Until then, `?test` shows a "no scenarios set up" screen. Drafts that each have exactly one correct venue are in [wireframe-spec.md §7](wireframe-spec.md); use them as a starting point.
+- [x] **Scenarios are in.** The 10 tasks from [data/Tree Test Tasks - Sheet1.csv](data/Tree%20Test%20Tasks%20-%20Sheet1.csv) are in [data/tasks.js](data/tasks.js), each with `text`, `expectedFirstClick` and `expected` facets. The file's header comment lists the facet parts you can use.
 - [ ] **Do a dry run** with a teammate before real participants. Include one give-up, then check the CSV export.
 - [ ] **Write the Part 1 rationale paragraph.** Connect specific card-sort findings to the categories and labels above. The card-sort findings aren't documented in this repo yet; add them so the "Grounded in previous study" rubric item (16 pts) is covered.
 - [ ] Run 8–10 participants, export the results, and analyze first clicks and paths.

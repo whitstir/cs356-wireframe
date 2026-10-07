@@ -32,6 +32,7 @@
   const app = $("#app");
   const overlay = $("#overlay");
   const taskbar = $("#taskbar");
+  const testbar = $("#testbar");
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -95,7 +96,8 @@
     const grid = $(".explore");
     if (!grid) return;
     const top = grid.getBoundingClientRect().top + window.scrollY;
-    document.documentElement.style.setProperty("--explore-h", Math.max(320, window.innerHeight - top - 16) + "px");
+    const bar = testbar && !testbar.hidden ? testbar.offsetHeight : 0;
+    document.documentElement.style.setProperty("--explore-h", Math.max(320, window.innerHeight - top - bar - 16) + "px");
   }
 
   // ---------- Shared bits ----------
@@ -297,6 +299,8 @@
     };
     const update = () => {
       const s = fromDom();
+      // Test mode: remember the filters currently applied, so the task can be scored on them.
+      if (testSession && testSession.active) { testSession.filters = s; save(KEY_SESSION, testSession); }
       const list = VENUES.filter((v) => matches(v, s));
       $("#results-count").textContent = `Showing ${list.length} of ${VENUES.length} venues`;
       $("#results").innerHTML = venueList(list);
@@ -522,8 +526,8 @@
     }
     showOverlay(`<h1>Welcome</h1>
       <p>We are testing the website's structure, not you. There are no wrong answers.</p>
-      <p>You'll get ${TASKS.length} short tasks. For each one, click through the site to where you think you'd find the answer. Please think aloud as you go.</p>
-      <p>If you can't find it, press "I would give up". That is a useful result, not a failure.</p>
+      <p>You'll get ${TASKS.length} short tasks. For each one, use the site to find venues that fit. Please think aloud as you go.</p>
+      <p>Two buttons stay at the bottom of every page. Press "I think I'm done" when you feel you've found what the task asks for. If you can't find it, press "I give up". That is a useful result, not a failure.</p>
       <form id="start-form">
         <label for="pid">Participant ID</label>
         <input type="text" id="pid" required autocomplete="off">
@@ -537,7 +541,7 @@
         participant: pid,
         session_start: new Date().toISOString(),
         order: shuffle(TASKS.map((t) => t.id)),
-        idx: 0, active: false, taskStart: 0, path: [], visited: [], backtracks: 0,
+        idx: 0, active: false, taskStart: 0, path: [], visited: [], backtracks: 0, filters: null,
       };
       save(KEY_SESSION, testSession);
       testTaskIntro();
@@ -545,15 +549,14 @@
   }
 
   function testTaskIntro() {
-    taskbar.hidden = true;
-    syncExploreHeight();
+    hideTaskbar();
     const t = taskById(testSession.order[testSession.idx]);
     showOverlay(`<p>Task ${testSession.idx + 1} of ${testSession.order.length}</p>
       <div class="scenario">${esc(t.text)}</div>
       <p class="muted">Press OK when you're ready. The site will open at the home page.</p>
       <button type="button" id="task-ok">OK, start</button>`);
     $("#task-ok").addEventListener("click", () => {
-      Object.assign(testSession, { active: true, taskStart: Date.now(), path: [], visited: ["/"], backtracks: 0 });
+      Object.assign(testSession, { active: true, taskStart: Date.now(), path: [], visited: ["/"], backtracks: 0, filters: null });
       save(KEY_SESSION, testSession);
       hideOverlay();
       showTaskbar();
@@ -565,16 +568,27 @@
   function showTaskbar() {
     const t = taskById(testSession.order[testSession.idx]);
     taskbar.innerHTML = `<div class="wrap taskbar-inner">
-      <p class="taskbar-text">Task ${testSession.idx + 1} of ${testSession.order.length}: ${esc(t.text)}</p>
-      <button type="button" id="give-up">I would give up</button></div>`;
+      <p class="taskbar-text">Task ${testSession.idx + 1} of ${testSession.order.length}: ${esc(t.text)}</p></div>`;
+    // Bottom bar, shown on every page during a task. The task only ends when one of these is pressed.
+    testbar.innerHTML = `<div class="wrap testbar-inner">
+      <button type="button" id="give-up">I give up</button>
+      <button type="button" id="task-done">I think I'm done</button></div>`;
     taskbar.hidden = false;
+    testbar.hidden = false;
+    document.body.classList.add("has-testbar");
     syncExploreHeight();
-    $("#give-up").addEventListener("click", () => testFinish("gave_up", null));
+    $("#give-up").addEventListener("click", () => testFinish("gave_up"));
+    $("#task-done").addEventListener("click", () => testFinish("done"));
+  }
+  function hideTaskbar() {
+    taskbar.hidden = true;
+    testbar.hidden = true;
+    document.body.classList.remove("has-testbar");
+    syncExploreHeight();
   }
 
   function testOnRoute(r) {
     if (!testSession || !testSession.active) return;
-    if (r.parts[0] === "venue") { testFinish("venue", r.parts[1]); return; }
     const key = r.path;
     const v = testSession.visited;
     if (v[v.length - 1] === key) return;
@@ -583,17 +597,92 @@
     save(KEY_SESSION, testSession);
   }
 
-  function testFinish(kind, venueId) {
+  // ---------- Facet scoring ----------
+  // A task's `expected` is a list of facet parts (see data/tasks.js). The score is the share of
+  // parts that are satisfied by the filters applied when the participant ends the task.
+  const emptyFilters = () => readState(new URLSearchParams());
+  const decorGroupOf = (item) => (Object.entries(DECOR).find(([, items]) => items.includes(item)) || [""])[0];
+  const sameText = (x, y) => String(x).toLowerCase() === String(y).toLowerCase();
+  const has = (list, value) => list.some((x) => sameText(x, value));
+
+  function rangeLabel(name, p, fmt) {
+    if (p.min != null && p.max != null) return `${name}: ${fmt(p.min)} to ${fmt(p.max)}`;
+    if (p.max != null) return `${name}: up to ${fmt(p.max)}`;
+    if (p.min != null) return `${name}: at least ${fmt(p.min)}`;
+    return `${name}: range adjusted`;
+  }
+  function rangeMet(lo, hi, top, p) {
+    if (!(lo > 0 || hi < top)) return false;            // slider untouched
+    if (p.max != null && hi > p.max) return false;
+    if (p.min != null && lo < p.min) return false;
+    return true;
+  }
+
+  function partLabel(p) {
+    if (p.anyOf) return p.anyOf.map(partLabel).join(" or ");
+    switch (p.facet) {
+      case "style": return `Style: ${p.value}`;
+      case "city": return `City: ${p.value}`;
+      case "feature": return `Features: ${p.value}`;
+      case "access": return `Accessibility options: ${p.value}`;
+      case "av": return `Audio/Visual: ${p.value}`;
+      case "parking": return "Parking: Designated lot";
+      case "decor": return `Decor > ${decorGroupOf(p.value)}: ${p.value}`;
+      case "decorGroup": return `Decor > ${p.group}: any ${p.min || 1} or more`;
+      case "price": return rangeLabel("Price", p, priceText);
+      case "capacity": return rangeLabel("Capacity", p, capText);
+      default: return `Unknown facet "${p.facet}"`;
+    }
+  }
+  function partMet(p, st) {
+    if (p.anyOf) return p.anyOf.some((x) => partMet(x, st));
+    switch (p.facet) {
+      case "style": return has(st.styles, p.value);
+      case "city": return sameText(st.city, p.value);
+      case "feature": return has(st.flags, p.value);
+      case "access": return has(st.access, p.value);
+      case "av": return has(st.av, p.value);
+      case "parking": return !!st.lot;
+      case "decor": return has(st.decor, p.value);
+      case "decorGroup": {
+        const group = Object.entries(DECOR).find(([cat]) => sameText(cat, p.group));
+        return !!group && st.decor.filter((d) => group[1].includes(d)).length >= (p.min || 1);
+      }
+      case "price": return rangeMet(st.pmin, st.pmax, PRICE_MAX, p);
+      case "capacity": return rangeMet(st.cmin, st.cmax, CAP_MAX, p);
+      default: return false;
+    }
+  }
+  // Everything the participant had applied, in the same wording as the expected parts.
+  function describeFilters(st) {
+    const out = [];
+    if (st.pmin > 0 || st.pmax < PRICE_MAX) out.push(`Price: ${priceText(st.pmin)} to ${priceText(st.pmax)}`);
+    st.access.forEach((x) => out.push(`Accessibility options: ${x}`));
+    st.av.forEach((x) => out.push(`Audio/Visual: ${x}`));
+    if (st.cmin > 0 || st.cmax < CAP_MAX) out.push(`Capacity: ${capText(st.cmin)} to ${capText(st.cmax)}`);
+    if (st.city) out.push(`City: ${st.city}`);
+    st.modes.forEach((x) => out.push(`Decor: ${x === "rent" ? "For rent" : "Included"}`));
+    st.decor.forEach((x) => out.push(`Decor > ${decorGroupOf(x)}: ${x}`));
+    st.flags.forEach((x) => out.push(`Features: ${x}`));
+    if (st.lot) out.push("Parking: Designated lot");
+    st.styles.forEach((x) => out.push(`Style: ${x}`));
+    return out;
+  }
+
+  function testFinish(kind) {
     const s = testSession;
     const t = taskById(s.order[s.idx]);
-    const venue = venueId ? venueById(venueId) : null;
-    const target = (t.target || "").trim();
-    let outcome = "gave_up";
-    if (kind === "venue") {
-      outcome = !target ? "no_target_set"
-        : venue && (venue.id === target || venue.name.toLowerCase() === target.toLowerCase()) ? "success" : "fail";
-    }
-    const targetVenue = venueById(target) || VENUES.find((x) => x.name.toLowerCase() === target.toLowerCase());
+    const filters = s.filters || emptyFilters();
+    const expected = Array.isArray(t.expected) ? t.expected : [];
+    const correct = expected.filter((p) => partMet(p, filters));
+    const missed = expected.filter((p) => !correct.includes(p));
+    const score = expected.length ? Math.round((100 * correct.length) / expected.length) / 100 : "";
+    const outcome = kind === "gave_up" ? "gave_up"
+      : !expected.length ? "no_target_set"
+      : score === 1 ? "success" : score === 0 ? "fail" : "partial";
+    const here = parseHash();
+    const venue = here.parts[0] === "venue" ? venueById(here.parts[1]) : null;
+    const first = s.path[0] || "";
     const results = load(KEY_RESULTS, []);
     results.push({
       participant: s.participant,
@@ -601,11 +690,18 @@
       task_id: t.id,
       task_order: s.idx + 1,
       task_text: t.text,
-      target: targetVenue ? targetVenue.name : target,
+      target: expected.map(partLabel).join("; "),
       outcome,
+      score,
+      facets_correct_count: expected.length ? `${correct.length} of ${expected.length}` : "",
+      facets_correct: correct.map(partLabel).join("; "),
+      facets_missed: missed.map(partLabel).join("; "),
+      filters_applied: describeFilters(filters).join("; "),
+      finish_page: here.path,
       finish_block: venue ? venue.name : "",
-      first_click: s.path[0] || "",
+      first_click: first,
       first_click_expected: t.expectedFirstClick || "",
+      first_click_match: t.expectedFirstClick ? (sameText(first, t.expectedFirstClick) ? "yes" : "no") : "",
       click_path: s.path.join(" > "),
       click_count: s.path.length,
       backtracks: s.backtracks,
@@ -615,8 +711,7 @@
 
     s.active = false;
     s.idx++;
-    taskbar.hidden = true;
-    syncExploreHeight();
+    hideTaskbar();
     if (s.idx >= s.order.length) {
       remove(KEY_SESSION);
       testSession = null;
@@ -638,7 +733,8 @@
 
   // ---------- Results (?results) ----------
   const RESULT_COLS = ["participant", "session_start", "task_id", "task_order", "task_text", "target", "outcome",
-    "finish_block", "first_click", "first_click_expected", "click_path", "click_count", "backtracks", "elapsed_ms"];
+    "score", "facets_correct_count", "facets_correct", "facets_missed", "filters_applied", "finish_page", "finish_block",
+    "first_click", "first_click_expected", "first_click_match", "click_path", "click_count", "backtracks", "elapsed_ms"];
 
   function median(nums) {
     if (!nums.length) return null;
@@ -662,12 +758,19 @@
       rs.forEach((r) => { firsts[r.first_click || "(none)"] = (firsts[r.first_click || "(none)"] || 0) + 1; });
       const top = Object.entries(firsts).sort((a, b) => b[1] - a[1])[0];
       const med = median(rs.map((r) => r.elapsed_ms));
+      const scores = rs.map((r) => r.score).filter((x) => typeof x === "number");
+      const misses = {};
+      rs.forEach((r) => (r.facets_missed || "").split("; ").filter(Boolean).forEach((m) => { misses[m] = (misses[m] || 0) + 1; }));
+      const topMiss = Object.entries(misses).sort((a, b) => b[1] - a[1])[0];
       return {
         task: id,
         participants: rs.length,
+        mean_score: scores.length ? (scores.reduce((x, y) => x + y, 0) / scores.length).toFixed(2) : "",
         success: pct(rs.filter((r) => r.outcome === "success").length, rs.length),
-        wrong_venue: pct(rs.filter((r) => r.outcome === "fail").length, rs.length),
+        partial: pct(rs.filter((r) => r.outcome === "partial").length, rs.length),
+        fail: pct(rs.filter((r) => r.outcome === "fail").length, rs.length),
         gave_up: pct(rs.filter((r) => r.outcome === "gave_up").length, rs.length),
+        most_missed_facet: topMiss ? `${topMiss[0]} (${topMiss[1]} of ${rs.length})` : "",
         median_seconds: med == null ? "" : (med / 1000).toFixed(1),
         top_first_click: top ? `${top[0]} (${top[1]} of ${rs.length})` : "",
         expected_first_click: rs[0] ? rs[0].first_click_expected : "",
@@ -687,7 +790,7 @@
         <a class="nav-btn" href="./">Normal site</a>
       </div>
       <h2>Summary by task</h2>
-      ${table(summary, ["task", "participants", "success", "wrong_venue", "gave_up", "median_seconds", "top_first_click", "expected_first_click"])}
+      ${table(summary, ["task", "participants", "mean_score", "success", "partial", "fail", "gave_up", "most_missed_facet", "median_seconds", "top_first_click", "expected_first_click"])}
       <h2 style="margin-top:24px">All task results</h2>
       ${table(rows, RESULT_COLS)}`;
     $("#res-csv").onclick = () => download(`tree-test-results-${stamp()}.csv`, toCSV(rows, RESULT_COLS), "text/csv");
