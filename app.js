@@ -100,6 +100,12 @@
     document.addEventListener("click", (e) => { if (!e.target.closest(".menu")) closeMenus(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
   }
+  // Keep the sticky filter column below the test-mode task bar.
+  function syncStickyTop() {
+    const h = taskbar.hidden ? 0 : taskbar.offsetHeight;
+    document.documentElement.style.setProperty("--sticky-top", h + 16 + "px");
+  }
+
   function closeMenus() {
     $$(".menu-list").forEach((l) => (l.hidden = true));
     $$("[data-menu]").forEach((b) => b.setAttribute("aria-expanded", "false"));
@@ -561,6 +567,7 @@
 
   function testTaskIntro() {
     taskbar.hidden = true;
+    syncStickyTop();
     const t = taskById(testSession.order[testSession.idx]);
     showOverlay(`<p>Task ${testSession.idx + 1} of ${testSession.order.length}</p>
       <div class="scenario">${esc(t.text)}</div>
@@ -582,6 +589,7 @@
       <p class="taskbar-text">Task ${testSession.idx + 1} of ${testSession.order.length}: ${esc(t.text)}</p>
       <button type="button" id="give-up">I would give up</button></div>`;
     taskbar.hidden = false;
+    syncStickyTop();
     $("#give-up").addEventListener("click", () => testFinish("gave_up", null));
   }
 
@@ -629,6 +637,7 @@
     s.active = false;
     s.idx++;
     taskbar.hidden = true;
+    syncStickyTop();
     if (s.idx >= s.order.length) {
       remove(KEY_SESSION);
       testSession = null;
@@ -724,6 +733,7 @@
   buildMenus();
   initRecording();
   window.addEventListener("hashchange", render);
+  window.addEventListener("resize", syncStickyTop);
   if (MODE === "test") initTest();
   render();
 })();
