@@ -56,7 +56,7 @@ window.TASKS = [
     expectedFirstClick: "Explore",
     expected: [{ facet: "capacity", max: 200 }] },
   { id: "T8",
-    text: "You live in provo and your grandma wants to come to the wedding, but she can't walk very well and sometimes uses a mobility device to get around.",
+    text: "You live in Provo and your grandma wants to come to the wedding, but she can't walk very well and sometimes uses a mobility device to get around.",
     expectedFirstClick: "Location: Provo",
     expected: [
       { facet: "city", value: "Provo" },

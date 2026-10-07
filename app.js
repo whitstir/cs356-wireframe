@@ -222,7 +222,8 @@
   const capText = (n) => (n >= CAP_MAX ? CAP_MAX + "+" : String(n));
 
   function checkbox(group, value, checked, label = value) {
-    return `<label class="check"><input type="checkbox" data-f="${group}" value="${esc(value)}"${checked ? " checked" : ""}><span>${esc(label)}</span></label>`;
+    const count = group === "dm" || group === "s" ? "" : `<span class="count"></span>`;
+    return `<label class="check"><input type="checkbox" data-f="${group}" value="${esc(value)}"${checked ? " checked" : ""}><span>${esc(label)}</span>${count}</label>`;
   }
   function dual(name, label, min, max, step, lo, hi, fmt) {
     return `<fieldset class="f-group">
@@ -266,7 +267,7 @@
           <fieldset class="f-group"><legend>City</legend>
             <select data-f="city" aria-label="City">
               <option value="">Any city</option>
-              ${CITIES.map((c) => `<option${st.city === c ? " selected" : ""}>${esc(c)}</option>`).join("")}
+              ${CITIES.map((c) => `<option value="${esc(c)}"${st.city === c ? " selected" : ""}>${esc(c)}</option>`).join("")}
             </select>
           </fieldset>
           ${accordion("Decor", st.decor.length || st.modes.length, decorBody)}
@@ -297,13 +298,37 @@
         lot: vals("lot").length > 0,
       };
     };
+    // Next to each option: how many venues would show with it on, given every other filter as it is now.
+    const COUNT_KEYS = { ac: "access", av: "av", d: "decor", f: "flags" };
+    const countWith = (s, change) => VENUES.filter((v) => matches(v, { ...s, ...change })).length;
+    const updateCounts = (s) => {
+      $$("input[type=checkbox]", filters).forEach((box) => {
+        const out = $(".count", box.closest("label"));
+        if (!out) return;
+        const g = box.dataset.f, key = COUNT_KEYS[g];
+        const change = g === "lot" ? { lot: true } : { [key]: [...new Set([...s[key], box.value])] };
+        out.textContent = `(${countWith(s, change)})`;
+      });
+      $$('[data-f="city"] option', filters).forEach((opt) => {
+        if (opt.value) opt.textContent = `${opt.value} (${countWith(s, { city: opt.value })})`;
+      });
+    };
     const update = () => {
       const s = fromDom();
-      // Test mode: remember the filters currently applied, so the task can be scored on them.
-      if (testSession && testSession.active) { testSession.filters = s; save(KEY_SESSION, testSession); }
+      // Test mode: remember the filters currently applied, so the task can be scored on them,
+      // and note any filter that was on and is now off.
+      if (testSession && testSession.active) {
+        const now = appliedItems(s).map((i) => i.key);
+        appliedItems(testSession.filters || emptyFilters()).forEach((i) => {
+          if (i.kind !== "mode" && !now.includes(i.key)) testSession.undone.push(i.key);
+        });
+        testSession.filters = s;
+        save(KEY_SESSION, testSession);
+      }
       const list = VENUES.filter((v) => matches(v, s));
       $("#results-count").textContent = `Showing ${list.length} of ${VENUES.length} venues`;
       $("#results").innerHTML = venueList(list);
+      updateCounts(s);
       const qs = writeState(s);
       history.replaceState(null, "", location.pathname + location.search + "#/explore" + (qs ? "?" + qs : ""));
     };
@@ -396,7 +421,7 @@
   // ---------- Click recording ----------
   function labelOf(el) {
     if (el.matches("input[type=checkbox]")) {
-      const text = el.closest("label") ? el.closest("label").textContent.trim() : el.value;
+      const text = el.closest("label") ? $("span", el.closest("label")).textContent.trim() : el.value;
       return `${text}: ${el.checked ? "on" : "off"}`;
     }
     if (el.matches("input[type=range]")) {
@@ -404,10 +429,19 @@
       return `${el.getAttribute("aria-label")}: ${el.dataset.fmt === "p" ? priceText(n) : capText(n)}`;
     }
     if (el.tagName === "SELECT") {
-      return `${el.getAttribute("aria-label") || "Select"}: ${el.selectedOptions[0] ? el.selectedOptions[0].text : ""}`;
+      const opt = el.selectedOptions[0];
+      return `${el.getAttribute("aria-label") || "Select"}: ${opt ? opt.value || opt.text : ""}`;
     }
     if (el.dataset.log) return el.dataset.log;
     return (el.getAttribute("aria-label") || el.textContent || "").replace(/\s+/g, " ").trim().slice(0, 80);
+  }
+
+  // Which of the site's ways in a click belongs to (test mode: categorization used).
+  function routeOf(el, type, label) {
+    if (type === "change" || el.closest("#filters") || label === "Explore") return "Explore filters";
+    if (el.closest(".global-nav")) return "Global nav";
+    if (label.startsWith("Popular search: ")) return "Popular searches";
+    return "";
   }
 
   function record(el, type) {
@@ -427,6 +461,9 @@
     save(KEY_LOG, log);
     if (testSession && testSession.active) {
       testSession.path.push(label);
+      testSession.clickTimes.push(Date.now() - testSession.taskStart);
+      const route = routeOf(el, type, label);
+      if (route && !testSession.used.includes(route)) testSession.used.push(route);
       save(KEY_SESSION, testSession);
     }
   }
@@ -517,6 +554,15 @@
   }
   function hideOverlay() { overlay.hidden = true; overlay.innerHTML = ""; }
 
+  // Each participant gets a random 6-digit number, so numbers stay unique when sessions are run
+  // on different computers and the CSV files are combined.
+  function newParticipantNumber() {
+    const used = load(KEY_RESULTS, []).map((r) => r.participant);
+    let n;
+    do { n = 100000 + Math.floor(Math.random() * 900000); } while (used.includes(n));
+    return n;
+  }
+
   function testStartScreen() {
     if (!TASKS.length) {
       showOverlay(`<h1>Tree test</h1>
@@ -529,19 +575,21 @@
       <p>You'll get ${TASKS.length} short tasks. For each one, use the site to find venues that fit. Please think aloud as you go.</p>
       <p>Two buttons stay at the bottom of every page. Press "I think I'm done" when you feel you've found what the task asks for. If you can't find it, press "I give up". That is a useful result, not a failure.</p>
       <form id="start-form">
-        <label for="pid">Participant ID</label>
-        <input type="text" id="pid" required autocomplete="off">
+        <label for="pname">Full name</label>
+        <input type="text" id="pname" required autocomplete="off">
         <button type="submit">Start</button>
       </form>`);
     $("#start-form").addEventListener("submit", (e) => {
       e.preventDefault();
-      const pid = $("#pid").value.trim();
-      if (!pid) return;
+      const name = $("#pname").value.trim().replace(/\s+/g, " ");
+      if (!name) return;
       testSession = {
-        participant: pid,
+        participant: newParticipantNumber(),
+        participant_name: name,
         session_start: new Date().toISOString(),
         order: shuffle(TASKS.map((t) => t.id)),
-        idx: 0, active: false, taskStart: 0, path: [], visited: [], backtracks: 0, filters: null,
+        idx: 0, active: false, taskStart: 0, introStart: 0, readingMs: 0, path: [], clickTimes: [], visited: [],
+        backtracks: 0, filters: null, undone: [], used: [], rating: null,
       };
       save(KEY_SESSION, testSession);
       testTaskIntro();
@@ -550,13 +598,16 @@
 
   function testTaskIntro() {
     hideTaskbar();
+    if (!testSession.introStart) { testSession.introStart = Date.now(); save(KEY_SESSION, testSession); }
     const t = taskById(testSession.order[testSession.idx]);
     showOverlay(`<p>Task ${testSession.idx + 1} of ${testSession.order.length}</p>
       <div class="scenario">${esc(t.text)}</div>
       <p class="muted">Press OK when you're ready. The site will open at the home page.</p>
       <button type="button" id="task-ok">OK, start</button>`);
     $("#task-ok").addEventListener("click", () => {
-      Object.assign(testSession, { active: true, taskStart: Date.now(), path: [], visited: ["/"], backtracks: 0, filters: null });
+      const now = Date.now();
+      Object.assign(testSession, { active: true, taskStart: now, readingMs: now - testSession.introStart, introStart: 0,
+        path: [], clickTimes: [], visited: ["/"], backtracks: 0, filters: null, undone: [], used: [] });
       save(KEY_SESSION, testSession);
       hideOverlay();
       showTaskbar();
@@ -654,19 +705,36 @@
     }
   }
   // Everything the participant had applied, in the same wording as the expected parts.
-  function describeFilters(st) {
+  // `key` is the label, except sliders, which keep one key however far they are moved.
+  function appliedItems(st) {
     const out = [];
-    if (st.pmin > 0 || st.pmax < PRICE_MAX) out.push(`Price: ${priceText(st.pmin)} to ${priceText(st.pmax)}`);
-    st.access.forEach((x) => out.push(`Accessibility options: ${x}`));
-    st.av.forEach((x) => out.push(`Audio/Visual: ${x}`));
-    if (st.cmin > 0 || st.cmax < CAP_MAX) out.push(`Capacity: ${capText(st.cmin)} to ${capText(st.cmax)}`);
-    if (st.city) out.push(`City: ${st.city}`);
-    st.modes.forEach((x) => out.push(`Decor: ${x === "rent" ? "For rent" : "Included"}`));
-    st.decor.forEach((x) => out.push(`Decor > ${decorGroupOf(x)}: ${x}`));
-    st.flags.forEach((x) => out.push(`Features: ${x}`));
-    if (st.lot) out.push("Parking: Designated lot");
-    st.styles.forEach((x) => out.push(`Style: ${x}`));
+    const add = (kind, value, label, key = label) => out.push({ kind, value, label, key });
+    if (st.pmin > 0 || st.pmax < PRICE_MAX) add("price", "", `Price: ${priceText(st.pmin)} to ${priceText(st.pmax)}`, "Price range");
+    st.access.forEach((x) => add("access", x, `Accessibility options: ${x}`));
+    st.av.forEach((x) => add("av", x, `Audio/Visual: ${x}`));
+    if (st.cmin > 0 || st.cmax < CAP_MAX) add("capacity", "", `Capacity: ${capText(st.cmin)} to ${capText(st.cmax)}`, "Capacity range");
+    if (st.city) add("city", st.city, `City: ${st.city}`);
+    st.modes.forEach((x) => add("mode", x, `Decor: ${x === "rent" ? "For rent" : "Included"}`));
+    st.decor.forEach((x) => add("decor", x, `Decor > ${decorGroupOf(x)}: ${x}`));
+    st.flags.forEach((x) => add("feature", x, `Features: ${x}`));
+    if (st.lot) add("parking", "", "Parking: Designated lot");
+    st.styles.forEach((x) => add("style", x, `Style: ${x}`));
     return out;
+  }
+  const describeFilters = (st) => appliedItems(st).map((i) => i.label);
+  // Does an expected part call for this applied filter at all (whatever value a slider is at)?
+  function partCovers(p, item) {
+    if (p.anyOf) return p.anyOf.some((x) => partCovers(x, item));
+    if (p.facet === "decorGroup") return item.kind === "decor" && sameText(decorGroupOf(item.value), p.group);
+    return p.facet === item.kind && (p.value == null || sameText(p.value, item.value));
+  }
+
+  function pageName(path) {
+    const [section, arg] = path.split("/").filter(Boolean).map(decodeURIComponent);
+    if (!section) return "Home";
+    if (section === "explore") return "Explore";
+    if (section === "venue") return `Venue: ${(venueById(arg) || { name: arg }).name}`;
+    return path;
   }
 
   function testFinish(kind) {
@@ -683,9 +751,13 @@
     const here = parseHash();
     const venue = here.parts[0] === "venue" ? venueById(here.parts[1]) : null;
     const first = s.path[0] || "";
+    // Filters still on that the task did not call for. Decor's Included / For rent only narrow other filters.
+    const extra = appliedItems(filters).filter((i) => i.kind !== "mode" && !expected.some((p) => partCovers(p, i)));
+    const venuesOpened = [...new Set(s.visited.filter((v) => v.startsWith("/venue/")).map((v) => pageName(v).replace(/^Venue: /, "")))];
     const results = load(KEY_RESULTS, []);
     results.push({
       participant: s.participant,
+      participant_name: s.participant_name,
       session_start: s.session_start,
       task_id: t.id,
       task_order: s.idx + 1,
@@ -693,33 +765,91 @@
       target: expected.map(partLabel).join("; "),
       outcome,
       score,
+      directness: s.backtracks === 0 && s.undone.length === 0 ? "direct" : "indirect",
       facets_correct_count: expected.length ? `${correct.length} of ${expected.length}` : "",
       facets_correct: correct.map(partLabel).join("; "),
       facets_missed: missed.map(partLabel).join("; "),
       filters_applied: describeFilters(filters).join("; "),
+      extra_filters_count: extra.length,
+      extra_filters: extra.map((i) => i.label).join("; "),
+      filters_undone_count: s.undone.length,
+      filters_undone: s.undone.join("; "),
+      wrong_turns: extra.length + s.undone.length,
+      categorization_used: s.used.join(" + ") || "None",
       finish_page: here.path,
       finish_block: venue ? venue.name : "",
       first_click: first,
       first_click_expected: t.expectedFirstClick || "",
       first_click_match: t.expectedFirstClick ? (sameText(first, t.expectedFirstClick) ? "yes" : "no") : "",
       click_path: s.path.join(" > "),
+      click_times_s: s.clickTimes.map((ms) => (ms / 1000).toFixed(1)).join(" > "),
       click_count: s.path.length,
+      pages_visited: s.visited.map(pageName).join(" > "),
+      venues_opened_count: venuesOpened.length,
+      venues_opened: venuesOpened.join("; "),
       backtracks: s.backtracks,
+      reading_ms: s.readingMs,
+      time_to_first_click_ms: s.clickTimes.length ? s.clickTimes[0] : "",
       elapsed_ms: Date.now() - s.taskStart,
+      ease_rating_1to7: "",
+      confidence_rating_1to7: "",
     });
     save(KEY_RESULTS, results);
 
+    // The row is saved already; the rating screen fills in its last columns.
     s.active = false;
-    s.idx++;
+    s.rating = { task_id: t.id, kind };
+    save(KEY_SESSION, s);
     hideTaskbar();
-    if (s.idx >= s.order.length) {
-      remove(KEY_SESSION);
-      testSession = null;
-      showOverlay(`<h1>All done</h1><p>Thank you! Your responses have been saved.</p>`);
-    } else {
-      save(KEY_SESSION, s);
-      testTaskIntro();
-    }
+    testRatingScreen();
+  }
+
+  // Add fields to one of this session's saved result rows.
+  function updateRow(taskId, fields) {
+    const s = testSession;
+    const results = load(KEY_RESULTS, []);
+    results.forEach((r) => {
+      if (r.participant === s.participant && r.session_start === s.session_start && r.task_id === taskId) Object.assign(r, fields);
+    });
+    save(KEY_RESULTS, results);
+  }
+
+  function ratingScale(name, question, low, high) {
+    return `<fieldset class="rating"><legend>${question}</legend>
+      <div class="rating-row"><span>${low}</span>
+        ${[1, 2, 3, 4, 5, 6, 7].map((n) =>
+          `<label><input type="radio" name="${name}" value="${n}" required><span>${n}</span></label>`).join("")}
+        <span>${high}</span></div></fieldset>`;
+  }
+
+  // After every task: an ease rating, plus a confidence rating unless they gave up.
+  function testRatingScreen() {
+    const s = testSession;
+    const gaveUp = s.rating.kind === "gave_up";
+    showOverlay(`<p>Task ${s.idx + 1} of ${s.order.length} finished</p>
+      <form id="rating-form">
+        ${ratingScale("ease", "Overall, how difficult or easy was this task?", "Very difficult", "Very easy")}
+        ${gaveUp ? "" : ratingScale("confidence", "How confident are you that you found what the task asked for?", "Not at all confident", "Very confident")}
+        <button type="submit">Continue</button>
+      </form>`);
+    $("#rating-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const picked = (name) => { const el = $(`input[name="${name}"]:checked`, overlay); return el ? Number(el.value) : ""; };
+      updateRow(s.rating.task_id, {
+        ease_rating_1to7: picked("ease"),
+        confidence_rating_1to7: gaveUp ? "" : picked("confidence"),
+      });
+      s.rating = null;
+      s.idx++;
+      if (s.idx >= s.order.length) {
+        remove(KEY_SESSION);
+        testSession = null;
+        showOverlay(`<h1>All done</h1><p>Thank you! Your responses have been saved.</p>`);
+      } else {
+        save(KEY_SESSION, s);
+        testTaskIntro();
+      }
+    });
   }
 
   function initTest() {
@@ -727,14 +857,23 @@
     testSession = load(KEY_SESSION, null);
     if (testSession && !TASKS.length) testSession = null;
     if (!testSession) return testStartScreen();
-    if (testSession.active) showTaskbar();
+    testSession = Object.assign({ clickTimes: [], undone: [], used: [] }, testSession);
+    if (testSession.rating) testRatingScreen();
+    else if (testSession.active) showTaskbar();
     else testTaskIntro();
   }
 
   // ---------- Results (?results) ----------
-  const RESULT_COLS = ["participant", "session_start", "task_id", "task_order", "task_text", "target", "outcome",
-    "score", "facets_correct_count", "facets_correct", "facets_missed", "filters_applied", "finish_page", "finish_block",
-    "first_click", "first_click_expected", "first_click_match", "click_path", "click_count", "backtracks", "elapsed_ms"];
+  const RESULT_COLS = ["participant", "participant_name", "session_start", "task_id", "task_order", "task_text", "target", "outcome",
+    "score", "directness", "facets_correct_count", "facets_correct", "facets_missed", "filters_applied",
+    "extra_filters_count", "extra_filters", "filters_undone_count", "filters_undone", "wrong_turns",
+    "categorization_used", "finish_page", "finish_block", "first_click", "first_click_expected", "first_click_match",
+    "click_path", "click_times_s", "click_count", "pages_visited", "venues_opened_count", "venues_opened", "backtracks",
+    "reading_ms", "time_to_first_click_ms", "elapsed_ms", "ease_rating_1to7", "confidence_rating_1to7"];
+  const TASK_COLS = RESULT_COLS.filter((c) => !["participant", "participant_name", "session_start"].includes(c));
+  const PARTICIPANT_COLS = ["participant", "participant_name", "session_start", "status", "tasks_completed", "task_order", "mean_score",
+    "success", "partial", "fail", "gave_up", "first_click_matches", "mean_ease", "mean_confidence", "total_clicks",
+    "total_backtracks", "total_seconds"];
 
   function median(nums) {
     if (!nums.length) return null;
@@ -752,6 +891,10 @@
     const ids = [...new Set(rows.map((r) => r.task_id))].sort((a, b) =>
       a.localeCompare(b, undefined, { numeric: true }));
     const pct = (n, d) => (d ? Math.round((100 * n) / d) + "%" : "");
+    const mean = (rs, col) => {
+      const nums = rs.map((r) => r[col]).filter((x) => typeof x === "number");
+      return nums.length ? (nums.reduce((x, y) => x + y, 0) / nums.length).toFixed(1) : "";
+    };
     const summary = ids.map((id) => {
       const rs = rows.filter((r) => r.task_id === id);
       const firsts = {};
@@ -770,13 +913,61 @@
         partial: pct(rs.filter((r) => r.outcome === "partial").length, rs.length),
         fail: pct(rs.filter((r) => r.outcome === "fail").length, rs.length),
         gave_up: pct(rs.filter((r) => r.outcome === "gave_up").length, rs.length),
+        direct: pct(rs.filter((r) => r.directness === "direct").length, rs.length),
+        mean_ease: mean(rs, "ease_rating_1to7"),
+        mean_confidence: mean(rs, "confidence_rating_1to7"),
         most_missed_facet: topMiss ? `${topMiss[0]} (${topMiss[1]} of ${rs.length})` : "",
         median_seconds: med == null ? "" : (med / 1000).toFixed(1),
         top_first_click: top ? `${top[0]} (${top[1]} of ${rs.length})` : "",
         expected_first_click: rs[0] ? rs[0].first_click_expected : "",
       };
     });
-    const participants = new Set(rows.map((r) => r.participant)).size;
+    // One group per participant session, in the order the sessions were run.
+    const groups = [];
+    rows.forEach((r) => {
+      const key = r.participant + "|" + r.session_start;
+      let g = groups.find((x) => x.key === key);
+      if (!g) groups.push(g = { key, participant: r.participant, name: r.participant_name || "", session_start: r.session_start, rows: [] });
+      g.rows.push(r);
+    });
+    const sum = (rs, col) => rs.reduce((n, r) => n + (Number(r[col]) || 0), 0);
+    const count = (rs, outcome) => rs.filter((r) => r.outcome === outcome).length;
+    groups.forEach((g) => {
+      g.rows.sort((a, b) => a.task_order - b.task_order);
+      const scores = g.rows.map((r) => r.score).filter((x) => typeof x === "number");
+      const firsts = g.rows.filter((r) => r.first_click_match);
+      const running = session && session.participant === g.participant && session.session_start === g.session_start;
+      g.summary = {
+        participant: g.participant,
+        participant_name: g.name,
+        session_start: g.session_start,
+        status: running ? "in progress" : g.rows.length >= TASKS.length ? "complete" : "incomplete",
+        tasks_completed: `${g.rows.length} of ${TASKS.length}`,
+        task_order: g.rows.map((r) => r.task_id).join(", "),
+        mean_score: scores.length ? (scores.reduce((x, y) => x + y, 0) / scores.length).toFixed(2) : "",
+        success: count(g.rows, "success"),
+        partial: count(g.rows, "partial"),
+        fail: count(g.rows, "fail"),
+        gave_up: count(g.rows, "gave_up"),
+        first_click_matches: firsts.length ? `${firsts.filter((r) => r.first_click_match === "yes").length} of ${firsts.length}` : "",
+        mean_ease: mean(g.rows, "ease_rating_1to7"),
+        mean_confidence: mean(g.rows, "confidence_rating_1to7"),
+        total_clicks: sum(g.rows, "click_count"),
+        total_backtracks: sum(g.rows, "backtracks"),
+        total_seconds: (sum(g.rows, "elapsed_ms") / 1000).toFixed(1),
+      };
+    });
+    // One row per participant, one column per task.
+    const taskIds = TASKS.map((t) => t.id);
+    const grid = groups.map((g) => {
+      const row = { participant: g.participant, participant_name: g.name };
+      taskIds.forEach((id) => {
+        const r = g.rows.find((x) => x.task_id === id);
+        row[id] = r ? r.outcome + (typeof r.score === "number" ? ` (${r.score})` : "") : "";
+      });
+      return row;
+    });
+    const participants = groups.length;
 
     app.innerHTML = `
       <h1>Tree test results</h1>
@@ -785,14 +976,21 @@
         <button type="button" id="res-csv">Download CSV</button>
         <button type="button" id="res-json">Download JSON</button>
         <button type="button" id="res-clear">Clear all results</button>
-        ${session ? `<button type="button" id="res-reset">Discard in-progress session (${esc(session.participant)})</button>` : ""}
+        ${session ? `<button type="button" id="res-reset">Discard in-progress session (${esc(session.participant_name || session.participant)})</button>` : ""}
         <a class="nav-btn" href="./?test">Start a test</a>
         <a class="nav-btn" href="./">Normal site</a>
       </div>
       <h2>Summary by task</h2>
-      ${table(summary, ["task", "participants", "mean_score", "success", "partial", "fail", "gave_up", "most_missed_facet", "median_seconds", "top_first_click", "expected_first_click"])}
-      <h2 style="margin-top:24px">All task results</h2>
-      ${table(rows, RESULT_COLS)}`;
+      ${table(summary, ["task", "participants", "mean_score", "success", "partial", "fail", "gave_up", "direct", "mean_ease", "mean_confidence", "most_missed_facet", "median_seconds", "top_first_click", "expected_first_click"])}
+      <h2 style="margin-top:24px">Summary by participant</h2>
+      ${table(groups.map((g) => g.summary), PARTICIPANT_COLS)}
+      <h2 style="margin-top:24px">Participant by task</h2>
+      ${table(grid, ["participant", "participant_name", ...taskIds])}
+      <h2 style="margin-top:24px">Results by participant</h2>
+      ${groups.length ? groups.map((g) => `
+        <h3>Participant ${esc(g.participant)}${g.name ? `: ${esc(g.name)}` : ""}</h3>
+        <p class="muted">${esc(g.summary.status)}, ${esc(g.summary.tasks_completed)} tasks, in the order they were shown. Started ${esc(g.session_start)}.</p>
+        ${table(g.rows, TASK_COLS)}`).join("") : `<p class="empty">Nothing recorded yet.</p>`}`;
     $("#res-csv").onclick = () => download(`tree-test-results-${stamp()}.csv`, toCSV(rows, RESULT_COLS), "text/csv");
     $("#res-json").onclick = () => download(`tree-test-results-${stamp()}.json`, JSON.stringify(rows, null, 2), "application/json");
     $("#res-clear").onclick = () => {
