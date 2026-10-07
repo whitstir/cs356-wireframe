@@ -5,15 +5,18 @@
   "use strict";
 
   // ---------- Data & constants ----------
-  const VENUES = window.VENUES || [];
-  const DECOR = window.DECOR_CATEGORIES || {};
+  const alpha = (x, y) => x.localeCompare(y, "en", { sensitivity: "base" });
+  const VENUES = (window.VENUES || []).slice().sort((x, y) => alpha(x.name, y.name));
+  // Decor sub-groups and their items, alphabetized.
+  const DECOR = Object.fromEntries(Object.entries(window.DECOR_CATEGORIES || {})
+    .sort(([x], [y]) => alpha(x, y)).map(([cat, items]) => [cat, items.slice().sort(alpha)]));
   const TASKS = (window.TASKS || []).filter((t) => t.text && t.text.trim());
-  const STYLES = ["Rustic", "Luxury", "Modern", "Outdoors", "Classic"];
-  const CITIES = [...new Set(VENUES.map((v) => v.city).filter(Boolean))].sort();
-  const AV = ["Microphone", "TV", "Sound system", "Projector"];
-  const ACCESS = ["Wheelchair accessible", "Elevator", "ADA restrooms", "Accessible parking"];
-  const FEATURES = ["Linens included", "Indoors", "Outdoors", "Sparklers allowed", "Cleanup crew",
-    "Outside catering allowed", "Bridal room", "Groom's room", "Event coordinator"];
+  const STYLES = ["Classic", "Luxury", "Modern", "Outdoors", "Rustic"];
+  const CITIES = [...new Set(VENUES.map((v) => v.city).filter(Boolean))].sort(alpha);
+  const AV = ["Microphone", "Projector", "Sound system", "TV"];
+  const ACCESS = ["Accessible parking", "ADA restrooms", "Elevator", "Wheelchair accessible"];
+  const FEATURES = ["Bridal room", "Cleanup crew", "Event coordinator", "Groom's room", "Indoors",
+    "Linens included", "Outdoors", "Outside catering allowed", "Sparklers allowed"];
   const PRICE_MAX = 10000, PRICE_STEP = 250;
   const CAP_MAX = 1000, CAP_STEP = 25;
 
@@ -59,7 +62,6 @@
   const href = (...parts) => "#/" + parts.map(encodeURIComponent).join("/");
 
   function render() {
-    closeMenus();
     const r = parseHash();
     const [section, arg] = r.parts;
     if (!section) viewHome();
@@ -73,33 +75,20 @@
     if (MODE === "test") testOnRoute(r);
   }
 
-  // ---------- Global nav menus ----------
-  function buildMenus() {
-    $("#m-location").innerHTML = CITIES.map((c) =>
-      `<li><a href="#/explore?city=${encodeURIComponent(c)}">${esc(c)}</a></li>`).join("");
-    $("#m-style").innerHTML = STYLES.map((s) =>
-      `<li><a href="#/explore?s=${encodeURIComponent(s)}">${esc(s)}</a></li>`).join("");
-
-    $$("[data-menu]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const list = document.getElementById(btn.dataset.menu);
-        const open = list.hidden;
-        closeMenus();
-        list.hidden = !open;
-        btn.setAttribute("aria-expanded", String(open));
-      });
-    });
+  // ---------- Global nav (plain link lists) ----------
+  function buildNav() {
+    $("#nav-location").innerHTML = CITIES.map((c) =>
+      `<li><a href="#/explore?city=${encodeURIComponent(c)}" data-log="Location: ${esc(c)}">${esc(c)}</a></li>`).join("");
+    $("#nav-style").innerHTML = STYLES.map((s) =>
+      `<li><a href="#/explore?s=${encodeURIComponent(s)}" data-log="Style: ${esc(s)}">${esc(s)}</a></li>`).join("");
     // Picking a city/style opens Explore with that filter pre-set. Re-render even if the
     // hash is unchanged so the filters reset to just that choice.
-    $$(".menu-list").forEach((list) => list.addEventListener("click", (e) => {
+    $(".global-nav").addEventListener("click", (e) => {
       const a = e.target.closest("a");
-      if (!a) return;
-      closeMenus();
-      if (a.getAttribute("href") === location.hash) { e.preventDefault(); render(); }
-    }));
-    document.addEventListener("click", (e) => { if (!e.target.closest(".menu")) closeMenus(); });
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
+      if (a && a.getAttribute("href") === location.hash) { e.preventDefault(); render(); }
+    });
   }
+
   // Size the Explore area to fill the rest of the screen below the header/heading, so the
   // filter column and the results column can each scroll to their ends independently.
   function syncExploreHeight() {
@@ -107,11 +96,6 @@
     if (!grid) return;
     const top = grid.getBoundingClientRect().top + window.scrollY;
     document.documentElement.style.setProperty("--explore-h", Math.max(320, window.innerHeight - top - 16) + "px");
-  }
-
-  function closeMenus() {
-    $$(".menu-list").forEach((l) => (l.hidden = true));
-    $$("[data-menu]").forEach((b) => b.setAttribute("aria-expanded", "false"));
   }
 
   // ---------- Shared bits ----------
@@ -144,36 +128,21 @@
   // ---------- Views ----------
   function viewHome() {
     document.title = "Utah County Wedding Venues";
-    const tiles = [
+    const shortcuts = [
       ["Budget venues", "Venues with rental prices under $2,000.", "#/explore?p=0-2000"],
       ["Spacious venues", "Venues that seat 200 or more guests.", "#/explore?c=200-" + CAP_MAX],
       ["Open catering", "Venues that let you bring your own caterer.", "#/explore?f=" + encodeURIComponent("Outside catering allowed")],
     ];
     app.innerHTML = `
-      <section class="hero">
-        <h1>Find a wedding venue in Utah County</h1>
-        <p class="muted">${VENUES.length} reception venues.</p>
-      </section>
-      <section aria-labelledby="carousel-title">
-        <div class="carousel-head">
-          <h2 id="carousel-title">Popular searches</h2>
-          <div class="carousel-controls">
-            <button type="button" data-scroll="-1" aria-label="Previous" data-log="Carousel: previous">‹</button>
-            <button type="button" data-scroll="1" aria-label="Next" data-log="Carousel: next">›</button>
-          </div>
-        </div>
-        <div class="carousel" id="carousel">
-          ${tiles.map(([title, desc, link]) => `
-            <a class="tile" href="${link}" data-log="Carousel: ${esc(title)}">
-              <span><span class="tile-title">${esc(title)}</span><span>${esc(desc)}</span></span>
-              <span class="tile-go">See venues</span>
-            </a>`).join("")}
-        </div>
+      <h1>Find a wedding venue in Utah County</h1>
+      <p class="muted">${VENUES.length} reception venues.</p>
+      <section class="box" aria-labelledby="popular-title">
+        <h2 id="popular-title">Popular searches</h2>
+        <ul class="shortcuts">
+          ${shortcuts.map(([title, desc, link]) => `
+            <li><a href="${link}" data-log="Popular search: ${esc(title)}">${esc(title)}</a> — ${esc(desc)}</li>`).join("")}
+        </ul>
       </section>`;
-    const car = $("#carousel");
-    $$("[data-scroll]").forEach((b) => b.addEventListener("click", () => {
-      car.scrollBy({ left: Number(b.dataset.scroll) * car.clientWidth * 0.8, behavior: "smooth" });
-    }));
   }
 
   function viewList(kind, value, list, valid) {
@@ -289,25 +258,25 @@
         <aside class="filters" aria-label="Filters" id="filters">
           <div class="filters-head"><h2>Filters</h2><button type="button" id="clear-filters" data-log="Clear all filters">Clear all</button></div>
           ${dual("p", "Price", 0, PRICE_MAX, PRICE_STEP, st.pmin, st.pmax, priceText)}
+          ${accordion("Accessibility options", st.access.length, ACCESS.map((a) => checkbox("ac", a, st.access.includes(a))).join(""))}
+          ${accordion("Audio/Visual", st.av.length, AV.map((a) => checkbox("av", a, st.av.includes(a))).join(""))}
           ${dual("c", "Capacity (seated guests)", 0, CAP_MAX, CAP_STEP, st.cmin, st.cmax, capText)}
-          <fieldset class="f-group"><legend>Style</legend>
-            ${STYLES.map((s) => checkbox("s", s, st.styles.includes(s))).join("")}
-          </fieldset>
           <fieldset class="f-group"><legend>City</legend>
             <select data-f="city" aria-label="City">
               <option value="">Any city</option>
               ${CITIES.map((c) => `<option${st.city === c ? " selected" : ""}>${esc(c)}</option>`).join("")}
             </select>
           </fieldset>
+          ${accordion("Decor", st.decor.length || st.modes.length, decorBody)}
           <fieldset class="f-group"><legend>Features</legend>
             ${FEATURES.map((f) => checkbox("f", f, st.flags.includes(f))).join("")}
           </fieldset>
           <fieldset class="f-group"><legend>Parking</legend>
             ${checkbox("lot", "1", st.lot, "Designated lot")}
           </fieldset>
-          ${accordion("Decor", st.decor.length || st.modes.length, decorBody)}
-          ${accordion("Audio/Visual", st.av.length, AV.map((a) => checkbox("av", a, st.av.includes(a))).join(""))}
-          ${accordion("Accessibility options", st.access.length, ACCESS.map((a) => checkbox("ac", a, st.access.includes(a))).join(""))}
+          <fieldset class="f-group"><legend>Style</legend>
+            ${STYLES.map((s) => checkbox("s", s, st.styles.includes(s))).join("")}
+          </fieldset>
         </aside>
         <section class="results" aria-labelledby="results-count">
           <div class="list-head"><h2 id="results-count" aria-live="polite"></h2></div>
@@ -740,7 +709,7 @@
     viewResults();
     return;
   }
-  buildMenus();
+  buildNav();
   initRecording();
   window.addEventListener("hashchange", render);
   window.addEventListener("resize", syncExploreHeight);

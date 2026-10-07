@@ -25,11 +25,10 @@ main:focus { outline: none; }
 .site-header { border-bottom: 1px solid #000; }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 12px; padding-bottom: 12px; }
 .brand { font-size: 1.15rem; text-decoration: none; border: 1px solid #000; padding: 8px 12px; }
-.global-nav { display: flex; gap: 8px; flex-wrap: wrap; }
-.nav-btn { display: inline-block; background: #fff; border: 1px solid #000; padding: 8px 14px; text-decoration: none; cursor: pointer; }
-.menu { position: relative; }
-.menu-list { position: absolute; top: calc(100% + 4px); left: 0; z-index: 30; background: #fff; border: 1px solid #000; list-style: none; margin: 0; padding: 4px 0; min-width: 200px; max-height: 70vh; overflow-y: auto; }
-.menu-list a { display: block; padding: 8px 14px; text-decoration: none; }
+.global-nav { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.nav-row { display: grid; grid-template-columns: 80px 1fr; gap: 4px 8px; align-items: baseline; }
+.nav-row > a { grid-column: 1 / -1; }
+.nav-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; }
 
 .site-footer { border-top: 1px solid #000; padding: 16px 0; }
 
@@ -39,14 +38,8 @@ main:focus { outline: none; }
 .crumbs li + li::before { content: "›"; margin-right: 6px; }
 
 /* Landing */
-.hero { margin-bottom: 28px; }
-.carousel-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
-.carousel-controls { display: flex; gap: 8px; }
-.carousel { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
-.tile { flex: 0 0 calc(50% - 8px); scroll-snap-align: start; display: flex; flex-direction: column; justify-content: space-between; min-height: 180px; border: 1px solid #000; padding: 20px; text-decoration: none; }
-.tile-title { font-size: 1.35rem; display: block; margin-bottom: 8px; }
-.tile-go { text-decoration: underline; }
-@media (max-width: 640px) { .tile { flex-basis: 85%; } }
+.shortcuts { margin: 0; padding-left: 20px; }
+.shortcuts li { margin: 6px 0; }
 
 /* Venue lists */
 .list-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }

@@ -29,12 +29,12 @@ Final build spec for the wireframe and tree-test instrument. Assignment requirem
 ### Categorization 1 — Global navigation: *where* and *what kind*
 ```
 Home
-├── Location ▾ ── [City] ── Explore (city pre-set) ── [Venue]
-├── Style ▾ ───── [Rustic | Luxury | Modern | Outdoors | Classic] ── Explore (style pre-set) ── [Venue]
+├── Location ──── [City] ── Explore (city pre-set) ── [Venue]
+├── Style ─────── [Rustic | Luxury | Modern | Outdoors | Classic] ── Explore (style pre-set) ── [Venue]
 └── Explore ───── (filter page) ── [Venue]
 ```
-- **Location** dropdown: 15 cities (Alpine, American Fork, Carriere, Concord, Lehi, Lindon, Mapleton, Orem, Pleasant Grove, Provo, Riverton, Saratoga Springs, Spanish Fork, Springville, Sundance). Choosing one opens Explore with that city selected; users can keep refining.
-- **Style** dropdown: 5 styles. Choosing one opens Explore with that style checked. A venue can appear under several styles.
+- **Location** (plain list of links, always visible): 15 cities (Alpine, American Fork, Carriere, Concord, Lehi, Lindon, Mapleton, Orem, Pleasant Grove, Provo, Riverton, Saratoga Springs, Spanish Fork, Springville, Sundance). Choosing one opens Explore with that city selected; users can keep refining.
+- **Style** (plain list of links, always visible): 5 styles. Choosing one opens Explore with that style checked. A venue can appear under several styles.
 - Every venue is reachable through Location, Style (each venue has at least one style), and Explore.
 
 ### Categorization 2 — Explore page: *by feature* (faceted filters)
@@ -57,10 +57,10 @@ Decor sub-groups:
 - **Aesthetics:** Ceremony arch / backdrop, Centerpieces, Greenery / florals, Signs / easels, Draping / chair covers, Fireplace
 - **Lighting items:** String / bistro lights, Chandeliers, Candles / lanterns
 
-A "Clear all filters" button resets everything. Filter state is kept in the URL hash, so carousel links can pre-set it.
+A "Clear all filters" button resets everything. Filter state is kept in the URL hash, so nav and shortcut links can pre-set it. Filter groups are alphabetical (Price first); options inside each group are alphabetical; venues are listed alphabetically.
 
 ### Landing page
-- Short intro line, then a horizontally scrolling carousel of 3 boxes (with ‹ › buttons):
+- Short intro line, then a plain "Popular searches" list of 3 links:
   - **Budget venues** → Explore, price $0 – $2,000
   - **Spacious venues** → Explore, capacity 200+
   - **Open catering** → Explore, Outside catering allowed checked
@@ -68,7 +68,7 @@ A "Clear all filters" button resets everything. Filter state is kept in the URL 
 ## 4. Pages
 | Route | Content |
 |---|---|
-| `#/` | Landing page with carousel |
+| `#/` | Landing page with Popular searches list |
 | `#/explore?…` | Filter page |
 | `#/venue/<id>` | **Endpoint.** Line reading "End of path: [Venue name]". Summary box: name, city, website link, description, price, seated + standing capacity, styles, key features. Below it, an expandable "All details" section with every CSV field, grouped (Pricing & packages, Capacity & time, Space & decor, Services, Policies, Contact) and empty fields hidden. |
 | `#/log` | Click log: table, Download JSON, Download CSV, Copy, Clear |
@@ -132,7 +132,7 @@ Written in the user's words, with no category labels quoted. Each task has exact
 | T9 | Your aunt is catering the food, you don't want your family stuck cleaning up afterward, and you want the place to feel high-end. Find a venue. | Sleepy Ridge Golf Course | Explore (or Open catering tile) | Explore › Outside catering + Cleanup crew + Luxury |
 | T10 | You're planning a reception in Mapleton. The bride and groom each need their own room to get ready, and you don't want to rent tablecloths. Find a venue. | Northridge Valley Event Center | Explore | Explore › City + Bridal room + Groom's room + Linens; or Location › Mapleton |
 
-Coverage across the two categorizations: T6–T8 test the global nav (Location/Style). T1–T5, T9 and T10 test the Explore facets. T3, T4 and T9 can also be reached from the carousel.
+Coverage across the two categorizations: T6–T8 test the global nav (Location/Style). T1–T5, T9 and T10 test the Explore facets. T3, T4 and T9 can also be reached from the Popular searches list.
 
 ## 8. File structure
 ```

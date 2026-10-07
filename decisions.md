@@ -156,3 +156,5 @@ _None — all resolved. See decisions 19–24._
 23. **No more carousel tiles** for now (Budget, Spacious, Open catering only).
 24. **Tree test mode follows the course Tree Test spec** (participant ID, shuffled tasks per participant, "I would give up" button, `?test` and `?results` URLs). Full details and the 10 scenarios are in wireframe-spec.md.
 25. **No hover fill.** Links, buttons, menu items, tiles and venue boxes stay white on hover (keyboard focus outline kept).
+26. **No dropdowns or carousel (plain display).** Global nav shows every city and style as plain link lists (Location: …, Style: …, Explore all venues). Each link still opens Explore with that filter pre-set. The home-page carousel is replaced by a plain "Popular searches" list with the same three shortcuts.
+27. **Alphabetical order.** Filter groups are alphabetical with Price kept first; items inside each group, cities, styles, and Decor sub-groups are alphabetical. Venues are listed alphabetically by full name (so "The …" venues sort under T).
