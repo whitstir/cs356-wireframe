@@ -38,7 +38,7 @@ Home
 - Every venue is reachable through Location, Style (each venue has at least one style), and Explore.
 
 ### Categorization 2 — Explore page: *by feature* (faceted filters)
-Left column = local navigation. At widths 640px and up it sticks in place and scrolls on its own, so results stay visible; below 640px it stacks on top. Right column = live results ("Showing N venues").
+Left column = local navigation. At widths 640px and up, the Explore area is sized to fill the screen below the heading, and the filter column and results column each scroll independently (both bottoms always reachable). Below 640px the filters stack on top. Right column = live results ("Showing N venues").
 
 | Filter | Control | Match rule |
 |---|---|---|

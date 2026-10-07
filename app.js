@@ -100,16 +100,13 @@
     document.addEventListener("click", (e) => { if (!e.target.closest(".menu")) closeMenus(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
   }
-  // Keep the sticky filter column below the test-mode task bar.
-  function syncStickyTop() {
-    const root = document.documentElement;
-    const h = taskbar.hidden ? 0 : taskbar.offsetHeight;
-    root.style.setProperty("--sticky-top", h + 16 + "px");
-    // Space below the Explore grid (page padding + footer). The sticky filter column is
-    // shortened by this much so the footer can't push its top off screen at the bottom.
+  // Size the Explore area to fill the rest of the screen below the header/heading, so the
+  // filter column and the results column can each scroll to their ends independently.
+  function syncExploreHeight() {
     const grid = $(".explore");
-    const below = grid ? root.scrollHeight - (grid.getBoundingClientRect().bottom + window.scrollY) : 0;
-    root.style.setProperty("--below-explore", Math.max(0, Math.round(below)) + "px");
+    if (!grid) return;
+    const top = grid.getBoundingClientRect().top + window.scrollY;
+    document.documentElement.style.setProperty("--explore-h", Math.max(320, window.innerHeight - top - 16) + "px");
   }
 
   function closeMenus() {
@@ -312,7 +309,7 @@
           ${accordion("Audio/Visual", st.av.length, AV.map((a) => checkbox("av", a, st.av.includes(a))).join(""))}
           ${accordion("Accessibility options", st.access.length, ACCESS.map((a) => checkbox("ac", a, st.access.includes(a))).join(""))}
         </aside>
-        <section aria-labelledby="results-count">
+        <section class="results" aria-labelledby="results-count">
           <div class="list-head"><h2 id="results-count" aria-live="polite"></h2></div>
           <div id="results"></div>
         </section>
@@ -356,7 +353,7 @@
       render();
     });
     update();
-    syncStickyTop();
+    syncExploreHeight();
   }
 
   // ---------- Venue endpoint ----------
@@ -580,7 +577,7 @@
 
   function testTaskIntro() {
     taskbar.hidden = true;
-    syncStickyTop();
+    syncExploreHeight();
     const t = taskById(testSession.order[testSession.idx]);
     showOverlay(`<p>Task ${testSession.idx + 1} of ${testSession.order.length}</p>
       <div class="scenario">${esc(t.text)}</div>
@@ -602,7 +599,7 @@
       <p class="taskbar-text">Task ${testSession.idx + 1} of ${testSession.order.length}: ${esc(t.text)}</p>
       <button type="button" id="give-up">I would give up</button></div>`;
     taskbar.hidden = false;
-    syncStickyTop();
+    syncExploreHeight();
     $("#give-up").addEventListener("click", () => testFinish("gave_up", null));
   }
 
@@ -650,7 +647,7 @@
     s.active = false;
     s.idx++;
     taskbar.hidden = true;
-    syncStickyTop();
+    syncExploreHeight();
     if (s.idx >= s.order.length) {
       remove(KEY_SESSION);
       testSession = null;
@@ -746,7 +743,7 @@
   buildMenus();
   initRecording();
   window.addEventListener("hashchange", render);
-  window.addEventListener("resize", syncStickyTop);
+  window.addEventListener("resize", syncExploreHeight);
   if (MODE === "test") initTest();
   render();
 })();

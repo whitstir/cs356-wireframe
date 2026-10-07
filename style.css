@@ -61,9 +61,11 @@ main:focus { outline: none; }
 @media (max-width: 900px) { .explore { grid-template-columns: 240px 1fr; gap: 16px; } }
 @media (max-width: 639px) { .explore { grid-template-columns: 1fr; } }
 .filters { display: flex; flex-direction: column; gap: 12px; }
-/* Desktop: filters stick beside the results and scroll on their own, so venues stay in view. */
+/* Desktop: the Explore area fits the screen, and filters and results each scroll on their own. */
 @media (min-width: 640px) {
-  .filters { position: sticky; top: var(--sticky-top, 16px); max-height: calc(100vh - var(--sticky-top, 16px) - 16px - var(--below-explore, 0px)); overflow-y: auto; overscroll-behavior: contain; padding-right: 8px; }
+  .explore { height: var(--explore-h, calc(100vh - 200px)); min-height: 320px; align-items: stretch; }
+  .filters, .results { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding-right: 8px; }
+  .results .list-head { position: sticky; top: 0; background: #fff; padding-bottom: 8px; margin-bottom: 4px; z-index: 1; }
 }
 .filters-head { display: flex; justify-content: space-between; align-items: center; }
 .f-group { border: 1px solid #000; margin: 0; padding: 10px 12px 12px; min-width: 0; }
