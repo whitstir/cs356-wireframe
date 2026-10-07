@@ -76,9 +76,9 @@
   // ---------- Global nav menus ----------
   function buildMenus() {
     $("#m-location").innerHTML = CITIES.map((c) =>
-      `<li><a href="${href("location", c)}">${esc(c)}</a></li>`).join("");
+      `<li><a href="#/explore?city=${encodeURIComponent(c)}">${esc(c)}</a></li>`).join("");
     $("#m-style").innerHTML = STYLES.map((s) =>
-      `<li><a href="${href("style", s)}">${esc(s)}</a></li>`).join("");
+      `<li><a href="#/explore?s=${encodeURIComponent(s)}">${esc(s)}</a></li>`).join("");
 
     $$("[data-menu]").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -89,6 +89,14 @@
         btn.setAttribute("aria-expanded", String(open));
       });
     });
+    // Picking a city/style opens Explore with that filter pre-set. Re-render even if the
+    // hash is unchanged so the filters reset to just that choice.
+    $$(".menu-list").forEach((list) => list.addEventListener("click", (e) => {
+      const a = e.target.closest("a");
+      if (!a) return;
+      closeMenus();
+      if (a.getAttribute("href") === location.hash) { e.preventDefault(); render(); }
+    }));
     document.addEventListener("click", (e) => { if (!e.target.closest(".menu")) closeMenus(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
   }

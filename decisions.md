@@ -12,8 +12,8 @@ Data source: `Wedding Reception Project - Venues.csv` (46 venues, all kept).
 ## Global navigation (top bar)
 | Item | Contents |
 |---|---|
-| Location | Dropdown of cities → list of venues in that city |
-| Style | Dropdown: Rustic, Luxury, Modern, Outdoors, Classic → list of venues with that style |
+| Location | Dropdown of cities → Explore page with that city pre-selected |
+| Style | Dropdown: Rustic, Luxury, Modern, Outdoors, Classic → Explore page with that style pre-checked |
 | Explore | Goes to the base filter page |
 
 ## Landing page
@@ -130,7 +130,7 @@ _None — all resolved. See decisions 19–24._
 ## Decisions (Q&A)
 1. **Leaves = individual venue pages.** Filters and navigation narrow a list of venues; clicking a venue shows its endpoint page.
 2. **Venue data comes from the CSV.** All 46 rows kept, including the out-of-county ones and Sun River Gardens.
-3. **Global nav Location/Style = dropdown menus.** Choosing a city or style opens a list page of matching venues (e.g., Style → Rustic → Venue).
+3. **Global nav Location/Style = dropdown menus.** Choosing a city or style opens the Explore page with that filter pre-set (e.g., Style → Rustic → Explore with Rustic checked → Venue). *(Changed from separate list pages.)*
 4. **Explore Style filter = checkboxes, match ANY.** Checking Rustic + Modern shows venues tagged Rustic OR Modern.
 5. **Decor, Audio/Visual, and Accessibility = expandable (accordion) sections with checkboxes, match ALL.** Checking Microphone + Projector shows venues that have both.
 6. **Decor items are sub-categories** (Specialty stations, Aesthetics, Lighting items) holding specific items, with **Included** and **For rent** toggles the user can check one or both of.
@@ -155,3 +155,4 @@ _None — all resolved. See decisions 19–24._
 22. **Decor items derived from the CSV** (see Decor items table).
 23. **No more carousel tiles** for now (Budget, Spacious, Open catering only).
 24. **Tree test mode follows the course Tree Test spec** (participant ID, shuffled tasks per participant, "I would give up" button, `?test` and `?results` URLs). Full details and the 10 scenarios are in wireframe-spec.md.
+25. **No hover fill.** Links, buttons, menu items, tiles and venue boxes stay white on hover (keyboard focus outline kept).

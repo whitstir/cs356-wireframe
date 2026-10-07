@@ -11,7 +11,6 @@ p { margin: 0 0 12px; }
 a { color: #000; }
 button, select, input { font: inherit; color: #000; }
 button { background: #fff; border: 1px solid #000; border-radius: 0; padding: 8px 12px; cursor: pointer; }
-button:hover { background: #000; color: #fff; }
 select { background: #fff; border: 1px solid #000; border-radius: 0; padding: 6px 8px; width: 100%; }
 :focus-visible { outline: 2px solid #000; outline-offset: 2px; }
 [hidden] { display: none !important; }
@@ -28,11 +27,9 @@ main:focus { outline: none; }
 .brand { font-size: 1.15rem; text-decoration: none; border: 1px solid #000; padding: 8px 12px; }
 .global-nav { display: flex; gap: 8px; flex-wrap: wrap; }
 .nav-btn { display: inline-block; background: #fff; border: 1px solid #000; padding: 8px 14px; text-decoration: none; cursor: pointer; }
-.nav-btn:hover, .nav-btn[aria-expanded="true"] { background: #000; color: #fff; }
 .menu { position: relative; }
 .menu-list { position: absolute; top: calc(100% + 4px); left: 0; z-index: 30; background: #fff; border: 1px solid #000; list-style: none; margin: 0; padding: 4px 0; min-width: 200px; max-height: 70vh; overflow-y: auto; }
 .menu-list a { display: block; padding: 8px 14px; text-decoration: none; }
-.menu-list a:hover { background: #000; color: #fff; }
 
 .site-footer { border-top: 1px solid #000; padding: 16px 0; }
 
@@ -47,7 +44,6 @@ main:focus { outline: none; }
 .carousel-controls { display: flex; gap: 8px; }
 .carousel { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
 .tile { flex: 0 0 calc(50% - 8px); scroll-snap-align: start; display: flex; flex-direction: column; justify-content: space-between; min-height: 180px; border: 1px solid #000; padding: 20px; text-decoration: none; }
-.tile:hover { background: #000; color: #fff; }
 .tile-title { font-size: 1.35rem; display: block; margin-bottom: 8px; }
 .tile-go { text-decoration: underline; }
 @media (max-width: 640px) { .tile { flex-basis: 85%; } }
@@ -56,7 +52,6 @@ main:focus { outline: none; }
 .list-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 .venue-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .venue-card { display: block; border: 1px solid #000; padding: 12px; text-decoration: none; }
-.venue-card:hover { background: #000; color: #fff; }
 .vc-name { display: block; font-size: 1.1rem; text-decoration: underline; margin-bottom: 6px; }
 .vc-line { display: block; }
 .empty { border: 1px dashed #000; padding: 16px; }

@@ -15,7 +15,7 @@ Final build spec for the wireframe and tree-test instrument. Assignment requirem
 
 ## 1. Visual rules (wireframe fidelity)
 - Black and white only. One font (system sans-serif), one size scale. No color, images, icons, bold-for-decoration, or typographic styling.
-- Generic boxes: 1px black borders, white backgrounds, consistent spacing.
+- Generic boxes: 1px black borders, white backgrounds, consistent spacing. No hover fill.
 - Hierarchy comes from layout alone: position, box nesting, whitespace, and plain text headings.
 - Works at phone width with no horizontal scroll.
 
@@ -29,12 +29,12 @@ Final build spec for the wireframe and tree-test instrument. Assignment requirem
 ### Categorization 1 — Global navigation: *where* and *what kind*
 ```
 Home
-├── Location ▾ ── [City] ── [Venue]
-├── Style ▾ ───── [Rustic | Luxury | Modern | Outdoors | Classic] ── [Venue]
+├── Location ▾ ── [City] ── Explore (city pre-set) ── [Venue]
+├── Style ▾ ───── [Rustic | Luxury | Modern | Outdoors | Classic] ── Explore (style pre-set) ── [Venue]
 └── Explore ───── (filter page) ── [Venue]
 ```
-- **Location** dropdown: 15 cities (Alpine, American Fork, Carriere, Concord, Lehi, Lindon, Mapleton, Orem, Pleasant Grove, Provo, Riverton, Saratoga Springs, Spanish Fork, Springville, Sundance). Choosing one opens a list of venues in that city.
-- **Style** dropdown: 5 styles. Choosing one opens a list of venues with that style. A venue can appear under several styles.
+- **Location** dropdown: 15 cities (Alpine, American Fork, Carriere, Concord, Lehi, Lindon, Mapleton, Orem, Pleasant Grove, Provo, Riverton, Saratoga Springs, Spanish Fork, Springville, Sundance). Choosing one opens Explore with that city selected; users can keep refining.
+- **Style** dropdown: 5 styles. Choosing one opens Explore with that style checked. A venue can appear under several styles.
 - Every venue is reachable through Location, Style (each venue has at least one style), and Explore.
 
 ### Categorization 2 — Explore page: *by feature* (faceted filters)
@@ -69,8 +69,6 @@ A "Clear all filters" button resets everything. Filter state is kept in the URL 
 | Route | Content |
 |---|---|
 | `#/` | Landing page with carousel |
-| `#/location/<city>` | "Location › City" breadcrumb, list of venue boxes |
-| `#/style/<style>` | "Style › Style" breadcrumb, list of venue boxes |
 | `#/explore?…` | Filter page |
 | `#/venue/<id>` | **Endpoint.** Line reading "End of path: [Venue name]". Summary box: name, city, description, price, seated + standing capacity, styles, key features. Below it, an expandable "All details" section with every CSV field, grouped (Pricing & packages, Capacity & time, Space & decor, Services, Policies, Contact) and empty fields hidden. |
 | `#/log` | Click log: table, Download JSON, Download CSV, Copy, Clear |
