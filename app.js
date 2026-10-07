@@ -129,9 +129,9 @@
   function viewHome() {
     document.title = "Utah County Wedding Venues";
     const shortcuts = [
-      ["Budget venues", "Venues with rental prices under $2,000.", "#/explore?p=0-2000"],
-      ["Spacious venues", "Venues that seat 200 or more guests.", "#/explore?c=200-" + CAP_MAX],
-      ["Open catering", "Venues that let you bring your own caterer.", "#/explore?f=" + encodeURIComponent("Outside catering allowed")],
+      ["Budget", "#/explore?p=0-2000"],
+      ["Capacity", "#/explore?c=200-" + CAP_MAX],
+      ["Outside catering allowed", "#/explore?f=" + encodeURIComponent("Outside catering allowed")],
     ];
     app.innerHTML = `
       <h1>Find a wedding venue in Utah County</h1>
@@ -139,8 +139,8 @@
       <section class="box" aria-labelledby="popular-title">
         <h2 id="popular-title">Popular searches</h2>
         <ul class="shortcuts">
-          ${shortcuts.map(([title, desc, link]) => `
-            <li><a href="${link}" data-log="Popular search: ${esc(title)}">${esc(title)}</a> — ${esc(desc)}</li>`).join("")}
+          ${shortcuts.map(([title, link]) => `
+            <li><a href="${link}" data-log="Popular search: ${esc(title)}">${esc(title)}</a></li>`).join("")}
         </ul>
       </section>`;
   }

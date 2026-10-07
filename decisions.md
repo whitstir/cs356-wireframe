@@ -158,3 +158,4 @@ _None — all resolved. See decisions 19–24._
 25. **No hover fill.** Links, buttons, menu items, tiles and venue boxes stay white on hover (keyboard focus outline kept).
 26. **No dropdowns or carousel (plain display).** Global nav shows every city and style as plain link lists (Location: …, Style: …, Explore all venues). Each link still opens Explore with that filter pre-set. The home-page carousel is replaced by a plain "Popular searches" list with the same three shortcuts.
 27. **Alphabetical order.** Filter groups are alphabetical with Price kept first; items inside each group, cities, styles, and Decor sub-groups are alphabetical. Venues are listed alphabetically by full name (so "The …" venues sort under T).
+28. **Popular searches labels:** "Budget", "Capacity", "Outside catering allowed" — link text only, no descriptions. Same pre-set filters as before (under $2k, 200+ seated, outside catering).

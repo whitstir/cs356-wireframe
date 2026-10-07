@@ -61,9 +61,9 @@ A "Clear all filters" button resets everything. Filter state is kept in the URL 
 
 ### Landing page
 - Short intro line, then a plain "Popular searches" list of 3 links:
-  - **Budget venues** → Explore, price $0 – $2,000
-  - **Spacious venues** → Explore, capacity 200+
-  - **Open catering** → Explore, Outside catering allowed checked
+  - **Budget** → Explore, price $0 – $2,000
+  - **Capacity** → Explore, capacity 200+
+  - **Outside catering allowed** → Explore, Outside catering allowed checked
 
 ## 4. Pages
 | Route | Content |
@@ -123,13 +123,13 @@ Written in the user's words, with no category labels quoted. Each task has exact
 |---|---|---|---|---|
 | T1 | You love the idea of guests roasting s'mores around a fire after dinner. Find a venue that can make that happen. | The White Shanty | Explore | Explore › Decor › Firepit |
 | T2 | Your grandmother uses a wheelchair and can't manage stairs. Find a venue where she can get around easily. | Copper Creek Event Center | Explore | Explore › Accessibility › Wheelchair + Elevator |
-| T3 | Your family is huge — about 800 people will sit down for dinner. Find a venue big enough. | Utah Valley Convention Center | Explore (or Spacious tile) | Explore › Capacity slider |
-| T4 | You can only spend about $1,000 on the venue, but you're inviting 300 guests to a sit-down dinner. Find a venue that works. | Provo Library Ballroom | Explore (or Budget tile) | Explore › Price + Capacity |
+| T3 | Your family is huge — about 800 people will sit down for dinner. Find a venue big enough. | Utah Valley Convention Center | Explore (or Capacity link) | Explore › Capacity slider |
+| T4 | You can only spend about $1,000 on the venue, but you're inviting 300 guests to a sit-down dinner. Find a venue that works. | Provo Library Ballroom | Explore (or Budget link) | Explore › Price + Capacity |
 | T5 | You're getting married in Alpine and want to play a slideshow of photos from when you were kids. Find a venue that can do it. | Alpine Art Center | Explore | Explore › City + A/V › Projector; or Location › Alpine |
 | T6 | You want a barn-style reception in Pleasant Grove that ends with a sparkler send-off. Find a venue. | Barbwire and Lace | Location | Location › Pleasant Grove; Style › Rustic; Explore |
 | T7 | You want a sleek, contemporary reception in Lehi. Find a venue. | Rooftop Venue | Location | Location › Lehi; Style › Modern |
 | T8 | You've always pictured a romantic, upscale reception in Spanish Fork. Find a venue. | The Bungalow Event Venue | Location | Location › Spanish Fork; Style › Luxury |
-| T9 | Your aunt is catering the food, you don't want your family stuck cleaning up afterward, and you want the place to feel high-end. Find a venue. | Sleepy Ridge Golf Course | Explore (or Open catering tile) | Explore › Outside catering + Cleanup crew + Luxury |
+| T9 | Your aunt is catering the food, you don't want your family stuck cleaning up afterward, and you want the place to feel high-end. Find a venue. | Sleepy Ridge Golf Course | Explore (or Outside catering allowed link) | Explore › Outside catering + Cleanup crew + Luxury |
 | T10 | You're planning a reception in Mapleton. The bride and groom each need their own room to get ready, and you don't want to rent tablecloths. Find a venue. | Northridge Valley Event Center | Explore | Explore › City + Bridal room + Groom's room + Linens; or Location › Mapleton |
 
 Coverage across the two categorizations: T6–T8 test the global nav (Location/Style). T1–T5, T9 and T10 test the Explore facets. T3, T4 and T9 can also be reached from the Popular searches list.
