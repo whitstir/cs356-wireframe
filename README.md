@@ -80,14 +80,14 @@ Full detail is in [decisions.md](decisions.md). In short:
 
 ## Tree test mode (`?test`)
 Follows the course Tree Test spec:
-1. **Start:** the participant types their full name and is told that the site's structure is being tested, not them. The site gives them a random 6-digit participant number. The name and number are saved on every result row automatically, so nothing needs to be written down.
+1. **Start:** the participant types their first name and is told that the site's structure is being tested, not them. The site gives them a random 6-digit participant number. The first name and number are saved on every result row automatically. The exported file is named after the number only.
 2. **Tasks:** the tasks are shuffled separately for each participant.
 3. **Each task:** the scenario is shown, the participant presses OK, the timer starts, and every click is recorded.
 4. **End of a task:** a bar at the bottom of every page has two buttons, **I give up** and **I think I'm done**. The task ends only when the participant presses one of them. Opening a venue page does not end it.
    - **After each task:** the participant rates ease (1 very difficult to 7 very easy). If they pressed done, they also rate confidence (1 to 7).
 5. **Scoring:** each task lists the facets a participant is expected to apply (`expected` in [data/tasks.js](data/tasks.js)). The score is the share of those parts satisfied by the filters applied when the task ends, from 0 to 1. For example, 2 of 3 expected facets scores 0.67.
 6. **Each task records:**
-   - participant number, participant name, task, and order
+   - participant number, participant first name, task, and order
    - target (the expected facets)
    - outcome: `success` (score 1), `partial`, `fail` (score 0), or `gave_up`
    - score, how many facets were right, which facets were right, and which were missed
@@ -102,8 +102,7 @@ Follows the course Tree Test spec:
    - pages visited in order, and which venue pages were opened
    - ease and confidence ratings
 7. **`?results`:** shows a summary per task (mean score, success/partial/fail/give-up %, most-missed facet, median time, most common first click), a participant-by-task grid, a summary per participant (status, tasks completed, the order their tasks were shown, score and outcome counts, totals), and then each participant's own table with every task they completed. CSV/JSON download has one row per participant per task.
-8. **Participant numbers are random, so they stay unique across computers.** Every task a participant completes is saved under the same number and name, including after a page reload. CSV files from different laptops can be combined as they are.
-9. **The CSV contains participants' full names.** Don't commit exported results to this repo, because the repo and the live site are public.
+8. **Participant numbers are random, so they stay unique across computers.** Every task a participant completes is saved under the same number and first name, including after a page reload. CSV files from different laptops can be combined as they are.
 
 **Important:** results are stored in the browser where the test ran. Run every participant on the **same laptop and browser**, and download the CSV after each session.
 
