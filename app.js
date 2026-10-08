@@ -991,8 +991,13 @@
         <h3>Participant ${esc(g.participant)}${g.name ? `: ${esc(g.name)}` : ""}</h3>
         <p class="muted">${esc(g.summary.status)}, ${esc(g.summary.tasks_completed)} tasks, in the order they were shown. Started ${esc(g.session_start)}.</p>
         ${table(g.rows, TASK_COLS)}`).join("") : `<p class="empty">Nothing recorded yet.</p>`}`;
-    $("#res-csv").onclick = () => download(`tree-test-results-${stamp()}.csv`, toCSV(rows, RESULT_COLS), "text/csv");
-    $("#res-json").onclick = () => download(`tree-test-results-${stamp()}.json`, JSON.stringify(rows, null, 2), "application/json");
+    // Export file name: the most recent participant's name and number, plus how many others are in the file.
+    const last = groups[groups.length - 1];
+    const fileName = ["tree-test-results", ...(last ? [last.name, last.participant] : []),
+      ...(groups.length > 1 ? [`and-${groups.length - 1}-more`] : [])]
+      .map((part) => String(part).trim().replace(/[\\/:*?"<>|\s]+/g, "-")).filter(Boolean).join("-");
+    $("#res-csv").onclick = () => download(`${fileName}.csv`, toCSV(rows, RESULT_COLS), "text/csv");
+    $("#res-json").onclick = () => download(`${fileName}.json`, JSON.stringify(rows, null, 2), "application/json");
     $("#res-clear").onclick = () => {
       if (confirm("Delete all tree-test results in this browser? Download them first if you need them.")) {
         remove(KEY_RESULTS); viewResults();
