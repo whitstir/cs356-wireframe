@@ -1,0 +1,827 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Venue Prototype Drafts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a review desk. A slim header picks the draft; each draft runs as a clickable lo-fi prototype inside a browser frame, with blue-pencil notes tying features to decisions D1–D7. */
+:root {
+  --paper: #eef0ee;
+  --card: #ffffff;
+  --ink: #1d2120;
+  --muted: #5f6763;
+  --line: #c9cecb;
+  --line-strong: #8d9490;
+  --ph: #e2e5e3;
+  --ph-line: #c3c8c5;
+  --note: #2747c4;
+  --note-bg: #e6ebfb;
+  --sel: #1d2120;
+  --sel-fg: #ffffff;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #151817; --card: #1e2221; --ink: #e6e9e7; --muted: #9aa29e; --line: #353b39; --line-strong: #69716d;
+    --ph: #2a2f2d; --ph-line: #3e4542; --note: #8ea4ff; --note-bg: #232a45; --sel: #e6e9e7; --sel-fg: #151817;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #151817; --card: #1e2221; --ink: #e6e9e7; --muted: #9aa29e; --line: #353b39; --line-strong: #69716d;
+  --ph: #2a2f2d; --ph-line: #3e4542; --note: #8ea4ff; --note-bg: #232a45; --sel: #e6e9e7; --sel-fg: #151817;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+.shell { max-width: 1280px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; display: grid; gap: 18px; }
+.shell > * { min-width: 0; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--note); outline-offset: 2px; }
+a { color: inherit; }
+
+/* ---------- review header ---------- */
+.top { display: grid; gap: 10px; }
+.top h1 { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 4vw, 38px); line-height: 1.05; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.top p { margin: 0; color: var(--muted); max-width: 70ch; }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.tab { border: 1px solid var(--line-strong); background: var(--card); border-radius: 999px; padding: 6px 14px; font-weight: 500; }
+.tab[aria-selected="true"] { background: var(--sel); color: var(--sel-fg); border-color: var(--sel); }
+.tab .k { font-family: var(--mono); font-size: 12px; opacity: .7; margin-right: 6px; }
+.spacer { flex: 1; }
+.toggle { display: inline-flex; gap: 8px; align-items: center; color: var(--muted); font-size: 13px; }
+
+.brief { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; }
+.brief h2 { font-family: var(--display); font-size: 21px; margin: 0 0 4px; font-weight: 700; }
+.brief p { margin: 0 0 8px; max-width: 68ch; }
+.brief ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+.brief .lbl { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 4px; }
+@media (max-width: 760px) { .brief { grid-template-columns: 1fr; } }
+
+/* ---------- browser frame ---------- */
+.frame { border: 1px solid var(--line-strong); border-radius: 10px; background: var(--card); overflow: hidden; }
+.chrome { display: flex; gap: 10px; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--line); background: var(--paper); }
+.dots { display: flex; gap: 5px; } .dots i { width: 9px; height: 9px; border-radius: 50%; border: 1px solid var(--line-strong); display: block; }
+.url { flex: 1; min-width: 0; font-family: var(--mono); font-size: 12px; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.viewport { min-height: 620px; }
+
+/* ---------- blue-pencil notes ---------- */
+.note { display: inline-flex; align-items: center; gap: 4px; font-family: var(--mono); font-size: 11px; line-height: 1.3; color: var(--note); background: var(--note-bg); border: 1px dashed var(--note); border-radius: 4px; padding: 1px 6px; vertical-align: middle; font-weight: 500; }
+.notes-off .note { display: none !important; }
+
+/* ---------- lo-fi building blocks (shared by drafts) ---------- */
+.lf { font-family: var(--body); }
+.lf h1, .lf h2, .lf h3 { font-family: var(--body); font-weight: 600; margin: 0; text-wrap: balance; }
+.lf .muted { color: var(--muted); }
+.lf .btn { border: 1px solid var(--line-strong); background: var(--card); border-radius: var(--r); padding: 6px 12px; }
+.lf .btn.solid { background: var(--sel); color: var(--sel-fg); border-color: var(--sel); }
+.lf .link { background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+.search { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--card); padding: 6px 8px 6px 14px; }
+.search input { border: 0; outline: 0; background: transparent; flex: 1; min-width: 0; padding: 4px 0; }
+.search:focus-within { outline: 2px solid var(--note); outline-offset: 1px; }
+.search .ico { width: 14px; height: 14px; border: 2px solid var(--muted); border-radius: 50%; position: relative; flex: none; }
+.search .ico::after { content: ""; position: absolute; width: 2px; height: 6px; background: var(--muted); right: -4px; bottom: -5px; transform: rotate(-45deg); }
+
+.ph { position: relative; background: var(--ph); overflow: hidden; aspect-ratio: 4 / 3; max-width: 100%; border-radius: var(--r);
+  background-image: linear-gradient(to top right, transparent calc(50% - 1px), var(--ph-line) 50%, transparent calc(50% + 1px)),
+                    linear-gradient(to top left, transparent calc(50% - 1px), var(--ph-line) 50%, transparent calc(50% + 1px)); }
+.ph .cap { position: absolute; left: 8px; bottom: 8px; font-family: var(--mono); font-size: 11px; background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; color: var(--muted); }
+.ph .arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line-strong); background: var(--card); display: grid; place-items: center; font-size: 14px; line-height: 1; padding: 0; }
+.ph .arrow.prev { left: 8px; } .ph .arrow.next { right: 8px; }
+.ph .pips { position: absolute; right: 8px; bottom: 10px; display: flex; gap: 4px; }
+.ph .pips i { width: 6px; height: 6px; border-radius: 50%; background: var(--card); border: 1px solid var(--line-strong); display: block; }
+.ph .pips i.on { background: var(--ink); border-color: var(--ink); }
+.ph.wide { aspect-ratio: 16 / 7; }
+.ph.sq { aspect-ratio: 1; }
+
+.chk { display: flex; align-items: center; gap: 8px; padding: 3px 0; cursor: pointer; }
+.chk input { margin: 0; accent-color: var(--ink); width: 15px; height: 15px; flex: none; }
+.chk .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+.chk.zero { color: var(--muted); }
+.sub { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 8px 0 2px; }
+.modes { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 6px 8px; border: 1px dashed var(--line-strong); border-radius: var(--r); margin: 4px 0 6px; }
+.modes .chk { padding: 0; }
+.range { display: grid; gap: 4px; }
+.range .vals { display: flex; justify-content: space-between; font-variant-numeric: tabular-nums; font-size: 13px; }
+.range input { width: 100%; accent-color: var(--ink); margin: 0; }
+.lf select { width: 100%; border: 1px solid var(--line-strong); border-radius: var(--r); padding: 6px 8px; background: var(--card); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line-strong); border-radius: 999px; padding: 3px 6px 3px 10px; background: var(--card); font-size: 13px; }
+.chip button { border: 0; background: none; padding: 0 4px; font-size: 14px; line-height: 1; color: var(--muted); }
+.pill { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; font-size: 12px; color: var(--muted); }
+mark { background: var(--note-bg); color: inherit; border-bottom: 1px solid var(--note); }
+.empty { border: 1px dashed var(--line-strong); border-radius: var(--r); padding: 24px; text-align: center; color: var(--muted); }
+.toast { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; border: 1px solid var(--ink); border-radius: var(--r); padding: 8px 12px; background: var(--card); }
+
+/* lo-fi top nav with dropdown menus (details/summary) */
+.lnav { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 12px 20px; border-bottom: 1px solid var(--line); }
+.lnav .brand { font-weight: 600; background: none; border: 0; padding: 0; margin-right: auto; font-size: 15px; }
+.dd { position: relative; }
+.dd summary { list-style: none; cursor: pointer; padding: 4px 2px; }
+.dd summary::-webkit-details-marker { display: none; }
+.dd summary::after { content: " ▾"; color: var(--muted); }
+.dd .menu { position: absolute; z-index: 5; top: 100%; left: 0; min-width: 190px; background: var(--card); border: 1px solid var(--line-strong); border-radius: var(--r); padding: 6px; display: grid; box-shadow: 0 8px 24px rgb(0 0 0 / .12); }
+.dd .menu.cols { grid-template-columns: repeat(2, minmax(0, 1fr)); min-width: 300px; }
+.dd .menu button { text-align: left; background: none; border: 0; padding: 5px 8px; border-radius: 4px; }
+.dd .menu button:hover { background: var(--ph); }
+.lnav .navbtn { background: none; border: 0; padding: 4px 2px; }
+
+/* venue page (shared) */
+.vp { padding: 20px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; max-width: 1020px; }
+.vp > *, .vp .head > * { min-width: 0; overflow-wrap: anywhere; }
+.vp .head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.vp h1 { font-size: 26px; }
+.vp .gal { display: grid; grid-template-columns: 2fr 1fr; gap: 8px; }
+.vp .gal .side { display: grid; gap: 8px; }
+.vp .gal .side .ph { aspect-ratio: auto; height: 100%; min-height: 90px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0; border: 1px solid var(--line); border-radius: var(--r); }
+.facts div { padding: 10px 12px; border-right: 1px solid var(--line); }
+.facts div:last-child { border-right: 0; }
+.facts b { display: block; font-size: 12px; font-weight: 500; color: var(--muted); }
+.vp .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+.vp .box { border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; min-width: 0; }
+.vp .box h3 { font-size: 14px; margin-bottom: 6px; }
+.vp .box ul { margin: 0; padding-left: 18px; }
+.vp .pre { white-space: pre-line; overflow-wrap: anywhere; }
+@media (max-width: 640px) { .vp .gal { grid-template-columns: 1fr; } .vp .gal .side { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- Draft A: refined directory ---------- */
+.A-home { padding: 28px 20px; display: grid; gap: 28px; }
+.A-hero { display: grid; gap: 12px; max-width: 640px; }
+.A-hero h1 { font-size: 28px; }
+.A-pop { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.A-styles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.A-styles button { background: none; border: 0; padding: 0; text-align: left; display: grid; gap: 6px; }
+.A-cities { columns: 4 150px; column-gap: 16px; }
+.A-cities button { display: block; background: none; border: 0; padding: 3px 0; }
+@media (max-width: 640px) { .A-styles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.A-ex { display: grid; grid-template-columns: 260px minmax(0, 1fr); min-height: 620px; }
+.A-side { border-right: 1px solid var(--line); padding: 14px 16px; display: grid; align-content: start; gap: 2px; max-height: 760px; overflow: auto; }
+.A-side details { border-bottom: 1px solid var(--line); padding: 8px 0; }
+.A-side summary { cursor: pointer; font-weight: 500; display: flex; justify-content: space-between; gap: 8px; }
+.A-side summary .on { font-size: 12px; color: var(--muted); font-weight: 400; }
+.A-side .inner { padding-top: 6px; }
+.A-main { padding: 14px 18px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.A-bar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
+.A-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; }
+.A-card { display: grid; gap: 6px; align-content: start; }
+.A-card .name { background: none; border: 0; padding: 0; text-align: left; font-weight: 600; font-size: 15px; }
+.A-card .meta { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; color: var(--muted); }
+.A-card .snip { font-size: 13px; }
+.A-filterbtn { display: none; }
+@media (max-width: 760px) {
+  .A-ex { grid-template-columns: 1fr; }
+  .A-side { border-right: 0; border-bottom: 1px solid var(--line); max-height: none; }
+  .A-side.closed { display: none; }
+  .A-filterbtn { display: inline-block; }
+}
+
+/* ---------- Draft B: search-first ---------- */
+.B-home { padding: 40px 20px 28px; display: grid; gap: 30px; justify-items: center; }
+.B-hero { width: min(680px, 100%); display: grid; gap: 14px; text-align: center; }
+.B-hero h1 { font-size: 30px; }
+.B-hero .search { padding: 10px 10px 10px 18px; }
+.B-hero .chips { justify-content: center; }
+.B-hero .chips button { cursor: pointer; }
+.B-sec { width: 100%; display: grid; gap: 10px; }
+.B-sec h2 { font-size: 16px; }
+.B-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.B-ex { padding: 14px 20px 24px; display: grid; gap: 12px; }
+.B-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.B-row .search { flex: 1 1 280px; }
+.B-fbtn { border: 1px solid var(--line-strong); background: var(--card); border-radius: 999px; padding: 5px 12px; }
+.B-fbtn.on { background: var(--sel); color: var(--sel-fg); border-color: var(--sel); }
+.B-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 22px 16px; }
+.B-card { display: grid; gap: 4px; align-content: start; }
+.B-card .ph { aspect-ratio: 1 / 1; }
+.B-card .t { display: flex; justify-content: space-between; gap: 8px; }
+.B-card .name { background: none; border: 0; padding: 0; text-align: left; font-weight: 600; }
+.B-wrap { position: relative; }
+.B-scrim { position: absolute; inset: 0; background: rgb(0 0 0 / .28); z-index: 8; }
+.B-drawer { position: absolute; top: 0; right: 0; bottom: 0; width: min(420px, 100%); background: var(--card); border-left: 1px solid var(--line-strong); z-index: 9; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.B-drawer header, .B-drawer footer { padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border-bottom: 1px solid var(--line); }
+.B-drawer footer { border-top: 1px solid var(--line); border-bottom: 0; }
+.B-drawer .body { overflow: auto; padding: 4px 16px 16px; }
+.B-drawer section { border-bottom: 1px solid var(--line); padding: 12px 0; }
+.B-drawer section h3 { font-size: 14px; margin-bottom: 6px; }
+
+/* ---------- Draft C: list + preview ---------- */
+.C-home { padding: 24px 20px; display: grid; gap: 18px; }
+.C-home .intro { display: grid; gap: 10px; max-width: 640px; }
+.C-doors { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.C-door { border: 1px solid var(--line-strong); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.C-door h2 { font-size: 16px; }
+.C-door .list { display: flex; flex-wrap: wrap; gap: 6px; }
+.C-door .list button { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 2px 10px; font-size: 13px; }
+@media (max-width: 760px) { .C-doors { grid-template-columns: 1fr; } }
+.C-ex { display: grid; grid-template-rows: auto auto minmax(0, 1fr); }
+.C-top { padding: 12px 20px; display: grid; gap: 10px; border-bottom: 1px solid var(--line); }
+.C-tabs { display: flex; flex-wrap: wrap; gap: 0; border-bottom: 1px solid var(--line); padding: 0 20px; overflow-x: auto; }
+.C-tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; white-space: nowrap; }
+.C-tabs button[aria-selected="true"] { border-bottom-color: var(--ink); font-weight: 600; }
+.C-tabs button .c { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.C-tray { padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--paper); }
+.C-tray .one { max-width: 520px; }
+.C-tray .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 2px 18px; }
+.C-tray .grid.two { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px 28px; }
+.C-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); min-height: 520px; }
+.C-list { border-right: 1px solid var(--line); max-height: 640px; overflow: auto; }
+.C-row { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; padding: 10px 20px; border: 0; border-bottom: 1px solid var(--line); background: var(--card); width: 100%; text-align: left; }
+.C-row[aria-current="true"] { background: var(--ph); box-shadow: inset 3px 0 0 var(--ink); }
+.C-row .ph { aspect-ratio: 4 / 3; }
+.C-row .name { font-weight: 600; }
+.C-row .meta { font-size: 13px; color: var(--muted); }
+.C-prev { padding: 16px 20px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.C-prev .rowx { display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: baseline; }
+@media (max-width: 760px) { .C-split { grid-template-columns: 1fr; } .C-prev { display: none; } .C-list { border-right: 0; max-height: none; } }
+
+/* ---------- Questions ---------- */
+.qs { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 20px 22px; display: grid; gap: 18px; }
+.qs h2 { font-family: var(--display); font-size: 24px; margin: 0; }
+.q { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 4px 12px; border-top: 1px solid var(--line); padding-top: 14px; }
+.q .num { font-family: var(--mono); color: var(--note); font-weight: 500; }
+.q h3 { margin: 0; font-size: 16px; font-weight: 600; text-wrap: balance; }
+.q p { margin: 4px 0 0; color: var(--muted); max-width: 75ch; }
+.q .opts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.q .opts span { border: 1px solid var(--line-strong); border-radius: 999px; padding: 2px 10px; font-size: 13px; }
+.q > :not(.num) { grid-column: 2; }
+.q .num { grid-row: 1 / span 3; }
+.matrix { overflow-x: auto; }
+.matrix table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 13px; }
+.matrix th, .matrix td { border-bottom: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+.matrix th { font-weight: 600; }
+.matrix td:first-child { font-family: var(--mono); color: var(--note); white-space: nowrap; }
+@media (prefers-reduced-motion: no-preference) { .B-drawer { animation: slide .18s ease-out; } @keyframes slide { from { transform: translateX(24px); } } }
+</style>
+
+<div class="shell" id="shell">
+  <div class="top">
+    <h1>Utah County venues: three prototype directions</h1>
+    <p>Lo-fi, clickable drafts built on the updated hierarchy (D1–D7) and all 46 real venues. Photos are placeholder boxes; filters, search and counts work. Blue dashed tags mark where a design decision shows up.</p>
+    <div class="tabs" role="tablist" aria-label="Drafts">
+      <button class="tab" role="tab" id="tab-A" data-tab="A"><span class="k">A</span>Refined directory</button>
+      <button class="tab" role="tab" id="tab-B" data-tab="B"><span class="k">B</span>Search first</button>
+      <button class="tab" role="tab" id="tab-C" data-tab="C"><span class="k">C</span>List + preview</button>
+      <button class="tab" role="tab" id="tab-Q" data-tab="Q"><span class="k">?</span>Questions for the team</button>
+      <span class="spacer"></span>
+      <label class="toggle"><input type="checkbox" id="notes-toggle" checked> Show decision notes</label>
+    </div>
+  </div>
+  <div id="brief"></div>
+  <div id="stage"></div>
+</div>
+
+<script>
+window.VENUES_SLIM = [{"id":"sleepy-ridge-golf-course","name":"Sleepy Ridge Golf Course","city":"Orem","description":"A country-club-style reception venue on a golf course near Utah Lake, offering indoor and outdoor spaces, scenic mountain and lake views, lush gardens, a gazebo, and dedicated areas for wedding ceremonies and receptions.","styles":["Luxury","Outdoors"],"priceMin":4200,"priceMax":7000,"priceText":"$4,200-$7,000","seated":250,"seatedText":"250","standing":700,"standingText":"700","decor":{"Centerpieces":["included"],"Signs / easels":["included"],"Fireplace":["included"],"String / bistro lights":["included"]},"av":{"Microphone":true,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.sleepyridgeweddings.com/","address":"730 S Sleepy Ridge Dr, Orem, UT 84059","parking":"Ample parking for guests\nLarge parking area","times":"Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm","length":"5-12 hours","catering":"Outside caterers allowed at no extra cost\nPreferred caterers listed on venue site","alcohol":"Alcohol allowed\nPreferred bartender required: COPA Bar Service or The Bar Project\nVenue alcohol fee displayed on site as \"$75 0\"","restrictions":"Required alcohol vendor: COPA Bar Service or The Bar Project\nSetup and cleanup must occur within booked hours","contact":"Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com\nEmail also shown on site: info@mysite.co.il"},{"id":"stone-gate-event-center","name":"Stone Gate Event Center","city":"Concord","description":"A small, intimate ranch-style reception venue with vintage, classic, modern, bohemian, and rustic-barn character, designed for couples seeking a flexible and distinctive setting for their wedding celebration.","styles":["Rustic","Classic","Modern"],"priceMin":null,"priceMax":null,"priceText":"No pricing information stated on the official website","seated":null,"seatedText":"","standing":100,"standingText":"100","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":false,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":false},"link":"https://stonegatevenue.com/","address":"10609 Richmond Hwy, Concord, VA 24538","contact":"Phone: (434) 509-3966\nPhone: (434) 660-2200\nEmail: StoneGateVenue@gmail.com"},{"id":"the-white-shanty","name":"The White Shanty","city":"Provo","description":"A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access, and event support.","styles":["Modern","Rustic"],"priceMin":1200,"priceMax":3350,"priceText":"$1,200-$3,350","seated":100,"seatedText":"100","standing":null,"standingText":"","decor":{"Cake table":["included"],"Drink / beverage station":["rent"],"Photo booth / backdrop":["included","rent"],"Firepit":["included"],"Ceremony arch / backdrop":["included","rent"],"Greenery / florals":["included","rent"],"Signs / easels":["included","rent"],"String / bistro lights":["included"]},"av":{"Microphone":true,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.whiteshantyvenue.com/","address":"502 South 300 West, Provo, UT","parking":"Expanded parking","times":"Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm","length":"6-12 hours","alcohol":"Alcohol allowed with signed contract\n$350 alcohol fee","restrictions":"Reserved rental block must include setup and takedown time","contact":"Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011"},{"id":"white-willow-reception-center","name":"White Willow Reception Center","city":"Provo","description":"A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen.","styles":["Classic","Rustic"],"priceMin":1000,"priceMax":2350,"priceText":"$1,000-$2,350","seated":100,"seatedText":"100","standing":null,"standingText":"","decor":{"Cake table":["included"],"Ceremony arch / backdrop":["included"],"Centerpieces":["included"],"Greenery / florals":["included"],"Signs / easels":["included"],"Draping / chair covers":["included"],"Candles / lanterns":["included"]},"av":{"Microphone":false,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.whitewillowweddings.com/","address":"342 N 500 W, Provo, UT 84601","times":"Sun-Thu 10am-3pm\nFri-Sat 10am-3pm\nSun-Thu 4pm-10pm\nFri-Sat 4pm-10pm\nSun-Thu 10am-10pm\nFri-Sat 10am-10pm","length":"5-12 hours","catering":"Serving kitchen available\nFridge, freezer and microwave included\nNo oven or cooking\nKitchen cleaning is renter responsibility","alcohol":"No alcohol permitted","restrictions":"No cooking in serving kitchen\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period","contact":"Phone: 801-404-9840\nEmail: events@whitewillowweddings.com"},{"id":"barbwire-and-lace","name":"Barbwire and Lace","city":"Pleasant Grove","description":"A 3.5-acre vintage reception venue with mountain views, indoor and outdoor spaces, gardens, fairy lights, rustic and antique character, and an open-air barn with a fireplace.","styles":["Rustic","Outdoors"],"priceMin":3000,"priceMax":4500,"priceText":"$3,000-$4,500","seated":200,"seatedText":"100 seated in main event area\n200 seated with outdoor areas","standing":null,"standingText":"","decor":{"Cake table":["included"],"Drink / beverage station":["rent"],"Centerpieces":["included"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.barbwireandlace.com/","address":"1000 W 100 S, Pleasant Grove, UT 84062","parking":"On-site parking across 2.5 acres","length":"6-8 hours","catering":"Outside vendors allowed\nFood trucks welcome\nOnsite kitchen available","alcohol":"No alcohol permitted on the property","restrictions":"No alcohol permitted on the property","contact":"Phone: 801-787-7325\nEmail: barbwire46@hotmail.com"},{"id":"quiet-meadows-farms","name":"Quiet Meadows Farms","city":"Mapleton","description":"A peaceful, rustic reception venue on 130 acres beneath the mountains, featuring a large barn, outdoor ceremony spaces, gardens, private getting-ready rooms, a prep kitchen, and coordinated wedding support.","styles":["Rustic","Outdoors"],"priceMin":3200,"priceMax":6800,"priceText":"$3,200-$6,800","seated":null,"seatedText":"","standing":300,"standingText":"300","decor":{"Centerpieces":["included"],"Candles / lanterns":["included"]},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.quietmeadowfarms.com/","address":"1805 E 1200 N, Mapleton, UT 84664","times":"Mon-Thu 2pm-10pm\nFri 2pm-10pm\nSat 2pm-10pm\nMon-Thu 4:30pm-10pm reception-only\nMon 10am-2pm morning option\nTue 10am-2pm morning option\nWed 10am-2pm morning option\nThu 10am-2pm morning option\nFri 10am-2pm morning option\nSat 10am-2pm morning option","length":"4-12 hours","catering":"Preferred caterer required\nHomemade food not allowed\nCommercially prepared food only","alcohol":"Alcohol allowed\n$300 alcohol fee\nPreferred bartender required\nMaximum alcohol service time: 4 hours","restrictions":"No sparklers\nNo live bands\nNo bounce houses\nNo mechanical bulls\nNo carnival rides\nLawn games require approval\nNo pets\nNo dropping off food or décor before scheduled time\nNo rehearsal on site","contact":"Phone: 801-794-4043\nEmail: info@quietmeadowsfarms.com"},{"id":"wadley-farms","name":"Wadley Farms","city":"Lindon","description":"A historic, destination-style reception venue on a 23-acre property with a castle, event barn, gardens, mountain views, on-site lodging, and multiple indoor and outdoor settings for elegant celebrations.","styles":["Classic","Luxury","Rustic","Outdoors"],"priceMin":3100,"priceMax":7200,"priceText":"$3,100-$7,200","seated":200,"seatedText":"40-200","standing":350,"standingText":"350","decor":{"Fireplace":["included"],"Chandeliers":["included"]},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":true,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://wadleyfarms.com/","address":"5 East 400 North, Lindon, UT 84042","parking":"Ample parking","times":"Mon-Wed 2pm-10pm\nThu 2pm-10pm\nFri-Sat 2pm-10pm\nMon-Wed 10am-10pm full-day option\nThu 10am-10pm full-day option\nFri-Sat 10am-10pm full-day option","length":"8-12 hours","catering":"Castle: preferred caterer required\nBarn and Railroad Building: outside caterer or self-cater allowed","alcohol":"Castle: beer and wine only\nLicensed bartender required\n$1,000 alcohol privilege fee\nBarn and Railroad Building: alcohol generally not permitted","restrictions":"Outdoor ceremonies are weather-dependent\nOutdoor ceremonies typically unavailable October-March\nCastle alcohol limited to beer and wine\nNo gatherings or events in lodging before or after the event","contact":"Email: info@wadleyfarms.com"},{"id":"northampton-house","name":"Northampton House","city":"American Fork","description":"A historic reception venue in American Fork with a restored home, multiple indoor event rooms, outdoor lawn and patio areas, and a welcoming setting for elegant celebrations.","styles":["Classic"],"priceMin":5800,"priceMax":7200,"priceText":"$5,800-$7,200","seated":304,"seatedText":"126-304","standing":385,"standingText":"385","decor":{"Ceremony arch / backdrop":["included"],"Greenery / florals":["rent"],"Signs / easels":["rent"],"Chandeliers":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":false},"link":"https://northamptonhouse.com/","address":"198 W 300 N, American Fork, UT","parking":"120-stall parking lot","times":"Mon-Thu 10am-10pm\nFri-Sat 10am-10pm","length":"12 hours","catering":"In-house caterer: Crisp Catering\nPreferred caterers include Magleby's and Thirst Catering\nOpen vendor policy stated on venue site","restrictions":"Rental includes setup and takedown time\nNeighboring event may occur during same date depending on selected space","contact":"Phone: 801-756-5358\nEmail: info@northamptonhouse.com"},{"id":"the-bright-building","name":"The Bright Building","city":"Provo","description":"A historic downtown Provo reception venue in a renovated auto dealership, offering an industrial and mid-century setting with a loft, commercial kitchen prep area, built-in lighting, audio equipment, and flexible vendor options.","styles":["Classic","Modern"],"priceMin":1250,"priceMax":2450,"priceText":"$1,250-$2,450","seated":150,"seatedText":"150","standing":350,"standingText":"350","decor":{"Cake table":["included"],"Ceremony arch / backdrop":["included"],"Signs / easels":["included"],"String / bistro lights":["included"],"Chandeliers":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":true},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":false,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.thebrightbuilding.com/","address":"25 W 400 S, Provo, UT 84601","parking":"45 private parking spaces\nStreet parking","times":"Mon 10am-11pm\nTue 10am-11pm\nWed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm","length":"13 hours","catering":"Any vendor allowed\nIn-house catering available\nPreferred vendors available","alcohol":"Alcohol allowed\nLicensed bartender required\n$200 alcohol fee","restrictions":"No duct tape\nNo confetti\nNo glitter\nEarly setup must be booked\nNight-before setup only when available","contact":"Phone: 801-709-0455\nInstagram: @thebrightbuilding"},{"id":"copper-creek-event-center","name":"Copper Creek Event Center","city":"Springville","description":"An elegant, romantic ballroom reception venue with mountain views, a prep kitchen, integrated sound, projection, flexible seating, and dedicated support for wedding celebrations.","styles":["Classic"],"priceMin":1800,"priceMax":4200,"priceText":"$1,800-$4,200","seated":160,"seatedText":"90-160","standing":null,"standingText":"","decor":{"Cake table":["included"],"Ceremony arch / backdrop":["rent"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":true},"access":{"Wheelchair accessible":true,"Elevator":true,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":false,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":false,"Event coordinator":true},"link":"https://coppercreekeventcenter.com/","address":"688 W 400 S #202, Springville, UT 84663","times":"Mon-Wed 10am-3pm\nMon-Wed 5pm-10pm\nMon-Wed 10am-10pm\nThu-Sat 10am-3pm\nThu-Sat 5pm-10pm\nThu-Sat 10am-10pm","length":"5-12 hours","catering":"Preferred vendors listed on the official site\nIn-house floral design available","alcohol":"Alcohol strictly prohibited on the space and property","restrictions":"Alcohol prohibited on the space and property\nLive-flame candles only through the in-house floral team\nOther candles must be faux","contact":"Phone: 801-900-3082\nEmail: admin@coppercreekeventcenter.com"},{"id":"the-startup-building","name":"The Startup Building","city":"Provo","description":"An industrial, historic reception venue in a former candy factory with original brick walls, wooden beams, elevated ceilings, a courtyard, catering space, integrated sound, and flexible layouts for up to 300 guests.","styles":["Modern","Classic"],"priceMin":1550,"priceMax":2750,"priceText":"$1,550-$2,750","seated":120,"seatedText":"120","standing":300,"standingText":"300","decor":{"Cake table":["included"],"Ceremony arch / backdrop":["included"],"Greenery / florals":["included"],"Signs / easels":["included"],"String / bistro lights":["included"],"Chandeliers":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":true},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.thestartupbuilding.co","address":"100 W 560 S St, Provo, UT 84601","parking":"40 parking spots\nStreet parking","times":"Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm","length":"13 hours","catering":"Catering area included\nFood trucks allowed","alcohol":"Alcohol allowed with a licensed bartender\n$200 alcohol fee","restrictions":"No glitter\nNo confetti\nNo nails or tacks\nVenue does not provide cleanup; cleanup supplies are provided","contact":"Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding"},{"id":"southworth-hall","name":"Southworth Hall","city":"Provo","description":"A historic, warm, classy, rustic reception hall in downtown Provo with original brick, custom woodwork, flexible table layouts, in-house sound, and space for up to 200 seated guests.","styles":["Classic","Rustic"],"priceMin":600,"priceMax":1890,"priceText":"$600-$1,890","seated":200,"seatedText":"200","standing":null,"standingText":"","decor":{"Photo booth / backdrop":["rent"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":false},"link":"https://southworthhall.com/","times":"Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am","length":"3-16 hours","contact":"Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall"},{"id":"riverside-country-club","name":"Riverside Country Club","city":"Provo","description":"A country-club reception venue offering indoor dining rooms, a patio, scenic surroundings, in-house cuisine, custom menu options, and event planning support for wedding celebrations.","styles":["Luxury"],"priceMin":null,"priceMax":null,"priceText":"No single standard price stated on the official website","seated":150,"seatedText":"32-150","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.riversidecountryclub.org/Dining_Events","address":"2701 N University Ave, Provo, UT 84604","catering":"In-house cuisine\nCustom menu options","alcohol":"Bar service available from $150","contact":"Phone: 801-374-1347"},{"id":"conrad-ranch","name":"Conrad Ranch","city":"Provo","description":"A historic, timeless reception venue on a family-owned homestead with canyon walls, Mount Timpanogos views, spring-fed ponds, a lighted patio, indoor and outdoor spaces, and an on-site coordinator.","styles":["Classic","Rustic","Outdoors"],"priceMin":4000,"priceMax":6000,"priceText":"$4,000-$6,000","seated":200,"seatedText":"85-112 indoors\n100 outdoor chairs included\n200 with 100 additional rented chairs","standing":350,"standingText":"350+ outdoor open-house capacity","decor":{"Cake table":["included"],"Piano":["included"],"Ceremony arch / backdrop":["rent"],"Signs / easels":["included","rent"],"Fireplace":["included"],"String / bistro lights":["included","rent"],"Candles / lanterns":["rent"]},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":true,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.conradranch.com/landing","address":"5591 South Fork Road, Provo, UT 84604","parking":"Parking across venue\nUpper and family parking","times":"Mon-Wed 2pm-10pm\nThu-Sat 2pm-10pm\nFull-day weekend 10am-10pm\nCeremony-only 9am-1pm","length":"3-12 hours","catering":"Own caterer or outside caterer allowed\nFood must be pre-cooked and assembled","alcohol":"No alcohol anywhere on the property","restrictions":"No cooking\nNo glass bottles\nNo confetti, fireworks, fiberoptic or pond decorations\nSparklers only outside in metal buckets; cleanup required\nSound ordinance ends at 10pm","contact":"Phone: 801-225-6238\nPhone: (801) 368-3223\nPhone: 801-376-0509\nEmail: ConradRanch1863@gmail.com\nEmail: g.c.m@me.com\nEmail: dsdesign90@gmail.com"},{"id":"the-blake","name":"The Blake","city":"Provo","description":"A stylish, contemporary reception venue in downtown Provo with modern elegance, a spacious layout, and unique amenities designed for wedding celebrations.","styles":["Modern","Classic"],"priceMin":null,"priceMax":null,"priceText":"No pricing information stated on the official website","seated":null,"seatedText":"","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":false,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.theblakevenue.com/","address":"407 W 100 S, Provo, UT 84601","contact":"Phone: (385) 286-2002\nEmail: theblakevenue@gmail.com"},{"id":"utah-valley-convention-center","name":"Utah Valley Convention Center","city":"Provo","description":"A modern, elegant reception venue in downtown Provo with natural light, mountain views, professional event managers, a culinary team, a grand ballroom, and a rooftop terrace.","styles":["Modern","Luxury"],"priceMin":null,"priceMax":null,"priceText":"No single standard price stated on the official website","seated":1080,"seatedText":"360-1,080","standing":null,"standingText":"","decor":{"Centerpieces":["included"],"Draping / chair covers":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://utahvalleycc.com/weddings/","catering":"Exclusive food and beverage provider\nIn-house culinary team","restrictions":"Timpanogos Terrace requires an indoor backup rental","contact":"Phone: (801) 851-2200\nEmail: info@utahvalleycc.com"},{"id":"provo-marriott-hotel","name":"Provo Marriott Hotel","city":"Provo","description":"A full-service hotel reception venue with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners, and capacity for large wedding celebrations.","styles":["Luxury"],"priceMin":null,"priceMax":null,"priceText":"No venue rental price stated on the official website","seated":650,"seatedText":"60-650","standing":1000,"standingText":"1000","decor":{"String / bistro lights":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/","address":"101 W 100 N, Provo, UT 84601","parking":"Complimentary on-site parking","catering":"Custom in-house catering\nPlated dinners\nBuffets\nCocktail receptions\nHors d'oeuvres","contact":"Phone: +1 801-377-4700"},{"id":"provo-library-ballroom","name":"Provo Library Ballroom","city":"Provo","description":"A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests.","styles":["Classic"],"priceMin":840,"priceMax":2300,"priceText":"$840-$2,300","seated":320,"seatedText":"150-320","standing":null,"standingText":"","decor":{"Piano":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":true},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://ws.provolibrary.libnet.info/ballroom-8755","times":"Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am","length":"9-15 hours","catering":"User-provided catering allowed\nThird-party catering allowed","restrictions":"No cooking in facilities\nAccess limited to scheduled rental hours\nNo midday switchovers","contact":"Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov"},{"id":"ivory-hall","name":"Ivory Hall","city":"Provo","description":"A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access.","styles":["Modern"],"priceMin":2500,"priceMax":3500,"priceText":"$2,500-$3,500","seated":300,"seatedText":"300","standing":null,"standingText":"","decor":{"Ceremony arch / backdrop":["included"],"Greenery / florals":["included"],"Signs / easels":["included"],"Candles / lanterns":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":false,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":false,"Event coordinator":true},"link":"https://www.theivoryhall.com","address":"388 W Center Street, Provo, UT 84601","parking":"Private parking","times":"Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm","length":"13 hours","catering":"Open vendor policy\nLarge kitchen and prep kitchen","alcohol":"Alcohol allowed with a licensed bartender\n$300 alcohol fee","restrictions":"Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm","contact":"Phone: (801) 882-7022\nEmail: hello@theivoryhall.com"},{"id":"redford-conference-center","name":"Redford Conference Center","city":"Sundance","description":"A mountain reception venue at Sundance Resort with a 3,500-square-foot ballroom, large stone fireplace, wraparound reception flow, forest views, and access to the resort’s wedding and culinary teams.","styles":["Luxury","Rustic","Outdoors"],"priceMin":null,"priceMax":null,"priceText":"No pricing information stated on the official website","seated":null,"seatedText":"","standing":null,"standingText":"","decor":{"Fireplace":["included"]},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.sundanceresort.com/groups-weddings/venues/redford-conference-center/","address":"8841 N. Alpine Loop Road, Sundance, UT 84604","catering":"Custom wedding menus and resort culinary team","contact":"Phone: 801-223-4070\nPhone: 801-225-4107"},{"id":"the-rehearsal-hall","name":"The Rehearsal Hall","city":"Sundance","description":"A light-filled Sundance reception venue with floor-to-ceiling windows, sliding glass doors, mountain views, an outdoor deck, and a flexible 3,500-square-foot layout for larger celebrations.","styles":["Modern","Luxury"],"priceMin":null,"priceMax":null,"priceText":"No pricing information stated on the official website","seated":250,"seatedText":"250 seated","standing":300,"standingText":"300 reception","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.sundanceresort.com/groups-weddings/venues/rehearsall-hall/","address":"8841 N. Alpine Loop Road, Sundance, UT 84604","catering":"Custom wedding menus and resort culinary team","contact":"Phone: 801-223-4070\nPhone: 801-225-4107"},{"id":"grove-station","name":"Grove Station","city":"Pleasant Grove","description":"A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar.","styles":["Modern"],"priceMin":2800,"priceMax":4300,"priceText":"$2,800-$4,300","seated":250,"seatedText":"250 indoor","standing":null,"standingText":"","decor":{"Drink / beverage station":["included","rent"]},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":false,"Groom's room":false,"Event coordinator":false},"link":"https://grovestationpg.com/venue-2/","address":"273 N County Blvd, Pleasant Grove, UT 84062","parking":"Private parking lot","times":"Sun-Thu 3pm-10pm\nFri-Sat 3pm-10pm\nOptional earlier start 11am","length":"7-11 hours","catering":"Outside caterers allowed\nFood trucks allowed\nNon-alcoholic bar available","restrictions":"Alcohol policy not stated on the official website","contact":"Phone: 385-236-4070\nEmail: hello@grovestationpg.com\nInstagram: @grovestationpg"},{"id":"the-bungalow-event-venue","name":"The Bungalow Event Venue","city":"Spanish Fork","description":"An old-world reception venue with romantic European country-estate character, a grand hall, dressing rooms, flexible indoor and outdoor areas, included ivory linens, and an onsite coordinator.","styles":["Classic","Luxury"],"priceMin":2600,"priceMax":3400,"priceText":"$2,600-$3,400","seated":165,"seatedText":"75 indoor\n165 with upstairs and outdoor areas","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.bungalowwedding.com/","address":"1920 E 4000 S, Spanish Fork, UT 84660","times":"Sun-Thu 4pm-10pm\nFri-Sat 4pm-10pm\nSunday 10am-4pm","length":"6 hours","catering":"Professional caterer required","restrictions":"No sparklers\nNo fireworks\nNo floating lanterns\nNo confetti\nProfessional baker required for cake\nHost is responsible for cleanup from send-off and vehicle decorating","contact":"Phone: 385-200-4185\nEmail: hello@bungalowwedding.com\nInstagram: @thebungalowwedding"},{"id":"the-villa-at-the-retreat","name":"The Villa at the Retreat","city":"Carriere","description":"A full-service reception venue at a private retreat with indoor and outdoor spaces, private bridal suites, a day-of coordinator, a personal bridal attendant, curated decor, catering support, and a scenic garden setting.","styles":["Luxury","Outdoors"],"priceMin":null,"priceMax":null,"priceText":"No pricing information stated on the official website","seated":300,"seatedText":"Up to 300","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":false,"Event coordinator":true},"link":"https://www.thevillaweddings.com/","address":"75 Martha's Vineyard Court, Carriere, MS 39426","catering":"Onsite catering and curated menu support","contact":"Phone: 601-916-4737\nEmail: info@thevillaweddings.com\nInstagram: @thevillaweddings"},{"id":"wild-oak-venue","name":"Wild Oak Venue","city":"Pleasant Grove","description":"A modern reception venue with a bright open layout, outdoor ceremony area, private bride and groom suites, a day-of coordinating team, onsite parking, and access to decor and vendor support.","styles":["Modern"],"priceMin":3500,"priceMax":5000,"priceText":"$3,500-$5,000","seated":250,"seatedText":"250","standing":null,"standingText":"","decor":{"Ceremony arch / backdrop":["rent"],"Centerpieces":["rent"],"Signs / easels":["rent"]},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":true},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":true,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":false},"link":"https://thewildoakvenue.com/","address":"1900 N 200 W, Pleasant Grove, UT 84062","parking":"Onsite parking","times":"Monday-Thursday 10am-10pm\nFriday 10am-10pm\nSaturday 10am-10pm\nSunday 10am-10pm","length":"12 hours","catering":"Outside catering allowed\nPreferred vendor list available","alcohol":"Alcohol allowed with venue-approved bartender","restrictions":"All setup, event time, and cleanup must fit inside the reserved rental period","contact":"Phone: 801-420-8600\nEmail: hello@thewildoakvenue.com\nInstagram: @thewildoakvenue"},{"id":"walker-farms","name":"Walker Farms","city":"Riverton","description":"A historic, modern reception venue on a 62-acre farm with a renovated barn, indoor and outdoor spaces, bridal suites, scenic agricultural surroundings, coordinated support, and flexible catering options.","styles":["Classic","Modern","Rustic","Outdoors"],"priceMin":5500,"priceMax":8500,"priceText":"$5,500-$8,500","seated":150,"seatedText":"150","standing":400,"standingText":"400","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://walkerfarms.com/","address":"13140 S 2200 W, Riverton, UT 84065","times":"Mon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm","length":"12 hours","catering":"Own vendors allowed\nPreferred vendors available","alcohol":"No alcohol allowed","restrictions":"No alcohol\nNo smoking\nSetup and cleanup must occur within reserved time","contact":"Phone: 801-446-3513\nInstagram: @walkerfarmsutah"},{"id":"orion-event-venue","name":"Orion Event Venue","city":"Lindon","description":"A modern, elegant reception venue with a 6,000-square-foot ballroom, patio and deck, indoor and outdoor ceremony areas, flexible layouts, included tables and chairs, and a large suite for getting ready.","styles":["Modern","Classic"],"priceMin":4500,"priceMax":7500,"priceText":"$4,500-$7,500","seated":200,"seatedText":"200","standing":null,"standingText":"","decor":{"Cake table":["included"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.orioneventvenue.com/","times":"Sunday-Thursday 11am-11pm\nFriday-Saturday 12pm-1am","length":"12-13 hours","contact":"Phone: 801-609-8424\nEmail: info@orioneventvenue.com\nInstagram: @orioneventvenue"},{"id":"castle-park","name":"Castle Park","city":"Lehi","description":"A flexible reception venue with castle-style architecture, a large ballroom, outdoor garden areas, a gazebo, balcony spaces, included decor, a full kitchen, and event support for both intimate and large celebrations.","styles":["Luxury"],"priceMin":1825,"priceMax":3595,"priceText":"$1,825-$3,595","seated":200,"seatedText":"96-200","standing":null,"standingText":"","decor":{"Cake table":["included"],"Sweetheart table":["included"],"Centerpieces":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://castleparkevents.com/","address":"3098 W Maple Loop Drive, Lehi, UT 84043","parking":"Over 230 off-street parking spaces","times":"6-hour block between 4pm-11pm\nLarge party 5pm-1am","length":"6-8 hours","catering":"Outside caterers allowed","alcohol":"Alcohol allowed\nLicensed bartender required\nBartender service — $950","restrictions":"No outside bartender\nLarge band requires both ballrooms\nDJ must connect to house sound system\nCaterer must leave the kitchen clean\nNo moving chairs between ballrooms","contact":"Phone: 801-830-0181\nEmail: info@castleparkevents.com\nInstagram: @castleparkevents"},{"id":"big-willow-barn","name":"Big Willow Barn","city":"Lindon","description":"A rustic, country-charm reception venue centered on a restored barn and century-old weeping willow tree, with gardens, a scenic setting, and an intimate atmosphere for wedding celebrations.","styles":["Rustic","Outdoors"],"priceMin":null,"priceMax":null,"priceText":"No pricing information stated on the official website","seated":null,"seatedText":"","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":false},"link":"https://www.bigwillowbarn.com/","address":"1100 W 200 N, Lindon, UT 84042","contact":"Phone: 801-609-9093\nEmail: info@bigwillowbarn.com\nInstagram: @bigwillowbarn"},{"id":"sun-river-gardens","name":"Sun River Gardens","city":"Orem","description":"The current official website presents Sun River Gardens as a garden center with greenhouse, outdoor nursery, home décor, and workshops; it does not provide current reception-venue information.","styles":["Outdoors"],"priceMin":null,"priceMax":null,"priceText":"No current reception pricing information stated on the official website","seated":null,"seatedText":"","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":false,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":false},"link":"https://sunrivergardens.com/","address":"1248 N State St, Orem, UT 84057","contact":"Phone: 801-229-1975\nEmail: info@sunrivergardens.com"},{"id":"shade-home-and-garden","name":"Shade Home and Garden","city":"Orem","description":"A greenhouse-and-vineyard reception venue with lush greenery, vibrant blooms, arborescent paths, natural ambient lighting, and modern minimalist touches.","styles":["Outdoors","Modern"],"priceMin":3000,"priceMax":5500,"priceText":"$3,000-$5,500","seated":168,"seatedText":"140-168","standing":280,"standingText":"280","decor":{"Greenery / florals":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.shadeweddings.com/","address":"435 S Geneva Rd, Orem, UT 84058","times":"Daily 12pm-10pm","length":"10 hours","catering":"Preferred vendors listed on the official site","alcohol":"Alcohol permitted onsite\n$500 alcohol fee\nPreferred bartender required","restrictions":"Two of three event spaces included\nPreferred bartender required for alcohol","contact":"Phone: 801-802-5200\nEmail: info@shadeweddings.com"},{"id":"barteli-event-venue","name":"Barteli Event Venue","city":"Orem","description":"A flexible reception hall in Orem with customizable event plans, optional decor and setup services, and tiered packages ranging from venue-only rental to full-service celebrations.","styles":["Classic"],"priceMin":600,"priceMax":2350,"priceText":"$600-$2,350","seated":null,"seatedText":"","standing":null,"standingText":"","decor":{"Draping / chair covers":["rent"]},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.barteli.com/","address":"151 W 400 N, Orem, UT 84057","length":"3+ hours Mon-Thu minimum; weekend duration not stated","catering":"Luxury package includes food","contact":"Phone: 801-823-3624\nPhone: 801-368-8401\nEmail: info@barteli.com\nInstagram: @bartelirh"},{"id":"rooftop-venue","name":"Rooftop Venue","city":"Lehi","description":"A modern rooftop reception venue in Lehi with panoramic mountain views, flexible indoor and outdoor settings, included furniture and decor, patio and deck areas, and full-service event support.","styles":["Modern","Luxury"],"priceMin":2500,"priceMax":4500,"priceText":"$2,500-$4,500","seated":280,"seatedText":"80-280","standing":300,"standingText":"300","decor":{"Photo booth / backdrop":["rent"],"Ceremony arch / backdrop":["included"],"Centerpieces":["included"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.therooftoplehi.com/","address":"151 N 1200 E, Lehi, UT 84043","parking":"Ample parking\n160 on-site stalls","times":"Mon-Thu 1pm-11pm\nFri-Sat 1pm-11pm\nAll-day 10am-11pm\nBridal or baby shower 9am-12pm","length":"10-13 hours","alcohol":"Alcohol allowed with a $400 alcohol-use fee","restrictions":"Additional hours cost $200/hour\nEvents must end by 10pm unless an extended rental is purchased","contact":"Phone: 801-889-1393"},{"id":"the-lodge-at-traverse-mountain","name":"The Lodge at Traverse Mountain","city":"Lehi","description":"A rustic mountain reception venue at Traverse Mountain with stone and wood architecture, a patio, fireplaces, built-in audio/video, included tables and chairs, and a flexible full-day Saturday option.","styles":["Rustic"],"priceMin":1850,"priceMax":2850,"priceText":"$1,850-$2,850","seated":100,"seatedText":"100 seated reception","standing":300,"standingText":"300 come-and-go reception","decor":{"Drink / beverage station":["included"],"Fireplace":["included"]},"av":{"Microphone":false,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":false,"Event coordinator":true},"link":"https://www.thelodgeattraverse.com/","address":"3940 Traverse Mountain Blvd, Lehi, UT 84043","parking":"Onsite parking\nAdditional north parking","times":"Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm","length":"5-13.5 hours","catering":"Outside caterers and vendors allowed\nPreferred vendors listed on the official site","alcohol":"No alcohol\nNo smoking","restrictions":"No alcohol\nNo smoking\nDIY setup and takedown must fit within the rental period","contact":"Phone: (385) 234-1406\nText: (385) 234-1406"},{"id":"alpine-art-center","name":"Alpine Art Center","city":"Alpine","description":"An elegant Alpine reception venue combining an art gallery, sculpture park, gardens, water features, flexible indoor and outdoor ceremony areas, and a full-service event setup.","styles":["Classic","Outdoors"],"priceMin":1700,"priceMax":4200,"priceText":"$1,700-$4,200","seated":80,"seatedText":"80","standing":null,"standingText":"","decor":{"Cake table":["included"],"Sweetheart table":["rent"],"Drink / beverage station":["included"],"Piano":["included"],"Centerpieces":["included"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":true},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://alpineartcenter.com/","address":"450 S Alpine Hwy, Suite 100, Alpine, UT 84004","parking":"Large parking lot","times":"Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm","length":"5-12 hours","catering":"Catering available through Alpine Art Center\nSelf-catering allowed","alcohol":"$400 alcohol charge\nLicensed bartender required\nClient furnishes the alcohol","restrictions":"Licensed bartender required for alcohol\nNo open-flame candles except enclosed candles\nClient must follow cleanup and cancellation policies","contact":"Phone: 801-763-7173\nEmail: info@alpineartcenter.com"},{"id":"knot-and-pine","name":"Knot and Pine","city":"Alpine","description":"A historic Alpine reception venue with rustic charm, modern elegance, wood-and-stone architecture, mountain views, a bride's room, groom's space, built-in sound, and flexible indoor and outdoor photo options.","styles":["Classic","Rustic","Modern"],"priceMin":3500,"priceMax":4750,"priceText":"$3,500-$4,750","seated":120,"seatedText":"80-120","standing":null,"standingText":"","decor":{"Photo booth / backdrop":["rent"],"Ceremony arch / backdrop":["rent"],"Greenery / florals":["rent"],"Draping / chair covers":["rent"],"String / bistro lights":["rent"],"Chandeliers":["included","rent"],"Candles / lanterns":["rent"]},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://knotandpine.com/","address":"45 E 200 N, Alpine, UT 84004","parking":"Onsite parking\nNearby overflow parking","times":"Mon-Wed 6-hour block, extendable to midnight\nThu 6-hour block, extendable to midnight\nFri-Sat 6-hour block, extendable to midnight","length":"6 hours; extendable to midnight","restrictions":"6-hour rental block\nEvents end by 10pm unless extended\nMusic is turned down at 10pm\nCandles must be enclosed\nFloor-lit candles not allowed","contact":"Phone: 801-756-7400\nEmail: hello@knotandpine.com"},{"id":"springville-museum-of-art","name":"Springville Museum of Art","city":"Springville","description":"A historic Spanish-colonial-style reception venue with galleries, a sculpture garden, art-filled interiors, flexible indoor and outdoor spaces, and a distinctive cultural setting for weddings.","styles":["Classic"],"priceMin":1730,"priceMax":2130,"priceText":"$1,730-$2,130","seated":63,"seatedText":"48-63","standing":750,"standingText":"750","decor":{"Piano":["included","rent"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":true,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.smofa.org/","address":"126 E 400 S, Springville, UT 84663","parking":"Museum parking lot","times":"Monday 4pm-10:30pm\nTuesday 4pm-10:30pm\nThursday 4pm-10:30pm\nFriday 4pm-10:30pm\nSaturday 4pm-10:30pm","length":"6.5 hours","restrictions":"Closed Sundays and holidays\nTours by appointment","contact":"Phone: 801-489-2727\nPhone: 801-491-0693\nEmail: SMAinfo@springville.org\nEmail: gwoolf@springville.org"},{"id":"willow-springs-event-center","name":"Willow Springs Event Center","city":"Springville","description":"A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom.","styles":["Modern"],"priceMin":1199,"priceMax":2499,"priceText":"$1,199-$2,499","seated":150,"seatedText":"150","standing":null,"standingText":"","decor":{"String / bistro lights":["included"],"Chandeliers":["included"]},"av":{"Microphone":true,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":false,"Event coordinator":true},"link":"https://www.thewillowsprings.com/","address":"554 W 1200 N, Springville, UT 84663","times":"Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm","length":"7 hours; additional hours available","contact":"Phone: 801-960-4000\nEmail: info@thewillowsprings.com"},{"id":"hobble-creek-event-center","name":"Hobble Creek Event Center","city":"Springville","description":"A scenic golf-course reception setting with seasonal atmosphere, landscaped grounds, and official decor options for weddings and other celebrations.","styles":["Outdoors"],"priceMin":null,"priceMax":null,"priceText":"No venue rental price stated on the current official website","seated":null,"seatedText":"","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":false,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":false},"link":"https://www.hobblecreekevents.com/"},{"id":"northridge-valley-event-center","name":"Northridge Valley Event Center","city":"Mapleton","description":"A modern, elegant reception venue in Mapleton with mountain views, indoor and outdoor ceremony options, a Pioneer cabin, a warming kitchen, included tables and chairs, and an in-house wedding and event planner.","styles":["Modern","Classic"],"priceMin":5000,"priceMax":7000,"priceText":"$5,000-$7,000","seated":200,"seatedText":"50-200","standing":null,"standingText":"","decor":{"Ceremony arch / backdrop":["included"],"Centerpieces":["included"],"Draping / chair covers":["included"],"Candles / lanterns":["included"]},"av":{"Microphone":true,"TV":true,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":true,"Accessible parking":false},"flags":{"Linens included":true,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://www.northridge-valley.com/","address":"1200 E 1200 S, Mapleton, UT 84664","parking":"Ample onsite parking\nOverflow parking options","times":"Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm","length":"10 hours","catering":"Commercial and business licensed caterers required\nPopular caterers listed on the official website","contact":"Phone: 801-420-1227\nEmail: info@northridge-valley.com"},{"id":"river-bridge-event-center","name":"River Bridge Event Center","city":"Spanish Fork","description":"A polished reception venue in Spanish Fork with a 7,000-square-foot ballroom, indoor and outdoor ceremony spaces, built-in audio, elegant furnishings, and flexible packages for intimate or large celebrations.","styles":["Classic"],"priceMin":3000,"priceMax":7000,"priceText":"$3,000-$7,000","seated":300,"seatedText":"50-300","standing":400,"standingText":"400","decor":{"Cake table":["included"],"Sweetheart table":["included"],"Drink / beverage station":["included"],"Signs / easels":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.riverbridgeeventcenter.com/","address":"1650 W 500 S, Springville, UT 84663","times":"Weekday 10am-10pm\nFriday 10am-11pm\nSaturday 10am-11pm","length":"12-13 hours","catering":"Outside caterers allowed\nPreferred caterers listed on the official website","restrictions":"Additional time is billed at $500 per hour","contact":"Phone: 801-491-8085\nEmail: info@riverbridgeeventcenter.com"},{"id":"the-oaks-at-spanish-fork","name":"The Oaks at Spanish Fork","city":"Spanish Fork","description":"A modern, all-season reception venue in Spanish Fork with a 7,000-square-foot ballroom, mountain views, a full kitchen, bride and groom suites, an outdoor ceremony area, and customizable layouts.","styles":["Modern"],"priceMin":1600,"priceMax":2400,"priceText":"$1,600-$2,400","seated":240,"seatedText":"240","standing":null,"standingText":"","decor":{"Ceremony arch / backdrop":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://theoaksatsf.com/","address":"1450 E 1000 S, Spanish Fork, UT 84660","parking":"Onsite parking","times":"Monday-Thursday 9am-10pm\nFriday-Saturday 9am-10pm\nSunday 9am-10pm","length":"13 hours","catering":"Outside caterers allowed\nPreferred vendors available","restrictions":"All setup, event time, takedown, and cleanup must occur within the reserved rental period","contact":"Phone: 801-794-4043\nEmail: info@theoaksatsf.com"},{"id":"maplewood-events","name":"Maplewood Events","city":"Pleasant Grove","description":"A modern reception venue in Pleasant Grove with a spacious indoor hall, outdoor ceremony options, flexible seating, a full kitchen, included sound and lighting, and in-house event support.","styles":["Modern"],"priceMin":1400,"priceMax":2450,"priceText":"$1,400-$2,450","seated":162,"seatedText":"112 included\n162 maximum with added tables","standing":null,"standingText":"","decor":{"Sweetheart table":["included"],"Signs / easels":["included"],"String / bistro lights":["included"],"Chandeliers":["included"]},"av":{"Microphone":true,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":true,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":true,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":true,"Groom's room":true,"Event coordinator":true},"link":"https://eventsatmaplewood.com/","address":"1350 W 200 S, Pleasant Grove, UT 84062","parking":"Onsite parking","times":"Monday-Thursday 11am-10pm\nFriday 11am-10pm\nSaturday 11am-10pm","length":"11 hours","catering":"Outside caterers allowed\nOpen vendor policy","alcohol":"No alcohol allowed","restrictions":"No alcohol\nNo confetti\nNo fog machines\nNo pyrotechnics\nNo nails, tacks, tape or staples\nEvents end by 10pm","contact":"Phone: 801-890-0858\nEmail: hello@eventsatmaplewood.com"},{"id":"chillon-reception-center","name":"Chillon Reception Center","city":"Springville","description":"A full-service reception venue in Springville with elegant ballrooms, indoor and outdoor options, in-house catering, custom menus, integrated audio and lighting, and coordinated support for weddings.","styles":["Luxury","Classic"],"priceMin":4999,"priceMax":4999,"priceText":"$4,999","seated":200,"seatedText":"50-200","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":true,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://chillon.com/","catering":"In-house catering\nCustom menus available","alcohol":"Alcohol policy not stated on the official website","contact":"Phone: 801-489-0189\nEmail: info@chillon.com"},{"id":"emerald-eve-events","name":"Emerald Eve Events","city":"Springville","description":"A flexible reception venue with rustic-industrial character, an open hall, covered outdoor areas, a full kitchen, included tables and chairs, and tiered packages that scale from small gatherings to larger celebrations.","styles":["Rustic","Modern"],"priceMin":100,"priceMax":2500,"priceText":"$100-$2,500","seated":200,"seatedText":"30-200","standing":280,"standingText":"280","decor":{"Ceremony arch / backdrop":["included"],"Draping / chair covers":["rent"]},"av":{"Microphone":false,"TV":false,"Sound system":true,"Projector":false},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":true,"Outside catering allowed":true,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://emeraldeve.com/","address":"890 W 100 S, Springville, UT 84663","parking":"Parking stated on the official site","length":"4-8 hours","catering":"Outside caterers welcome\nNo charge for kitchen space for pre-made food","alcohol":"Alcohol allowed with $200 permission fee\nClient provides alcohol","restrictions":"No nails or tacks on walls or arches\nNo cooking restrictions beyond package-specific kitchen access","contact":"Phone: 801-472-9010\nEmail: emeraldeveevents@gmail.com\nInstagram: @emeraldeveevents"},{"id":"talonscove","name":"TalonsCove","city":"Saratoga Springs","description":"A scenic golf and country-club reception venue overlooking Utah Lake and the Wasatch Mountains, with elegant indoor rooms, outdoor ceremony options, custom menus, and professional event support.","styles":["Luxury","Outdoors"],"priceMin":null,"priceMax":null,"priceText":"No wedding rental pricing stated on the official website","seated":200,"seatedText":"200 formal dining","standing":null,"standingText":"","decor":{},"av":{"Microphone":false,"TV":true,"Sound system":true,"Projector":true},"access":{"Wheelchair accessible":false,"Elevator":false,"ADA restrooms":false,"Accessible parking":false},"flags":{"Linens included":false,"Indoors":true,"Outdoors":false,"Sparklers allowed":false,"Cleanup crew":false,"Outside catering allowed":false,"Bridal room":false,"Groom's room":false,"Event coordinator":true},"link":"https://www.talonscove.com/","catering":"In-house culinary team\nCustom menus\nOutside caterer policy not stated","alcohol":"Professional bar service available\nAlcohol policy details not stated","contact":"Phone: 801-895-5900\nPhone: 801-895-5901\nEmail: info@talonscove.com"}];
+</script>
+<script>
+(function () {
+  "use strict";
+  const alpha = (a, b) => a.localeCompare(b, "en", { sensitivity: "base" });
+  const VENUES = window.VENUES_SLIM.slice().sort((a, b) => alpha(a.name, b.name));
+  const BY_ID = Object.fromEntries(VENUES.map((v) => [v.id, v]));
+  const STYLES = ["Classic", "Luxury", "Modern", "Outdoors", "Rustic"];
+  const CITIES = [...new Set(VENUES.map((v) => v.city).filter(Boolean))].sort(alpha);
+  const AV = ["Microphone", "Projector", "Sound system", "TV"];
+  const ACCESS = ["Accessible parking", "ADA restrooms", "Elevator", "Wheelchair accessible"];
+  const FEATURES = ["Bridal room", "Cleanup crew", "Event coordinator", "Groom's room", "Indoors",
+    "Linens included", "Outdoors", "Outside catering allowed", "Sparklers allowed"];
+  const AESTHETICS = ["Centerpieces", "Ceremony arch / backdrop", "Draping / chair covers", "Fireplace", "Greenery / florals", "Signs / easels"];
+  const LIGHTING = ["Candles / lanterns", "Chandeliers", "String / bistro lights"];
+  const OTHER = ["Cake table", "Drink / beverage station", "Firepit", "Photo booth / backdrop", "Piano", "Sweetheart table"];
+  const PMAX = 10000, PSTEP = 250, CMAX = 1000, CSTEP = 25;
+  const PHOTO_LABELS = ["Reception hall", "Ceremony space", "Grounds", "Details"];
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const money = (n) => "$" + n.toLocaleString("en-US");
+  const pText = (n) => (n >= PMAX ? money(PMAX) + "+" : money(n));
+  const cText = (n) => (n >= CMAX ? CMAX + "+" : String(n));
+  const note = (d, text) => `<span class="note" title="Design decision ${d}">${d}${text ? " · " + esc(text) : ""}</span>`;
+
+  // ---------- filter state & matching (updated hierarchy) ----------
+  function fresh() {
+    return { q: "", pmin: 0, pmax: PMAX, cmin: 0, cmax: CMAX, styles: [], city: "",
+      decor: [], dmodes: [], other: [], omodes: [], av: [], access: [], flags: [] };
+  }
+  const clone = (st) => JSON.parse(JSON.stringify(st));
+  const ARRAYS = ["styles", "decor", "dmodes", "other", "omodes", "av", "access", "flags"];
+
+  function searchHit(v, q) {
+    const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return true;
+    const hay = (v.name + " " + v.description).toLowerCase();
+    return words.every((w) => hay.includes(w));
+  }
+  function matches(v, st) {
+    if (!searchHit(v, st.q)) return false;
+    if (st.pmin > 0 || st.pmax < PMAX) {
+      if (v.priceMin == null) return false;
+      const hi = st.pmax >= PMAX ? Infinity : st.pmax;
+      if (!(v.priceMin <= hi && v.priceMax >= st.pmin)) return false;
+    }
+    if (st.cmin > 0 || st.cmax < CMAX) {
+      if (v.seated == null) return false;
+      const hi = st.cmax >= CMAX ? Infinity : st.cmax;
+      if (v.seated < st.cmin || v.seated > hi) return false;
+    }
+    if (st.styles.length && !st.styles.some((s) => v.styles.includes(s))) return false;
+    if (st.city && v.city !== st.city) return false;
+    const dm = st.dmodes.length ? st.dmodes : ["included", "rent"];
+    if (!st.decor.every((i) => (v.decor[i] || []).some((m) => dm.includes(m)))) return false;
+    const om = st.omodes.length ? st.omodes : ["included", "rent"];
+    if (!st.other.every((i) => (v.decor[i] || []).some((m) => om.includes(m)))) return false;
+    if (!st.av.every((k) => v.av[k])) return false;
+    if (!st.access.every((k) => v.access[k])) return false;
+    if (!st.flags.every((k) => v.flags[k])) return false;
+    return true;
+  }
+  const results = (st) => VENUES.filter((v) => matches(v, st));
+  function countWith(st, f, val) {
+    const s = clone(st);
+    if (f === "city") s.city = val; else if (!s[f].includes(val)) s[f].push(val);
+    return results(s).length;
+  }
+  function activeCount(st) {
+    let n = ARRAYS.reduce((a, k) => a + (k.endsWith("modes") ? 0 : st[k].length), 0);
+    if (st.city) n++;
+    if (st.pmin > 0 || st.pmax < PMAX) n++;
+    if (st.cmin > 0 || st.cmax < CMAX) n++;
+    return n;
+  }
+  function chipsFor(st) {
+    const out = [];
+    if (st.q) out.push({ label: `“${st.q}”`, f: "q" });
+    if (st.pmin > 0 || st.pmax < PMAX) out.push({ label: `Price ${pText(st.pmin)}–${pText(st.pmax)}`, f: "price" });
+    if (st.cmin > 0 || st.cmax < CMAX) out.push({ label: `${cText(st.cmin)}–${cText(st.cmax)} guests`, f: "cap" });
+    if (st.city) out.push({ label: `City: ${st.city}`, f: "city" });
+    st.styles.forEach((v) => out.push({ label: `Style: ${v}`, f: "styles", v }));
+    ["flags", "access", "av", "decor", "other"].forEach((f) => st[f].forEach((v) => out.push({ label: v, f, v })));
+    return out;
+  }
+  function removeChip(st, f, v) {
+    if (f === "q") st.q = "";
+    else if (f === "price") { st.pmin = 0; st.pmax = PMAX; }
+    else if (f === "cap") { st.cmin = 0; st.cmax = CMAX; }
+    else if (f === "city") st.city = "";
+    else st[f] = st[f].filter((x) => x !== v);
+  }
+  const PRESETS = {
+    budget: { label: "Budget Venues", apply: (st) => { st.pmin = 0; st.pmax = 2000; } },
+    spacious: { label: "Spacious Venues", apply: (st) => { st.cmin = 200; st.cmax = CMAX; } },
+    catering: { label: "Outside catering allowed", apply: (st) => { if (!st.flags.includes("Outside catering allowed")) st.flags.push("Outside catering allowed"); } },
+  };
+  function queryString(st) {
+    const q = new URLSearchParams();
+    if (st.q) q.set("search", st.q);
+    if (st.pmin > 0 || st.pmax < PMAX) q.set("price", `${st.pmin}-${st.pmax}`);
+    if (st.cmin > 0 || st.cmax < CMAX) q.set("guests", `${st.cmin}-${st.cmax}`);
+    if (st.city) q.set("city", st.city);
+    ARRAYS.forEach((k) => st[k].length && q.set(k, st[k].join(",")));
+    const s = q.toString();
+    return s ? "?" + s : "";
+  }
+
+  // ---------- shared renderers ----------
+  function photoCount(v) { let h = 0; for (const c of v.id) h = (h * 31 + c.charCodeAt(0)) >>> 0; return 3 + (h % 3); } // front + 2–4
+  const photoIdx = {};
+  function photoLabel(i) { return i === 0 ? "Front of venue" : PHOTO_LABELS[(i - 1) % PHOTO_LABELS.length]; }
+  function carousel(v, cls = "") {
+    const n = photoCount(v), i = photoIdx[v.id] || 0;
+    return `<div class="ph ${cls}" data-car="${v.id}">
+      <span class="cap">${photoLabel(i)} · ${i + 1}/${n}</span>
+      <button class="arrow prev" data-act="photo" data-id="${v.id}" data-dir="-1" aria-label="Previous photo of ${esc(v.name)}">‹</button>
+      <button class="arrow next" data-act="photo" data-id="${v.id}" data-dir="1" aria-label="Next photo of ${esc(v.name)}">›</button>
+      <span class="pips">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</span>
+    </div>`;
+  }
+  function staticPhoto(label, cls = "") { return `<div class="ph ${cls}"><span class="cap">${esc(label)}</span></div>`; }
+  function priceLine(v) { return v.priceText && v.priceMin != null ? v.priceText : "Price on request"; }
+  function capLine(v) { return v.seated != null ? `${v.seated} seated` : "Capacity not listed"; }
+  function snippet(v, q) {
+    const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+    const d = v.description;
+    if (!words.length) return esc(d.length > 120 ? d.slice(0, 118).trimEnd() + "…" : d);
+    const at = d.toLowerCase().indexOf(words[0]);
+    let start = Math.max(0, at - 50), end = Math.min(d.length, Math.max(at, 0) + 90);
+    let s = esc((start > 0 ? "…" : "") + d.slice(start, end) + (end < d.length ? "…" : ""));
+    words.forEach((w) => { s = s.replace(new RegExp("(" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"), "<mark>$1</mark>"); });
+    return s;
+  }
+
+  function checks(st, f, list, withCount = true) {
+    return list.map((val) => {
+      const on = st[f].includes(val);
+      const n = withCount ? countWith(st, f, val) : null;
+      return `<label class="chk ${n === 0 && !on ? "zero" : ""}"><input type="checkbox" data-f="${f}" value="${esc(val)}" ${on ? "checked" : ""}> ${esc(val)}${withCount ? `<span class="n" data-cnt="${f}|${esc(val)}">${n}</span>` : ""}</label>`;
+    }).join("");
+  }
+  function modes(st, f, label) {
+    return `<div class="modes"><span class="muted" style="font-size:12px">${label}</span>
+      <label class="chk"><input type="checkbox" data-f="${f}" value="included" ${st[f].includes("included") ? "checked" : ""}> Included</label>
+      <label class="chk"><input type="checkbox" data-f="${f}" value="rent" ${st[f].includes("rent") ? "checked" : ""}> For rent</label></div>`;
+  }
+  function range(st, key) {
+    const isP = key === "p";
+    const lo = isP ? st.pmin : st.cmin, hi = isP ? st.pmax : st.cmax, max = isP ? PMAX : CMAX, step = isP ? PSTEP : CSTEP, fmt = isP ? pText : cText;
+    const nm = isP ? "Price" : "Seated guests";
+    return `<div class="range"><div class="vals"><span data-rv="${key}lo">${fmt(lo)}</span><span data-rv="${key}hi">${fmt(hi)}</span></div>
+      <input type="range" id="r-${key}-lo" aria-label="${nm} minimum" data-range="${key}" data-end="lo" min="0" max="${max}" step="${step}" value="${lo}">
+      <input type="range" id="r-${key}-hi" aria-label="${nm} maximum" data-range="${key}" data-end="hi" min="0" max="${max}" step="${step}" value="${hi}"></div>`;
+  }
+  function citySelect(st) {
+    return `<select data-f="city" aria-label="City"><option value="">Any city</option>${CITIES.map((c) => `<option value="${esc(c)}" ${st.city === c ? "selected" : ""}>${esc(c)} (${countWith(st, "city", c)})</option>`).join("")}</select>`;
+  }
+  // The updated Explore hierarchy, in order (Price first, then alphabetical; Parking removed per D4).
+  function sections(st) {
+    return [
+      { key: "price", title: "Price", html: range(st, "p") },
+      { key: "access", title: "Accessibility options", html: checks(st, "access", ACCESS) },
+      { key: "av", title: "Audio/Visual", html: checks(st, "av", AV) },
+      { key: "cap", title: "Capacity (seated guests)", html: range(st, "c") },
+      { key: "city", title: "City", html: citySelect(st) },
+      { key: "decor", title: "Decor", html: modes(st, "dmodes", "Show items that are") +
+          `<div class="sub">Aesthetics</div>${checks(st, "decor", AESTHETICS)}<div class="sub">Lighting items</div>${checks(st, "decor", LIGHTING)}` },
+      { key: "flags", title: "Features", html: checks(st, "flags", FEATURES) },
+      { key: "other", title: "Other", note: note("D3", "moved out of Decor"), html: modes(st, "omodes", "Show items that are") + checks(st, "other", OTHER) },
+      { key: "styles", title: "Style", note: note("D2", "a venue can have several"), html: checks(st, "styles", STYLES, false) },
+    ];
+  }
+  function sectionActive(st, key) {
+    if (key === "price") return st.pmin > 0 || st.pmax < PMAX ? 1 : 0;
+    if (key === "cap") return st.cmin > 0 || st.cmax < CMAX ? 1 : 0;
+    if (key === "city") return st.city ? 1 : 0;
+    return (st[key] || []).length;
+  }
+  function chipRow(st) {
+    const c = chipsFor(st);
+    if (!c.length) return "";
+    return `<div class="chips">${c.map((x) => `<span class="chip">${esc(x.label)}<button data-act="unchip" data-f="${x.f}" data-v="${esc(x.v || "")}" aria-label="Remove ${esc(x.label)}">×</button></span>`).join("")}
+      <button class="link" data-act="clear">Clear all</button></div>`;
+  }
+
+  function venuePage(v, backLabel) {
+    const yes = (obj) => Object.keys(obj).filter((k) => obj[k]).sort(alpha);
+    const items = (list) => list.filter((i) => v.decor[i]).map((i) => `<li>${esc(i)} <span class="muted">(${v.decor[i].map((m) => (m === "rent" ? "for rent" : "included")).join(", ")})</span></li>`).join("");
+    const listOr = (arr, empty) => (arr.length ? `<ul>${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : `<p class="muted">${empty}</p>`);
+    const n = photoCount(v);
+    const decorItems = items([...AESTHETICS, ...LIGHTING]), otherItems = items(OTHER);
+    return `<div class="vp">
+      <div><button class="link" data-act="go" data-page="explore">‹ ${esc(backLabel)}</button></div>
+      <div class="head"><div><h1>${esc(v.name)}</h1><div class="muted">${esc(v.city || "City not listed")}${v.address ? " · " + esc(v.address.split("\n")[0]) : ""}</div></div>
+        <div class="chips">${v.styles.map((s) => `<span class="pill">${esc(s)}</span>`).join("")} ${note("D2")}</div></div>
+      <div class="gal">${carousel(v)}<div class="side">${Array.from({ length: Math.min(n - 1, 2) }, (_, k) => staticPhoto(photoLabel(k + 1))).join("")}</div></div>
+      <div>${note("D6", "front photo + 2–4 more")}</div>
+      <div class="facts"><div><b>Price</b>${esc(priceLine(v))}</div><div><b>Seated</b>${esc(v.seatedText || "—")}</div><div><b>Standing</b>${esc(v.standingText || "—")}</div><div><b>City</b>${esc(v.city || "—")}</div></div>
+      <p style="margin:0;max-width:72ch">${esc(v.description)}</p>
+      <div class="cols">
+        <div class="box"><h3>Parking ${note("D4", "info lives here now")}</h3><p class="pre" style="margin:0">${esc(v.parking || "Not listed by the venue. Larger capacity usually means more parking.")}</p></div>
+        <div class="box"><h3>Features</h3>${listOr(yes(v.flags), "None listed")}</div>
+        <div class="box"><h3>Accessibility</h3>${listOr(yes(v.access), "None listed")}</div>
+        <div class="box"><h3>Audio/Visual</h3>${listOr(yes(v.av), "None listed")}</div>
+        <div class="box"><h3>Decor</h3>${decorItems ? `<ul>${decorItems}</ul>` : `<p class="muted">None listed</p>`}</div>
+        <div class="box"><h3>Other ${note("D3")}</h3>${otherItems ? `<ul>${otherItems}</ul>` : `<p class="muted">None listed</p>`}</div>
+        ${v.times ? `<div class="box"><h3>Time slots</h3><p class="pre" style="margin:0">${esc(v.times)}</p></div>` : ""}
+        ${v.catering ? `<div class="box"><h3>Catering</h3><p class="pre" style="margin:0">${esc(v.catering)}</p></div>` : ""}
+        ${v.contact ? `<div class="box"><h3>Contact</h3><p class="pre" style="margin:0">${esc(v.contact)}</p>${v.link ? `<p style="margin:6px 0 0"><a href="${esc(v.link)}" target="_blank" rel="noopener">Venue website ↗</a></p>` : ""}</div>` : ""}
+      </div></div>`;
+  }
+
+  function navMenus(prefix) {
+    return `<details class="dd"><summary>Location</summary><div class="menu cols">${CITIES.map((c) => `<button data-act="nav" data-kind="city" data-v="${esc(c)}">${esc(c)}</button>`).join("")}</div></details>
+      <details class="dd"><summary>Style</summary><div class="menu">${STYLES.map((s) => `<button data-act="nav" data-kind="style" data-v="${s}">${s}</button>`).join("")}</div></details>
+      <button class="navbtn" data-act="go" data-page="explore" data-fresh="1">Explore ${prefix || ""}</button>`;
+  }
+
+  // ---------- draft definitions ----------
+  // Each draft: own state, own page; render(page) builds the frame, refresh() updates results in place.
+  const DRAFTS = {
+    A: {
+      name: "Refined directory",
+      idea: "The tested wireframe, grown up. Same top navigation and always-visible filter column, now with a search bar, photo cards, and removable filter chips. Lowest risk: it keeps everything that tested well.",
+      tests: ["Location and Style menus add to your current filters instead of wiping them (tree test: nav links cleared filters and cost 3 runs their target).",
+        "Search sits on top of the results and highlights the matching phrase from the description.",
+        "Filter groups are collapsible; each header shows how many are on."],
+      navMode: "add",
+      home(st) {
+        return `<div class="A-home">
+          <div class="A-hero"><h1>Find a reception venue in Utah County</h1>
+            <form class="search" data-act="search-go"><span class="ico"></span><input id="A-home-q" placeholder="Search descriptions: “chandelier”, “barn”, “mountain views”" aria-label="Search venue descriptions"><button class="btn solid">Search</button></form>
+            <div>${note("D7", "searches venue descriptions")}</div>
+            <div class="A-pop"><span class="muted">Popular searches:</span>${Object.entries(PRESETS).map(([k, p]) => `<button class="btn" data-act="preset" data-k="${k}">${p.label}</button>`).join("")} ${note("D5", "renamed")}</div>
+          </div>
+          <div style="display:grid;gap:10px"><h2 style="font-size:16px">Browse by style</h2>
+            <div class="A-styles">${STYLES.map((s) => `<button data-act="nav" data-kind="style" data-v="${s}">${staticPhoto(s + " example")}<span>${s} <span class="muted">(${VENUES.filter((v) => v.styles.includes(s)).length})</span></span></button>`).join("")}</div></div>
+          <div style="display:grid;gap:8px"><h2 style="font-size:16px">Browse by city</h2>
+            <div class="A-cities">${CITIES.map((c) => `<button class="link" data-act="nav" data-kind="city" data-v="${esc(c)}">${esc(c)} <span class="muted">(${VENUES.filter((v) => v.city === c).length})</span></button>`).join("")}</div></div>
+        </div>`;
+      },
+      explore(st) {
+        const secs = sections(st);
+        const open = new Set(["price", "cap", ...secs.filter((s) => sectionActive(st, s.key)).map((s) => s.key)]);
+        return `<div class="A-ex">
+          <aside class="A-side ${this.sideOpen ? "" : "closed"}" aria-label="Filters">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:6px"><strong>Filters</strong><button class="link" data-act="clear">Clear all</button></div>
+            ${secs.map((s) => `<details ${open.has(s.key) ? "open" : ""} data-sec="${s.key}"><summary><span>${s.title}</span><span class="on" data-on="${s.key}">${sectionActive(st, s.key) ? sectionActive(st, s.key) + " on" : ""}</span></summary><div class="inner">${s.note ? `<div style="margin-bottom:4px">${s.note}</div>` : ""}${s.html}</div></details>`).join("")}
+            <div class="muted" style="font-size:12px;padding-top:8px">Parking filter removed. ${note("D4")}</div>
+          </aside>
+          <section class="A-main">
+            <div class="search"><span class="ico"></span><input id="A-q" data-q value="${esc(st.q)}" placeholder="Search venue descriptions" aria-label="Search venue descriptions"></div>
+            <div class="A-bar"><div><button class="btn A-filterbtn" data-act="toggle-side">Filters (${activeCount(st)})</button> <strong data-count></strong></div><span>${note("D7")} ${note("D6", "arrow through photos")}</span></div>
+            <div data-chips></div>
+            <div data-results></div>
+          </section></div>`;
+      },
+      results(st, list) {
+        if (!list.length) return `<div class="empty">No venues match. Remove a filter above to see more.</div>`;
+        return `<div class="A-grid">${list.map((v) => `<article class="A-card">${carousel(v)}
+          <button class="name" data-act="venue" data-id="${v.id}">${esc(v.name)}</button>
+          <div class="meta"><span>${esc(v.city || "—")}</span><span>${esc(priceLine(v))}</span><span>${esc(capLine(v))}</span></div>
+          ${st.q ? `<div class="snip">${snippet(v, st.q)}</div>` : ""}
+          <div class="chips">${v.styles.map((s) => `<span class="pill">${s}</span>`).join("")}</div></article>`).join("")}</div>`;
+      },
+    },
+
+    B: {
+      name: "Search first",
+      idea: "Leads with one big search box, like a travel site. Filters live in a drawer opened from a row of quick buttons, so the results get the full width and photos can be large. Bets on search (D7) and photos (D6) doing most of the work.",
+      tests: ["Location and Style menus replace your filters but show an Undo bar, so nothing is lost silently.",
+        "Quick buttons (Price, Guests, City, Style) open the drawer at that section; “All filters” shows the full hierarchy.",
+        "Results are a 3–4 column photo grid; detail appears only on the venue page."],
+      navMode: "replace",
+      home(st) {
+        const featured = ["castle-park", "wadley-farms", "sleepy-ridge-golf-course", "chillon-reception-center", "shade-home-and-garden", "conrad-ranch"].map((id) => BY_ID[id]).filter(Boolean);
+        const pick = featured.length >= 4 ? featured : VENUES.slice(0, 6);
+        return `<div class="B-home">
+          <div class="B-hero"><h1>What should your reception feel like?</h1>
+            <form class="search" data-act="search-go"><span class="ico"></span><input id="B-home-q" placeholder="Try “chandeliers”, “lake view”, “barn”" aria-label="Search venue descriptions"><button class="btn solid">Search</button></form>
+            <div class="chips">${Object.entries(PRESETS).map(([k, p]) => `<button class="chip" style="padding-right:10px" data-act="preset" data-k="${k}">${p.label}</button>`).join("")}</div>
+            <div>${note("D7")} ${note("D5", "Budget Venues / Spacious Venues")}</div>
+          </div>
+          <div class="B-sec"><h2>Venues to start with</h2><div class="B-tiles">${pick.map((v) => this.card(v, st)).join("")}</div></div>
+        </div>`;
+      },
+      card(v, st) {
+        return `<article class="B-card">${carousel(v)}<div class="t"><button class="name" data-act="venue" data-id="${v.id}">${esc(v.name)}</button><span class="muted">${esc(v.city || "")}</span></div>
+          <div class="muted" style="font-size:13px">${esc(priceLine(v))} · ${esc(capLine(v))}</div>${st.q ? `<div style="font-size:13px">${snippet(v, st.q)}</div>` : ""}</article>`;
+      },
+      explore(st) {
+        const quick = [["price", "Price"], ["cap", "Guests"], ["city", "City"], ["styles", "Style"]];
+        return `<div class="B-wrap"><div class="B-ex">
+          ${this.undo ? `<div class="toast"><span>Showing <strong>${esc(this.undo.label)}</strong>. Your other filters were cleared.</span><span><button class="btn" data-act="undo">Undo</button> <button class="link" data-act="dismiss">Dismiss</button></span></div>` : ""}
+          <div class="B-row"><div class="search"><span class="ico"></span><input id="B-q" data-q value="${esc(st.q)}" placeholder="Search venue descriptions" aria-label="Search venue descriptions"></div>
+            ${quick.map(([k, l]) => `<button class="B-fbtn ${sectionActive(st, k) ? "on" : ""}" data-act="drawer" data-sec="${k}">${l}</button>`).join("")}
+            <button class="B-fbtn" data-act="drawer" data-sec="">All filters${activeCount(st) ? ` (${activeCount(st)})` : ""}</button></div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between"><strong data-count></strong><span>${note("D6", "big photos, arrows on each card")}</span></div>
+          <div data-chips></div><div data-results></div></div>
+          ${this.drawerOpen ? this.drawer(st) : ""}</div>`;
+      },
+      drawer(st) {
+        return `<div class="B-scrim" data-act="drawer-close"></div><aside class="B-drawer" aria-label="All filters">
+          <header><strong>All filters</strong><button class="btn" data-act="drawer-close">Close</button></header>
+          <div class="body">${sections(st).map((s) => `<section id="B-sec-${s.key}"><h3>${s.title} ${s.note || ""}</h3>${s.html}</section>`).join("")}
+            <p class="muted" style="font-size:12px">${note("D4")} Parking is no longer a filter.</p></div>
+          <footer><button class="link" data-act="clear">Clear all</button><button class="btn solid" data-act="drawer-close">Show <span data-count-n></span> venues</button></footer></aside>`;
+      },
+      results(st, list) {
+        if (!list.length) return `<div class="empty">No venues match. Try fewer filters or a different word.</div>`;
+        return `<div class="B-grid">${list.map((v) => this.card(v, st)).join("")}</div>`;
+      },
+    },
+
+    C: {
+      name: "List + preview",
+      idea: "Built for comparing. Filters sit in a tabbed tray across the top; results are a compact list on the left and a large preview on the right with the photo carousel and key facts. You can scan many venues without leaving the page.",
+      tests: ["Location and Style are entry points on the home page that set a starting filter; inside Explore they behave like any other filter.",
+        "One filter group open at a time keeps the page short; tab labels show how many are on.",
+        "The preview panel is where photos (D6) do their work, which may matter most for the Classic vs Luxury confusion in task 1."],
+      navMode: "add",
+      tab: "price",
+      home(st) {
+        return `<div class="C-home">
+          <div class="intro"><h1 style="font-size:26px">46 reception venues in Utah County</h1>
+            <form class="search" data-act="search-go"><span class="ico"></span><input id="C-home-q" placeholder="Search venue descriptions" aria-label="Search venue descriptions"><button class="btn solid">Search</button></form>
+            <div class="chips"><span class="muted">Popular:</span>${Object.entries(PRESETS).map(([k, p]) => `<button class="chip" style="padding-right:10px" data-act="preset" data-k="${k}">${p.label}</button>`).join("")} ${note("D5")}</div></div>
+          <div class="C-doors">
+            <div class="C-door"><h2>Where?</h2>${staticPhoto("Map / city illustration", "wide")}<div class="list">${CITIES.map((c) => `<button data-act="nav" data-kind="city" data-v="${esc(c)}">${esc(c)}</button>`).join("")}</div></div>
+            <div class="C-door"><h2>What feel?</h2>${staticPhoto("Style collage", "wide")}<div class="list">${STYLES.map((s) => `<button data-act="nav" data-kind="style" data-v="${s}">${s}</button>`).join("")}</div></div>
+            <div class="C-door"><h2>Everything</h2>${staticPhoto("Explore preview", "wide")}<p style="margin:0" class="muted">Combine price, guests, features, decor and more.</p><div><button class="btn solid" data-act="go" data-page="explore" data-fresh="1">Explore all venues</button> ${note("D1", "label kept")}</div></div>
+          </div></div>`;
+      },
+      explore(st) {
+        const secs = sections(st);
+        const groups = [
+          { key: "price", title: "Price & guests", keys: ["price", "cap"] },
+          { key: "where", title: "City & style", keys: ["city", "styles"] },
+          { key: "flags", title: "Features", keys: ["flags"] },
+          { key: "decor", title: "Decor", keys: ["decor"] },
+          { key: "other", title: "Other", keys: ["other"] },
+          { key: "av", title: "Audio/Visual", keys: ["av"] },
+          { key: "access", title: "Accessibility", keys: ["access"] },
+        ];
+        const g = groups.find((x) => x.key === this.tab) || groups[0];
+        const inner = g.keys.map((k) => secs.find((s) => s.key === k));
+        const wide = g.keys.length > 1 || k2(g.key);
+        function k2(k) { return k === "decor" || k === "other"; }
+        return `<div class="C-ex">
+          <div class="C-top"><div class="search"><span class="ico"></span><input id="C-q" data-q value="${esc(st.q)}" placeholder="Search venue descriptions" aria-label="Search venue descriptions"></div><div data-chips></div></div>
+          <div class="C-tabs" role="tablist">${groups.map((x) => { const n = x.keys.reduce((a, k) => a + sectionActive(st, k), 0); return `<button role="tab" aria-selected="${x.key === g.key}" data-act="ctab" data-k="${x.key}">${x.title}${n ? ` <span class="c">${n}</span>` : ""}</button>`; }).join("")}</div>
+          <div class="C-tray">${inner.length > 1
+            ? `<div class="grid two">${inner.map((s) => `<div><div class="sub" style="margin-top:0">${s.title} ${s.note || ""}</div>${s.html}</div>`).join("")}</div>`
+            : `${inner[0].note ? `<div style="margin-bottom:4px">${inner[0].note}</div>` : ""}<div class="${wide ? "one" : "grid"}">${inner[0].html}</div>`}</div>
+          <div class="C-split"><div class="C-list" data-results></div><div class="C-prev" data-preview></div></div></div>`;
+      },
+      results(st, list) {
+        if (!list.length) return `<div class="empty" style="margin:16px">No venues match.</div>`;
+        if (!this.sel || !list.some((v) => v.id === this.sel)) this.sel = list[0].id;
+        return `<div style="padding:8px 20px;border-bottom:1px solid var(--line)"><strong data-count></strong></div>` +
+          list.map((v) => `<button class="C-row" data-act="csel" data-id="${v.id}" aria-current="${v.id === this.sel}">${staticPhoto("Front", "")}<span style="min-width:0"><span class="name">${esc(v.name)}</span><br><span class="meta">${esc(v.city || "—")} · ${esc(priceLine(v))} · ${esc(capLine(v))}</span>${st.q ? `<br><span class="meta">${snippet(v, st.q)}</span>` : ""}</span></button>`).join("");
+      },
+      preview(st) {
+        const v = BY_ID[this.sel];
+        if (!v) return `<div class="empty">Pick a venue to preview it here.</div>`;
+        const yes = Object.keys(v.flags).filter((k) => v.flags[k]).sort(alpha);
+        return `${carousel(v, "wide")}<div>${note("D6", "arrow through 3–5 photos")}</div>
+          <div class="rowx"><h2 style="font-size:20px">${esc(v.name)}</h2><button class="btn solid" data-act="venue" data-id="${v.id}">Open full page</button></div>
+          <div class="facts"><div><b>City</b>${esc(v.city || "—")}</div><div><b>Price</b>${esc(priceLine(v))}</div><div><b>Seated</b>${esc(v.seatedText || "—")}</div></div>
+          <p style="margin:0">${st.q ? snippet(v, st.q) : esc(v.description)}</p>
+          <div class="chips">${v.styles.map((s) => `<span class="pill">${s}</span>`).join("")}${yes.map((f) => `<span class="pill">${esc(f)}</span>`).join("")}</div>`;
+      },
+    },
+  };
+  Object.values(DRAFTS).forEach((d) => { d.st = fresh(); d.page = "home"; d.vid = null; d.sideOpen = false; });
+
+  // ---------- review shell ----------
+  const stage = document.getElementById("stage"), brief = document.getElementById("brief");
+  let current = "A";
+  try { const t = localStorage.getItem("venue-drafts-tab"); if (t && (DRAFTS[t] || t === "Q")) current = t; } catch (e) {}
+
+  function setTab(t) {
+    current = t;
+    try { localStorage.setItem("venue-drafts-tab", t); } catch (e) {}
+    document.querySelectorAll(".tab").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
+    render();
+  }
+  function urlFor(d) {
+    if (d.page === "home") return "utahcountyvenues.com/";
+    if (d.page === "venue") return "utahcountyvenues.com/venues/" + d.vid;
+    return "utahcountyvenues.com/explore" + queryString(d.st);
+  }
+  function render() {
+    if (current === "Q") { brief.innerHTML = ""; stage.innerHTML = questions(); return; }
+    const d = DRAFTS[current];
+    brief.innerHTML = `<div class="brief"><div><div class="lbl">Draft ${current}</div><h2>${d.name}</h2><p>${d.idea}</p></div>
+      <div><div class="lbl">What this draft is testing</div><ul>${d.tests.map((t) => `<li>${t}</li>`).join("")}</ul></div></div>`;
+    let body;
+    if (d.page === "home") body = d.home(d.st);
+    else if (d.page === "venue") body = venuePage(BY_ID[d.vid], "Back to results");
+    else body = d.explore(d.st);
+    stage.innerHTML = `<div class="frame"><div class="chrome"><span class="dots"><i></i><i></i><i></i></span><span class="url" data-url>${esc(urlFor(d))}</span></div>
+      <div class="viewport lf"><nav class="lnav"><button class="brand" data-act="go" data-page="home">Utah County Wedding Venues</button>${navMenus()}</nav>${body}</div></div>`;
+    if (d.page === "explore") refresh();
+  }
+  function refresh() {
+    const d = DRAFTS[current];
+    if (d.page !== "explore") return;
+    const list = results(d.st);
+    const r = stage.querySelector("[data-results]"); if (r) r.innerHTML = d.results(d.st, list);
+    const c = stage.querySelector("[data-chips]"); if (c) c.innerHTML = chipRow(d.st);
+    stage.querySelectorAll("[data-count]").forEach((el) => (el.textContent = `Showing ${list.length} of ${VENUES.length} venues`));
+    stage.querySelectorAll("[data-count-n]").forEach((el) => (el.textContent = list.length));
+    stage.querySelectorAll("[data-cnt]").forEach((el) => {
+      const [f, val] = el.dataset.cnt.split("|");
+      const n = countWith(d.st, f, val); el.textContent = n;
+      const on = d.st[f].includes(val); el.closest(".chk").classList.toggle("zero", n === 0 && !on);
+    });
+    stage.querySelectorAll("select[data-f=city]").forEach((sel) => {
+      [...sel.options].forEach((o) => { if (o.value) o.textContent = `${o.value} (${countWith(d.st, "city", o.value)})`; });
+      sel.value = d.st.city;
+    });
+    stage.querySelectorAll("[data-on]").forEach((el) => { const n = sectionActive(d.st, el.dataset.on); el.textContent = n ? n + " on" : ""; });
+    const p = stage.querySelector("[data-preview]"); if (p) p.innerHTML = d.preview(d.st);
+    const u = stage.querySelector("[data-url]"); if (u) u.textContent = urlFor(d);
+  }
+
+  function go(d, page, id) { d.page = page; d.vid = id || null; render(); stage.scrollIntoView({ block: "nearest" }); }
+
+  document.querySelector(".tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-tab]"); if (b) setTab(b.dataset.tab); });
+  document.getElementById("notes-toggle").addEventListener("change", (e) => document.getElementById("shell").classList.toggle("notes-off", !e.target.checked));
+
+  stage.addEventListener("click", (e) => {
+    const el = e.target.closest("[data-act]");
+    if (!el || current === "Q") return;
+    const d = DRAFTS[current], act = el.dataset.act;
+    if (el.closest(".dd")) el.closest(".dd").open = false;
+    if (act === "go") { if (el.dataset.fresh) { d.st = fresh(); d.undo = null; } go(d, el.dataset.page); }
+    else if (act === "venue") go(d, "venue", el.dataset.id);
+    else if (act === "preset") { d.st = fresh(); PRESETS[el.dataset.k].apply(d.st); d.undo = null; go(d, "explore"); }
+    else if (act === "nav") {
+      const kind = el.dataset.kind, v = el.dataset.v;
+      const label = kind === "city" ? "City: " + v : "Style: " + v;
+      if (d.navMode === "replace") { d.undo = activeCount(d.st) ? { prev: clone(d.st), label } : null; d.st = fresh(); }
+      else if (d.page !== "explore" && current === "C") d.st = fresh();
+      if (kind === "city") d.st.city = v; else if (!d.st.styles.includes(v)) d.st.styles.push(v);
+      go(d, "explore");
+    }
+    else if (act === "photo") {
+      const v = BY_ID[el.dataset.id], n = photoCount(v);
+      photoIdx[v.id] = ((photoIdx[v.id] || 0) + Number(el.dataset.dir) + n) % n;
+      stage.querySelectorAll(`[data-car="${v.id}"]`).forEach((box) => { box.outerHTML = carousel(v, [...box.classList].filter((c) => c !== "ph").join(" ")); });
+    }
+    else if (act === "unchip") { removeChip(d.st, el.dataset.f, el.dataset.v); render(); }
+    else if (act === "clear") { d.st = fresh(); render(); }
+    else if (act === "toggle-side") { d.sideOpen = !d.sideOpen; render(); }
+    else if (act === "drawer") { d.drawerOpen = true; render(); const s = el.dataset.sec && stage.querySelector("#B-sec-" + el.dataset.sec); if (s) s.scrollIntoView({ block: "start" }); }
+    else if (act === "drawer-close") { d.drawerOpen = false; render(); }
+    else if (act === "undo") { d.st = d.undo.prev; d.undo = null; render(); }
+    else if (act === "dismiss") { d.undo = null; render(); }
+    else if (act === "ctab") { d.tab = el.dataset.k; render(); }
+    else if (act === "csel") { d.sel = el.dataset.id; stage.querySelectorAll(".C-row").forEach((r) => r.setAttribute("aria-current", String(r.dataset.id === d.sel))); stage.querySelector("[data-preview]").innerHTML = d.preview(d.st); }
+  });
+  stage.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const d = DRAFTS[current], q = e.target.querySelector("input").value.trim();
+    d.st = fresh(); d.st.q = q; d.undo = null; go(d, "explore");
+  });
+  stage.addEventListener("change", (e) => {
+    const el = e.target, f = el.dataset.f;
+    if (!f || current === "Q") return;
+    const st = DRAFTS[current].st;
+    if (el.type === "checkbox") st[f] = el.checked ? [...new Set([...st[f], el.value])] : st[f].filter((x) => x !== el.value);
+    else st[f] = el.value;
+    refresh();
+  });
+  let qTimer;
+  stage.addEventListener("input", (e) => {
+    const el = e.target, d = DRAFTS[current];
+    if (!d) return;
+    if (el.hasAttribute("data-q")) { clearTimeout(qTimer); qTimer = setTimeout(() => { d.st.q = el.value.trim(); refresh(); }, 160); }
+    if (el.dataset.range) {
+      const key = el.dataset.range, isP = key === "p", st = d.st, val = Number(el.value);
+      const loK = isP ? "pmin" : "cmin", hiK = isP ? "pmax" : "cmax";
+      if (el.dataset.end === "lo") { st[loK] = Math.min(val, st[hiK]); el.value = st[loK]; }
+      else { st[hiK] = Math.max(val, st[loK]); el.value = st[hiK]; }
+      const fmt = isP ? pText : cText;
+      stage.querySelectorAll(`[data-rv="${key}lo"]`).forEach((s) => (s.textContent = fmt(st[loK])));
+      stage.querySelectorAll(`[data-rv="${key}hi"]`).forEach((s) => (s.textContent = fmt(st[hiK])));
+      refresh();
+    }
+  });
+  document.addEventListener("click", (e) => { document.querySelectorAll(".dd[open]").forEach((dd) => { if (!dd.contains(e.target)) dd.open = false; }); });
+
+  // ---------- questions ----------
+  function questions() {
+    const Q = [
+      ["Should Location and Style add to the filters someone already has, or start fresh?",
+        "In the tree test, clicking a nav link wiped filters and cost at least three runs their target (tasks 1 and 6). Draft A adds, Draft B replaces with an Undo bar, Draft C treats them as home-page starting points.",
+        ["Add to filters (A)", "Replace + Undo (B)", "Starting points only (C)"]],
+      ["Which filter layout should we carry forward?",
+        "Explore was the first click 45% of the time, so this page carries most of the site. The always-visible column (A) is what we tested. The drawer (B) gives photos more room. Tabs (C) keep the page short but show one group at a time.",
+        ["Sidebar (A)", "Drawer (B)", "Tabbed tray (C)", "Mix"]],
+      ["How much photo should a result card carry?",
+        "D6 calls for a front photo plus 2–4 more with arrows. Every card in A and B has arrows; C keeps the list compact and puts the carousel in the preview. More photos per card means fewer venues on screen at once.",
+        ["Carousel on every card", "Front photo on card, carousel on detail", "Carousel in a preview panel"]],
+      ["What should the search bar match?",
+        "D7 says venue descriptions. The drafts also match venue names, since people will type a name they already know. Should it also match city and feature words (for example “piano” or “Provo”), and should results show the matching sentence as A does?",
+        ["Descriptions only", "Descriptions + names", "Everything on the venue page"]],
+      ["What do we call “Other”?",
+        "D3 uses “Other” for now. It holds cake table, drink station, firepit, photo booth, piano and sweetheart table, each Included or For rent. Generic labels like “Other” tend to get skipped in tree tests, so this is a good candidate for a quick first-click test.",
+        ["Other", "Extras", "Stations & extras", "Add-ons"]],
+      ["Should the home page browse by Style with photos?",
+        "A and C show a photo for each style. Task 1 split between Classic and Luxury, and a picture may settle that faster than the label. It also makes Style a second visual entry point next to Explore.",
+        ["Yes, photo tiles", "Text links are enough"]],
+      ["Is a venue page needed, or is a preview enough?",
+        "C lets people compare without leaving the list. A and B open a full page that also holds the parking details moved out of the filters (D4).",
+        ["Full page always", "Preview + full page", "Preview only"]],
+      ["Who do we design for first: phone or laptop?",
+        "All three drafts stack on narrow screens, but the drawer (B) is the most natural on a phone and the split view (C) only works on a wide screen.",
+        ["Phone first", "Laptop first", "Equal"]],
+      ["What should the next prototype look like?",
+        "Before going hi-fi: do we have a visual direction (palette, type, tone), real photos we can use, and a target tool (keep building in HTML on GitHub Pages, or move to Figma)?",
+        ["Keep HTML on GitHub Pages", "Move to Figma", "Both"]],
+    ];
+    const D = [
+      ["D1", "Keep “Explore” label", "Kept in all three; C uses it for its main home-page button."],
+      ["D2", "Objective filters, multi-style", "Style tags shown as several pills per venue; no interpretive filters added."],
+      ["D3", "“Other” out of Decor", "Own group with its own Included / For rent toggles."],
+      ["D4", "Remove Parking filter", "Gone from every filter list; parking text shown on the venue page."],
+      ["D5", "Budget Venues / Spacious Venues", "Renamed on every home page."],
+      ["D6", "Photos on Explore", "Front photo + 2–4 more per venue (3–5 total), arrow-able on cards or preview."],
+      ["D7", "Search descriptions", "Search bar on home and Explore; works live on all 46 descriptions."],
+    ];
+    return `<div class="qs"><h2>Questions before the real prototype</h2>
+      <p style="margin:0;color:var(--muted);max-width:70ch">Click through each draft first. The answers decide which parts we combine for the hi-fi version.</p>
+      ${Q.map(([h, p, o], i) => `<div class="q"><span class="num">Q${i + 1}</span><h3>${h}</h3><p>${p}</p><div class="opts">${o.map((x) => `<span>${esc(x)}</span>`).join("")}</div></div>`).join("")}
+      <div class="q"><span class="num">✓</span><h3>How each decision shows up in the drafts</h3><div class="matrix" style="margin-top:8px"><table><thead><tr><th>Decision</th><th>Change</th><th>In the drafts</th></tr></thead><tbody>${D.map((r) => `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("")}</tbody></table></div></div>
+    </div>`;
+  }
+
+  setTab(current);
+})();
+</script>
