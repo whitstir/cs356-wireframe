@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Utah County Wedding Venues</title>
+  <meta name="description" content="Compare 46 wedding reception venues in Utah County by price, capacity, style and what comes included.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="site.css?v=1">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+  <div id="taskbar" data-nolog hidden></div>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/" data-log="Home (logo)">
+        <span class="mono" aria-hidden="true">UC</span>
+        <span class="brand-text"><span class="brand-name">Utah County</span><span class="brand-sub">Wedding Venues</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <div class="menu-wrap">
+          <button type="button" class="nav-link" aria-expanded="false" aria-controls="menu-location" data-menu="location" data-log="Location (menu)">Location <span class="chev" aria-hidden="true"></span></button>
+          <div class="menu menu-cols" id="menu-location" hidden></div>
+        </div>
+        <div class="menu-wrap">
+          <button type="button" class="nav-link" aria-expanded="false" aria-controls="menu-style" data-menu="style" data-log="Style (menu)">Style <span class="chev" aria-hidden="true"></span></button>
+          <div class="menu" id="menu-style" hidden></div>
+        </div>
+        <a class="nav-link" href="#/explore" data-fresh data-log="Explore">Explore</a>
+      </nav>
+      <form class="header-search" id="header-search" role="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+        <input type="search" id="header-q" placeholder="Search names, features, descriptions" aria-label="Search every venue detail" autocomplete="off">
+      </form>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <div id="testbar" data-nolog hidden></div>
+  <div id="overlay" data-nolog hidden></div>
+
+  <script src="../data/venues.js?v=21"></script>
+  <script src="../data/tasks.js?v=21"></script>
+  <script src="site.js?v=1"></script>
+</body>
+</html>

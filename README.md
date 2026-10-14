@@ -9,6 +9,8 @@ This README summarizes what the team has discussed and decided so far, so anyone
 | What | URL |
 |---|---|
 | Live site | https://whitstir.github.io/cs356-wireframe/ |
+| Hi-fi site (built from the Figma design, in [site/](site/)) | https://whitstir.github.io/cs356-wireframe/site/ |
+| Hi-fi test mode / results / click log | https://whitstir.github.io/cs356-wireframe/site/?test · [?results](https://whitstir.github.io/cs356-wireframe/site/?results) · [#/log](https://whitstir.github.io/cs356-wireframe/site/#/log) |
 | Start a tree test (one per participant) | https://whitstir.github.io/cs356-wireframe/?test |
 | Tree-test results (view, download CSV/JSON, clear) | https://whitstir.github.io/cs356-wireframe/?results |
 | Click log (normal browsing) | https://whitstir.github.io/cs356-wireframe/#/log |
