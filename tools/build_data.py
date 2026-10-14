@@ -8,22 +8,14 @@ import csv, json, re
 SRC = "data/venues.csv"
 OUT = "data/venues.js"
 
-# City fixes (decisions.md: inferred from description or supplied by user)
-CITY = {
-    "Southworth Hall": "Provo",
-    "Utah Valley Convention Center": "Provo",
-    "Provo Library Ballroom": "Provo",
-    "Chillon Reception Center": "Springville",
-    "Orion Event Venue": "Lindon",
-    "Hobble Creek Event Center": "Springville",
-    "TalonsCove": "Saratoga Springs",
-    "River Bridge Event Center": "Spanish Fork",
+# Styles tagged from the Description column (decisions.md, style tagging rules)
+# Spreadsheet rows left off the site (decisions.md)
+EXCLUDE = {
+    "Stone Gate Event Center",  # Concord, VA, not Utah County
 }
 
-# Styles tagged from the Description column (decisions.md, style tagging rules)
 STYLES = {
     "Sleepy Ridge Golf Course": ["Luxury", "Outdoors"],
-    "Stone Gate Event Center": ["Rustic", "Classic", "Modern"],
     "The White Shanty": ["Modern", "Rustic"],
     "White Willow Reception Center": ["Classic", "Rustic"],
     "Barbwire and Lace": ["Rustic", "Outdoors"],
@@ -136,7 +128,7 @@ def build(r):
     return {
         "id": re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
         "name": name,
-        "city": CITY.get(name, r["City"].strip()),
+        "city": r["City"].strip(),
         "description": r["Description"].strip(),
         "styles": STYLES[name],
         "priceMin": min(prices) if prices else None,
@@ -178,7 +170,8 @@ def build(r):
     }
 
 
-rows = [r for r in csv.DictReader(open(SRC, encoding="utf-8")) if r["Venue Name"].strip()]
+rows = [r for r in csv.DictReader(open(SRC, encoding="utf-8"))
+        if r["Venue Name"].strip() and r["Venue Name"].strip() not in EXCLUDE]
 venues = [build(r) for r in rows]
 decor_cats = {}
 for cat, label, _ in DECOR:

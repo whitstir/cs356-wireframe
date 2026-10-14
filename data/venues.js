@@ -86,63 +86,6 @@ window.VENUES = [
   }
  },
  {
-  "id": "stone-gate-event-center",
-  "name": "Stone Gate Event Center",
-  "city": "Concord",
-  "description": "A small, intimate ranch-style reception venue with vintage, classic, modern, bohemian, and rustic-barn character, designed for couples seeking a flexible and distinctive setting for their wedding celebration.",
-  "styles": [
-   "Rustic",
-   "Classic",
-   "Modern"
-  ],
-  "priceMin": null,
-  "priceMax": null,
-  "priceText": "No pricing information stated on the official website",
-  "seated": null,
-  "seatedText": "",
-  "standing": 100,
-  "standingText": "100",
-  "decor": {},
-  "av": {
-   "Microphone": false,
-   "TV": false,
-   "Sound system": false,
-   "Projector": false
-  },
-  "access": {
-   "Wheelchair accessible": false,
-   "Elevator": false,
-   "ADA restrooms": false,
-   "Accessible parking": false
-  },
-  "flags": {
-   "Designated lot": false,
-   "Linens included": false,
-   "Indoors": false,
-   "Outdoors": false,
-   "Sparklers allowed": false,
-   "Cleanup crew": false,
-   "Outside catering allowed": false,
-   "Bridal room": false,
-   "Groom's room": false,
-   "Event coordinator": false
-  },
-  "raw": {
-   "Venue Name": "Stone Gate Event Center",
-   "link": "https://stonegatevenue.com/",
-   "Description": "A small, intimate ranch-style reception venue with vintage, classic, modern, bohemian, and rustic-barn character, designed for couples seeking a flexible and distinctive setting for their wedding celebration.",
-   "Standard Price Range": "No pricing information stated on the official website",
-   "Packages and Prices": "No package prices stated on the official website",
-   "Standing Capacity": "100",
-   "Style": "Ranch-style\nVintage\nClassic\nModern\nBohemian\nRustic barn",
-   "Full Address": "10609 Richmond Hwy, Concord, VA 24538",
-   "City": "Concord",
-   "extras": "Bounce house\nCarriage ride\nPrincess experience\nUnicorn experience",
-   "Important Notes": "Maximum capacity stated on the official website: 100 guests",
-   "Contact Information": "Phone: (434) 509-3966\nPhone: (434) 660-2200\nEmail: StoneGateVenue@gmail.com"
-  }
- },
- {
   "id": "the-white-shanty",
   "name": "The White Shanty",
   "city": "Provo",
@@ -976,6 +919,7 @@ window.VENUES = [
    "Other Decor Included": "Tables\nChairs",
    "Other Decor for Rent": "White linens for 15 round tables and 5 buffet tables — $99",
    "outside/inside": "Inside",
+   "City": "Provo",
    "sound system": "Yes\nIn-house sound system\nOne wireless microphone",
    "extras": "DJ — $299\nPhoto booth — $199\nWhole Enchilada package — $799",
    "Important Notes": "Early-bird pricing is 25-40% below regular pricing; event end time is 8:30pm; extras receive 20-40% discounts except linens, PA and DJ",
@@ -1254,6 +1198,7 @@ window.VENUES = [
    "Linens Included": "TRUE",
    "Other Decor Included": "Black or white chair covers and ties\nHouse centerpieces\nDance floor for dinner or reception package\nStaging\n2 gift or registration tables\nElectrical\nSecurity attendant\nEvent insurance",
    "outside/inside": "Both",
+   "City": "Provo",
    "sound system": "Yes\nHouse sound\nMicrophone\nAudio connection",
    "extras": "Timpanogos Terrace — $1,500 add-on\nCake attendant — $75\nProfessional event managers\nFree public Wi-Fi",
    "Catering": "Exclusive food and beverage provider\nIn-house culinary team",
@@ -1385,6 +1330,7 @@ window.VENUES = [
    "Linens Included": "FALSE",
    "Other Decor Included": "Provided library tables and chairs\nStage\nBrimhall Room",
    "outside/inside": "Inside",
+   "City": "Provo",
    "sound system": "Yes\nSpeakers\nMicrophones\nProjector\nScreen",
    "extras": "Free audiovisual equipment\nBrimhall Room included\nBaby grand piano",
    "Deposit Policy": "Security or cleaning deposit: $200 for Mon-Thu 9am-6pm; $300 for 9am-11pm blocks; $500 for Mon-Sat 9am-12am\n100% refund if canceled more than 90 days before the event; no refund after",
@@ -2015,6 +1961,7 @@ window.VENUES = [
    "Style": "Modern\nElegant",
    "Other Decor Included": "Tables\nChairs\nCake table\nBanquette seating\nEntrance table\nEasel\nChalkboard",
    "outside/inside": "Both",
+   "City": "Lindon",
    "sound system": "Yes\nProfessional sound system\n2 wireless microphones",
    "extras": "Patio\nDeck\nWarming kitchen\nOn-site staff\nLarge getting-ready suite",
    "cleanup crew": "Included",
@@ -2890,6 +2837,7 @@ window.VENUES = [
    "Packages and Prices": "Decor package with official site inclusions — $350\nPremium decor package with official site inclusions — $500",
    "Style": "Scenic\nSeasonal\nLush\nPicturesque",
    "outside/inside": "Both",
+   "City": "Springville",
    "extras": "Golf-course setting\nSeasonal grounds\nWedding decor options",
    "Important Notes": "Current official website provides venue description and decor pricing but does not publish a venue rental rate, capacity, address or full contact block."
   }
@@ -2978,7 +2926,7 @@ window.VENUES = [
  {
   "id": "river-bridge-event-center",
   "name": "River Bridge Event Center",
-  "city": "Spanish Fork",
+  "city": "Springville",
   "description": "A polished reception venue in Spanish Fork with a 7,000-square-foot ballroom, indoor and outdoor ceremony spaces, built-in audio, elegant furnishings, and flexible packages for intimate or large celebrations.",
   "styles": [
    "Classic"
@@ -3217,7 +3165,7 @@ window.VENUES = [
  {
   "id": "chillon-reception-center",
   "name": "Chillon Reception Center",
-  "city": "Springville",
+  "city": "Spanish Fork",
   "description": "A full-service reception venue in Springville with elegant ballrooms, indoor and outdoor options, in-house catering, custom menus, integrated audio and lighting, and coordinated support for weddings.",
   "styles": [
    "Luxury",
@@ -3264,6 +3212,7 @@ window.VENUES = [
    "Seated Capacity": "50-200",
    "Style": "Elegant\nClassic\nFull-service",
    "outside/inside": "Both",
+   "City": "Spanish Fork",
    "sound system": "Yes\nIntegrated audio\nIntegrated lighting\nDJ included in Option A",
    "extras": "In-house catering\nCake service\nDJ\nSecurity\nIndoor and outdoor ceremony options",
    "cleanup crew": "Included in Option A",
@@ -3355,7 +3304,7 @@ window.VENUES = [
  {
   "id": "talonscove",
   "name": "TalonsCove",
-  "city": "Saratoga Springs",
+  "city": "Spanish Fork",
   "description": "A scenic golf and country-club reception venue overlooking Utah Lake and the Wasatch Mountains, with elegant indoor rooms, outdoor ceremony options, custom menus, and professional event support.",
   "styles": [
    "Luxury",
@@ -3402,6 +3351,7 @@ window.VENUES = [
    "Seated Capacity": "200 formal dining",
    "Style": "Elegant\nScenic\nGolf-course\nMountain",
    "outside/inside": "Inside",
+   "City": "Spanish Fork",
    "sound system": "Yes\nState-of-the-art audio/visual\nHD displays\nProjection\nPremium sound",
    "extras": "Utah Lake views\nWasatch Mountain views\nOutdoor ceremony space\nGazebo\nWaterfall\nWedding lawn\nResort-style clubhouse",
    "Catering": "In-house culinary team\nCustom menus\nOutside caterer policy not stated",

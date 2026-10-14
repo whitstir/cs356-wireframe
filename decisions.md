@@ -4,7 +4,7 @@ Working notes for the Utah County wedding venue wireframe. Edit freely — this 
 
 Visual design rules come from [specs.md](specs.md): black and white only, one font, generic boxes, no imagery.
 
-Data source: `Wedding Reception Project - Venues.csv` (46 venues, all kept).
+Data source: `Wedding Reception Project - Venues.csv` (46 venues; 45 shown, Stone Gate excluded).
 
 ## Site purpose
 - A presentation of **wedding venues in Utah County**, built as a wireframe for usability testing.
@@ -78,7 +78,7 @@ Each item can be matched as **Included**, **For rent**, or both (user checks one
 | # | Venue | City | Styles |
 |---|---|---|---|
 | 1 | Sleepy Ridge Golf Course | Orem | Luxury, Outdoors |
-| 2 | Stone Gate Event Center | Concord | Rustic, Classic, Modern |
+| 2 | Stone Gate Event Center | Concord | Excluded from site (2026-10-14) |
 | 3 | The White Shanty | Provo | Modern, Rustic |
 | 4 | White Willow Reception Center | Provo | Classic, Rustic |
 | 5 | Barbwire and Lace | Pleasant Grove | Rustic, Outdoors |
@@ -117,19 +117,19 @@ Each item can be matched as **Included**, **For rent**, or both (user checks one
 | 38 | Willow Springs Event Center | Springville | Modern |
 | 39 | Hobble Creek Event Center | Springville | Outdoors |
 | 40 | Northridge Valley Event Center | Mapleton | Modern, Classic |
-| 41 | River Bridge Event Center | Spanish Fork | Classic |
+| 41 | River Bridge Event Center | Springville | Classic |
 | 42 | The Oaks at Spanish Fork | Spanish Fork | Modern |
 | 43 | Maplewood Events | Pleasant Grove | Modern |
-| 44 | Chillon Reception Center | Springville | Luxury, Classic |
+| 44 | Chillon Reception Center | Spanish Fork | Luxury, Classic |
 | 45 | Emerald Eve Events | Springville | Rustic, Modern |
-| 46 | TalonsCove | Saratoga Springs | Luxury, Outdoors |
+| 46 | TalonsCove | Spanish Fork | Luxury, Outdoors |
 
 ## Open questions
 _None — all resolved. See decisions 19–24._
 
 ## Decisions (Q&A)
 1. **Leaves = individual venue pages.** Filters and navigation narrow a list of venues; clicking a venue shows its endpoint page.
-2. **Venue data comes from the CSV.** All 46 rows kept, including the out-of-county ones and Sun River Gardens.
+2. **Venue data comes from the CSV.** 45 of 46 rows kept (Stone Gate Event Center in Concord, VA is excluded in `tools/build_data.py` `EXCLUDE`), including the other out-of-county ones and Sun River Gardens.
 3. **Global nav Location/Style = dropdown menus.** Choosing a city or style opens the Explore page with that filter pre-set (e.g., Style → Rustic → Explore with Rustic checked → Venue). *(Changed from separate list pages.)*
 4. **Explore Style filter = checkboxes, match ANY.** Checking Rustic + Modern shows venues tagged Rustic OR Modern.
 5. **Decor, Audio/Visual, and Accessibility = expandable (accordion) sections with checkboxes, match ALL.** Checking Microphone + Projector shows venues that have both.
@@ -150,7 +150,7 @@ _None — all resolved. See decisions 19–24._
 17. **Venue endpoint page:** summary box (name, city, description, price, seated + standing capacity, styles, key attributes), plus an expandable "All details" section with every CSV field, organized into groups and hiding empty fields.
 18. **Outdoors style = nature-centered setting** (farms, gardens, ranches, ponds, greenhouses, golf grounds). The Outdoors checkbox separately means "has outdoor space".
 19. **"Elegant" venues are tagged Classic** unless they are super fancy (country club, castle, resort, hotel, full-service, destination estate), which are Luxury.
-20. **Cities supplied:** Orion → Lindon, Hobble Creek → Springville, TalonsCove → Saratoga Springs, River Bridge → Spanish Fork.
+20. **Cities come from the spreadsheet** (City column of the team's Drive sheet, synced 2026-10-14). The build script no longer overrides them.
 21. **Barteli Event Venue = Classic.**
 22. **Decor items derived from the CSV** (see Decor items table).
 23. **No more carousel tiles** for now (Budget, Spacious, Open catering only).

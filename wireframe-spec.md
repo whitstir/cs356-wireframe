@@ -20,7 +20,7 @@ Final build spec for the wireframe and tree-test instrument. Assignment requirem
 - Works at phone width with no horizontal scroll.
 
 ## 2. Content: information blocks
-- **46 venues** from `data/venues.csv`. Each venue is a leaf (information block) with its own endpoint page.
+- **45 venues** from `data/venues.csv` (Stone Gate Event Center is excluded). Each venue is a leaf (information block) with its own endpoint page.
 - `tools/build_data.py` converts the CSV into `data/venues.js`. Re-run it after editing the CSV.
 - Data rules (price range overlap, max seated capacity, blank = no, included-only checkboxes, etc.) are listed in decisions.md → Data rules.
 
@@ -33,7 +33,7 @@ Home
 ├── Style ─────── [Rustic | Luxury | Modern | Outdoors | Classic] ── Explore (style pre-set) ── [Venue]
 └── Explore ───── (filter page) ── [Venue]
 ```
-- **Location** (plain list of links, always visible): 15 cities (Alpine, American Fork, Carriere, Concord, Lehi, Lindon, Mapleton, Orem, Pleasant Grove, Provo, Riverton, Saratoga Springs, Spanish Fork, Springville, Sundance). Choosing one opens Explore with that city selected; users can keep refining.
+- **Location** (plain list of links, always visible): 13 cities (Alpine, American Fork, Carriere, Lehi, Lindon, Mapleton, Orem, Pleasant Grove, Provo, Riverton, Spanish Fork, Springville, Sundance). Choosing one opens Explore with that city selected; users can keep refining.
 - **Style** (plain list of links, always visible): 5 styles. Choosing one opens Explore with that style checked. A venue can appear under several styles.
 - Every venue is reachable through Location, Style (each venue has at least one style), and Explore.
 
