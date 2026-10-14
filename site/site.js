@@ -201,9 +201,9 @@
     else st[f] = st[f].filter((x) => x !== v);
   }
   const PRESETS = {
-    budget: { label: "Budget Venues", desc: "Venue rental from $2,000 or less", tone: "var(--blush-100)", apply: (st) => { st.pmax = 2000; } },
-    spacious: { label: "Spacious Venues", desc: "Seats 200 or more guests", tone: "var(--sage-100)", apply: (st) => { st.cmin = 200; } },
-    catering: { label: "Outside catering allowed", desc: "Bring your own caterer or family cooks", tone: "var(--gold-200)", apply: (st) => { st.flags.push("Outside catering allowed"); } },
+    budget: { label: "Budget Venues", desc: "Venue rental from $2,000 or less", apply: (st) => { st.pmax = 2000; } },
+    spacious: { label: "Spacious Venues", desc: "Seats 200 or more guests", apply: (st) => { st.cmin = 200; } },
+    catering: { label: "Outside catering allowed", desc: "Bring your own caterer or family cooks", apply: (st) => { st.flags.push("Outside catering allowed"); } },
   };
   const presetState = (k) => { const st = fresh(); PRESETS[k].apply(st); return st; };
 
@@ -564,7 +564,7 @@
           <h1 class="display-xl">A beautiful place<br>to <span class="accent">begin.</span></h1>
           <form class="big-search" id="home-search" role="search">${I.search}
             <input id="home-q" type="search" placeholder="Try “firepit”, “piano”, “outside catering”…" aria-label="Search every venue detail" autocomplete="off">
-            <button class="btn btn-primary" data-log="Home search button">Search ${I.chevR}</button>
+            <button class="btn btn-accent" data-log="Home search button">Search ${I.chevR}</button>
           </form>
         </div>
         <div class="hero-photo">
@@ -581,7 +581,7 @@
           </div>
           <div class="pop-grid">${Object.entries(PRESETS).map(([k, p]) => `
             <a class="pop-card" href="${exploreHash(presetState(k))}" data-preset="${k}" data-log="Popular search: ${esc(p.label)}">
-              <span class="pop-num" style="background:${p.tone}">${results(presetState(k)).length}</span>
+              <span class="pop-num">${results(presetState(k)).length}</span>
               <span class="txt"><h3 class="heading-s">${esc(p.label)}</h3><span class="small muted">${esc(p.desc)}</span></span>
               <svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>`).join("")}</div>
         </div>
@@ -813,7 +813,7 @@
           <div><p class="eyebrow">${esc([v.city || "City not listed", ...v.styles].join("  ·  "))}</p><h1 class="display-l">${esc(v.name)}</h1></div>
           <div class="venue-actions">
             ${phone ? `<a class="btn btn-outline" href="tel:${esc(phone.replace(/[^\d]/g, ""))}" data-log="Call venue">Call ${esc(phone.trim())} ${I.chevR}</a>` : ""}
-            ${/^https?:/i.test(link) ? `<a class="btn btn-gold" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (top)">Visit website</a>` : ""}
+            ${/^https?:/i.test(link) ? `<a class="btn btn-accent" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (top)">Visit website</a>` : ""}
           </div>
         </div>
         <div class="gallery">
@@ -838,7 +838,7 @@
           <p class="heading-m" style="margin:0;font-size:32px">${v.priceMin != null ? esc(priceLine(v)) : "Ask the venue for pricing"}</p>
           ${addr ? `<div class="kv"><p class="eyebrow">Address</p><p class="pre" style="margin:0">${esc(addr)}</p></div>` : ""}
           ${contact ? `<div class="kv"><p class="eyebrow">Contact</p><p class="pre" style="margin:0">${esc(contact)}</p></div>` : ""}
-          ${/^https?:/i.test(link) ? `<a class="btn btn-gold" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (plan a visit)">Visit website</a>` : ""}
+          ${/^https?:/i.test(link) ? `<a class="btn btn-primary" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (plan a visit)">Visit website</a>` : ""}
           ${sims.length ? `<a class="btn btn-outline" href="#similar" data-act="to-similar" data-log="Compare with similar">Compare with similar ${I.chevR}</a>` : ""}
         </aside>
       </div>
