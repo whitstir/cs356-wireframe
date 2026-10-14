@@ -91,6 +91,13 @@ main:focus { outline: none; }
 .ph { position: relative; overflow: hidden; display: grid; place-items: center; align-content: center; gap: 8px; background: linear-gradient(135deg, var(--rose-tint) 0%, var(--ivory) 55%, var(--rose-tint) 100%); color: var(--rose); }
 .ph .arch { width: 40px; height: 40px; fill: none; stroke: var(--rose); stroke-width: 1; opacity: .75; }
 .ph .cap { font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--rose-shade); opacity: .85; text-align: center; padding: 0 12px; }
+.ph.photo { background: var(--rose-tint); }
+.ph.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-credit { margin: -8px 0 0; }
+.photo-credit a, .credit-row a { color: var(--rose-shade); }
+.credit-list { display: grid; margin-top: 32px; border-top: 1px solid var(--line); }
+.credit-row { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 90px; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+@media (max-width: 640px) { .credit-row { grid-template-columns: 1fr; gap: 2px; } }
 .carousel { position: relative; }
 .carousel .ph { height: 100%; }
 .car-btn { position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; width: 32px; height: 32px; border-radius: 50%; border: 0; background: rgb(255 255 255 / .92); display: grid; place-items: center; box-shadow: 0 2px 6px rgb(0 0 0 / .08); }
@@ -289,6 +296,8 @@ mark { background: var(--rose-tint); color: inherit; padding: 0 1px; }
 .scenario { font-family: var(--serif); font-size: 26px; line-height: 1.3; padding: 20px 24px; background: var(--white); border-left: 3px solid var(--rose); }
 .photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
 .photo-grid .ph { aspect-ratio: 4 / 3; border-radius: 2px; }
+.photo-grid figure { margin: 0; display: grid; gap: 6px; }
+.photo-grid figcaption a { color: var(--rose-shade); }
 .dialog.wide { width: min(1000px, 100%); }
 .rating { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; }
 .rating legend { font-weight: 500; margin-bottom: 8px; }

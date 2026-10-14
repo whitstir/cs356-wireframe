@@ -221,13 +221,38 @@
   function openActive(extra = []) { S.open = new Set([...GROUPS.map((g) => g.key).filter((k) => sectionActive(S.st, k)), ...extra]); }
 
   // ---------- Shared renderers ----------
-  function photoCount(v) { let h = 0; for (const c of v.id) h = (h * 31 + c.charCodeAt(0)) >>> 0; return 3 + (h % 3); } // front + 2–4 more (D6)
+  // Real photos come from ../data/photos.js, linked from each venue's own website (credited on the
+  // venue page and on #/credits). A venue without photos keeps the placeholder look.
+  const PHOTOS = window.PHOTOS || {};
+  // Lead photo is the front if there is one, then the indoor (reception hall), then the outdoor.
+  const KIND_ORDER = { front: 0, indoor: 1, outdoor: 2, extra: 3 };
+  const shots = (v) => (PHOTOS[v.id] ? PHOTOS[v.id].photos.slice().sort((a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind]) : []);
+  const KIND_LABEL = { front: "Front of venue", indoor: "Reception hall", outdoor: "Outdoors", extra: "More of the venue" };
+  function photoCount(v) {
+    if (shots(v).length) return shots(v).length;
+    let h = 0; for (const c of v.id) h = (h * 31 + c.charCodeAt(0)) >>> 0; return 3 + (h % 3); // front + 2–4 more (D6)
+  }
   const PHOTO_LABELS = ["Front of venue", "Reception hall", "Ceremony space", "Grounds", "Details"];
   const ph = (cap, cls = "") => `<div class="ph ${cls}" role="img" aria-label="Photo placeholder: ${esc(cap)}">${I.arch}<span class="cap">${esc(cap)}</span></div>`;
+  // Photo i of venue v (real if available, otherwise the placeholder with the old caption).
+  function pic(v, i, cls = "") {
+    const s = shots(v)[i];
+    if (!s) return ph(i === 0 ? "Front of venue" : PHOTO_LABELS[i] || "Photo", cls);
+    return `<div class="ph photo ${cls}"><img src="${esc(s.src)}" alt="${esc(`${v.name}: ${KIND_LABEL[s.kind]}`)}" loading="lazy" referrerpolicy="no-referrer"></div>`;
+  }
+  const hostOf = (url) => { try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return url; } };
+  const creditLink = (v) => PHOTOS[v.id] ? `<a href="${esc(PHOTOS[v.id].source)}" target="_blank" rel="noopener" data-log="Photo credit: ${esc(v.name)}">${esc(hostOf(PHOTOS[v.id].source))}</a>` : "";
+  // A hot-linked photo the venue stops serving falls back to the placeholder background.
+  document.addEventListener("error", (e) => {
+    const img = e.target;
+    if (img.tagName === "IMG" && img.parentElement && img.parentElement.classList.contains("photo")) {
+      img.parentElement.classList.remove("photo"); img.parentElement.innerHTML = `${I.arch}<span class="cap">Photo unavailable</span>`;
+    }
+  }, true);
   function carousel(v) {
     const n = photoCount(v), i = S.photo[v.id] || 0;
     return `<div class="carousel" data-car="${v.id}">
-      ${ph(i === 0 ? "Front of venue" : PHOTO_LABELS[i])}
+      ${pic(v, i)}
       <button type="button" class="car-btn prev" data-act="photo" data-id="${v.id}" data-dir="-1" aria-label="Previous photo of ${esc(v.name)}" data-log="Photo back: ${esc(v.name)}">${I.chevL}</button>
       <button type="button" class="car-btn next" data-act="photo" data-id="${v.id}" data-dir="1" aria-label="Next photo of ${esc(v.name)}" data-log="Photo forward: ${esc(v.name)}">${I.chevR}</button>
       <div class="dots" aria-label="Photo ${i + 1} of ${n}">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</div>
@@ -262,7 +287,7 @@
         <nav class="footer-col" aria-label="Explore"><p class="eyebrow">Explore</p><a href="#/explore" data-fresh data-log="Footer: All venues">All venues</a>
           ${Object.entries(PRESETS).map(([k, p]) => `<a href="${exploreHash(presetState(k))}" data-preset="${k}" data-log="Footer popular search: ${esc(p.label)}">${esc(p.label)}</a>`).join("")}</nav>
       </div>
-      <div class="wrap footer-base"><span>A CS 356 prototype · venue details from each venue's official website</span>${MODE === "normal" ? `<a href="#/log" data-log="Click log">Click log</a>` : ""}</div>`;
+      <div class="wrap footer-base"><span>A CS 356 prototype · venue details and photos from each venue's official website · <a href="#/credits" data-log="Footer: Photo credits">Photo credits</a></span>${MODE === "normal" ? `<a href="#/log" data-log="Click log">Click log</a>` : ""}</div>`;
   }
   function closeMenus(except) {
     $$(".nav-link[data-menu]").forEach((b) => { if (b !== except) { b.setAttribute("aria-expanded", "false"); $("#" + b.getAttribute("aria-controls")).hidden = true; } });
@@ -547,6 +572,7 @@
     if (!section) viewHome();
     else if (section === "explore") viewExplore(r.query);
     else if (section === "venue" && BY_ID[arg]) viewVenue(BY_ID[arg]);
+    else if (section === "credits") viewCredits();
     else if (section === "log" && MODE === "normal") viewLog();
     else viewNotFound();
     $("#header-q").value = section === "explore" ? S.st.q : "";
@@ -558,6 +584,12 @@
   function viewHome() {
     document.title = "Utah County Wedding Venues";
     const feat = BY_ID[FEATURED_ID] || VENUES[0];
+    // Each style tile shows the front photo of a different venue that has that style.
+    const used = new Set([feat.id]), cover = {};
+    STYLES.forEach((s) => {
+      const v = VENUES.find((x) => x.styles.includes(s) && shots(x).length && shots(x)[0].kind === "front" && !used.has(x.id));
+      if (v) { used.add(v.id); cover[s] = v; }
+    });
     app.innerHTML = `
       <section class="wrap hero">
         <div>
@@ -569,7 +601,7 @@
         </div>
         <div class="hero-photo">
           <span class="ring" aria-hidden="true"></span>
-          ${ph("Featured venue photo")}
+          ${shots(feat).length ? pic(feat, 0) : ph("Featured venue photo")}
           <a class="featured" href="#/venue/${feat.id}" data-log="Featured: ${esc(feat.name)}"><span class="eyebrow">Featured · ${esc(feat.city)}</span><span class="heading-s">${esc(feat.name)}</span></a>
         </div>
       </section>
@@ -591,7 +623,7 @@
           <div class="section-head"><div><p class="eyebrow">Browse by style</p><h2 class="display-l" id="style-h">Find your <span class="accent">aesthetic</span></h2></div></div>
           <div class="style-grid">${STYLES.map((s) => `
             <a class="style-tile" href="${exploreHash({ ...fresh(), styles: [s] })}" data-nav="styles" data-v="${s}" data-log="Style: ${s}">
-              ${ph(s + " photo")}<span class="cap-wrap"><span class="heading-m">${s}</span><span class="label">${plural(VENUES.filter((v) => v.styles.includes(s)).length, "venue")}</span></span></a>`).join("")}</div>
+              ${cover[s] ? pic(cover[s], 0) : ph(s + " photo")}<span class="cap-wrap"><span class="heading-m">${s}</span><span class="label">${plural(VENUES.filter((v) => v.styles.includes(s)).length, "venue")}</span></span></a>`).join("")}</div>
           <p class="small muted note-line">A venue can carry more than one style, so you will see some favorites in several places.</p>
         </div>
       </section>`;
@@ -818,9 +850,10 @@
         </div>
         <div class="gallery">
           ${carousel(v)}
-          <div class="side n${n - 1}">${PHOTO_LABELS.slice(1, n).map((c) => ph(c)).join("")}</div>
+          <div class="side n${n - 1}">${Array.from({ length: n - 1 }, (_, k) => pic(v, k + 1)).join("")}</div>
           <button type="button" class="all-photos" data-act="all-photos" data-id="${v.id}" data-log="All photos: ${esc(v.name)}">${I.grid} All ${n} photos</button>
         </div>
+        ${PHOTOS[v.id] ? `<p class="small muted photo-credit">Photos: ${creditLink(v)} · <a href="#/credits" data-log="Photo credits (venue)">Photo credits</a></p>` : ""}
         <div class="glance">
           <div><p class="eyebrow">Price</p><p class="heading-s" style="margin:0">${esc(priceLine(v))}</p><p class="small muted" style="margin:0">${v.priceMin != null ? (raw(v, "Packages and Prices") ? "Venue rental; packages in Detailed information" : "Venue rental") : "Not listed on the venue's website"}</p></div>
           <div><p class="eyebrow">Capacity</p><p class="heading-s" style="margin:0">${v.seated != null ? esc(v.seated + " seated") : "Not listed"}</p><p class="small muted" style="margin:0">${esc([seatedSub, v.standing != null ? v.standing + " standing" : ""].filter(Boolean).join(" · "))}</p></div>
@@ -845,6 +878,20 @@
       ${sims.length ? `<section class="band-cream section" id="similar" aria-labelledby="sim-h"><div class="wrap">
         <div class="section-head"><div><p class="eyebrow">You might also like</p><h2 class="display-l" id="sim-h">More <span class="accent">${esc(v.styles.join(" & "))}</span> venues</h2></div></div>
         <div class="similar-grid">${sims.map((x) => card(x)).join("")}</div></div></section>` : ""}`;
+  }
+
+  // ---------- Photo credits ----------
+  function viewCredits() {
+    document.title = "Photo credits — Utah County Wedding Venues";
+    app.innerHTML = `<div class="wrap page credits">
+      <p class="eyebrow">Photo credits</p>
+      <h1 class="display-l">Every photo, <span class="accent">credited</span></h1>
+      <p class="body-l muted">Venue photos are shown directly from each venue's own website and belong to that venue or its photographers. They appear here for a CS 356 class prototype only.</p>
+      <div class="credit-list">${VENUES.map((v) => `<div class="credit-row">
+        <a href="#/venue/${v.id}" data-log="Credits venue: ${esc(v.name)}">${esc(v.name)}</a>
+        <span>${PHOTOS[v.id] ? creditLink(v) : "No photos"}</span>
+        <span class="small muted">${plural(shots(v).length, "photo")}</span></div>`).join("")}</div>
+    </div>`;
   }
 
   // ---------- Not found ----------
@@ -873,7 +920,8 @@
     else if (act === "all-photos") {
       const v = BY_ID[el.dataset.id];
       showOverlay(`<div class="dialog wide" role="dialog" aria-modal="true" aria-label="Photos of ${esc(v.name)}"><div style="display:flex;justify-content:space-between;align-items:center"><h1>${esc(v.name)}</h1><button type="button" class="icon-btn" id="close-photos" aria-label="Close" data-log="Close photos">${I.x}</button></div>
-        <div class="photo-grid">${Array.from({ length: photoCount(v) }, (_, i) => ph(i === 0 ? "Front of venue" : PHOTO_LABELS[i])).join("")}</div></div>`, true);
+        <div class="photo-grid">${Array.from({ length: photoCount(v) }, (_, i) => `<figure>${pic(v, i)}${shots(v)[i]
+          ? `<figcaption class="small muted">${esc(KIND_LABEL[shots(v)[i].kind])} · Photo: ${creditLink(v)}</figcaption>` : ""}</figure>`).join("")}</div></div>`, true);
       $("#close-photos").onclick = hideOverlay;
     } else if (act === "to-similar") { e.preventDefault(); $("#similar").scrollIntoView({ behavior: "smooth" }); }
   });
