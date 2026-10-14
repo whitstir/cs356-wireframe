@@ -162,6 +162,8 @@ main:focus { outline: none; }
 .icon-btn { background: none; border: 0; padding: 4px; display: grid; place-items: center; }
 .icon-btn svg { width: 18px; height: 18px; fill: none; stroke: var(--ink-600); stroke-width: 1.5; stroke-linecap: round; }
 .explore { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 48px; align-items: start; padding-bottom: 112px; }
+/* the sidebar column runs the full height of the results, so the filter panel can stay in view while venues scroll */
+.explore > .side-col { align-self: stretch; }
 .filters { position: sticky; top: calc(var(--header-h) + 16px); max-height: calc(100vh - var(--header-h) - 32px); overflow: auto; background: var(--white); border: 1px solid var(--line); border-radius: 4px; padding: 24px 24px 12px; overscroll-behavior: contain; }
 .filters-head { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 12px; }
 .fgroup { border-top: 1px solid var(--line); }
@@ -357,3 +359,25 @@ th { font-weight: 500; background: var(--cream); white-space: nowrap; }
   .big-search .btn { width: 100%; }
   .dialog { padding: 24px; }
 }
+
+/* ---------- search suggestions ---------- */
+.header-search, .big-search { position: relative; }
+.suggest { position: absolute; top: calc(100% + 8px); left: 0; right: 0; z-index: 45; background: var(--white); border: 1px solid var(--line); border-radius: 4px; box-shadow: var(--shadow); padding: 6px; max-height: min(70vh, 520px); overflow: auto; }
+.header-search .suggest { left: auto; width: max(100%, 420px); }
+.suggest ul { list-style: none; margin: 0; padding: 0; }
+.sg { display: grid; gap: 1px; padding: 9px 12px; border-radius: 2px; cursor: pointer; }
+.sg:hover, .sg.active { background: var(--blush-100); }
+.sg-label { font-size: 14px; }
+.sg-meta { font-size: 12px; color: var(--gold-700); }
+.help { display: grid; gap: 6px; }
+.help.in-dd { padding: 10px 8px; }
+.help-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.help-tip { display: grid; gap: 2px; text-align: left; padding: 10px 12px; background: var(--ivory); border: 1px solid var(--line); border-radius: 2px; }
+.help-tip:hover { border-color: var(--gold-500); background: var(--blush-100); }
+.help-tip .label { font-size: 12px; }
+.empty-panel { display: grid; gap: 10px; padding: 32px; background: var(--white); border: 1px dashed var(--line); border-radius: 4px; }
+.sg-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.sg-chip { display: inline-flex; align-items: baseline; gap: 8px; padding: 8px 14px; background: var(--ivory); border: 1px solid var(--line); border-radius: 999px; font-size: 14px; text-decoration: none; color: var(--ink); }
+.sg-chip span { font-size: 12px; color: var(--gold-700); }
+.sg-chip:hover { border-color: var(--gold-500); background: var(--blush-100); }
+@media (max-width: 1020px) { .header-search .suggest { width: 100%; } }

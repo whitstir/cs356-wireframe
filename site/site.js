@@ -187,7 +187,7 @@
   function chipsFor(st) {
     const out = [];
     if (st.q) out.push({ label: `Search: “${st.q}”`, f: "q" });
-    if (priceOn(st)) out.push({ label: `Price ${priceText(st.pmin)} – ${priceText(st.pmax)}`, f: "price" });
+    if (priceOn(st)) out.push({ label: st.pmin === st.pmax ? `Price includes ${priceText(st.pmin)}` : `Price ${priceText(st.pmin)} – ${priceText(st.pmax)}`, f: "price" });
     if (capOn(st)) out.push({ label: `${capText(st.cmin)} – ${capText(st.cmax)} guests`, f: "cap" });
     st.cities.forEach((v) => out.push({ label: `City: ${v}`, f: "cities", v }));
     st.styles.forEach((v) => out.push({ label: `Style: ${v}`, f: "styles", v }));
@@ -276,16 +276,243 @@
     }));
     document.addEventListener("click", (e) => { if (!e.target.closest(".menu-wrap")) closeMenus(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeMenus(); if (!overlay.hidden && overlay.dataset.dismiss) hideOverlay(); } });
-    $("#header-search").addEventListener("submit", (e) => { e.preventDefault(); runSearch($("#header-q").value, "Header search"); });
+    attachSuggest($("#header-search"), $("#header-q"), "Header search");
   }
+  // A submitted search becomes filters where it can (a price, a guest count, an exact filter name),
+  // and a text search over every venue detail otherwise.
   function runSearch(q, where) {
     q = q.trim();
     record(null, "search", `${where}: ${q || "(empty)"}`, "Search");
-    const st = fresh(); st.q = q;
+    S.st = interpret(q); S.undo = null; openActive();
+    go(exploreHash(S.st));
+  }
+  function go(hash) { if (location.hash === hash) render(); else location.hash = hash; }
+
+  // ---------- Search understanding & suggestions ----------
+  // Every filterable option, with the Explore group it lives in.
+  const OPTIONS = [
+    ...STYLES.map((v) => ({ f: "styles", v, group: "Style" })),
+    ...CITIES.map((v) => ({ f: "cities", v, group: "City" })),
+    ...FEATURES.map((v) => ({ f: "flags", v, group: "Features" })),
+    ...ACCESS.map((v) => ({ f: "access", v, group: "Accessibility options" })),
+    ...AV.map((v) => ({ f: "av", v, group: "Audio/Visual" })),
+    ...[...AESTHETICS, ...LIGHTING].map((v) => ({ f: "decor", v, group: "Decor" })),
+    ...OTHER.map((v) => ({ f: "other", v, group: "Other" })),
+  ];
+  // Everyday words people type, pointed at the filter that means it.
+  const SYNONYMS = {
+    barn: ["styles", "Rustic"], farm: ["styles", "Rustic"], country: ["styles", "Rustic"], ranch: ["styles", "Rustic"],
+    elegant: ["styles", "Classic"], traditional: ["styles", "Classic"], timeless: ["styles", "Classic"], ballroom: ["styles", "Classic"],
+    fancy: ["styles", "Luxury"], upscale: ["styles", "Luxury"], luxurious: ["styles", "Luxury"], "high end": ["styles", "Luxury"], "high-end": ["styles", "Luxury"],
+    sleek: ["styles", "Modern"], contemporary: ["styles", "Modern"], minimalist: ["styles", "Modern"], minimal: ["styles", "Modern"], industrial: ["styles", "Modern"],
+    garden: ["styles", "Outdoors"], outside: ["flags", "Outdoors"], outdoor: ["flags", "Outdoors"], nature: ["styles", "Outdoors"],
+    inside: ["flags", "Indoors"], indoor: ["flags", "Indoors"],
+    wheelchair: ["access", "Wheelchair accessible"], handicap: ["access", "Wheelchair accessible"], accessible: ["access", "Wheelchair accessible"], ada: ["access", "ADA restrooms"],
+    music: ["av", "Sound system"], dj: ["av", "Sound system"], speakers: ["av", "Sound system"], mic: ["av", "Microphone"], slideshow: ["av", "Projector"], screen: ["av", "Projector"],
+    cake: ["other", "Cake table"], fire: ["other", "Firepit"], "s'mores": ["other", "Firepit"], smores: ["other", "Firepit"], drinks: ["other", "Drink / beverage station"], bar: ["other", "Drink / beverage station"], photobooth: ["other", "Photo booth / backdrop"],
+    flowers: ["decor", "Greenery / florals"], florals: ["decor", "Greenery / florals"], lights: ["decor", "String / bistro lights"], candles: ["decor", "Candles / lanterns"], arch: ["decor", "Ceremony arch / backdrop"],
+    caterer: ["flags", "Outside catering allowed"], catering: ["flags", "Outside catering allowed"], food: ["flags", "Outside catering allowed"], coordinator: ["flags", "Event coordinator"], planner: ["flags", "Event coordinator"],
+    cleanup: ["flags", "Cleanup crew"], linens: ["flags", "Linens included"], tablecloths: ["flags", "Linens included"], sparkler: ["flags", "Sparklers allowed"], "bridal suite": ["flags", "Bridal room"],
+  };
+  const PRESET_WORDS = { budget: ["budget", "cheap", "affordable", "inexpensive", "low cost"], spacious: ["spacious", "big", "large", "huge", "lots of guests"], catering: ["catering", "caterer", "bring our own food", "own food"] };
+  const HELP_RE = /^\s*(help|\?+|how\b|what\b|where\b|which\b|can you|could you|i need|i want|i'?m looking|not sure|idk|i don'?t know|where do i|how do i)|\bhelp\b|\?\s*$/i;
+  const isHelp = (q) => HELP_RE.test(q) && !parseAmounts(q).length;
+
+  // Prices and guest counts typed as words: "under $2,000", "$2k-$4k", "$2500", "150 guests", "at least 200 people".
+  const num = (s, k) => { const n = parseFloat(String(s).replace(/[,$\s]/g, "")); return Number.isFinite(n) ? Math.round(k ? n * 1000 : n) : null; };
+  // Reads up to one price and one guest count, each judged by the words right around it.
+  function parseAmounts(q) {
+    const out = [];
+    let t = q.toLowerCase();
+    for (let i = 0; i < 2; i++) {
+      const a = parseOne(t);
+      if (!a || out.some((x) => x.kind === a.kind)) break;
+      out.push(a);
+      t = t.replace(a.text, " ");
+    }
+    return out;
+  }
+  function parseOne(t) {
+    const guestWord = /(guests?|people|persons|ppl|seats?|seated|capacity|attendees|heads)/;
+    const priceWord = /(\$|dollars?|price|budget|cost|spend|\dk\b)/;
+    const N = String.raw`\$?\s*(\d[\d,]*(?:\.\d+)?)\s*(k)?`;
+    const near = (m) => t.slice(Math.max(0, m.index - 14), m.index + m[0].length);
+    const kindOf = (m, n) => {
+      const own = m[0], f = near(m);
+      if (guestWord.test(own)) return "cap";
+      if (priceWord.test(own)) return "price";
+      return guestWord.test(f) ? "cap" : priceWord.test(f) ? "price" : n >= 1000 ? "price" : "cap";
+    };
+    let m;
+    if ((m = t.match(new RegExp(String.raw`(?:between\s+)?${N}\s*(?:-|–|to|and)\s*${N}\s*([a-z$]*)`, "i")))) {
+      const a = num(m[1], m[2]), b = num(m[3], m[4]);
+      if (a != null && b != null) return { kind: kindOf(m, Math.max(a, b)), lo: Math.min(a, b), hi: Math.max(a, b), text: m[0] };
+    }
+    if ((m = t.match(new RegExp(String.raw`(under|below|less than|up to|max(?:imum)?|no more than|at most|within|<)\s*${N}\s*([a-z$]*)`, "i")))) {
+      const n = num(m[2], m[3]); if (n != null) return { kind: kindOf(m, n), lo: 0, hi: n, text: m[0] };
+    }
+    if ((m = t.match(new RegExp(String.raw`(over|above|more than|at least|min(?:imum)?|>|\bfor)\s*${N}\s*([a-z$]*)`, "i")))) {
+      const n = num(m[2], m[3]); if (n != null) { const kind = kindOf(m, n); return { kind, lo: n, hi: kind === "price" ? PMAX : CMAX, text: m[0], open: true }; }
+    }
+    if ((m = t.match(new RegExp(String.raw`${N}\s*([a-z$]*)`, "i")))) {
+      // A single amount: a price inside the venue's range, or a guest count the venue can seat.
+      const n = num(m[1], m[2]);
+      if (n != null) { const kind = kindOf(m, n); return kind === "price" ? { kind, lo: n, hi: n, text: m[0] } : { kind, lo: n, hi: CMAX, text: m[0], open: true }; }
+    }
+    return null;
+  }
+  function amountLabel(a) {
+    if (a.kind === "price") return a.lo === a.hi ? `Price includes ${money(a.lo)}` : a.lo === 0 ? `Price up to ${money(a.hi)}` : a.hi >= PMAX ? `Price from ${money(a.lo)}` : `Price ${money(a.lo)} – ${money(a.hi)}`;
+    return a.lo === 0 ? `Seats up to ${a.hi} guests` : a.hi >= CMAX ? `Seats ${a.lo}+ guests` : `Seats ${a.lo}–${a.hi} guests`;
+  }
+  function applyAmount(st, a) { if (a.kind === "price") { st.pmin = a.lo; st.pmax = a.hi; } else { st.cmin = a.lo; st.cmax = a.hi; } }
+  const FILLER = /\b(a|an|the|venues?|place|places|with|for|in|near|that|has|have|and|of|our|my|we|wedding|reception|guests?|people|price|budget|dollars?)\b/g;
+  function exactOption(text) {
+    const t = text.toLowerCase().trim();
+    if (!t) return null;
+    const hits = OPTIONS.filter((o) => o.v.toLowerCase() === t);
+    if (hits.length === 1) return hits[0];
+    const syn = SYNONYMS[t];
+    return syn && hits.length === 0 ? OPTIONS.find((o) => o.f === syn[0] && o.v === syn[1]) : null;
+  }
+  function interpret(q) {
+    const st = fresh();
+    if (!q) return st;
+    let rest = q;
+    parseAmounts(q).forEach((a) => { applyAmount(st, a); rest = rest.replace(new RegExp(reEsc(a.text), "i"), " "); });
+    if (rest !== q) rest = rest.toLowerCase().replace(FILLER, " ").replace(/[^\w\s'/&-]/g, " ").replace(/\s+/g, " ").trim();
+    const opt = exactOption(rest);
+    if (opt) st[opt.f] = [opt.v];
+    else if (rest.trim()) st.q = rest.trim();
+    return st;
+  }
+  // Edit distance, for small typos ("rustik", "provoo").
+  function editDistance(a, b) {
+    const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+    for (let j = 1; j <= b.length; j++) d[0][j] = j;
+    for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    return d[a.length][b.length];
+  }
+  function optionScore(label, q) {
+    const l = label.toLowerCase(), t = q.toLowerCase().trim();
+    if (!t) return 0;
+    if (l === t) return 100;
+    if (l.startsWith(t)) return 85;
+    const lw = l.split(/[\s/]+/).filter(Boolean), tw = t.split(/\s+/).filter(Boolean);
+    if (lw.some((w) => w.startsWith(t))) return 75;
+    if (t.length >= 3 && l.includes(t)) return 60;
+    if (tw.length > 1 && tw.every((w) => l.includes(w))) return 55;
+    if (t.length >= 4 && lw.some((w) => w.length >= 4 && editDistance(w, t) <= (t.length >= 7 ? 2 : 1))) return 40;
+    return 0;
+  }
+  const countOf = (mod) => { const st = fresh(); mod(st); return results(st).length; };
+  // Suggestions for what someone has typed so far. Each item says what it does and how many venues it shows.
+  function suggestions(q, limit = 8) {
+    const t = q.trim();
+    if (!t) return [];
+    if (isHelp(t)) return [{ type: "help" }];
+    const items = [];
+    parseAmounts(t).forEach((a) => items.push({ type: "amount", a, label: amountLabel(a), group: a.kind === "price" ? "Price" : "Capacity", n: countOf((st) => applyAmount(st, a)), score: 120 }));
+    const low = t.toLowerCase(), seen = new Set();
+    const addOpt = (o, score) => { const key = o.f + "|" + o.v; if (seen.has(key)) return; seen.add(key); items.push({ type: "filter", f: o.f, v: o.v, label: o.v, group: o.group, n: countOf((st) => { st[o.f] = [o.v]; }), score }); };
+    OPTIONS.forEach((o) => { const sc = optionScore(o.v, t); if (sc) addOpt(o, sc); });
+    Object.entries(SYNONYMS).forEach(([w, [f, v]]) => { if (w === low || (low.length >= 3 && w.startsWith(low)) || low.split(/\s+/).includes(w)) addOpt(OPTIONS.find((o) => o.f === f && o.v === v), 70); });
+    Object.entries(PRESET_WORDS).forEach(([k, ws]) => { if (ws.some((w) => w.includes(low) && low.length >= 3 || low.includes(w))) items.push({ type: "preset", k, label: PRESETS[k].label, group: "Popular search", n: results(presetState(k)).length, score: 65 }); });
+    VENUES.forEach((v) => { const sc = optionScore(v.name, t); if (sc >= 55) items.push({ type: "venue", id: v.id, label: v.name, group: "Venue", sub: v.city, score: sc - 5 }); });
+    items.sort((a, b) => b.score - a.score || (b.n || 0) - (a.n || 0));
+    const top = items.slice(0, limit - 1);
+    const textN = results({ ...fresh(), q: t }).length;
+    if (textN || !top.length) top.push({ type: "search", q: t, label: `Search every detail for “${t}”`, group: "Search", n: textN });
+    return top;
+  }
+  function applySuggestion(it) {
+    if (it.type === "venue") return go("#/venue/" + it.id);
+    if (it.type === "search") return runSearch(it.q, "Suggestion search");
+    let st = fresh();
+    if (it.type === "amount") applyAmount(st, it.a);
+    else if (it.type === "filter") st[it.f] = [it.v];
+    else if (it.type === "preset") st = presetState(it.k);
     S.st = st; S.undo = null; openActive();
     go(exploreHash(st));
   }
-  function go(hash) { if (location.hash === hash) render(); else location.hash = hash; }
+  const HELP_TIPS = [
+    { label: "Type a budget", eg: "under $2,000", type: "amount", a: { kind: "price", lo: 0, hi: 2000 } },
+    { label: "Type how many guests", eg: "150 guests", type: "amount", a: { kind: "cap", lo: 150, hi: CMAX, open: true } },
+    { label: "Type a city", eg: "Provo", type: "filter", f: "cities", v: "Provo" },
+    { label: "Type a feel", eg: "rustic, modern, garden", type: "filter", f: "styles", v: "Rustic" },
+    { label: "Type something you want there", eg: "firepit, piano, sparklers", type: "filter", f: "other", v: "Firepit" },
+    { label: "Not sure yet?", eg: "Browse every venue", type: "all" },
+  ];
+  function helpHtml(inDropdown) {
+    return `<div class="help${inDropdown ? " in-dd" : ""}"><p class="eyebrow">Ways to search</p>
+      <p class="small muted" style="margin:0 0 8px">Search understands budgets, guest counts, places, styles and anything a venue lists. Try one of these:</p>
+      <div class="help-grid">${HELP_TIPS.map((h, i) => `<button type="button" class="help-tip" data-help="${i}" data-log="Help tip: ${esc(h.label)}"><span class="label">${esc(h.label)}</span><span class="small muted">e.g. ${esc(h.eg)}</span></button>`).join("")}</div></div>`;
+  }
+  function applyHelp(i) {
+    const h = HELP_TIPS[i];
+    if (h.type === "all") { S.st = fresh(); S.undo = null; openActive(); return go("#/explore"); }
+    applySuggestion(h.type === "amount" ? { type: "amount", a: h.a } : { type: "filter", f: h.f, v: h.v });
+  }
+  function suggestionButton(it, i, active) {
+    if (it.type === "help") return helpHtml(true);
+    const icon = it.type === "venue" ? "Venue" : it.group;
+    return `<li role="option" id="sg-${i}" class="sg${active ? " active" : ""}" aria-selected="${active}" data-sg="${i}" data-log="Suggestion: ${esc(it.label)}">
+      <span class="sg-label">${esc(it.label)}</span><span class="sg-meta">${esc(icon)}${it.sub ? " · " + esc(it.sub) : ""}${it.n != null ? ` · ${plural(it.n, "venue")}` : ""}</span></li>`;
+  }
+  // Type-ahead under a search box. Arrow keys move, Enter picks, Escape closes.
+  function attachSuggest(form, input, where) {
+    const box = document.createElement("div");
+    box.className = "suggest"; box.hidden = true; box.id = input.id + "-suggest";
+    form.appendChild(box);
+    input.setAttribute("role", "combobox"); input.setAttribute("aria-autocomplete", "list"); input.setAttribute("aria-expanded", "false"); input.setAttribute("aria-controls", box.id);
+    let items = [], active = -1;
+    const draw = () => {
+      items = suggestions(input.value);
+      if (!items.length) { box.hidden = true; input.setAttribute("aria-expanded", "false"); return; }
+      box.innerHTML = items[0].type === "help" ? helpHtml(true) : `<ul role="listbox" aria-label="Suggestions">${items.map((it, i) => suggestionButton(it, i, i === active)).join("")}</ul>`;
+      box.hidden = false; input.setAttribute("aria-expanded", "true");
+      input.setAttribute("aria-activedescendant", active >= 0 ? "sg-" + active : "");
+    };
+    const close = () => { box.hidden = true; active = -1; input.setAttribute("aria-expanded", "false"); };
+    const pick = (i) => { const it = items[i]; close(); input.blur(); if (it.type !== "search") record(null, "click", `Suggestion: ${it.label}`, it.type === "venue" ? "Search" : "Search suggestion"); applySuggestion(it); };
+    input.addEventListener("input", () => { active = -1; draw(); });
+    input.addEventListener("focus", () => { if (input.value.trim()) draw(); });
+    input.addEventListener("keydown", (e) => {
+      if (box.hidden || items[0]?.type === "help") { if (e.key === "Escape") close(); return; }
+      if (e.key === "ArrowDown") { e.preventDefault(); active = (active + 1) % items.length; draw(); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); active = (active - 1 + items.length) % items.length; draw(); }
+      else if (e.key === "Enter" && active >= 0) { e.preventDefault(); pick(active); }
+      else if (e.key === "Escape") close();
+    });
+    box.addEventListener("mousedown", (e) => e.preventDefault()); // keep focus in the input while clicking
+    box.addEventListener("click", (e) => {
+      const sg = e.target.closest("[data-sg]"), hp = e.target.closest("[data-help]");
+      if (sg) pick(Number(sg.dataset.sg));
+      else if (hp) { close(); applyHelp(Number(hp.dataset.help)); }
+    });
+    const outside = (e) => { if (!form.isConnected) return document.removeEventListener("click", outside); if (!form.contains(e.target)) close(); };
+    document.addEventListener("click", outside);
+    form.addEventListener("submit", (e) => { e.preventDefault(); if (isHelp(input.value)) { draw(); return; } close(); runSearch(input.value, where); input.blur(); });
+  }
+  // What the results area offers when nothing matches, or when someone asked for help.
+  function emptyHtml(st) {
+    if (st.q && isHelp(st.q)) return `<div class="empty-panel">${helpHtml(false)}</div>`;
+    const parts = [];
+    if (st.q) {
+      const sg = suggestions(st.q, 7).filter((it) => it.type !== "search" && it.type !== "help" && (it.n == null || it.n > 0));
+      parts.push(`<h3 class="heading-s">No venues match “${esc(st.q)}”${activeCount(st) > 1 ? " with these filters" : ""}</h3>`);
+      if (sg.length) parts.push(`<p class="small muted" style="margin:0">Did you mean one of these?</p><div class="sg-chips">${sg.map((it, i) => `<button type="button" class="sg-chip" data-esg="${i}" data-log="No-results suggestion: ${esc(it.label)}">${esc(it.label)} <span>${esc(it.group)}${it.n != null ? " · " + it.n : ""}</span></button>`).join("")}</div>`);
+      S.emptySuggest = sg;
+    } else {
+      parts.push(`<h3 class="heading-s">No venues match all of these filters</h3>`);
+      S.emptySuggest = [];
+    }
+    // Which single filter, if removed, brings venues back.
+    const loosen = chipsFor(st).map((c) => { const s2 = clone(st); removeChip(s2, c.f, c.v); return { c, n: results(s2).length }; }).filter((x) => x.n > 0).sort((a, b) => b.n - a.n).slice(0, 4);
+    if (loosen.length) parts.push(`<p class="small muted" style="margin:8px 0 0">Or remove a filter:</p><div class="sg-chips">${loosen.map((x) => `<button type="button" class="sg-chip" data-act="unchip" data-f="${x.c.f}" data-v="${esc(x.c.v || "")}" data-log="No-results: remove ${esc(x.c.label)}">Remove ${esc(x.c.label)} <span>${plural(x.n, "venue")}</span></button>`).join("")}</div>`);
+    parts.push(`<p class="small muted" style="margin:8px 0 0">Popular searches:</p><div class="sg-chips">${Object.entries(PRESETS).map(([k, p]) => `<a class="sg-chip" href="${exploreHash(presetState(k))}" data-preset="${k}" data-log="No-results popular search: ${esc(p.label)}">${esc(p.label)} <span>${results(presetState(k)).length}</span></a>`).join("")}</div>`);
+    return `<div class="empty-panel">${parts.join("")}</div>`;
+  }
 
   // Clicks on links that set filters: Location/Style replace the current filters and offer Undo (Q1, draft B).
   document.addEventListener("click", (e) => {
@@ -317,12 +544,12 @@
     const r = parseHash(), [section, arg] = r.parts;
     closeMenus();
     if (section !== "explore") S.undo = null;
-    $("#header-q").value = section === "explore" ? S.st.q : "";
     if (!section) viewHome();
     else if (section === "explore") viewExplore(r.query);
     else if (section === "venue" && BY_ID[arg]) viewVenue(BY_ID[arg]);
     else if (section === "log" && MODE === "normal") viewLog();
     else viewNotFound();
+    $("#header-q").value = section === "explore" ? S.st.q : "";
     window.scrollTo(0, 0);
     if (MODE === "test") testOnRoute(r);
   }
@@ -368,7 +595,7 @@
           <p class="small muted note-line">A venue can carry more than one style, so you will see some favorites in several places.</p>
         </div>
       </section>`;
-    $("#home-search").addEventListener("submit", (e) => { e.preventDefault(); runSearch($("#home-q").value, "Home search"); });
+    attachSuggest($("#home-search"), $("#home-q"), "Home search");
   }
 
   // ---------- Explore (categorization 2: faceted filters) ----------
@@ -420,7 +647,7 @@
       <div class="wrap">
         <div id="undo-slot"></div>
         <div class="explore">
-          <div>
+          <div class="side-col">
             <button type="button" class="btn btn-outline filters-toggle" data-act="toggle-side" aria-expanded="${S.sideOpen}" aria-controls="filters" data-log="Show filters (small screen)">Filters</button>
             <aside class="filters ${S.sideOpen ? "" : "closed"}" id="filters" aria-label="Filters">
               <div class="filters-head"><h2 class="heading-s">Filters</h2><button type="button" class="textbtn" data-act="clear" data-log="Clear all filters">Clear all</button></div>
@@ -486,8 +713,8 @@
     if (MODE === "test" && testSession && testSession.active) noteFilters(st);
     const list = results(st);
     $("#results-h").innerHTML = `${plural(list.length, "venue")}<span class="small muted" style="font-family:var(--sans)"> of ${VENUES.length}</span>`;
-    $("#results").innerHTML = list.length ? `<div class="card-grid">${sorted(list).map((v) => card(v, st.q)).join("")}</div>`
-      : `<div class="empty">No venues match all of these. Remove a filter above to see more.</div>`;
+    $("#results").innerHTML = st.q && isHelp(st.q) ? emptyHtml(st)
+      : list.length ? `<div class="card-grid">${sorted(list).map((v) => card(v, st.q)).join("")}</div>` : emptyHtml(st);
     const c = chipsFor(st);
     $("#chips").innerHTML = c.map((x) => `<span class="chip">${esc(x.label)}<button type="button" data-act="unchip" data-f="${x.f}" data-v="${esc(x.v || "")}" aria-label="Remove ${esc(x.label)}" data-log="Remove filter: ${esc(x.label)}">×</button></span>`).join("")
       + (c.length > 1 ? `<button type="button" class="textbtn" data-act="clear" data-log="Clear all filters">Clear all</button>` : "");
@@ -576,7 +803,7 @@
     document.title = `${v.name} — Utah County Wedding Venues`;
     const q = S.st.q;
     const contact = raw(v, "Contact Information"), phone = (contact.match(/Phone:\s*([\d().\-\s]{7,})/i) || [])[1];
-    const link = raw(v, "link"), n = photoCount(v), deposit = raw(v, "Deposit Policy"), times = raw(v, "Time slots"), addr = raw(v, "Full Address");
+    const link = raw(v, "link"), n = photoCount(v), addr = raw(v, "Full Address");
     const seatedSub = v.seatedText && v.seatedText.trim() !== String(v.seated) ? lines(v.seatedText).join(" · ") : "";
     const sims = similar(v);
     app.innerHTML = `
@@ -608,11 +835,9 @@
         </div>
         <aside class="visit" aria-label="Plan a visit">
           <p class="eyebrow">Plan a visit</p>
-          <p class="heading-m" style="margin:0;font-size:32px">${v.priceMin != null ? `From ${esc(money(v.priceMin))}` : "Ask the venue for pricing"}</p>
-          ${times ? `<div class="kv"><p class="eyebrow">Time slots</p><p class="pre" style="margin:0">${esc(times)}</p></div>` : ""}
+          <p class="heading-m" style="margin:0;font-size:32px">${v.priceMin != null ? esc(priceLine(v)) : "Ask the venue for pricing"}</p>
           ${addr ? `<div class="kv"><p class="eyebrow">Address</p><p class="pre" style="margin:0">${esc(addr)}</p></div>` : ""}
           ${contact ? `<div class="kv"><p class="eyebrow">Contact</p><p class="pre" style="margin:0">${esc(contact)}</p></div>` : ""}
-          <div class="kv"><p class="eyebrow">Deposit</p><p class="pre" style="margin:0">${esc(deposit || "Not listed — ask the venue")}</p></div>
           ${/^https?:/i.test(link) ? `<a class="btn btn-gold" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (plan a visit)">Visit website</a>` : ""}
           ${sims.length ? `<a class="btn btn-outline" href="#similar" data-act="to-similar" data-log="Compare with similar">Compare with similar ${I.chevR}</a>` : ""}
         </aside>
@@ -630,6 +855,9 @@
 
   // ---------- Page-level clicks ----------
   app.addEventListener("click", (e) => {
+    const esg = e.target.closest("[data-esg]"), hp = e.target.closest("[data-help]");
+    if (esg) return applySuggestion(S.emptySuggest[Number(esg.dataset.esg)]);
+    if (hp && !hp.closest(".suggest")) return applyHelp(Number(hp.dataset.help));
     const el = e.target.closest("[data-act]");
     if (!el) return;
     const act = el.dataset.act;
