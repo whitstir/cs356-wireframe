@@ -301,7 +301,14 @@
     }));
     document.addEventListener("click", (e) => { if (!e.target.closest(".menu-wrap")) closeMenus(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeMenus(); if (!overlay.hidden && overlay.dataset.dismiss) hideOverlay(); } });
-    attachSuggest($("#header-search"), $("#header-q"), "Header search");
+  }
+  // Every page but Home has a search box in line with its breadcrumb trail (Home has the big search).
+  const crumbSearch = () => `<form class="crumb-search" id="crumb-search" role="search">${I.search}
+    <input type="search" id="crumb-q" placeholder="Search names, features, descriptions" aria-label="Search every venue detail" autocomplete="off"></form>`;
+  const crumbRow = (inner) => `<div class="crumb-row">${inner}${crumbSearch()}</div>`;
+  function wireCrumbSearch(value) {
+    const cq = $("#crumb-q");
+    if (cq) { cq.value = value; attachSuggest($("#crumb-search"), cq, "Breadcrumb search"); }
   }
   // A submitted search becomes filters where it can (a price, a guest count, an exact filter name),
   // and a text search over every venue detail otherwise.
@@ -391,24 +398,34 @@
     return a.lo === 0 ? `Seats up to ${a.hi} guests` : a.hi >= CMAX ? `Seats ${a.lo}+ guests` : `Seats ${a.lo}–${a.hi} guests`;
   }
   function applyAmount(st, a) { if (a.kind === "price") { st.pmin = a.lo; st.pmax = a.hi; } else { st.cmin = a.lo; st.cmax = a.hi; } }
-  const FILLER = /\b(a|an|the|venues?|place|places|with|for|in|near|that|has|have|and|of|our|my|we|wedding|reception|guests?|people|price|budget|dollars?)\b/g;
-  function exactOption(text) {
-    const t = text.toLowerCase().trim();
-    if (!t) return null;
-    const hits = OPTIONS.filter((o) => o.v.toLowerCase() === t);
-    if (hits.length === 1) return hits[0];
-    const syn = SYNONYMS[t];
-    return syn && hits.length === 0 ? OPTIONS.find((o) => o.f === syn[0] && o.v === syn[1]) : null;
-  }
+  const FILLER = /^(a|an|the|venues?|place|places|with|for|in|near|that|has|have|and|or|of|our|my|we|wedding|reception|guests?|people|price|budget|dollars?|style|city)$/;
+  const norm = (t) => t.toLowerCase().replace(/[^\w\s'&-]/g, " ").replace(/\s+/g, " ").trim();
+  // Each phrase that names exactly one filter ("provo", "american fork", "barn", "outside catering allowed").
+  // A phrase that names two (Outdoors is a Style and a Feature) stays a text search.
+  const PHRASES = new Map();
+  OPTIONS.forEach((o) => { const k = norm(o.v); PHRASES.set(k, PHRASES.has(k) ? null : o); });
+  Object.entries(SYNONYMS).forEach(([w, [f, v]]) => { const k = norm(w); if (!PHRASES.has(k)) PHRASES.set(k, OPTIONS.find((o) => o.f === f && o.v === v)); });
+  const phraseOption = (p) => (PHRASES.has(p) ? PHRASES.get(p) : p.length > 3 && p.endsWith("s") && PHRASES.get(p.slice(0, -1))) || null;
+  // A search can name several things at once ("rustic provo under $3,000 for 150 guests with a firepit"):
+  // the price and guest count, then every phrase that names a filter, each become their own filter.
+  // Whatever is left over is a text search over every venue detail.
   function interpret(q) {
     const st = fresh();
+    q = q.trim();
     if (!q) return st;
     let rest = q;
-    parseAmounts(q).forEach((a) => { applyAmount(st, a); rest = rest.replace(new RegExp(reEsc(a.text), "i"), " "); });
-    if (rest !== q) rest = rest.toLowerCase().replace(FILLER, " ").replace(/[^\w\s'/&-]/g, " ").replace(/\s+/g, " ").trim();
-    const opt = exactOption(rest);
-    if (opt) st[opt.f] = [opt.v];
-    else if (rest.trim()) st.q = rest.trim();
+    const amounts = parseAmounts(q);
+    amounts.forEach((a) => { applyAmount(st, a); rest = rest.replace(new RegExp(reEsc(a.text), "i"), " "); });
+    const ws = norm(rest).split(" ").filter(Boolean), left = [];
+    let found = 0;
+    for (let i = 0; i < ws.length; ) {
+      let len = Math.min(5, ws.length - i), o = null;
+      while (len && !(o = phraseOption(ws.slice(i, i + len).join(" ")))) len--;
+      if (o) { if (!st[o.f].includes(o.v)) st[o.f].push(o.v); found++; i += len; }
+      else left.push(ws[i++]);
+    }
+    if (!amounts.length && !found) st.q = q;
+    else st.q = left.filter((w) => !FILLER.test(w)).join(" ");
     return st;
   }
   // Edit distance, for small typos ("rustik", "provoo").
@@ -437,6 +454,9 @@
     if (!t) return [];
     if (isHelp(t)) return [{ type: "help" }];
     const items = [];
+    // Several things typed at once: offer them all together, each as its own filter.
+    const multi = interpret(t), parts = chipsFor(multi);
+    if (parts.length > 1) items.push({ type: "multi", st: multi, label: parts.map((c) => c.label).join("  +  "), group: `${parts.length} filters together`, n: results(multi).length, score: 130 });
     parseAmounts(t).forEach((a) => items.push({ type: "amount", a, label: amountLabel(a), group: a.kind === "price" ? "Price" : "Capacity", n: countOf((st) => applyAmount(st, a)), score: 120 }));
     const low = t.toLowerCase(), seen = new Set();
     const addOpt = (o, score) => { const key = o.f + "|" + o.v; if (seen.has(key)) return; seen.add(key); items.push({ type: "filter", f: o.f, v: o.v, label: o.v, group: o.group, n: countOf((st) => { st[o.f] = [o.v]; }), score }); };
@@ -454,7 +474,8 @@
     if (it.type === "venue") return go("#/venue/" + it.id);
     if (it.type === "search") return runSearch(it.q, "Suggestion search");
     let st = fresh();
-    if (it.type === "amount") applyAmount(st, it.a);
+    if (it.type === "multi") st = clone(it.st);
+    else if (it.type === "amount") applyAmount(st, it.a);
     else if (it.type === "filter") st[it.f] = [it.v];
     else if (it.type === "preset") st = presetState(it.k);
     S.st = st; S.undo = null; openActive();
@@ -575,7 +596,7 @@
     else if (section === "credits") viewCredits();
     else if (section === "log" && MODE === "normal") viewLog();
     else viewNotFound();
-    $("#header-q").value = section === "explore" ? S.st.q : "";
+    wireCrumbSearch(section === "explore" ? S.st.q : "");
     window.scrollTo(0, 0);
     if (MODE === "test") testOnRoute(r);
   }
@@ -673,7 +694,7 @@
     S.fromLink = false;
     app.innerHTML = `
       <div class="wrap title-band">
-        <ol class="crumbs"><li><a href="#/" data-log="Breadcrumb: Home">Home</a></li><li>Explore</li></ol>
+        ${crumbRow(`<ol class="crumbs"><li><a href="#/" data-log="Breadcrumb: Home">Home</a></li><li>Explore</li></ol>`)}
         <h1 class="display-l">Explore <span class="accent">venues</span></h1>
       </div>
       <div class="wrap">
@@ -840,7 +861,7 @@
     const sims = similar(v);
     app.innerHTML = `
       <div class="wrap venue-top">
-        <a class="back" href="${esc(S.lastExplore)}" data-log="Back to results">${I.chevL} Back to results</a>
+        ${crumbRow(`<a class="back" href="${esc(S.lastExplore)}" data-log="Back to results">${I.chevL} Back to results</a>`)}
         <div class="venue-title">
           <div><p class="eyebrow">${esc([v.city || "City not listed", ...v.styles].join("  ·  "))}</p><h1 class="display-l">${esc(v.name)}</h1></div>
           <div class="venue-actions">
@@ -897,7 +918,7 @@
   // ---------- Not found ----------
   function viewNotFound() {
     document.title = "Page not found — Utah County Wedding Venues";
-    app.innerHTML = `<div class="wrap page"><h1 class="display-l">Page not found</h1><p class="body-l muted">Use the menu above, or <a href="#/explore" data-fresh>explore all venues</a>.</p></div>`;
+    app.innerHTML = `<div class="wrap page">${crumbRow(`<ol class="crumbs"><li><a href="#/">Home</a></li><li>Page not found</li></ol>`)}<h1 class="display-l">Page not found</h1><p class="body-l muted">Use the menu above, or <a href="#/explore" data-fresh>explore all venues</a>.</p></div>`;
   }
 
   // ---------- Page-level clicks ----------
@@ -931,6 +952,7 @@
     history.replaceState(null, "", location.pathname + location.search + exploreHash(S.st));
     const keepOpen = new Set(S.open);
     viewExplore(new URLSearchParams(writeState(S.st)));
+    wireCrumbSearch(S.st.q);
     S.open = keepOpen;
     $$(".fgroup").forEach((d) => { d.open = S.open.has(d.dataset.sec); });
   }
@@ -1010,7 +1032,7 @@
     document.title = "Click log — Utah County Wedding Venues";
     const log = load(KEY_LOG, []);
     app.innerHTML = `<div class="wrap page">
-      <ol class="crumbs"><li><a href="#/">Home</a></li><li>Click log</li></ol>
+      ${crumbRow(`<ol class="crumbs"><li><a href="#/">Home</a></li><li>Click log</li></ol>`)}
       <h1 class="display-l">Click log</h1>
       <p class="muted">${plural(log.length, "click")} recorded in this browser, newest first.</p>
       <div class="actions" data-nolog>
