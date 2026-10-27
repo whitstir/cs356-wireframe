@@ -24,6 +24,8 @@
   const OTHER = ["Cake table", "Drink / beverage station", "Firepit", "Photo booth / backdrop", "Piano", "Sweetheart table"]; // D3: moved out of Decor
   const PMAX = 10000, PSTEP = 250, CMAX = 1000, CSTEP = 25;
   const FEATURED_ID = "the-bungalow-event-venue";
+  // Footer "Click log" link, hidden for the demo. Clicks are still recorded and #/log still works; set to true to show the link again.
+  const SHOW_LOG_LINK = false;
 
   const SEARCH = new URLSearchParams(location.search);
   const MODE = SEARCH.has("results") ? "results" : SEARCH.has("test") ? "test" : "normal";
@@ -290,7 +292,7 @@
         <nav class="footer-col" aria-label="Explore"><p class="eyebrow">Explore</p><a href="#/explore" data-fresh data-log="Footer: All venues">All venues</a>
           ${Object.entries(PRESETS).map(([k, p]) => `<a href="${exploreHash(presetState(k))}" data-preset="${k}" data-log="Footer popular search: ${esc(p.label)}">${esc(p.label)}</a>`).join("")}</nav>
       </div>
-      <div class="wrap footer-base"><span>A CS 356 prototype · venue details and photos from each venue's official website · <a href="#/credits" data-log="Footer: Photo credits">Photo credits</a></span>${MODE === "normal" ? `<a href="#/log" data-log="Click log">Click log</a>` : ""}</div>`;
+      <div class="wrap footer-base"><span>A CS 356 prototype · venue details and photos from each venue's official website · <a href="#/credits" data-log="Footer: Photo credits">Photo credits</a></span>${MODE === "normal" && SHOW_LOG_LINK ? `<a href="#/log" data-log="Click log">Click log</a>` : ""}</div>`;
   }
   function closeMenus(except) {
     $$(".nav-link[data-menu]").forEach((b) => { if (b !== except) { b.setAttribute("aria-expanded", "false"); $("#" + b.getAttribute("aria-controls")).hidden = true; } });
