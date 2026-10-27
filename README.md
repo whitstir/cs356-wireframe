@@ -23,6 +23,8 @@ This README summarizes what the team has discussed and decided so far, so anyone
 | [specs.md](specs.md) | The assignment as given: requirements, bonus test mode, what to turn in, and the 60-point rubric |
 | [decisions.md](decisions.md) | Every decision made, numbered (1–28), plus data rules and the style tag for each venue |
 | [wireframe-spec.md](wireframe-spec.md) | The build spec: information architecture, pages, filters, click log, test mode, and draft task scenarios |
+| README.md → [Updating venue data](#updating-venue-data) | **How venue data gets from the Google Sheet to the site** (start here before changing any venue info) |
+| [data/audit/](data/audit/) | How the venue data was checked against each venue's website (2026-10), and the team's data decisions |
 | README.md | This summary |
 
 If these disagree, **decisions.md** is the most up to date.
@@ -60,9 +62,10 @@ The rubric is Functional 18, Visual 13, IA 13, and Grounded in previous study 16
 - **Outside catering allowed:** that checkbox turned on
 
 ## Key data decisions
-Full detail is in [decisions.md](decisions.md). In short:
-- **45 of the 46 spreadsheet rows are kept.** Stone Gate Event Center (Concord) is left off via `EXCLUDE` in `tools/build_data.py`. The rest includes a few that aren't actually in Utah County (The Villa at the Retreat in Carriere, Walker Farms in Riverton) and Sun River Gardens, which is a garden center.
-- **Cities** come straight from the spreadsheet's City column (missing ones were filled in on the Drive sheet).
+Full detail is in [decisions.md](decisions.md). The October 2026 data cleanup changed several of these; [data/audit/APPLIED.md](data/audit/APPLIED.md) is the current word where they disagree. In short:
+- **44 venues, all in Utah County.** Every row was checked against the venue's official website. Stone Gate (Virginia) and The Villa (Mississippi) were removed, and venues use the name their website uses.
+- **Cities** come straight from the sheet's City column.
+- **Filters are explicit sheet columns** (no keyword guessing). Event coordinators and sparklers count when the venue offers them, even as a paid add-on; other paid add-ons don't switch a filter on. Price and capacity are ranges, and a venue matches when its range overlaps the slider.
 - **Photos** are **not** shown in the wireframe (it stays image-free on purpose). [data/photos.js](data/photos.js) holds 3–5 photos per venue for the prototype: each is linked from the venue's own website (not stored in the repo), labeled front / outdoor / indoor / extra, with the source page to credit.
 - **Styles** are assigned from the *Description* column only, using just the 5 styles:
   - "Elegant" counts as **Classic**, unless the venue is very upscale (country club, castle, resort, hotel, full-service, destination estate), in which case it's **Luxury**.
@@ -109,17 +112,43 @@ Follows the course Tree Test spec:
 - [ ] **Write the Part 1 rationale paragraph.** Connect specific card-sort findings to the categories and labels above. The card-sort findings aren't documented in this repo yet; add them so the "Grounded in previous study" rubric item (16 pts) is covered.
 - [ ] Run 8–10 participants, export the results, and analyze first clicks and paths.
 
+## Updating venue data
+**The Google Sheet is the source of truth.** Edit venue info there, not in the repo. The sheet is "Wedding Reception Project" on the team Drive ([open it](https://docs.google.com/spreadsheets/d/1QW8jezDjK2IZ13M2dSx2Gkv6WDSE3NCMrmlkE8jl2Jg/edit)); it must stay shared as "Anyone with the link can view" so GitHub can read it.
+
+```
+Google Sheet ──(Run workflow)──> data/venues.csv, data/venue-sections.csv ──(tools/build_data.py)──> data/venues.js + data/venues/<id>.json ──> site
+```
+
+**To change venue info**
+1. Edit the sheet (tabs **Venues** and **Venue sections**; keep those tab names exactly).
+2. On GitHub: **Actions → Venue data → Run workflow** (branch `main`). In about a minute it downloads both tabs, rebuilds the site data, and commits the result as "venue-data bot". If nothing changed, it commits nothing.
+3. **`git pull`** before your next local edit, because the workflow committed to `main`.
+4. The live site updates 1–2 minutes later. Browsers may cache `venues.js` for about 10 minutes; for a demo, raise the `?v=` number on the `venues.js` line in [site/index.html](site/index.html) and [index.html](index.html), then push.
+
+**Sheet format (the build checks these and stops with a clear error if they're broken)**
+- **Venues tab:** one row per venue.
+  - `Venue ID` is permanent. It is the page address (`#/venue/<id>`) and the key for photos and style tags, so don't change it, even when renaming a venue.
+  - `Price Low` / `Price High` and `Seated Low` / `Seated High` / `Standing Low` / `Standing High` are plain numbers that feed the sliders; leave both blank if the venue doesn't publish one. `Price Basis` is `rental`, `per-person x capacity` or `full-service package`.
+  - **Filter columns** are named `<Group>: <Option>` (e.g. `Features: Bridal room`, `Decor: Chandeliers`). A blank cell means no. Otherwise the cell starts with `Included:`, `Add-on:`, `For rent:` or `Included + for rent:`, followed by a short neutral label (e.g. `Included: Bridal suite with balcony`). That label shows under the feature on the venue page, so write it as a plain description, not in the venue's voice ("we", "our", "you", "beautiful").
+  - The other columns (Packages and Prices, Catering, Restrictions…) appear in the venue page's *Detailed information*; one item per line.
+- **Venue sections tab:** extra sections a venue needs (spaces, ceremony sites, rain plan, lodging…). Columns: `Venue ID`, `Section` (title), `Place After` (one of `overview, pricing, capacity, rooms, included, av, decor, other, food, rules, access, notes, contact`), `Label`, `Value`. One row per item.
+
+**Adding a new venue:** add a row with a new lowercase `Venue ID` (e.g. `new-venue-name`), then in the repo add its style tags to `STYLES` in [tools/build_data.py](tools/build_data.py) (the build warns if it's missing) and, optionally, its photos to [data/photos.js](data/photos.js) under the same ID.
+
+**Working locally instead of the workflow**
+```bash
+python3 tools/sync_sheet.py --check   # compare the sheet with data/*.csv, change nothing
+python3 tools/sync_sheet.py           # download the tabs and rebuild
+python3 tools/build_data.py           # rebuild only (after editing data/*.csv by hand)
+```
+Pushing an edited `data/*.csv` also makes the workflow rebuild automatically, but a hand-edited CSV is overwritten the next time someone syncs from the sheet, so put the change in the sheet too.
+
+**If the workflow fails:** open the failed run on the Actions tab; the last lines name the problem (for example, a filter cell that doesn't start with `Included:` / `Add-on:` / `For rent:`, an unknown `Place After`, a renamed tab, or a sheet that's no longer link-shared). Fix the sheet and run it again. The workflow file is [.github/workflows/venue-data.yml](.github/workflows/venue-data.yml).
+
 ## Editing and publishing
 Saving a file only changes your computer. The live site updates after you **commit and push**, and GitHub Pages takes about 1–2 minutes to rebuild.
 
-1. Venue data comes from the Google Sheet's *Venues* and *Venue sections* tabs ([data/venues.csv](data/venues.csv), [data/venue-sections.csv](data/venue-sections.csv)). After editing the sheet, open the repo's **Actions** tab → **Venue data** → **Run workflow**. It downloads the tabs, rebuilds, and commits the result. To do the same locally:
-   ```bash
-   python3 tools/sync_sheet.py
-   ```
-   Or, after editing a CSV directly, run `python3 tools/build_data.py`.
-   - Each filter is its own column (e.g. `Features: Bridal room`). A cell is blank (no) or starts with `Included:`, `Add-on:`, `For rent:` or `Included + for rent:`, followed by the venue's own wording.
-   - Style tags live in `tools/build_data.py` (`STYLES`, keyed by Venue ID). Cities come straight from the City column.
-   - See [data/audit/](data/audit/) for how the data was checked.
+1. Venue info: see [Updating venue data](#updating-venue-data) above.
 2. If you changed `style.css`, `app.js` or anything in `data/`, raise the `?v=` number on the four file lines in `index.html`. Otherwise browsers may keep showing the old version for about 10 minutes.
 3. Commit and push:
    ```bash
@@ -137,11 +166,17 @@ python3 -m http.server 8356
 index.html          page shell (header nav, main, footer)
 style.css           wireframe styles (black/white, one font)
 app.js              pages, Explore filters, venue pages, click log, test mode, results
-data/venues.csv     source venue spreadsheet
+site/               hi-fi site (index.html, site.css, site.js)
+data/venues.csv     Google Sheet tab "Venues" (downloaded by tools/sync_sheet.py)
+data/venue-sections.csv  Google Sheet tab "Venue sections"
 data/venues.js      generated by tools/build_data.py, do not edit by hand
+data/venues/        generated: one JSON per venue (filters + ordered page sections)
 data/photos.js      venue photos for the prototype (not used by the wireframe): linked from each venue's site, labeled, with credit source
 data/tasks.js       tree-test scenarios (10 tasks)
-tools/build_data.py spreadsheet → venues.js (style tags, decor items)
+data/audit/         2026-10 data audit: sources and reasons for every change
+tools/sync_sheet.py Google Sheet → data/*.csv (read-only), then build
+tools/build_data.py data/*.csv → venues.js and data/venues/ (style tags, checks)
+.github/workflows/venue-data.yml  "Run workflow" button: sync + build + commit
 ```
 No build tools or external libraries are used. It's plain HTML, CSS and JavaScript hosted on GitHub Pages from the `main` branch.
 
