@@ -295,13 +295,25 @@
   function closeMenus(except) {
     $$(".nav-link[data-menu]").forEach((b) => { if (b !== except) { b.setAttribute("aria-expanded", "false"); $("#" + b.getAttribute("aria-controls")).hidden = true; } });
   }
+  // Keep an open menu inside the screen with a 16px gutter (the nav sits at the right, so wide menus would run off the edge)
+  function fitMenu(m) {
+    m.style.left = "";
+    // clientWidth, not innerWidth: an overflowing menu widens the layout viewport itself
+    const vw = document.documentElement.clientWidth, r = m.getBoundingClientRect(), gutter = 16, base = parseFloat(getComputedStyle(m).left) || 0;
+    if (r.right > vw - gutter) m.style.left = base - (r.right - (vw - gutter)) + "px";
+    const r2 = m.getBoundingClientRect();
+    if (r2.left < gutter) m.style.left = (parseFloat(m.style.left) || base) + (gutter - r2.left) + "px";
+  }
   function initMenus() {
     $$(".nav-link[data-menu]").forEach((b) => b.addEventListener("click", () => {
       const open = b.getAttribute("aria-expanded") !== "true";
       closeMenus(b);
       b.setAttribute("aria-expanded", String(open));
-      $("#" + b.getAttribute("aria-controls")).hidden = !open;
+      const m = $("#" + b.getAttribute("aria-controls"));
+      m.hidden = !open;
+      if (open) fitMenu(m);
     }));
+    addEventListener("resize", () => $$(".menu:not([hidden])").forEach(fitMenu));
     document.addEventListener("click", (e) => { if (!e.target.closest(".menu-wrap")) closeMenus(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeMenus(); if (!overlay.hidden && overlay.dataset.dismiss) hideOverlay(); } });
   }
