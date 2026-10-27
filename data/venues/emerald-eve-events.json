@@ -1,0 +1,741 @@
+{
+ "id": "emerald-eve-events",
+ "name": "Emerald Eve Event Center",
+ "city": "Salem",
+ "description": "A rustic-industrial event center in Salem with an open hall, a built-in stage, lounge areas and a full commercial kitchen; tables, chairs, two arches and setup are included, packages are priced by guest count, and outside caterers are allowed.",
+ "styles": [
+  "Rustic",
+  "Modern"
+ ],
+ "priceMin": 100,
+ "priceMax": 2500,
+ "priceBasis": "rental",
+ "priceText": "Packages by guest count: Mini $100 to Extra Large $2,500",
+ "seated": 150,
+ "seatedMin": 56,
+ "seatedText": "Round tables 56–70\nBanquet 100\nUp to 150 seated",
+ "standing": 280,
+ "standingMin": 280,
+ "standingText": "280",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Draping / chair covers": [
+   "rent"
+  ],
+  "Signs / easels": [
+   "included",
+   "rent"
+  ],
+  "Candles / lanterns": [
+   "rent"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Piano": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": false,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Aux cord for playing music"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Event hall (banquet, dance floor or ceremony layouts)"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Outside caterers allowed"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Ceremony arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "Chair covers, $150"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included+rent",
+   "wording": "Photo display easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "Lanterns, votives and candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake display table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Piano"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A rustic-industrial event center in Salem with an open hall, a built-in stage, lounge areas and a full commercial kitchen; tables, chairs, two arches and setup are included, packages are priced by guest count, and outside caterers are allowed."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "192 UT-198, Salem, UT 84653"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Rustic-industrial\nAntique charm\nFlexible"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Packages by guest count: Mini $100 to Extra Large $2,500"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Mini, 2-20 guests, 4 hours — $100 (renter cleans) or $300 (venue cleans)\nSmall, 20-50 guests, 4 hours — $400 (renter cleans) or $600 (venue cleans)\nMedium, 50-100 guests, 6 hours — $1,000 (venue cleans)\nLarge, 100-150 guests, 6 hours — $1,500 (venue cleans)\nExtra Large, 150-250 guests, 8 hours — $2,500 (venue cleans)\nExtra hours — $20 to $160 per hour by package\n$50 non-refundable booking fee\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50\nDecor package — $150\nTablecloths — $100\nChair bows — $100\nCloth chair covers — $150\nKitchen items — $100\nKitchen appliances (stove, oven, heat lamp) — $200\nDecorating services with venue decor — $200\nFull decorating by venue staff — $250\nPermission to bring alcohol — $200"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$50 non-refundable booking fee\n50% deposit to hold the date\nRefunds: 100% at 60+ days; 50% under 60 days; none within 30 days\nUp to $500 cleaning/security fee if the space is left damaged\nLate check-out — $3 per minute"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Event hall (banquet, dance floor or ceremony layouts)"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Round tables 56–70\nBanquet 100\nUp to 150 seated"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "280"
+    }
+   ]
+  },
+  {
+   "id": "layouts",
+   "title": "Layouts",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "layouts-0",
+     "label": "Banquet",
+     "value": "Seated: 100"
+    },
+    {
+     "id": "layouts-1",
+     "label": "Round (7 tables)",
+     "value": "Seated: 56-70"
+    },
+    {
+     "id": "layouts-2",
+     "label": "Dance floor",
+     "value": "Note: tables to the side"
+    },
+    {
+     "id": "layouts-3",
+     "label": "Ceremony",
+     "value": "Note: chairs facing the stage"
+    },
+    {
+     "id": "layouts-4",
+     "label": "Max seated",
+     "value": "150"
+    },
+    {
+     "id": "layouts-5",
+     "label": "Max standing",
+     "value": "280"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Tables and chairs with setup and takedown\nIndoor wooden hexagon arch\nOutdoor metal arch outside the main doors\nAmbient dimmable lighting\nAux cord for music\nCake table\nPhoto display easels\nBasic kitchen access (fridge, freezer, ice machine, water dispensers)\nPiano"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Decorating services with venue decor — $200\nFull decorating by venue staff — $250"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Venue cleans for Medium, Large and Extra Large packages\nMini and Small: renter cleans, or pay $200 more for venue cleaning\nAll renters follow a post-event checklist (trash out, spills cleaned)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Aux cord for playing music"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBuilt-in sound system, aux cord included\nElectronics package — $50"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Ceremony arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "rent",
+     "value": "Chair covers, $150"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included+rent",
+     "value": "Photo display easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "rent",
+     "value": "Lanterns, votives and candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Decor package (lanterns, glass vases, votives, wood discs, metal items, easels, chalkboards, candles) — $150\nTablecloths — $100 per set of 10\nChair bows — $100\nCloth chair covers — $150\nLight package — $100\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Built-in stage\nLounge areas with couches\nLarge ice machine\nFull commercial kitchen\nKitchen dining set — $100\nKitchen appliance use (stove, oven, grill, warming table) — $200\nKitchen cleaning deposit — $100 (refundable)"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake display table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "included",
+     "value": "Piano"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Outside caterers allowed"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterers welcome\nNo charge for kitchen space for pre-made food"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Full commercial kitchen (two ovens, stove, griddle, fridge, freezer)\nBasic kitchen access included; stove/oven/grill use — $200"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Permission to bring alcohol — $200 (staff supervision)\nLicensed, insured bartending service required\nNo cash bars; drinks 15% ABV or less; hard liquor only in mixed drinks\n$1,000 fine if alcohol is found without permission"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "4-hour block (Mini, Small)\n6-hour block (Medium, Large)\n8-hour block (Extra Large)"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "4-8 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Staple gun only on arches; no nails\nNo glitter or confetti\nNothing hung from ceilings, lights or the white wall behind the stage"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Packages priced by guest count; cleaning included from the Medium package up\nWeekends are typically reserved for weddings"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-477-7792\nEmail: events@emeraldeve.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://emeraldeve.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "emerald-eve-events",
+  "Venue Name": "Emerald Eve Event Center",
+  "link": "https://emeraldeve.com/",
+  "City": "Salem",
+  "Full Address": "192 UT-198, Salem, UT 84653",
+  "Description": "A rustic-industrial event center in Salem with an open hall, a built-in stage, lounge areas and a full commercial kitchen; tables, chairs, two arches and setup are included, packages are priced by guest count, and outside caterers are allowed.",
+  "Price Low": "100",
+  "Price High": "2500",
+  "Price Basis": "rental",
+  "Standard Price Range": "Packages by guest count: Mini $100 to Extra Large $2,500",
+  "Seated Low": "56",
+  "Seated High": "150",
+  "Seated Capacity": "Round tables 56–70\nBanquet 100\nUp to 150 seated",
+  "Standing Low": "280",
+  "Standing High": "280",
+  "Standing Capacity": "280",
+  "Packages and Prices": "Mini, 2-20 guests, 4 hours — $100 (renter cleans) or $300 (venue cleans)\nSmall, 20-50 guests, 4 hours — $400 (renter cleans) or $600 (venue cleans)\nMedium, 50-100 guests, 6 hours — $1,000 (venue cleans)\nLarge, 100-150 guests, 6 hours — $1,500 (venue cleans)\nExtra Large, 150-250 guests, 8 hours — $2,500 (venue cleans)\nExtra hours — $20 to $160 per hour by package\n$50 non-refundable booking fee\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50\nDecor package — $150\nTablecloths — $100\nChair bows — $100\nCloth chair covers — $150\nKitchen items — $100\nKitchen appliances (stove, oven, heat lamp) — $200\nDecorating services with venue decor — $200\nFull decorating by venue staff — $250\nPermission to bring alcohol — $200",
+  "Time slots": "4-hour block (Mini, Small)\n6-hour block (Medium, Large)\n8-hour block (Extra Large)",
+  "Length of Rental": "4-8 hours",
+  "Style": "Rustic-industrial\nAntique charm\nFlexible",
+  "Other Decor Included": "Tables and chairs with setup and takedown\nIndoor wooden hexagon arch\nOutdoor metal arch outside the main doors\nAmbient dimmable lighting\nAux cord for music\nCake table\nPhoto display easels\nBasic kitchen access (fridge, freezer, ice machine, water dispensers)\nPiano",
+  "Other Decor for Rent": "Decor package (lanterns, glass vases, votives, wood discs, metal items, easels, chalkboards, candles) — $150\nTablecloths — $100 per set of 10\nChair bows — $100\nCloth chair covers — $150\nLight package — $100\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50",
+  "sound system": "Yes\nBuilt-in sound system, aux cord included\nElectronics package — $50",
+  "extras": "Built-in stage\nLounge areas with couches\nLarge ice machine\nFull commercial kitchen\nKitchen dining set — $100\nKitchen appliance use (stove, oven, grill, warming table) — $200\nKitchen cleaning deposit — $100 (refundable)",
+  "cleanup crew": "Venue cleans for Medium, Large and Extra Large packages\nMini and Small: renter cleans, or pay $200 more for venue cleaning\nAll renters follow a post-event checklist (trash out, spills cleaned)",
+  "Deposit Policy": "$50 non-refundable booking fee\n50% deposit to hold the date\nRefunds: 100% at 60+ days; 50% under 60 days; none within 30 days\nUp to $500 cleaning/security fee if the space is left damaged\nLate check-out — $3 per minute",
+  "Catering": "Outside caterers welcome\nNo charge for kitchen space for pre-made food",
+  "Prep Area": "Full commercial kitchen (two ovens, stove, griddle, fridge, freezer)\nBasic kitchen access included; stove/oven/grill use — $200",
+  "Alcohol policy": "Permission to bring alcohol — $200 (staff supervision)\nLicensed, insured bartending service required\nNo cash bars; drinks 15% ABV or less; hard liquor only in mixed drinks\n$1,000 fine if alcohol is found without permission",
+  "Event Coordinator": "Decorating services with venue decor — $200\nFull decorating by venue staff — $250",
+  "Restrictions": "Staple gun only on arches; no nails\nNo glitter or confetti\nNothing hung from ceilings, lights or the white wall behind the stage",
+  "Important Notes": "Packages priced by guest count; cleaning included from the Medium package up\nWeekends are typically reserved for weddings",
+  "Contact Information": "Phone: 801-477-7792\nEmail: events@emeraldeve.com"
+ }
+}

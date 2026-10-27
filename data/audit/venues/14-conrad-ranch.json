@@ -1,0 +1,1028 @@
+{
+ "row": 14,
+ "id": "conrad-ranch",
+ "name": "Conrad Ranch",
+ "website": "https://www.conradranch.com/landing",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.conradranch.com/landing (landing: description, address, phone)",
+  "https://www.conradranch.com/pricing (pricing overview: day rates, full-day add-on, ceremony-only price, DJ, Wi-Fi)",
+  "https://www.conradranch.com/rental-option (rental option: inclusions, outdoor/indoor furniture, indoor capacity, renter rules, parking, sound, extras)",
+  "https://www.conradranch.com/ceremony-only (ceremony only: price, inclusions, ceremony areas and capacities)",
+  "https://www.conradranch.com/frequently-asked-questions (FAQ: catering, linens, vendors, timing, cleanup, sparklers, deposit, rain plan, parking, rooms, alcohol)",
+  "https://www.conradranch.com/rental-items (rental items with prices)",
+  "https://www.conradranch.com/read-me (Amenities page: outdoor and indoor inclusions, 85 seated / 350+ open house, seasons)",
+  "https://www.conradranch.com/house-gallery (house gallery captions: bridal room, kitchen, patio, staging area)",
+  "https://www.conradranch.com/ceremony-gallery (ceremony gallery captions: ceremony areas, cabin area extra charge)",
+  "https://www.conradranch.com/gallery (gallery captions)",
+  "https://www.conradranch.com/new-page-4 (preferred vendor list)",
+  "https://www.conradranch.com/contact (contact: venue, DJ and florist contacts)",
+  "https://www.conradranch.com/about (about: est. 1863, family-owned)",
+  "https://www.conradranch.com/new-page-5 (seasons captions), https://www.conradranch.com/venue-area-pictures (video captions), https://www.conradranch.com/new-events (empty)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "5591 South Fork Road, Provo, UT 84604",
+  "note": "In Provo Canyon's South Fork; mailing city Provo."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Conrad Ranch",
+   "verified_value": "Conrad Ranch",
+   "action": "confirmed",
+   "change_origin": "Landing and about pages.",
+   "source_url": "https://www.conradranch.com/about",
+   "evidence": "Conrad Ranch, Est. 1863",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.conradranch.com/landing",
+   "verified_value": "https://www.conradranch.com/landing",
+   "action": "confirmed",
+   "change_origin": "Official site loads (200).",
+   "source_url": "https://www.conradranch.com/landing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic, timeless reception venue on a family-owned homestead with canyon walls, Mount Timpanogos views, spring-fed ponds, a lighted patio, indoor and outdoor spaces, and an on-site coordinator.",
+   "verified_value": "A historic, timeless reception venue on a family-owned homestead with canyon walls, Mount Timpanogos views, spring-fed ponds, a lighted patio, indoor and outdoor spaces, and an on-site coordinator.",
+   "action": "confirmed",
+   "change_origin": "Landing page and Rental Option page.",
+   "source_url": "https://www.conradranch.com/landing",
+   "evidence": "'historic Conrad Ranch - a centennial, family-owned homestead... canyon walls, majestic view of Mount Timpanogos, three spring-fed ponds'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$4,000-$6,000",
+   "verified_value": "$4,000-$6,000",
+   "action": "confirmed",
+   "change_origin": "Pricing page: $4,000 Mon-Wed, $5,000 Thu-Sat, full day +$1,000.",
+   "source_url": "https://www.conradranch.com/pricing",
+   "evidence": "'Monday / Tuesday / Wednesday: $ 4000.00'; 'Full Day Weekend Rentals... additional $1000.00'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Ceremony-only package is $1,000 (separate product, kept out of the range)."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "8-hour reception rental 2pm-10pm with inside option, onsite coordinator or hostess, tables, chairs, linens, parking, kitchen access, lighting, bridal suite and groom's room — Mon-Wed — $4,000\nSame inclusions — Thu-Sat — $5,000\n12-hour full-day weekend rental 10am-10pm — $6,000\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each",
+   "verified_value": "8-hour rental 2pm-10pm with indoor option (house), onsite coordinator or hostess, standard tables, chairs and linens, kitchen access, bridal suite and groom's room, patio with lights, parking — Mon-Wed — $4,000\nSame inclusions — Thu-Sat — $5,000\nFull day 10am-10pm — add $1,000 to the day rate\nCeremony only, 3 hours between 9am-1pm, indoor or outdoor, 100 chairs, sign-in table, lanterns on shepherd hooks, ice water, dressing rooms — $1,000 ($500 non-refundable deposit); extra hour $200\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nLinens only — $10-$20\nTable setup on the flat area — $200\nCatering restock staff — $75 per staff for 2 hours; $25/hour extra",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing, Rental Option, Ceremony Only and FAQ pages: added the ceremony-only package and other priced items; full day is +$1,000 on any day rate.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'Add $1000.00 for the whole day'; 'Prices include Indoor or Outdoor: $1000.00 ($500.00 non-refundable deposit)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "85-112 indoors\n100 outdoor chairs included\n200 with 100 additional rented chairs",
+   "verified_value": "85 indoors for a formal dinner\n112 indoors with additional rented tables",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities and Rental Option pages state 85 and 112; the old '200 with 100 additional rented chairs' was an inference from chair counts, not a stated seated capacity.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "'accommodates up to 85 guest for a formal dinner event'; 'maximum of 112 seated guests with additional tables rented'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Outdoor seating capacity is not stated; waterfall ceremony area 'accommodates up to 200 guest'."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "350+ outdoor open-house capacity",
+   "verified_value": "350+ for an open house (indoor facility)",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities page: the 350+ figure is under 'Indoor Events', not outdoor.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "'Our facility accommodates up to 85 guest for a formal dinner event and up to 350 plus guests for an open house event'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 2pm-10pm\nThu-Sat 2pm-10pm\nFull-day weekend 10am-10pm\nCeremony-only 9am-1pm",
+   "verified_value": "Mon-Wed 2pm-10pm\nThu-Sat 2pm-10pm\nFull day 10am-10pm (add $1,000)\nCeremony only 9am-1pm (3-hour block)\nClosed Sunday",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added 'Closed Sunday'.",
+   "source_url": "https://www.conradranch.com/pricing",
+   "evidence": "'between the hours of 2 p.m. to 10 p.m.'; 'Closed Sunday'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "3-12 hours",
+   "verified_value": "3-12 hours",
+   "action": "confirmed",
+   "change_origin": "Pricing and FAQ: 3-hour ceremony to 12-hour full day.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'Full day rental is a 12 hour option'; 'Ceremony only is a 3 hour event'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Natural\nHistoric\nTimeless\nElegant",
+   "verified_value": "Natural\nHistoric\nTimeless\nElegant",
+   "action": "confirmed",
+   "change_origin": "Landing page wording.",
+   "source_url": "https://www.conradranch.com/landing",
+   "evidence": "'quiet elegance and natural wonder'; 'historic'; 'timeless'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'Are linens included? Yes!'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "9 48-inch round guest tables with linen\n3 iron tables\n8-foot serving table with linen\nCake table with linen\nSign-in table\nDisplay table with linen\nBlack water table\n100 chairs\nOutdoor lighting\nPatio lights",
+   "verified_value": "Outdoor: 9 48-inch round guest tables with linen\nOutdoor: 3 iron umbrella tables\n8-foot serving table with linen\nCake table with linen\nSign-in table\nDisplay table with linen\nBlack iron beverage / water table\n100 chairs\n2 floor easels\nWhite metal gift cart\nFixed iron arch at the Shaded Tree ceremony area\nOutdoor lighting\nPatio lights\nIndoor: 13 round wooden guest tables\nIndoor: hardwood dance floor\n2 fireplaces\nBaby grand piano",
+   "action": "corrected",
+   "change_origin": "Official site, Rental Option, Amenities and Ceremony Only pages: added easels, gift cart, fixed ceremony arch, indoor tables, dance floor, fireplaces and piano; beverage table named as on the site.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "'1 Black Square Iron Beverage Table'; '2 (4 ft) floor easels'; 'Fire Place (Two)'; 'Iron Brown arch included and does not move'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Amenities page says 12 indoor dark oak tables; Rental Option says 13."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nWhite lantern — $10 each\nWooden lantern — $10 each\nTraditional metal lantern — $10 each\nCanopy of lights — $300 setup\nLove Sign — $100\n6 lanterns and hooks — $50\nDouble Octagon Arch — $100\nWooden Arch — $100",
+   "verified_value": "100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nWhite lantern — $10 each\nWooden lantern — $10 each\nTraditional metal lantern — $10 each\nCanopy of lights — $300 setup\nLove Sign — $100\n6 lanterns and hooks — $50\nDouble Octagon Arch — $100\nWooden Arch — $100\nCenterpieces and decorations — ask for pricing",
+   "action": "corrected",
+   "change_origin": "Official site, Rental Option page: centerpieces and decorations are offered for rent (price not stated).",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'Centerpieces/Decorations for rent'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'The venue includes both indoor and outdoor areas'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes, outside near the house with provided metal buckets (unless a state fire ban applies)",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: added conditions.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'We do allow sparklers (unless the state has banned them) outside with a provided metal buckets'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Parking across venue\nUpper and family parking",
+   "verified_value": "Guest parking lot across the street (cones set out)\nFamily and handicap parking in the upper lot behind the house",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ and Rental Option page.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'ample amount of parking for guests across the street'; 'Family parking is behind the house... This has handicap parking'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "5591 South Fork Road, Provo, UT 84604",
+   "verified_value": "5591 South Fork Road, Provo, UT 84604",
+   "action": "confirmed",
+   "change_origin": "Site header.",
+   "source_url": "https://www.conradranch.com/landing",
+   "evidence": "5591 South Fork Road Provo, UT, 84604",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Site header.",
+   "source_url": "https://www.conradranch.com/landing",
+   "evidence": "Provo, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "No",
+   "verified_value": "No",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "There is no sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "3 spring-fed ponds\nPatio with lights for dancing\nBaby grand piano\nFireplace\nBridal photos by appointment",
+   "verified_value": "3 spring-fed ponds and waterfall\nCovered pavilion and gazebo\nPatio with lights for dancing\nBridal photos on another day by appointment (free with a booked event)\nIn-house DJ, florist and cake decorator available to hire",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities, FAQ and Pricing pages; piano and fireplace moved to Other Decor Included.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "'Covered Pavilion, Gazebo'; 'If you have an event scheduled with us there is no cost to do pictures'; 'We have a great DJ that is available to hire'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Not included; staff set up and take down venue tables and chairs, renters clean up everything they bring and all areas used",
+   "action": "added",
+   "change_origin": "Official site, Rental Option page and FAQ.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'Venue comes with full setup and breakdown of our tables'; 'renters are responsible for cleaning all areas that are used'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "Handicap accessible",
+   "verified_value": "Handicap accessible\nHandicap accessible parking in the upper lot west of the house",
+   "action": "corrected",
+   "change_origin": "Official site, Rental Option page adds handicap parking.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'We have Handicap Parking to access the house, which is in the upper parking lot on the west side of the house'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "$1,000 non-refundable deposit",
+   "verified_value": "$1,000 non-refundable deposit to reserve; transferable within the year with 120 days notice\nCeremony only: $500 non-refundable deposit\nFinal payment and contract at least 4 weeks before the event; $100 late fee",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ and Ceremony Only page: added transfer terms, ceremony deposit and final-payment rules.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'non-refundable deposit of $1000.00... can be transfer within the year if given enough notice of 120 days'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Own caterer or outside caterer allowed\nFood must be pre-cooked and assembled",
+   "verified_value": "Own caterer or own food allowed; food must be pre-cooked and assembled on site\nFood trucks allowed in approved areas (not on grass)\nPreferred caterer list provided",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: added food-truck rule and preferred list.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'You can hire your own caterer or bring your own food, which must be pre-cooked'; 'Food Truck are allowed in a few areas'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Kitchen for warming and staging only\nDouble fridge\nMicrowave\nWarming ovens\nPrep table and counters\nSmall freezer\nWarming cabinet\nNo cooking",
+   "verified_value": "House kitchen for warming and staging only: double fridge, microwave, 2 warming ovens, warming cabinet, small freezer, prep table, counters, knives and cutting boards\nPower House building by the pavilion: fridge, freezer, counters, running water\nNo cooking",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ, Amenities page and house gallery captions: added the Power House staging area.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "'Power House: ...It has a freezer, refrigerator, and counter space for preparation'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "No alcohol anywhere on the property",
+   "verified_value": "No alcohol anywhere on the property",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'We do not allow any alcohol on the Conrad Ranch Property. Including the parking lots.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Onsite coordinator or hostess",
+   "verified_value": "Onsite coordinator or hostess",
+   "action": "confirmed",
+   "change_origin": "Rental Option and FAQ.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'Onsite coordinator to assist with needs and questions'; 'There will be a hostess there'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bridal suite\nGroom's room",
+   "verified_value": "Bridal suite\nGroom's room",
+   "action": "confirmed",
+   "change_origin": "FAQ and Rental Option page.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "'We have a new spacious bridal room'; 'Grooms room is located at the end of the building downstairs'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No cooking\nNo glass bottles\nNo confetti, fireworks, fiberoptic or pond decorations\nSparklers only outside in metal buckets; cleanup required\nSound ordinance ends at 10pm",
+   "verified_value": "No cooking\nNo glass bottles served to guests\nNo silk petals, confetti, fireworks, fiber-optic wands or pond decorations\nSparklers only outside in provided metal buckets; cleanup required\nGround stakes need staff approval\nSmoking and vaping only in the parking lots\nEvents end by 10pm (sound ordinance)\nNo arriving early or staying past rental hours",
+   "action": "corrected",
+   "change_origin": "Official site, Rental Option page renter rules and FAQ: added petals, stakes, smoking and timing rules.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'not allowed : silk petals, confetti, fireworks, fiber-optic wands, or pond decorations'; 'Ground stakes must be approved by staff'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "No Wi-Fi; AT&T cell service only\nDJ must be brought by the client",
+   "verified_value": "No Wi-Fi; AT&T is the best cell service\nOutdoor events April-October; indoor events March-November 1\nDJ: bring your own or hire the in-house DJ\nOnly one event at a time",
+   "action": "corrected",
+   "change_origin": "Official site: Pricing page says DJ may be hired or brought in (old text said the client must bring one); seasons from the Amenities page.",
+   "source_url": "https://www.conradranch.com/pricing",
+   "evidence": "'We have a great DJ that is available to hire. Or you are free to bring in your own. There is no WIFI at the ranch.'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Rental Option page contradicts: 'we do have WIFI'."
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-225-6238\nPhone: (801) 368-3223\nPhone: 801-376-0509\nEmail: ConradRanch1863@gmail.com\nEmail: g.c.m@me.com\nEmail: dsdesign90@gmail.com",
+   "verified_value": "Linda Conrad: 801-225-6238 (no text)\nJen Walker: (801) 368-3223\nEmail: conradranch1863@gmail.com",
+   "action": "corrected",
+   "change_origin": "Official site, Contact page: removed the DJ's and florist's phone/emails (separate vendors) from the venue contact.",
+   "source_url": "https://www.conradranch.com/contact",
+   "evidence": "'Linda Conrad (801)-225-6238 (no text) Jen Walker : (801)368-3223 conradranch1863@gmail.com'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "4000-6000",
+   "verified_value": "4000-6000",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.conradranch.com/pricing",
+   "evidence": "$4000 to $5000 + $1000 full day",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "200",
+   "verified_value": "112",
+   "action": "corrected",
+   "change_origin": "Official site states 112 seated indoors (max); old 200 was inferred from chair counts. Follows from the corrected Seated Capacity column.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'The inside venue will hold a maximum of 112 seated guests with additional tables rented'",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Team decision; waterfall ceremony area holds up to 200 (not stated as seated)."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Site header.",
+   "source_url": "https://www.conradranch.com/landing",
+   "evidence": "Provo, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "Handicap accessible",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Rental Option page and FAQ state handicap parking; follows from the corrected Accessibility column.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "'We have Handicap Parking to access the house'",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "There is no sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "new spacious bridal room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "Grooms room is located at the end of the building downstairs",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Rental Option page: renters clean all areas used.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "renters are responsible for cleaning all areas that are used",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "Onsite coordinator to assist with needs and questions",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "both indoor and outdoor areas",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "both indoor and outdoor areas",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "Are linens included? Yes!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "You can hire your own caterer or bring your own food",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions",
+   "evidence": "We do allow sparklers (unless the state has banned them)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "rent",
+   "verified_value": "included+rent",
+   "action": "corrected",
+   "change_origin": "Official site, Ceremony Only page: the Shaded Tree area has a fixed iron arch (included) besides the $100 rental arches; follows from the corrected Other Decor Included column.",
+   "source_url": "https://www.conradranch.com/ceremony-only",
+   "evidence": "'Iron Brown arch included and does not move'; 'Backdrop arches available to rent or bring your own'",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official site, Rental Option page: centerpieces offered for rent; follows from the corrected Other Decor for Rent column.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "Centerpieces/Decorations for rent",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Price not stated."
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-items",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Wooden arch rental excludes florals; florist is a separate hire."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included+rent",
+   "verified_value": "included+rent",
+   "action": "confirmed",
+   "change_origin": "Amenities page (2 floor easels included) and Rental Items (Love sign $100).",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "'2 (4 ft) floor easels'; 'Love Sign ... $100.00 to rent'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Amenities page.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "Fire Place (Two)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included+rent",
+   "verified_value": "included+rent",
+   "action": "confirmed",
+   "change_origin": "Rental Option (patio with lights) and Rental Items (canopy of lights $300).",
+   "source_url": "https://www.conradranch.com/rental-items",
+   "evidence": "'Patio with lights for dancing'; 'Canopy of lights... $300.00 to setup'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Rental Items page.",
+   "source_url": "https://www.conradranch.com/rental-items",
+   "evidence": "White Lanterns ... $10.00 each",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Lanterns on shepherd hooks are included only in the ceremony-only package."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rental Option page.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "Cake table with linen to the ground",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Amenities page lists an included black iron beverage table; follows from the corrected Other Decor Included column.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "1 Black Square Iron Beverage Table",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.conradranch.com/rental-option",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rental Option and Amenities pages.",
+   "source_url": "https://www.conradranch.com/read-me",
+   "evidence": "Baby Grand Piano",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Conrad Ranch",
+  "link": "https://www.conradranch.com/landing",
+  "Description": "A historic, timeless reception venue on a family-owned homestead with canyon walls, Mount Timpanogos views, spring-fed ponds, a lighted patio, indoor and outdoor spaces, and an on-site coordinator.",
+  "Standard Price Range": "$4,000-$6,000",
+  "Packages and Prices": "8-hour rental 2pm-10pm with indoor option (house), onsite coordinator or hostess, standard tables, chairs and linens, kitchen access, bridal suite and groom's room, patio with lights, parking — Mon-Wed — $4,000\nSame inclusions — Thu-Sat — $5,000\nFull day 10am-10pm — add $1,000 to the day rate\nCeremony only, 3 hours between 9am-1pm, indoor or outdoor, 100 chairs, sign-in table, lanterns on shepherd hooks, ice water, dressing rooms — $1,000 ($500 non-refundable deposit); extra hour $200\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nLinens only — $10-$20\nTable setup on the flat area — $200\nCatering restock staff — $75 per staff for 2 hours; $25/hour extra",
+  "Seated Capacity": "85 indoors for a formal dinner\n112 indoors with additional rented tables",
+  "Standing Capacity": "350+ for an open house (indoor facility)",
+  "Time slots": "Mon-Wed 2pm-10pm\nThu-Sat 2pm-10pm\nFull day 10am-10pm (add $1,000)\nCeremony only 9am-1pm (3-hour block)\nClosed Sunday",
+  "Length of Rental": "3-12 hours",
+  "Style": "Natural\nHistoric\nTimeless\nElegant",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Outdoor: 9 48-inch round guest tables with linen\nOutdoor: 3 iron umbrella tables\n8-foot serving table with linen\nCake table with linen\nSign-in table\nDisplay table with linen\nBlack iron beverage / water table\n100 chairs\n2 floor easels\nWhite metal gift cart\nFixed iron arch at the Shaded Tree ceremony area\nOutdoor lighting\nPatio lights\nIndoor: 13 round wooden guest tables\nIndoor: hardwood dance floor\n2 fireplaces\nBaby grand piano",
+  "Other Decor for Rent": "100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nWhite lantern — $10 each\nWooden lantern — $10 each\nTraditional metal lantern — $10 each\nCanopy of lights — $300 setup\nLove Sign — $100\n6 lanterns and hooks — $50\nDouble Octagon Arch — $100\nWooden Arch — $100\nCenterpieces and decorations — ask for pricing",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes, outside near the house with provided metal buckets (unless a state fire ban applies)",
+  "parking?": "Guest parking lot across the street (cones set out)\nFamily and handicap parking in the upper lot behind the house",
+  "Full Address": "5591 South Fork Road, Provo, UT 84604",
+  "City": "Provo",
+  "sound system": "No",
+  "extras": "3 spring-fed ponds and waterfall\nCovered pavilion and gazebo\nPatio with lights for dancing\nBridal photos on another day by appointment (free with a booked event)\nIn-house DJ, florist and cake decorator available to hire",
+  "cleanup crew": "Not included; staff set up and take down venue tables and chairs, renters clean up everything they bring and all areas used",
+  "Accessibility": "Handicap accessible\nHandicap accessible parking in the upper lot west of the house",
+  "Deposit Policy": "$1,000 non-refundable deposit to reserve; transferable within the year with 120 days notice\nCeremony only: $500 non-refundable deposit\nFinal payment and contract at least 4 weeks before the event; $100 late fee",
+  "Catering": "Own caterer or own food allowed; food must be pre-cooked and assembled on site\nFood trucks allowed in approved areas (not on grass)\nPreferred caterer list provided",
+  "Prep Area": "House kitchen for warming and staging only: double fridge, microwave, 2 warming ovens, warming cabinet, small freezer, prep table, counters, knives and cutting boards\nPower House building by the pavilion: fridge, freezer, counters, running water\nNo cooking",
+  "Alcohol policy": "No alcohol anywhere on the property",
+  "Event Coordinator": "Onsite coordinator or hostess",
+  "Bride/Groom Rooms": "Bridal suite\nGroom's room",
+  "Restrictions": "No cooking\nNo glass bottles served to guests\nNo silk petals, confetti, fireworks, fiber-optic wands or pond decorations\nSparklers only outside in provided metal buckets; cleanup required\nGround stakes need staff approval\nSmoking and vaping only in the parking lots\nEvents end by 10pm (sound ordinance)\nNo arriving early or staying past rental hours",
+  "Important Notes": "No Wi-Fi; AT&T is the best cell service\nOutdoor events April-October; indoor events March-November 1\nDJ: bring your own or hire the in-house DJ\nOnly one event at a time",
+  "Contact Information": "Linda Conrad: 801-225-6238 (no text)\nJen Walker: (801) 368-3223\nEmail: conradranch1863@gmail.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Rustic",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Classic",
+   "Rustic",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Description says historic, timeless (Classic), homestead (Rustic) and centers on canyon, ponds and Mount Timpanogos views (Outdoors). Site photos and text match.",
+  "site_cues": [
+   "'The historic Conrad Ranch - a centennial, family-owned homestead'",
+   "'three spring-fed ponds'",
+   "'quiet elegance and natural wonder'",
+   "'Where Timeless Beauty Meets'"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Rental packages",
+   "why": "reception rental and a separate ceremony-only package",
+   "data": {
+    "packages": [
+     {
+      "name": "8-hour rental (2pm-10pm), Mon-Wed",
+      "price": "$4,000",
+      "includes": [
+       "indoor option (house)",
+       "onsite coordinator / hostess",
+       "standard tables, chairs and linens",
+       "kitchen access",
+       "bridal suite and groom's room",
+       "patio with lights",
+       "parking"
+      ]
+     },
+     {
+      "name": "8-hour rental (2pm-10pm), Thu-Sat",
+      "price": "$5,000",
+      "includes": [
+       "same"
+      ]
+     },
+     {
+      "name": "Full day (10am-10pm)",
+      "price": "+$1,000 on the day rate"
+     },
+     {
+      "name": "Ceremony only (3 hours between 9am-1pm, indoor or outdoor)",
+      "price": "$1,000 ($500 non-refundable deposit); extra hour $200",
+      "includes": [
+       "hostess / on-site coordinator",
+       "staff setup and cleanup of chairs",
+       "100 chairs",
+       "sign-in table",
+       "black lanterns on shepherd hooks",
+       "self-serve ice water",
+       "dressing rooms"
+      ]
+     }
+    ],
+    "closed": "Sunday"
+   }
+  },
+  {
+   "title": "Ceremony sites",
+   "why": "several outdoor ceremony locations with their own capacity",
+   "data": {
+    "ceremony_sites": [
+     {
+      "name": "Shaded Tree Area",
+      "guests": "100+",
+      "note": "fixed iron arch included"
+     },
+     {
+      "name": "Gazebo",
+      "guests": "100+",
+      "note": "ceremony under the entrance arch"
+     },
+     {
+      "name": "Waterfall",
+      "guests": "up to 200"
+     },
+     {
+      "name": "Rustic Cabin Area (across the street)",
+      "guests": 100,
+      "note": "extra charge"
+     },
+     {
+      "name": "House patio",
+      "guests": null
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spaces",
+   "why": "indoor house and outdoor grounds with different furniture and capacity",
+   "data": {
+    "spaces": [
+     {
+      "name": "House (indoor)",
+      "seated": "85 formal dinner; 112 with rented tables",
+      "standing": "350+ open house",
+      "setting": "indoor",
+      "season": "March-November 1"
+     },
+     {
+      "name": "Grounds, pavilion, gazebo, ponds",
+      "seated": null,
+      "setting": "outdoor",
+      "season": "April-October",
+      "note": "outdoor tables seat about 7 each; 100 chairs + 100 rentable"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rain plan",
+   "why": "stated weather policy",
+   "data": {
+    "rain_plan": "Option to move inside the house at no extra charge"
+   }
+  },
+  {
+   "title": "Rental catalog",
+   "why": "priced decor items",
+   "data": {
+    "items": [
+     {
+      "name": "White / wooden / traditional lanterns",
+      "price": "$10 each"
+     },
+     {
+      "name": "Canopy of lights (20 x 40 ft)",
+      "price": "$300 setup"
+     },
+     {
+      "name": "LOVE sign (4 x 8 ft, light sequences)",
+      "price": "$100"
+     },
+     {
+      "name": "6 lanterns and hooks",
+      "price": "$50"
+     },
+     {
+      "name": "Double octagon arch",
+      "price": "$100"
+     },
+     {
+      "name": "Wooden arch (no florals/fabric)",
+      "price": "$100"
+     },
+     {
+      "name": "Centerpieces / decorations",
+      "price": "ask"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity: the site states 85 indoors (formal dinner) and 112 indoors with rented tables; the old value 200 came from adding 100 rentable chairs to 100 included chairs (an inference). Changed to 112; the waterfall ceremony area holds up to 200 but is not stated as seated. Team should confirm.",
+  "Wi-Fi conflict: Pricing page and FAQ say there is no Wi-Fi; the Rental Option page says 'we do have WIFI'.",
+  "Indoor table count conflict: Rental Option page says 13 round wooden tables; Amenities page says 12 dark oak tables.",
+  "Ceremony arch marked included (the Shaded Tree area has a fixed iron arch and the gazebo has an entrance arch) as well as rent; confirm the team counts fixed site arches.",
+  "String lights marked included because the rental includes 'Patio with lights for dancing' and outdoor lighting; the full 'canopy of lights' is a $300 rental."
+ ]
+}

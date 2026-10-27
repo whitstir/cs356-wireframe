@@ -1,0 +1,996 @@
+{
+ "row": 5,
+ "id": "barbwire-and-lace",
+ "name": "Barbwire and Lace",
+ "website": "https://www.barbwireandlace.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.barbwireandlace.com/ (home: acreage, style, chandeliers/fairy lights, Carole)",
+  "https://www.barbwireandlace.com/package-pricing (packages, prices, inclusions, vendors policy)",
+  "https://www.barbwireandlace.com/barbwirelace-options and https://www.barbwireandlace.com/packages (station options and extra costs)",
+  "https://www.barbwireandlace.com/amenities (amenities, rooms, parking, alcohol)",
+  "https://www.barbwireandlace.com/faqs-3 (FAQs; /about-us shows the same page)",
+  "https://www.barbwireandlace.com/gallery (image slider, no captions)",
+  "https://www.barbwireandlace.com/vendors (recommended vendor)",
+  "https://www.barbwireandlace.com/contact (address, phone, email)",
+  "https://www.barbwireandlace.com/visit (visit address; read in browser too)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "2182 N Glendon Way, Pleasant Grove, UT 84062",
+  "note": "Pleasant Grove, Utah County. Visit page gives a different address (2131 N 180 W St, Pleasant Grove)."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Barbwire and Lace",
+   "verified_value": "Barbwire and Lace",
+   "action": "confirmed",
+   "change_origin": "Site title.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "Barbwire & Lace",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.barbwireandlace.com/",
+   "verified_value": "https://www.barbwireandlace.com/",
+   "action": "confirmed",
+   "change_origin": "Site loads (HTTP 200).",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A 3.5-acre vintage reception venue with mountain views, indoor and outdoor spaces, gardens, fairy lights, rustic and antique character, and an open-air barn with a fireplace.",
+   "verified_value": "A 3.5-acre vintage reception venue with mountain views, indoor and outdoor spaces, gardens, fairy lights, rustic and antique character, and an open-air barn with a fireplace.",
+   "action": "confirmed",
+   "change_origin": "Home page (3.5 acres, mountains, chandeliers and fairy lights, antiques, open-air barn with fireplace) and Package Pricing page (verdant gardens).",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "our 3.5 Acre property offers ample parking and an array of indoor and outdoor settings",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$3,000-$4,500",
+   "verified_value": "$3,000-$4,500",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Do It Yourself $3000 ... Done For You $4500",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "10 round tables with choice of centerpieces, 3 banquet tables, whiskey barrel or selected cake table, 50 sparklers — $3,000\n10 round tables with choice of centerpieces and linens, 3 banquet tables, whiskey barrel or selected cake table, 50 sparklers, table and chair setup/takedown, vine-covered arbor, indoor loft, saloon, unlimited Decor Store station use — $4,500",
+   "verified_value": "Do It Yourself — $3,000: 6-hour time block of your choice, 1 hour setup on event day, exclusive use of allotted outdoor areas, open-air barn dance-floor pavilion with working fireplace, seating for up to 100, 10 round tables with choice of centerpieces, whiskey barrel cake table, 3 banquet tables, onsite kitchen, separate bride and groom suites, gift room, sound system with microphone, 2.5 acres of parking\nDIY add-ons: vine-covered ceremony area $750, indoor loft with walkout balcony $750, table and chair setup/takedown $400, 50 sparklers $25, saloon for stations or non-alcoholic drinks $200, Decor Store station pieces $100+ each\nAll Access (Done For You) — $4,500: 8-hour time block, 1 hour setup day of or night before, exclusive use of all indoor and outdoor areas, seating for up to 200, 10 round tables with centerpieces and linens, choice of cake table, ceremony area, loft, setup/takedown, 50 sparklers, saloon and unlimited Decor Store stations included\nAdditional sparklers — $0.50 each\nPhoto shoot with your photographer — $75 for 1 hour 30 minutes",
+   "action": "corrected",
+   "change_origin": "Official site, Package Pricing page: restated each package's actual contents (6 vs 8 hours, seating 100 vs 200, outdoor-only vs all areas); old text omitted DIY hours and made add-ons look included.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "6 hour time block ... Seating for up to 100 ... 8-hour time block ... Seating for up to 200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "100 seated in main event area\n200 seated with outdoor areas",
+   "verified_value": "100 (Do It Yourself package)\n200 (All Access package)",
+   "action": "corrected",
+   "change_origin": "Official site, Package Pricing page: 100 vs 200 depends on package, not on 'main area vs outdoor areas'.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Seating for up to 100 ... Seating for up to 200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "6-hour block of your choice (Do It Yourself)\n8-hour block of your choice (All Access)\nOne event per day",
+   "action": "added",
+   "change_origin": "Official site, Package Pricing page: block of your choice, one event per day.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "6 hour time block of your choice for your event",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "6-8 hours",
+   "verified_value": "6-8 hours",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "6 hour ... 8-hour time block",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Rustic\nVintage\nBOHO\nCountry charm\nShabby chic",
+   "verified_value": "Rustic\nVintage\nBOHO\nCountry charm\nShabby chic",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "BOHO wonderland ... country charm of this rustic gem ... vintage venue ... from shabby to chic",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "FALSE",
+   "action": "corrected",
+   "change_origin": "Official site, Package Pricing page: linens come only with the $4,500 All Access package, not the $3,000 DIY package, so not included in every package.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "10 Round Tables with your choice Centerpieces & Linens (All Access only)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "DIY package: 10 round tables with choice of centerpieces\nAll Access package: 10 round tables with choice of centerpieces and linens\n3 banquet tables\nWhiskey barrel or selected cake table",
+   "verified_value": "10 round tables with choice of centerpieces\n3 banquet tables\nWhiskey barrel cake table\nTables and chairs\nOpen-air barn pavilion with working fireplace\nChandeliers and fairy lights throughout the grounds\nPhoto backdrops and props\nLinens on round tables (All Access package only)",
+   "action": "corrected",
+   "change_origin": "Official site: rewrote from Package Pricing (tables, centerpieces, cake table, barn fireplace), Home page (chandeliers, fairy lights) and Amenities page (backdrops and props); linens marked All Access only.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "Bathed in the warm glow of chandeliers and fairy lights",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sign In Desk ($0) left out of this cell so the Signs rule does not misfire."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Vine-covered wedding ceremony area — $750 DIY / $0 All Access\nIndoor loft with walkout balcony — $750 DIY / $0 All Access\nTable and chair setup/takedown — $400 DIY / $0 All Access\nSaloon for stations and non-alcoholic beverages — $200 DIY / $0 All Access\nDecor Store station customization — $100+ per station DIY / $0 unlimited stations All Access",
+   "verified_value": "Vine-covered ceremony arbor — $750 DIY / $0 All Access\nIndoor loft with walkout balcony — $750 DIY / $0 All Access\nTable and chair setup/takedown — $400 DIY / $0 All Access\nSaloon for stations and non-alcoholic beverages — $200 DIY / $0 All Access\nDecor Store station customization — $100+ per station DIY / $0 unlimited stations All Access\nCake tables — $100 (DIY)\nDrink station — $100 (DIY)\nTasty treats station — $100 (DIY)\nHead table — $100 (DIY)\n6 pub tables with linens — $80\nOld truck display — $200",
+   "action": "corrected",
+   "change_origin": "Official site, Options page: added the DIY extra-cost items (cake tables, drink station, treats, head table $100 each; pub tables $80; old truck $200).",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options",
+   "evidence": "Cake Tables - $100 Extra ... Drink Station $100 Extra ... 6 Pub Tables with Linens – $80 Extra",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Home page and Package Pricing page (indoor loft, outdoor areas).",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "an array of indoor and outdoor settings",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "DIY gets outdoor areas; indoor loft is $750 in DIY, included in All Access."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes\n50 sparklers — $25 DIY / $0 All Access\nAdditional sparklers — $0.50 each",
+   "verified_value": "Yes\n50 sparklers — $25 DIY / $0 All Access\nAdditional sparklers — $0.50 each",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "50 sparklers Cost $25 (.50 per each additional)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "On-site parking across 2.5 acres",
+   "verified_value": "On-site parking across 2.5 acres",
+   "action": "confirmed",
+   "change_origin": "Package Pricing and Amenities pages.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "2.5 Acres of Parking",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1000 W 100 S, Pleasant Grove, UT 84062",
+   "verified_value": "2182 N Glendon Way, Pleasant Grove, UT 84062",
+   "action": "corrected",
+   "change_origin": "Official site footer (every page) and Contact page: 2182 N Glendon Way. '1000 W 100 S' appears nowhere on the site.",
+   "source_url": "https://www.barbwireandlace.com/contact",
+   "evidence": "2182 N Glendon Way, Pleasant Grove, UT 84062",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Conflict: the Visit page lists '2131 N 180 W St, Pleasant Grove'. Footer/Contact used; confirm with venue."
+  },
+  {
+   "field": "City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Pleasant Grove",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.barbwireandlace.com/contact",
+   "evidence": "Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nOnsite sound system\nMicrophone",
+   "verified_value": "Yes\nOnsite sound system\nMicrophone",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Use of onsite Sound System with microphone for you or your DJ",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "One event scheduled per day\nPhoto shoot — $75 for 1 hour 30 minutes\nPayment plan available\nFood trucks welcome",
+   "verified_value": "One event scheduled per day\nPhoto shoot — $75 for 1 hour 30 minutes\nPayment plan available\nFood trucks allowed",
+   "action": "corrected",
+   "change_origin": "Official site, Package Pricing page; reworded 'Food trucks welcome' to 'Food trucks allowed' so the Signs keyword rule no longer misfires on 'welcome'.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "only 1 event scheduled per day ... $75 for 1 hour 30 minutes photo shoot ... payment plan available ... Food trucks are welcome!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Table and chair setup/takedown — $400 (Do It Yourself) / included (All Access)",
+   "action": "added",
+   "change_origin": "Official site, Package Pricing page: setup/takedown of tables and chairs is $400 in DIY, included in All Access.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Barbwire & Lace sets-up and takes down tables and chairs Cost $400",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "No general cleanup statement."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (payment plan mentioned only).",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside vendors allowed\nFood trucks welcome\nOnsite kitchen available",
+   "verified_value": "No in-house catering; bring your own food\nAny vendor allowed, no outside vendor fees\nFood trucks welcome\nOnsite kitchen available",
+   "action": "corrected",
+   "change_origin": "Official site, FAQs and Package Pricing pages: no in-house catering, bring your own food, any vendor with no fees.",
+   "source_url": "https://www.barbwireandlace.com/faqs-3",
+   "evidence": "Can we bring our own food? Yes, please do. We do not provide catering services.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Onsite kitchen",
+   "verified_value": "Onsite serving kitchen",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities page calls it a serving kitchen.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Serving Kitchen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "No alcohol permitted on the property",
+   "verified_value": "No alcohol permitted on the property",
+   "action": "confirmed",
+   "change_origin": "FAQs and Amenities pages.",
+   "source_url": "https://www.barbwireandlace.com/faqs-3",
+   "evidence": "No. Alcohol is not allowed.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Carole provides custom celebration support throughout the event",
+   "verified_value": "Carole provides custom celebration support throughout the event",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "Carole will be there every step of the way to help you create the perfect backdrop",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Owner helps with design/decor; no formal coordinator. Vendors page recommends an outside planner."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Separate bride suite\nSeparate groom suite\nBridesmaid room",
+   "verified_value": "Separate bride suite\nSeparate groom suite\nBridesmaid room",
+   "action": "confirmed",
+   "change_origin": "Amenities and Package Pricing pages.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Bridal Room Groom’s Room Bridesmaid Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No alcohol permitted on the property",
+   "verified_value": "No alcohol permitted on the property",
+   "action": "confirmed",
+   "change_origin": "Amenities page.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "we DO NOT ALLOW ALCOHOL ON THE PROPERTY",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "One event scheduled per day\nPayment plan available\nMultiple themed areas and Decor Store inventory available",
+   "verified_value": "One event scheduled per day\nPayment plan available\nMultiple themed areas and Decor Store inventory available\nTwo full bathrooms with showers; gift room",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities page: added bathrooms with showers and gift room.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "2 Full Bathrooms (Includes Showers) Fully decorated Gift Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-787-7325\nEmail: barbwire46@hotmail.com",
+   "verified_value": "Phone: 801-787-7325\nEmail: barbwire46@hotmail.com",
+   "action": "confirmed",
+   "change_origin": "Contact page and footer.",
+   "source_url": "https://www.barbwireandlace.com/contact",
+   "evidence": "(801) 787-7325 barbwire46@hotmail.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "$3000-$4500",
+   "verified_value": "$3000-$4500",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "$3000 ... $4500",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "200",
+   "verified_value": "200",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page (All Access).",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Seating for up to 200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "100 in the DIY package."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Pleasant Grove",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.barbwireandlace.com/contact",
+   "evidence": "Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Sound System with microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Use of onsite Sound System",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Amenities page.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Bridal Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Amenities page.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Groom’s Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page: setup/takedown is $400 in DIY.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "sets-up and takes down tables and chairs Cost $400",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Included only in All Access."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home page: owner Carole helps throughout.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "Carole will be there every step of the way",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Human decision: owner design help vs a coordinator."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home page and Package Pricing (indoor loft).",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Exclusive use of all indoor & outdoor areas",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Loft is $750 in DIY."
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Package Pricing and Amenities pages.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Open Air Barn ... Spacious lawn areas",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "corrected",
+   "change_origin": "Official site, Package Pricing page: linens only in the $4,500 All Access package.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "10 Round Tables with your choice Centerpieces & Linens",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "FAQs and Package Pricing pages.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "feel free to choose any vendor you wish; there is no extra cost. Food trucks are welcome!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "50 sparklers Cost $25",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Free in All Access."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Package Pricing page.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "10 Round tables with your choice of Centerpieces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Official site: Amenities page lists backdrops and props (included); vine-covered arbor is $750 in DIY.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Backdrops and Props ... Vine Covered Arbor is beautifully lit",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Rule matches 'backdrop' (included) but not 'arbor' (rent); add 'arbor' to the rule."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Package Pricing page: barn pavilion with working fireplace in both packages.",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "Open air barn dance floor pavilion with working fireplace",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on floral decor (gardens are grounds).",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Keyword rule misfire: 'welcome' matched 'Food trucks welcome' in extras; the site offers no signs or easels as decor (only a free sign-in desk and a $100 treat option 'Ladder and Basket with Sign'). Extras line reworded to 'Food trucks allowed'.",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options",
+   "evidence": "Sign In Desk $0",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, home page.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "Bathed in the warm glow of chandeliers and fairy lights",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, home page (fairy lights); Amenities page says the arbor is lit.",
+   "source_url": "https://www.barbwireandlace.com/",
+   "evidence": "chandeliers and fairy lights",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included+rent",
+   "action": "corrected",
+   "change_origin": "Official site: whiskey barrel cake table included; other cake tables $100 in DIY (Options page).",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options",
+   "evidence": "Whiskey Barrel with Glass Top is FREE ... Cake Tables - $100 Extra",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Options page.",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options",
+   "evidence": "Drink Station $100 Extra ... Saloon $200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Included in All Access only."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (fireplace, not firepit).",
+   "source_url": "https://www.barbwireandlace.com/package-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Amenities page: photo backdrops and props on the grounds.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "Photography – Shaded benches, water fountains ... Backdrops and Props",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.barbwireandlace.com/amenities",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (head table $100 is not a sweetheart table).",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Barbwire and Lace",
+  "link": "https://www.barbwireandlace.com/",
+  "Description": "A 3.5-acre vintage reception venue with mountain views, indoor and outdoor spaces, gardens, fairy lights, rustic and antique character, and an open-air barn with a fireplace.",
+  "Standard Price Range": "$3,000-$4,500",
+  "Packages and Prices": "Do It Yourself — $3,000: 6-hour time block of your choice, 1 hour setup on event day, exclusive use of allotted outdoor areas, open-air barn dance-floor pavilion with working fireplace, seating for up to 100, 10 round tables with choice of centerpieces, whiskey barrel cake table, 3 banquet tables, onsite kitchen, separate bride and groom suites, gift room, sound system with microphone, 2.5 acres of parking\nDIY add-ons: vine-covered ceremony area $750, indoor loft with walkout balcony $750, table and chair setup/takedown $400, 50 sparklers $25, saloon for stations or non-alcoholic drinks $200, Decor Store station pieces $100+ each\nAll Access (Done For You) — $4,500: 8-hour time block, 1 hour setup day of or night before, exclusive use of all indoor and outdoor areas, seating for up to 200, 10 round tables with centerpieces and linens, choice of cake table, ceremony area, loft, setup/takedown, 50 sparklers, saloon and unlimited Decor Store stations included\nAdditional sparklers — $0.50 each\nPhoto shoot with your photographer — $75 for 1 hour 30 minutes",
+  "Seated Capacity": "100 (Do It Yourself package)\n200 (All Access package)",
+  "Standing Capacity": "",
+  "Time slots": "6-hour block of your choice (Do It Yourself)\n8-hour block of your choice (All Access)\nOne event per day",
+  "Length of Rental": "6-8 hours",
+  "Style": "Rustic\nVintage\nBOHO\nCountry charm\nShabby chic",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "10 round tables with choice of centerpieces\n3 banquet tables\nWhiskey barrel cake table\nTables and chairs\nOpen-air barn pavilion with working fireplace\nChandeliers and fairy lights throughout the grounds\nPhoto backdrops and props\nLinens on round tables (All Access package only)",
+  "Other Decor for Rent": "Vine-covered ceremony arbor — $750 DIY / $0 All Access\nIndoor loft with walkout balcony — $750 DIY / $0 All Access\nTable and chair setup/takedown — $400 DIY / $0 All Access\nSaloon for stations and non-alcoholic beverages — $200 DIY / $0 All Access\nDecor Store station customization — $100+ per station DIY / $0 unlimited stations All Access\nCake tables — $100 (DIY)\nDrink station — $100 (DIY)\nTasty treats station — $100 (DIY)\nHead table — $100 (DIY)\n6 pub tables with linens — $80\nOld truck display — $200",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes\n50 sparklers — $25 DIY / $0 All Access\nAdditional sparklers — $0.50 each",
+  "parking?": "On-site parking across 2.5 acres",
+  "Full Address": "2182 N Glendon Way, Pleasant Grove, UT 84062",
+  "City": "Pleasant Grove",
+  "sound system": "Yes\nOnsite sound system\nMicrophone",
+  "extras": "One event scheduled per day\nPhoto shoot — $75 for 1 hour 30 minutes\nPayment plan available\nFood trucks allowed",
+  "cleanup crew": "Table and chair setup/takedown — $400 (Do It Yourself) / included (All Access)",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "No in-house catering; bring your own food\nAny vendor allowed, no outside vendor fees\nFood trucks welcome\nOnsite kitchen available",
+  "Prep Area": "Onsite serving kitchen",
+  "Alcohol policy": "No alcohol permitted on the property",
+  "Event Coordinator": "Carole provides custom celebration support throughout the event",
+  "Bride/Groom Rooms": "Separate bride suite\nSeparate groom suite\nBridesmaid room",
+  "Restrictions": "No alcohol permitted on the property",
+  "Important Notes": "One event scheduled per day\nPayment plan available\nMultiple themed areas and Decor Store inventory available\nTwo full bathrooms with showers; gift room",
+  "Contact Information": "Phone: 801-787-7325\nEmail: barbwire46@hotmail.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Rustic",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Rustic",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Description says vintage, rustic, antique, barn (Rustic) and 3.5 acres with gardens (Outdoors). Matches the site's photos and wording.",
+  "site_cues": [
+   "rustic gem",
+   "BOHO wonderland",
+   "3.5 Acre property"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Packages",
+   "why": "Two tiers with different hours, capacity and inclusions",
+   "data": {
+    "packages": [
+     {
+      "name": "Do It Yourself",
+      "price": "$3,000",
+      "hours": 6,
+      "seated": 100,
+      "includes": [
+       "2.5 acres parking",
+       "allotted outdoor areas",
+       "open-air barn pavilion with fireplace",
+       "10 round tables with centerpieces",
+       "whiskey barrel cake table",
+       "3 banquet tables",
+       "kitchen",
+       "bride and groom suites",
+       "gift room",
+       "sound system with microphone"
+      ],
+      "extra": [
+       {
+        "item": "Vine-covered ceremony area",
+        "price": "$750"
+       },
+       {
+        "item": "Indoor loft with balcony",
+        "price": "$750"
+       },
+       {
+        "item": "Table/chair setup and takedown",
+        "price": "$400"
+       },
+       {
+        "item": "50 sparklers",
+        "price": "$25"
+       },
+       {
+        "item": "Saloon",
+        "price": "$200"
+       },
+       {
+        "item": "Decor Store station",
+        "price": "$100+ each"
+       }
+      ]
+     },
+     {
+      "name": "All Access (Done For You)",
+      "price": "$4,500",
+      "hours": 8,
+      "seated": 200,
+      "includes": [
+       "all indoor and outdoor areas",
+       "linens",
+       "choice of cake table",
+       "ceremony area",
+       "loft",
+       "setup/takedown",
+       "50 sparklers",
+       "saloon",
+       "unlimited Decor Store stations"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Station options",
+   "why": "Decor Store station menu with prices (DIY)",
+   "data": {
+    "options": [
+     {
+      "name": "Cake table",
+      "price": "$100",
+      "choices": [
+       "Fireplace with mirror in tree",
+       "Singer sewing table",
+       "Old handcart with crates",
+       "Barrels and door",
+       "Old truck ($200)",
+       "Saloon ($200)"
+      ]
+     },
+     {
+      "name": "Drink station",
+      "price": "$100",
+      "choices": [
+       "Industrial table",
+       "Metal bath tub",
+       "Barrels with nightstand",
+       "Two barrels and old door",
+       "Saloon ($200)"
+      ]
+     },
+     {
+      "name": "Tasty treats",
+      "price": "$100"
+     },
+     {
+      "name": "Head table",
+      "price": "$100"
+     },
+     {
+      "name": "6 pub tables with linens",
+      "price": "$80"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Photo shoots",
+   "why": "Separate photo-shoot rental",
+   "data": {
+    "price": "$75 for 1 hour 30 minutes with your photographer"
+   }
+  }
+ ],
+ "open_questions": [
+  "Address conflict: footer/Contact say 2182 N Glendon Way; Visit page says 2131 N 180 W St (both Pleasant Grove). Old data '1000 W 100 S' is on neither. Confirm with venue.",
+  "Event coordinator: owner Carole helps with decor and planning; team to decide whether that counts.",
+  "Ceremony arch rule: 'arbor' isn't in the keyword list; consider adding it.",
+  "Deposit terms not on site (payment plan only)."
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "row": 21,
+ "id": "the-rehearsal-hall",
+ "official_name": {
+  "name": "Rehearsal Hall",
+  "source_url": "https://www.sundanceresort.com/groups-weddings/venues/rehearsall-hall/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Sundance Mountain Resort's largest indoor function space",
+   "price": "",
+   "source_url": "https://www.sundanceresort.com/groups-weddings/venues/rehearsall-hall/"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "basic linen",
+   "price": "",
+   "source_url": "https://www.sundanceresort.com/groups-weddings/weddings/"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Rehearsal Hall's outdoor deck overlooks the Sundance pond",
+   "price": "",
+   "source_url": "https://www.sundanceresort.com/site/assets/files/17770/rehearsal-hall-floor-plan-2017.pdf"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": null,
+  "high": null,
+  "basis": "",
+  "wording": "",
+  "math": ""
+ },
+ "seated": {
+  "low": 250,
+  "high": 250,
+  "wording": "250 at round tables"
+ },
+ "standing": {
+  "low": 300,
+  "high": 300,
+  "wording": "300 reception"
+ },
+ "row_updates": {
+  "Venue Name": "Rehearsal Hall"
+ }
+}

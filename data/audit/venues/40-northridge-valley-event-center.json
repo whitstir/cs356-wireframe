@@ -1,0 +1,1034 @@
+{
+ "row": 40,
+ "id": "northridge-valley-event-center",
+ "name": "Northridge Valley Event Center",
+ "website": "https://www.northridge-valley.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.northridge-valley.com/ (home: overview, key details, capacity, investment range, inclusions, address, contact)",
+  "https://www.northridge-valley.com/pricing (what's included, rooms, ceremony sites, amenities, coordinator, rates by day and season)",
+  "https://www.northridge-valley.com/add-on-packages (add-on services and prices, alcohol fee)",
+  "https://www.northridge-valley.com/faqs (guest counts, caterers, bartenders, capacity, sparklers, end time)",
+  "https://www.northridge-valley.com/catering-other-vendors (vendor list incl. caterers, food trucks, bartenders)",
+  "https://www.northridge-valley.com/team (team, 1981 barn history)",
+  "https://www.northridge-valley.com/about (venue description)",
+  "https://www.northridge-valley.com/contact (email, phone, address; /more-details redirects here)",
+  "https://www.northridge-valley.com/other-celebrations (non-wedding events; rental inclusions repeated)",
+  "https://www.northridge-valley.com/inspiration-gallery (headings only)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "975 East Northridge Dr, Mapleton, UT 84664",
+  "note": "Old address '1200 E 1200 S, Mapleton' does not appear on the site."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Northridge Valley Event Center",
+   "verified_value": "Northridge Valley Event Center",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "Welcome to Northridge Valley Event Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.northridge-valley.com/",
+   "verified_value": "https://www.northridge-valley.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "STATUS 200 https://www.northridge-valley.com/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A modern, elegant reception venue in Mapleton with mountain views, indoor and outdoor ceremony options, a Pioneer cabin, a warming kitchen, included tables and chairs, and an in-house wedding and event planner.",
+   "verified_value": "A 1981 barn and carriage house in northeast Mapleton, renovated in 2021, blending modern elegance with timeless charm, with mountain views, two lawns for ceremonies, a main hall seating up to 200, an 1888 pioneer cabin, and an included in-house planner.",
+   "action": "corrected",
+   "change_origin": "Added the barn/carriage-house history, lawns and 200-seat hall from the home and team pages; dropped the vague 'indoor and outdoor ceremony options' wording.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "Originally built as a carriage house in 1981 and fully renovated in 2021",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Team page calls the building 'the original 1981 barn'."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$5,000-$7,000",
+   "verified_value": "$5,000-$7,000",
+   "action": "confirmed",
+   "change_origin": "Pricing page: weekday off-peak $5,000 to Saturday peak $7,000.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Weekday ... Off-Peak Dates $5,000 ... Saturday Weddings ... Peak Dates $7,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Home page still says $5,000-$6,000; pricing page is more specific."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "12 farmhouse tables, 220 crossback chairs, 5 floor-length linens, 6 table runners, candles, warming kitchen, 2 dressing rooms, Bluetooth sound systems, 65-inch TV, white oak ceremony arch with draping, centerpieces, setup and breakdown, wedding and event planner — Weekday 12pm-10pm — $5,000 off-season or $5,500 peak season\nSame inclusions — Friday 10am-10pm — $6,000 off-season or $6,500 peak season\nSame inclusions — Saturday 10am-10pm — $6,500 off-season or $7,000 peak season\nGold decor package — $1,500",
+   "verified_value": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms) — Weekday 12pm-10pm — $5,000 off-peak (Nov-Mar) or $5,500 peak (Apr-Oct)\nSame inclusions — Friday 10am-10pm — $6,000 off-peak or $6,500 peak\nSame inclusions — Saturday 10am-10pm — $6,500 off-peak or $7,000 peak\nUtah sales tax applies",
+   "action": "corrected",
+   "change_origin": "Rates match, but the inclusion list had items not on the site (6 runners, 65-inch TV, white oak arch, centerpieces) and an invented 'Gold decor package — $1,500'; rebuilt from the pricing page.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Venue Rental Includes: Tables and Chairs for 200 Guests ... Arch and drapes are included.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "50-200",
+   "verified_value": "50-200",
+   "action": "confirmed",
+   "change_origin": "Home page key details.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "The venue comfortably hosts weddings and events from 50-200 for a seated dinner.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "300",
+   "action": "added",
+   "change_origin": "FAQ building capacity.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "300 for a flowing reception.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm",
+   "verified_value": "Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm",
+   "action": "confirmed",
+   "change_origin": "Pricing page hours.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Weekday Weddings 10 Hours 12:00 p.m - 10:00 p.m ... Friday Weddings 12 Hours 10:00 a.m - 10:00 p.m",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "10 hours",
+   "verified_value": "10 hours weekdays; 12 hours Friday and Saturday",
+   "action": "corrected",
+   "change_origin": "Friday and Saturday rentals are 12 hours, not 10.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Saturday Weddings 12 Hours 10:00 a.m - 10:00 p.m",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Modern elegance\nTimeless charm\nCharming\nElegant",
+   "verified_value": "Modern elegance\nTimeless charm\nCharming\nElegant",
+   "action": "confirmed",
+   "change_origin": "Home and pricing pages.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "blends modern elegance with timeless charm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Five linens included.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "Five floor-length linens with tables",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "12 farmhouse tables\n220 crossback chairs\n5 floor-length linens\n6 table runners\nCandles\nWhite oak ceremony arch with draping\nCenterpieces\nPioneer cabin\n2 dressing rooms",
+   "verified_value": "12 farmhouse tables (9 ft x 40 in., seat up to 12 each)\nSweetheart table (5-ft farmhouse)\n220 crossback chairs\nBuffet, cake, gift and sign-in tables\n5 linens of your choice\nTable runners\nCandles (floating, pillar and tapered)\nCard box, bud vases, chalkboard signs and frames\nGreen garlands and simple silk florals\nCake stands and serving set\nDrink dispensers and carafes\nCeremony arch with draping (set up at your chosen site)\n14-ft fireplace\nLawn games\nTorches for sparkler send-offs\nPioneer cabin (1888)",
+   "action": "corrected",
+   "change_origin": "Rebuilt from the pricing page and Something Borrowed room list; added sweetheart table, cake stands, drink dispensers, chalkboards, greenery, fireplace; removed centerpieces (not included) and the dressing rooms (own column).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Inventory decor, table runners, candles (floating, pillar and tapered), card box, bud vases, chalkboards, frames, greenery and more.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Mantle and ceremony backdrop decorating (silk florals and greenery) — $950\nBasic greenery — $500\nFlorals by a floral designer (personal flowers and centerpieces) — from $2,500\nFramed backdrops (simple sheer curtain to full draping) — from $250\nDrop-off decorating setup (your centerpieces, signage, photos, favors) — $500\nAdditional linens — $20 each\nBar top — $25\nChinaware and glassware — $5 per person ($1 per piece)",
+   "action": "added",
+   "change_origin": "Official Add-on Packages page.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "Mantle and Ceremony Backdrop $950 ... Basic greenery $500 ... Framed Backdrops $250",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Indoor hall plus east and west lawns.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Host your event with plenty of space inside and outside.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "Yes\nSparklers allowed on the front patio (torches provided)\nCold sparks outdoors only",
+   "action": "added",
+   "change_origin": "FAQ sparkler answer.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "Sparklers are allowed on front patio - torches provided. Cold sparks are allowed outdoors only.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Ample onsite parking\nOverflow parking options",
+   "verified_value": "Parking lot with 70 stalls\nOverflow parking",
+   "action": "corrected",
+   "change_origin": "Pricing page gives the stall count.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Parking Lot - 70 stalls plus overflow",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1200 E 1200 S, Mapleton, UT 84664",
+   "verified_value": "975 E Northridge Dr, Mapleton, UT 84664",
+   "action": "corrected",
+   "change_origin": "Site address is 975 East Northridge Dr; '1200 E 1200 S' does not appear anywhere on the site.",
+   "source_url": "https://www.northridge-valley.com/contact",
+   "evidence": "975 East Northridge Dr Mapleton, Utah 84664",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Mapleton",
+   "verified_value": "Mapleton",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.northridge-valley.com/contact",
+   "evidence": "Mapleton, Utah 84664",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nBluetooth sound systems\nMicrophone\n65-inch TV",
+   "verified_value": "Yes\nBluetooth surround sound system and party box\nMicrophone and speaker\nTV on wheels",
+   "action": "corrected",
+   "change_origin": "Site describes a Bluetooth surround system and party box, mic and speaker, and a TV on wheels (not a 65-inch TV).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Connect your play list via bluetooth. surround sound system or party box for dancing. Mic and speaker included. TV on wheels also included.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Mountain views\nPioneer cabin\nIndoor and outdoor ceremony options\nGold decor package — $1,500",
+   "verified_value": "Mountain views\nTwo lawns (east and west) for ceremonies and social hour\nUpstairs overflow seating\nWater dispensers\nTake-out box delivered to your send-off vehicle\nSnow machine — $150\nGetaway car (1915 Dodge Brothers touring car, driver provided) — $500\nExtra help (2 staff for restocking and clearing tables) — $250",
+   "action": "corrected",
+   "change_origin": "Removed 'Gold decor package — $1,500' (not on the site) and duplicates; added lawns, overflow seating and priced add-ons from the Add-ons page.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "Snow Machine $150 ... Get away car $500 ... Extra Help $250",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Caterers clean the kitchen when finished",
+   "action": "added",
+   "change_origin": "FAQ says suggested caterers clean the kitchen; venue cleanup is not described.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "Caterers that we suggest take great care of you and your guests and they clean the kitchen when they are done.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "ADA-accessible bathrooms",
+   "verified_value": "ADA-accessible bathrooms",
+   "action": "confirmed",
+   "change_origin": "Pricing page amenities.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "ADA Bathrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Commercial and business licensed caterers required\nPopular caterers listed on the official website",
+   "verified_value": "Any commercially licensed caterer, so you may choose your own caterer\nFood trucks on the vendor list\nPopular caterers: Brown Brothers, Utah Celebrations, Marvelous, Magleby's, Culinary Crafts",
+   "action": "corrected",
+   "change_origin": "FAQ says catering must be commercially licensed and lists popular options, so couples may pick their own licensed caterer; vendor page also lists food trucks.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "What are our catering options? Commercial and Business Licensed. Here are a few of our most popular.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Not an approved-only list; the list is described as 'a few of our most popular'."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Warming kitchen",
+   "verified_value": "Warming kitchen for caterers\nBeverage dispensers",
+   "action": "corrected",
+   "change_origin": "Pricing page amenities.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Warming Kitchen for Caterers, Beverage dispensers",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "$250 fee to bring alcohol\nMust use one of two bartending services (COPA or Cheers and Swizzles), unless Culinary Crafts provides its own bartenders",
+   "action": "added",
+   "change_origin": "Add-ons page and FAQ.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "We do charge a $250 fee to bring alcohol and must do so through one of our two bar tending services.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "In-house wedding and event planner",
+   "verified_value": "In-house planner and day-of coordinator included (planning meeting, final walkthrough, team lead on the wedding day)\nMonth Out Coordination (2 team members) — $2,500\nComplete Wedding Service (6 months of planning, setup, takedown, day-of coordination) — $5,000",
+   "action": "corrected",
+   "change_origin": "Pricing page includes an in-house day-of coordinator; paid planning add-ons from the Add-ons page.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "In House Day of Cordinator ... Help with your order of events; Direct vendors to set up areas",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's dressing room\nGroom's dressing room",
+   "verified_value": "Bride's suite with back-lit mirrors, chandelier, mini fridge and en-suite bathroom\nGroom's room with mini fridge, full-length mirror, large TV, couch and private bathroom",
+   "action": "corrected",
+   "change_origin": "Pricing page describes both rooms.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Spacious Bride's Room ... Groom's Room ... Large TV & couch; Private bathroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "Events end by 10pm (city noise ordinance)\nSparklers only on the front patio; cold sparks outdoors only\nFireworks only in winter with fire department approval\nDJs, bands and musicians must be licensed and insured\nDogs need management approval\nTours by appointment only",
+   "action": "added",
+   "change_origin": "FAQ policies.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "The 10:00 pm however, is a noise ordinance the city has so we can't extend the celebration later.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Official site describes weddings for 50-200 guests and a single-wedding-per-day setting",
+   "verified_value": "Home page lists a rental range of $5,000-$6,000; the pricing page goes up to $7,000 (Saturday peak)\nNo minimum guest count; ceremony seating for up to 150\nUtah sales tax applies",
+   "action": "corrected",
+   "change_origin": "Replaced restated facts with the price conflict and FAQ notes.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "The rental fee for our venue ranges from $5,000 -$6,000.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-420-1227\nEmail: info@northridge-valley.com",
+   "verified_value": "Phone: (801) 573-4249\nEmail: jessica@northridge-valley.com",
+   "action": "corrected",
+   "change_origin": "Site lists jessica@northridge-valley.com and (801) 573-4249; old phone 801-420-1227 and info@ address do not appear.",
+   "source_url": "https://www.northridge-valley.com/contact",
+   "evidence": "jessica@northridge-valley.com (801) 573-4249",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "5000-7000",
+   "verified_value": "5000-7000",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "$5,000 ... $7,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Home page says $5,000-$6,000."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "200",
+   "verified_value": "200",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "from 50-200 for a seated dinner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Mapleton",
+   "verified_value": "Mapleton",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.northridge-valley.com/contact",
+   "evidence": "Mapleton, Utah 84664",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page amenities.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "ADA Bathrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Mic included.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Mic and speaker included.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Bluetooth sound system included.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Bluetooth sound systems for background music and party box for dancing.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "TV on wheels included.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "TV on wheels also included.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Spacious Bride's Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Groom's Room - The fellas need a place too!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent on venue cleanup (only caterers cleaning the kitchen).",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "In-house day-of coordinator included.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "In House Day of Cordinator",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Main hall.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Indoor & Outdoor Spaces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Lawns used for ceremonies and social hours.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "East & West Lawns for ceremonies and social hours.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Five linens included.",
+   "source_url": "https://www.northridge-valley.com/",
+   "evidence": "Five floor-length linens with tables",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "corrected",
+   "change_origin": "Official FAQ allows any commercially licensed caterer and the vendor list includes food trucks; the old text ('caterers required') did not trigger the rule.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "What are our catering options? Commercial and Business Licensed. Here are a few of our most popular.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Bartending is restricted to two services; catering is not."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official FAQ allows sparklers on the front patio; follows from the new `sparklers allowed` column.",
+   "source_url": "https://www.northridge-valley.com/faqs",
+   "evidence": "Sparklers are allowed on front patio - torches provided.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "rent",
+   "action": "corrected",
+   "change_origin": "Centerpieces are not in the included list; they come with the floral add-on (from $2,500). 'Included' came from an invented line in the old inclusions.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "Florals start at $2,500 ... From personal to centerpieces you can expect beautiful results.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "included",
+   "verified_value": "included+rent",
+   "action": "corrected",
+   "change_origin": "Arch with drapes is included; custom backdrops ($250+) and mantle/ceremony backdrop decorating ($950) are add-ons.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Arch and drapes are included.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "included",
+   "verified_value": "included+rent",
+   "action": "corrected",
+   "change_origin": "Arch drapes included; framed backdrops with draping are an add-on.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "Starting at $250 for a simple sheer curtain with lights to extravagant draping",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Included draping is only the ceremony-arch drape."
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site describes the 14 ft fireplace used as an indoor ceremony site.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "The 14' Grand Fireplace at Northridge is decorated by our expert team",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Basic decor includes green garlands, bud vases and simple silk florals; basic greenery ($500) and florals ($2,500+) are add-ons.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Basics include candles, table runners, votives, bud vases*, card box ... and green garlands.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Something Borrowed room includes chalkboards and frames.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "chalkboards & pens",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Candles in the Something Borrowed room.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "candles (floating, pillar and tapered)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent except a chandelier inside the bride's room, which is not event decor.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (only a framed backdrop 'with lights' add-on).",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Cake table and cake stands included.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "Buffet tables, cake table, gift table, sign in table and your choice of linens.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Drink dispensers and carafes included; bar top is a $25 add-on.",
+   "source_url": "https://www.northridge-valley.com/add-on-packages",
+   "evidence": "Bar Top $25 ... Guests can enjoy a drink, or even dessert.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (Photo Booth Bus is an outside vendor on the vendor list).",
+   "source_url": "https://www.northridge-valley.com/catering-other-vendors",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, add-on packages, FAQs, vendors, team, about, contact checked).",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Sweetheart farmhouse table included.",
+   "source_url": "https://www.northridge-valley.com/pricing",
+   "evidence": "1 - 5' Sweetheart farmhouse table",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Northridge Valley Event Center",
+  "link": "https://www.northridge-valley.com/",
+  "Description": "A 1981 barn and carriage house in northeast Mapleton, renovated in 2021, blending modern elegance with timeless charm, with mountain views, two lawns for ceremonies, a main hall seating up to 200, an 1888 pioneer cabin, and an included in-house planner.",
+  "Standard Price Range": "$5,000-$7,000",
+  "Packages and Prices": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms) — Weekday 12pm-10pm — $5,000 off-peak (Nov-Mar) or $5,500 peak (Apr-Oct)\nSame inclusions — Friday 10am-10pm — $6,000 off-peak or $6,500 peak\nSame inclusions — Saturday 10am-10pm — $6,500 off-peak or $7,000 peak\nUtah sales tax applies",
+  "Seated Capacity": "50-200",
+  "Standing Capacity": "300",
+  "Time slots": "Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm",
+  "Length of Rental": "10 hours weekdays; 12 hours Friday and Saturday",
+  "Style": "Modern elegance\nTimeless charm\nCharming\nElegant",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "12 farmhouse tables (9 ft x 40 in., seat up to 12 each)\nSweetheart table (5-ft farmhouse)\n220 crossback chairs\nBuffet, cake, gift and sign-in tables\n5 linens of your choice\nTable runners\nCandles (floating, pillar and tapered)\nCard box, bud vases, chalkboard signs and frames\nGreen garlands and simple silk florals\nCake stands and serving set\nDrink dispensers and carafes\nCeremony arch with draping (set up at your chosen site)\n14-ft fireplace\nLawn games\nTorches for sparkler send-offs\nPioneer cabin (1888)",
+  "Other Decor for Rent": "Mantle and ceremony backdrop decorating (silk florals and greenery) — $950\nBasic greenery — $500\nFlorals by a floral designer (personal flowers and centerpieces) — from $2,500\nFramed backdrops (simple sheer curtain to full draping) — from $250\nDrop-off decorating setup (your centerpieces, signage, photos, favors) — $500\nAdditional linens — $20 each\nBar top — $25\nChinaware and glassware — $5 per person ($1 per piece)",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes\nSparklers allowed on the front patio (torches provided)\nCold sparks outdoors only",
+  "parking?": "Parking lot with 70 stalls\nOverflow parking",
+  "Full Address": "975 E Northridge Dr, Mapleton, UT 84664",
+  "City": "Mapleton",
+  "sound system": "Yes\nBluetooth surround sound system and party box\nMicrophone and speaker\nTV on wheels",
+  "extras": "Mountain views\nTwo lawns (east and west) for ceremonies and social hour\nUpstairs overflow seating\nWater dispensers\nTake-out box delivered to your send-off vehicle\nSnow machine — $150\nGetaway car (1915 Dodge Brothers touring car, driver provided) — $500\nExtra help (2 staff for restocking and clearing tables) — $250",
+  "cleanup crew": "Caterers clean the kitchen when finished",
+  "Accessibility": "ADA-accessible bathrooms",
+  "Deposit Policy": "",
+  "Catering": "Any commercially licensed caterer, so you may choose your own caterer\nFood trucks on the vendor list\nPopular caterers: Brown Brothers, Utah Celebrations, Marvelous, Magleby's, Culinary Crafts",
+  "Prep Area": "Warming kitchen for caterers\nBeverage dispensers",
+  "Alcohol policy": "$250 fee to bring alcohol\nMust use one of two bartending services (COPA or Cheers and Swizzles), unless Culinary Crafts provides its own bartenders",
+  "Event Coordinator": "In-house planner and day-of coordinator included (planning meeting, final walkthrough, team lead on the wedding day)\nMonth Out Coordination (2 team members) — $2,500\nComplete Wedding Service (6 months of planning, setup, takedown, day-of coordination) — $5,000",
+  "Bride/Groom Rooms": "Bride's suite with back-lit mirrors, chandelier, mini fridge and en-suite bathroom\nGroom's room with mini fridge, full-length mirror, large TV, couch and private bathroom",
+  "Restrictions": "Events end by 10pm (city noise ordinance)\nSparklers only on the front patio; cold sparks outdoors only\nFireworks only in winter with fire department approval\nDJs, bands and musicians must be licensed and insured\nDogs need management approval\nTours by appointment only",
+  "Important Notes": "Home page lists a rental range of $5,000-$6,000; the pricing page goes up to $7,000 (Saturday peak)\nNo minimum guest count; ceremony seating for up to 150\nUtah sales tax applies",
+  "Contact Information": "Phone: (801) 573-4249\nEmail: jessica@northridge-valley.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern",
+   "Classic"
+  ],
+  "suggested": [
+   "Modern",
+   "Classic",
+   "Rustic"
+  ],
+  "change": "add Rustic",
+  "reasoning": "The site pairs 'modern elegance with timeless charm' (Modern, Classic) with a renovated 1981 barn, local stonework and rustic farmhouse tables. The corrected Description contains 'barn', so the rules would add Rustic. Gardens and two lawns could also support Outdoors, but the site centers on the hall.",
+  "site_cues": [
+   "blends modern elegance with timeless charm",
+   "the original 1981 barn",
+   "seats up to 200 guests at rustic farmhouse tables",
+   "serene garden elegance"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day and season pricing",
+   "why": "Rates by day group and peak/off-peak season",
+   "data": {
+    "rates": [
+     {
+      "days": "Weekday (12pm-10pm)",
+      "off_peak_nov_mar": "$5,000",
+      "peak_apr_oct": "$5,500"
+     },
+     {
+      "days": "Friday (10am-10pm)",
+      "off_peak_nov_mar": "$6,000",
+      "peak_apr_oct": "$6,500"
+     },
+     {
+      "days": "Saturday (10am-10pm)",
+      "off_peak_nov_mar": "$6,500",
+      "peak_apr_oct": "$7,000"
+     }
+    ],
+    "notes": "Utah sales tax applies"
+   }
+  },
+  {
+   "title": "Add-on packages and services",
+   "why": "Many priced add-ons",
+   "data": {
+    "packages": [
+     {
+      "name": "Drop Off Decorating Package",
+      "price": "$500"
+     },
+     {
+      "name": "Mantle and Ceremony Backdrop",
+      "price": "$950"
+     },
+     {
+      "name": "Basic greenery",
+      "price": "$500"
+     },
+     {
+      "name": "Month Out Coordination",
+      "price": "$2,500"
+     },
+     {
+      "name": "Complete Wedding Service",
+      "price": "$5,000",
+      "includes": [
+       "6 months of planning",
+       "setup and takedown",
+       "day-of coordination",
+       "vendor selection"
+      ]
+     },
+     {
+      "name": "Extra Help (2 staff)",
+      "price": "$250"
+     },
+     {
+      "name": "Chinaware and glass",
+      "price": "$5 per person ($1 per piece)"
+     },
+     {
+      "name": "Additional linens",
+      "price": "$20 each"
+     },
+     {
+      "name": "Getaway car (1915 Dodge Brothers)",
+      "price": "$500"
+     },
+     {
+      "name": "Snow machine",
+      "price": "$150"
+     },
+     {
+      "name": "Florals",
+      "price": "from $2,500"
+     },
+     {
+      "name": "Bar top",
+      "price": "$25"
+     },
+     {
+      "name": "Framed backdrops",
+      "price": "from $250"
+     },
+     {
+      "name": "Alcohol fee",
+      "price": "$250"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ceremony sites",
+   "why": "Several on-site ceremony locations",
+   "data": {
+    "sites": [
+     {
+      "name": "Fireplace (indoor)",
+      "setting": "indoor",
+      "notes": "smaller guest count"
+     },
+     {
+      "name": "West wall window (indoor)",
+      "setting": "indoor"
+     },
+     {
+      "name": "Garden",
+      "setting": "outdoor"
+     },
+     {
+      "name": "Grapevines",
+      "setting": "outdoor"
+     },
+     {
+      "name": "Mountain View",
+      "setting": "outdoor"
+     }
+    ],
+    "ceremony_capacity": 150,
+    "includes": [
+     "arch with drapes",
+     "chair setup"
+    ]
+   }
+  },
+  {
+   "title": "Spaces and capacity",
+   "why": "Seated, standing and overflow figures",
+   "data": {
+    "spaces": [
+     {
+      "name": "Main hall",
+      "setting": "indoor",
+      "seated": 200,
+      "standing": 300
+     },
+     {
+      "name": "Upstairs overflow",
+      "setting": "indoor",
+      "notes": "round tables for extra seating"
+     },
+     {
+      "name": "East and West lawns",
+      "setting": "outdoor"
+     },
+     {
+      "name": "Pioneer cabin (1888)",
+      "setting": "outdoor"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Home page says rental is $5,000-$6,000, pricing page goes to $7,000; ask the venue to confirm current Saturday peak pricing.",
+  "Deposit and cancellation terms are not published.",
+  "Catering: FAQ requires a commercially licensed caterer and lists favorites; confirm that any licensed caterer is allowed (audit set Outside catering to true)."
+ ]
+}

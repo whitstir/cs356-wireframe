@@ -1,0 +1,223 @@
+{
+ "row": 27,
+ "id": "orion-event-venue",
+ "official_name": {
+  "name": "Orion Event Venue",
+  "source_url": "https://www.orioneventvenue.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "2 – Wireless microphones",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound System with media dock",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "3 – 60” 4K TVs",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Cleaning Included",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "On – Site Staff ... our event planner during the event planning meeting",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Ballroom decorated with flowers for a wedding",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Private Patio Space / Hanging Outdoor Lights",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easel or Chalk Board",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Chandelier with lights turned on, dance floor surrounded by tables for guests",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Hanging Outdoor Lights",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "1 – Cake Table",
+   "price": "",
+   "source_url": "https://www.orioneventvenue.com/pricing/"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1800,
+  "high": 3400,
+  "basis": "rental",
+  "wording": "Sun–Thu $1,800; Fri $2,300; Sat $3,400",
+  "math": ""
+ },
+ "seated": {
+  "low": 200,
+  "high": 200,
+  "wording": "200 chairs and 20 round tables provided"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Orion Event Venue"
+ }
+}

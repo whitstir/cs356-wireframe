@@ -1,0 +1,783 @@
+{
+ "id": "castle-park",
+ "name": "Castle Park",
+ "city": "Lindon",
+ "description": "A castle-themed event venue in Lindon with upper and lower ballrooms, gardens, and a castle and gazebo for ceremonies; packages include tables, chairs, linens, decorations and a wedding planner.",
+ "styles": [
+  "Luxury"
+ ],
+ "priceMin": 1825,
+ "priceMax": 8675,
+ "priceBasis": "rental",
+ "priceText": "One ballroom $1,825–$3,595; both ballrooms (Large Party) $6,045–$8,675",
+ "seated": 200,
+ "seatedMin": 96,
+ "seatedText": "96 (Venue & Decor package)\nUpper 120 / Lower 150\nLower 200 with Large Party package",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Ceremony arch / backdrop": [
+   "included",
+   "rent"
+  ],
+  "Draping / chair covers": [
+   "rent"
+  ],
+  "Greenery / florals": [
+   "rent"
+  ],
+  "Signs / easels": [
+   "included",
+   "rent"
+  ],
+  "String / bistro lights": [
+   "rent"
+  ],
+  "Drink / beverage station": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": true,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Ramp entrance and accessible walkway to the elevator"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "Elevator"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "House sound system w/wireless mic"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "House sound system w/wireless mic"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TVs in both ballrooms and the upper groom's room"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Brides room in both ballrooms"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Venue wedding planner with every package"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Upper includes grooms/Media room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Upper or Lower Ballroom"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Tufted linens for standard tables"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Gazebo and private garden"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Self-catering or any caterer at no extra charge"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparklers, bubbles or bells for the exit (every package); not lit indoors or over carpet"
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Non-floral centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Standard backdrop; ceremony decor package $515"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "Lights and drapes packages: Lower Ballroom $600, Upper Ballroom $700"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Custom florals on request"
+  },
+  "Decor > Signs / easels": {
+   "status": "included+rent",
+   "wording": "Floor easel; easel and sign-in table with linen"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "rent",
+   "wording": "Lights and drapes packages"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Bar package $950: licensed bartender for 3 hours, tables and linens"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A castle-themed event venue in Lindon with upper and lower ballrooms, gardens, and a castle and gazebo for ceremonies; packages include tables, chairs, linens, decorations and a wedding planner."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "110 South Main Street, Lindon, UT 84042"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "High class\nCastle"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "One ballroom $1,825–$3,595; both ballrooms (Large Party) $6,045–$8,675"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Venue & Decor package (one ballroom, 6-hour block between 4pm and 11pm): peak Mon-Wed $2,045, Thu $2,395, Fri $2,875, Sat/Sun $3,595; off-peak Mon-Wed $1,825, Thu $2,125, Fri $2,495, Sat/Sun $3,045\nVenue & Decor Large Party (both ballrooms, 5pm-1am): peak Mon-Wed $6,645, Thu $6,975, Fri $7,475, Sat/Sun $8,675; off-peak Mon-Wed $6,045, Thu $6,395, Fri $6,775, Sat/Sun $7,845\nSame-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Deposit: 50% of the reservation, up to $1,500 (one venue space) or $2,500 (two spaces)\nMiddle payment of 50% for events over $4,500\nFinal payment due 30 days before the event\nSecurity/cleaning deposit only for very large or teen events\nFree 5-day courtesy hold by text"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Upper or Lower Ballroom"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Gazebo and private garden"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "96 (Venue & Decor package)\nUpper 120 / Lower 150\nLower 200 with Large Party package"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Upper Ballroom",
+     "value": "Seated: 120 · Setting: indoor · Notes: white Chiavari chairs; balcony; groom's/media room"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Lower Ballroom",
+     "value": "Seated: 150 · Seated large party: 200 · Setting: indoor · Notes: black Chiavari chairs; grassy area to the west; required for high school dances"
+    },
+    {
+     "id": "spaces-2",
+     "label": "Castle",
+     "value": "Setting: outdoor · Use: ceremony (package $775)"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Gazebo",
+     "value": "Setting: outdoor · Use: ceremony (package $775)"
+    },
+    {
+     "id": "spaces-4",
+     "label": "Private garden space",
+     "value": "Setting: outdoor · Use: Large Party package"
+    }
+   ]
+  },
+  {
+   "id": "ceremony-options",
+   "title": "Ceremony options",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "ceremony-options-0",
+     "label": "Same space ceremony",
+     "value": "Price: $550 · Includes: 90-minute rehearsal; 80-chair setup; one changeover"
+    },
+    {
+     "id": "ceremony-options-1",
+     "label": "Castle or gazebo ceremony",
+     "value": "Price: $775 · Includes: 90-minute rehearsal; 80-chair setup; PA speaker and microphone; 2-hour block"
+    },
+    {
+     "id": "ceremony-options-2",
+     "label": "Castle or gazebo ceremony decor",
+     "value": "Price: $515 · Includes: backdrop; 40 chair sashes; easel and sign-in table with linen"
+    },
+    {
+     "id": "ceremony-options-3",
+     "label": "Rain plan",
+     "value": "Castle/gazebo ceremonies move indoors in bad weather; no refunds or delays."
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Brides room in both ballrooms"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Upper includes grooms/Media room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's room (each ballroom)\nGroom's/media room (Upper Ballroom only)"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Tufted linens for standard tables"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Venue wedding planner with every package"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Tufted tablecloths for all tables (white-ivory or black)\nNon-flower centerpieces\nColored table runners\nStandard backdrop\nChair sashes for every other chair\nSparklers, bubbles or bells for the exit\nFloor easel\nTwelve 60\" round tables and six serving/decor tables (one ballroom)\nChiavari chairs\nTV/DVD player"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Wedding planner included in every package (planning meeting; manages room setup and decorations)\nOn-site staff member during rental; checks in every 45-60 minutes\nRenter must name a Day-of Coordinator\nWedding planner reception management — $975\nWedding planner ceremony management — $625"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Venue staff clear linens and decor and do the deep cleaning\nRenter/caterer must bus tables, bag trash and clean the kitchen"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "House sound system w/wireless mic"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "House sound system w/wireless mic"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TVs in both ballrooms and the upper groom's room"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nHouse sound system with wireless microphone\nTVs in both ballrooms and the Upper groom's/media room\nOutside DJs must connect to the house system unless renting both ballrooms"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Non-floral centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included+rent",
+     "value": "Standard backdrop; ceremony decor package $515"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "rent",
+     "value": "Lights and drapes packages: Lower Ballroom $600, Upper Ballroom $700"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "rent",
+     "value": "Custom florals on request"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included+rent",
+     "value": "Floor easel; easel and sign-in table with linen"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "rent",
+     "value": "Lights and drapes packages"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Castle or gazebo ceremony decor package (backdrop, 40 chair sashes, easel, sign-in table with linen) — $515\nLights/drapery package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nAlcohol bar package (licensed bartender for 3 hours, tables, linens, cups) — $950\nCustom florals (on request, price not stated)\nServing utensils and place settings (price not stated)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Gardens, castle and gazebo (ceremony sites)\nUpper Ballroom balcony\nLower Ballroom grassy area\nPlayground (adult supervision required)\nPhotography session on the grounds (must be scheduled)\nDJ/MC package — $1,175"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "rent",
+     "value": "Bar package $950: licensed bartender for 3 hours, tables and linens"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Self-catering or any caterer at no extra charge"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterers allowed, no fee\nSelf-catering allowed\nRoyal Catering available through Castle Park\nCaterers must follow the caterer information sheet"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming kitchen only (no stove; burners disabled)\n2 ovens, microwave, ice machine, triple refrigerator, freezer, sinks\nKitchen shared between the two ballrooms, divided by space"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed\nCastle Park bartender required: bar package — $950 (client supplies alcohol)\nNo outside bartenders"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Sparklers, bubbles or bells for the exit (every package); not lit indoors or over carpet"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes\nSparklers, bubbles or bells for the exit included in every package\nNot to be lit inside or over carpet"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "6-hour block between 4pm and 11pm (start at 4pm or 5pm)\nLarge Party: 5pm-1am (setup from 3pm)\nExtra hours available; stays past 2am need management approval"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "6-8 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Only Castle Park bartenders\nLarge or amplified bands, or full DJ setups, require both ballrooms\nOutside DJs must use the house sound system\nNo arrival before the rental start time\nNo moving chairs between ballrooms\nNo rice, confetti, poppers, silly string or glitter (cleaning charge)\nKitchen must be left clean by caterers"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "Ramp entrance and accessible walkway to the elevator"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "included",
+     "value": "Elevator"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Elevator\nRamp entrance at the west end of the main building\nHandicap-marked walkway to the elevator"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Over 230 off-street parking spaces"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Peak season: 2nd weekend of April to 2nd weekend of January; off-peak: 3rd Thursday of January to 2nd Thursday of April\nSunday events are priced as Saturdays\nNo refunds or delays for bad weather; castle/gazebo ceremonies move indoors\nWith an outside cake, a cake stand and cutting set can be rented\nPrices not guaranteed until the deposit is paid"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone/Text: 801-899-9483\nEmail: info@castleparkevents.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://castleparkevents.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "castle-park",
+  "Venue Name": "Castle Park",
+  "link": "https://castleparkevents.com/",
+  "City": "Lindon",
+  "Full Address": "110 South Main Street, Lindon, UT 84042",
+  "Description": "A castle-themed event venue in Lindon with upper and lower ballrooms, gardens, and a castle and gazebo for ceremonies; packages include tables, chairs, linens, decorations and a wedding planner.",
+  "Price Low": "1825",
+  "Price High": "8675",
+  "Price Basis": "rental",
+  "Standard Price Range": "One ballroom $1,825–$3,595; both ballrooms (Large Party) $6,045–$8,675",
+  "Seated Low": "96",
+  "Seated High": "200",
+  "Seated Capacity": "96 (Venue & Decor package)\nUpper 120 / Lower 150\nLower 200 with Large Party package",
+  "Packages and Prices": "Venue & Decor package (one ballroom, 6-hour block between 4pm and 11pm): peak Mon-Wed $2,045, Thu $2,395, Fri $2,875, Sat/Sun $3,595; off-peak Mon-Wed $1,825, Thu $2,125, Fri $2,495, Sat/Sun $3,045\nVenue & Decor Large Party (both ballrooms, 5pm-1am): peak Mon-Wed $6,645, Thu $6,975, Fri $7,475, Sat/Sun $8,675; off-peak Mon-Wed $6,045, Thu $6,395, Fri $6,775, Sat/Sun $7,845\nSame-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental",
+  "Time slots": "6-hour block between 4pm and 11pm (start at 4pm or 5pm)\nLarge Party: 5pm-1am (setup from 3pm)\nExtra hours available; stays past 2am need management approval",
+  "Length of Rental": "6-8 hours",
+  "Style": "High class\nCastle",
+  "Other Decor Included": "Tufted tablecloths for all tables (white-ivory or black)\nNon-flower centerpieces\nColored table runners\nStandard backdrop\nChair sashes for every other chair\nSparklers, bubbles or bells for the exit\nFloor easel\nTwelve 60\" round tables and six serving/decor tables (one ballroom)\nChiavari chairs\nTV/DVD player",
+  "Other Decor for Rent": "Castle or gazebo ceremony decor package (backdrop, 40 chair sashes, easel, sign-in table with linen) — $515\nLights/drapery package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nAlcohol bar package (licensed bartender for 3 hours, tables, linens, cups) — $950\nCustom florals (on request, price not stated)\nServing utensils and place settings (price not stated)",
+  "sparklers allowed": "Yes\nSparklers, bubbles or bells for the exit included in every package\nNot to be lit inside or over carpet",
+  "parking?": "Over 230 off-street parking spaces",
+  "sound system": "Yes\nHouse sound system with wireless microphone\nTVs in both ballrooms and the Upper groom's/media room\nOutside DJs must connect to the house system unless renting both ballrooms",
+  "extras": "Gardens, castle and gazebo (ceremony sites)\nUpper Ballroom balcony\nLower Ballroom grassy area\nPlayground (adult supervision required)\nPhotography session on the grounds (must be scheduled)\nDJ/MC package — $1,175",
+  "cleanup crew": "Venue staff clear linens and decor and do the deep cleaning\nRenter/caterer must bus tables, bag trash and clean the kitchen",
+  "Accessibility": "Elevator\nRamp entrance at the west end of the main building\nHandicap-marked walkway to the elevator",
+  "Deposit Policy": "Deposit: 50% of the reservation, up to $1,500 (one venue space) or $2,500 (two spaces)\nMiddle payment of 50% for events over $4,500\nFinal payment due 30 days before the event\nSecurity/cleaning deposit only for very large or teen events\nFree 5-day courtesy hold by text",
+  "Catering": "Outside caterers allowed, no fee\nSelf-catering allowed\nRoyal Catering available through Castle Park\nCaterers must follow the caterer information sheet",
+  "Prep Area": "Warming kitchen only (no stove; burners disabled)\n2 ovens, microwave, ice machine, triple refrigerator, freezer, sinks\nKitchen shared between the two ballrooms, divided by space",
+  "Alcohol policy": "Alcohol allowed\nCastle Park bartender required: bar package — $950 (client supplies alcohol)\nNo outside bartenders",
+  "Event Coordinator": "Wedding planner included in every package (planning meeting; manages room setup and decorations)\nOn-site staff member during rental; checks in every 45-60 minutes\nRenter must name a Day-of Coordinator\nWedding planner reception management — $975\nWedding planner ceremony management — $625",
+  "Bride/Groom Rooms": "Bride's room (each ballroom)\nGroom's/media room (Upper Ballroom only)",
+  "Restrictions": "Only Castle Park bartenders\nLarge or amplified bands, or full DJ setups, require both ballrooms\nOutside DJs must use the house sound system\nNo arrival before the rental start time\nNo moving chairs between ballrooms\nNo rice, confetti, poppers, silly string or glitter (cleaning charge)\nKitchen must be left clean by caterers",
+  "Important Notes": "Peak season: 2nd weekend of April to 2nd weekend of January; off-peak: 3rd Thursday of January to 2nd Thursday of April\nSunday events are priced as Saturdays\nNo refunds or delays for bad weather; castle/gazebo ceremonies move indoors\nWith an outside cake, a cake stand and cutting set can be rented\nPrices not guaranteed until the deposit is paid",
+  "Contact Information": "Phone/Text: 801-899-9483\nEmail: info@castleparkevents.com"
+ }
+}

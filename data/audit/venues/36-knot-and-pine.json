@@ -1,0 +1,1021 @@
+{
+ "row": 36,
+ "id": "knot-and-pine",
+ "name": "Knot and Pine",
+ "website": "https://knotandpine.com/",
+ "website_status": "ok (redirects to https://www.knotandpine.com/)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.knotandpine.com/ (home: overview, photo alt text, starting price, contact footer)",
+  "https://www.knotandpine.com/about (history: restored barn, former bronzing forge)",
+  "https://www.knotandpine.com/amenities (what's included list and full FAQ: deposit, payments, cancellation, alcohol, vendors, cleanup, staff, parking, accessibility)",
+  "https://www.knotandpine.com/pricing (rates by day group and additional costs; JS page, read in the built-in browser)",
+  "https://www.knotandpine.com/packages (decor add-on packages and prices; backdrop section confirmed in the built-in browser)",
+  "https://www.knotandpine.com/vendors (vendor list and open vendor policy)",
+  "https://www.knotandpine.com/contact (phone, email, address)",
+  "https://www.knotandpine.com/gallery (no captions or text beyond the intro)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "45 E 200 N, Alpine, Utah",
+  "note": "Alpine is in Utah County. The site does not print the ZIP code."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Knot and Pine",
+   "verified_value": "Knot and Pine",
+   "action": "confirmed",
+   "change_origin": "Home page and logo give the name as Knot & Pine.",
+   "source_url": "https://www.knotandpine.com/",
+   "evidence": "Knot & Pine | Rustic Wedding Venue in Alpine, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site styles it 'Knot & Pine'; spelling 'and' kept to match the sheet and the id."
+  },
+  {
+   "field": "link",
+   "current_value": "https://knotandpine.com/",
+   "verified_value": "https://knotandpine.com/",
+   "action": "confirmed",
+   "change_origin": "Link loads the official site (redirects to the www host).",
+   "source_url": "https://www.knotandpine.com/",
+   "evidence": "Final URL https://www.knotandpine.com/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic Alpine reception venue with rustic charm, modern elegance, wood-and-stone architecture, mountain views, a bride's room, groom's space, built-in sound, and flexible indoor and outdoor photo options.",
+   "verified_value": "A restored historic barn in Alpine, originally a bronzing forge, with a 4,500 sq ft dark-wood event space, mountain views, a bridal suite, a groom's loft, and tables and chairs for up to 120 guests, blending rustic and modern features.",
+   "action": "corrected",
+   "change_origin": "Rewritten from the About and Amenities pages: added the 4,500 sq ft space, the forge history and the 120-guest table/chair count; dropped 'built-in sound' (the site describes a Bluetooth system) and 'flexible indoor and outdoor photo options'.",
+   "source_url": "https://www.knotandpine.com/about",
+   "evidence": "Originally constructed as a functional bronzing forge, the building has been lovingly restored",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$3,500-$4,750",
+   "verified_value": "$3,500-$4,750",
+   "action": "confirmed",
+   "change_origin": "Pricing page: Mon-Wed $3,500 up to Fri/Sat $4,750.",
+   "source_url": "https://www.knotandpine.com/pricing",
+   "evidence": "MONDAY–WEDNESDAY $3500 / THURSDAY $4500 / FRIDAY OR SATURDAY $4750",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Venue rental, 6-hour block with setup and takedown — 2026 Mon-Wed — $3,500\nSame inclusions — 2026 Thu — $4,000\nSame inclusions — 2026 Fri-Sat — $4,500\nSame inclusions — 2027 Mon-Wed — $3,500\nSame inclusions — 2027 Thu — $4,250\nSame inclusions — 2027 Fri-Sat — $4,750\nCeremony fee — $100\nExtra hours up to midnight — $150/hour\nAlcohol fee — $400\nIndoor photo session — $100/hour\nOutdoor photo session — $50/hour",
+   "verified_value": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic) — Mon-Wed — $3,500\nSame inclusions — Thu — $4,500\nSame inclusions — Fri or Sat — $4,750\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)",
+   "action": "corrected",
+   "change_origin": "Official Pricing page now lists one rate set (Thu $4,500, not $4,000/$4,250); the 2026/2027 tables are gone. Added early access, walkthrough and holiday notes from the FAQ.",
+   "source_url": "https://www.knotandpine.com/pricing",
+   "evidence": "Pricing: Monday–Wednesday $3500; Thursday $4500; Friday or Saturday $4750",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Read in the built-in browser; no year toggle on the page."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "80-120",
+   "verified_value": "Up to 120",
+   "action": "corrected",
+   "change_origin": "FAQ states tables and chairs for up to 120 guests; '80-120' was the chair count range, not a minimum guest count.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Tables and chairs for up to 120 guests.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Slider value stays 120."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 6-hour block, extendable to midnight\nThu 6-hour block, extendable to midnight\nFri-Sat 6-hour block, extendable to midnight",
+   "verified_value": "Setup access from 10am on the event day (earlier for $150)\n6-hour event block starting when the event begins (includes cleanup)\nEvents end by 10pm unless extended (up to midnight)",
+   "action": "corrected",
+   "change_origin": "FAQ: setup any time after 10am (earlier $150); 6-hour block starts at event start; events end 10pm unless extended to midnight.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Setup can begin anytime after 10:00 AM on the day of your event.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "6 hours; extendable to midnight",
+   "verified_value": "6-hour event block plus all-day setup access; extendable to midnight at $150/hour",
+   "action": "corrected",
+   "change_origin": "FAQ describes all-day setup access plus a six-hour block that includes cleanup; extra hours $150 up to midnight.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "all-day setup access, plus a six-hour block for your event and cleanup",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Rustic charm\nModern elegance\nHistoric\nVintage",
+   "verified_value": "Rustic charm\nModern elegance\nHistoric",
+   "action": "corrected",
+   "change_origin": "Removed 'Vintage': it appears only in a guest review quote on the home page, not in the venue's own words.",
+   "source_url": "https://www.knotandpine.com/",
+   "evidence": "rustic charm meets modern elegance",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Packages page sells table linens (chiffon runners) at $15 each; none listed as included.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Table Linens $15 each, long chiffon runners",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Wood tables\nWood chairs\n10 guest tables\n2 buffet tables\nBarn doors\nChandeliers",
+   "verified_value": "10 farm-style wood guest tables (96 in.)\n80-120 cross-back wood chairs\n2 buffet tables\nCake table\nIndoor and outdoor string and bistro lights\nChandeliers\nDouble-door entrance",
+   "action": "corrected",
+   "change_origin": "Amenities FAQ lists 10 farm-style tables, 80-120 cross-back chairs, two buffet tables and a cake table, and indoor/outdoor string and bistro lighting. 'Barn doors' reworded to the double-door entrance; chandeliers kept from photo alt text.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "10 farm-style wood guest tables. 80–120 cross back wood chairs. Two buffet tables and a cake table.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Chandeliers: not in the included list; supported by home-page photo alt text ('chandeliers adorned with flowers') and the chandelier garland add-on, so medium."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Fresh greenery service — $2,600\nCandle package — $30 per table\nTable package — $65 per table\nDraping — $700\nFresh table greenery — $79, $169 or $303\nFresh greenery table package — $110 per table\nBarn door backdrop — $300\nBarn door with lights — $470\nBarn door with drapery — $150\nBarn door with garland — $225\nTable linens — $15 each\nChandelier garland — $470\nWooden panel backdrop — $175\nSheer white backdrop — $175\nBlack wall backdrop — $150\nPhoto wall backdrop — $200",
+   "verified_value": "Full-service fresh greenery package (ceiling draping, chandelier and door greenery, 10 table packages, 2 food-table garlands) — $2,600\nCandle package — $30 per table\nTable package (candle package, chiffon runner, 6 ft faux garland) — $65 per table\nCeiling and wall draping — $700\nFresh table greenery — $79 (6 ft, min. 4), $169 (12 ft, min. 2), $303 (20 ft)\nFresh greenery table package — $110 per table\nBarn door decor — $300 Christmas trees, $470 fresh mixed greens, $150 twinkle lights drape, $225 curtains\nLong chiffon table runners — $15 each\nChandelier garland with fresh mixed greens — $470\nWooden arch backdrop — $200",
+   "action": "corrected",
+   "change_origin": "Rebuilt from the Packages page. Removed items not on the site (wooden panel, sheer white, black wall and photo wall backdrops); fixed barn-door prices ($470 is fresh greens, $150 twinkle-light drape, $225 curtains).",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "$300 — Christmas trees; $470 — fresh mixed greens; $150 — twinkle lights drape; $225 — pulled back curtains",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Indoor barn confirmed; outdoor side inferred from included 'indoor/outdoor string and bistro lighting' and outdoor photo sessions.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Indoor/outdoor string and bistro lighting.",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "No patio or lawn for events is named on the site; see open questions."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes",
+   "action": "confirmed",
+   "change_origin": "Home-page photo alt text shows sparkler send-offs at the venue.",
+   "source_url": "https://www.knotandpine.com/",
+   "evidence": "A newlywed couple shares a romantic kiss during their sparkler send-off on a snowy night.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The FAQ asks 'Are candles or sparklers allowed?' but the answer only covers candles."
+  },
+  {
+   "field": "parking?",
+   "current_value": "Onsite parking\nNearby overflow parking",
+   "verified_value": "Onsite parking\nNearby overflow parking",
+   "action": "confirmed",
+   "change_origin": "FAQ: on-site parking and overflow parking nearby.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Yes, we have on-site parking and overflow parking available nearby.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "45 E 200 N, Alpine, UT 84004",
+   "verified_value": "45 E 200 N, Alpine, UT 84004",
+   "action": "confirmed",
+   "change_origin": "Contact page address.",
+   "source_url": "https://www.knotandpine.com/contact",
+   "evidence": "45 E 200 N, Alpine, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "ZIP 84004 is not printed on the site."
+  },
+  {
+   "field": "City",
+   "current_value": "Alpine",
+   "verified_value": "Alpine",
+   "action": "confirmed",
+   "change_origin": "Contact page address is in Alpine.",
+   "source_url": "https://www.knotandpine.com/contact",
+   "evidence": "45 E 200 N, Alpine, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nBuilt-in sound system",
+   "verified_value": "Yes\nHi-fi Bluetooth sound system with speakers\nCordless microphone",
+   "action": "corrected",
+   "change_origin": "Amenities page describes a Bluetooth system with cordless mic, not a built-in system.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Hi-fi Bluetooth sound system and cordless mic",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Mountain views\nHistoric architecture\nSparkler sendoff\nBride's room\nGroom's space\nComplimentary one-hour photo session",
+   "verified_value": "Mountain views\nRestored historic building (originally a bronzing forge)\nComplimentary one-hour photo session\nOne complimentary walkthrough",
+   "action": "corrected",
+   "change_origin": "Removed duplicates of other columns (sparkler send-off, bride's room, groom's space); added the forge history and the complimentary walkthrough from the FAQ.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Yes, one complimentary walkthrough is included.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included: general venue cleaning by venue staff\nCouple or vendors remove decorations and rented items",
+   "action": "added",
+   "change_origin": "Official FAQ says staff handle general venue cleaning; couples/vendors remove decor and rentals.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Vendors or the event party must remove decorations and rented items. Our staff handles general venue cleaning.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Cleanup time also counts inside the six-hour block."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "Venue states it is fully accessible for guests with disabilities",
+   "action": "added",
+   "change_origin": "Official FAQ answers the accessibility question.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Yes, the venue is fully accessible for all guests.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No specific features (ramps, restrooms, parking) are named."
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "$1,500 non-refundable upfront fee",
+   "verified_value": "$1,500 non-refundable deposit, applied to the total\nDate change or cancellation allowed within 72 hours of booking\n50% of remaining balance due 60 days before; final payment due 30 days before\nCancellation 60+ days out: 50% refund of balance (minus deposit); within 30 days: no refund",
+   "action": "corrected",
+   "change_origin": "FAQ adds that the deposit applies to the total, plus the payment schedule and cancellation terms.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "A $1,500 non-refundable deposit is required to secure your date. This deposit applies toward the total balance.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "Open vendor policy: you may bring your own caterer\nPreferred caterers listed: Bliss Catering, Crisp Catering\nNo extra fee for using outside vendors",
+   "action": "added",
+   "change_origin": "Vendors page states an open vendor policy except alcohol; FAQ says you may bring your own vendors with no extra fee.",
+   "source_url": "https://www.knotandpine.com/vendors",
+   "evidence": "We have an open vendor policy (except for alcohol service), so you're welcome to choose any vendor you like",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "Prep kitchen for catering support",
+   "action": "added",
+   "change_origin": "Amenities list includes a prep kitchen.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Prep kitchen for catering support",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "Allowed with $400 alcohol fee\nMust be served by an approved licensed bartender (Copa Bar Service or The Bar Project)\nNo outside alcohol or bartenders",
+   "action": "added",
+   "change_origin": "FAQ alcohol answer.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "alcohol is allowed with a $400 service fee ... served by a Knot & Pine-approved licensed bartender",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event hostess and venue team",
+   "verified_value": "Event hostess on site 1 hour before and during the event (assists with setup and guest needs)",
+   "action": "corrected",
+   "change_origin": "FAQ describes an event hostess, not a coordinator; text reworded to say what she does.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "an event hostess will be available one hour prior to your event and during the event to assist with setup and guest needs",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's room\nGroom's space",
+   "verified_value": "Bridal suite with vanity and full-length mirror\nGroom's loft with lounge and TV",
+   "action": "corrected",
+   "change_origin": "Amenities page: bridal suite with vanity and full-length mirror; groom's loft with lounge (FAQ adds a TV).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Bridal suite with vanity and full-length mirror; Groom's loft with lounge area",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "6-hour rental block\nEvents end by 10pm unless extended\nMusic is turned down at 10pm\nCandles must be enclosed\nFloor-lit candles not allowed",
+   "verified_value": "Events end by 10pm unless extended (up to midnight)\nMusic turned down at 10pm (city code)\nLit candles only in enclosed cylinder glass vases; none on the floor during the reception\nDecorations and adhesives must not damage the venue\nTables and chairs may not be removed from the venue\nNo outside alcohol or bartenders",
+   "action": "corrected",
+   "change_origin": "Added FAQ rules on decorations, table removal and outside alcohol; candle rule reworded to match the FAQ.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Lit candles are allowed when enclosed in a cylinder glass vase. During reception time, lit candles are not permitted on the floor.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "2026 and 2027 rates are both listed on the official pricing page",
+   "verified_value": "Pricing page lists one rate per day group with no year; the separate 2026 and 2027 rate tables in the old data are no longer on the site\nHolidays may cost more (inquire)\nSister venue: 5th East Hall in American Fork",
+   "action": "corrected",
+   "change_origin": "Old note referred to 2026/2027 rate tables that are no longer on the pricing page.",
+   "source_url": "https://www.knotandpine.com/pricing",
+   "evidence": "Pricing page shows Monday–Wednesday, Thursday, Friday or Saturday rates with no year",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-756-7400\nEmail: hello@knotandpine.com",
+   "verified_value": "Phone: (801) 770-4642\nEmail: contactus@knotandpine.com",
+   "action": "corrected",
+   "change_origin": "Phone and email on every page differ from the old data; 801-756-7400 and hello@knotandpine.com do not appear on the site.",
+   "source_url": "https://www.knotandpine.com/contact",
+   "evidence": "Phone (801) 770-4642 Email contactus@knotandpine.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "3500-4750",
+   "verified_value": "3500-4750",
+   "action": "confirmed",
+   "change_origin": "Pricing page rates.",
+   "source_url": "https://www.knotandpine.com/pricing",
+   "evidence": "$3500 ... $4750",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "120",
+   "verified_value": "120",
+   "action": "confirmed",
+   "change_origin": "FAQ: tables and chairs for up to 120 guests.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Tables and chairs for up to 120 guests.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Alpine",
+   "verified_value": "Alpine",
+   "action": "confirmed",
+   "change_origin": "Contact page address.",
+   "source_url": "https://www.knotandpine.com/contact",
+   "evidence": "45 E 200 N, Alpine, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official FAQ says the venue is fully accessible for guests with disabilities.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Is the venue accessible for guests with disabilities? Yes, the venue is fully accessible for all guests.",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Column text is faithful to the site but has no 'wheelchair' keyword; the rule should also match 'fully accessible' / 'disabilities'."
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Amenities page includes a cordless mic; follows from the corrected `sound system` column.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "a top-of-the-line Bluetooth sound system with speakers and a microphone is included",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Amenities FAQ.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Yes, a top-of-the-line Bluetooth sound system with speakers and a microphone is included.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Only TV mentioned is in the groom's loft lounge, not an event display.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Groom's loft with a lounge and TV.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Kept false: a lounge TV in the groom's room is not event A/V. Team may decide otherwise."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Amenities list.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Bridal suite with vanity and full-length mirror",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Amenities list.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Groom's loft with lounge area",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official FAQ: staff handle general venue cleaning; follows from the new `cleanup crew` column.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Our staff handles general venue cleaning.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Couples still remove their own decor and rentals."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "removed",
+   "change_origin": "The site offers an event hostess for setup and guest needs, not an event coordinator; the old column said 'Event hostess and venue team', which the rule counts as a coordinator.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "an event hostess will be available one hour prior to your event and during the event to assist with setup and guest needs",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Rule counts any line without '$' as a coordinator; it should look for 'coordinator' or 'planner'. Needs a team decision (see open questions)."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Indoor 4,500 sq ft barn.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Spacious 4,500 sq ft venue with ample seating",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Inferred from included indoor/outdoor string and bistro lighting; no outdoor event area is named.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Indoor/outdoor string and bistro lighting.",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Could be outdoor photo areas only; confirm by phone."
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Linens are a $15 add-on.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Table Linens $15 each, long chiffon runners",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Vendors page: open vendor policy except alcohol; follows from the new `Catering` column.",
+   "source_url": "https://www.knotandpine.com/vendors",
+   "evidence": "We have an open vendor policy (except for alcohol service), so you're welcome to choose any vendor you like",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Photo alt text shows sparkler send-offs at the venue.",
+   "source_url": "https://www.knotandpine.com/",
+   "evidence": "a sparkler send-off on a snowy night ... Guests line both sides, holding glowing sparklers high",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "FAQ question on sparklers is not answered in its text."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site sells candle/table/greenery packages but never calls them centerpieces.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Packages page backdrop rental.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Backdrop Rentals ... $200 for wooden arch",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Packages page draping add-on.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Draping $700 for ceiling and walls",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Packages page fresh greenery add-ons.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Fresh Table Greenery $79 for 6ft, min of 4",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Packages page candle package.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Candle Package $30 per table",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "included+rent",
+   "verified_value": "included",
+   "action": "corrected",
+   "change_origin": "Chandeliers are part of the barn (photo alt text); the 'rent' came from the chandelier garland add-on, which is greenery, not a chandelier rental.",
+   "source_url": "https://www.knotandpine.com/",
+   "evidence": "wooden chairs, and chandeliers adorned with flowers",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Keyword rule misfire: 'chandelier' matches 'Chandelier garland' in the rent column."
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "rent",
+   "verified_value": "included+rent",
+   "action": "corrected",
+   "change_origin": "Official FAQ: string and bistro lighting is part of the rental; a twinkle-light door drape is a $150 add-on.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Indoor/outdoor string and bistro lighting.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Old 'rent' came from a mislabeled 'Barn door with lights — $470' line."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official Amenities FAQ includes a cake table; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "Two buffet tables and a cake table.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (alcohol only through approved bartenders; no bar or drink station listed).",
+   "source_url": "https://www.knotandpine.com/amenities",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "rent",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: 'Photo wall backdrop — $200' is not on the Packages page; the only backdrop is a $200 wooden arch.",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "Backdrop Rentals ... $200 for wooden arch",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, about, amenities/FAQ, pricing, packages, vendors, contact checked).",
+   "source_url": "https://www.knotandpine.com/packages",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Knot and Pine",
+  "link": "https://knotandpine.com/",
+  "Description": "A restored historic barn in Alpine, originally a bronzing forge, with a 4,500 sq ft dark-wood event space, mountain views, a bridal suite, a groom's loft, and tables and chairs for up to 120 guests, blending rustic and modern features.",
+  "Standard Price Range": "$3,500-$4,750",
+  "Packages and Prices": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic) — Mon-Wed — $3,500\nSame inclusions — Thu — $4,500\nSame inclusions — Fri or Sat — $4,750\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)",
+  "Seated Capacity": "Up to 120",
+  "Standing Capacity": "",
+  "Time slots": "Setup access from 10am on the event day (earlier for $150)\n6-hour event block starting when the event begins (includes cleanup)\nEvents end by 10pm unless extended (up to midnight)",
+  "Length of Rental": "6-hour event block plus all-day setup access; extendable to midnight at $150/hour",
+  "Style": "Rustic charm\nModern elegance\nHistoric",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "10 farm-style wood guest tables (96 in.)\n80-120 cross-back wood chairs\n2 buffet tables\nCake table\nIndoor and outdoor string and bistro lights\nChandeliers\nDouble-door entrance",
+  "Other Decor for Rent": "Full-service fresh greenery package (ceiling draping, chandelier and door greenery, 10 table packages, 2 food-table garlands) — $2,600\nCandle package — $30 per table\nTable package (candle package, chiffon runner, 6 ft faux garland) — $65 per table\nCeiling and wall draping — $700\nFresh table greenery — $79 (6 ft, min. 4), $169 (12 ft, min. 2), $303 (20 ft)\nFresh greenery table package — $110 per table\nBarn door decor — $300 Christmas trees, $470 fresh mixed greens, $150 twinkle lights drape, $225 curtains\nLong chiffon table runners — $15 each\nChandelier garland with fresh mixed greens — $470\nWooden arch backdrop — $200",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes",
+  "parking?": "Onsite parking\nNearby overflow parking",
+  "Full Address": "45 E 200 N, Alpine, UT 84004",
+  "City": "Alpine",
+  "sound system": "Yes\nHi-fi Bluetooth sound system with speakers\nCordless microphone",
+  "extras": "Mountain views\nRestored historic building (originally a bronzing forge)\nComplimentary one-hour photo session\nOne complimentary walkthrough",
+  "cleanup crew": "Included: general venue cleaning by venue staff\nCouple or vendors remove decorations and rented items",
+  "Accessibility": "Venue states it is fully accessible for guests with disabilities",
+  "Deposit Policy": "$1,500 non-refundable deposit, applied to the total\nDate change or cancellation allowed within 72 hours of booking\n50% of remaining balance due 60 days before; final payment due 30 days before\nCancellation 60+ days out: 50% refund of balance (minus deposit); within 30 days: no refund",
+  "Catering": "Open vendor policy: you may bring your own caterer\nPreferred caterers listed: Bliss Catering, Crisp Catering\nNo extra fee for using outside vendors",
+  "Prep Area": "Prep kitchen for catering support",
+  "Alcohol policy": "Allowed with $400 alcohol fee\nMust be served by an approved licensed bartender (Copa Bar Service or The Bar Project)\nNo outside alcohol or bartenders",
+  "Event Coordinator": "Event hostess on site 1 hour before and during the event (assists with setup and guest needs)",
+  "Bride/Groom Rooms": "Bridal suite with vanity and full-length mirror\nGroom's loft with lounge and TV",
+  "Restrictions": "Events end by 10pm unless extended (up to midnight)\nMusic turned down at 10pm (city code)\nLit candles only in enclosed cylinder glass vases; none on the floor during the reception\nDecorations and adhesives must not damage the venue\nTables and chairs may not be removed from the venue\nNo outside alcohol or bartenders",
+  "Important Notes": "Pricing page lists one rate per day group with no year; the separate 2026 and 2027 rate tables in the old data are no longer on the site\nHolidays may cost more (inquire)\nSister venue: 5th East Hall in American Fork",
+  "Contact Information": "Phone: (801) 770-4642\nEmail: contactus@knotandpine.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Rustic",
+   "Modern"
+  ],
+  "suggested": [
+   "Classic",
+   "Rustic",
+   "Modern"
+  ],
+  "change": "none",
+  "reasoning": "The site calls itself a restored historic barn with 'rustic charm meets modern elegance'. The corrected Description contains 'historic' (Classic), 'barn' (Rustic) and 'modern' (Modern), so the rules give the same three tags.",
+  "site_cues": [
+   "rustic charm meets modern elegance",
+   "transforming a historic barn into a premier wedding destination",
+   "Renovated with a touch of modern sophistication"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing",
+   "why": "Three rate groups plus add-on fees",
+   "data": {
+    "rates": [
+     {
+      "days": "Monday-Wednesday",
+      "price": "$3,500"
+     },
+     {
+      "days": "Thursday",
+      "price": "$4,500"
+     },
+     {
+      "days": "Friday or Saturday",
+      "price": "$4,750"
+     }
+    ],
+    "fees": [
+     {
+      "item": "Deposit (non-refundable, applied to total)",
+      "price": "$1,500"
+     },
+     {
+      "item": "Ceremony fee",
+      "price": "$100"
+     },
+     {
+      "item": "Extra hours (to midnight)",
+      "price": "$150/hour"
+     },
+     {
+      "item": "Early access before 10am",
+      "price": "$150"
+     },
+     {
+      "item": "Alcohol fee",
+      "price": "$400"
+     },
+     {
+      "item": "Indoor photo session",
+      "price": "$100/hour"
+     },
+     {
+      "item": "Outdoor photo session",
+      "price": "$50/hour"
+     },
+     {
+      "item": "Holidays",
+      "price": "inquire"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Decor packages",
+   "why": "Many priced add-ons set up and taken down by staff",
+   "data": {
+    "packages": [
+     {
+      "name": "Full Service Fresh Greenery",
+      "price": "$2,600",
+      "includes": [
+       "ceiling draping",
+       "chandeliers",
+       "doors",
+       "10 table packages",
+       "2 food table garlands"
+      ]
+     },
+     {
+      "name": "Candle Package",
+      "price": "$30 per table",
+      "includes": [
+       "4 tall clear glass votives with tea lights",
+       "4 floating candles in vase",
+       "4 glass votives"
+      ]
+     },
+     {
+      "name": "Table Package",
+      "price": "$65 per table",
+      "includes": [
+       "candle package",
+       "long chiffon runner",
+       "6 ft faux garland or faux flower garland"
+      ]
+     },
+     {
+      "name": "Fresh Greenery Table Package",
+      "price": "$110 per table",
+      "includes": [
+       "candle package",
+       "long chiffon runner",
+       "6 ft fresh greenery garland"
+      ]
+     },
+     {
+      "name": "Draping",
+      "price": "$700",
+      "includes": [
+       "ceiling and walls"
+      ]
+     },
+     {
+      "name": "Fresh Table Greenery",
+      "price": "$79 (6 ft, min 4) / $169 (12 ft, min 2) / $303 (20 ft)"
+     },
+     {
+      "name": "Barn door options",
+      "price": "$300 Christmas trees / $470 fresh mixed greens / $150 twinkle lights drape / $225 pulled-back curtains / $225 straight-down curtains"
+     },
+     {
+      "name": "Table linens (long chiffon runners)",
+      "price": "$15 each"
+     },
+     {
+      "name": "Chandelier garland",
+      "price": "$470"
+     },
+     {
+      "name": "Wooden arch backdrop",
+      "price": "$200"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Payment and cancellation schedule",
+   "why": "Multi-step policy that does not fit Deposit Policy as one line",
+   "data": {
+    "deposit": "$1,500 non-refundable, applied to balance",
+    "payments": [
+     "50% of remaining balance 60 days before",
+     "final payment 30 days before"
+    ],
+    "cancellation": [
+     "free change/cancel within 72 hours of booking",
+     "60+ days out: 50% refund of balance minus deposit",
+     "within 30 days: non-refundable"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Does the venue have an outdoor area guests use during events (patio or lawn), or only outdoor photo spots? The site only mentions outdoor bistro lights and outdoor photo sessions.",
+  "Should an event hostess count as an 'Event coordinator' for the filter? Audit set it to false.",
+  "Sparkler send-offs appear in site photos, but the FAQ's sparkler question has no answer; confirm the sparkler policy.",
+  "Old contact data (801-756-7400, hello@knotandpine.com) is not on the site; the site shows (801) 770-4642 and contactus@knotandpine.com."
+ ]
+}

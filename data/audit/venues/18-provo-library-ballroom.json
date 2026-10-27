@@ -1,0 +1,970 @@
+{
+ "row": 18,
+ "id": "provo-library-ballroom",
+ "name": "Provo Library Ballroom",
+ "website": "https://ws.provolibrary.libnet.info/ballroom-8755",
+ "website_status": "dead (https://ws.provolibrary.libnet.info/ballroom-8755 fails: TLS certificate not valid for the ws.provolibrary.libnet.info host, ERR_CERT_COMMON_NAME_INVALID). The same page is live on the library's official domain at https://provolibrary.gov/ballroom-8755; audited there.",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://ws.provolibrary.libnet.info/ballroom-8755 (link in the sheet: certificate error in both the fetcher and the browser)",
+  "https://provolibrary.gov/ballroom-8755 (Ballroom page: capacities, pricing table, what the library provides / you provide)",
+  "https://provolibrary.gov/meetingrooms (Scheduling and room reservations: ballroom overview, average prices, general rental info)",
+  "https://provolibrary.gov/planninganeventatacademysquare (Planning an event: free A/V and other equipment list incl. baby grand piano, easels)",
+  "https://provolibrary.gov/meetingroomusepolicy (Meeting Room Use Policy: deposits, refunds, decorations, open flame, pyrotechnics, alcohol, food, cleaning)",
+  "https://provolibrary.gov/directionsparkingmaps-8518 (Directions, parking, accessible parking, elevator to ballroom)",
+  "https://provolibrary.gov/faq-7823 (FAQ: parking and accessible routes to the Academy Ballroom)",
+  "https://provolibrary.gov/librarytoursandhistory-9198 (history section empty when rendered)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "550 N. University Ave, Provo, UT 84601 (Academy Ballroom #315, third floor, Academy wing)",
+  "note": ""
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Provo Library Ballroom",
+   "verified_value": "Provo Library Ballroom",
+   "action": "confirmed",
+   "change_origin": "Ballroom page of the Provo City Library.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "BALLROOM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site calls it the Ballroom / Academy Ballroom at the Provo City Library at Academy Square."
+  },
+  {
+   "field": "link",
+   "current_value": "https://ws.provolibrary.libnet.info/ballroom-8755",
+   "verified_value": "https://provolibrary.gov/ballroom-8755",
+   "action": "corrected",
+   "change_origin": "The sheet's link host (ws.provolibrary.libnet.info) fails with a certificate error; the identical page is on the library's official domain provolibrary.gov.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "Ballroom - Provo Library (page title on provolibrary.gov/ballroom-8755)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Search used only to locate the official domain. provolibrary.gov/ballroom also resolves to the same page."
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests.",
+   "verified_value": "A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests.",
+   "action": "confirmed",
+   "change_origin": "Ballroom page supports banquet/theater layouts, provided furniture, free AV, kitchen, stage and 320 banquet guests; 'historic' rests on the Academy building (Meeting Rooms page notes stained glass original to the building).",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "The Ballroom can host a banquet or dinner setting for up to 320* guests.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "'Historic' is implied, not stated on the Ballroom page; the library history page shows no text."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$840-$2,300",
+   "verified_value": "$840-$2,300",
+   "action": "confirmed",
+   "change_origin": "Ballroom pricing table: $840 (Mon-Thu 9-6) to $2,300 (15-hour block).",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "9-hour block Monday - Thursday ... $840 ... 15-hour block ... $2,300",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Provo residents get 15% off. Meeting Rooms page quotes 'average' $1,350 Mon-Thu and $2,000 Fri-Sat."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Banquet or dinner setup up to 320, provided furniture, setup and takedown, kitchen access, AV equipment and Brimhall Room — Mon-Thu 9am-6pm — $840\nSame inclusions — Mon-Thu 9am-11pm — $1,350\nSame inclusions — Fri-Sat 9am-11pm — $2,000\nSame inclusions — Mon-Sat 9am-12am — $2,300",
+   "verified_value": "9-hour block, Mon-Thu 9am-6pm — $840 ($200 deposit)\n14-hour block, Mon-Thu 9am-11pm — $1,350 ($300 deposit)\n14-hour block, Fri-Sat 9am-11pm — $2,000 ($300 deposit)\n15-hour block, Mon-Sat 9am-12am — $2,300 ($500 deposit)\nAll blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom pricing table and 'We provide' list; resident discount from Meeting Rooms page.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "14-hour block Friday - Saturday * 9:00 am - 11:00 pm $2,000 $300",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Added deposits and resident discount; removed 'Banquet or dinner setup up to 320' from each line. Spanish table lists the 15-hour block as Friday-Saturday, the English table as Monday-Saturday."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "150-320",
+   "verified_value": "320 (banquet/dinner)",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom page. The old low value 150 is the classroom-style count.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "banquet or dinner setting for up to 320* guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Theater style (chairs only) holds 500; kept the banquet figure, as for the other venues. Meeting Rooms page says dinner for up to 350; Ballroom page (more specific) says 320. Capacity depends on staging, serving area and dance floor."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (no standing/reception figure).",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am",
+   "verified_value": "Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am",
+   "action": "confirmed",
+   "change_origin": "Ballroom pricing table.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "there are no shorter or alternative timeframes other than what is listed here",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "9-15 hours",
+   "verified_value": "9-15 hours",
+   "action": "confirmed",
+   "change_origin": "Ballroom pricing table: 9-, 14- and 15-hour blocks.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "9-hour block ... 14-hour block ... 15-hour block",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic",
+   "verified_value": "Historic",
+   "action": "confirmed",
+   "change_origin": "Library at Academy Square; Bullock Room 'historic stained glass that is original to the building'.",
+   "source_url": "https://provolibrary.gov/meetingrooms",
+   "evidence": "features historic stained glass that is original to the building",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Ballroom page: you provide linens.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "YOU PROVIDE: Services for decorations, linens, or catering.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Provided library tables and chairs\nStage\nBrimhall Room",
+   "verified_value": "Library tables and chairs, set up and taken down\nStage and 8-inch portable risers\nDecorative easels\nThree chandeliers (room fixtures)\nBrimhall Room",
+   "action": "corrected",
+   "change_origin": "Official site: Ballroom page ('We provide'), Planning an Event equipment list (free), and Meeting Rooms photo alt text for the chandeliers.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Decorative Easles / Flipchart & Tripod Easels ... All equipment is available to you at no additional cost.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Chandeliers from Meeting Rooms image alt text 'empty ballroom with four central pillars and three chandeliers' (https://provolibrary.gov/meetingrooms)."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Inside",
+   "verified_value": "Inside",
+   "action": "confirmed",
+   "change_origin": "Indoor ballroom; policy says library grounds are not available to groups.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "Library Grounds (i.e. the lawns and parking areas) are not available for use by any group",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "No (open flame, cold sparks and all pyrotechnics prohibited)",
+   "action": "added",
+   "change_origin": "Official site, Meeting Room Use Policy.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "Open flame is strictly prohibited ... “cold spark” or any other type of pyrotechnics are all expressly prohibited.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Free for attendees of scheduled events\nTwo above-ground lots (north and south) and a one-level underground garage (enter off 100 East; 8 ft clearance)\nUnderground garage entrance nearest the Academy Ballroom",
+   "action": "added",
+   "change_origin": "Official site, Directions, Parking, and Maps page.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "Parking is free for Library patrons and attendees of scheduled events in the building.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Page gives garage clearance as 8 ft 3 in in one place and 8 ft 6 in in another; beams dip to 7 ft."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "",
+   "verified_value": "550 N University Ave, Provo, UT 84601",
+   "action": "added",
+   "change_origin": "Official site footer and Directions page.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "550 North University Avenue Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSpeakers\nMicrophones\nProjector\nScreen",
+   "verified_value": "Yes\nSpeakers and sound system (aux input)\nMicrophones and stands\nProjector and screen\nTelevisions\nAll A/V free of charge, first come, first served",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom page and Planning an Event A/V list; added televisions and the first-come note.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Microphones & Stands Televisions ... Sound Systems ... All equipment is available to you at no additional cost.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Free audiovisual equipment\nBrimhall Room included\nBaby grand piano",
+   "verified_value": "Free audiovisual equipment\nBrimhall Room included\nBaby grand piano (Ballroom only), free\nKitchen use",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom page and Planning an Event equipment list.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Baby Grand Piano (for use in Ballroom only)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Library sets up and takes down its tables and chairs; renter must leave the room clean (security/cleaning deposit refunded based on room condition)",
+   "action": "added",
+   "change_origin": "Official site, Ballroom page (setup/takedown of furniture) and Meeting Room Use Policy (cleaning deposit, staff may require further cleaning).",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "staff may determine that a mess is excessive ... require you to do further cleaning in order to receive a complete refund",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Furniture setup/takedown is included; cleaning is not, so the Cleanup crew filter stays false."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "Wheelchair-accessible ramp at the South Entrance\nElevator from the underground garage to the third-floor Ballroom\nAccessible parking: 3 stalls in the South lot, 2 near the Academy Entrance in the underground garage",
+   "action": "added",
+   "change_origin": "Official site, Directions, Parking, and Maps page.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "three accessible parking stalls available and a wheelchair accessible ramp ... use the elevator at the end of the hall",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "Security or cleaning deposit: $200 for Mon-Thu 9am-6pm; $300 for 9am-11pm blocks; $500 for Mon-Sat 9am-12am\n100% refund if canceled more than 90 days before the event; no refund after",
+   "verified_value": "Security/cleaning deposit: $200 (9-hour block), $300 (14-hour blocks), $500 (15-hour block), due at booking\nRental fee due 30 days before the event\n100% deposit and rental refund with written cancellation 90+ days ahead; deposit forfeited within 89 days\nDeposit refund depends on room condition",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom pricing table and Meeting Room Use Policy.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "Rental fees for Ballroom or Attic reservations are due 30 days prior to the scheduled event.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Refund table: notice after 90 days still refunds 100% of rental but 0% of deposit."
+  },
+  {
+   "field": "Catering",
+   "current_value": "User-provided catering allowed\nThird-party catering allowed",
+   "verified_value": "Third-party or self-provided catering allowed, no extra fees or restrictions\nNo cooking on site (chafing fuel only; electric warmers with approval)",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom page ('You provide') and Meeting Room Use Policy (food rules).",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "There are no additional fees or restrictions for using third-party services.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Warming oven\n2 refrigerators\nFreezer\nIce machine\nSinks\nNo cooking",
+   "verified_value": "Warming oven\n2 refrigerators\nFreezer\nIce machine\nSinks\nNo cooking",
+   "action": "confirmed",
+   "change_origin": "Ballroom page kitchen description; no-cooking rule.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "large warming oven, two large refrigerator cabinets, one freezer, an ice machine, and multiple sinks",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "Alcohol prohibited on all library premises",
+   "action": "added",
+   "change_origin": "Official site, Meeting Room Use Policy.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "Alcohol is prohibited on all Library premises.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Events and Scheduling office",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: the Events and Scheduling office handles reservations and decoration approval; the site doesn't describe an included event coordinator for the event itself.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "contact the Events and Scheduling office to speak with an event coordinator about room reservations",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Scheduling office kept in Contact Information and Important Notes. Human decision: the library uses the title 'event coordinator' for booking staff."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No cooking in facilities\nAccess limited to scheduled rental hours\nNo midday switchovers",
+   "verified_value": "No cooking in the facility\nAccess only during scheduled hours; overtime fees up to the full deposit\nNo midday furniture switchovers\nNo open flame or lit candles; no glitter, colored powder, fog, smoke, fireworks, cold sparks or pyrotechnics\nDecorations pre-approved; no tape or adhesives on walls\nNo alcohol; no smoking\nLibrary grounds (lawns, parking) not available for events",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom page and Meeting Room Use Policy.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "Decorations, if any, must be pre-approved by the Library Event Coordinator. ... All types of tapes and adherents are not permitted.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "User-provided decorations, linens and catering allowed with no extra fees",
+   "verified_value": "User-provided decorations, linens and catering allowed with no extra fees\nBallroom cannot be booked online; book by phone or in person (Events Scheduling Office, Room #213)\nBookable up to one year ahead\nBallroom is room #315, third floor of the Academy wing",
+   "action": "corrected",
+   "change_origin": "Official site, Ballroom page, Meeting Rooms page and Meeting Room Use Policy.",
+   "source_url": "https://provolibrary.gov/meetingrooms",
+   "evidence": "The Ballroom cannot be booked online; reservations must be made in-person or over the phone.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov",
+   "verified_value": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov",
+   "action": "confirmed",
+   "change_origin": "Ballroom page (scheduling phone and email) and footer (library main line).",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "Phone: 801-852-7691 Email: roomscheduling@provolibrary.gov",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "840-2300",
+   "verified_value": "840-2300",
+   "action": "confirmed",
+   "change_origin": "Ballroom pricing table.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "$840 ... $2,300",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "320",
+   "verified_value": "320",
+   "action": "confirmed",
+   "change_origin": "Ballroom page: banquet/dinner up to 320.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "banquet or dinner setting for up to 320* guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Theater style 500 not used for the slider (banquet figure used for all venues)."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Directions page: wheelchair-accessible ramp at the South Entrance.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "a wheelchair accessible ramp to the right of the South Entrance",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Directions page: elevator to the third-floor Ballroom.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "Walk down the hall to the elevator, and select 3rd floor.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Directions page: accessible stalls in the South lot and garage.",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518",
+   "evidence": "Two accessible parking stalls are located near this entrance.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Ballroom page: microphones at no additional cost.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "Includes speakers, microphones, a projector, and a screen.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Ballroom page.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "a projector, and a screen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Ballroom page speakers; Planning page sound systems.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Sound Systems (Aux. Input for iPod/Laptop/CD)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Planning an Event A/V list: televisions free of charge.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Televisions ... All equipment is available to you at no additional cost.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "First come, first served."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Policy: renter must leave the room clean to get the deposit back.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "require you to do further cleaning in order to receive a complete refund",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "removed",
+   "change_origin": "Removed: scheduling coordinators handle bookings only; no included event coordinator described.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "speak with an event coordinator about room reservations or questions regarding rentals",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Needs a human decision; see open_questions."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Indoor ballroom.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "BALLROOM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Policy: lawns and parking areas not available to groups.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "Library Grounds (i.e. the lawns and parking areas) are not available",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Ballroom page: you provide linens.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "YOU PROVIDE: Services for decorations, linens, or catering.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Ballroom page.",
+   "source_url": "https://provolibrary.gov/ballroom-8755",
+   "evidence": "There are no additional fees or restrictions for using third-party services.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Policy prohibits cold sparks and pyrotechnics.",
+   "source_url": "https://provolibrary.gov/meetingroomusepolicy",
+   "evidence": "“cold spark” or any other type of pyrotechnics are all expressly prohibited",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Planning an Event equipment list: baby grand piano for Ballroom use, no additional cost.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Baby Grand Piano (for use in Ballroom only)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Planning an Event equipment list: decorative easels at no additional cost.",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare",
+   "evidence": "Decorative Easles / Flipchart & Tripod Easels",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Meeting Rooms page photo alt text shows three chandeliers in the empty ballroom (fixed fixtures).",
+   "source_url": "https://provolibrary.gov/meetingrooms",
+   "evidence": "A large empty ballroom with four central pillars and three chandeliers",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Provo Library Ballroom",
+  "link": "https://provolibrary.gov/ballroom-8755",
+  "Description": "A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests.",
+  "Standard Price Range": "$840-$2,300",
+  "Packages and Prices": "9-hour block, Mon-Thu 9am-6pm — $840 ($200 deposit)\n14-hour block, Mon-Thu 9am-11pm — $1,350 ($300 deposit)\n14-hour block, Fri-Sat 9am-11pm — $2,000 ($300 deposit)\n15-hour block, Mon-Sat 9am-12am — $2,300 ($500 deposit)\nAll blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental",
+  "Seated Capacity": "320 (banquet/dinner)",
+  "Standing Capacity": "",
+  "Time slots": "Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am",
+  "Length of Rental": "9-15 hours",
+  "Style": "Historic",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "Library tables and chairs, set up and taken down\nStage and 8-inch portable risers\nDecorative easels\nThree chandeliers (room fixtures)\nBrimhall Room",
+  "Other Decor for Rent": "",
+  "outside/inside": "Inside",
+  "sparklers allowed": "No (open flame, cold sparks and all pyrotechnics prohibited)",
+  "parking?": "Free for attendees of scheduled events\nTwo above-ground lots (north and south) and a one-level underground garage (enter off 100 East; 8 ft clearance)\nUnderground garage entrance nearest the Academy Ballroom",
+  "Full Address": "550 N University Ave, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "Yes\nSpeakers and sound system (aux input)\nMicrophones and stands\nProjector and screen\nTelevisions\nAll A/V free of charge, first come, first served",
+  "extras": "Free audiovisual equipment\nBrimhall Room included\nBaby grand piano (Ballroom only), free\nKitchen use",
+  "cleanup crew": "Library sets up and takes down its tables and chairs; renter must leave the room clean (security/cleaning deposit refunded based on room condition)",
+  "Accessibility": "Wheelchair-accessible ramp at the South Entrance\nElevator from the underground garage to the third-floor Ballroom\nAccessible parking: 3 stalls in the South lot, 2 near the Academy Entrance in the underground garage",
+  "Deposit Policy": "Security/cleaning deposit: $200 (9-hour block), $300 (14-hour blocks), $500 (15-hour block), due at booking\nRental fee due 30 days before the event\n100% deposit and rental refund with written cancellation 90+ days ahead; deposit forfeited within 89 days\nDeposit refund depends on room condition",
+  "Catering": "Third-party or self-provided catering allowed, no extra fees or restrictions\nNo cooking on site (chafing fuel only; electric warmers with approval)",
+  "Prep Area": "Warming oven\n2 refrigerators\nFreezer\nIce machine\nSinks\nNo cooking",
+  "Alcohol policy": "Alcohol prohibited on all library premises",
+  "Event Coordinator": "",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "No cooking in the facility\nAccess only during scheduled hours; overtime fees up to the full deposit\nNo midday furniture switchovers\nNo open flame or lit candles; no glitter, colored powder, fog, smoke, fireworks, cold sparks or pyrotechnics\nDecorations pre-approved; no tape or adhesives on walls\nNo alcohol; no smoking\nLibrary grounds (lawns, parking) not available for events",
+  "Important Notes": "User-provided decorations, linens and catering allowed with no extra fees\nBallroom cannot be booked online; book by phone or in person (Events Scheduling Office, Room #213)\nBookable up to one year ahead\nBallroom is room #315, third floor of the Academy wing",
+  "Contact Information": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic"
+  ],
+  "suggested": [
+   "Classic"
+  ],
+  "change": "none",
+  "reasoning": "Description says 'historic' (Classic cue). The ballroom is in the historic Academy wing; photos show pillars and chandeliers. No modern, rustic, outdoor or luxury cues.",
+  "site_cues": [
+   "historic stained glass that is original to the building (Bullock Room)",
+   "empty ballroom with four central pillars and three chandeliers",
+   "Provo City Library at Academy Square"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day/time pricing table",
+   "why": "Four fixed rental blocks with different prices and deposits",
+   "data": {
+    "pricing": [
+     {
+      "block": "9 hours",
+      "days": "Mon-Thu",
+      "hours": "9:00 am-6:00 pm",
+      "price": "$840",
+      "deposit": "$200"
+     },
+     {
+      "block": "14 hours",
+      "days": "Mon-Thu",
+      "hours": "9:00 am-11:00 pm",
+      "price": "$1,350",
+      "deposit": "$300"
+     },
+     {
+      "block": "14 hours",
+      "days": "Fri-Sat",
+      "hours": "9:00 am-11:00 pm",
+      "price": "$2,000",
+      "deposit": "$300"
+     },
+     {
+      "block": "15 hours",
+      "days": "Mon-Sat (Spanish table: Fri-Sat)",
+      "hours": "9:00 am-12:00 am",
+      "price": "$2,300",
+      "deposit": "$500"
+     }
+    ],
+    "resident_discount": "15% off rental for Provo residents"
+   }
+  },
+  {
+   "title": "Layouts",
+   "why": "Capacity differs by layout",
+   "data": {
+    "layouts": [
+     {
+      "name": "Banquet/dinner",
+      "guests": 320
+     },
+     {
+      "name": "Theater (chairs only)",
+      "guests": 500
+     },
+     {
+      "name": "Classroom",
+      "guests": 150
+     }
+    ]
+   }
+  },
+  {
+   "title": "Extra room",
+   "why": "Brimhall Room comes with the Ballroom",
+   "data": {
+    "spaces": [
+     {
+      "name": "Brimhall Room #302",
+      "theater": 75,
+      "classroom": 45,
+      "dinner": 56,
+      "price": "included with Ballroom",
+      "note": "reservable no more than 30 days ahead"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Cancellation policy",
+   "why": "Refund schedule by notice period",
+   "data": {
+    "refunds": [
+     {
+      "notice": "none",
+      "deposit": "0%",
+      "rental": "0%"
+     },
+     {
+      "notice": "90+ days",
+      "deposit": "100%",
+      "rental": "100%"
+     },
+     {
+      "notice": "under 90 days",
+      "deposit": "0%",
+      "rental": "100%"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Link: replace the dead ws.provolibrary.libnet.info URL with https://provolibrary.gov/ballroom-8755 (or /ballroom)? The brief says to stop on a dead site; I audited the same page on the library's own domain instead. Team to confirm that's acceptable.",
+  "Event coordinator filter: the library calls its booking staff 'event coordinators' but describes no event-day coordination. Should this count?",
+  "Is the 15-hour $2,300 block Mon-Sat (English) or Fri-Sat (Spanish)?",
+  "Ballroom dinner capacity: 320 (Ballroom page) vs 350 (Meeting Rooms page)."
+ ]
+}

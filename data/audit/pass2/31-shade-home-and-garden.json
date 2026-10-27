@@ -1,0 +1,223 @@
+{
+ "row": 31,
+ "id": "shade-home-and-garden",
+ "official_name": {
+  "name": "Shade Weddings and Events",
+  "source_url": "https://www.shadeweddings.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Inclusions With All Venues: 'Microphone",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth Speakers for Ambient Music",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "2 Wedding Suites / Dressing Rooms",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Wedding Hostess Onsite During Entire Wedding",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "2 Wedding Suites / Dressing Rooms",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The Glasshouse (Included in Every Rental)",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/the-glasshouse"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Vineyard (June-October Weddings)",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/the-vineyard"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Recommended vendors are preferred, bartenders are required.",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/preferred-vendors"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Included Decor: '2 Golden Arches",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included+rent",
+   "wording": "Rentals: 'Dark Greenery Quantity: 21', 'Light Greenery Quantity: 21",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Decor > Signs / easels": {
+   "status": "included+rent",
+   "wording": "Standing Easels (2 Black or 4 Gold)'; rentals: 'Table Easles Quantity: 16",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "Large Lanterns (Black) Quantity: 18'; 'Battery Powered Candles",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table",
+   "price": "",
+   "source_url": "https://www.shadeweddings.com/decor"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 3000,
+  "high": 5500,
+  "basis": "rental",
+  "wording": "Seasonal rentals $3,000–$5,500",
+  "math": ""
+ },
+ "seated": {
+  "low": 120,
+  "high": 168,
+  "wording": "Greenhouse 120 | Glasshouse 140 | Vineyard 168 at tables"
+ },
+ "standing": {
+  "low": 200,
+  "high": 400,
+  "wording": "Glasshouse: 280 reception\nVineyard: 400 reception\nGreenhouse: 200 reception"
+ },
+ "row_updates": {
+  "Venue Name": "Shade Weddings and Events"
+ }
+}

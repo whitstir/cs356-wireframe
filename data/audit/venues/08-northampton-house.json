@@ -1,0 +1,1025 @@
+{
+ "row": 8,
+ "id": "northampton-house",
+ "name": "Northampton House",
+ "website": "https://northamptonhouse.com/",
+ "website_status": "ok (Showit site; pricing and room details render with JavaScript, read in the built-in browser)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://northamptonhouse.com/ (home, footer contact, reviews)",
+  "https://northamptonhouse.com/venues (Pricing: full-day rental prices, included amenities, room capacities) - browser",
+  "https://northamptonhouse.com/events (Weddings/Events: same amenities and prices)",
+  "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues) (rose arch, terrace pergola with twinkling lights, fountain; 2 hosts) - browser",
+  "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues) (Grand Ballroom amenities, 178 seated / 385 standing) - browser",
+  "https://northamptonhouse.com/ (The Monarch detail view, opened from 'View Venue' on https://northamptonhouse.com/venues) (Monarch amenities, piano, 126 seated / 270 standing) - browser",
+  "https://northamptonhouse.com/add-ons (add-on rentals and prices; desktop and mobile layouts differ) - browser + screenshots",
+  "https://northamptonhouse.com/december-packages (December winter packages)",
+  "https://northamptonhouse.com/our-story (1903 history, amenity list)",
+  "https://northamptonhouse.com/preferred-vendors (in-house and preferred vendors)",
+  "https://northamptonhouse.com/contact (address with ZIP, phone, email)",
+  "https://northamptonhouse.com/floor-plan and https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf (floor plan PDF: tables, wheelchair access, chandeliers)",
+  "https://northamptonhouse.com/terms-and-conditions (website terms only, no event policies)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "198 W 300 N, American Fork, UT 84003",
+  "note": "American Fork, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Northampton House",
+   "verified_value": "Northampton House",
+   "action": "confirmed",
+   "change_origin": "Site name.",
+   "source_url": "https://northamptonhouse.com/",
+   "evidence": "Welcome to the Northampton House",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://northamptonhouse.com/",
+   "verified_value": "https://northamptonhouse.com/",
+   "action": "confirmed",
+   "change_origin": "Home page loads.",
+   "source_url": "https://northamptonhouse.com/",
+   "evidence": "STATUS 200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic reception venue in American Fork with a restored home, multiple indoor event rooms, outdoor lawn and patio areas, and a welcoming setting for elegant celebrations.",
+   "verified_value": "A historic 1903 former church meetinghouse in American Fork with a stained-glass chapel (the Monarch), a Grand Ballroom with crystal chandeliers, and nearly a quarter acre of gardens with a rose arch, terrace and fountain.",
+   "action": "corrected",
+   "change_origin": "Not a 'restored home': Our Story says the building is the 1903 American Fork 3rd Ward meetinghouse; rooms and grounds from the room pages.",
+   "source_url": "https://northamptonhouse.com/our-story",
+   "evidence": "constructed what is historically known as the American Fork 3rd Ward Meetinghouse",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$5,800-$7,200",
+   "verified_value": "$5,800-$7,200",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Mon - Thu: $5,800 Fri - Sat: $7,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Pricing is for the full building only."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Full-day rental with 15 tables, table linens, 126 chairs, audio/visual system, piano, TV, Bluetooth microphone, bathrooms, 120-stall parking lot, bride's room, groom's/family room, prep kitchen, setup and takedown — Mon-Thu 10am-10pm — $5,800\nFull-day rental with 15 tables, table linens, 126 chairs, audio/visual system, piano, TV, Bluetooth microphone, bathrooms, 120-stall parking lot, bride's room, groom's/family room, prep kitchen, setup and takedown — Fri-Sat 10am-10pm — $7,200\nEvent Day Coordinator — $300\nRoom flip — $150",
+   "verified_value": "Full-building rental (Monarch, Grand Ballroom and grounds), 10am-10pm with 2 hosts: Mon-Thu — $5,800; Fri-Sat — $7,200\nIncludes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing and room pages: rental is now a single full-building package with 2 hosts; CSV listed the old Monarch-only inclusion list (126 chairs) and showed the coordinator as a package line. Added December packages.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Full Day Rentals ... Mon - Thu: $5,800 Fri - Sat: $7,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "December package price not published."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "126-304",
+   "verified_value": "Grand Ballroom: 178\nMonarch: 126",
+   "action": "corrected",
+   "change_origin": "Site states 178 seated (Grand Ballroom) and 126 seated (Monarch). The CSV's 304 is the AI's sum of the two rooms and is not stated anywhere.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "178 Seated, 385 Standing ... 126 Seated, 270 Standing",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Max seated in one room is 178. Whether both rooms can be seated at once for 304 is a question for the venue."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "385",
+   "verified_value": "Grand Ballroom: 385\nMonarch: 270",
+   "action": "corrected",
+   "change_origin": "Per-room standing numbers from the Pricing page (max 385 unchanged).",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "178 Seated, 385 Standing",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Thu 10am-10pm\nFri-Sat 10am-10pm",
+   "verified_value": "Mon-Thu 10am-10pm\nFri-Sat 10am-10pm\nDecember Mon-Thu: 8am-2pm or 4pm-10pm",
+   "action": "corrected",
+   "change_origin": "Added December winter-package slots.",
+   "source_url": "https://northamptonhouse.com/december-packages",
+   "evidence": "Monday through Thursday ... daytime celebrations from 8am to 2pm, and additional events from 4pm to 10pm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Room pages: '10AM TO 10PM RENTAL MON-SAT'."
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "12 hours",
+   "verified_value": "12 hours",
+   "action": "confirmed",
+   "change_origin": "Room pages.",
+   "source_url": "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "10AM TO 10PM RENTAL MON-SAT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "December packages are 6-hour blocks."
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic\nElegant\nClassic",
+   "verified_value": "Historic\nElegant\nClassic",
+   "action": "confirmed",
+   "change_origin": "Site uses historic, timeless, elegance.",
+   "source_url": "https://northamptonhouse.com/",
+   "evidence": "this building has stood as a timeless symbol of love",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Pricing page amenities.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Table Linens",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "15 tables\n126 chairs in Monarch Room\n178 chairs in Grand Ballroom\n304 chairs in Full Building\nTable linens\nRose arch\nGrand staircase\nCrystal chandeliers\nTerrace landscaping\nGardens\nFountain",
+   "verified_value": "15 tables (60-inch rounds and 30-inch high/low tables)\n178 chairs (Grand Ballroom)\n126 chairs (Monarch)\nTable linens\nMini grand piano\nCrystal chandeliers (Grand Ballroom)\nChandeliers (Monarch)\nSeasonal rose arch\nTerrace pergola with twinkling lights\nTiered stone fountain\nGardens\nStained-glass windows\nGrand staircase",
+   "action": "corrected",
+   "change_origin": "Removed '304 chairs in Full Building' (not on site); added piano, Monarch chandeliers (floor plan), terrace twinkling lights, stained glass; table types from the floor plan.",
+   "source_url": "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "The terrace gathers guests beneath a white-columned pergola and twinkling lights",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Floor plan: 'Each event comes with a combination of 15 tables total.'"
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Gold easel — $10\nSquare sign stand — $10\n2 parasols — $3\nBud vases, 20 — $40\n8-inch vases, 48 — $25\n10-inch vases, 28 — $15\nSparkler sendoff, reserve 200 — $300\nSparklers — $1.50 each\nGift card box — $10\nTable runners — $3 each\nCustom welcome sign — $500",
+   "verified_value": "Gold easels — $10 each\nSquare sign stand — $10\nCustom welcome sign — $500\nParasols — $3 each\nAssorted bud vases for centerpieces — $20 for 40\n8-inch round vases — $25 for 48\n10-inch round vases — $15 for 28\nSparkler send-off — $1.50 per sparkler\nGift card box — $10\nCheese cloth table runners — $3 each\nAudio guestbook (price not listed)",
+   "action": "corrected",
+   "change_origin": "Official site, Add-ons page (desktop screenshots). Fixed quantities/prices: bud vases are $20 for 40 (CSV had '20 — $40'), parasols $3 each; removed 'Sparkler sendoff, reserve 200 — $300' (that $300 card is the mislabeled mobile 'Event Day Coordinator'); added audio guestbook.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Assorted Bud Vases ... $20 for 40 Vases",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Prices read from rendered page/screenshots."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Indoor halls plus terrace used for ceremonies and dinner.",
+   "source_url": "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "The Terrace ... Ceremonies · Cocktail Hour · Dinner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes\nSparkler send-off through the venue — $1.50 per sparkler",
+   "action": "confirmed",
+   "change_origin": "Add-ons page sells a sparkler send-off.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Sparkler Sendoff $1.50/Sparkler Includes extra long sparklers, distribution, lighting, and disposal.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "120-stall parking lot",
+   "verified_value": "120-stall parking lot",
+   "action": "confirmed",
+   "change_origin": "Room pages.",
+   "source_url": "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "120-Stall Parking Lot",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "198 W 300 N, American Fork, UT",
+   "verified_value": "198 W 300 N, American Fork, UT 84003",
+   "action": "corrected",
+   "change_origin": "Added ZIP from the Contact page.",
+   "source_url": "https://northamptonhouse.com/contact",
+   "evidence": "198 W 300 N, American Fork, UT 84003",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "American Fork",
+   "verified_value": "American Fork",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://northamptonhouse.com/contact",
+   "evidence": "American Fork, UT 84003",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nAudio/visual system\nBluetooth microphone",
+   "verified_value": "Yes\nAV system\nTVs\n1 Bluetooth microphone",
+   "action": "corrected",
+   "change_origin": "Added TVs (Pricing page) so the TV filter reads it.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Bluetooth Mics ... TVs",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Room pages say '1 Bluetooth Mic'."
+  },
+  {
+   "field": "extras",
+   "current_value": "Grand Ballroom terrace\nRose arch\nEvent Day Coordinator — $300\nRoom flip — $150\nGrand staircase\nCrystal chandeliers\nFountain\nGardens",
+   "verified_value": "2 hosts included with full-building rental\nRoom flip — $150\nEvent Day Coordinator — $300 (shown only on the mobile add-ons page)\nAudio guestbook rental",
+   "action": "corrected",
+   "change_origin": "Removed items that belong in other columns (arch, chandeliers, fountain); added the 2 included hosts and audio guestbook.",
+   "source_url": "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "Part of our full-building rental, with 2 hosts.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Event Day Coordinator $300 appears only in the mobile layout of the Add-ons page, on a card that repeats the sparkler description; possibly a template error."
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Set up and take down listed among included amenities",
+   "action": "added",
+   "change_origin": "Pricing page lists 'Set Up/Take Down' as an included amenity; cleanup itself is not described.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Set Up/Take Down",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Wording starts 'Set up', so the Cleanup crew filter stays false; the room page also says reserved time 'should account for set-up and take-down time', which may mean the couple does it."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "Wheelchair access (entrance under the Monarch balcony, per floor plan)",
+   "action": "added",
+   "change_origin": "Floor plan PDF marks a wheelchair access route.",
+   "source_url": "https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf",
+   "evidence": "To Wheelchair Access (under balcony)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Only a floor-plan label; no accessibility statement elsewhere."
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "In-house caterer: Crisp Catering\nPreferred caterers include Magleby's and Thirst Catering\nOpen vendor policy stated on venue site",
+   "verified_value": "Open vendor policy\nIn-house caterer: Crisp Catering\nPreferred caterers: Magleby's, Thirst Catering",
+   "action": "confirmed",
+   "change_origin": "Pricing page and Preferred Vendors page.",
+   "source_url": "https://northamptonhouse.com/preferred-vendors",
+   "evidence": "Our in-house caterer is packed with delicious options",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Open Vendor Policy' listed as an included amenity."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Prep kitchen included\nTwo kitchens in Full Building package",
+   "verified_value": "Prep kitchen",
+   "action": "corrected",
+   "change_origin": "Removed 'Two kitchens in Full Building package' (not on the site).",
+   "source_url": "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "Prep Kitchen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/preferred-vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Two bartending services are on the preferred vendor list, but no alcohol policy is published."
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event Day Coordinator — $300",
+   "verified_value": "Event Day Coordinator — $300 (add-on; shown only on the mobile add-ons page)",
+   "action": "corrected",
+   "change_origin": "Same $300 add-on, now flagged as unclear (mobile-only card with sparkler text).",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Event Day Coordinator ... $300 (mobile layout)",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Desktop add-ons page does not show it."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's room\nGroom's/family room",
+   "verified_value": "Bride's room\nGroom's/family room",
+   "action": "confirmed",
+   "change_origin": "Room pages.",
+   "source_url": "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "Brides Room Grooms/Family Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Rental includes setup and takedown time\nNeighboring event may occur during same date depending on selected space",
+   "verified_value": "Reserved time must include set-up and take-down",
+   "action": "corrected",
+   "change_origin": "Removed 'Neighboring event may occur...' (not on the site; rentals are full-building).",
+   "source_url": "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "Reserved time should account for set-up and take-down time.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Full-day pricing is published for Monarch Room, Grand Ballroom and Full Building\nGrand Ballroom includes terrace access",
+   "verified_value": "Built 1903 as the American Fork 3rd Ward meetinghouse\nFull-building rental; individual rooms only on discounted dates shown on the availability calendar\nGrand Ballroom opens onto the garden terrace\nEach event includes 15 tables; extra tables for a fee",
+   "action": "corrected",
+   "change_origin": "Replaced 'Full-day pricing is published for Monarch Room, Grand Ballroom and Full Building' (only full-building pricing is published).",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Discounted (individual rooms available)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-756-5358\nEmail: info@northamptonhouse.com",
+   "verified_value": "Phone: 385-324-9973\nEmail: info@northamptonhouse.com",
+   "action": "corrected",
+   "change_origin": "Site phone is 385-324-9973; 801-756-5358 does not appear on the site.",
+   "source_url": "https://northamptonhouse.com/contact",
+   "evidence": "Phone: 385-324-9973 info@northamptonhouse.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    5800,
+    7200
+   ],
+   "verified_value": [
+    5800,
+    7200
+   ],
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Mon - Thu: $5,800 Fri - Sat: $7,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 304,
+   "verified_value": 178,
+   "action": "corrected",
+   "change_origin": "Largest stated seated count (Grand Ballroom).",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "178 Seated, 385 Standing",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "304 was an unstated sum of two rooms."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "American Fork",
+   "verified_value": "American Fork",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://northamptonhouse.com/contact",
+   "evidence": "American Fork, UT 84003",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Floor plan wheelchair access route.",
+   "source_url": "https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf",
+   "evidence": "To Wheelchair Access (under balcony)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Bluetooth mic included.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Bluetooth Mics",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "AV system included.",
+   "source_url": "https://northamptonhouse.com/ (Grand Ballroom detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "AV System",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "TVs included.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "TVs",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Bride's room included.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Brides Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Groom's room included.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Grooms Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Only 'Set Up/Take Down' is listed; cleanup not described.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Set Up/Take Down",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Could be true if staff take down and clean; needs a phone check."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Coordinator is an add-on (mobile listing $300); the 2 included hosts are not described as coordinators.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Event Day Coordinator $300 (mobile layout)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Monarch and Grand Ballroom.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Two Banquet Halls",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Terrace and gardens for ceremonies and dinner.",
+   "source_url": "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "Outdoor Ceremony Space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Table linens included.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Table Linens",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Open vendor policy included.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "Open Vendor Policy",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Sparkler send-off add-on.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Sparkler Sendoff $1.50/Sparkler",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Bud vases rented 'to create charming centerpieces'.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Create charming centerpieces with our assortment of textured and detailed flower bud vases",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Seasonal rose arch and terrace pergola included with the full-building rental.",
+   "source_url": "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "A seasonal rose arch ... All of it is included with your full-building rental.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The rose arch is a garden tunnel used for portraits/entrances; the pergola is the ceremony backdrop."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "rent",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: only empty vases are rented; no florals or greenery offered.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Round Vases $25 for 48 Vases",
+   "confidence": "high",
+   "fix_type": "rule",
+   "notes": "Keyword rule maps 'vases' to Greenery / florals; the vase rentals still match it after the CSV fix."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Easels, sign stand, custom welcome sign.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "Gold Easels $10/Easel ... Square Sign Stand $10/Sign",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/add-ons",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Crystal chandeliers (Grand Ballroom); 4 chandeliers on the Monarch floor plan.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "soaring ceilings, crystal chandeliers, and a grand staircase",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Terrace pergola has twinkling lights, included with rental.",
+   "source_url": "https://northamptonhouse.com/ (The Grounds detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "beneath a white-columned pergola and twinkling lights",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://static.showit.com/file/lUiuIbT1tRg3Px7H8cAr8Q/247233/2026_nh_floorplans.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Floor plan asks couples to plan space for a cake table from the 15 included tables; no dedicated cake table."
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/preferred-vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Thirst Catering (vendor) offers soda bars; not a venue item."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/preferred-vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Photo booths are outside vendors."
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Mini grand piano in the Monarch, listed as an amenity.",
+   "source_url": "https://northamptonhouse.com/ (The Monarch detail view, opened from 'View Venue' on https://northamptonhouse.com/venues)",
+   "evidence": "Mini Grand Piano",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://northamptonhouse.com/venues",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Northampton House",
+  "link": "https://northamptonhouse.com/",
+  "Description": "A historic 1903 former church meetinghouse in American Fork with a stained-glass chapel (the Monarch), a Grand Ballroom with crystal chandeliers, and nearly a quarter acre of gardens with a rose arch, terrace and fountain.",
+  "Standard Price Range": "$5,800-$7,200",
+  "Packages and Prices": "Full-building rental (Monarch, Grand Ballroom and grounds), 10am-10pm with 2 hosts: Mon-Thu — $5,800; Fri-Sat — $7,200\nIncludes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150",
+  "Seated Capacity": "Grand Ballroom: 178\nMonarch: 126",
+  "Standing Capacity": "Grand Ballroom: 385\nMonarch: 270",
+  "Time slots": "Mon-Thu 10am-10pm\nFri-Sat 10am-10pm\nDecember Mon-Thu: 8am-2pm or 4pm-10pm",
+  "Length of Rental": "12 hours",
+  "Style": "Historic\nElegant\nClassic",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "15 tables (60-inch rounds and 30-inch high/low tables)\n178 chairs (Grand Ballroom)\n126 chairs (Monarch)\nTable linens\nMini grand piano\nCrystal chandeliers (Grand Ballroom)\nChandeliers (Monarch)\nSeasonal rose arch\nTerrace pergola with twinkling lights\nTiered stone fountain\nGardens\nStained-glass windows\nGrand staircase",
+  "Other Decor for Rent": "Gold easels — $10 each\nSquare sign stand — $10\nCustom welcome sign — $500\nParasols — $3 each\nAssorted bud vases for centerpieces — $20 for 40\n8-inch round vases — $25 for 48\n10-inch round vases — $15 for 28\nSparkler send-off — $1.50 per sparkler\nGift card box — $10\nCheese cloth table runners — $3 each\nAudio guestbook (price not listed)",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes\nSparkler send-off through the venue — $1.50 per sparkler",
+  "parking?": "120-stall parking lot",
+  "Full Address": "198 W 300 N, American Fork, UT 84003",
+  "City": "American Fork",
+  "sound system": "Yes\nAV system\nTVs\n1 Bluetooth microphone",
+  "extras": "2 hosts included with full-building rental\nRoom flip — $150\nEvent Day Coordinator — $300 (shown only on the mobile add-ons page)\nAudio guestbook rental",
+  "cleanup crew": "Set up and take down listed among included amenities",
+  "Accessibility": "Wheelchair access (entrance under the Monarch balcony, per floor plan)",
+  "Deposit Policy": "",
+  "Catering": "Open vendor policy\nIn-house caterer: Crisp Catering\nPreferred caterers: Magleby's, Thirst Catering",
+  "Prep Area": "Prep kitchen",
+  "Alcohol policy": "",
+  "Event Coordinator": "Event Day Coordinator — $300 (add-on; shown only on the mobile add-ons page)",
+  "Bride/Groom Rooms": "Bride's room\nGroom's/family room",
+  "Restrictions": "Reserved time must include set-up and take-down",
+  "Important Notes": "Built 1903 as the American Fork 3rd Ward meetinghouse\nFull-building rental; individual rooms only on discounted dates shown on the availability calendar\nGrand Ballroom opens onto the garden terrace\nEach event includes 15 tables; extra tables for a fee",
+  "Contact Information": "Phone: 385-324-9973\nEmail: info@northamptonhouse.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic"
+  ],
+  "suggested": [
+   "Classic"
+  ],
+  "change": "none",
+  "reasoning": "Historic 1903 chapel and ballroom -> Classic. Gardens are a quarter acre and secondary, so Outdoors does not apply under the 'setting centers on nature' rule. 'Grand Ballroom' without a culinary team does not meet the Luxury rule.",
+  "site_cues": [
+   "At the heart of American Fork since 1903",
+   "stained glass adorned chapel",
+   "crystal chandeliers"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "Two halls and grounds, each with its own capacity",
+   "data": {
+    "spaces": [
+     {
+      "name": "The Grand Ballroom",
+      "seated": 178,
+      "standing": 385,
+      "setting": "indoor",
+      "features": [
+       "crystal chandeliers",
+       "grand staircase",
+       "opens to terrace"
+      ]
+     },
+     {
+      "name": "The Monarch",
+      "seated": 126,
+      "standing": 270,
+      "setting": "indoor",
+      "features": [
+       "stained-glass windows",
+       "mahogany staircase",
+       "mini grand piano"
+      ]
+     },
+     {
+      "name": "The Grounds",
+      "setting": "outdoor",
+      "features": [
+       "seasonal rose arch",
+       "terrace pergola with twinkling lights (32 x 19 ft seating space)",
+       "tiered stone fountain",
+       "nearly a quarter acre of gardens"
+      ]
+     }
+    ],
+    "rental": "Full building only, 10am-10pm Mon-Sat, 2 hosts"
+   }
+  },
+  {
+   "title": "Add-on rentals",
+   "why": "Itemized decor rental price list",
+   "data": {
+    "add_ons": [
+     {
+      "item": "Custom welcome sign",
+      "price": "$500"
+     },
+     {
+      "item": "Sparkler send-off",
+      "price": "$1.50 per sparkler"
+     },
+     {
+      "item": "Room flip",
+      "price": "$150"
+     },
+     {
+      "item": "Cheese cloth table runners",
+      "price": "$3 each"
+     },
+     {
+      "item": "Square sign stand",
+      "price": "$10"
+     },
+     {
+      "item": "Gold easels",
+      "price": "$10 each"
+     },
+     {
+      "item": "Assorted bud vases",
+      "price": "$20 for 40"
+     },
+     {
+      "item": "8-inch round vases",
+      "price": "$25 for 48"
+     },
+     {
+      "item": "10-inch round vases",
+      "price": "$15 for 28"
+     },
+     {
+      "item": "Gift card box",
+      "price": "$10"
+     },
+     {
+      "item": "Parasols",
+      "price": "$3 each"
+     },
+     {
+      "item": "Audio guestbook",
+      "price": "not listed"
+     },
+     {
+      "item": "Event Day Coordinator",
+      "price": "$300 (mobile layout only; unclear)"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Seasonal package",
+   "why": "December weekday packages with all decor and add-ons included",
+   "data": {
+    "packages": [
+     {
+      "name": "December winter celebrations",
+      "days": "Mon-Thu, December only",
+      "slots": [
+       "8am-2pm",
+       "4pm-10pm"
+      ],
+      "includes": [
+       "all decor and add-ons"
+      ],
+      "price": "on request"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Preferred vendors",
+   "why": "In-house caterer plus vendor list",
+   "data": {
+    "in_house_caterer": "Crisp Catering",
+    "caterers": [
+     "Magleby's",
+     "Thirst Catering"
+    ],
+    "bartending": [
+     "Cheers & Swizzles",
+     "Copa Bar Service"
+    ],
+    "planning": [
+     "Everson Events"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity: site states 178 (Grand Ballroom) and 126 (Monarch). Can both rooms be seated together (304) for one event? Filter now uses 178.",
+  "Event Day Coordinator: a '$300' card appears only on the mobile layout of the Add-ons page and repeats the sparkler description. Is a coordinator really offered, and at what price?",
+  "Cleanup: 'Set Up/Take Down' is listed as included, but the room pages say reserved time must cover set-up and take-down. Does staff clean up?",
+  "Alcohol policy is not published although bartenders are on the vendor list.",
+  "Phone in the CSV (801-756-5358) does not appear on the site; site uses 385-324-9973."
+ ]
+}

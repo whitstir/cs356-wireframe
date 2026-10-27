@@ -1,0 +1,223 @@
+{
+ "row": 44,
+ "id": "chillon-reception-center",
+ "official_name": {
+  "name": "The Chillon",
+  "source_url": "https://chillon.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "integrated lighting, music, and decor",
+   "price": "",
+   "source_url": "https://www.chillon.com/pages/our-facility"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "both indoor and outdoor spaces",
+   "price": "",
+   "source_url": "https://www.chillon.com/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Outdoor Ceremony you've dreamed of... with a back-up plan.",
+   "price": "",
+   "source_url": "https://www.chillon.com/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Space for your own catering or utilize our specialized catering services",
+   "price": "",
+   "source_url": "https://www.chillon.com/pages/wedding-package-a"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Custom fresh floral centerpieces + wedding party florals",
+   "price": "",
+   "source_url": "https://www.chillon.com/pages/wedding-package-a"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Stunning fresh floral packages at The Chillon cover all your needs",
+   "price": "",
+   "source_url": "https://www.chillon.com/pages/floral-services"
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 4999,
+  "high": 4999,
+  "basis": "full-service package",
+  "wording": "Option A full-service package (includes catering) $4,999",
+  "math": ""
+ },
+ "seated": {
+  "low": 50,
+  "high": 200,
+  "wording": "Option A guest range 50–200"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "The Chillon"
+ }
+}

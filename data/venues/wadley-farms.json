@@ -1,0 +1,780 @@
+{
+ "id": "wadley-farms",
+ "name": "Wadley Farms",
+ "city": "Lindon",
+ "description": "A historic family farm venue (since 1869) on 23 acres in Lindon with a castle, an event barn, a historic railroad building, gardens, vineyards, orchards and on-site lodging, offering indoor and outdoor settings.",
+ "styles": [
+  "Classic",
+  "Luxury",
+  "Rustic",
+  "Outdoors"
+ ],
+ "priceMin": 3100,
+ "priceMax": 7200,
+ "priceBasis": "rental",
+ "priceText": "Barn & Railroad winter $3,100 to Castle Fri–Sat $7,200",
+ "seated": 200,
+ "seatedMin": 40,
+ "seatedText": "Castle 200\nBarn 100\nRailroad Building 40",
+ "standing": 350,
+ "standingMin": 250,
+ "standingText": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": true,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Wheelchair accessible"
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "LCD projector and an 18 ft drop down screen"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Professional sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's dressing room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Building coordinator and lead hostess"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's dressing room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Climate-controlled Great Hall and Barn"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Linens with tables and chairs"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor ceremonies are weather-dependent."
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Any caterer"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparkler exits allowed"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Wisteria-wrapped gazebo ceremony backdrop"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "38-ft fireplace in the Great Hall"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Grand chandelier"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Bistro lights on the stone patio and walkway"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic family farm venue (since 1869) on 23 acres in Lindon with a castle, an event barn, a historic railroad building, gardens, vineyards, orchards and on-site lodging, offering indoor and outdoor settings."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "5 East 400 North, Lindon, UT 84042"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Historic\nNatural\nElegant\nRustic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Barn & Railroad winter $3,100 to Castle Fri–Sat $7,200"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "The Castle, 2pm-10pm year-round: Mon-Wed — $5,600; Thu — $6,000; Fri-Sat — $7,200\nThe Barn & Railroad Building, summer (Apr-Sep) 2pm-10pm: Mon-Wed — $4,800; Thu — $5,200; Fri-Sat — $5,600\nThe Barn & Railroad Building, winter (Oct-Mar) 2pm-10pm: Mon-Thu — $3,100; Fri-Sat — $3,600\nRentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Castle — $2,000 non-refundable\nBarn & Railroad Building — $1,500 non-refundable\nSigned contract required to reserve"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Climate-controlled Great Hall and Barn"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor ceremonies are weather-dependent."
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Castle 200\nBarn 100\nRailroad Building 40"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "The Castle",
+     "value": "Seated: 200 · Standing: 350 · Setting: indoor + gardens Apr-Sep · Features: 4,500 sq ft Great Hall; 38-ft fireplace; bride's and groom's dressing rooms; up to 4 breakout rooms; sound system; LCD projector + 18-ft screen; full-service kitchen · Catering: recommended caterers only"
+    },
+    {
+     "id": "spaces-1",
+     "label": "The Barn",
+     "value": "Seated: 100 · Standing: 250 open-flow (300 open house per space page) · Setting: indoor + gardens Apr-Sep · Features: grand chandelier; two fireplaces; wrought-iron balcony · Catering: any caterer or self-cater"
+    },
+    {
+     "id": "spaces-2",
+     "label": "The Railroad Building",
+     "value": "Seated: 40 · Standing: 100 for an indoor ceremony; 300 with garden for an open house · Setting: indoor + garden Apr-Sep · Features: fireplace; French doors to garden · Catering: any caterer or self-cater · Note: Rented together with the Barn"
+    }
+   ]
+  },
+  {
+   "id": "rain-season-plan",
+   "title": "Rain / season plan",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "rain-season-plan-0",
+     "label": "Rain plan",
+     "value": "Indoor Great Hall or Barn; outdoor ceremonies weather-dependent and typically not held Oct-Mar"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride's dressing room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom's dressing room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Castle bride's dressing room (with balcony)\nCastle groom's dressing room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Linens with tables and chairs"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Building coordinator and lead hostess"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Tables\nChairs\nLinens\nCastle Great Hall 38-ft fireplace and upper-chamber fireplace\nBarn grand chandelier and two fireplaces\nRailroad Building fireplace\nCastle iron chandeliers\nCastle grand staircases\nBarn wrought-iron balcony\nVine-wrapped gazebo (ceremony backdrop)\nGardens, vineyards and orchards (Apr-Sep with rental)\nBistro lights along garden paths and castle terrace"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Castle coordinator and Barn & Railroad Building coordinator on staff\nLead hostess on staff"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "LCD projector and an 18 ft drop down screen"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Professional sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nProfessional sound system in the Castle\nLCD projector and 18-ft drop-down screen in the Castle"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Wisteria-wrapped gazebo ceremony backdrop"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "38-ft fireplace in the Great Hall"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Grand chandelier"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Bistro lights on the stone patio and walkway"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "6-ft wooden tables — $100 each\nCrossback chairs — $8 each\nLighting in the Castle — $1,000"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Three on-site lodging rentals (Rustic Loft, Chateau, Hermitage), booked separately\nCeremony add-on — $350\nShuttle service (price on request)\nHigh-speed Wi-Fi in the Castle\nPhoto sessions on the grounds complimentary for booked clients"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Any caterer"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Castle: caterer must be from the venue's recommended list\nBarn & Railroad Building: any caterer or self-catering allowed"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Castle: full-service kitchen\nBarn & Railroad Building: kitchen for keeping food warm or cool"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Beer and wine only, served by a licensed bartender\n$1,000 alcohol privilege fee\nCOPA bartenders listed as the required vendor for serving alcohol"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Sparkler exits allowed"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes\nSparkler exits allowed; other fireworks not permitted"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Sat 2pm-10pm\nMon-Sat 10am-10pm full-day option\nA la carte hours on request"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "8-12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Outdoor ceremonies weather-dependent; typically not scheduled Oct-Mar\nAlcohol limited to beer and wine\nCastle requires a caterer from the recommended list\nNo fireworks other than sparklers\nNo pets (service animals welcome)\nNo gatherings or getting-ready groups in the lodging unless part of a package"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "Wheelchair accessible"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Wheelchair accessible (Castle and Barn)"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Ample on-site parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Family farm since 1869; 23 acres\nExclusive use of the rented building; its surrounding gardens are included Apr-Sep\nCastle: 4,500 sq ft Great Hall and up to four breakout rooms\nLodging has a two-night minimum"
+    }
+   ]
+  },
+  {
+   "id": "on-site-lodging",
+   "title": "On-site lodging",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "on-site-lodging-0",
+     "label": "The Hermitage Suite",
+     "value": "Sleeps: 4 · Notes: 2 bed, 1 bath, kitchen"
+    },
+    {
+     "id": "on-site-lodging-1",
+     "label": "The Chateau",
+     "value": "Sleeps: 8 · Notes: two private balconies"
+    },
+    {
+     "id": "on-site-lodging-2",
+     "label": "The Rustic Loft",
+     "value": "Sleeps: 2"
+    },
+    {
+     "id": "on-site-lodging-3",
+     "label": "Policies",
+     "value": "two-night minimum; check-in after 3pm, check-out 11am; no gatherings or getting-ready groups unless part of a package; 50% deposit"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Castle: 801-400-5442\nBarn/Railroad Building: 801-404-9996\nEmail: info@wadleyfarms.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://wadleyfarms.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "wadley-farms",
+  "Venue Name": "Wadley Farms",
+  "link": "https://wadleyfarms.com/",
+  "City": "Lindon",
+  "Full Address": "5 East 400 North, Lindon, UT 84042",
+  "Description": "A historic family farm venue (since 1869) on 23 acres in Lindon with a castle, an event barn, a historic railroad building, gardens, vineyards, orchards and on-site lodging, offering indoor and outdoor settings.",
+  "Price Low": "3100",
+  "Price High": "7200",
+  "Price Basis": "rental",
+  "Standard Price Range": "Barn & Railroad winter $3,100 to Castle Fri–Sat $7,200",
+  "Seated Low": "40",
+  "Seated High": "200",
+  "Seated Capacity": "Castle 200\nBarn 100\nRailroad Building 40",
+  "Standing Low": "250",
+  "Standing High": "350",
+  "Standing Capacity": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house",
+  "Packages and Prices": "The Castle, 2pm-10pm year-round: Mon-Wed — $5,600; Thu — $6,000; Fri-Sat — $7,200\nThe Barn & Railroad Building, summer (Apr-Sep) 2pm-10pm: Mon-Wed — $4,800; Thu — $5,200; Fri-Sat — $5,600\nThe Barn & Railroad Building, winter (Oct-Mar) 2pm-10pm: Mon-Thu — $3,100; Fri-Sat — $3,600\nRentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)",
+  "Time slots": "Mon-Sat 2pm-10pm\nMon-Sat 10am-10pm full-day option\nA la carte hours on request",
+  "Length of Rental": "8-12 hours",
+  "Style": "Historic\nNatural\nElegant\nRustic",
+  "Other Decor Included": "Tables\nChairs\nLinens\nCastle Great Hall 38-ft fireplace and upper-chamber fireplace\nBarn grand chandelier and two fireplaces\nRailroad Building fireplace\nCastle iron chandeliers\nCastle grand staircases\nBarn wrought-iron balcony\nVine-wrapped gazebo (ceremony backdrop)\nGardens, vineyards and orchards (Apr-Sep with rental)\nBistro lights along garden paths and castle terrace",
+  "Other Decor for Rent": "6-ft wooden tables — $100 each\nCrossback chairs — $8 each\nLighting in the Castle — $1,000",
+  "sparklers allowed": "Yes\nSparkler exits allowed; other fireworks not permitted",
+  "parking?": "Ample on-site parking",
+  "sound system": "Yes\nProfessional sound system in the Castle\nLCD projector and 18-ft drop-down screen in the Castle",
+  "extras": "Three on-site lodging rentals (Rustic Loft, Chateau, Hermitage), booked separately\nCeremony add-on — $350\nShuttle service (price on request)\nHigh-speed Wi-Fi in the Castle\nPhoto sessions on the grounds complimentary for booked clients",
+  "Accessibility": "Wheelchair accessible (Castle and Barn)",
+  "Deposit Policy": "Castle — $2,000 non-refundable\nBarn & Railroad Building — $1,500 non-refundable\nSigned contract required to reserve",
+  "Catering": "Castle: caterer must be from the venue's recommended list\nBarn & Railroad Building: any caterer or self-catering allowed",
+  "Prep Area": "Castle: full-service kitchen\nBarn & Railroad Building: kitchen for keeping food warm or cool",
+  "Alcohol policy": "Beer and wine only, served by a licensed bartender\n$1,000 alcohol privilege fee\nCOPA bartenders listed as the required vendor for serving alcohol",
+  "Event Coordinator": "Castle coordinator and Barn & Railroad Building coordinator on staff\nLead hostess on staff",
+  "Bride/Groom Rooms": "Castle bride's dressing room (with balcony)\nCastle groom's dressing room",
+  "Restrictions": "Outdoor ceremonies weather-dependent; typically not scheduled Oct-Mar\nAlcohol limited to beer and wine\nCastle requires a caterer from the recommended list\nNo fireworks other than sparklers\nNo pets (service animals welcome)\nNo gatherings or getting-ready groups in the lodging unless part of a package",
+  "Important Notes": "Family farm since 1869; 23 acres\nExclusive use of the rented building; its surrounding gardens are included Apr-Sep\nCastle: 4,500 sq ft Great Hall and up to four breakout rooms\nLodging has a two-night minimum",
+  "Contact Information": "Castle: 801-400-5442\nBarn/Railroad Building: 801-404-9996\nEmail: info@wadleyfarms.com"
+ }
+}

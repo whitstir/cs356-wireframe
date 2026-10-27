@@ -1,0 +1,993 @@
+{
+ "row": 1,
+ "id": "sleepy-ridge-golf-course",
+ "name": "Sleepy Ridge Golf Course",
+ "website": "https://www.sleepyridgeweddings.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.sleepyridgeweddings.com/ (home: spaces, capacities, one wedding at a time, outside caterer)",
+  "https://www.sleepyridgeweddings.com/about (team)",
+  "https://www.sleepyridgeweddings.com/rooms (spaces, bring-your-own caterer, inclusions)",
+  "https://www.sleepyridgeweddings.com/sunset-room (Sunset Room capacity, features)",
+  "https://www.sleepyridgeweddings.com/gardens (Garden Patio, ceremony seating)",
+  "https://www.sleepyridgeweddings.com/pricing (how pricing works, inclusions, suites, parking)",
+  "https://www.sleepyridgeweddings.com/wedding-pricing (rates, inclusions, deposit, fees; read in browser for the $750 alcohol fee)",
+  "https://www.sleepyridgeweddings.com/promotions ($500 off-season promo)",
+  "https://www.sleepyridgeweddings.com/vendors (required and preferred vendors)",
+  "https://www.sleepyridgeweddings.com/contact (address, phone, email; HTML checked for mysite.co.il)",
+  "https://www.sleepyridgeweddings.com/gallery and https://www.sleepyridgeweddings.com/gallery-the-grounds (gallery prose)",
+  "https://www.sleepyridgeweddings.com/blog and its 4 posts (cost breakdown, Orem guide, winter, golf course)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "730 S Sleepy Ridge Dr, Orem, UT 84059",
+  "note": "Orem, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Sleepy Ridge Golf Course",
+   "verified_value": "Sleepy Ridge Golf Course",
+   "action": "confirmed",
+   "change_origin": "Site title and logo: 'Sleepy Ridge'; the venue brands itself Sleepy Ridge Weddings.",
+   "source_url": "https://www.sleepyridgeweddings.com/",
+   "evidence": "Sleepy Ridge is a wedding venue in Orem, Utah, set on a golf course above Utah Lake",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Official branding is 'Sleepy Ridge Weddings'; team may want that as the display name."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.sleepyridgeweddings.com/",
+   "verified_value": "https://www.sleepyridgeweddings.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads (HTTP 200).",
+   "source_url": "https://www.sleepyridgeweddings.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A country-club-style reception venue on a golf course near Utah Lake, offering indoor and outdoor spaces, scenic mountain and lake views, lush gardens, a gazebo, and dedicated areas for wedding ceremonies and receptions.",
+   "verified_value": "A country-club-style reception venue on a golf course near Utah Lake, offering indoor and outdoor spaces, scenic mountain and lake views, lush gardens, a gazebo, and dedicated areas for wedding ceremonies and receptions.",
+   "action": "confirmed",
+   "change_origin": "Home, Rooms and Gardens pages confirm golf course, Utah Lake, gardens, gazebo, indoor and outdoor spaces; Contact page says 'upscale country club atmosphere'.",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms",
+   "evidence": "The Garden Patio handles the outdoor ceremony, the Front Gardens hold cocktail hour, and the Sunset Room upstairs takes dinner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$4,200-$7,000",
+   "verified_value": "$4,200-$7,000",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing page, Sunset Room rates.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Mon - Wed: $4200 ... Sat - Sun: $7000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Luncheon rental ($3,000, Mon-Thu 9am-2pm) is a non-wedding rate and is left out of the range. Off-season promo: $500 off Nov-Mar."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "60-inch round tables, 8-foot banquet tables, 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens, centerpieces, setup and take-down, venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building and grounds access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon, room rental and standard venue inclusions — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250",
+   "verified_value": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon rental (all room-rental items) — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire",
+   "action": "corrected",
+   "change_origin": "Official site, Wedding Pricing page: alcohol fee is $750 (the AI collector split it as '$75 0'); added holiday-pricing note and luncheon wording.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Alcohol Venue Fee: $750 (must use our preferred bartender...)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Rates and inclusions otherwise match. Text read in the browser renders '$750'; static HTML splits it '$75' / '0'."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "250",
+   "verified_value": "250",
+   "action": "confirmed",
+   "change_origin": "Sunset Room page and Rooms page.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "Formal Dinners up to 250 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Garden Patio ceremony seating is 150."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "700",
+   "verified_value": "700",
+   "action": "confirmed",
+   "change_origin": "Sunset Room page.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "Flowing Receptions up to 700 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm",
+   "verified_value": "Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing page.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "4:00 PM - 11:00 PM Mon - Wed ... 11:00 AM - 11:00 PM Friday, Sat - Sun; Luncheon Monday - Thursday 9:00 AM - 2:00 PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "5-12 hours",
+   "verified_value": "5-12 hours",
+   "action": "confirmed",
+   "change_origin": "Derived from Wedding Pricing time blocks (5 h luncheon, 7 h weekday evening, 12 h Fri-Sun).",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "time blocks 9-2, 4-11, 11-11",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Country club-style\nElegant\nRomantic",
+   "verified_value": "Country club-style\nElegant\nRomantic",
+   "action": "confirmed",
+   "change_origin": "Contact page and Sunset Room page use 'upscale country club atmosphere', 'elegant', 'romantic'.",
+   "source_url": "https://www.sleepyridgeweddings.com/contact",
+   "evidence": "combine affordability with an upscale country club atmosphere",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Floor Length Linens of any Color",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "60-inch round tables\n8-foot banquet tables\n6-foot banquet tables\n36-inch bistro tables\nIn-house chairs\nFloor-length linens\nCenterpieces\nFloor and table easels\nBistro lighting\nLarge fireplace and mantle\nHardwood floors\nPrivate balcony\nFront lush gardens\nIvy wall\nWillow tree",
+   "verified_value": "60-inch round tables\n8-foot banquet tables\n6-foot banquet tables\n36-inch bistro tables\nIn-house chairs\nFloor-length linens\nCenterpieces\nFloor and table easels\nBistro lighting\nLarge fireplace and mantle\nHardwood floors\nPrivate balcony\nFront lush gardens\nIvy wall\nWillow tree",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions list plus home page photo locations (ivy wall, willow tree, front lush gardens) and Sunset Room page (hardwood floors, balcony).",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Centerpieces ... Floor Easels, Table Easels ... Sunset Balcony Bistro Lighting, Large Fireplace and Mantle",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent: no venue decor rental list.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Lighting & drapes must come from required vendor Moonlight Lighting (third party, not a venue rental)."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Home and Rooms pages.",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms",
+   "evidence": "one of the few indoor and outdoor wedding venues in Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Outdoor Garden Patio ceremony is a $1,000 add-on; balcony is included."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on sparklers.",
+   "source_url": "https://www.sleepyridgeweddings.com/vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Vendors page lists Vortex Fireworks as the required fireworks vendor; nothing about sparkler exits."
+  },
+  {
+   "field": "parking?",
+   "current_value": "Ample parking for guests\nLarge parking area",
+   "verified_value": "Ample parking for guests\nLarge parking area",
+   "action": "confirmed",
+   "change_origin": "Pricing and Wedding Pricing pages.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "Ample parking for your guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "730 S Sleepy Ridge Dr, Orem, UT 84059",
+   "verified_value": "730 S Sleepy Ridge Dr, Orem, UT 84059",
+   "action": "confirmed",
+   "change_origin": "Contact page and site footer.",
+   "source_url": "https://www.sleepyridgeweddings.com/contact",
+   "evidence": "730 S Sleepy Ridge Dr Orem, UT 84059",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Orem",
+   "verified_value": "Orem",
+   "action": "confirmed",
+   "change_origin": "Contact page address.",
+   "source_url": "https://www.sleepyridgeweddings.com/contact",
+   "evidence": "Orem, UT 84059",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nBluetooth sound system\nWireless microphone",
+   "verified_value": "Yes\nBluetooth sound system\nWireless microphone",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Bluetooth Sound System Wireless Microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Garden Patio and Front Garden cocktail-hour add-on — $1,000\nOne wedding at a time\n95-inch HD TVs",
+   "verified_value": "Garden Patio and Front Garden cocktail-hour add-on — $1,000\nOne wedding at a time\n95-inch HD TVs",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing page (add-on), Home page (one wedding at a time), inclusions (95\" HD TVs).",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Add On: Garden Patio Ceremony & Front Garden Cocktail Hour: $1,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included\nStandard setup and take-down",
+   "verified_value": "Included\nStandard setup and take-down",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions and Pricing page.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "Tables, chairs, linens, and standard setup/cleanup services",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sunset Room is on the third floor; no elevator or ADA statement found."
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "50% of room rental\nNon-refundable and non-transferable\nFinal payment due two weeks before the event",
+   "verified_value": "50% of room rental\nNon-refundable and non-transferable\nFinal payment due two weeks before the event",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing page.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Deposit is 50% of Room Rental and is non-refundable and non-transferable",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside caterers allowed at no extra cost\nPreferred caterers listed on venue site",
+   "verified_value": "Outside caterers allowed at no extra cost\nNo in-house catering and no required caterer list\nPreferred caterers listed on venue site",
+   "action": "corrected",
+   "change_origin": "Official site, Rooms page: added that there is no in-house catering and no required vendor list.",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms",
+   "evidence": "Sleepy Ridge has no in-house catering and no required vendor list.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Vendors page lists preferred caterers (Brown Brothers, Crisp, Marvellous, R&R BBQ, Wooden Horse)."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Warming/prep kitchen",
+   "verified_value": "Warming/prep kitchen",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Warming/Prep Kitchen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed\nPreferred bartender required: COPA Bar Service or The Bar Project\nVenue alcohol fee displayed on site as \"$75 0\"",
+   "verified_value": "Alcohol allowed\nPreferred bartender required: COPA Bar Service or The Bar Project\nAlcohol venue fee — $750",
+   "action": "corrected",
+   "change_origin": "Official site, Wedding Pricing page: fee is $750, replacing the garbled '$75 0'.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Alcohol Venue Fee: $750 (must use our preferred bartender...)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Required bartenders per Vendors page: COPA Bar Service, The Bar Project."
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Director of Weddings and Events\nAssistant Director\nHostess team\nTours and consultations available",
+   "verified_value": "Director of Weddings and Events\nAssistant Director\nOnsite venue attendant / hostess team included\nTours and consultations available",
+   "action": "corrected",
+   "change_origin": "Official site: added the included onsite venue attendant/hostess (Wedding Pricing inclusions; Pricing page 'On-site event hostess support').",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "On-site event hostess support",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Staff names on About page (Jennie Peterson, Emme Applegate). Cost blog post: 'You will have a coordinator who knows the property... there on the day itself.'"
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bridal suite\nGroom suite",
+   "verified_value": "Bridal suite\nGroom suite",
+   "action": "confirmed",
+   "change_origin": "Pricing page and Rooms page.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "we also offer access to bridal and groom suites",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Wedding Pricing inclusions list a single 'Wedding Suite'; Rooms page says 'both getting ready suites'."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Required alcohol vendor: COPA Bar Service or The Bar Project\nSetup and cleanup must occur within booked hours",
+   "verified_value": "Required alcohol vendor: COPA Bar Service or The Bar Project\nRequired fireworks vendor: Vortex Fireworks\nRequired lighting and drapes vendor: Moonlight Lighting\nSetup and cleanup (including vendors') must occur within booked hours",
+   "action": "corrected",
+   "change_origin": "Official site, Vendors page: added required fireworks and lighting/drapes vendors; Wedding Pricing page: setup/cleanup includes vendors.",
+   "source_url": "https://www.sleepyridgeweddings.com/vendors",
+   "evidence": "REQUIRED VENDORS ... Vortex Fireworks (Fireworks) Moonlight Lighting (Lighting & Drapes)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Current pricing page lists a $500 promotional discount on select bookings\nVenue renovation period noted for late 2026 through mid-2027",
+   "verified_value": "One wedding at a time\n$500 off venue rental for new bookings of off-season weddings (November-March)",
+   "action": "corrected",
+   "change_origin": "Promotions page gives the promo terms (off-season Nov-Mar, new bookings). Removed the 'renovation late 2026 through mid-2027' note: no page on the official site mentions a renovation.",
+   "source_url": "https://www.sleepyridgeweddings.com/promotions",
+   "evidence": "Promo applies to weddings held in off season: November - March. NEW BOOKINGS ONLY",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Searched home, about, spaces, pricing, wedding-pricing, vendors, contact, gallery, promotions and all 4 blog posts for renovation/remodel/2027: no hits."
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com\nEmail also shown on site: info@mysite.co.il",
+   "verified_value": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com",
+   "action": "corrected",
+   "change_origin": "Removed 'info@mysite.co.il': it is a leftover Wix template mailto link behind the displayed address info@sleepyridgeweddings.com, not a real contact.",
+   "source_url": "https://www.sleepyridgeweddings.com/contact",
+   "evidence": "801.899.8000 | info@sleepyridgeweddings.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Venue may want to fix the broken mailto link on its Contact page."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "$4200-$7000",
+   "verified_value": "$4200-$7000",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing page.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Mon - Wed: $4200 ... Sat - Sun: $7000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Luncheon $3,000 excluded (not a wedding rate)."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "250",
+   "verified_value": "250",
+   "action": "confirmed",
+   "change_origin": "Sunset Room page.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "Formal Dinners up to 250 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Orem",
+   "verified_value": "Orem",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.sleepyridgeweddings.com/contact",
+   "evidence": "730 S Sleepy Ridge Dr Orem, UT 84059",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sunset Room is on the third floor; site does not mention an elevator."
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/sunset-room",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Bluetooth Sound System Wireless Microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Bluetooth Sound System",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "95\" HD TVs",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "access to bridal and groom suites",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "access to bridal and groom suites",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page and Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "standard setup/cleanup services",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page (onsite hostess) and cost blog post (coordinator on the day).",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "On-site event hostess support",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rooms page: Sunset Room.",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms",
+   "evidence": "the Sunset Room upstairs takes dinner and dancing",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rooms and Gardens pages: Garden Patio, Front Gardens, balcony.",
+   "source_url": "https://www.sleepyridgeweddings.com/gardens",
+   "evidence": "The Garden Patio is an ideal setting for an outdoor wedding ceremony.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Garden Patio ceremony is a $1,000 add-on; balcony is included in the rental."
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Floor Length Linens of any Color",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home and Rooms pages.",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms",
+   "evidence": "no in-house catering and no required vendor list",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent on sparklers.",
+   "source_url": "https://www.sleepyridgeweddings.com/vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Fireworks require Vortex Fireworks; sparklers not mentioned. Ask venue."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Centerpieces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent as decor; gazebo and arbors are fixed garden features (Garden Patio add-on).",
+   "source_url": "https://www.sleepyridgeweddings.com/gardens",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Garden Patio has light-covered arbors and a gazebo but is a $1,000 add-on and is not a decor item."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent as venue decor.",
+   "source_url": "https://www.sleepyridgeweddings.com/vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Drapes must be hired from required vendor Moonlight Lighting (third party)."
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Large Fireplace and Mantle",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent: florals are hired from vendors.",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Gardens/ivy wall are grounds, not decor."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Floor Easels, Table Easels",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Not listed as an amenity.",
+   "source_url": "https://www.sleepyridgeweddings.com/gallery-the-grounds",
+   "evidence": "elegant chandeliers (generic gallery-page prose)",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Only the 'The Grounds' gallery page mentions 'elegant chandeliers' in generic prose; Sunset Room page describes a ceiling draped with lights instead. Left false; see open questions."
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Wedding Pricing inclusions and Sunset Room page.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "Sunset Balcony Bistro Lighting",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sunset Room ceiling 'draped with lights'."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (beverage vendors listed only).",
+   "source_url": "https://www.sleepyridgeweddings.com/vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Sleepy Ridge Golf Course",
+  "link": "https://www.sleepyridgeweddings.com/",
+  "Description": "A country-club-style reception venue on a golf course near Utah Lake, offering indoor and outdoor spaces, scenic mountain and lake views, lush gardens, a gazebo, and dedicated areas for wedding ceremonies and receptions.",
+  "Standard Price Range": "$4,200-$7,000",
+  "Packages and Prices": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon rental (all room-rental items) — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire",
+  "Seated Capacity": "250",
+  "Standing Capacity": "700",
+  "Time slots": "Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm",
+  "Length of Rental": "5-12 hours",
+  "Style": "Country club-style\nElegant\nRomantic",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "60-inch round tables\n8-foot banquet tables\n6-foot banquet tables\n36-inch bistro tables\nIn-house chairs\nFloor-length linens\nCenterpieces\nFloor and table easels\nBistro lighting\nLarge fireplace and mantle\nHardwood floors\nPrivate balcony\nFront lush gardens\nIvy wall\nWillow tree",
+  "Other Decor for Rent": "",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Ample parking for guests\nLarge parking area",
+  "Full Address": "730 S Sleepy Ridge Dr, Orem, UT 84059",
+  "City": "Orem",
+  "sound system": "Yes\nBluetooth sound system\nWireless microphone",
+  "extras": "Garden Patio and Front Garden cocktail-hour add-on — $1,000\nOne wedding at a time\n95-inch HD TVs",
+  "cleanup crew": "Included\nStandard setup and take-down",
+  "Accessibility": "",
+  "Deposit Policy": "50% of room rental\nNon-refundable and non-transferable\nFinal payment due two weeks before the event",
+  "Catering": "Outside caterers allowed at no extra cost\nNo in-house catering and no required caterer list\nPreferred caterers listed on venue site",
+  "Prep Area": "Warming/prep kitchen",
+  "Alcohol policy": "Alcohol allowed\nPreferred bartender required: COPA Bar Service or The Bar Project\nAlcohol venue fee — $750",
+  "Event Coordinator": "Director of Weddings and Events\nAssistant Director\nOnsite venue attendant / hostess team included\nTours and consultations available",
+  "Bride/Groom Rooms": "Bridal suite\nGroom suite",
+  "Restrictions": "Required alcohol vendor: COPA Bar Service or The Bar Project\nRequired fireworks vendor: Vortex Fireworks\nRequired lighting and drapes vendor: Moonlight Lighting\nSetup and cleanup (including vendors') must occur within booked hours",
+  "Important Notes": "One wedding at a time\n$500 off venue rental for new bookings of off-season weddings (November-March)",
+  "Contact Information": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Luxury",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Luxury",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Description says country-club-style on a golf course (Luxury cue) with gardens and golf grounds (Outdoors cue). The site calls itself elegant and upscale country club, which fits Luxury rather than Classic.",
+  "site_cues": [
+   "upscale country club atmosphere",
+   "golf course above Utah Lake",
+   "Garden Patio ... gazebo and arbors"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing",
+   "why": "Rate depends on day and time block",
+   "data": {
+    "rates": [
+     {
+      "days": "Mon-Wed",
+      "hours": "4pm-11pm",
+      "price": "$4,200"
+     },
+     {
+      "days": "Thu",
+      "hours": "4pm-11pm",
+      "price": "$4,700"
+     },
+     {
+      "days": "Fri",
+      "hours": "11am-11pm",
+      "price": "$6,500"
+     },
+     {
+      "days": "Sat-Sun",
+      "hours": "11am-11pm",
+      "price": "$7,000"
+     },
+     {
+      "days": "Mon-Thu (luncheon)",
+      "hours": "9am-2pm",
+      "price": "$3,000"
+     }
+    ],
+    "add_ons": [
+     {
+      "name": "Garden Patio ceremony & Front Garden cocktail hour",
+      "price": "$1,000"
+     },
+     {
+      "name": "Additional setup fee",
+      "price": "$250"
+     },
+     {
+      "name": "Alcohol venue fee",
+      "price": "$750"
+     }
+    ],
+    "promo": "$500 off for new bookings of off-season weddings (November-March)",
+    "holiday": "inquire"
+   }
+  },
+  {
+   "title": "Spaces",
+   "why": "Separate indoor reception room and outdoor ceremony patio with their own capacities",
+   "data": {
+    "spaces": [
+     {
+      "name": "Sunset Room",
+      "seated": 250,
+      "standing": 700,
+      "sq_ft": 4160,
+      "setting": "indoor (third floor, balcony)"
+     },
+     {
+      "name": "Garden Patio",
+      "ceremony_seated": 150,
+      "sq_ft": 2160,
+      "setting": "outdoor",
+      "note": "$1,000 add-on with Front Garden cocktail hour"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Required vendors",
+   "why": "Some services must use named vendors",
+   "data": {
+    "required": [
+     {
+      "service": "Alcohol",
+      "vendors": [
+       "COPA Bar Service",
+       "The Bar Project"
+      ]
+     },
+     {
+      "service": "Fireworks",
+      "vendors": [
+       "Vortex Fireworks"
+      ]
+     },
+     {
+      "service": "Lighting & drapes",
+      "vendors": [
+       "Moonlight Lighting"
+      ]
+     }
+    ],
+    "preferred_caterers": [
+     "Brown Brothers Catering",
+     "Crisp Catering",
+     "Marvellous Catering",
+     "R&R BBQ Catering",
+     "Wooden Horse Catering"
+    ]
+   }
+  },
+  {
+   "title": "Rain plan",
+   "why": "Indoor reception room doubles as weather backup",
+   "data": {
+    "rain_plan": "If the weather turns, the indoor reception space is already set (Rooms page)."
+   }
+  }
+ ],
+ "open_questions": [
+  "Renovation note (late 2026 to mid-2027) in the current data could not be found anywhere on the official site; removed. Team should confirm with the venue whether a renovation is planned.",
+  "Is there an elevator to the third-floor Sunset Room, and ADA restrooms? Site is silent.",
+  "Are sparkler exits allowed? Site only names a required fireworks vendor.",
+  "Chandeliers: only one generic gallery-page sentence mentions them; check photos or ask before adding the Chandeliers filter.",
+  "Display name: the venue brands itself 'Sleepy Ridge Weddings'."
+ ]
+}

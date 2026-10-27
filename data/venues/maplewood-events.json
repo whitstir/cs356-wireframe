@@ -1,0 +1,815 @@
+{
+ "id": "maplewood-events",
+ "name": "Maplewood Events",
+ "city": "Spanish Fork",
+ "description": "A decorated indoor event venue in Spanish Fork with reclaimed wood tables, included decor chosen at a design consultation, a dance floor with lighting and sound, two private dressing rooms, a warming kitchen and an open-vendor policy; alcohol is not allowed.",
+ "styles": [
+  "Modern"
+ ],
+ "priceMin": 1400,
+ "priceMax": 2450,
+ "priceBasis": "rental",
+ "priceText": "Morning $1,400; evening $1,600/$2,050; full day $1,900/$2,450",
+ "seated": 162,
+ "seatedMin": 112,
+ "seatedText": "112 included\n162 with added tables",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Ceremony arch / backdrop": [
+   "included",
+   "rent"
+  ],
+  "Draping / chair covers": [
+   "rent"
+  ],
+  "Greenery / florals": [
+   "rent"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Photo booth / backdrop": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": true,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": false,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "ADA approved restrooms"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound system, microphone, & Smart TV"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound system, microphone, & Smart TV"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "Sound system, microphone, & Smart TV"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "2 Private Dressing Rooms"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Setup and breakdown"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Onsite attendant"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "2 Private Dressing Rooms"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Large open room with wood tables and chairs"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Open vendor policy"
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "Sparkler package with lighting and disposal: 50 for $65, 100 for $100"
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces from the venue's decor"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Backdrop with choice of included decor"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "Ceiling Drapes White organza draped ceiling. $350"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "White wisteria chandelier flowers, $200"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Picture frames, easels, chalkboards and signs"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Chandeliers shown in the venue's photo gallery"
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Digital photo booth, $200"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A decorated indoor event venue in Spanish Fork with reclaimed wood tables, included decor chosen at a design consultation, a dance floor with lighting and sound, two private dressing rooms, a warming kitchen and an open-vendor policy; alcohol is not allowed."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "1068 Expressway Ln, Spanish Fork, UT 84660"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern\nDecorated\nCustomizable"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Morning $1,400; evening $1,600/$2,050; full day $1,900/$2,450"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Morning event 10am-2pm (Monday-Sunday) — $1,400\nEvening event 5-10pm — $1,600 (Monday-Wednesday); $2,050 (Thursday-Sunday)\nFull day 12-10pm — $1,900 (Monday-Wednesday); $2,450 (Thursday-Sunday)\nAdditional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "50% non-refundable deposit due at booking"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Large open room with wood tables and chairs"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "112 included\n162 with added tables"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "2 Private Dressing Rooms"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "2 Private Dressing Rooms"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "2 private dressing rooms with vanities, mirrors and seating"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Setup and breakdown"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Onsite attendant"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "10 reclaimed wood tables\n80-100 wood chairs\nBackdrop with choice of included decor\n2 sign-in tables with matching decor\nGift area with card box and gift sign\nCake table and choice of cake stand\n2 wood serving tables and side table with serving pieces\nPicture frames, easels, chalkboards and signs\nTable decor and centerpieces chosen at design consultation\nAmbient lighting\nChandeliers\nDance floor, dance lighting and disco ball\nSound system, microphone and Smart TV\n2 private dressing rooms"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "On-site attendant\nDesign consultation"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included\nVenue handles setup and breakdown"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Sound system, microphone, & Smart TV"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound system, microphone, & Smart TV"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "Sound system, microphone, & Smart TV"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound system\nMicrophone\nSmart TV\nDance lighting and disco ball"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Centerpieces from the venue's decor"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included+rent",
+     "value": "Backdrop with choice of included decor"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "rent",
+     "value": "Ceiling Drapes White organza draped ceiling. $350"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "rent",
+     "value": "White wisteria chandelier flowers, $200"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Picture frames, easels, chalkboards and signs"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Chandeliers shown in the venue's photo gallery"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Ceiling draping (white organza) — $350\nChandelier flowers (wisteria) — $200\nCeiling draping and chandelier flowers — $400\nHead table with decor — $50/table\nExtra wood tables and chairs with decor — $50/table\nAlternative table layout — $100\nDraped backdrop — $75\n50's Chevy truck by the backdrop — $350\nSoft serve ice cream machine — $155\nDigital photo booth — $200\nIn-house floral services — price on request"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "2 guest seating areas\nOnsite attendant\nDesign consultation (about 1 hour)\n50's Chevy truck placed outside — free"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "rent",
+     "value": "Digital photo booth, $200"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Open vendor policy"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterers allowed\nOpen vendor policy"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming kitchen with fridge, stove, sink, microwave and counter space\nNo cooking allowed in the building\nPlates, napkins, cups and kitchen utensils not provided"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "No alcohol inside or in the parking lot; $500 fine and event closure"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "addon",
+     "value": "Sparkler package with lighting and disposal: 50 for $65, 100 for $100"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Sparkler package (lighting and disposal) — $65 for 50, $100 for 100"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Morning 10am-2pm\nEvening 5-10pm\nFull day 12-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "4 hours (morning)\n5 hours (evening)\n10 hours (full day)"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No alcohol\nNo confetti or glitter inside or in the parking lot (automatic fine)\nNo fog machines or spark-free pyrotechnics\nNo tape, command strips or nails on walls\nFake petals only for ceremony aisle\nNo propane grills or fryers\nBuilding access only during booked time\nEvents end by 10pm"
+    }
+   ]
+  },
+  {
+   "id": "guest-minimum-maximum",
+   "title": "Guest minimum/maximum",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "guest-minimum-maximum-0",
+     "label": "Seated included",
+     "value": "112"
+    },
+    {
+     "id": "guest-minimum-maximum-1",
+     "label": "Seated max",
+     "value": "162"
+    },
+    {
+     "id": "guest-minimum-maximum-2",
+     "label": "Building occupancy",
+     "value": "224"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "included",
+     "value": "ADA approved restrooms"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "ADA approved restrooms"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Adequate parking space"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Building occupancy 224\nReception seating: 112 included, up to 162 with added tables at extra cost\nWeekend rates apply Thursday-Sunday"
+    }
+   ]
+  },
+  {
+   "id": "specialty-rentals",
+   "title": "Specialty rentals",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "specialty-rentals-0",
+     "label": "Ceiling drapes",
+     "value": "Price: $350"
+    },
+    {
+     "id": "specialty-rentals-1",
+     "label": "Chandelier flowers",
+     "value": "Price: $200"
+    },
+    {
+     "id": "specialty-rentals-2",
+     "label": "Drapes + flowers",
+     "value": "Price: $400"
+    },
+    {
+     "id": "specialty-rentals-3",
+     "label": "Head table",
+     "value": "Price: $50/table"
+    },
+    {
+     "id": "specialty-rentals-4",
+     "label": "Extra tables and chairs",
+     "value": "Price: $50/table"
+    },
+    {
+     "id": "specialty-rentals-5",
+     "label": "Alternative layout",
+     "value": "Price: $100"
+    },
+    {
+     "id": "specialty-rentals-6",
+     "label": "Draped backdrop",
+     "value": "Price: $75"
+    },
+    {
+     "id": "specialty-rentals-7",
+     "label": "50's Chevy truck inside",
+     "value": "Price: $350"
+    },
+    {
+     "id": "specialty-rentals-8",
+     "label": "50's Chevy truck outside",
+     "value": "Price: free"
+    },
+    {
+     "id": "specialty-rentals-9",
+     "label": "Sparklers",
+     "value": "Price: $65 for 50 / $100 for 100"
+    },
+    {
+     "id": "specialty-rentals-10",
+     "label": "Soft serve machine",
+     "value": "Price: $155"
+    },
+    {
+     "id": "specialty-rentals-11",
+     "label": "Digital photo booth",
+     "value": "Price: $200"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone (Bonnie): (385) 250-7061\nPhone (Amy): (801) 319-2341\nEmail: maplewood1068@gmail.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://eventsatmaplewood.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "maplewood-events",
+  "Venue Name": "Maplewood Events",
+  "link": "https://eventsatmaplewood.com/",
+  "City": "Spanish Fork",
+  "Full Address": "1068 Expressway Ln, Spanish Fork, UT 84660",
+  "Description": "A decorated indoor event venue in Spanish Fork with reclaimed wood tables, included decor chosen at a design consultation, a dance floor with lighting and sound, two private dressing rooms, a warming kitchen and an open-vendor policy; alcohol is not allowed.",
+  "Price Low": "1400",
+  "Price High": "2450",
+  "Price Basis": "rental",
+  "Standard Price Range": "Morning $1,400; evening $1,600/$2,050; full day $1,900/$2,450",
+  "Seated Low": "112",
+  "Seated High": "162",
+  "Seated Capacity": "112 included\n162 with added tables",
+  "Packages and Prices": "Morning event 10am-2pm (Monday-Sunday) — $1,400\nEvening event 5-10pm — $1,600 (Monday-Wednesday); $2,050 (Thursday-Sunday)\nFull day 12-10pm — $1,900 (Monday-Wednesday); $2,450 (Thursday-Sunday)\nAdditional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant",
+  "Time slots": "Morning 10am-2pm\nEvening 5-10pm\nFull day 12-10pm",
+  "Length of Rental": "4 hours (morning)\n5 hours (evening)\n10 hours (full day)",
+  "Style": "Modern\nDecorated\nCustomizable",
+  "Other Decor Included": "10 reclaimed wood tables\n80-100 wood chairs\nBackdrop with choice of included decor\n2 sign-in tables with matching decor\nGift area with card box and gift sign\nCake table and choice of cake stand\n2 wood serving tables and side table with serving pieces\nPicture frames, easels, chalkboards and signs\nTable decor and centerpieces chosen at design consultation\nAmbient lighting\nChandeliers\nDance floor, dance lighting and disco ball\nSound system, microphone and Smart TV\n2 private dressing rooms",
+  "Other Decor for Rent": "Ceiling draping (white organza) — $350\nChandelier flowers (wisteria) — $200\nCeiling draping and chandelier flowers — $400\nHead table with decor — $50/table\nExtra wood tables and chairs with decor — $50/table\nAlternative table layout — $100\nDraped backdrop — $75\n50's Chevy truck by the backdrop — $350\nSoft serve ice cream machine — $155\nDigital photo booth — $200\nIn-house floral services — price on request",
+  "sparklers allowed": "Sparkler package (lighting and disposal) — $65 for 50, $100 for 100",
+  "parking?": "Adequate parking space",
+  "sound system": "Yes\nSound system\nMicrophone\nSmart TV\nDance lighting and disco ball",
+  "extras": "2 guest seating areas\nOnsite attendant\nDesign consultation (about 1 hour)\n50's Chevy truck placed outside — free",
+  "cleanup crew": "Included\nVenue handles setup and breakdown",
+  "Accessibility": "ADA approved restrooms",
+  "Deposit Policy": "50% non-refundable deposit due at booking",
+  "Catering": "Outside caterers allowed\nOpen vendor policy",
+  "Prep Area": "Warming kitchen with fridge, stove, sink, microwave and counter space\nNo cooking allowed in the building\nPlates, napkins, cups and kitchen utensils not provided",
+  "Alcohol policy": "No alcohol inside or in the parking lot; $500 fine and event closure",
+  "Event Coordinator": "On-site attendant\nDesign consultation",
+  "Bride/Groom Rooms": "2 private dressing rooms with vanities, mirrors and seating",
+  "Restrictions": "No alcohol\nNo confetti or glitter inside or in the parking lot (automatic fine)\nNo fog machines or spark-free pyrotechnics\nNo tape, command strips or nails on walls\nFake petals only for ceremony aisle\nNo propane grills or fryers\nBuilding access only during booked time\nEvents end by 10pm",
+  "Important Notes": "Building occupancy 224\nReception seating: 112 included, up to 162 with added tables at extra cost\nWeekend rates apply Thursday-Sunday",
+  "Contact Information": "Phone (Bonnie): (385) 250-7061\nPhone (Amy): (801) 319-2341\nEmail: maplewood1068@gmail.com"
+ }
+}

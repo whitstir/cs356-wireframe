@@ -1,0 +1,997 @@
+{
+ "row": 32,
+ "id": "barteli-event-venue",
+ "name": "Barteli Event Venue",
+ "website": "https://www.barteli.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.barteli.com/ (home, contact block; Wix, read in browser)",
+  "https://www.barteli.com/pricing (all prices and packages; read in browser)",
+  "https://www.barteli.com/menu ('Menus (New)': same content as Prices)",
+  "https://www.barteli.com/about-us (family business, planning help)",
+  "https://www.barteli.com/contact-us (address, phones, email)",
+  "https://www.barteli.com/ourwork (photo gallery, no captions)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "151 W 400 N, Orem, UT 84057, USA",
+  "note": "Orem, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Barteli Event Venue",
+   "verified_value": "Barteli Event Venue",
+   "action": "confirmed",
+   "change_origin": "Official site, header 'Barteli Reception Hall'.",
+   "source_url": "https://www.barteli.com/",
+   "evidence": "'Barteli Reception Hall | Orem, Utah'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Site uses 'Barteli Reception Hall'; sheet says 'Barteli Event Venue'."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.barteli.com/",
+   "verified_value": "https://www.barteli.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads (Wix; read in browser).",
+   "source_url": "https://www.barteli.com/",
+   "evidence": "Home page loads",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A flexible reception hall in Orem with customizable event plans, optional decor and setup services, and tiered packages ranging from venue-only rental to full-service celebrations.",
+   "verified_value": "A family-owned reception hall in Orem with venue-only rental by the hour or day, optional decorating, setup and cleaning, and table packages up to an all-inclusive package with food, cake, music, photos and video.",
+   "action": "corrected",
+   "change_origin": "Official site, Prices and About pages; replaced 'full-service celebrations' (which the Style rules read as Luxury) with what the top package actually includes.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "Luxury Package: 'Tables, Chairs, Decoration, Food, Cake, Music, Pictures, Video and Clean Up'; About: 'family owned business'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$600-$2,350",
+   "verified_value": "$600-$2,350",
+   "action": "confirmed",
+   "change_origin": "Official site, Prices page: $200/hour x 3-hour minimum = $600 (Mon-Thu); Fri/Sat $2,350; Sunday $1,500.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'Per Hour (Min. 3 hours) $200'; 'Venue (Fri/Sat) $2,350'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "$600 is computed from the hourly minimum, not printed."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Venue rental, minimum 3 hours Mon-Thu — $200/hour\nVenue rental Fri-Sat without tables or chairs — $2,350\nVenue rental Sunday without tables or chairs — $1,500\nReserve date — $100\nSecurity deposit — $200 Mon-Thu or $400 Fri-Sun\nDecoration and setup — $600\nCleaning — $400\nBlank table with 8 chairs — $0\nTable with 8 chairs and one table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\n10 tables with simple decor, food, cake, music, pictures, video and cleanup — $2,240 Fri-Sat; $1,640 Sunday\n15 tables with simple decor, food, cake, music, pictures, video and cleanup — $2,485 Fri-Sat; $1,685 Sunday\n20 tables with simple decor, food, cake, music, pictures, video and cleanup — $2,530 Fri-Sat; $1,730 Sunday\n25 tables with simple decor, food, cake, music, pictures, video and cleanup — $2,575 Fri-Sat; $1,775 Sunday\n10 tables with silver decor, food, cake, music, pictures, video and cleanup — $2,700 Fri-Sat; $1,900 Sunday\n15 tables with silver decor, food, cake, music, pictures, video and cleanup — $2,875 Fri-Sat; $2,075 Sunday\n20 tables with silver decor, food, cake, music, pictures, video and cleanup — $3,050 Fri-Sat; $2,250 Sunday\n25 tables with silver decor, food, cake, music, pictures, video and cleanup — $3,225 Fri-Sat; $2,425 Sunday\n10 tables with gold decor, food, cake, music, pictures, video and cleanup — $3,300 Fri-Sat; $2,500 Sunday\n15 tables with gold decor, food, cake, music, pictures, video and cleanup — $3,475 Fri-Sat; $2,675 Sunday\n20 tables with gold decor, food, cake, music, pictures, video and cleanup — $3,650 Fri-Sat; $2,850 Sunday\n25 tables with gold decor, food, cake, music, pictures, video and cleanup — $3,825 Fri-Sat; $3,025 Sunday\n10, 15, 20 or 25 tables with tables, chairs, decoration, food, cake, music, pictures, video and cleanup — $7,960, $9,025, $10,150 or $11,160",
+   "verified_value": "Venue rental Mon-Thu — $200/hour (3-hour minimum)\nVenue rental Fri or Sat, no tables or chairs — $2,350\nVenue rental Sunday, no tables or chairs — $1,500\nReserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun\nBarteli decorates and sets up — $600\nCleaning — $400\nTable with 8 chairs (blank) — $0\nTable with 8 chairs and table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\nSimple package (venue for the day, tables with covers), 10/15/20/25 tables — Fri-Sat $2,240/$2,485/$2,530/$2,575; Sunday $1,640/$1,685/$1,730/$1,775\nSilver package (venue for the day, decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/$3,050/$3,225; Sunday $1,900/$2,075/$2,250/$2,425\nGold package (Silver plus setup by Barteli), 10/15/20/25 tables — Fri-Sat $3,300/$3,475/$3,650/$3,825; Sunday $2,500/$2,675/$2,850/$3,025\nLuxury package (tables, chairs, decoration, food, cake, music, pictures, video, clean up), 10/15/20/25 tables — $7,960/$9,025/$10,150/$11,160",
+   "action": "corrected",
+   "change_origin": "Official site, Prices page: the old row said Simple/Silver/Gold include food, cake, music, pictures, video and cleanup; only the Luxury package includes those.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "Simple: 'venue for the day, with the tables and chairs'; Gold: 'Decorated Table and Chairs... and we'll set up for you!'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on capacity.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Packages go up to 25 tables x 8 chairs (200 seats), but no capacity is stated."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "Mon-Thu hourly (3-hour minimum)\nFri-Sat day rate\nSunday day rate",
+   "action": "added",
+   "change_origin": "Official site, Prices page: hourly Mon-Thu, set rates Fri/Sat and Sunday.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'Our hourly rates between Monday - Thursday and our set rate for Friday, Saturday and Sunday'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No clock hours given."
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "3+ hours Mon-Thu minimum; weekend duration not stated",
+   "verified_value": "Mon-Thu: 3-hour minimum\nFri-Sun: venue for the day (packages)",
+   "action": "corrected",
+   "change_origin": "Official site, Prices page: packages include 'the venue for the day'; removed the 'not stated' filler.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'This includes the venue for the day'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nFlexible",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: 'elegant'/'flexible' appear only in embedded Instagram post captions on the home page, which the brief excludes as evidence; the site's own text gives no style words.",
+   "source_url": "https://www.barteli.com/",
+   "evidence": "Home page text: 'Stunning Venue', 'affordable and perfect venue'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Official site, Prices page: table covers cost $9 each.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'Black Table Cover $9'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent: venue-only rentals include no tables, chairs or decor.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'This is the venue without tables or chairs.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Decoration and setup — $600\nBlack table cover — $9\nWhite table cover — $9\nIvory table cover — $9\nBlank table with 8 chairs — $0\nDecorated table with chairs, cover, overlay, chair covers and sashes — $35",
+   "verified_value": "Decoration and setup by Barteli — $600\nTable cover (black, white or ivory) — $9\nDecorated table: cover, overlay, 8 chair covers and 8 sashes — $35\nBlank table with 8 chairs — $0",
+   "action": "corrected",
+   "change_origin": "Official site, Prices page (merged the three table cover lines; wording).",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'1 Table Cover, 1 Overlay..., 8 Chair Covers, 8 Chair Sashes' $35",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Inside",
+   "verified_value": "Inside",
+   "action": "confirmed",
+   "change_origin": "Official site describes a reception hall; no outdoor space mentioned.",
+   "source_url": "https://www.barteli.com/",
+   "evidence": "'Barteli Reception Hall'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "151 W 400 N, Orem, UT 84057",
+   "verified_value": "151 W 400 N, Orem, UT 84057",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://www.barteli.com/contact-us",
+   "evidence": "'151 W 400 N, Orem, UT 84057, USA'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Orem",
+   "verified_value": "Orem",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://www.barteli.com/contact-us",
+   "evidence": "'Orem, UT 84057'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (music only inside the Luxury package).",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Customizable event plans\nOne-stop event services",
+   "verified_value": "Customizable event plans\nOne-stop event services",
+   "action": "confirmed",
+   "change_origin": "Official site, About page.",
+   "source_url": "https://www.barteli.com/about-us",
+   "evidence": "'the power to customize every aspect of their event and being a one stop shop for everything'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Extra cost\nCleaning — $400",
+   "verified_value": "Client cleans unless cleaning is purchased — $400\nClean up included in Luxury package",
+   "action": "corrected",
+   "change_origin": "Official site, Prices page: cleaning is a $400 add-on and included only in Luxury (wording).",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'Don't feel like cleaning after your event? We can clean for you! $400'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "Security deposit: $200 Mon-Thu or $400 Fri-Sun\n$100 to reserve the date\nRefundability not stated",
+   "verified_value": "Reserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun",
+   "action": "corrected",
+   "change_origin": "Official site, Prices page; removed filler line 'Refundability not stated'.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'Security Deposit $200' (Mon-Thu), '$400' (Fri/Sat, Sunday); 'Reserve The Date $100'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Luxury package includes food",
+   "verified_value": "Food included only in the Luxury package",
+   "action": "corrected",
+   "change_origin": "Official site, Prices page: food appears only in the Luxury package (wording).",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'this package also includes food, cake, music, video'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Barteli event support team",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: 'Barteli event support team' is not on the site; About page only says the family plans with clients. No coordinator is offered.",
+   "source_url": "https://www.barteli.com/about-us",
+   "evidence": "'we work with our clients to make sure we have a game plan ahead of time'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Official site lists tiered venue, decor, and full-service packages by day and table count.",
+   "verified_value": "Venue-only rentals on Fri-Sun do not include tables or chairs; tables with 8 chairs are added per table ($0-$35).\nSeparate English and Spanish phone lines.",
+   "action": "corrected",
+   "change_origin": "Official site, Prices and Contact pages.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'This is the venue without tables or chairs. Need them? Look below!'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-823-3624\nPhone: 801-368-8401\nEmail: info@barteli.com\nInstagram: @bartelirh",
+   "verified_value": "Phone (English): 385-312-6227\nPhone (Spanish): 801-427-3654\nEmail: bartelis@outlook.com\nInstagram: @bartelirh",
+   "action": "corrected",
+   "change_origin": "Official site, Contact page; old numbers 801-823-3624 / 801-368-8401 and info@barteli.com are not on the site.",
+   "source_url": "https://www.barteli.com/contact-us",
+   "evidence": "'bartelis@outlook.com'; 'Spanish: 801-427-3654'; 'English: 385-312-6227'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    600,
+    2350
+   ],
+   "verified_value": [
+    600,
+    2350
+   ],
+   "action": "confirmed",
+   "change_origin": "Official site, Prices page.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "$200/hr x 3 h min = $600; Fri/Sat $2,350",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": null,
+   "verified_value": null,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Orem",
+   "verified_value": "Orem",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://www.barteli.com/contact-us",
+   "evidence": "'151 W 400 N, Orem, UT 84057'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Official site: cleaning is a paid $400 add-on.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'We can clean for you! $400'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: the site names no coordinator; the old 'Barteli event support team' text was invented.",
+   "source_url": "https://www.barteli.com/about-us",
+   "evidence": "About page describes family planning help only",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site: reception hall.",
+   "source_url": "https://www.barteli.com/",
+   "evidence": "'Barteli Reception Hall'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent; no outdoor space mentioned.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Official site: table covers are $9 each.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'White Table Cover $9'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent on outside caterers.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Venue-only rentals imply couples arrange food, but the site does not say so."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (decorating offered as a $600 service, items not listed).",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Official site, Prices page: chair covers in the $35 decorated table.",
+   "source_url": "https://www.barteli.com/pricing",
+   "evidence": "'8 Chair Covers, 8 Chair Sashes' — $35",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Barteli Event Venue",
+  "link": "https://www.barteli.com/",
+  "Description": "A family-owned reception hall in Orem with venue-only rental by the hour or day, optional decorating, setup and cleaning, and table packages up to an all-inclusive package with food, cake, music, photos and video.",
+  "Standard Price Range": "$600-$2,350",
+  "Packages and Prices": "Venue rental Mon-Thu — $200/hour (3-hour minimum)\nVenue rental Fri or Sat, no tables or chairs — $2,350\nVenue rental Sunday, no tables or chairs — $1,500\nReserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun\nBarteli decorates and sets up — $600\nCleaning — $400\nTable with 8 chairs (blank) — $0\nTable with 8 chairs and table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\nSimple package (venue for the day, tables with covers), 10/15/20/25 tables — Fri-Sat $2,240/$2,485/$2,530/$2,575; Sunday $1,640/$1,685/$1,730/$1,775\nSilver package (venue for the day, decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/$3,050/$3,225; Sunday $1,900/$2,075/$2,250/$2,425\nGold package (Silver plus setup by Barteli), 10/15/20/25 tables — Fri-Sat $3,300/$3,475/$3,650/$3,825; Sunday $2,500/$2,675/$2,850/$3,025\nLuxury package (tables, chairs, decoration, food, cake, music, pictures, video, clean up), 10/15/20/25 tables — $7,960/$9,025/$10,150/$11,160",
+  "Seated Capacity": "",
+  "Standing Capacity": "",
+  "Time slots": "Mon-Thu hourly (3-hour minimum)\nFri-Sat day rate\nSunday day rate",
+  "Length of Rental": "Mon-Thu: 3-hour minimum\nFri-Sun: venue for the day (packages)",
+  "Style": "",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "",
+  "Other Decor for Rent": "Decoration and setup by Barteli — $600\nTable cover (black, white or ivory) — $9\nDecorated table: cover, overlay, 8 chair covers and 8 sashes — $35\nBlank table with 8 chairs — $0",
+  "outside/inside": "Inside",
+  "sparklers allowed": "",
+  "parking?": "",
+  "Full Address": "151 W 400 N, Orem, UT 84057",
+  "City": "Orem",
+  "sound system": "",
+  "extras": "Customizable event plans\nOne-stop event services",
+  "cleanup crew": "Client cleans unless cleaning is purchased — $400\nClean up included in Luxury package",
+  "Accessibility": "",
+  "Deposit Policy": "Reserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun",
+  "Catering": "Food included only in the Luxury package",
+  "Prep Area": "",
+  "Alcohol policy": "",
+  "Event Coordinator": "",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "",
+  "Important Notes": "Venue-only rentals on Fri-Sun do not include tables or chairs; tables with 8 chairs are added per table ($0-$35).\nSeparate English and Spanish phone lines.",
+  "Contact Information": "Phone (English): 385-312-6227\nPhone (Spanish): 801-427-3654\nEmail: bartelis@outlook.com\nInstagram: @bartelirh"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic"
+  ],
+  "suggested": [
+   "Classic"
+  ],
+  "change": "none",
+  "reasoning": "The site's own text has no style words; photos show a traditional banquet hall with draped, decorated tables and floral/balloon installs. Corrected Description triggers no rule, so Classic is a judgment call. Note: the old Description's 'full-service' would trigger Luxury under the rules, which would be wrong for this budget hall; the rule should key on 'full-service' only together with upscale cues.",
+  "site_cues": [
+   "'Barteli Reception Hall'",
+   "'Our affordable and perfect venue'",
+   "gallery photos of draped tables and floral centerpieces"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week venue pricing",
+   "why": "Hourly Mon-Thu and flat Fri/Sat and Sunday rates with different deposits",
+   "data": {
+    "Mon-Thu": {
+     "rate": "$200/hour",
+     "minimum": "3 hours",
+     "deposit": "$200",
+     "reserve": "$100"
+    },
+    "Fri-Sat": {
+     "rate": "$2,350",
+     "deposit": "$400",
+     "reserve": "$100",
+     "note": "no tables or chairs"
+    },
+    "Sunday": {
+     "rate": "$1,500",
+     "deposit": "$400",
+     "reserve": "$100",
+     "note": "no tables or chairs"
+    }
+   }
+  },
+  {
+   "title": "Packages by table count",
+   "why": "Four named packages priced by 10/15/20/25 tables and day",
+   "data": {
+    "packages": [
+     {
+      "name": "Simple",
+      "includes": [
+       "venue for the day",
+       "tables with 8 chairs and 1 table cover"
+      ],
+      "Fri-Sat": {
+       "10": "$2,240",
+       "15": "$2,485",
+       "20": "$2,530",
+       "25": "$2,575"
+      },
+      "Sunday": {
+       "10": "$1,640",
+       "15": "$1,685",
+       "20": "$1,730",
+       "25": "$1,775"
+      }
+     },
+     {
+      "name": "Silver",
+      "includes": [
+       "venue for the day",
+       "decorated tables: cover, overlay, 8 chair covers, 8 sashes"
+      ],
+      "Fri-Sat": {
+       "10": "$2,700",
+       "15": "$2,875",
+       "20": "$3,050",
+       "25": "$3,225"
+      },
+      "Sunday": {
+       "10": "$1,900",
+       "15": "$2,075",
+       "20": "$2,250",
+       "25": "$2,425"
+      }
+     },
+     {
+      "name": "Gold",
+      "includes": [
+       "Silver inclusions",
+       "setup by Barteli"
+      ],
+      "Fri-Sat": {
+       "10": "$3,300",
+       "15": "$3,475",
+       "20": "$3,650",
+       "25": "$3,825"
+      },
+      "Sunday": {
+       "10": "$2,500",
+       "15": "$2,675",
+       "20": "$2,850",
+       "25": "$3,025"
+      }
+     },
+     {
+      "name": "Luxury",
+      "includes": [
+       "tables",
+       "chairs",
+       "decoration",
+       "food",
+       "cake",
+       "music",
+       "pictures",
+       "video",
+       "clean up"
+      ],
+      "price": {
+       "10": "$7,960",
+       "15": "$9,025",
+       "20": "$10,150",
+       "25": "$11,160"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "title": "Per-table rentals",
+   "why": "Itemised table/chair/cover pricing",
+   "data": {
+    "blank table + 8 chairs": "$0",
+    "with table cover": "$9",
+    "decorated (cover, overlay, chair covers, sashes)": "$35"
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity is not stated anywhere; 25 tables x 8 = 200 is the largest package. Ask the venue.",
+  "Is there any coordinator or day-of host? The site does not say.",
+  "Can couples bring their own caterer for venue-only rentals? Not stated.",
+  "Name: site says 'Barteli Reception Hall'; sheet says 'Barteli Event Venue'.",
+  "Contact info replaced: old numbers 801-823-3624 / 801-368-8401 and info@barteli.com are not on the site."
+ ]
+}

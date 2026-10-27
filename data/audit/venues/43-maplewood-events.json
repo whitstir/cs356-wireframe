@@ -1,0 +1,1008 @@
+{
+ "row": 43,
+ "id": "maplewood-events",
+ "name": "Maplewood Events",
+ "website": "https://eventsatmaplewood.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://eventsatmaplewood.com/ (home: overview, included amenities, address, phones)",
+  "https://eventsatmaplewood.com/pricing/ (pricing hub)",
+  "https://eventsatmaplewood.com/pricing/event-pricing/ (event pricing: inclusions list, rental blocks, deposit)",
+  "https://eventsatmaplewood.com/pricing/ceremony-pricing/ (ceremony pricing)",
+  "https://eventsatmaplewood.com/pricing/specialty-items/ (specialty rental items with prices)",
+  "https://eventsatmaplewood.com/pricing/floral-services/ (in-house floral service)",
+  "https://eventsatmaplewood.com/faq/ (policies: seating, food, alcohol, confetti, hours)",
+  "https://eventsatmaplewood.com/about-us/ (about: style words)",
+  "https://eventsatmaplewood.com/contact-us/ (address, phones, email)",
+  "https://eventsatmaplewood.com/gallery/ (gallery, Venue tab viewed in browser: ring chandeliers, Edison bulb pendants)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "1068 Expressway Ln, Spanish Fork, Utah 84660",
+  "note": "Home and Contact pages give Spanish Fork ('just off the Spanish Fork I-15 exit'). The sheet's 1350 W 200 S, Pleasant Grove address is wrong."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Maplewood Events",
+   "verified_value": "Maplewood Events",
+   "action": "confirmed",
+   "change_origin": "Official site header.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "Welcome to Maplewood Events",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://eventsatmaplewood.com/",
+   "verified_value": "https://eventsatmaplewood.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads at this URL.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "HTTP 200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A modern reception venue in Pleasant Grove with a spacious indoor hall, outdoor ceremony options, flexible seating, a full kitchen, included sound and lighting, and in-house event support.",
+   "verified_value": "A decorated indoor event venue in Spanish Fork with reclaimed wood tables, included decor chosen at a design consultation, a dance floor with lighting and sound, two private dressing rooms, a warming kitchen and an open-vendor policy; alcohol is not allowed.",
+   "action": "corrected",
+   "change_origin": "Corrected: wrong city (Pleasant Grove) and 'outdoor ceremony options' not on the site.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "beautifully decorated space is fully customizable ... flexible open-vendor policy ... just off the Spanish Fork I-15 exit",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,400-$2,450",
+   "verified_value": "$1,400-$2,450",
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing: morning $1,400 up to full day Thu-Sun $2,450.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Morning Event ... $1,400 (Mon-Sun) ... Full-Day ... $2,450 (Thurs-Sun)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Weekday rental 11am-10pm with 112 chairs, 12 round tables, 2 buffet tables, sweetheart table, sound system, string lights, 4 chandeliers, bride and groom rooms, prep kitchen, setup, takedown, cleanup and on-site attendant — Monday-Thursday — $1,400\nSame inclusions — Friday — $1,950\nSame inclusions — Saturday — $2,450\nCeremony in booked time with chairs taken down by renter — $100\nCeremony in booked time with chairs taken down by Maplewood — $200\nDay-before setup — $150",
+   "verified_value": "Morning event 10am-2pm (Monday-Sunday) — $1,400\nEvening event 5-10pm — $1,600 (Monday-Wednesday); $2,050 (Thursday-Sunday)\nFull day 12-10pm — $1,900 (Monday-Wednesday); $2,450 (Thursday-Sunday)\nAdditional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant",
+   "action": "corrected",
+   "change_origin": "Corrected: the old Mon-Thu/Friday/Saturday tiers ($1,950 Friday) and 11am-10pm hours are not on the site; real blocks are morning/evening/full day.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Evening Event 5:00 – 10:00 PM $1,600 (Mon – Wed) $2,050 (Thurs-Sun)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Ceremony prices from https://eventsatmaplewood.com/pricing/ceremony-pricing/."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "112 included\n162 maximum with added tables",
+   "verified_value": "112 included\n162 maximum with added tables",
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "112 is included in your rental ... maximum of 162 seating with an additional cost per table",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Monday-Thursday 11am-10pm\nFriday 11am-10pm\nSaturday 11am-10pm",
+   "verified_value": "Morning 10am-2pm\nEvening 5-10pm\nFull day 12-10pm",
+   "action": "corrected",
+   "change_origin": "Corrected from Event Pricing: three blocks, not 11am-10pm every day.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Evening Event 5:00 – 10:00 PM ... Full-Day 12:00 PM – 10:00 PM ... Morning Event 10:00 AM – 2:00 PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "11 hours",
+   "verified_value": "4 hours (morning)\n5 hours (evening)\n10 hours (full day)",
+   "action": "corrected",
+   "change_origin": "Corrected from Event Pricing block times.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Morning 10-2, Evening 5-10, Full-Day 12-10",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Modern\nDecorated\nCustomizable",
+   "verified_value": "Modern\nDecorated\nCustomizable",
+   "action": "confirmed",
+   "change_origin": "Official site, About page and home page.",
+   "source_url": "https://eventsatmaplewood.com/about-us/",
+   "evidence": "a clean, fresh, and modern aesthetic",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Also 'beautifully decorated', 'fully customizable' on home."
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "blank_ok",
+   "change_origin": "Site silent on linens; FALSE kept. Removed the invented 'Table linens' rental line.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Linens not in inclusions or rentals.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "112 chairs\n12 round tables\n2 buffet tables\nSweetheart table\nSound system\nString lights\n4 chandeliers\nBride room\nGroom room\nPrep kitchen\nSetup and takedown\nCleanup",
+   "verified_value": "10 reclaimed wood tables\n80-100 wood chairs\nBackdrop with choice of included decor\n2 sign-in tables with matching decor\nGift area with card box and gift sign\nCake table and choice of cake stand\n2 wood serving tables and side table with serving pieces\nPicture frames, easels, chalkboards and signs\nTable decor and centerpieces chosen at design consultation\nAmbient lighting\nChandeliers\nDance floor, dance lighting and disco ball\nSound system, microphone and Smart TV\n2 private dressing rooms",
+   "action": "corrected",
+   "change_origin": "Corrected from Event Pricing and home amenities. Removed 'sweetheart table', '112 chairs', '12 round tables', 'string lights' and '4 chandeliers' counts not on the site; chandeliers kept from gallery photos.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Backdrop with choice of included decor ... Cake table ... Use of picture frames, easels, chalkboards & signs",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Centerpieces and chandeliers are supported by the gallery ('Table Decor' tab; ring chandeliers in Venue photos) and the 'Chandelier Flowers' rental, not by a text list."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Additional 60-inch round table — $35\nAdditional chairs — $2 each\nTable linens — price not stated",
+   "verified_value": "Ceiling draping (white organza) — $350\nChandelier flowers (wisteria) — $200\nCeiling draping and chandelier flowers — $400\nHead table with decor — $50/table\nExtra wood tables and chairs with decor — $50/table\nAlternative table layout — $100\nDraped backdrop — $75\n50's Chevy truck by the backdrop — $350\nSoft serve ice cream machine — $155\nDigital photo booth — $200\nIn-house floral services — price on request",
+   "action": "corrected",
+   "change_origin": "Corrected from the Specialty Items page; the old $35 table / $2 chair prices are not on the site.",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Ceiling Drapes White organza draped ceiling. $350 ... Digital Photo Booth ... $200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Ceiling Drapes' written as 'Ceiling draping'."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Inside",
+   "action": "corrected",
+   "change_origin": "Corrected: the site describes only an indoor space; no outdoor ceremony or event area is mentioned.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "Our event space features a large open space with wood tables and chairs.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Only outdoor mention is a free Chevy truck placed outside and a no-confetti rule for the parking lot."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Sparkler package (lighting and disposal) — $65 for 50, $100 for 100",
+   "action": "corrected",
+   "change_origin": "Corrected: sparklers come only as a paid package.",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Sparkler Package Includes lighting and disposal. $65 for 50 $100 for 100",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Onsite parking",
+   "verified_value": "Adequate parking space",
+   "action": "corrected",
+   "change_origin": "Corrected wording from Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Adequate parking space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Home page: 'plenty of parking'."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1350 W 200 S, Pleasant Grove, UT 84062",
+   "verified_value": "1068 Expressway Ln, Spanish Fork, UT 84660",
+   "action": "corrected",
+   "change_origin": "Corrected: site gives a Spanish Fork address.",
+   "source_url": "https://eventsatmaplewood.com/contact-us/",
+   "evidence": "1068 Expressway Ln Spanish Fork Utah, 84660",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Spanish Fork",
+   "action": "corrected",
+   "change_origin": "Corrected to the city in the address.",
+   "source_url": "https://eventsatmaplewood.com/contact-us/",
+   "evidence": "1068 Expressway Ln Spanish Fork",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSound system\nLighting\nWireless microphones",
+   "verified_value": "Yes\nSound system\nMicrophone\nSmart TV\nDance lighting and disco ball",
+   "action": "corrected",
+   "change_origin": "Corrected from Event Pricing; 'wireless microphones' not stated, Smart TV and dance lighting added.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Sound system, microphone, & Smart TV | Dance floor, dance lighting & disco ball",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Outdoor ceremony area\nOn-site attendant\nDesign consultation\nCustomizable seating",
+   "verified_value": "2 guest seating areas\nOnsite attendant\nDesign consultation (about 1 hour)\n50's Chevy truck placed outside — free",
+   "action": "corrected",
+   "change_origin": "Corrected: removed the 'outdoor ceremony area'; added guest areas and Chevy truck.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "2 guest areas equipped with comfortable seating",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included",
+   "verified_value": "Included\nVenue handles setup and breakdown",
+   "action": "corrected",
+   "change_origin": "Official site says the venue handles setup through breakdown.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "We take care of every decorating detail—from setup to breakdown",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Stated for decorations; general cleanup not spelled out. Ceremony chair takedown is a paid choice."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "ADA restrooms",
+   "verified_value": "ADA approved restrooms",
+   "action": "corrected",
+   "change_origin": "Corrected wording from Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "ADA approved restrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "50% non-refundable deposit due at booking",
+   "action": "added",
+   "change_origin": "Added from Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "50% DEPOSIT (NON REFUNDABLE) DUE AT THE TIME OF BOOKING THE VENUE",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside caterers allowed\nOpen vendor policy",
+   "verified_value": "Outside caterers allowed\nOpen vendor policy",
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing and FAQ.",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "Can I bring my own food? Yes, we are open vendor.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Warming kitchen only\nNo cooking",
+   "verified_value": "Warming kitchen with fridge, stove, sink, microwave and counter space\nNo cooking allowed in the building\nPlates, napkins, cups and kitchen utensils not provided",
+   "action": "corrected",
+   "change_origin": "Corrected from Event Pricing and FAQ.",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "We have a warming kitchen only. There is no cooking allowed in the building.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Event Pricing lists a stove in the warming kitchen; FAQ says no cooking."
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "No alcohol allowed",
+   "verified_value": "No alcohol inside or in the parking lot; $500 fine and event closure",
+   "action": "corrected",
+   "change_origin": "Corrected with detail from the FAQ.",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "You will be fined $500 and a closure of your event if any is alcohol is consumed",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "On-site attendant\nDesign consultation",
+   "verified_value": "On-site attendant\nDesign consultation",
+   "action": "confirmed",
+   "change_origin": "Official site lists an onsite attendant and a design consultation.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Onsite attendant",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "These are not an event coordinator; see filter row."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride room\nGroom room",
+   "verified_value": "2 private dressing rooms with vanities, mirrors and seating",
+   "action": "corrected",
+   "change_origin": "Corrected: site says two private dressing rooms, not named bride/groom rooms.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "two beautiful private dressing rooms with vanities, mirrors & seating",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No alcohol\nNo confetti\nNo fog machines\nNo pyrotechnics\nNo nails, tacks, tape or staples\nEvents end by 10pm",
+   "verified_value": "No alcohol\nNo confetti or glitter inside or in the parking lot (automatic fine)\nNo fog machines or spark-free pyrotechnics\nNo tape, command strips or nails on walls\nFake petals only for ceremony aisle\nNo propane grills or fryers\nBuilding access only during booked time\nEvents end by 10pm",
+   "action": "corrected",
+   "change_origin": "Corrected from the FAQ (added petals, cooking, access-time rules; 'nails, tacks, tape' worded as on site).",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "Confetti, glitter, or any other item similar is strictly not allowed inside the building or outside in the parking lot.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Building occupancy is listed at 224; reception seating is 112 included or up to 162 with added tables",
+   "verified_value": "Building occupancy 224\nReception seating: 112 included, up to 162 with added tables at extra cost\nWeekend rates apply Thursday-Sunday",
+   "action": "corrected",
+   "change_origin": "Corrected: added that weekend rates start Thursday.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Building occupancy, 224 ... $2,050 (Thurs-Sun)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-890-0858\nEmail: hello@eventsatmaplewood.com",
+   "verified_value": "Phone (Bonnie): (385) 250-7061\nPhone (Amy): (801) 319-2341\nEmail: maplewood1068@gmail.com",
+   "action": "corrected",
+   "change_origin": "Corrected: the 801-890-0858 number and hello@ email are not on the site.",
+   "source_url": "https://eventsatmaplewood.com/contact-us/",
+   "evidence": "Bonnie (385) 250-7061 Amy (801) 319-2341 EMAIL: maplewood1068@gmail.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "1400-2450",
+   "verified_value": "1400-2450",
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "$1,400 (Mon-Sun) ... $2,450 (Thurs-Sun)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 162,
+   "verified_value": 162,
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "maximum of 162 seating",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Spanish Fork",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected City column.",
+   "source_url": "https://eventsatmaplewood.com/contact-us/",
+   "evidence": "1068 Expressway Ln Spanish Fork",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "ADA approved restrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Sound system, microphone, & Smart TV",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Sound system, microphone, & Smart TV",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site lists a Smart TV.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Sound system, microphone, & Smart TV",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site: two private dressing rooms with vanities.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "2 Private Dressing Rooms",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Rooms are not named bride/groom; treated as one each. Keyword rule on the proposed row would give 'False', not 'True'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site: two private dressing rooms.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "2 Private Dressing Rooms",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Rooms are not named bride/groom. Keyword rule on the proposed row would give 'False', not 'True'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site: venue handles setup to breakdown.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "from setup to breakdown",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: the site offers an onsite attendant and a decor design consultation, not a coordinator.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Onsite attendant",
+   "confidence": "low",
+   "fix_type": "rule",
+   "notes": "Team decision: does an onsite attendant count as an event coordinator? Keyword rule on the proposed row would give 'True', not 'False'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "large open space with wood tables and chairs",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: no outdoor event space on the site.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "Indoor space only described.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://eventsatmaplewood.com/faq/",
+   "evidence": "Yes, we are open vendor.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: sparklers only via the paid sparkler package.",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Sparkler Package ... $65 for 50 $100 for 100",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Paid add-on → false per brief."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site: included table decorations chosen at the design consultation; gallery 'Table Decor' shows centerpieces.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "choice of included decorations",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Official site: included backdrop; draped backdrop $75 rental.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Backdrop with choice of included decor",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Rent from https://eventsatmaplewood.com/pricing/specialty-items/ 'Draped Backdrop $75'."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official site, Specialty Items.",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Ceiling Drapes White organza draped ceiling. $350",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official site: chandelier flowers $200 and paid in-house florist.",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Chandelier Flowers All white wisteria ... $200",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "FAQ: floral services are 'an additional cost'."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Use of picture frames, easels, chalkboards & signs to personalize",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Gallery photos show ring chandeliers over the hall; site rents 'Chandelier Flowers' for them.",
+   "source_url": "https://eventsatmaplewood.com/gallery/",
+   "evidence": "Venue gallery photos; 'Chandelier Flowers' rental",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "No text list of chandeliers; the old '4 chandeliers' count is unverified. Keyword rule on the proposed row would give 'included+rent', not 'included'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: the site never mentions string lights; gallery shows hanging Edison-bulb pendants, not string lights.",
+   "source_url": "https://eventsatmaplewood.com/gallery/",
+   "evidence": "Venue gallery photos",
+   "confidence": "low",
+   "fix_type": "csv",
+   "notes": "A reviewer may judge the pendant bulbs as bistro lights."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Event Pricing.",
+   "source_url": "https://eventsatmaplewood.com/pricing/event-pricing/",
+   "evidence": "Cake table",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official site, Specialty Items.",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Digital Photo Booth ... $200",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://eventsatmaplewood.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: no sweetheart table on the site (a $50 head table is rentable).",
+   "source_url": "https://eventsatmaplewood.com/pricing/specialty-items/",
+   "evidence": "Head Table Wood table with decor & wood chairs. $50/Table",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Maplewood Events",
+  "link": "https://eventsatmaplewood.com/",
+  "Description": "A decorated indoor event venue in Spanish Fork with reclaimed wood tables, included decor chosen at a design consultation, a dance floor with lighting and sound, two private dressing rooms, a warming kitchen and an open-vendor policy; alcohol is not allowed.",
+  "Standard Price Range": "$1,400-$2,450",
+  "Packages and Prices": "Morning event 10am-2pm (Monday-Sunday) — $1,400\nEvening event 5-10pm — $1,600 (Monday-Wednesday); $2,050 (Thursday-Sunday)\nFull day 12-10pm — $1,900 (Monday-Wednesday); $2,450 (Thursday-Sunday)\nAdditional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant",
+  "Seated Capacity": "112 included\n162 maximum with added tables",
+  "Standing Capacity": "",
+  "Time slots": "Morning 10am-2pm\nEvening 5-10pm\nFull day 12-10pm",
+  "Length of Rental": "4 hours (morning)\n5 hours (evening)\n10 hours (full day)",
+  "Style": "Modern\nDecorated\nCustomizable",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "10 reclaimed wood tables\n80-100 wood chairs\nBackdrop with choice of included decor\n2 sign-in tables with matching decor\nGift area with card box and gift sign\nCake table and choice of cake stand\n2 wood serving tables and side table with serving pieces\nPicture frames, easels, chalkboards and signs\nTable decor and centerpieces chosen at design consultation\nAmbient lighting\nChandeliers\nDance floor, dance lighting and disco ball\nSound system, microphone and Smart TV\n2 private dressing rooms",
+  "Other Decor for Rent": "Ceiling draping (white organza) — $350\nChandelier flowers (wisteria) — $200\nCeiling draping and chandelier flowers — $400\nHead table with decor — $50/table\nExtra wood tables and chairs with decor — $50/table\nAlternative table layout — $100\nDraped backdrop — $75\n50's Chevy truck by the backdrop — $350\nSoft serve ice cream machine — $155\nDigital photo booth — $200\nIn-house floral services — price on request",
+  "outside/inside": "Inside",
+  "sparklers allowed": "Sparkler package (lighting and disposal) — $65 for 50, $100 for 100",
+  "parking?": "Adequate parking space",
+  "Full Address": "1068 Expressway Ln, Spanish Fork, UT 84660",
+  "City": "Spanish Fork",
+  "sound system": "Yes\nSound system\nMicrophone\nSmart TV\nDance lighting and disco ball",
+  "extras": "2 guest seating areas\nOnsite attendant\nDesign consultation (about 1 hour)\n50's Chevy truck placed outside — free",
+  "cleanup crew": "Included\nVenue handles setup and breakdown",
+  "Accessibility": "ADA approved restrooms",
+  "Deposit Policy": "50% non-refundable deposit due at booking",
+  "Catering": "Outside caterers allowed\nOpen vendor policy",
+  "Prep Area": "Warming kitchen with fridge, stove, sink, microwave and counter space\nNo cooking allowed in the building\nPlates, napkins, cups and kitchen utensils not provided",
+  "Alcohol policy": "No alcohol inside or in the parking lot; $500 fine and event closure",
+  "Event Coordinator": "On-site attendant\nDesign consultation",
+  "Bride/Groom Rooms": "2 private dressing rooms with vanities, mirrors and seating",
+  "Restrictions": "No alcohol\nNo confetti or glitter inside or in the parking lot (automatic fine)\nNo fog machines or spark-free pyrotechnics\nNo tape, command strips or nails on walls\nFake petals only for ceremony aisle\nNo propane grills or fryers\nBuilding access only during booked time\nEvents end by 10pm",
+  "Important Notes": "Building occupancy 224\nReception seating: 112 included, up to 162 with added tables at extra cost\nWeekend rates apply Thursday-Sunday",
+  "Contact Information": "Phone (Bonnie): (385) 250-7061\nPhone (Amy): (801) 319-2341\nEmail: maplewood1068@gmail.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern"
+  ],
+  "suggested": [
+   "Modern"
+  ],
+  "change": "none",
+  "reasoning": "About page says 'clean, fresh, and modern aesthetic', which the Modern rule picks up. Photos show reclaimed wood, shiplap and barnwood doors, so Rustic is arguable, but the site never uses rustic words; keep Modern.",
+  "site_cues": [
+   "a clean, fresh, and modern aesthetic",
+   "10 beautiful reclaimed wood tables",
+   "beautifully decorated space"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Rental blocks",
+   "why": "Block and day-of-week pricing",
+   "data": {
+    "rates": [
+     {
+      "block": "Morning 10am-2pm",
+      "days": "Monday-Sunday",
+      "price": "$1,400"
+     },
+     {
+      "block": "Evening 5-10pm",
+      "days": "Monday-Wednesday",
+      "price": "$1,600"
+     },
+     {
+      "block": "Evening 5-10pm",
+      "days": "Thursday-Sunday",
+      "price": "$2,050"
+     },
+     {
+      "block": "Full day 12-10pm",
+      "days": "Monday-Wednesday",
+      "price": "$1,900"
+     },
+     {
+      "block": "Full day 12-10pm",
+      "days": "Thursday-Sunday",
+      "price": "$2,450"
+     },
+     {
+      "block": "Extra 1-hour block",
+      "days": "Monday-Sunday",
+      "price": "$200"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ceremony pricing",
+   "why": "Separate ceremony add-on",
+   "data": {
+    "includes": [
+     "up to 100 white chairs",
+     "lambs ear rings on chair ends",
+     "decorated backdrop"
+    ],
+    "options": [
+     {
+      "name": "Within booked time, renter takes down chairs",
+      "price": "$100"
+     },
+     {
+      "name": "Within booked time, Maplewood takes down chairs",
+      "price": "$200"
+     },
+     {
+      "name": "With added 1-hour block, renter takes down",
+      "price": "$300"
+     },
+     {
+      "name": "With added 1-hour block, Maplewood takes down",
+      "price": "$400"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Specialty rentals",
+   "why": "Priced decor and entertainment add-ons",
+   "data": {
+    "items": [
+     {
+      "name": "Ceiling drapes",
+      "price": "$350"
+     },
+     {
+      "name": "Chandelier flowers",
+      "price": "$200"
+     },
+     {
+      "name": "Drapes + flowers",
+      "price": "$400"
+     },
+     {
+      "name": "Head table",
+      "price": "$50/table"
+     },
+     {
+      "name": "Extra tables and chairs",
+      "price": "$50/table"
+     },
+     {
+      "name": "Alternative layout",
+      "price": "$100"
+     },
+     {
+      "name": "Draped backdrop",
+      "price": "$75"
+     },
+     {
+      "name": "50's Chevy truck inside",
+      "price": "$350"
+     },
+     {
+      "name": "50's Chevy truck outside",
+      "price": "free"
+     },
+     {
+      "name": "Sparklers",
+      "price": "$65 for 50 / $100 for 100"
+     },
+     {
+      "name": "Soft serve machine",
+      "price": "$155"
+     },
+     {
+      "name": "Digital photo booth",
+      "price": "$200"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Guest minimum/maximum",
+   "why": "Included vs maximum seating",
+   "data": {
+    "seated_included": 112,
+    "seated_max": 162,
+    "building_occupancy": 224
+   }
+  }
+ ],
+ "open_questions": [
+  "Sparklers are sold as a paid venue package; brief rule makes the filter false. Team may want a rule for 'allowed via paid package'.",
+  "Do the 'two private dressing rooms' count as bridal and groom's rooms? Marked true (medium); keyword rule needs 'dressing room' or the text needs to say bride/groom.",
+  "Does an onsite attendant count as an event coordinator? Marked false.",
+  "Hanging Edison-bulb pendants in photos: count as String / bistro lights? Marked none."
+ ]
+}

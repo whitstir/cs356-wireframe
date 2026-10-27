@@ -1,0 +1,223 @@
+{
+ "row": 32,
+ "id": "barteli-event-venue",
+ "official_name": {
+  "name": "Barteli Reception Hall",
+  "source_url": "https://www.barteli.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Barteli Reception Hall",
+   "price": "",
+   "source_url": "https://www.barteli.com/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "8 Chair Covers, 8 Chair Sashes' — $35",
+   "price": "$35",
+   "source_url": "https://www.barteli.com/pricing"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 600,
+  "high": 11160,
+  "basis": "rental",
+  "wording": "Mon–Thu $200/hour (3-hour minimum) up to the full-service Luxury package, 25 tables, $11,160",
+  "math": "3 × $200 = $600"
+ },
+ "seated": {
+  "low": 80,
+  "high": 200,
+  "wording": "Packages of 10–25 tables with 8 chairs each (80–200 chairs)"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Barteli Reception Hall"
+ }
+}

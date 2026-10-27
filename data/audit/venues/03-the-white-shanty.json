@@ -1,0 +1,978 @@
+{
+ "row": 3,
+ "id": "the-white-shanty",
+ "name": "The White Shanty",
+ "website": "https://www.whiteshantyvenue.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.whiteshantyvenue.com/ (home: images and Instagram feed only; browser)",
+  "https://www.whiteshantyvenue.com/about (about: 3,600 sq ft, windows, barn doors; browser)",
+  "https://www.whiteshantyvenue.com/pricing (rates, inclusions, alcohol, upgrades; browser)",
+  "https://www.whiteshantyvenue.com/rentals (rental/add-on price list; browser)",
+  "https://www.whiteshantyvenue.com/catalog (recommended vendors; browser)",
+  "https://www.whiteshantyvenue.com/photoshoots (photo-shoot rates; browser)",
+  "https://www.whiteshantyvenue.com/gallery (images only; browser)",
+  "https://www.whiteshantyvenue.com/contact (address, phone, email; browser)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "502 South 300 West, Provo, UT",
+  "note": "Provo, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "The White Shanty",
+   "verified_value": "The White Shanty",
+   "action": "confirmed",
+   "change_origin": "Site name and home page sign.",
+   "source_url": "https://www.whiteshantyvenue.com/",
+   "evidence": "WHITE SHANTY VENUE",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.whiteshantyvenue.com/",
+   "verified_value": "https://www.whiteshantyvenue.com/",
+   "action": "confirmed",
+   "change_origin": "Site loads (HTTP 200); Wix, needs JS.",
+   "source_url": "https://www.whiteshantyvenue.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access, and event support.",
+   "verified_value": "A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access, and event support.",
+   "action": "confirmed",
+   "change_origin": "About page (3,600 sq ft, picture windows, sliding barn doors, industrial) and Pricing page (farmhouse/industrial tables, firepit, kitchen, attendant).",
+   "source_url": "https://www.whiteshantyvenue.com/about",
+   "evidence": "boasting 3,600 square feet ... large picture windows ... oversized sliding barn doors open to a beautiful outdoor space",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,200-$3,350",
+   "verified_value": "$1,200-$3,350",
+   "action": "confirmed",
+   "change_origin": "Pricing page: lowest Mon-Wed morning, highest Fri-Sat all-day.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Monday – Wednesday $1,200 ... Friday – Saturday $3,350",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS). Sunday: call for pricing."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "10-foot farmhouse tables, 16-foot banquet table, 8-foot live-edge table, 73 white chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphones, firepit, 3 bookcases, pre-hung lighting, potted plants, photo backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nAdditional hours — $150 per hour",
+   "verified_value": "10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: tables are ten 3'x8' rectangular tables (not '10-foot'), chairs are not described as white, one wireless microphone, 'Backdrop' (not 'photo backdrop'), 'variety of plants'; added Sunday call-for-pricing and 'starting at' for extra hours.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "10 - 3′ x 8′ rectangular tables ... 73 Chairs + 6 benches ... Wireless microphone",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "100",
+   "verified_value": "100",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Chairs and benches Seating for 100 guests",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm",
+   "verified_value": "Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm\nSunday: call for availability",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added that Sunday is call for availability; Saturday is offered only as all-day.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Sunday call for pricing & availability.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "6-12 hours",
+   "verified_value": "6-12 hours",
+   "action": "confirmed",
+   "change_origin": "Pricing page time blocks (6-hour half-day, 12-hour all-day).",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "8 AM - 2 PM ... 9 AM - 9 PM",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Style",
+   "current_value": "Industrial\nFarmhouse",
+   "verified_value": "Industrial\nFarmhouse",
+   "action": "confirmed",
+   "change_origin": "About page (industrial) and Pricing page (farmhouse or industrial style tables).",
+   "source_url": "https://www.whiteshantyvenue.com/about",
+   "evidence": "With its rich history and industrial atmosphere",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed 'FALSE': the site says nothing about linens, so the cell should be blank.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS). Filter stays false either way."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "10-foot farmhouse tables\n16-foot banquet table\n8-foot live-edge table\n73 white chairs\n6 benches\nCake table\nSign-in table\nFirepit\nPre-hung lighting\nPotted plants\nPhoto backdrop\n3 bookcases",
+   "verified_value": "10 rectangular 3'x8' farmhouse/industrial tables\n16-foot banquet table\n8-foot live-edge table\n73 chairs\n6 benches\nCake table\nSign-in table\nFirepit\nPre-hung lighting\nVariety of plants (greenery)\nBackdrop\n3 bookcases\nHexagon arch (free)\nFarmhouse arch (free)",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page and Rentals page: fixed table description, removed 'white' and 'photo' wording not on the site, added the two free arches (Hexagon, Farmhouse) from the Rentals page.",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "Hexagon Arch Free ... Farmhouse Arch Free",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS). 'Pre-hung lighting' is the site's wording; type of lights not stated."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Triangle arch — $40\nSimple wood arch — $30\nBoxwood wall — $85\nGold pipe arch — $25\nGold hoop arch — $40\nWood slat wall — $70\nPhoto booth — $200\nArched mirror — $25\nWelcome mirror — $20\nLarge pink bow — $50\nWelcome sign — $40\nPicture Perfect bar — $75",
+   "verified_value": "Triangle arch — $40\nSimple wood arch — $30\nBoxwood wall — $85\nGold pipe arch — $25\nFloral arch — $50\nGold hoop arch — $40\nWood slat wall — $70\nPhoto booth — $200\nArched mirror — $25\nWelcome mirror — $20\nLarge pink bow — $50\nWelcome sign — $40",
+   "action": "corrected",
+   "change_origin": "Official site, Rentals page: added Floral arch $50. Removed 'Picture Perfect bar $75': it appears only in an embedded Instagram post caption, not on the site's rental list.",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "Floral Arch $50",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS). Audio guest book ($40) is listed as currently unavailable, so left out. Rentals page says to ask for the full rental list."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "About and Pricing pages.",
+   "source_url": "https://www.whiteshantyvenue.com/about",
+   "evidence": "sliding barn doors open to a beautiful outdoor space, making an indoor/outdoor event possible",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "parking?",
+   "current_value": "Expanded parking",
+   "verified_value": "Expanded parking",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "newly added central air and heating, expanded parking",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "502 South 300 West, Provo, UT",
+   "verified_value": "502 South 300 West, Provo, UT",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whiteshantyvenue.com/contact",
+   "evidence": "502 South 300 West Provo, UT",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS). No ZIP on site."
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whiteshantyvenue.com/contact",
+   "evidence": "Provo, UT",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nState-of-the-art sound system\nWireless microphones",
+   "verified_value": "Yes\nState-of-the-art sound system\nWireless microphone",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: one wireless microphone (singular).",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Brand new state of the art sound system Wireless microphone",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "extras",
+   "current_value": "Firepit\nPhoto backdrop\n40-inch TV\nOnsite venue attendant",
+   "verified_value": "Firepit\nBackdrop\n40-inch TV\nOnsite venue attendant",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: item is 'Backdrop', not 'Photo backdrop'.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Backdrop",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on catering policy; Vendors page lists caterers and food trucks with no stated requirement.",
+   "source_url": "https://www.whiteshantyvenue.com/catalog",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Kitchen available\nNo cooking details stated on official page",
+   "verified_value": "Kitchen available",
+   "action": "corrected",
+   "change_origin": "Removed filler 'No cooking details stated on official page'. Pricing page mentions kitchen upgrades.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "upgrades to kitchen, restrooms, bride's room and groom's room",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed with signed contract\n$350 alcohol fee",
+   "verified_value": "Alcohol allowed with signed contract\n$350 alcohol fee",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Alcohol permitted with our signed alcohol contract and a $350 fee",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Onsite venue attendant during the event",
+   "verified_value": "Onsite venue attendant for the duration of the event",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: wording made exact (attendant for the duration of the event).",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Onsite venue attendant for the duration of your event",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's room\nGroom's room",
+   "verified_value": "Bride's room\nGroom's room",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "upgrades to kitchen, restrooms, bride's room and groom's room",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Reserved rental block must include setup and takedown time",
+   "verified_value": "Reserved rental block must include setup and takedown time",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Reserved time block should account for set-up and take-down time.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Venue has indoor and outdoor event areas\nMaximum capacity stated on the official website: 100 guests",
+   "verified_value": "Venue has indoor and outdoor event areas\nSeating for 100 guests\nCentral air and heating\nPhoto shoots: indoor from $150/hour, outdoor only from $50/hour; loft above the venue 50% off when renting the venue",
+   "action": "corrected",
+   "change_origin": "Official site: the site says 'Seating for 100 guests', not a maximum capacity; added central air/heating (Pricing page) and photo-shoot rates (Photo Shoots page).",
+   "source_url": "https://www.whiteshantyvenue.com/photoshoots",
+   "evidence": "Indoor space (with outdoor access): starting at $150/hour ... Outdoor Only: starting at $50/hour",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011",
+   "verified_value": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whiteshantyvenue.com/contact",
+   "evidence": "Text - 801.361.1011 Call - 801.624.6070 Email - events@whiteshantyvenue.com",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read in the built-in browser (Wix page renders with JS)."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "$1200-$3350",
+   "verified_value": "$1200-$3350",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Monday – Wednesday $1,200 ... Friday – Saturday $3,350",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "100",
+   "verified_value": "100",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Seating for 100 guests",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whiteshantyvenue.com/contact",
+   "evidence": "Provo, UT",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Wireless microphone",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Brand new state of the art sound system",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "40” TV",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "bride's room and groom's room",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "bride's room and groom's room",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Renters must fit setup and takedown inside their block."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "corrected",
+   "change_origin": "The site offers only an onsite venue attendant, not a coordinator; the rule counts any staff line.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Onsite venue attendant for the duration of your event",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Human decision: does an included venue attendant count as 'Event coordinator'? Column text is accurate; if attendants count, keep true."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "About page.",
+   "source_url": "https://www.whiteshantyvenue.com/about",
+   "evidence": "making an indoor/outdoor event possible",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "About and Pricing pages.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Beautiful new landscape/outdoor area with firepit included in venue rental",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent on linens.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent on catering policy.",
+   "source_url": "https://www.whiteshantyvenue.com/catalog",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Vendors page recommends caterers and food trucks but never says outside caterers are allowed or required. Ask venue."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "included+rent",
+   "verified_value": "included+rent",
+   "action": "confirmed",
+   "change_origin": "Pricing page (Backdrop included) and Rentals page (free Hexagon/Farmhouse arches; paid arches and walls).",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "Hexagon Arch Free ... Triangle Arch $40",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "included+rent",
+   "verified_value": "included+rent",
+   "action": "confirmed",
+   "change_origin": "Pricing page (variety of plants) and Rentals page (Boxwood wall $85, Floral arch $50).",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "Boxwood Wall $85 ... Floral Arch $50",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Column text now reads 'Variety of plants (greenery)' so the rule still matches."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included+rent",
+   "verified_value": "rent",
+   "action": "corrected",
+   "change_origin": "Keyword rule misfire: 'sign' matched the included 'Sign in table'; the site includes no signs or easels. Welcome sign $40 and Welcome mirror $20 are rentals.",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "Welcome Sign $40",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Rule pattern 'sign\\b' also matches 'sign-in'."
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page lists pre-hung lighting.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Pre-hung lighting",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "The site doesn't say what kind of lighting is pre-hung; string lights inferred."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "Cake table",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "rent",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: the only source was 'Picture Perfect bar $75' in an embedded Instagram caption; Instagram is not allowed as evidence and the bar is not on the Rentals page.",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Ask venue whether the Picture Perfect bar rental still exists."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "outdoor area with firepit included in venue rental",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "included+rent",
+   "verified_value": "rent",
+   "action": "corrected",
+   "change_origin": "Pricing page lists only 'Backdrop' (the AI collector wrote 'Photo backdrop'); Photo Booth $200 is a rental.",
+   "source_url": "https://www.whiteshantyvenue.com/rentals",
+   "evidence": "Photo Booth $200",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Backdrop still counts under Ceremony arch / backdrop."
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whiteshantyvenue.com/pricing",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "The White Shanty",
+  "link": "https://www.whiteshantyvenue.com/",
+  "Description": "A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access, and event support.",
+  "Standard Price Range": "$1,200-$3,350",
+  "Packages and Prices": "10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)",
+  "Seated Capacity": "100",
+  "Standing Capacity": "",
+  "Time slots": "Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm\nSunday: call for availability",
+  "Length of Rental": "6-12 hours",
+  "Style": "Industrial\nFarmhouse",
+  "Linens Included": "",
+  "Other Decor Included": "10 rectangular 3'x8' farmhouse/industrial tables\n16-foot banquet table\n8-foot live-edge table\n73 chairs\n6 benches\nCake table\nSign-in table\nFirepit\nPre-hung lighting\nVariety of plants (greenery)\nBackdrop\n3 bookcases\nHexagon arch (free)\nFarmhouse arch (free)",
+  "Other Decor for Rent": "Triangle arch — $40\nSimple wood arch — $30\nBoxwood wall — $85\nGold pipe arch — $25\nFloral arch — $50\nGold hoop arch — $40\nWood slat wall — $70\nPhoto booth — $200\nArched mirror — $25\nWelcome mirror — $20\nLarge pink bow — $50\nWelcome sign — $40",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Expanded parking",
+  "Full Address": "502 South 300 West, Provo, UT",
+  "City": "Provo",
+  "sound system": "Yes\nState-of-the-art sound system\nWireless microphone",
+  "extras": "Firepit\nBackdrop\n40-inch TV\nOnsite venue attendant",
+  "cleanup crew": "",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "",
+  "Prep Area": "Kitchen available",
+  "Alcohol policy": "Alcohol allowed with signed contract\n$350 alcohol fee",
+  "Event Coordinator": "Onsite venue attendant for the duration of the event",
+  "Bride/Groom Rooms": "Bride's room\nGroom's room",
+  "Restrictions": "Reserved rental block must include setup and takedown time",
+  "Important Notes": "Venue has indoor and outdoor event areas\nSeating for 100 guests\nCentral air and heating\nPhoto shoots: indoor from $150/hour, outdoor only from $50/hour; loft above the venue 50% off when renting the venue",
+  "Contact Information": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern",
+   "Rustic"
+  ],
+  "suggested": [
+   "Modern",
+   "Rustic"
+  ],
+  "change": "none",
+  "reasoning": "Description says industrial (Modern cue) and farmhouse (Rustic cue); the site shows a white barn-style building with industrial/farmhouse tables, so both fit.",
+  "site_cues": [
+   "rich history and industrial atmosphere",
+   "farmhouse or industrial style built of metal and wood",
+   "oversized sliding barn doors"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Time-block pricing",
+   "why": "Morning, evening and all-day blocks priced by day of week",
+   "data": {
+    "rates": [
+     {
+      "block": "Morning 8am-2pm or 9am-3pm",
+      "Mon-Wed": "$1,200",
+      "Thu": "$1,375",
+      "Fri": "$1,600"
+     },
+     {
+      "block": "Evening 3pm-9pm or 4pm-10pm",
+      "Mon-Wed": "$2,050",
+      "Thu": "$2,350",
+      "Fri": "$2,850"
+     },
+     {
+      "block": "All-day 9am-9pm or 10am-10pm",
+      "Mon-Wed": "$2,550",
+      "Thu": "$2,850",
+      "Fri-Sat": "$3,350"
+     }
+    ],
+    "sunday": "call for pricing & availability",
+    "additional_hours": "starting at $150/hr"
+   }
+  },
+  {
+   "title": "Decor rentals",
+   "why": "Itemized rental catalog with prices",
+   "data": {
+    "rentals": [
+     {
+      "item": "Hexagon Arch",
+      "price": "Free"
+     },
+     {
+      "item": "Farmhouse Arch",
+      "price": "Free"
+     },
+     {
+      "item": "Triangle Arch",
+      "price": "$40"
+     },
+     {
+      "item": "Simple Wood Arch",
+      "price": "$30"
+     },
+     {
+      "item": "Boxwood Wall",
+      "price": "$85"
+     },
+     {
+      "item": "Gold Pipe Arch",
+      "price": "$25"
+     },
+     {
+      "item": "Floral Arch",
+      "price": "$50"
+     },
+     {
+      "item": "Gold Hoop Arch",
+      "price": "$40"
+     },
+     {
+      "item": "Wood Slat Wall",
+      "price": "$70"
+     },
+     {
+      "item": "Photo Booth",
+      "price": "$200"
+     },
+     {
+      "item": "Arched Mirror",
+      "price": "$25"
+     },
+     {
+      "item": "Welcome Mirror",
+      "price": "$20"
+     },
+     {
+      "item": "Large Pink Bow",
+      "price": "$50"
+     },
+     {
+      "item": "Welcome Sign",
+      "price": "$40"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Photo shoots",
+   "why": "Separate hourly photo-shoot rentals including a loft",
+   "data": {
+    "venue_indoor": "from $150/hour",
+    "venue_outdoor_only": "from $50/hour",
+    "loft": "from $100/hr, $1,200/day, 2-hour minimum, 50% off when renting the venue"
+   }
+  }
+ ],
+ "open_questions": [
+  "Event coordinator filter: the site offers an onsite venue attendant, not a coordinator. Team decision on whether attendants count (affects other venues too).",
+  "Is outside catering allowed / required? Site is silent.",
+  "Is the 'Picture Perfect bar' ($75, Instagram caption only) still a rental?",
+  "What kind of 'pre-hung lighting' is it (string lights?)",
+  "Seating is listed for 100; is there a standing/max capacity?"
+ ]
+}

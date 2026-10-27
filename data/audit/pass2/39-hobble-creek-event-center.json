@@ -1,0 +1,223 @@
+{
+ "row": 39,
+ "id": "hobble-creek-event-center",
+ "official_name": {
+  "name": "Hobble Creek Event Center",
+  "source_url": "https://www.hobblecreekevents.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "AV System",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "From seamless communication and attentive coordination to thoughtful setup",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/wedding-services-hobblecreek"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "A bride and groom dancing indoors ... large window behind them",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "12 linens of your choice",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "standing on an outdoor patio with string lights, during a wedding reception",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Outside catering is permitted",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Premier decor package send-off set: up to 100 sparklers, bubbles or light wands",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png"
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "8-10 Simple Custom Curated Centerpieces",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Ceremony Backdrop with One Floral Spray",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Ceremony Back Drop with Two Faux Floral Spray's",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "Wedding signs, guest sign, card box etc",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "rent",
+   "wording": "Two Floral Chandeliers or Two Crystal Chandeliers",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "lively receptions beneath warm bistro lights",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table, Gift Table",
+   "price": "",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1500,
+  "high": 3000,
+  "basis": "rental",
+  "wording": "Mon–Thu $1,500 (6 h) / $2,500 (12 h); Fri–Sun $2,000 / $3,000 (starting from)",
+  "math": ""
+ },
+ "seated": {
+  "low": 96,
+  "high": 96,
+  "wording": "Up to 96 chairs included"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Hobble Creek Event Center"
+ }
+}

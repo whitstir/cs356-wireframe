@@ -1,0 +1,755 @@
+{
+ "id": "riverside-country-club",
+ "name": "Riverside Country Club",
+ "city": "Provo",
+ "description": "A private country club in Provo with indoor dining and event rooms and a patio overlooking the golf course and Mount Timpanogos. Weddings include an in-house culinary team, white linen, serving staff and an on-site venue coordinator; food and beverage minimums apply.",
+ "styles": [
+  "Luxury"
+ ],
+ "priceMin": 600,
+ "priceMax": 3500,
+ "priceBasis": "rental",
+ "priceText": "Room fees $600–$3,500, plus food & beverage minimums $900–$8,000",
+ "seated": 150,
+ "seatedMin": 32,
+ "seatedText": "Timpanogos Room 32\nMain Dining Room 80\nWasatch 80–150\nParley's Patio 150",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Fireplace": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "rent"
+  ],
+  "Piano": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Microphone, bluetooth speaker, & TV"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Microphone, bluetooth speaker, & TV"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "Microphone, bluetooth speaker, & TV"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Complete set-up & take down of tables & chairs"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "On-site venue coordinator"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor event spaces"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "White linens (other colors extra)"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Patio overlooking the golf course"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Multiple fireplaces"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Black iron floor easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Bar service available starting at $150."
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Upright black piano & electric baby grand"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A private country club in Provo with indoor dining and event rooms and a patio overlooking the golf course and Mount Timpanogos. Weddings include an in-house culinary team, white linen, serving staff and an on-site venue coordinator; food and beverage minimums apply."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "2701 N University Ave, Provo, UT 84604"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Elegant\nPrivate country club\nModern interior"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Room fees $600–$3,500, plus food & beverage minimums $900–$8,000"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Reception / open house: Dining Room & Outdoor Patio — room fee $3,000, food & beverage minimum $8,000\nReception / open house: Wasatch Room — room fee $2,000, food & beverage minimum $6,000\nLuncheon / dinner: Main Dining Room, 80 plated or 60 buffet — room fee $3,000, food & beverage minimum $5,000\nLuncheon / dinner: Timpanogos Room, up to 32 — room fee $600, food & beverage minimum $900\nLuncheon / dinner: Parley's Patio, 150, must be rented with Main Dining Room or Timpanogos Room — room fee $3,500, food & beverage minimum $8,000\nLuncheon / dinner: Wasatch South & Parlor, up to 80 — room fee $1,000, food & beverage minimum $5,000\nLuncheon / dinner: Entire Wasatch Room, 150 plated or 120 buffet — room fee $2,000, food & beverage minimum $5,000\nCeremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor event spaces"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Patio overlooking the golf course"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Timpanogos Room 32\nMain Dining Room 80\nWasatch 80–150\nParley's Patio 150"
+    }
+   ]
+  },
+  {
+   "id": "ceremony-site",
+   "title": "Ceremony site",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "ceremony-site-0",
+     "label": "Ceremony",
+     "value": "Setting: outdoor, golf course and Mount Timpanogos views · Fee: $200"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "White linens (other colors extra)"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Complete set-up & take down of tables & chairs"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "On-site venue coordinator"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "5 ft and 6 ft round tables, 8 ft rectangle tables, round high-top tables\nStandard Riverside chairs\nBlack iron floor easels\nChina, flatware and glassware\nWhite linen\nUpright black piano and electric baby grand piano\nMultiple fireplaces\nMicrophone, bluetooth speaker and TV\nDesignated photography areas"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "On-site venue coordinator\nDedicated event team"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included: complete set-up and take-down of tables and chairs; serving staff"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Microphone, bluetooth speaker, & TV"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Microphone, bluetooth speaker, & TV"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "Microphone, bluetooth speaker, & TV"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nMicrophone\nBluetooth speaker"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Multiple fireplaces"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Black iron floor easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Gold chiavari chairs — additional charge\nLinens in other colors — additional charge"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Ceremony site with golf course and Mount Timpanogos views — $200 ceremony fee\nCutting and serving of wedding cakes\nPersonalized menus and custom layouts\nComplete recommended vendor list\nBar service — from $150"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "rent",
+     "value": "Bar service available starting at $150."
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "included",
+     "value": "Upright black piano & electric baby grand"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "In-house culinary team with pastry chef\nCustomizable menus: small bites, action stations, brunch, luncheon, dinner\nFood and beverage minimum required for all weddings"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Bar service available from $150"
+    }
+   ]
+  },
+  {
+   "id": "catering",
+   "title": "Catering",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "catering-0",
+     "label": "Catering",
+     "value": "In house: True · Pastry chef: True · Styles: small bites; interactive action stations; brunch; luncheon; dinner · Bar service: from $150"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "rooms-with-fees-and-minimums",
+   "title": "Rooms with fees and minimums",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "rooms-with-fees-and-minimums-0",
+     "label": "Dining Room & Outdoor Patio",
+     "value": "Room fee: $3,000 · Fb minimum: $8,000"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-1",
+     "label": "Wasatch Room",
+     "value": "Room fee: $2,000 · Fb minimum: $6,000"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-2",
+     "label": "Main Dining Room",
+     "value": "Seated: 80 · Buffet: 60 · Room fee: $3,000 · Fb minimum: $5,000 · Setting: indoor"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-3",
+     "label": "Timpanogos Room",
+     "value": "Seated: 32 · Room fee: $600 · Fb minimum: $900 · Setting: indoor"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-4",
+     "label": "Parley's Patio",
+     "value": "Guests: 150 · Room fee: $3,500 · Fb minimum: $8,000 · Setting: outdoor · Note: must be rented with Main Dining Room or Timpanogos Room"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-5",
+     "label": "Wasatch South & Parlor",
+     "value": "Guests: 80 · Room fee: $1,000 · Fb minimum: $5,000 · Setting: indoor"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-6",
+     "label": "Entire Wasatch Room",
+     "value": "Seated: 150 · Buffet: 120 · Room fee: $2,000 · Fb minimum: $5,000 · Setting: indoor"
+    },
+    {
+     "id": "rooms-with-fees-and-minimums-7",
+     "label": "Surcharges",
+     "value": "22% service charge and 8.25% tax"
+    }
+   ]
+  },
+  {
+   "id": "minimum-spend",
+   "title": "Minimum spend",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "minimum-spend-0",
+     "label": "Rule",
+     "value": "Shortfall below the minimum is charged as a fee"
+    },
+    {
+     "id": "minimum-spend-1",
+     "label": "Range",
+     "value": "$900-$8,000 depending on room"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Convenient parking (included)"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "22% service charge and 8.25% tax on room fees and food & beverage\nFood and beverage minimum: any shortfall is charged as a fee\nPrivate club; guest pricing shown"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-374-1347\nEvents: Katie Alger, katie@riversidecountryclub.org, ext. 104\nEvents: Hailey Williams, hailey@riversidecountryclub.org, ext. 107"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://riversidecountryclub.org/special-event/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "riverside-country-club",
+  "Venue Name": "Riverside Country Club",
+  "link": "https://riversidecountryclub.org/special-event/",
+  "City": "Provo",
+  "Full Address": "2701 N University Ave, Provo, UT 84604",
+  "Description": "A private country club in Provo with indoor dining and event rooms and a patio overlooking the golf course and Mount Timpanogos. Weddings include an in-house culinary team, white linen, serving staff and an on-site venue coordinator; food and beverage minimums apply.",
+  "Price Low": "600",
+  "Price High": "3500",
+  "Price Basis": "rental",
+  "Standard Price Range": "Room fees $600–$3,500, plus food & beverage minimums $900–$8,000",
+  "Seated Low": "32",
+  "Seated High": "150",
+  "Seated Capacity": "Timpanogos Room 32\nMain Dining Room 80\nWasatch 80–150\nParley's Patio 150",
+  "Packages and Prices": "Reception / open house: Dining Room & Outdoor Patio — room fee $3,000, food & beverage minimum $8,000\nReception / open house: Wasatch Room — room fee $2,000, food & beverage minimum $6,000\nLuncheon / dinner: Main Dining Room, 80 plated or 60 buffet — room fee $3,000, food & beverage minimum $5,000\nLuncheon / dinner: Timpanogos Room, up to 32 — room fee $600, food & beverage minimum $900\nLuncheon / dinner: Parley's Patio, 150, must be rented with Main Dining Room or Timpanogos Room — room fee $3,500, food & beverage minimum $8,000\nLuncheon / dinner: Wasatch South & Parlor, up to 80 — room fee $1,000, food & beverage minimum $5,000\nLuncheon / dinner: Entire Wasatch Room, 150 plated or 120 buffet — room fee $2,000, food & beverage minimum $5,000\nCeremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax",
+  "Style": "Elegant\nPrivate country club\nModern interior",
+  "Other Decor Included": "5 ft and 6 ft round tables, 8 ft rectangle tables, round high-top tables\nStandard Riverside chairs\nBlack iron floor easels\nChina, flatware and glassware\nWhite linen\nUpright black piano and electric baby grand piano\nMultiple fireplaces\nMicrophone, bluetooth speaker and TV\nDesignated photography areas",
+  "Other Decor for Rent": "Gold chiavari chairs — additional charge\nLinens in other colors — additional charge",
+  "parking?": "Convenient parking (included)",
+  "sound system": "Yes\nMicrophone\nBluetooth speaker",
+  "extras": "Ceremony site with golf course and Mount Timpanogos views — $200 ceremony fee\nCutting and serving of wedding cakes\nPersonalized menus and custom layouts\nComplete recommended vendor list\nBar service — from $150",
+  "cleanup crew": "Included: complete set-up and take-down of tables and chairs; serving staff",
+  "Catering": "In-house culinary team with pastry chef\nCustomizable menus: small bites, action stations, brunch, luncheon, dinner\nFood and beverage minimum required for all weddings",
+  "Alcohol policy": "Bar service available from $150",
+  "Event Coordinator": "On-site venue coordinator\nDedicated event team",
+  "Important Notes": "22% service charge and 8.25% tax on room fees and food & beverage\nFood and beverage minimum: any shortfall is charged as a fee\nPrivate club; guest pricing shown",
+  "Contact Information": "Phone: 801-374-1347\nEvents: Katie Alger, katie@riversidecountryclub.org, ext. 104\nEvents: Hailey Williams, hailey@riversidecountryclub.org, ext. 107"
+ }
+}

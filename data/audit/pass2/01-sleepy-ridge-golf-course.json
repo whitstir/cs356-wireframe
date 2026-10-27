@@ -1,0 +1,223 @@
+{
+ "row": 1,
+ "id": "sleepy-ridge-golf-course",
+ "official_name": {
+  "name": "Sleepy Ridge Weddings",
+  "source_url": "https://www.sleepyridgeweddings.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Bluetooth Sound System Wireless Microphone",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth Sound System",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "95\" HD TVs",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "access to bridal and groom suites",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "standard setup/cleanup services",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "On-site event hostess support",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "access to bridal and groom suites",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/pricing"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "the Sunset Room upstairs takes dinner and dancing",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Floor Length Linens of any Color",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Garden Patio is an ideal setting for an outdoor wedding ceremony.",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/gardens"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "no in-house catering and no required vendor list",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/rooms"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Large Fireplace and Mantle",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Floor Easels, Table Easels",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Sunset Balcony Bistro Lighting",
+   "price": "",
+   "source_url": "https://www.sleepyridgeweddings.com/wedding-pricing"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 4200,
+  "high": 7000,
+  "basis": "rental",
+  "wording": "Wedding rental by date and season, $4,200–$7,000",
+  "math": ""
+ },
+ "seated": {
+  "low": 250,
+  "high": 250,
+  "wording": "250 seated"
+ },
+ "standing": {
+  "low": 700,
+  "high": 700,
+  "wording": "700"
+ },
+ "row_updates": {
+  "Venue Name": "Sleepy Ridge Weddings"
+ }
+}

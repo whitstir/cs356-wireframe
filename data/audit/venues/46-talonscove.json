@@ -1,0 +1,974 @@
+{
+ "row": 46,
+ "id": "talonscove",
+ "name": "TalonsCove",
+ "website": "https://www.talonscove.com/",
+ "website_status": "ok (main golf club site blocks the text fetcher with 403; read in the browser. Its 'Weddings' menu links to the club's wedding site https://www.talonscoveweddings.com/, used as the official wedding pages)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.talonscove.com/ (golf club home: address, phone, 'WEDDING SITE' link; browser)",
+  "https://www.talonscove.com/course-amenities/ (Events & Ballroom: 3,500 sq ft, formal dining for 200)",
+  "https://www.talonscove.com/meetings-and-seminars/ (Meetings & Seminars: A/V, outside catering welcome)",
+  "https://www.talonscove.com/corporate-golf/ (golf tournament packages; nothing on weddings)",
+  "https://www.talonscove.com/contact/ (contact: phone, address)",
+  "https://www.talonscove.com/gallery/ (golf photos only)",
+  "https://www.talonscoveweddings.com/ (wedding site home: rotunda, veranda, fire bowl, address, email)",
+  "https://www.talonscoveweddings.com/venue/ (spaces: Rotunda Garden & Veranda, Vista Ballroom, Bar & Lounge, dressing rooms, prep kitchen)",
+  "https://www.talonscoveweddings.com/services/ (included amenities, included decor, ceremony package, add-ons)",
+  "https://www.talonscoveweddings.com/pricing/ (rental block prices; luncheon price not shown, checked by screenshot)",
+  "https://www.talonscoveweddings.com/gallery/ (real-wedding galleries; photographer credits only)",
+  "https://www.talonscoveweddings.com/availability/ (no text)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "2220 South TalonsCove Drive, Saratoga Springs, UT 84045",
+  "note": "Both sites give Saratoga Springs (Utah County). The sheet's City 'Spanish Fork' is wrong and the address was blank."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "TalonsCove",
+   "verified_value": "TalonsCove",
+   "action": "confirmed",
+   "change_origin": "Kept the sheet name; sites call it 'TalonsCove Wedding & Reception Center'.",
+   "source_url": "https://www.talonscoveweddings.com/",
+   "evidence": "TalonsCove Wedding & Reception Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Team may rename."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.talonscove.com/",
+   "verified_value": "https://www.talonscoveweddings.com/",
+   "action": "corrected",
+   "change_origin": "Corrected: the golf club site's 'Weddings' menu links to the club's wedding site, which holds all wedding details.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "Weddings ... WEDDING SITE → talonscoveweddings.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Team decision; the main site has almost no wedding info."
+  },
+  {
+   "field": "Description",
+   "current_value": "A scenic golf and country-club reception venue overlooking Utah Lake and the Wasatch Mountains, with elegant indoor rooms, outdoor ceremony options, custom menus, and professional event support.",
+   "verified_value": "A wedding and reception center at TalonsCove Golf Club in Saratoga Springs, on the west shore of Utah Lake, with a garden rotunda for ceremonies, a veranda and outdoor fire bowl, a 3,000-square-foot ballroom with a chandelier and fireplace, and a bar and lounge.",
+   "action": "corrected",
+   "change_origin": "Corrected: wrong city implied (sheet said Spanish Fork); added spaces from the Venue page.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "The Rotunda Garden & Veranda ... The Vista Ballroom ... The Bar & Lounge",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "No wedding rental pricing stated on the official website",
+   "verified_value": "$3,800-$4,600",
+   "action": "corrected",
+   "change_origin": "Added: the wedding site's Pricing page lists rental blocks (old cell said no pricing).",
+   "source_url": "https://www.talonscoveweddings.com/pricing/",
+   "evidence": "Full Day $ 4600 ... 2/3 Day $ 4200 ... Half Day $ 3800",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "No wedding package prices stated on the official website",
+   "verified_value": "Half day 4-11pm — $3,800\n2/3 day 1-11pm — $4,200\nFull day 10am-11pm — $4,600\nLuncheon rental, 4 hours (9am-1pm or 10am-2pm) — price on request\nWedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request",
+   "action": "corrected",
+   "change_origin": "Added from the Pricing and Services pages.",
+   "source_url": "https://www.talonscoveweddings.com/pricing/",
+   "evidence": "Wedding Ceremony Package- $400 | Multi-room Setup & Transitions - $200 | Bar Service - $600 | Food Service Staffing - $250",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Luncheon block price is not shown on the page."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "200 formal dining",
+   "verified_value": "200 formal dining",
+   "action": "confirmed",
+   "change_origin": "Official golf club site, Course Amenities.",
+   "source_url": "https://www.talonscove.com/course-amenities/",
+   "evidence": "Formal dining for 200 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "Full day 10am-11pm\n2/3 day 1-11pm\nHalf day 4-11pm\nLuncheon 9am-1pm or 10am-2pm",
+   "action": "added",
+   "change_origin": "Added from the Pricing page.",
+   "source_url": "https://www.talonscoveweddings.com/pricing/",
+   "evidence": "10:00 AM – 11:00 PM ... 1:00 PM – 11:00 PM ... 4:00 PM – 11:00 PM ... 9:00am – 1:00pm or 10:00am – 2:00pm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "",
+   "verified_value": "4-13 hours",
+   "action": "added",
+   "change_origin": "Added: 4-hour luncheon to 13-hour full day.",
+   "source_url": "https://www.talonscoveweddings.com/pricing/",
+   "evidence": "4 hour rental block ... 10:00 AM – 11:00 PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nScenic\nGolf-course\nMountain",
+   "verified_value": "Elegant\nScenic\nGolf-course\nMountain",
+   "action": "confirmed",
+   "change_origin": "Site supports these words.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "provide an elegant touch to the grand 3000 sqft ballroom",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "'Scenic', 'Mountain', 'Golf-course' reflect the views and golf club setting."
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "TRUE",
+   "action": "added",
+   "change_origin": "Official site, Services: base linens included.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "20 floor length base linens, multiple color and fabric options",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "",
+   "verified_value": "200 black Chiavari chairs\n20 folding tables (60-inch round or 6-foot banquet)\n20 floor-length base linens\nCeiling draping with twinkle lights\n20 antique white lanterns\n20 wood rounds\n20 large fish bowl vases\nFloor and tabletop easels\n24-arm chandelier\nFireplace\nProjector and screen\nIndoor sound system and microphone",
+   "action": "added",
+   "change_origin": "Added from the Services and Venue pages.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Ceiling draping with twinkle lights included | 20 Antique white lanterns | 20 Wood rounds | 20 Large \"fish bowl\" vases | Easels",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Chandelier and fireplace from https://www.talonscoveweddings.com/venue/."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Additional decor rentals through partner planner — price on request",
+   "action": "added",
+   "change_origin": "Added from the Services page.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Additional decor rental options available through our partner planner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Inside",
+   "verified_value": "Both",
+   "action": "corrected",
+   "change_origin": "Corrected: the venue has a garden rotunda and veranda as well as indoor rooms.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Use of indoor & outdoor venue space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "50 sparklers included in the Wedding Ceremony Package — $400",
+   "action": "added",
+   "change_origin": "Added: sparklers come with the paid ceremony package.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Ceremony Package Add-On Includes: ... 50 wedding sparklers for sparkler sendoff",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "",
+   "verified_value": "2220 South TalonsCove Drive, Saratoga Springs, UT 84045",
+   "action": "added",
+   "change_origin": "Added from both sites.",
+   "source_url": "https://www.talonscove.com/contact/",
+   "evidence": "2220 South TalonsCove Drive Saratoga Springs, UT 84045",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Spanish Fork",
+   "verified_value": "Saratoga Springs",
+   "action": "corrected",
+   "change_origin": "Corrected: the venue is in Saratoga Springs, not Spanish Fork.",
+   "source_url": "https://www.talonscove.com/contact/",
+   "evidence": "Saratoga Springs, UT 84045",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nState-of-the-art audio/visual\nHD displays\nProjection\nPremium sound",
+   "verified_value": "Yes\nIndoor sound system and microphone with aux connection\nProjector and screen",
+   "action": "corrected",
+   "change_origin": "Corrected: 'HD displays' and 'premium sound' are corporate-page wording; the wedding inclusions list sound, mic and projector.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Projector & screen | Indoor sound system & microphone, with auxiliary connection",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Meetings page: 'HD displays, projection systems, and premium sound equipment'."
+  },
+  {
+   "field": "extras",
+   "current_value": "Utah Lake views\nWasatch Mountain views\nOutdoor ceremony space\nGazebo\nWaterfall\nWedding lawn\nResort-style clubhouse",
+   "verified_value": "Garden with filigree rotunda for ceremonies\nStream and waterfalls\nVeranda\nOutdoor fire bowl\n1,500 sq ft bar and lounge\nDigital layout of your event\nUtah Lake and Mt. Timpanogos views\nWedding ceremony package — $400\nBar service — $600\nFood service staffing — $250\nMulti-room setup — $200",
+   "action": "corrected",
+   "change_origin": "Corrected from the Venue and Services pages ('gazebo' and 'wedding lawn' wording replaced by the site's own).",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "beautiful filigree rotunda ... stream and waterfalls ... grand outdoor fire bowl",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Golf club Course Amenities page also says 'Ornate gazebo' and 'Picturesque waterfall'."
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included\nSetup and take down of event space",
+   "action": "added",
+   "change_origin": "Added: the Services page includes setup and take down.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Set up & take down of event space",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Pricing page also says set up and clean up must fit in the rental block."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "In-house culinary team\nCustom menus\nOutside caterer policy not stated",
+   "verified_value": "Outside caterers welcome\nCaterer has access to the prep kitchen\nFood service staffing — $250",
+   "action": "corrected",
+   "change_origin": "Corrected: outside caterers are welcome (old cell said policy not stated). In-house culinary team is not on the site.",
+   "source_url": "https://www.talonscove.com/meetings-and-seminars/",
+   "evidence": "we welcome outside catering partners and professional bar services",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Stated on the Meetings page; Venue page: 'You or your caterer will have access to a prep area'."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "Prep kitchen with refrigerator, ice machine and sink\nFood staging only; no cooking or warming",
+   "action": "added",
+   "change_origin": "Added from the Venue page.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "The kitchen is for food staging only, no cooking or warming permitted.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Professional bar service available\nAlcohol policy details not stated",
+   "verified_value": "Bar service — $600 (4 hours with disposable cups; alcohol, mixers and garnish not included)",
+   "action": "corrected",
+   "change_origin": "Corrected: bar service is a paid add-on.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Full bar service - includes 4 hours of bar service with disposable cups (alcohol, mixers and garnish not included)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Professional event staff\nWedding event support",
+   "verified_value": "Wedding planning and coordination through partner planner (discounted, price on request)",
+   "action": "corrected",
+   "change_origin": "Corrected: planning is through a partner planner at a discount, not included staff.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Discounted wedding planning, coordination, & graphic design services through our partner wedding planner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "2 dressing rooms with seating, full-length mirrors and vanities",
+   "action": "added",
+   "change_origin": "Added from the Venue page.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "Two well appointed dressing rooms, with comfortable seating, full length mirrors, and vanities",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "All setup and cleanup must fit within the rental block\nKitchen is for food staging only",
+   "action": "added",
+   "change_origin": "Added from the Pricing and Venue pages.",
+   "source_url": "https://www.talonscoveweddings.com/pricing/",
+   "evidence": "All set up and clean up must be accounted for within the rental block",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Official site publishes venue features and capacity but not current wedding rental rates",
+   "verified_value": "Ballroom is listed as 3,000 sq ft on the wedding site and 3,500 sq ft on the golf club site",
+   "action": "corrected",
+   "change_origin": "Corrected: the site does publish rental rates; noted the size conflict.",
+   "source_url": "https://www.talonscove.com/course-amenities/",
+   "evidence": "3500 square feet of elegance (golf site) vs 'grand 3000 sqft ballroom' (wedding site)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-895-5900\nPhone: 801-895-5901\nEmail: info@talonscove.com",
+   "verified_value": "Phone: (801) 407-3030\nEmail: info@talonscoveweddings.com\nEmail: info@talonscove.com",
+   "action": "corrected",
+   "change_origin": "Corrected: 801-895-5900/5901 are not on either site.",
+   "source_url": "https://www.talonscove.com/contact/",
+   "evidence": "(801) 407-3030 ... info@talonscove.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Wedding site email: info@talonscoveweddings.com."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "",
+   "verified_value": "3800-4600",
+   "action": "added",
+   "change_origin": "Follows from the added Standard Price Range.",
+   "source_url": "https://www.talonscoveweddings.com/pricing/",
+   "evidence": "$ 3800 ... $ 4600",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 200,
+   "verified_value": 200,
+   "action": "confirmed",
+   "change_origin": "Official golf club site.",
+   "source_url": "https://www.talonscove.com/course-amenities/",
+   "evidence": "Formal dining for 200 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Spanish Fork",
+   "verified_value": "Saratoga Springs",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected City column.",
+   "source_url": "https://www.talonscove.com/contact/",
+   "evidence": "Saratoga Springs, UT 84045",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, Services: included.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Indoor sound system & microphone",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Services: included.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Projector & screen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Services: included.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Indoor sound system & microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: wedding inclusions list a projector and screen, not TVs; 'HD displays' appears only on the corporate meetings page.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Projector & screen",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Meetings page: 'HD displays, projection systems'. Confirm with venue."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site: two dressing rooms for the wedding party.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "Two well appointed dressing rooms",
+   "confidence": "medium",
+   "fix_type": "both",
+   "notes": "Not named bride/groom. Keyword rule on the proposed row would give 'False', not 'True'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site: two dressing rooms.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "Two well appointed dressing rooms",
+   "confidence": "medium",
+   "fix_type": "both",
+   "notes": "Not named bride/groom. Keyword rule on the proposed row would give 'False', not 'True'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site: setup and take down included.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Set up & take down of event space",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: coordination is through a paid partner planner.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Discounted wedding planning, coordination ... through our partner wedding planner",
+   "confidence": "high",
+   "fix_type": "both",
+   "notes": "Keyword rule on the proposed row would give 'True', not 'False'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Use of indoor & outdoor venue space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Use of indoor & outdoor venue space",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "20 floor length base linens",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, Meetings page and Venue page.",
+   "source_url": "https://www.talonscove.com/meetings-and-seminars/",
+   "evidence": "we welcome outside catering partners",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Sparklers only in the paid $400 ceremony package.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "50 wedding sparklers for sparkler sendoff (Ceremony Package Add-On)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Paid add-on → false per brief."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "No arch or backdrop item; ceremonies use the garden's permanent filigree rotunda.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "the beautiful filigree rotunda invites you to say \"I do\"",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Team may count the rotunda as a ceremony backdrop."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Ceiling draping with twinkle lights included",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "The large fireplace offers a warm ambiance",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site offers fish bowl vases but no greenery or florals.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "20 Large \"fish bowl\" vases",
+   "confidence": "high",
+   "fix_type": "rule",
+   "notes": "Keyword rule on the proposed row would give 'included', not 'none'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Easels (floor and table top)",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "20 Antique white lanterns",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "the 24 arm chandelier",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site: twinkle lights in the ceiling draping.",
+   "source_url": "https://www.talonscoveweddings.com/services/",
+   "evidence": "Ceiling draping with twinkle lights included",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Official site: bar and lounge space included; bar service $600.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "our 1500 sqft bar and lounge area",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Bar service from https://www.talonscoveweddings.com/pricing/."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site: outdoor fire bowl.",
+   "source_url": "https://www.talonscoveweddings.com/venue/",
+   "evidence": "experience the warmth and ambiance of our grand outdoor fire bowl",
+   "confidence": "high",
+   "fix_type": "both",
+   "notes": "Keyword rule on the proposed row would give 'none', not 'included'; the rule needs a fix."
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.talonscove.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "TalonsCove",
+  "link": "https://www.talonscoveweddings.com/",
+  "Description": "A wedding and reception center at TalonsCove Golf Club in Saratoga Springs, on the west shore of Utah Lake, with a garden rotunda for ceremonies, a veranda and outdoor fire bowl, a 3,000-square-foot ballroom with a chandelier and fireplace, and a bar and lounge.",
+  "Standard Price Range": "$3,800-$4,600",
+  "Packages and Prices": "Half day 4-11pm — $3,800\n2/3 day 1-11pm — $4,200\nFull day 10am-11pm — $4,600\nLuncheon rental, 4 hours (9am-1pm or 10am-2pm) — price on request\nWedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request",
+  "Seated Capacity": "200 formal dining",
+  "Standing Capacity": "",
+  "Time slots": "Full day 10am-11pm\n2/3 day 1-11pm\nHalf day 4-11pm\nLuncheon 9am-1pm or 10am-2pm",
+  "Length of Rental": "4-13 hours",
+  "Style": "Elegant\nScenic\nGolf-course\nMountain",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "200 black Chiavari chairs\n20 folding tables (60-inch round or 6-foot banquet)\n20 floor-length base linens\nCeiling draping with twinkle lights\n20 antique white lanterns\n20 wood rounds\n20 large fish bowl vases\nFloor and tabletop easels\n24-arm chandelier\nFireplace\nProjector and screen\nIndoor sound system and microphone",
+  "Other Decor for Rent": "Additional decor rentals through partner planner — price on request",
+  "outside/inside": "Both",
+  "sparklers allowed": "50 sparklers included in the Wedding Ceremony Package — $400",
+  "parking?": "",
+  "Full Address": "2220 South TalonsCove Drive, Saratoga Springs, UT 84045",
+  "City": "Saratoga Springs",
+  "sound system": "Yes\nIndoor sound system and microphone with aux connection\nProjector and screen",
+  "extras": "Garden with filigree rotunda for ceremonies\nStream and waterfalls\nVeranda\nOutdoor fire bowl\n1,500 sq ft bar and lounge\nDigital layout of your event\nUtah Lake and Mt. Timpanogos views\nWedding ceremony package — $400\nBar service — $600\nFood service staffing — $250\nMulti-room setup — $200",
+  "cleanup crew": "Included\nSetup and take down of event space",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "Outside caterers welcome\nCaterer has access to the prep kitchen\nFood service staffing — $250",
+  "Prep Area": "Prep kitchen with refrigerator, ice machine and sink\nFood staging only; no cooking or warming",
+  "Alcohol policy": "Bar service — $600 (4 hours with disposable cups; alcohol, mixers and garnish not included)",
+  "Event Coordinator": "Wedding planning and coordination through partner planner (discounted, price on request)",
+  "Bride/Groom Rooms": "2 dressing rooms with seating, full-length mirrors and vanities",
+  "Restrictions": "All setup and cleanup must fit within the rental block\nKitchen is for food staging only",
+  "Important Notes": "Ballroom is listed as 3,000 sq ft on the wedding site and 3,500 sq ft on the golf club site",
+  "Contact Information": "Phone: (801) 407-3030\nEmail: info@talonscoveweddings.com\nEmail: info@talonscove.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Luxury",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Luxury",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Golf club setting with lake and mountain views, garden rotunda and waterfalls (Outdoors: golf grounds, gardens). 'Golf Club' plus chandelier ballroom fits the Luxury cue. The corrected Description contains 'Golf Club' and 'garden'.",
+  "site_cues": [
+   "nestled along the greens of TalonsCove Golf Club",
+   "beautiful filigree rotunda in the garden",
+   "the 24 arm chandelier"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "Several named spaces",
+   "data": {
+    "spaces": [
+     {
+      "name": "Rotunda Garden & Veranda",
+      "setting": "outdoor",
+      "use": "ceremony; veranda; fire bowl"
+     },
+     {
+      "name": "Vista Ballroom",
+      "size_sqft": 3000,
+      "seated": 200,
+      "setting": "indoor",
+      "features": [
+       "24-arm chandelier",
+       "lighted ceiling draping",
+       "fireplace"
+      ]
+     },
+     {
+      "name": "Bar & Lounge",
+      "size_sqft": 1500,
+      "setting": "indoor",
+      "use": "opens to ballroom or intimate indoor ceremony"
+     },
+     {
+      "name": "Dressing rooms",
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rental blocks",
+   "why": "Time-block pricing",
+   "data": {
+    "rates": [
+     {
+      "name": "Full Day",
+      "hours": "10am-11pm",
+      "price": "$4,600"
+     },
+     {
+      "name": "2/3 Day",
+      "hours": "1pm-11pm",
+      "price": "$4,200"
+     },
+     {
+      "name": "Half Day",
+      "hours": "4pm-11pm",
+      "price": "$3,800"
+     },
+     {
+      "name": "Luncheon",
+      "hours": "9am-1pm or 10am-2pm",
+      "price": "not shown",
+      "note": "includes 12 tablecloths"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ceremony package and add-ons",
+   "why": "Separate ceremony package",
+   "data": {
+    "packages": [
+     {
+      "name": "Wedding Ceremony Package",
+      "price": "$400",
+      "includes": [
+       "125 white outdoor chairs with setup/takedown",
+       "portable outdoor speaker with corded mic",
+       "50 sparklers"
+      ]
+     },
+     {
+      "name": "Multi-room setup & transitions",
+      "price": "$200"
+     },
+     {
+      "name": "Bar service (4 hours)",
+      "price": "$600"
+     },
+     {
+      "name": "Food service staffing",
+      "price": "$250"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Should the link column point to the wedding site (talonscoveweddings.com) instead of the golf club home page? Proposed yes.",
+  "Luncheon rental price is not shown on the Pricing page.",
+  "TVs: only the corporate page mentions 'HD displays'; marked TV false for weddings. Confirm.",
+  "Do the two dressing rooms count as bridal and groom's rooms? Marked true (medium); keyword rule needs 'dressing room'.",
+  "Does the garden rotunda count as 'Ceremony arch / backdrop'? Marked none.",
+  "Ballroom size conflict: 3,000 sq ft (wedding site) vs 3,500 sq ft (golf site)."
+ ]
+}

@@ -156,7 +156,7 @@
     if (capOn(st)) {
       if (v.seated == null) return false;
       const hi = st.cmax >= CMAX ? Infinity : st.cmax;
-      if (v.seated < st.cmin || v.seated > hi) return false;
+      if (!((v.seatedMin ?? v.seated) <= hi && v.seated >= st.cmin)) return false; // seated range overlaps the slider, like price
     }
     if (st.styles.length && !st.styles.some((s) => v.styles.includes(s))) return false;
     if (st.cities.length && !st.cities.includes(v.city)) return false;
@@ -258,8 +258,11 @@
       <div class="dots" aria-label="Photo ${i + 1} of ${n}">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</div>
     </div>`;
   }
-  const priceLine = (v) => (v.priceMin != null && v.priceText ? v.priceText.replace(/\s*-\s*/g, " – ") : "Price on request");
-  const seatsLine = (v) => (v.seated != null ? `Seats ${lines(v.seatedText || String(v.seated))[0].replace(/\s*seated.*$/i, "").replace(/(\d)\s*-\s*(\d)/, "$1–$2")}` : "Seats not listed");
+  const priceLine = (v) => (v.priceMin == null ? "Price on request"
+    : (v.priceMax !== v.priceMin ? `${money(v.priceMin)} – ${money(v.priceMax)}` : money(v.priceMin))
+      + (v.priceBasis === "per-person x capacity" ? " (per-person × guests)" : v.priceBasis === "full-service package" ? " (full-service package)" : ""));
+  const seatRange = (v) => (v.seatedMin != null && v.seatedMin !== v.seated ? `${v.seatedMin}–${v.seated}` : String(v.seated));
+  const seatsLine = (v) => (v.seated != null ? `Seats ${seatRange(v)}` : "Seats not listed");
   function card(v, q = "") {
     return `<article class="card">
       ${carousel(v)}
@@ -280,7 +283,7 @@
       `<a href="${exploreHash({ ...fresh(), styles: [s] })}" data-nav="styles" data-v="${s}" data-log="Style: ${s}">${s} <span>${VENUES.filter((v) => v.styles.includes(s)).length}</span></a>`).join("");
     const top = ["Provo", "Orem", "Lehi", "Alpine", "Spanish Fork"].filter((c) => CITIES.includes(c));
     $("#site-footer").innerHTML = `<div class="wrap footer-inner">
-        <div class="footer-brand"><p class="display-l">Utah County</p><p class="small" style="margin:0;max-width:360px">${VENUES.length} reception venues from Alpine to Sundance, compared side by side.</p></div>
+        <div class="footer-brand"><p class="display-l">Utah County</p></div>
         <nav class="footer-col" aria-label="Location"><p class="eyebrow">Location</p>${top.map((c) => `<a href="${exploreHash({ ...fresh(), cities: [c] })}" data-nav="cities" data-v="${esc(c)}" data-log="Footer Location: ${esc(c)}">${esc(c)}</a>`).join("")}
           <a href="#/explore" data-fresh data-open="cities" data-log="Footer: All ${CITIES.length} cities">All ${CITIES.length} cities</a></nav>
         <nav class="footer-col" aria-label="Style"><p class="eyebrow">Style</p>${STYLES.map((s) => `<a href="${exploreHash({ ...fresh(), styles: [s] })}" data-nav="styles" data-v="${s}" data-log="Footer Style: ${s}">${s}</a>`).join("")}</nav>
@@ -789,7 +792,45 @@
     "Event coordinator": ["Event Coordinator"], "Cleanup crew": ["cleanup crew"], "Linens included": ["Linens Included"],
     "Outside catering allowed": ["Catering"], "Sparklers allowed": ["sparklers allowed"],
   };
+  // The venue's own wording for a filter (explicit sheet columns), and the page anchor that explains it
+  const filterOf = (v, group, f) => (v.filters && v.filters[`${group} > ${f}`]) || null;
+  const anchorOf = (v, key) => { for (const s of v.sections || []) for (const it of s.items) if (it.filter === key) return it.id; return ""; };
+  const moreLink = (id, label) => (id ? `<a href="#" class="btn btn-more" data-act="jump" data-to="${esc(id)}" data-log="More information: ${esc(label)}">More information</a>` : "");
+  // Small text under a feature only when it says more than the feature's own name
+  // ("Bride's room" under Bridal room, "Can I bring my own caterer? Yes" under Outside catering are dropped).
+  const STEMS = { bridal: "bride", brides: "bride", grooms: "groom", suite: "room", suites: "room", rooms: "room", lights: "light", tvs: "tv",
+    indoors: "indoor", outdoors: "outdoor", spaces: "space", areas: "space", area: "space", events: "event" };
+  // Words that never make a detail worth showing on their own (room names, adjectives, connectors)
+  const DETAIL_FILLER = new Set(["a", "an", "the", "our", "yes", "included", "available", "provided", "and", "on", "site", "onsite", "for", "you", "your",
+    "bride", "groom", "room", "indoor", "outdoor", "space", "event", "has", "have", "access", "to", "both", "of", "with", "in", "is", "it", "possible",
+    "making", "venue", "new", "spacious", "comfortable", "relaxing", "stunning", "elegant", "private", "dedicated", "separate", "standard", "service", "services"]);
+  const sentenceCase = (t) => (t === t.toUpperCase() ? t.charAt(0) + t.slice(1).toLowerCase() : t.charAt(0).toUpperCase() + t.slice(1));
+  const DETAIL_MAX = 40; // the checklist stays minimal: short phrases only; the full wording is in Detailed information
+  const toks = (t) => (t.toLowerCase().replace(/['’]s(?![a-z])/g, "").match(/[a-z]+/g) || []).map((w) => STEMS[w] || w);
+  function usefulDetail(label, d) {
+    if (!d) return "";
+    if (/^Add-on:/.test(d)) return "Add-on"; // no prices in the checklist
+    d = d.replace(/^[^?]*\?\s*/, "").trim();  // FAQ line: keep only the answer
+    const own = new Set(toks(label));
+    d = neutral(d);
+    const keep = d && d.length <= DETAIL_MAX && !/\$|\.\.\.|…/.test(d) && toks(d).some((w) => !own.has(w) && !DETAIL_FILLER.has(w));
+    return keep ? d : "";
+  }
+  // Rewrite a venue's own phrase as a neutral label: "Our beautiful rustic Red Barn" -> "Rustic Red Barn".
+  // Phrases in the venue's voice (we / you / can / is …) are dropped rather than reworded.
+  const PUFF = /\b(our|the|a|an|beautiful|gorgeous|stunning|elegant|amazing|lovely|perfect|wonderful|relaxing|comfortable|charming|cozy|well appointed|new)\b/gi;
+  const SMALL = new Set(["of", "and", "with", "in", "for", "to", "on", "at", "or", "by"]);
+  function neutral(d) {
+    d = d.replace(/[!.]+$/, "").replace(/\s*\((?:included|one )[^)]*\)/i, "").trim();
+    if (/^(yes|no)\b/i.test(d) || /\b(we|we'll|we're|you|your|you'll|i|us|my|can|may|will|is|are|welcome|take|use|provide|from|includes|need|amenities)\b/i.test(d)) return "";
+    d = d.replace(PUFF, " ").replace(/^(help of|standard)\s+/i, "").replace(/\s+/g, " ").trim();
+    const cap = (w) => w.replace(/(^|[\/(-])([a-z])/g, (m, p, c) => p + c.toUpperCase());
+    return d.split(" ").map((w, i) => (/^[A-Z0-9&/+-]{2,4}$/.test(w) || /^[\d,]+$/.test(w) ? w // TV, ADA, 2, 3,500
+      : i && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : cap(w.toLowerCase()))).join(" ");
+  }
   function featureDetail(v, f) {
+    const fl = filterOf(v, "Features", f);
+    if (fl) return fl.status === "addon" ? `Add-on: ${fl.wording}` : fl.wording;
     if (f === "Indoors" || f === "Outdoors") { const io = raw(v, "outside/inside").toLowerCase(); return io === "both" ? "Indoor and outdoor spaces" : io === "inside" ? "Indoor spaces" : io === "outside" ? "Outdoor spaces" : ""; }
     const src = FEATURE_SOURCE[f];
     if (!src) return "";
@@ -804,29 +845,28 @@
     const inc = list.filter((i) => (v.decor[i] || []).includes("included")), rent = list.filter((i) => (v.decor[i] || []).includes("rent"));
     return [[inc, "Included"], [rent, "For rent"]].filter(([l]) => l.length);
   }
-  function catCard(title, what, body) { return `<div class="cat"><h3 class="label">${esc(title)}</h3><p class="what" style="margin:0">${esc(what)}</p>${body}</div>`; }
+  function catCard(title, what, body, jump = "") { return `<div class="cat"><h3 class="label">${esc(title)}</h3><p class="what" style="margin:0">${esc(what)}</p>${body}${jump ? `<div class="more">${moreLink(jump, title)}</div>` : ""}</div>`; }
   const noneP = (t) => `<p class="none">${esc(t)}</p>`;
   const ulist = (arr) => `<ul>${arr.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
 
   function featuresSection(v) {
-    const n = FEATURES.filter((f) => v.flags[f]).length;
     const checklist = FEATURES.map((f) => {
-      const on = !!v.flags[f], d = featureDetail(v, f);
-      return `<li class="${on ? "" : "no"}"><span class="dot">${on ? I.check : I.dash}</span><span><span class="nm">${esc(f)}</span>${on || d ? `<span class="d">${esc(d || (on ? "" : "Not listed"))}</span>` : `<span class="d">Not listed</span>`}</span></li>`;
+      const on = !!v.flags[f], d = usefulDetail(f, featureDetail(v, f));
+      return `<li class="${on ? "" : "no"}"><span class="dot">${on ? I.check : I.dash}</span><span><span class="nm">${esc(f)}</span>${d || !on ? `<span class="d">${esc(d || "Not listed")}</span>` : ""}</span></li>`;
     }).join("");
     const modeBlock = (list) => { const g = itemsByMode(v, list); return g.length ? g.map(([items, m]) => `<p class="tag" style="margin:6px 0 0">${m}</p>${ulist(items)}`).join("") : null; };
     const parking = lines(raw(v, "parking?"));
     const accessHave = ACCESS.filter((k) => v.access[k]), accessText = lines(raw(v, "Accessibility")).filter((l) => !accessHave.some((a) => a.toLowerCase() === l.toLowerCase()));
     const avLines = lines(raw(v, "sound system")).filter((l) => !/^(yes|no)$/i.test(l)), avHave = AV.filter((k) => v.av[k]);
     return `<section class="features" aria-labelledby="features-h">
-      <header><h2 class="heading-m" id="features-h">Features</h2><p class="small muted" style="margin:0">${plural(n, "feature")} listed. What this venue offers, using the same groups as the Explore filters; items the venue doesn't list are faded.</p></header>
+      <header><h2 class="heading-m" id="features-h">Features</h2></header>
       <ul class="checklist">${checklist}</ul>
       <div class="cat-grid">
-        ${catCard("Decor", "Aesthetic and lighting items, included or for rent.", modeBlock([...AESTHETICS, ...LIGHTING]) || noneP("No decor items listed."))}
-        ${catCard("Other", "Stations and extras, like a cake table, piano or photo booth.", modeBlock(OTHER) || noneP("None listed."))}
-        ${catCard("Parking", "Where guests park on the day.", parking.length ? ulist(parking) : noneP("Not listed by the venue. Ask on your tour."))}
-        ${catCard("Accessibility options", "Wheelchair access, elevator, ADA restrooms and accessible parking.", accessHave.length || accessText.length ? ulist([...accessHave, ...accessText]) : noneP("None listed."))}
-        ${catCard("Audio/Visual", "Sound, microphones, screens and projectors.", avLines.length || avHave.length ? `<p style="margin:4px 0 0">${esc(sentence(avLines.length ? avLines : avHave))}.</p>` : noneP("No audio/visual equipment listed."))}
+        ${catCard("Decor", "Aesthetic and lighting items, included or for rent.", modeBlock([...AESTHETICS, ...LIGHTING]) || noneP("Not listed"), "sec-decor")}
+        ${catCard("Other", "Stations and extras, like a cake table, piano or photo booth.", modeBlock(OTHER) || noneP("Not listed"), "sec-other")}
+        ${catCard("Parking", "Where guests park on the day.", parking.length ? ulist(parking) : noneP("Not listed"))}
+        ${catCard("Accessibility options", "Wheelchair access, elevator, ADA restrooms and accessible parking.", accessHave.length || accessText.length ? ulist([...accessHave, ...accessText]) : noneP("Not listed"))}
+        ${catCard("Audio/Visual", "Sound, microphones, screens and projectors.", avLines.length || avHave.length ? `<p style="margin:4px 0 0">${esc(sentence(avLines.length ? avLines : avHave))}.</p>` : noneP("Not listed"))}
       </div>
     </section>`;
   }
@@ -836,6 +876,22 @@
     return ls.length > 1 ? `<ul>${ls.map((l) => `<li>${fmt(l)}</li>`).join("")}</ul>` : fmt(ls[0] || "");
   }
   function detailsSection(v, q) {
+    // Ordered sections from the build (data/audit/STAGE3-DESIGN.md); each item has an anchor id for "More information" links.
+    if (v.sections) {
+      const ws = q ? words(q) : [];
+      const STATUS = { included: "", addon: "Add-on: ", rent: "For rent: ", "included+rent": "Included + for rent: " };
+      const rows = v.sections.map((s) => {
+        const items = s.items.filter((it) => !it.filter || it.status !== "no").map((it) => {
+          const hit = ws.length && ws.some((w) => (it.label + " " + it.value).toLowerCase().includes(w));
+          const val = it.label === "Website" ? detailValue("link", it.value, "") : detailValue("", (STATUS[it.status] || "") + it.value, hit ? q : "");
+          return `<div id="${esc(it.id)}"${hit ? ' class="hit"' : ""}><dt>${esc(it.label)}</dt><dd>${val}</dd></div>`;
+        });
+        return items.length ? `<div class="drow" id="sec-${esc(s.id)}"><p class="eyebrow">${esc(s.title)}</p><dl>${items.join("")}</dl></div>` : "";
+      }).join("");
+      return `<details class="details" id="details"${q ? " open" : ""}>
+      <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span><span class="small muted">Pricing, capacity, what's included, food, rules and contact, in the venue's own words${q ? `. Matches for “${esc(q)}” are highlighted.` : "."}</span></span><span class="chev" aria-hidden="true"></span></summary>
+      ${rows}</details>`;
+    }
     const hitLabels = q ? hitFields(v, q).map(([l]) => l) : [];
     const rows = DETAIL_GROUPS.map(([title, keys]) => {
       const items = keys.filter((k) => raw(v, k)).map((k) => {
@@ -876,14 +932,14 @@
         </div>
         ${PHOTOS[v.id] ? `<p class="small muted photo-credit">Photos: ${creditLink(v)} · <a href="#/credits" data-log="Photo credits (venue)">Photo credits</a></p>` : ""}
         <div class="glance">
-          <div><p class="eyebrow">Price</p><p class="heading-s" style="margin:0">${esc(priceLine(v))}</p><p class="small muted" style="margin:0">${v.priceMin != null ? (raw(v, "Packages and Prices") ? "Venue rental; packages in Detailed information" : "Venue rental") : "Not listed on the venue's website"}</p></div>
-          <div><p class="eyebrow">Capacity</p><p class="heading-s" style="margin:0">${v.seated != null ? esc(v.seated + " seated") : "Not listed"}</p><p class="small muted" style="margin:0">${esc([seatedSub, v.standing != null ? v.standing + " standing" : ""].filter(Boolean).join(" · "))}</p></div>
-          <div><p class="eyebrow">Style</p><p class="heading-s" style="margin:0">${esc(v.styles.join(" · "))}</p><p class="small muted" style="margin:0">${v.styles.length > 1 ? "A venue can have more than one style" : ""}</p></div>
+          <div><p class="eyebrow">Price</p><p class="heading-s" style="margin:0">${esc(priceLine(v))}</p></div>
+          <div><p class="eyebrow">Capacity</p><p class="heading-s" style="margin:0">${v.seated != null ? esc(seatRange(v) + " seated") : "Not listed"}</p></div>
+          <div><p class="eyebrow">Style</p><p class="heading-s" style="margin:0">${esc(v.styles.join(" · "))}</p></div>
         </div>
       </div>
       <div class="wrap venue-body">
         <div class="venue-main">
-          <p class="quote">“${esc(v.description)}”</p>
+          <p class="quote">${esc(v.description)}</p>
           ${featuresSection(v)}
           ${detailsSection(v, q)}
         </div>
@@ -947,6 +1003,12 @@
       $("#close-photos").onclick = hideOverlay;
     } else if (act === "to-similar") { e.preventDefault(); $("#similar").scrollIntoView({ behavior: "smooth" }); }
     else if (act === "to-details") { e.preventDefault(); const d = $("#details"); d.open = true; d.scrollIntoView({ behavior: "smooth" }); }
+    else if (act === "jump") {
+      // "More information": open Detailed information and bring the filter's own row into view
+      e.preventDefault();
+      const t = document.getElementById(el.dataset.to);
+      if (t) { const d = t.closest("details"); if (d) d.open = true; t.scrollIntoView({ behavior: "smooth", block: "center" }); t.classList.add("hit"); setTimeout(() => t.classList.remove("hit"), 2500); }
+    }
   });
   // Re-render Explore in place (keeps open groups), updating the URL without a new history entry.
   function refreshExplore() {

@@ -1,0 +1,714 @@
+{
+ "id": "grove-station",
+ "name": "Grove Station",
+ "city": "Pleasant Grove",
+ "description": "A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar.",
+ "styles": [
+  "Modern"
+ ],
+ "priceMin": 2800,
+ "priceMax": 5500,
+ "priceBasis": "rental",
+ "priceText": "Mon $2,800; Wed–Thu $3,400; Fri–Sat $4,300; Premium $4,000–$5,500",
+ "seated": null,
+ "seatedMin": null,
+ "seatedText": "Not stated",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Drink / beverage station": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "After-event cleaning"
+  },
+  "Features > Event coordinator": {
+   "status": "addon",
+   "wording": "Day of Coordinator — $500 (included in Premium)"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The Indoor Space"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Front and back patios with outdoor seating"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Food trucks allowed"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Unlimited: $4.25/person; Single: $2.25/person"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "273 N County Blvd, Pleasant Grove, UT 84062"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern\nElegant\nFun"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Mon $2,800; Wed–Thu $3,400; Fri–Sat $4,300; Premium $4,000–$5,500"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners) — 3pm-10pm:\nMonday — $2,800\nWednesday-Thursday — $3,400\nFriday-Saturday — $4,300\nPremium rental (standard plus all rental add-ons) — Monday $4,000 / Wednesday-Thursday $4,600 / Friday-Saturday $5,500\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "The Indoor Space"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Front and back patios with outdoor seating"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Not stated"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "After-event cleaning"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "addon",
+     "value": "Day of Coordinator — $500 (included in Premium)"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Tables (arranged before arrival)\nChairs\nTable runners of choice\nAvailable venue decor\nOutdoor seating"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Day-of coordinator — $500 (included in Premium)\nStaff during event — $35/hour each"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included (after-event cleaning)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound system (included in standard rental)"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Linens for wood tables — $18 each\nDecor set before arrival — $100\nAdditional tables — $30 each\nDecorative drink dispensers — $10/$20 each\nOutdoor propane heaters — $75 each"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Soda shop (flavored sodas, mocktails) — from $2.25 per person\nFood trucks can be hosted on the front patio\nFront and back patios\nEntry hall with private room and bathrooms\nUnlimited planning meetings"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "rent",
+     "value": "Unlimited: $4.25/person; Single: $2.25/person"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Food trucks allowed"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "No in-house catering stated; site lists preferred caterers\nFood trucks allowed on the front patio as an alternative to traditional catering\nSoda shop drinks available (paid)"
+    }
+   ]
+  },
+  {
+   "id": "soda-shop-drink-catering",
+   "title": "Soda shop / drink catering",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "soda-shop-drink-catering-0",
+     "label": "Unlimited",
+     "value": "Price: $4.25/person"
+    },
+    {
+     "id": "soda-shop-drink-catering-1",
+     "label": "Single",
+     "value": "Price: $2.25/person"
+    },
+    {
+     "id": "soda-shop-drink-catering-2",
+     "label": "Specialty, vintage, milks",
+     "value": "Price: $0.50/person"
+    },
+    {
+     "id": "soda-shop-drink-catering-3",
+     "label": "Mocktails",
+     "value": "Price: $3.25/person"
+    },
+    {
+     "id": "soda-shop-drink-catering-4",
+     "label": "Custom, hot drinks, floats",
+     "value": "Price: $1.00/person"
+    },
+    {
+     "id": "soda-shop-drink-catering-5",
+     "label": "Extra serving time",
+     "value": "Price: $150/hour"
+    },
+    {
+     "id": "soda-shop-drink-catering-6",
+     "label": "Mobile bar per gallon",
+     "value": "Mixed soda: $60 · Specialty: $75 · Hot: $80 · Floats: $80 · Mocktails: $95"
+    }
+   ]
+  },
+  {
+   "id": "food-trucks",
+   "title": "Food trucks",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "food-trucks-0",
+     "label": "Food trucks",
+     "value": "Front patio can host one or more food trucks"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "3pm-10pm\nOptional 11am start (+$600)\nPriced days: Monday, Wednesday-Thursday, Friday-Saturday"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "7 hours (11 hours with 11am start)"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Private parking lot"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Standard rental includes an onsite venue manager\nPremium rental includes all rental add-ons\nTuesday and Sunday rentals are not priced on the site"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-608-6002\nEmail: grovestationpg@gmail.com\nInstagram: @grovestationpg"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://grovestationpg.com/venue-2/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "grove-station",
+  "Venue Name": "Grove Station",
+  "link": "https://grovestationpg.com/venue-2/",
+  "City": "Pleasant Grove",
+  "Full Address": "273 N County Blvd, Pleasant Grove, UT 84062",
+  "Description": "A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar.",
+  "Price Low": "2800",
+  "Price High": "5500",
+  "Price Basis": "rental",
+  "Standard Price Range": "Mon $2,800; Wed–Thu $3,400; Fri–Sat $4,300; Premium $4,000–$5,500",
+  "Seated Capacity": "Not stated",
+  "Packages and Prices": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners) — 3pm-10pm:\nMonday — $2,800\nWednesday-Thursday — $3,400\nFriday-Saturday — $4,300\nPremium rental (standard plus all rental add-ons) — Monday $4,000 / Wednesday-Thursday $4,600 / Friday-Saturday $5,500\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each",
+  "Time slots": "3pm-10pm\nOptional 11am start (+$600)\nPriced days: Monday, Wednesday-Thursday, Friday-Saturday",
+  "Length of Rental": "7 hours (11 hours with 11am start)",
+  "Style": "Modern\nElegant\nFun",
+  "Other Decor Included": "Tables (arranged before arrival)\nChairs\nTable runners of choice\nAvailable venue decor\nOutdoor seating",
+  "Other Decor for Rent": "Linens for wood tables — $18 each\nDecor set before arrival — $100\nAdditional tables — $30 each\nDecorative drink dispensers — $10/$20 each\nOutdoor propane heaters — $75 each",
+  "parking?": "Private parking lot",
+  "sound system": "Yes\nSound system (included in standard rental)",
+  "extras": "Soda shop (flavored sodas, mocktails) — from $2.25 per person\nFood trucks can be hosted on the front patio\nFront and back patios\nEntry hall with private room and bathrooms\nUnlimited planning meetings",
+  "cleanup crew": "Included (after-event cleaning)",
+  "Catering": "No in-house catering stated; site lists preferred caterers\nFood trucks allowed on the front patio as an alternative to traditional catering\nSoda shop drinks available (paid)",
+  "Event Coordinator": "Day-of coordinator — $500 (included in Premium)\nStaff during event — $35/hour each",
+  "Important Notes": "Standard rental includes an onsite venue manager\nPremium rental includes all rental add-ons\nTuesday and Sunday rentals are not priced on the site",
+  "Contact Information": "Phone: 801-608-6002\nEmail: grovestationpg@gmail.com\nInstagram: @grovestationpg"
+ }
+}

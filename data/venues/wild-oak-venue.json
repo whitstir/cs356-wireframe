@@ -1,0 +1,754 @@
+{
+ "id": "wild-oak-venue",
+ "name": "The Wild Oak",
+ "city": "Lindon",
+ "description": "A family-run Lindon venue in a repurposed historic apple-orchard warehouse on 1.6 acres, with a European-inspired ballroom (19-foot ceilings), landscaped grounds with a pergola patio, fire pit and marriage grove, and in-house bar, decor, floral and day-of coordinating services.",
+ "styles": [
+  "Modern"
+ ],
+ "priceMin": 3000,
+ "priceMax": 7000,
+ "priceBasis": "rental",
+ "priceText": "Seasonal all-day wedding rentals $3,000–$7,000",
+ "seated": 150,
+ "seatedMin": 150,
+ "seatedText": "150 seated indoors",
+ "standing": 300,
+ "standingMin": 250,
+ "standingText": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)",
+ "decor": {
+  "Centerpieces": [
+   "rent"
+  ],
+  "Ceremony arch / backdrop": [
+   "included",
+   "rent"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "rent"
+  ],
+  "Signs / easels": [
+   "rent"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "included",
+   "rent"
+  ],
+  "Firepit": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Close parking and handicap parking"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Studio quality sound system with microphones"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Studio quality sound system with microphones"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride & Groom private rooms"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Bride & Groom private rooms"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Interiors with Venetian plaster"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor patio under a pergola"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Licensed, insured caterers (preferred list optional)"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Table centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Rock waterfall and wooden arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fireplace"
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "In-house floral design"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "Welcome signs, seating charts, custom menus"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Outdoor patio under a pergola with bistro lights"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Hand planed black walnut cake table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included+rent",
+   "wording": "Glass bar; outdoor wood bar"
+  },
+  "Other > Firepit": {
+   "status": "included",
+   "wording": "Gas fire pit and gathering areas"
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A family-run Lindon venue in a repurposed historic apple-orchard warehouse on 1.6 acres, with a European-inspired ballroom (19-foot ceilings), landscaped grounds with a pergola patio, fire pit and marriage grove, and in-house bar, decor, floral and day-of coordinating services."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "450 W Gillman Ln, Lindon, UT 84042"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Timeless elegance\nModern design meets rustic charm\nEuropean-inspired ballroom"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Seasonal all-day wedding rentals $3,000–$7,000"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "All-day wedding rental (10am-11pm):\nPeak season (April-October) Monday-Wednesday — $6,000\nPeak season Thursday-Sunday — $7,000\nPeak winter (November-December) Monday-Thursday — $4,000\nPeak winter 6-hour half-day (Monday-Thursday) — $3,000\nPeak winter Friday-Sunday — $5,000\nWinter special (January-March) Monday-Thursday — $3,000\nWinter special Friday-Sunday — $4,000\nCeremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Interiors with Venetian plaster"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor patio under a pergola"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "150 seated indoors"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride & Groom private rooms"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Bride & Groom private rooms"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's private room\nGroom's private room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Hand-planed black walnut tables and reclaimed 60\" round tables\n150 cross-back wood chairs\nBlack walnut cake table\nLive-edge walnut buffet table and 2 wood buffet tables\nGuestbook table\nGift table\nGlass bar (indoor) and wood bar (outdoor)\nBistro lights on pergola patio\nWooden arch by rock waterfall\nRed brick fireplace\nGas fire pit"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Venue decor team sets up and cleans up selected decor\nClean-up crew — $150 (required when using food trucks)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Studio quality sound system with microphones"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Studio quality sound system with microphones"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nStudio-quality indoor sound system with microphones\nOutdoor sound system and microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "rent",
+     "value": "Table centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included+rent",
+     "value": "Rock waterfall and wooden arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Fireplace"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "rent",
+     "value": "In-house floral design"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "rent",
+     "value": "Welcome signs, seating charts, custom menus"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Outdoor patio under a pergola with bistro lights"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Decor packages with a la carte items (prices not stated)\nIn-house florals: centerpieces, bouquets, ceremony arch and aisle arrangements (prices not stated)\nGraphic design: welcome signs, seating charts, menus (prices not stated)\nBar service, alcoholic and non-alcoholic (price not stated)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Mezzanine for DJ or bouquet toss\nPergola-covered patio\nTrellis over pea-gravel path\nMarriage grove\nFood truck pad with electricity\nWide outdoor entry stairs for group photos\n4 antique tables for family-style dining\nDay-of coordinating service (in-house add-on, price not stated)\nCeremony add-on — $350"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Hand planed black walnut cake table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "included+rent",
+     "value": "Glass bar; outdoor wood bar"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "included",
+     "value": "Gas fire pit and gathering areas"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Licensed, insured caterers (preferred list optional)"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Preferred caterer list; outside caterers allowed if licensed, insured and approved by the venue\nAny food truck welcome ($150 clean-up crew required)\nClient handles all communication with the caterer"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Large kitchen for caterers and vendors"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Venue holds a liquor license; in-house bar service (alcoholic and non-alcoholic) offered as an add-on"
+    }
+   ]
+  },
+  {
+   "id": "catering-policy",
+   "title": "Catering policy",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "catering-policy-0",
+     "label": "Preferred caterers",
+     "value": "Marvellous Catering; Lux Catering; Magleby's Catering; 4 Forks Catering; Utah Celebrations Catering; El Camino Kitchen; State Street Catering; Savory Peaks Catering"
+    },
+    {
+     "id": "catering-policy-1",
+     "label": "Outside caterer",
+     "value": "Allowed if licensed, insured and approved"
+    },
+    {
+     "id": "catering-policy-2",
+     "label": "Food trucks",
+     "value": "Any food truck; $150 clean-up crew required"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "All-day rental 10am-11pm\nBefore 10am — $100/hour; after 11pm — $350/hour\nSunday by inquiry"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "13 hours (all-day)\n6-hour half-day (November-December, Monday-Thursday)"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Set-up and take-down must fit within rental hours\nPeak-season Thursday-Saturday weddings require at least 2 add-ons\nOutside caterers must be licensed, insured and approved\nFood trucks require the $150 clean-up crew"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Close parking and handicap parking"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Accessible parking"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Close parking and handicap parking\nReserved parking for bride and groom\nLot holds 72 cars plus overflow parking (2023 event brochure)"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Event hostess on site during events (2023 event brochure)\nSeparate hourly pricing for non-wedding events\nCapacity figures differ: 250 revolving guests (wedding page) vs 150 seated / 300 flowing (2023 brochure)"
+    }
+   ]
+  },
+  {
+   "id": "in-house-services",
+   "title": "In-house services",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "in-house-services-0",
+     "label": "Services",
+     "value": "Bar service (alcoholic and non-alcoholic); Day-of coordinating; Decor packages + a la carte; Florals; Graphic design"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-810-8829\nEmail: info@thewildoakvenue.com\nInstagram: @thewildoak"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://thewildoakvenue.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "wild-oak-venue",
+  "Venue Name": "The Wild Oak",
+  "link": "https://thewildoakvenue.com/",
+  "City": "Lindon",
+  "Full Address": "450 W Gillman Ln, Lindon, UT 84042",
+  "Description": "A family-run Lindon venue in a repurposed historic apple-orchard warehouse on 1.6 acres, with a European-inspired ballroom (19-foot ceilings), landscaped grounds with a pergola patio, fire pit and marriage grove, and in-house bar, decor, floral and day-of coordinating services.",
+  "Price Low": "3000",
+  "Price High": "7000",
+  "Price Basis": "rental",
+  "Standard Price Range": "Seasonal all-day wedding rentals $3,000–$7,000",
+  "Seated Low": "150",
+  "Seated High": "150",
+  "Seated Capacity": "150 seated indoors",
+  "Standing Low": "250",
+  "Standing High": "300",
+  "Standing Capacity": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)",
+  "Packages and Prices": "All-day wedding rental (10am-11pm):\nPeak season (April-October) Monday-Wednesday — $6,000\nPeak season Thursday-Sunday — $7,000\nPeak winter (November-December) Monday-Thursday — $4,000\nPeak winter 6-hour half-day (Monday-Thursday) — $3,000\nPeak winter Friday-Sunday — $5,000\nWinter special (January-March) Monday-Thursday — $3,000\nWinter special Friday-Sunday — $4,000\nCeremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150",
+  "Time slots": "All-day rental 10am-11pm\nBefore 10am — $100/hour; after 11pm — $350/hour\nSunday by inquiry",
+  "Length of Rental": "13 hours (all-day)\n6-hour half-day (November-December, Monday-Thursday)",
+  "Style": "Timeless elegance\nModern design meets rustic charm\nEuropean-inspired ballroom",
+  "Other Decor Included": "Hand-planed black walnut tables and reclaimed 60\" round tables\n150 cross-back wood chairs\nBlack walnut cake table\nLive-edge walnut buffet table and 2 wood buffet tables\nGuestbook table\nGift table\nGlass bar (indoor) and wood bar (outdoor)\nBistro lights on pergola patio\nWooden arch by rock waterfall\nRed brick fireplace\nGas fire pit",
+  "Other Decor for Rent": "Decor packages with a la carte items (prices not stated)\nIn-house florals: centerpieces, bouquets, ceremony arch and aisle arrangements (prices not stated)\nGraphic design: welcome signs, seating charts, menus (prices not stated)\nBar service, alcoholic and non-alcoholic (price not stated)",
+  "parking?": "Close parking and handicap parking\nReserved parking for bride and groom\nLot holds 72 cars plus overflow parking (2023 event brochure)",
+  "sound system": "Yes\nStudio-quality indoor sound system with microphones\nOutdoor sound system and microphone",
+  "extras": "Mezzanine for DJ or bouquet toss\nPergola-covered patio\nTrellis over pea-gravel path\nMarriage grove\nFood truck pad with electricity\nWide outdoor entry stairs for group photos\n4 antique tables for family-style dining\nDay-of coordinating service (in-house add-on, price not stated)\nCeremony add-on — $350",
+  "cleanup crew": "Venue decor team sets up and cleans up selected decor\nClean-up crew — $150 (required when using food trucks)",
+  "Accessibility": "Accessible parking",
+  "Catering": "Preferred caterer list; outside caterers allowed if licensed, insured and approved by the venue\nAny food truck welcome ($150 clean-up crew required)\nClient handles all communication with the caterer",
+  "Prep Area": "Large kitchen for caterers and vendors",
+  "Alcohol policy": "Venue holds a liquor license; in-house bar service (alcoholic and non-alcoholic) offered as an add-on",
+  "Bride/Groom Rooms": "Bride's private room\nGroom's private room",
+  "Restrictions": "Set-up and take-down must fit within rental hours\nPeak-season Thursday-Saturday weddings require at least 2 add-ons\nOutside caterers must be licensed, insured and approved\nFood trucks require the $150 clean-up crew",
+  "Important Notes": "Event hostess on site during events (2023 event brochure)\nSeparate hourly pricing for non-wedding events\nCapacity figures differ: 250 revolving guests (wedding page) vs 150 seated / 300 flowing (2023 brochure)",
+  "Contact Information": "Phone: 801-810-8829\nEmail: info@thewildoakvenue.com\nInstagram: @thewildoak"
+ }
+}

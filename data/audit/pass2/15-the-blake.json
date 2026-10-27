@@ -1,0 +1,223 @@
+{
+ "row": 15,
+ "id": "the-blake",
+ "official_name": {
+  "name": "The Blake",
+  "source_url": "https://www.theblakevenue.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound Room (Microphone + Speakers)",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/inclusions"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "free amenities such as tables, chairs, sound system",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/inclusions"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal Suite",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/inclusions"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "spacious reception areas",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/the-space"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Terrace (Outdoor)'; 'included at no additional charge",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/the-space/the-terrace"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "we allow any vendors of your choice, including food trucks",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/pricing"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Hexagon Wedding Arch'; 'Copper Arch (Rental)",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/the-space/decor"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Features: Greenery wall'; 'Bud Vases",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/the-space/the-gallery"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easels'; 'Neon Sign - \"Mr. and Mrs.",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/inclusions"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Candles",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/inclusions"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "included+rent",
+   "wording": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/the-space/decor"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Selfie Photo Booth (Rental)",
+   "price": "",
+   "source_url": "https://www.theblakevenue.com/the-space/decor"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1700,
+  "high": 2600,
+  "basis": "rental",
+  "wording": "Day-of-week rentals $1,700–$2,600",
+  "math": ""
+ },
+ "seated": {
+  "low": 120,
+  "high": 120,
+  "wording": "120 chairs included (seated maximum not stated)"
+ },
+ "standing": {
+  "low": 300,
+  "high": 350,
+  "wording": "300-350 (total venue capacity; seated vs standing not stated)"
+ },
+ "row_updates": {
+  "Venue Name": "The Blake"
+ }
+}

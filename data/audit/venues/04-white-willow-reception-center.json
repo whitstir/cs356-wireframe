@@ -1,0 +1,992 @@
+{
+ "row": 4,
+ "id": "white-willow-reception-center",
+ "name": "White Willow Reception Center",
+ "website": "https://www.whitewillowweddings.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.whitewillowweddings.com/ (home: history, style, contact)",
+  "https://www.whitewillowweddings.com/new-index (duplicate of home)",
+  "https://www.whitewillowweddings.com/pricing (rates, inclusions, fees, optional items, policies)",
+  "https://www.whitewillowweddings.com/photo-gallery (Instagram-fed gallery; captions not used as evidence)",
+  "https://www.whitewillowweddings.com/contact-us (address, phone, email)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "342 N. 500 W., Provo, UT 84601",
+  "note": "Provo, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "White Willow Reception Center",
+   "verified_value": "White Willow Reception Center",
+   "action": "confirmed",
+   "change_origin": "Site title and footer.",
+   "source_url": "https://www.whitewillowweddings.com/",
+   "evidence": "White Willow Reception Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.whitewillowweddings.com/",
+   "verified_value": "https://www.whitewillowweddings.com/",
+   "action": "confirmed",
+   "change_origin": "Site loads (HTTP 200).",
+   "source_url": "https://www.whitewillowweddings.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen.",
+   "verified_value": "A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen.",
+   "action": "confirmed",
+   "change_origin": "Home page (1904 mansion, stained glass, woodwork, ballroom, French farmhouse decor) and Pricing page (gardens, parlors, serving kitchen).",
+   "source_url": "https://www.whitewillowweddings.com/",
+   "evidence": "historic mansion home, built in 1904 ... beautiful stained glass, amazing handcrafted woodwork",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Patio space' is implied only by the patio-heater add-on (medium)."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,000-$2,350",
+   "verified_value": "$1,000-$2,350",
+   "action": "confirmed",
+   "change_origin": "Pricing page: lowest Mon-Wed morning, highest Fri-Sat all-day.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Monday - Wednesday $1,000 ... Friday - Saturday $2,350",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Min and max match, but the rates in between were wrong (see Packages)."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Ballroom, buffet room, two parlors, gardens, patio, bride's room, groom's room, serving kitchen, tables, white folding chairs, cake table, cake stand, gift table, buffet tables, centerpieces, votives, artificial florals, silk greenery, curtains, backdrop, easels, TV, stereo, 1-hour consultation, host or hostess — Sun-Thu morning 10am-3pm $1,000\nSame inclusions — Fri-Sat morning 10am-3pm $1,350\nSame inclusions — Sun-Thu evening 4pm-10pm $1,000\nSame inclusions — Fri-Sat evening 4pm-10pm $1,500\nSame inclusions — Sun-Thu all-day 10am-10pm $1,500\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nAdditional rental hours — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours\nExtra food-service hours — $100 per hour\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35",
+   "verified_value": "Use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site — Mon-Wed morning 10am-3pm $1,000\nSame inclusions — Thu morning 10am-3pm $1,100\nSame inclusions — Fri-Sat morning 10am-3pm $1,200\nSame inclusions — Mon-Wed evening 4pm-10pm $1,350\nSame inclusions — Thu evening 4pm-10pm $1,600\nSame inclusions — Fri-Sat evening 4pm-10pm $1,850\nSame inclusions — Mon-Wed all-day 10am-10pm $1,850\nSame inclusions — Thu all-day 10am-10pm $2,100\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: day groups are Mon-Wed / Thu / Fri-Sat (not Sun-Thu / Fri-Sat) and every evening and all-day rate differs from the old data; inclusions rewritten from the page (no curtains, backdrop, votives, artificial/silk florals, gift or buffet tables are listed); added the $50 floor cleaning fee.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "evening RENTAL: (4 Pm-10 pm)* Monday - Wednesday $1,350 Thursday $1,600 Friday - Saturday $1,850",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sunday is not listed on the pricing page."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "100",
+   "verified_value": "100",
+   "action": "confirmed",
+   "change_origin": "Pricing page lists 100 white chairs and 10 round tables; no capacity number is stated.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "10 - 60\" round tables ... 100 white chairs",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Inferred from included seating; extra table-and-10-chair sets rent for $35, so max seated may be higher. See open questions."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Sun-Thu 10am-3pm\nFri-Sat 10am-3pm\nSun-Thu 4pm-10pm\nFri-Sat 4pm-10pm\nSun-Thu 10am-10pm\nFri-Sat 10am-10pm",
+   "verified_value": "Mon-Wed 10am-3pm\nThu 10am-3pm\nFri-Sat 10am-3pm\nMon-Wed 4pm-10pm\nThu 4pm-10pm\nFri-Sat 4pm-10pm\nMon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: day groups are Mon-Wed, Thu, Fri-Sat; Sunday is not listed.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Morning RENTAL: 10 AM - 3 PM* Monday - Wednesday ... Thursday ... Friday - Saturday",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "5-12 hours",
+   "verified_value": "5-12 hours",
+   "action": "confirmed",
+   "change_origin": "Pricing page blocks (5-hour morning, 6-hour evening, 12-hour all-day).",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "10 AM - 3 PM ... 10 AM -10 PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic\nVintage\nFrench farmhouse",
+   "verified_value": "Historic\nVintage\nFrench farmhouse",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.whitewillowweddings.com/",
+   "evidence": "Vintage charm in the Heart of Provo ... historic mansion ... French farmhouse decor",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "LINENS ARE AN ADDITIONAL COST (Linens must be rented through the venue)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "60-inch round tables\nWhite folding chairs\nCake table\nCake stand\nGift table\nBuffet tables\nTable centerpieces\nVotives\nArtificial floral arrangements\nSilk greenery\nCurtains\nBackdrop\nEasels",
+   "verified_value": "10 60-inch round tables\n2 6-foot banquet tables\n8 adjustable cocktail tables\n100 white chairs\nCarved cake table\nChoice of cake stand\nCenterpiece bases (wood slices, silver chargers, golden mirrors and more)\nGreenery (eucalyptus, evergreen, boxwood and more)\nFlowers (roses, baby's breath, sunflowers, peonies and more)\nLanterns (antique, wooden, aged metal and more)\nTable easels\nFloor easels\nSigns\nChalkboards\nGift card holders",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page inclusions: replaced invented items (curtains, backdrop, votives, artificial florals, silk greenery, gift table, buffet tables) with the listed tables, centerpiece bases, greenery, flowers, lanterns, easels, signs, chalkboards and gift card holders.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Create your own unique centerpieces using our variety of: bases ..., greenery ..., flowers ..., lanterns",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site lists 'fairy lights' as one lantern type; left out of the cell so the String-lights rule does not fire."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Additional 60-inch round table and 10 chairs — $35",
+   "verified_value": "Additional 60-inch round table and 10 chairs — $35 per set\nLinens — extra cost, must be rented through venue",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added linens (extra cost, rented through venue).",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "LINENS ARE AN ADDITIONAL COST",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Linen price not stated."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Pricing page lists gardens in facility use; patio heaters offered.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Use of facility including: ... Parlors, Gardens",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Outdoor use implied by gardens and patio heaters."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes\n$6 per dozen pre-ordered\n$9 per dozen day of event",
+   "verified_value": "Yes\n$6 per dozen pre-ordered\n$9 per dozen day of event",
+   "action": "confirmed",
+   "change_origin": "Pricing page optional items.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Sparklers for send-off $6 per dozen (pre-order) / $9 per dozen (day of event)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "342 N 500 W, Provo, UT 84601",
+   "verified_value": "342 N 500 W, Provo, UT 84601",
+   "action": "confirmed",
+   "change_origin": "Contact page and footer.",
+   "source_url": "https://www.whitewillowweddings.com/contact-us",
+   "evidence": "342 N. 500 W. Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whitewillowweddings.com/contact-us",
+   "evidence": "Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nStereo\nTV",
+   "verified_value": "Yes\nSound system with wireless microphone (connects to your phone or device)\nTV (connects to YouTube for slideshows)",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: sound system includes a wireless microphone; old cell said 'Stereo'.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Sound system with wireless microphone (connects to your phone or device for easy playlist playback)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Food service and cleanup staff — $300 for up to 3 hours\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35",
+   "verified_value": "Food service and cleanup staff — $300 for up to 3 hours\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35",
+   "action": "confirmed",
+   "change_origin": "Pricing page optional items.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Two-person staff to serve and clean up your food: $300 ... Ceremony Change-Over $100 2 Patio Heaters $30",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Extra cost\nTwo-person food service and cleanup staff: $300 for up to 3 hours\nExtra hours: $100 per hour",
+   "verified_value": "Staff set up and take down all venue-provided inventory\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nFloor cleaning fee — $50 on all rentals\nKitchen cleaning is the renter's responsibility",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: staff take down venue inventory (included); food cleanup staff is paid; $50 floor cleaning fee; kitchen cleaning is the renter's job.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Our staff sets up and takes down all inventory that we provide. ... A $50 floor cleaning fee is added to all rentals.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "$500 non-refundable deposit\nBalance due two weeks before event",
+   "verified_value": "$500 non-refundable deposit at booking\nBalance due two weeks before event",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "$500 Non-Refundable Deposit required at booking. Balance due two weeks prior to event date.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Serving kitchen available\nFridge, freezer and microwave included\nNo oven or cooking\nKitchen cleaning is renter responsibility",
+   "verified_value": "Self-catered: no in-house catering listed; outside food deliveries allowed during the rental period\nServing kitchen with fridge, freezer and microwave\nNo oven or cooking\nKitchen cleaning is renter responsibility",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: no catering is offered and outside food deliveries are expected during the rental period, so couples bring their own food/caterer.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "OUTSIDE DELIVERIES, IE CAKES, FOOD, ETC.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Site never says 'outside caterer' outright; inferred from deliveries and food-serving staff add-on."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Serving kitchen\nFridge\nFreezer\nMicrowave\nNo oven or cooking",
+   "verified_value": "Serving kitchen\nFridge\nFreezer\nMicrowave\nNo oven or cooking",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Serving Kitchen with fridge, freezer, microwave, NO OVEN or COOKING",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "No alcohol permitted",
+   "verified_value": "No alcohol permitted",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "No Alcohol is permitted on site.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "1-hour personalized consultation\nHost or hostess on site during event",
+   "verified_value": "1-hour personalized consultation\nHost or hostess on site during event",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "1 hour Personalized consultation Host/Hostess on site during event",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's room\nGroom's room",
+   "verified_value": "Bride's room\nGroom's room",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Bride’s Room, Groom’s Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No cooking in serving kitchen\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period",
+   "verified_value": "No cooking in serving kitchen\nNo alcohol on site\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added no-alcohol rule.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "No Alcohol is permitted on site.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Historic 1904 mansion\n95% of home is original\nBallroom added in 1998",
+   "verified_value": "Historic 1904 mansion\n95% of home is original\nBallroom added in 1998\n$50 floor cleaning fee added to all rentals",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added the $50 floor cleaning fee.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "A $50 floor cleaning fee is added to all rentals.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com",
+   "verified_value": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whitewillowweddings.com/contact-us",
+   "evidence": "Text or Call: (801) 404-9840 Email: events@whitewillowweddings.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "$1000-$2350",
+   "verified_value": "$1000-$2350",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Monday - Wednesday $1,000 ... Friday - Saturday $2,350",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "100",
+   "verified_value": "100",
+   "action": "confirmed",
+   "change_origin": "Pricing page: 100 white chairs included.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "100 white chairs",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "No stated capacity; inferred from included chairs."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.whitewillowweddings.com/contact-us",
+   "evidence": "Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Pricing page: sound system comes with a wireless microphone.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Sound system with wireless microphone",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Old sound system cell said only 'Stereo'."
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Sound system with wireless microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "TV (connects to YouTube for easy slideshow presentation)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Bride’s Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Groom’s Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Pricing page: only venue-inventory takedown is included; food cleanup is $300 and a $50 floor cleaning fee applies.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Two-person staff to serve and clean up your food: $300",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Human decision: staff do take down venue inventory at no extra cost."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "1 hour Personalized consultation Host/Hostess on site during event",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Consultation plus on-site host; not a full coordinator."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page: ballroom, parlors.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Ballroom; Buffet Room, Parlors",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page: gardens in facility use; patio heaters offered.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Parlors, Gardens",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "LINENS ARE AN ADDITIONAL COST",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: no catering offered and outside food deliveries are expected; couples bring their own food.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "OUTSIDE DELIVERIES, IE CAKES, FOOD, ETC.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Inferred, not stated as 'any caterer'. New Catering text says 'Self-catered' so the rule matches. Human check advised."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page: venue sells sparklers for send-off.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Sparklers for send-off $6 per dozen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sparklers are sold by the venue; sparkler exits are allowed."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Create your own unique centerpieces using our variety of",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: 'Backdrop' was invented by the AI collector; the Pricing page lists no backdrop or arch.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "An arch appears only in an Instagram caption on the gallery page (not allowed as evidence)."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: 'Curtains' was invented by the AI collector; the Pricing page lists no curtains or draping.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "greenery (eucalyptus, evergreen, boxwood, accent arrangements & more), flowers (roses",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site does not say artificial/silk; wording fixed."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "table easels floor easels signs chalkboards",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page lists lanterns (old data said votives).",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "lanterns (antique, fairy lights, wooden, aged metal, & more)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on string lights; 'fairy lights' is listed only as a lantern style for centerpieces.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "lanterns (antique, fairy lights, wooden...)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "Carved Cake Table, & choice of Cake Stand",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.whitewillowweddings.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "White Willow Reception Center",
+  "link": "https://www.whitewillowweddings.com/",
+  "Description": "A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen.",
+  "Standard Price Range": "$1,000-$2,350",
+  "Packages and Prices": "Use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site — Mon-Wed morning 10am-3pm $1,000\nSame inclusions — Thu morning 10am-3pm $1,100\nSame inclusions — Fri-Sat morning 10am-3pm $1,200\nSame inclusions — Mon-Wed evening 4pm-10pm $1,350\nSame inclusions — Thu evening 4pm-10pm $1,600\nSame inclusions — Fri-Sat evening 4pm-10pm $1,850\nSame inclusions — Mon-Wed all-day 10am-10pm $1,850\nSame inclusions — Thu all-day 10am-10pm $2,100\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue",
+  "Seated Capacity": "100",
+  "Standing Capacity": "",
+  "Time slots": "Mon-Wed 10am-3pm\nThu 10am-3pm\nFri-Sat 10am-3pm\nMon-Wed 4pm-10pm\nThu 4pm-10pm\nFri-Sat 4pm-10pm\nMon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
+  "Length of Rental": "5-12 hours",
+  "Style": "Historic\nVintage\nFrench farmhouse",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "10 60-inch round tables\n2 6-foot banquet tables\n8 adjustable cocktail tables\n100 white chairs\nCarved cake table\nChoice of cake stand\nCenterpiece bases (wood slices, silver chargers, golden mirrors and more)\nGreenery (eucalyptus, evergreen, boxwood and more)\nFlowers (roses, baby's breath, sunflowers, peonies and more)\nLanterns (antique, wooden, aged metal and more)\nTable easels\nFloor easels\nSigns\nChalkboards\nGift card holders",
+  "Other Decor for Rent": "Additional 60-inch round table and 10 chairs — $35 per set\nLinens — extra cost, must be rented through venue",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes\n$6 per dozen pre-ordered\n$9 per dozen day of event",
+  "parking?": "",
+  "Full Address": "342 N 500 W, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "Yes\nSound system with wireless microphone (connects to your phone or device)\nTV (connects to YouTube for slideshows)",
+  "extras": "Food service and cleanup staff — $300 for up to 3 hours\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35",
+  "cleanup crew": "Staff set up and take down all venue-provided inventory\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nFloor cleaning fee — $50 on all rentals\nKitchen cleaning is the renter's responsibility",
+  "Accessibility": "",
+  "Deposit Policy": "$500 non-refundable deposit at booking\nBalance due two weeks before event",
+  "Catering": "Self-catered: no in-house catering listed; outside food deliveries allowed during the rental period\nServing kitchen with fridge, freezer and microwave\nNo oven or cooking\nKitchen cleaning is renter responsibility",
+  "Prep Area": "Serving kitchen\nFridge\nFreezer\nMicrowave\nNo oven or cooking",
+  "Alcohol policy": "No alcohol permitted",
+  "Event Coordinator": "1-hour personalized consultation\nHost or hostess on site during event",
+  "Bride/Groom Rooms": "Bride's room\nGroom's room",
+  "Restrictions": "No cooking in serving kitchen\nNo alcohol on site\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period",
+  "Important Notes": "Historic 1904 mansion\n95% of home is original\nBallroom added in 1998\n$50 floor cleaning fee added to all rentals",
+  "Contact Information": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Rustic"
+  ],
+  "suggested": [
+   "Classic",
+   "Rustic"
+  ],
+  "change": "none",
+  "reasoning": "Description says historic 1904 mansion (Classic) with French farmhouse character (Rustic cue: farmhouse). Gardens are a feature but the setting does not center on nature, so not Outdoors.",
+  "site_cues": [
+   "Vintage charm in the Heart of Provo",
+   "historic mansion home, built in 1904",
+   "inviting French farmhouse decor"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Time-block pricing",
+   "why": "Rates vary by block and day group",
+   "data": {
+    "rates": [
+     {
+      "block": "Morning 10am-3pm",
+      "Mon-Wed": "$1,000",
+      "Thu": "$1,100",
+      "Fri-Sat": "$1,200"
+     },
+     {
+      "block": "Evening 4pm-10pm",
+      "Mon-Wed": "$1,350",
+      "Thu": "$1,600",
+      "Fri-Sat": "$1,850"
+     },
+     {
+      "block": "All day 10am-10pm",
+      "Mon-Wed": "$1,850",
+      "Thu": "$2,100",
+      "Fri-Sat": "$2,350"
+     }
+    ],
+    "fees": [
+     {
+      "name": "Floor cleaning (all rentals)",
+      "price": "$50"
+     },
+     {
+      "name": "Hours before 10am / after 10pm",
+      "price": "$100/hr"
+     },
+     {
+      "name": "Venue access outside rental period",
+      "price": "$100/hr"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Optional add-ons",
+   "why": "Priced optional services",
+   "data": {
+    "add_ons": [
+     {
+      "name": "Sparklers",
+      "price": "$6/dozen pre-order, $9/dozen day of"
+     },
+     {
+      "name": "Two-person food service & cleanup staff",
+      "price": "$300 up to 3 hrs, $100 each extra hour"
+     },
+     {
+      "name": "Ceremony change-over",
+      "price": "$100"
+     },
+     {
+      "name": "2 patio heaters",
+      "price": "$30"
+     },
+     {
+      "name": "Additional 60\" round table & 10 chairs",
+      "price": "$35 per set"
+     },
+     {
+      "name": "Linens",
+      "price": "extra cost (must rent through venue)"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spaces",
+   "why": "Multiple rooms included in every rental",
+   "data": {
+    "spaces": [
+     "Ballroom (added 1998)",
+     "Buffet room",
+     "Parlors",
+     "Gardens",
+     "Bride's room",
+     "Groom's room",
+     "Serving kitchen"
+    ]
+   }
+  },
+  {
+   "title": "DIY centerpiece bar",
+   "why": "Couples build centerpieces from venue stock",
+   "data": {
+    "bases": [
+     "wood slices",
+     "silver chargers",
+     "golden mirrors"
+    ],
+    "greenery": [
+     "eucalyptus",
+     "evergreen",
+     "boxwood"
+    ],
+    "flowers": [
+     "roses",
+     "baby's breath",
+     "Queen Anne",
+     "succulents",
+     "sunflowers",
+     "dahlias",
+     "peonies"
+    ],
+    "lanterns": [
+     "antique",
+     "fairy lights",
+     "wooden",
+     "aged metal"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity: the site lists 100 chairs but no capacity; extra table sets can be rented. Confirm the max seated count with the venue.",
+  "Outside catering filter set true on inference (outside food deliveries, no in-house catering). Confirm couples may use any caterer.",
+  "Cleanup crew: staff take down venue inventory for free but food cleanup is paid and a $50 floor fee applies. Team decision whether this counts as 'Cleanup crew included' (left false).",
+  "Is Sunday rental available? Not on the pricing page.",
+  "Is the patio/garden usable for ceremonies (ceremony change-over $100 suggests yes)?"
+ ]
+}

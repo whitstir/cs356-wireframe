@@ -1,0 +1,967 @@
+{
+ "row": 19,
+ "id": "ivory-hall",
+ "name": "Ivory Hall",
+ "website": "https://www.theivoryhall.com",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.theivoryhall.com (home: capacities by layout, full-day access, what's included, sound & screens, parking, cleanup, FAQs, prices)",
+  "https://www.theivoryhall.com/pricing (2027 pricing: day rates, add-ons, full included-amenities list)",
+  "https://www.theivoryhall.com/about (about: what's included, bridal room, bridal suite add-on)",
+  "https://www.theivoryhall.com/contact (contact: address, phone, email, deposit-to-hold note)",
+  "https://www.theivoryhall.com/gallery (gallery image alt text)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "388 W Center Street, Provo, UT 84601",
+  "note": ""
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Ivory Hall",
+   "verified_value": "Ivory Hall",
+   "action": "confirmed",
+   "change_origin": "Site name is 'The Ivory Hall'.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "The Ivory Hall – Wedding & Reception Venue in Provo, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Official name includes 'The'; team may want 'The Ivory Hall'."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.theivoryhall.com",
+   "verified_value": "https://www.theivoryhall.com",
+   "action": "confirmed",
+   "change_origin": "Official site loads.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "The Ivory Hall",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access.",
+   "verified_value": "A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access.",
+   "action": "confirmed",
+   "change_origin": "Home, About and Pricing pages support every element.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "4,000 sq ft great hall ... Bridal room ... Prep kitchen ... Private parking lot",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$2,500-$3,500",
+   "verified_value": "$2,500-$3,750",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page (2027 pricing): Mon-Thu $2,500, Fri & Sun $3,250, Sat $3,750.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Weekdays (Mon–Thu) $2,500 Friday & Sunday $3,250 Saturday $3,750",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Page is headed '2027 pricing'; old data had Fri/Sun $3,000 and Sat $3,500."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Full-day rental 9am-10pm with standard décor and furniture, AV equipment, on-site staff, bridal room and kitchen — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,000\nSame inclusions — Sat — $3,500\nAdditional hour — $200\nAlcohol service with licensed bartender — $300\nBridal suite add-on — $500\nDance floor package — $300",
+   "verified_value": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,250\nSame inclusions — Sat — $3,750\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page (2027 rates and add-ons list).",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Every rental includes full-day access (9 AM–10 PM) ... Night-before setup is $200/hour with a two-hour minimum",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Corrected Fri/Sun and Sat prices; added after-midnight hour rate and night-before setup; the 'Dance Floor Package' is party speakers, not a dance floor."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "300",
+   "verified_value": "150 (banquet tables)",
+   "action": "corrected",
+   "change_origin": "Official site, home page capacity list. The old value 300 is seated plus standing at once.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Seated at banquet tables 150 guests Seated for a ceremony 200 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Ceremony seating is 200 (chairs only); kept the banquet figure, as for the other venues. Ceremony count is in venue_sections."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "300 at once (seated + standing)\n500 open house across the evening",
+   "action": "added",
+   "change_origin": "Official site, home page capacity list and meta description.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "At once, seated + standing 300 guests Open house, across the night 500 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm",
+   "verified_value": "Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm",
+   "action": "confirmed",
+   "change_origin": "Pricing page: every rental 9 AM-10 PM; rates by day.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Full-day access: 9 AM – 10 PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "13 hours",
+   "verified_value": "13 hours",
+   "action": "confirmed",
+   "change_origin": "9 AM-10 PM full day.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Full-day access: 9 AM – 10 PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Modern\nBright\nFlexible",
+   "verified_value": "Modern\nBright\nFlexible",
+   "action": "confirmed",
+   "change_origin": "Home/About: 'Modern wedding & reception venue', 'bright', 'designed to flex'.",
+   "source_url": "https://www.theivoryhall.com/about",
+   "evidence": "A bright, flexible space in downtown Provo",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "FALSE",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page lists 15 white chiffon table runners but no tablecloths or napkins; tables are wood banquet tables.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "15 white chiffon table runners",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Runners are included (kept in Other Decor Included). Human decision: does a runner set count as 'linens included'?"
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "200 wood cross-back chairs\n15 large wood banquet tables\n6 catering or gift tables\n2 cocktail tables\n15 white chiffon table runners\n90 electric candles\n90 glass vases\n30 faux greenery garlands\n60 bud vases\n3 easels\nGold hoop arch\nRectangular wood arch",
+   "verified_value": "200 wood cross-back chairs\n15 large wood banquet tables\n6 catering or gift tables\n2 cocktail tables\n15 white chiffon table runners\n90 electric candles\n90 glass vases\n30 faux greenery garlands\n60 bud vases\n3 easels\nGold hoop arch (7.4 x 8.5 ft)\nRectangular wood arch\nCake stand and cake cutting set\nSweetheart table (set from venue tables)\nBistro lighting and chandeliers (hall fixtures)\nTV",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page 'What's included' list; sweetheart table from home-page layouts; added cake stand, cutting set, bistro lighting/chandeliers and the 55-inch TV.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Bistro lighting & chandeliers ... Cake cutting set Cake stand ... 55″ Frame TV",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sweetheart table: home page layouts describe 'the sweetheart table waits by the wall'; medium confidence for that item."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (add-on list has no decor items).",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Inside",
+   "verified_value": "Inside",
+   "action": "confirmed",
+   "change_origin": "Single indoor great hall; no outdoor event space described.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "One open room holds your ceremony, dinner and dancing",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes (staff run the send-off; couple brings the sparklers)",
+   "action": "corrected",
+   "change_origin": "Official site, home page and FAQ.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "We'll also run your sparkler send-off ... You just bring the sparklers.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Private parking",
+   "verified_value": "Private lot: 21 stalls incl. 1 accessible stall\n300-stall public lot across the street\nStreet parking on Center Street; garage 0.3 mile away",
+   "action": "corrected",
+   "change_origin": "Official site, home page Parking section.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Twenty-one stalls in our private lot — including an accessible stall — plus a 300-stall public lot",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "388 W Center Street, Provo, UT 84601",
+   "verified_value": "388 W Center Street, Provo, UT 84601",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.theivoryhall.com/contact",
+   "evidence": "388 W Center Street Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.theivoryhall.com/contact",
+   "evidence": "Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\n4 overhead Bluetooth speakers\n2 wireless microphones and stands",
+   "verified_value": "Yes\n4 overhead Bluetooth speakers\n2 wireless microphones and stands",
+   "action": "confirmed",
+   "change_origin": "Pricing page A/V list.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "4 overhead Bluetooth speakers 2 wireless microphones + stands",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Bridal suite — $500\nDance floor package — $300\nOn-site manager\nFinal walkthrough\nLounge",
+   "verified_value": "Upstairs Bridal Suite — $500\nDance Floor Package (professional party speakers) — $300\nOn-site manager\nFinal walkthrough (3 weeks before)\nLounge\n55-inch Frame TV",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page (add-ons and included list) and home page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "$300 Dance Floor Package ... We set up and power professional party speakers",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included: venue staff clean up after the event",
+   "action": "added",
+   "change_origin": "Official site, home page and FAQ.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Afterward, we clean up. Most families are out in about thirty minutes",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "1 accessible parking stall in private lot",
+   "action": "added",
+   "change_origin": "Official site, home page Parking section.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Twenty-one stalls in our private lot — including an accessible stall",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "Signed contract and deposit required to hold a date",
+   "action": "added",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://www.theivoryhall.com/contact",
+   "evidence": "we don't hold a date without a signed contract and deposit",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Deposit amount not stated."
+  },
+  {
+   "field": "Catering",
+   "current_value": "Open vendor policy\nLarge kitchen and prep kitchen",
+   "verified_value": "Open vendor policy\nLarge kitchen and prep kitchen",
+   "action": "confirmed",
+   "change_origin": "Home page FAQ: any caterer, no preferred list, no fee.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Cater with anyone you like ... no fee for bringing outside vendors. It's an open vendor policy.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Large kitchen\nPrep kitchen",
+   "verified_value": "Large prep kitchen for caterers",
+   "action": "corrected",
+   "change_origin": "Official site, About and Pricing pages (one prep kitchen, described as large).",
+   "source_url": "https://www.theivoryhall.com/about",
+   "evidence": "A large prep kitchen for your caterer or food service",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Old value listed 'Large kitchen' and 'Prep kitchen' as two kitchens."
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed with a licensed bartender\n$300 alcohol fee",
+   "verified_value": "Alcohol allowed with a licensed bartender\n$300 alcohol fee",
+   "action": "confirmed",
+   "change_origin": "Pricing page add-on.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "$300 Alcohol fee Required if you’re serving alcohol with a licensed bartender.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "On-site manager",
+   "verified_value": "On-site venue manager on event day (handles the building)\nFinal walkthrough 3 weeks before (vendors, timeline, floor plan)",
+   "action": "corrected",
+   "change_origin": "Official site, home page Full-service support section and FAQ.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "On event day an on-site manager is in the building. Not directing your wedding, just handling the building",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Site says the manager does not direct the wedding; planners welcome but not required."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Main-level bridal room included\nBridal suite — $500",
+   "verified_value": "Main-level bridal room included\nUpstairs Bridal Suite — $500 add-on",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Every booking includes access to our main-level bridal room. The Bridal Suite is an optional ... second-floor getaway",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Wording only."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm",
+   "verified_value": "Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Required if you’re serving alcohol with a licensed bartender.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "4,000 sq. ft. hall\nOpen vendor policy\nSetup and takedown included",
+   "verified_value": "4,000 sq. ft. great hall (82 x 48 ft)\nOpen vendor policy\nSetup and takedown included\nNight-before setup billed hourly, opens about 2 months out\nPricing shown is 2027",
+   "action": "corrected",
+   "change_origin": "Official site, home and Pricing pages.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "2027 pricing ... Setup & takedown included",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com",
+   "verified_value": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com",
+   "action": "confirmed",
+   "change_origin": "Contact page and footer.",
+   "source_url": "https://www.theivoryhall.com/contact",
+   "evidence": "Phone (801) 882-7022 · Text us Email hello@theivoryhall.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "2500-3500",
+   "verified_value": "2500-3750",
+   "action": "corrected",
+   "change_origin": "Pricing page 2027 rates.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Saturday $3,750",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "300",
+   "verified_value": "150",
+   "action": "corrected",
+   "change_origin": "Official site, home page: 150 seated at banquet tables. The old 300 was seated plus standing at once.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Seated at banquet tables 150 guests",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Ceremony seating 200 and open house 500 are not seated-dinner counts."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.theivoryhall.com/contact",
+   "evidence": "Provo, UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Home page: accessible stall in private lot.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "including an accessible stall",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "2 wireless microphones + stands",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "4 overhead Bluetooth speakers",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Pricing page A/V list and home page: 55-inch Frame TV included.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "55″ Frame TV ... All of it is in the rental.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page: main-level bridal room in every booking.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Every booking includes access to our main-level bridal room.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, home page: venue cleans up after the event.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "We handle the cleanup.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home page: on-site manager and included final walkthrough.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "On event day an on-site manager is in the building.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Manager 'handles the building', not the wedding; human decision whether that counts."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Indoor great hall.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "One open room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "No outdoor event space on site.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "One open room holds your ceremony, dinner and dancing",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "removed",
+   "change_origin": "Official site lists table runners only; no tablecloths/linens stated.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "15 white chiffon table runners",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Human decision: runners only."
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Open vendor policy.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "Cater with anyone you like",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Staff run the sparkler send-off.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "We'll also run your sparkler send-off",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Pricing page: cake stand and cake cutting set included.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Cake cutting set Cake stand",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Site lists a cake stand, not a dedicated cake table; 6 catering/gift tables are also included."
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, home page layouts describe a sweetheart table set from the venue's tables.",
+   "source_url": "https://www.theivoryhall.com",
+   "evidence": "the sweetheart table waits by the wall",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page: gold hoop arch, rectangular wooden arch.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Gold hoop arch (7.4′ × 8.5′) Rectangular wooden arch",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page: faux greenery garlands, vases.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "30 faux greenery garlands",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "3 easels",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Pricing page: bistro lighting listed under included Space amenities.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Bistro lighting & chandeliers",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "Bistro lighting & chandeliers",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.theivoryhall.com/pricing",
+   "evidence": "90 electric candles",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Ivory Hall",
+  "link": "https://www.theivoryhall.com",
+  "Description": "A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access.",
+  "Standard Price Range": "$2,500-$3,750",
+  "Packages and Prices": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,250\nSame inclusions — Sat — $3,750\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300",
+  "Seated Capacity": "150 (banquet tables)",
+  "Standing Capacity": "300 at once (seated + standing)\n500 open house across the evening",
+  "Time slots": "Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm",
+  "Length of Rental": "13 hours",
+  "Style": "Modern\nBright\nFlexible",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "200 wood cross-back chairs\n15 large wood banquet tables\n6 catering or gift tables\n2 cocktail tables\n15 white chiffon table runners\n90 electric candles\n90 glass vases\n30 faux greenery garlands\n60 bud vases\n3 easels\nGold hoop arch (7.4 x 8.5 ft)\nRectangular wood arch\nCake stand and cake cutting set\nSweetheart table (set from venue tables)\nBistro lighting and chandeliers (hall fixtures)\nTV",
+  "Other Decor for Rent": "",
+  "outside/inside": "Inside",
+  "sparklers allowed": "Yes (staff run the send-off; couple brings the sparklers)",
+  "parking?": "Private lot: 21 stalls incl. 1 accessible stall\n300-stall public lot across the street\nStreet parking on Center Street; garage 0.3 mile away",
+  "Full Address": "388 W Center Street, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "Yes\n4 overhead Bluetooth speakers\n2 wireless microphones and stands",
+  "extras": "Upstairs Bridal Suite — $500\nDance Floor Package (professional party speakers) — $300\nOn-site manager\nFinal walkthrough (3 weeks before)\nLounge\n55-inch Frame TV",
+  "cleanup crew": "Included: venue staff clean up after the event",
+  "Accessibility": "1 accessible parking stall in private lot",
+  "Deposit Policy": "Signed contract and deposit required to hold a date",
+  "Catering": "Open vendor policy\nLarge kitchen and prep kitchen",
+  "Prep Area": "Large prep kitchen for caterers",
+  "Alcohol policy": "Alcohol allowed with a licensed bartender\n$300 alcohol fee",
+  "Event Coordinator": "On-site venue manager on event day (handles the building)\nFinal walkthrough 3 weeks before (vendors, timeline, floor plan)",
+  "Bride/Groom Rooms": "Main-level bridal room included\nUpstairs Bridal Suite — $500 add-on",
+  "Restrictions": "Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm",
+  "Important Notes": "4,000 sq. ft. great hall (82 x 48 ft)\nOpen vendor policy\nSetup and takedown included\nNight-before setup billed hourly, opens about 2 months out\nPricing shown is 2027",
+  "Contact Information": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern"
+  ],
+  "suggested": [
+   "Modern"
+  ],
+  "change": "none",
+  "reasoning": "Description says 'modern, bright' (Modern cues). The site calls itself a 'modern wedding & reception venue' with clean lines and neutral décor; photos show cross-back chairs and wood tables, but nothing the rules map to Rustic.",
+  "site_cues": [
+   "Modern wedding & reception venue in downtown Provo",
+   "bright, open great hall with high ceilings, clean lines, and neutral décor"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing",
+   "why": "Flat full-day rate varies by day; add-ons priced separately",
+   "data": {
+    "pricing_year": 2027,
+    "rates": [
+     {
+      "days": "Mon-Thu",
+      "price": "$2,500"
+     },
+     {
+      "days": "Fri, Sun",
+      "price": "$3,250"
+     },
+     {
+      "days": "Sat",
+      "price": "$3,750"
+     }
+    ],
+    "add_ons": [
+     {
+      "name": "Additional hour",
+      "price": "$200/hour before midnight; $300/hour after"
+     },
+     {
+      "name": "Night-before setup",
+      "price": "$200/hour, 2-hour minimum"
+     },
+     {
+      "name": "Alcohol fee",
+      "price": "$300"
+     },
+     {
+      "name": "Upstairs Bridal Suite",
+      "price": "$500"
+     },
+     {
+      "name": "Dance Floor Package (party speakers)",
+      "price": "$300"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Layouts and capacity",
+   "why": "Capacity depends on layout",
+   "data": {
+    "layouts": [
+     {
+      "name": "Seated dinner",
+      "guests": 150
+     },
+     {
+      "name": "Ceremony + reception",
+      "guests": 200
+     },
+     {
+      "name": "Long tables",
+      "guests": 118
+     },
+     {
+      "name": "At once, seated + standing",
+      "guests": 300
+     },
+     {
+      "name": "Open house across the evening",
+      "guests": 500
+     }
+    ]
+   }
+  },
+  {
+   "title": "Included decor inventory",
+   "why": "Detailed counts of included decor",
+   "data": {
+    "inventory": {
+     "cross-back chairs": 200,
+     "banquet tables": 15,
+     "catering/gift tables": 6,
+     "cocktail tables": 2,
+     "chiffon runners": 15,
+     "electric candles": 90,
+     "glass vases": 90,
+     "faux greenery garlands": 30,
+     "bud vases": 60,
+     "easels": 3,
+     "arches": [
+      "gold hoop 7.4 x 8.5 ft",
+      "rectangular wood"
+     ],
+     "cake": [
+      "stand",
+      "cutting set"
+     ]
+    }
+   }
+  }
+ ],
+ "open_questions": [
+  "Linens: only chiffon table runners are listed. Should 'Linens included' be false (my call) or true?",
+  "Event coordinator: on-site manager 'handles the building', not the wedding. Count it?",
+  "Deposit amount and cancellation terms are not on the site.",
+  "Does the site's 2027 pricing also apply to remaining 2026 dates?"
+ ]
+}

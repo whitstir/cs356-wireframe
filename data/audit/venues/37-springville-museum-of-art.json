@@ -1,0 +1,986 @@
+{
+ "row": 37,
+ "id": "springville-museum-of-art",
+ "name": "Springville Museum of Art",
+ "website": "https://www.smofa.org/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.smofa.org/ (home: address, phone, email, hours)",
+  "https://www.smofa.org/rentals (Event Rentals: description, coordinator contact, tour hours; no rates; also read in the built-in browser to list all links)",
+  "http://www.smofa.org/uploads/files/7/Mail-Level.pdf (rental rate sheet PDF, 7 pages: Main Level, Garden, Main Level + Garden, Atrium, Grand & East Galleries, Youth Gallery; undated and not linked from the current Rentals page; found via web search)",
+  "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf (facility map / A-V order form PDF: equipment counts, speakers, bridal party changing note)",
+  "http://www.smofa.org/uploads/files/8/Facility-Map-Upper-Level.pdf (downloaded; upper-level map form, not read in detail)",
+  "https://www.smofa.org/accessibility (accessibility details)",
+  "https://www.smofa.org/plan-your-visit (parking, ADA, elevator)",
+  "https://www.smofa.org/photography-sessions (photo session fee, free with a booked rental)",
+  "https://www.smofa.org/museum-faq (rental inquiry answer, building history)",
+  "https://www.smofa.org/staff (event coordinator listing)",
+  "https://www.smofa.org/history (1937 building, Stewart Sculpture Garden 2009)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "126 East 400 South, Springville, Utah 84663",
+  "note": ""
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Springville Museum of Art",
+   "verified_value": "Springville Museum of Art",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.smofa.org/",
+   "evidence": "Springville Museum of Art",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.smofa.org/",
+   "verified_value": "https://www.smofa.org/",
+   "action": "confirmed",
+   "change_origin": "Official museum site loads.",
+   "source_url": "https://www.smofa.org/",
+   "evidence": "STATUS 200 https://www.smofa.org/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic Spanish-colonial-style reception venue with galleries, a sculpture garden, art-filled interiors, flexible indoor and outdoor spaces, and a distinctive cultural setting for weddings.",
+   "verified_value": "A historic Spanish-colonial-style reception venue with galleries, a sculpture garden, art-filled interiors, flexible indoor and outdoor spaces, and a distinctive cultural setting for weddings.",
+   "action": "confirmed",
+   "change_origin": "Rentals page describes historic Spanish colonial-style building, galleries, indoor and outdoor garden spaces.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "Elegant, unique, and affordable indoor and outdoor garden spaces are available for rent. Completed in 1937, the Spanish colonial-style architecture",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,730-$2,130",
+   "verified_value": "$805-$2,130",
+   "action": "corrected",
+   "change_origin": "Rate-sheet PDF on the official site: private after-hours base rates run from $805 (Garden only) to $2,130 (Main Level + Garden).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "$805-$995 base rental rate ... $1,730-$2,130 base rental rate (includes use of reserved space for 6.5 hours",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "PDF is undated and unlinked from the current Rentals page. Old value used only the Main Level + Garden option."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "6.5-hour rental with event hosts, basic table and chair setup, use of assigned gallery space, and access to listed amenities — Monday, Tuesday, Thursday, Friday or Saturday 4pm-10:30pm — $1,730-$2,130\nAdditional gallery space — $115-$150/hour\nSpecialty setup or mid-event setup change — $40+\nA/V setup — $69.50/hour\nUpright piano — $25",
+   "verified_value": "Main Level + Stewart Sculpture Garden: 6.5-hour private after-hours rental with event hosts and basic table and chair setup — Mon, Tue, Thu, Fri or Sat 4pm-10:30pm — $1,730-$2,130 ($600 deposit)\nMain Level only, same inclusions — $925-$1,135 ($300 deposit)\nSculpture Garden only, same inclusions — $805-$995 ($300 deposit)\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25",
+   "action": "corrected",
+   "change_origin": "Added the Main-Level-only, Garden-only and semi-private rates and deposits from the official rate-sheet PDF; A/V fee is for 'specialty' setup.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "$925-$1,135 base rental rate (includes use of reserved space for 6.5 hours; event hosts; basic set-up of tables and chairs)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Undated PDF; Rentals page says to contact the coordinator for rates."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "48-63",
+   "verified_value": "63 seated dinner (Atrium)\n54 seated dinner (Sculpture Garden)\n48 seated dinner (Dumke Gallery)",
+   "action": "corrected",
+   "change_origin": "Rate-sheet PDF gives seated dinner counts per space (adds 54 in the Garden).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "63 for a seated dinner in Atrium; 48 for a seated dinner in Dumke Gallery; 54 for seated dinner in Garden",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Other sheets list 104 seated dinner (Youth Gallery, lower level) and 99 seated (Grand Gallery, concerts); those spaces are booked only as add-on galleries, so not used for the slider."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "750",
+   "verified_value": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)",
+   "action": "corrected",
+   "change_origin": "Rate-sheet PDF: 750 for Main Level + Garden; 450 Main Level; 400 Garden.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "750 for a standing reception",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Monday 4pm-10:30pm\nTuesday 4pm-10:30pm\nThursday 4pm-10:30pm\nFriday 4pm-10:30pm\nSaturday 4pm-10:30pm",
+   "verified_value": "Private events: Mon, Tue, Thu, Fri, Sat 4pm-10:30pm\nSemi-private (Atrium, Garden): Tue-Sat 10:30am-3:30pm; Sun 3:30pm-5:30pm",
+   "action": "corrected",
+   "change_origin": "Rate-sheet PDF adds semi-private daytime hours for the Atrium and Garden.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Available for semi-private events Tuesday—Saturday from 10:30am—3:30pm; Sunday from 3:30pm—5:30pm",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "6.5 hours",
+   "verified_value": "6.5 hours (private after-hours); 1.5 hours (semi-private)",
+   "action": "corrected",
+   "change_origin": "PDF: 6.5 hours private; 1.5 hours semi-private.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "includes use of reserved space for 1.5 hours; event hosts; basic set-up of tables and chairs",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic\nSpanish colonial-style\nElegant\nUnique\nAffordable",
+   "verified_value": "Historic\nSpanish colonial-style\nElegant\nUnique\nAffordable",
+   "action": "confirmed",
+   "change_origin": "Rentals page wording.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "historic setting ... Elegant, unique, and affordable ... Spanish colonial-style architecture",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs\nPodium\nEasels\nBenches\nCanopies\nWireless internet",
+   "verified_value": "Tables\nChairs\nPodium\nEasels\nBenches\nCanopies\nWireless internet",
+   "action": "confirmed",
+   "change_origin": "Amenities list on the Main Level + Garden sheet.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "AMENITIES: Tables, Chairs, Podium, Easels, Benches, Upright Piano [indoor only], Canopies, Wireless internet",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Undated PDF."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Specialty setup or mid-event setup change — $40+\nUpright piano — $25",
+   "verified_value": "Specialty setup or mid-event setup change — $40+\nUpright piano (select locations) — $25",
+   "action": "corrected",
+   "change_origin": "Added '(select locations)' to the piano line per the PDF.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "$25 Use of upright piano [select locations]",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Rentals page: indoor and outdoor garden spaces.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "indoor and outdoor garden spaces are available for rent",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Museum parking lot",
+   "verified_value": "Free parking lot directly east of the Museum\nAdditional free parking west of the Museum on 100 E",
+   "action": "corrected",
+   "change_origin": "Plan Your Visit page gives both free lots.",
+   "source_url": "https://www.smofa.org/plan-your-visit",
+   "evidence": "Free parking is available in the parking lot directly East of the Museum. Additional free parking is located west of the Museum on 100 E.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "126 E 400 S, Springville, UT 84663",
+   "verified_value": "126 E 400 S, Springville, UT 84663",
+   "action": "confirmed",
+   "change_origin": "Plan Your Visit page.",
+   "source_url": "https://www.smofa.org/plan-your-visit",
+   "evidence": "126 E. 400 S. Springville, Utah, 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Address is in Springville.",
+   "source_url": "https://www.smofa.org/plan-your-visit",
+   "evidence": "126 E. 400 S. Springville, Utah, 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSound system\nMicrophone\nTV screen",
+   "verified_value": "Yes\nSound system\nMicrophone\nTV screen",
+   "action": "confirmed",
+   "change_origin": "Main Level + Garden amenities list.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Sound System, Microphone, TV Screen",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Facility map: speakers in Atrium, Dumke Gallery, Foyer and the Pavilion; renter brings slideshow/laptop."
+  },
+  {
+   "field": "extras",
+   "current_value": "Sculpture garden\nArt galleries\nSpanish colonial architecture\nArtwork\nCanopies\nUpright piano",
+   "verified_value": "Stewart Sculpture Garden with Smoot Pavilion\nArt galleries\nSpanish colonial-style architecture (1937)\nPhotography sessions free with a booked rental",
+   "action": "corrected",
+   "change_origin": "Removed duplicates (canopies, artwork) and 'Upright piano', which the rule read as included although it is a $25 fee; added the free photo sessions from the Photography page.",
+   "source_url": "https://www.smofa.org/photography-sessions",
+   "evidence": "There is no charge for photography when the session is held in conjunction with a previously booked Museum Rental.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "Elevator",
+   "verified_value": "ADA accessible (except the Swanson Gallery)\nElevator to all levels\nWheelchair available at the front desk\nAccessible parking in the east lot\nAccessible restrooms on the main and lower levels\nRamps to the front doors",
+   "action": "corrected",
+   "change_origin": "Accessibility and Plan Your Visit pages list ADA access, elevator, wheelchair, accessible parking and restrooms.",
+   "source_url": "https://www.smofa.org/accessibility",
+   "evidence": "The Museum is ADA accessible. We have an elevator ... Accessible parking is available in the Museum's east parking lot.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "$600 deposit\n$100 additional-gallery deposit\nRefundability not stated",
+   "verified_value": "$600 deposit (Main Level + Garden)\n$300 deposit (Main Level or Garden only)\n$100 deposit per additional gallery",
+   "action": "corrected",
+   "change_origin": "Removed filler 'Refundability not stated'; added the $300 single-space deposit from the PDF.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "$300 deposit ... $600 deposit ... $100 deposit for additional gallery",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": "PDF maps show a food staging area and catering access to the garden, but no caterer policy."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "Food staging area with oven, counters, sink and fridges\nBridal party may change in the lower-level restrooms",
+   "action": "added",
+   "change_origin": "Facility maps show a food staging area with oven, counters, sink and fridges; Garden map form notes the bridal party changes in lower-level restrooms.",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf",
+   "evidence": "Bridal Party will be using the Lower Level restrooms to change at ____",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event Coordinator Gina Woolf",
+   "verified_value": "Event coordinator Gina Woolf (tours, scheduling, floor-plan approval)\nEvent hosts included with the rental",
+   "action": "corrected",
+   "change_origin": "Rentals page names Gina Woolf as event coordinator; rate sheet includes event hosts in every rental.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "Our event coordinator, Gina Woolf, is available to assist you with facility tours, scheduling, and questions.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on a bridal or groom's room; maps label 'dressing rooms' on the lower level, and the Garden form says the bridal party changes in the lower-level restrooms.",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": "Recorded under Prep Area instead so the Bridal room filter stays false."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Closed Sundays and holidays\nTours by appointment",
+   "verified_value": "Closed Sundays and holidays\nTours by appointment (Tue 11am-2pm, Wed 5pm-8pm, some Saturdays)\nFloor plan must be approved by the event coordinator one week before the event\nNothing may be placed between the dashed line and the walls; grey areas are closed during events\nWrought-iron tables only in the Atrium; piano not usable in the Swanson Gallery",
+   "action": "corrected",
+   "change_origin": "Added rules printed on the rate sheet and facility maps; tour hours from the Rentals page.",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf",
+   "evidence": "This floorplan must be approved by the Event Coordinator at least one week before your event.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Current rentals page does not publish rates; official rental PDF lists the rates used here and appears older than the current page",
+   "verified_value": "Rates come from an undated rate-sheet PDF on smofa.org that the current Rentals page no longer links; the Rentals page and FAQ say to contact the event coordinator for rates\nWeddings are listed on the Main Level + Garden sheet; the Main Level and Garden sheets list receptions\nPhoto sessions are free with a booked rental (otherwise $40 per 1.5 hours)",
+   "action": "corrected",
+   "change_origin": "Clarified that the PDF is unlinked and undated, and which sheets list weddings.",
+   "source_url": "https://www.smofa.org/museum-faq",
+   "evidence": "Please contact our SMA events coordinator for information on rates, available areas",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-489-2727\nPhone: 801-491-0693\nEmail: SMAinfo@springville.org\nEmail: gwoolf@springville.org",
+   "verified_value": "Phone: 801-489-2727\nEvent coordinator: 801-491-5711\nEmail: SMAinfo@springvilleutah.gov\nEmail: gwoolf@springville.org",
+   "action": "corrected",
+   "change_origin": "Coordinator phone on the Rentals page is 801-491-5711 (801-491-0693 is not on the site); main email on the home page is SMAinfo@springvilleutah.gov.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "She can be reached at 801-491-5711 or gwoolf@springville.org",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Staff page lists GWoolf@springvilleutah.gov and the Photography page smainfo@springville.org; the site uses both domains."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "1730-2130",
+   "verified_value": "805-2130",
+   "action": "corrected",
+   "change_origin": "Official rate-sheet PDF: private evening rentals from $805 (Garden only) to $2,130 (Main Level + Garden).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "$805-$995 base rental rate ... $1,730-$2,130 base rental rate",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Undated and unlinked PDF; confirm current rates with the coordinator."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "63",
+   "verified_value": "63",
+   "action": "confirmed",
+   "change_origin": "Largest seated dinner count in the wedding spaces.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "63 for a seated dinner in Atrium",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.smofa.org/plan-your-visit",
+   "evidence": "Springville, Utah, 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Accessibility page: ADA accessible, wheelchairs available; follows from the corrected `Accessibility` column.",
+   "source_url": "https://www.smofa.org/accessibility",
+   "evidence": "We also have a wheelchair for patrons to use",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Accessibility page.",
+   "source_url": "https://www.smofa.org/accessibility",
+   "evidence": "We have an elevator to enable ease of access to the upper and lower levels, including the restrooms.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Accessibility page lists accessible restrooms; follows from the corrected `Accessibility` column.",
+   "source_url": "https://www.smofa.org/accessibility",
+   "evidence": "Accessible, gender neutral restroom is available on the Main Level. Wheelchair accessible men and women's restrooms are available on the lower level.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Accessibility page; follows from the corrected `Accessibility` column.",
+   "source_url": "https://www.smofa.org/accessibility",
+   "evidence": "Accessible parking is available in the Museum's east parking lot.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rate sheet amenities.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Sound System, Microphone, TV Screen",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Projector and screen are listed only for the Youth Gallery (lower level), not the wedding spaces.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Projector and Screen (Youth Gallery amenities)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rate sheet amenities.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Sound System",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rate sheet amenities; facility map lists a flat screen.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "TV Screen",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent on a bridal room; bridal party changes in lower-level restrooms.",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rentals page event coordinator; event hosts included in every rental.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "Our event coordinator, Gina Woolf, is available to assist you",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rentals page.",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "indoor and outdoor garden spaces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Sculpture Garden rentable for events.",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Diane and Sam Stewart Sculpture Garden ... 400 for a standing reception",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "https://www.smofa.org/rentals",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Easels in the amenities list (3 on the Main Level map).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "Easels",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "included+rent",
+   "verified_value": "rent",
+   "action": "corrected",
+   "change_origin": "The upright piano carries a $25 fee; 'included' came from an 'Upright piano' line in extras without the price.",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf",
+   "evidence": "upright piano ($25 fee; cannot be used in the Swanson Gallery)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Grand Gallery (upper level) lists a grand piano, but that space is an add-on gallery."
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (rentals page, rate-sheet PDF, facility-map PDF, FAQ, visit and accessibility pages checked).",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Springville Museum of Art",
+  "link": "https://www.smofa.org/",
+  "Description": "A historic Spanish-colonial-style reception venue with galleries, a sculpture garden, art-filled interiors, flexible indoor and outdoor spaces, and a distinctive cultural setting for weddings.",
+  "Standard Price Range": "$805-$2,130",
+  "Packages and Prices": "Main Level + Stewart Sculpture Garden: 6.5-hour private after-hours rental with event hosts and basic table and chair setup — Mon, Tue, Thu, Fri or Sat 4pm-10:30pm — $1,730-$2,130 ($600 deposit)\nMain Level only, same inclusions — $925-$1,135 ($300 deposit)\nSculpture Garden only, same inclusions — $805-$995 ($300 deposit)\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25",
+  "Seated Capacity": "63 seated dinner (Atrium)\n54 seated dinner (Sculpture Garden)\n48 seated dinner (Dumke Gallery)",
+  "Standing Capacity": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)",
+  "Time slots": "Private events: Mon, Tue, Thu, Fri, Sat 4pm-10:30pm\nSemi-private (Atrium, Garden): Tue-Sat 10:30am-3:30pm; Sun 3:30pm-5:30pm",
+  "Length of Rental": "6.5 hours (private after-hours); 1.5 hours (semi-private)",
+  "Style": "Historic\nSpanish colonial-style\nElegant\nUnique\nAffordable",
+  "Linens Included": "",
+  "Other Decor Included": "Tables\nChairs\nPodium\nEasels\nBenches\nCanopies\nWireless internet",
+  "Other Decor for Rent": "Specialty setup or mid-event setup change — $40+\nUpright piano (select locations) — $25",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Free parking lot directly east of the Museum\nAdditional free parking west of the Museum on 100 E",
+  "Full Address": "126 E 400 S, Springville, UT 84663",
+  "City": "Springville",
+  "sound system": "Yes\nSound system\nMicrophone\nTV screen",
+  "extras": "Stewart Sculpture Garden with Smoot Pavilion\nArt galleries\nSpanish colonial-style architecture (1937)\nPhotography sessions free with a booked rental",
+  "cleanup crew": "",
+  "Accessibility": "ADA accessible (except the Swanson Gallery)\nElevator to all levels\nWheelchair available at the front desk\nAccessible parking in the east lot\nAccessible restrooms on the main and lower levels\nRamps to the front doors",
+  "Deposit Policy": "$600 deposit (Main Level + Garden)\n$300 deposit (Main Level or Garden only)\n$100 deposit per additional gallery",
+  "Catering": "",
+  "Prep Area": "Food staging area with oven, counters, sink and fridges\nBridal party may change in the lower-level restrooms",
+  "Alcohol policy": "",
+  "Event Coordinator": "Event coordinator Gina Woolf (tours, scheduling, floor-plan approval)\nEvent hosts included with the rental",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "Closed Sundays and holidays\nTours by appointment (Tue 11am-2pm, Wed 5pm-8pm, some Saturdays)\nFloor plan must be approved by the event coordinator one week before the event\nNothing may be placed between the dashed line and the walls; grey areas are closed during events\nWrought-iron tables only in the Atrium; piano not usable in the Swanson Gallery",
+  "Important Notes": "Rates come from an undated rate-sheet PDF on smofa.org that the current Rentals page no longer links; the Rentals page and FAQ say to contact the event coordinator for rates\nWeddings are listed on the Main Level + Garden sheet; the Main Level and Garden sheets list receptions\nPhoto sessions are free with a booked rental (otherwise $40 per 1.5 hours)",
+  "Contact Information": "Phone: 801-489-2727\nEvent coordinator: 801-491-5711\nEmail: SMAinfo@springvilleutah.gov\nEmail: gwoolf@springville.org"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic"
+  ],
+  "suggested": [
+   "Classic"
+  ],
+  "change": "none",
+  "reasoning": "Description says 'historic' (Classic). The site stresses history, art and Spanish colonial architecture; nothing points to rustic, modern or luxury. A sculpture garden is part of the venue but the setting centers on the museum, so Outdoors is not suggested; the rule list names 'sculpture park', which the team could apply if it wants the garden counted.",
+  "site_cues": [
+   "beautiful and historic setting",
+   "Completed in 1937, the Spanish colonial-style architecture",
+   "Elegant, unique, and affordable"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Rentable spaces",
+   "why": "Several spaces, each with its own rates and capacity",
+   "data": {
+    "spaces": [
+     {
+      "name": "Main Level + Stewart Sculpture Garden",
+      "setting": "indoor+outdoor",
+      "seated": "63 (Atrium) / 48 (Dumke Gallery) / 54 (Garden)",
+      "standing": 750,
+      "price": "$1,730-$2,130 for 6.5 hours",
+      "deposit": "$600",
+      "notes": "Only sheet that lists Weddings"
+     },
+     {
+      "name": "Main Level",
+      "setting": "indoor",
+      "seated": "63 (Atrium) / 48 (Dumke Gallery)",
+      "standing": 450,
+      "price": "$925-$1,135 for 6.5 hours",
+      "deposit": "$300"
+     },
+     {
+      "name": "Diane and Sam Stewart Sculpture Garden (with Smoot Pavilion)",
+      "setting": "outdoor",
+      "standing": 400,
+      "price": "$805-$995 for 6.5 hours; semi-private $80-$105/hour",
+      "deposit": "$300 ($100 semi-private)"
+     },
+     {
+      "name": "Atrium (semi-private daytime)",
+      "setting": "indoor",
+      "seated": 63,
+      "price": "$80-$105/hour, 1.5 hours",
+      "deposit": "$100"
+     },
+     {
+      "name": "Grand and East Galleries (upper level)",
+      "setting": "indoor",
+      "seated": "99 (Grand) / 20 (East)",
+      "price": "$115-$150/hour as additional gallery; semi-private $60-$85/hour",
+      "notes": "Grand piano; concerts, recitals, ceremonies"
+     },
+     {
+      "name": "Utah Families Foundation Youth Gallery (lower level)",
+      "setting": "indoor",
+      "seated": "104 dinner / 100 lecture",
+      "standing": 200,
+      "price": "$115-$150/hour as additional gallery; semi-private $60-$85/hour",
+      "notes": "Projector and screen"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Available equipment (Main Level facility map)",
+   "why": "Itemized counts that do not fit the columns",
+   "data": {
+    "items": [
+     {
+      "item": "8 ft rectangular table",
+      "count": 6
+     },
+     {
+      "item": "3 ft rectangular table",
+      "count": 4
+     },
+     {
+      "item": "60 in. round table (seats 8)",
+      "count": 2
+     },
+     {
+      "item": "black folding chairs",
+      "count": 30
+     },
+     {
+      "item": "50 in. wrought-iron tables with chairs (Atrium only, seat 6)",
+      "count": 9
+     },
+     {
+      "item": "serpentine tables",
+      "count": 4
+     },
+     {
+      "item": "easels",
+      "count": 3
+     },
+     {
+      "item": "7 ft wooden benches",
+      "count": 9
+     },
+     {
+      "item": "podium",
+      "count": 1
+     },
+     {
+      "item": "upright piano ($25)",
+      "count": 1
+     }
+    ],
+    "av": [
+     "flat screen (renter provides slideshow)",
+     "CD player",
+     "iPod cable",
+     "microphone with stand",
+     "microphone with podium",
+     "speakers in Atrium, Dumke Gallery and Foyer; Wi-Fi"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "The rate sheet PDF is undated and no longer linked from the Rentals page; confirm current rates, deposits and capacities with the event coordinator before the demo.",
+  "Price slider now starts at $805 (Garden-only rental). Should the slider use only the Main Level + Garden wedding option ($1,730-$2,130) instead?",
+  "Catering, alcohol and sparkler policies are not published on the site."
+ ]
+}

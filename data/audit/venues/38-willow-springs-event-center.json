@@ -1,0 +1,979 @@
+{
+ "row": 38,
+ "id": "willow-springs-event-center",
+ "name": "Willow Springs Event Center",
+ "website": "https://www.thewillowsprings.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.thewillowsprings.com/ (home: overview, address, phone, email; embedded Instagram captions ignored as evidence)",
+  "https://www.thewillowsprings.com/pricing (About Us, indoor/outdoor amenities, six booking rates, decor packages, linens, extra hours; Wix page read in the built-in browser)",
+  "https://www.thewillowsprings.com/service-page/november-march-monday-wednesday (and the other five booking pages: hours, inclusions, deposit)",
+  "https://www.thewillowsprings.com/service-page/basic-decoration-package (basic decoration package contents)",
+  "https://www.thewillowsprings.com/service-page/ceremony-decoration-package (ceremony decoration package contents)",
+  "https://www.thewillowsprings.com/service-page/linens (linen rental)",
+  "https://www.thewillowsprings.com/service-page/additional-hour-s (additional hours)",
+  "https://www.thewillowsprings.com/contact (contact)",
+  "https://www.thewillowsprings.com/terms-conditions (blank in the browser)",
+  "https://www.thewillowsprings.com/gallery, /photo-albums, /calendar (no usable text)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "554 West 1200 North, Springville, UT 84663",
+  "note": "Booking pages also show '554 West Spring Creek Place, Springville' as a contact address."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Willow Springs Event Center",
+   "verified_value": "Willow Springs Event Center",
+   "action": "confirmed",
+   "change_origin": "Site title.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Pricing | Willow Springs Event Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.thewillowsprings.com/",
+   "verified_value": "https://www.thewillowsprings.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads.",
+   "source_url": "https://www.thewillowsprings.com/",
+   "evidence": "STATUS 200 https://www.thewillowsprings.com/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom.",
+   "verified_value": "A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom.",
+   "action": "confirmed",
+   "change_origin": "Pricing page About Us and amenity lists.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "white, bright ballroom features four dazzling chandeliers ... covered patio equipped with ceiling fans, heaters",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,199-$2,499",
+   "verified_value": "$1,199-$2,499",
+   "action": "confirmed",
+   "change_origin": "Pricing page: lowest $1,199, highest $2,499.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "November-March Monday - Wednesday $1,199 ... April-October Friday-Saturday & Holidays $2,499",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "7-hour rental, 150 chairs, 16 round tables, full kitchen, bridal suite, patio, lawn, pergola, sound system, TVs, setup and takedown, and use of venue amenities — Nov-Mar Mon-Wed 3pm-10pm — $1,199\nSame inclusions — Nov-Mar Thu 3pm-10pm — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays 3pm-10pm — $1,799\nSame inclusions — Apr-Oct Mon-Wed 3pm-10pm — $1,899\nSame inclusions — Apr-Oct Thu 3pm-10pm — $2,199\nSame inclusions — Apr-Oct Fri-Sat and holidays 3pm-10pm — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nAdditional hour — $295",
+   "verified_value": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans) — Nov-Mar Mon-Wed — $1,199\nSame inclusions — Nov-Mar Thu — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays — $1,799\nSame inclusions — Apr-Oct Mon-Wed — $1,749\nSame inclusions — Apr-Oct Thu — $1,999\nSame inclusions — Apr-Oct Fri-Sat and holidays — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour",
+   "action": "corrected",
+   "change_origin": "Official pricing page now lists Apr-Oct Mon-Wed $1,749 (was $1,899) and Thu $1,999 (was $2,199); inclusions reworded from the booking pages; added linens and extra-hour lines.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "April-October Monday-Wednesday 7 hr $1,749 ... April-October Thursday 7 hr $1,999",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "150",
+   "verified_value": "150",
+   "action": "confirmed",
+   "change_origin": "Not stated as a capacity; inferred from the 150 included chairs.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "150 chairs; 16 rounds (60\")",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Site gives no guest capacity; confirm by phone."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm",
+   "verified_value": "Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm",
+   "action": "confirmed",
+   "change_origin": "Every booking page lists 3:00pm to 10:00pm.",
+   "source_url": "https://www.thewillowsprings.com/service-page/april-october-friday-saturday-holidays",
+   "evidence": "Friday-Saturday and Holidays, 3:00pm to 10:00pm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "7 hours; additional hours available",
+   "verified_value": "7 hours (3pm-10pm); additional hours $295/hour, up to midnight",
+   "action": "corrected",
+   "change_origin": "Added the $295 hourly rate and midnight limit from the Additional Hours page.",
+   "source_url": "https://www.thewillowsprings.com/service-page/additional-hour-s",
+   "evidence": "Monday - Saturday, available up to midnight ... $295 per hour",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "White\nBright\nIndoor-outdoor",
+   "verified_value": "White\nBright\nIndoor-outdoor",
+   "action": "confirmed",
+   "change_origin": "Site wording.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "white, bright ballroom ... a beautiful indoor/outdoor venue",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Linens are a paid rental.",
+   "source_url": "https://www.thewillowsprings.com/service-page/linens",
+   "evidence": "Linens ... $16.25",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "150 chairs\n16 round tables\nFull kitchen\nBridal suite with private bathroom\nCovered heated patio\nPergola\nBasketball court\nLarge lawn\nString lights\nSound system\nTVs\nChandeliers",
+   "verified_value": "150 chairs\n16 round tables (60 in.)\n4 8-ft and 14 6-ft banquet tables\n7 bistro tables\nFour chandeliers\nFireplace with mantle\nCovered patio with enclosure, heaters, fans and lighting\nCafé lights over the lawn and send-off area\nPergola with string lights\nLarge lawn\nBasketball court\nWifi",
+   "action": "corrected",
+   "change_origin": "Rebuilt from the pricing page amenity lists: added banquet and bistro tables, fireplace, patio features and café lights; moved kitchen, bridal suite, sound and TVs to their own columns.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "150 chairs, 16 rounds (60\"), 4 8' banquet tables, 14 6' banquet tables, 7 bistro tables ... Fireplace",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Basic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25",
+   "verified_value": "Basic decoration package (12 table centerpieces with wreaths, lanterns, greenery, flameless candles or flowers; mantle and entry table decor; 2 A-frame chalkboards; 9 easels; welcome sign) — $325\nCeremony decoration package (arch/backdrop, 16 aisle enders) — $225\nAisle-ender chair ties — $4.25 per chair\nLinens (floor-length base linens, overlays, runners, chair ties, napkins) — $16.25",
+   "action": "corrected",
+   "change_origin": "Listed what the two decor packages and linens contain, from their official booking pages, so the Decor filters can see them.",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package",
+   "evidence": "Table Centerpieces ... Standing A-Frame Chalk Boards ... Standing Easels ... Welcome Sign",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Indoor ballroom plus covered patio and lawn.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Willow Springs is a beautiful indoor/outdoor venue in Springville, UT.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (only an embedded Instagram post mentions sparklers, which is not evidence).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Parking area",
+   "action": "added",
+   "change_origin": "Outdoor amenities list a parking area.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Parking area",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "554 W 1200 N, Springville, UT 84663",
+   "verified_value": "554 W 1200 N, Springville, UT 84663",
+   "action": "confirmed",
+   "change_origin": "Footer and contact page.",
+   "source_url": "https://www.thewillowsprings.com/contact",
+   "evidence": "554 West 1200 North Springville, UT 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.thewillowsprings.com/contact",
+   "evidence": "Springville, UT 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nIndoor and outdoor sound system\nWireless microphone",
+   "verified_value": "Yes\nIndoor and outdoor speaker systems\nWireless microphone and stand\nProjector and screen\n2 indoor TVs and 1 outdoor TV",
+   "action": "corrected",
+   "change_origin": "Added the projector and screen, mic stand and TV counts from the amenities lists.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Projector & screen; Wireless Mic & Stand; Speaker system; 2 TV's ... TV (outdoor)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Covered heated patio\nPergola\nBasketball court\nLarge lawn\nChandeliers\nBig sliding glass door",
+   "verified_value": "Thirty-foot sliding glass doors to the patio\nCustomizable lighting\nLawn games and room for a bounce house",
+   "action": "corrected",
+   "change_origin": "Removed duplicates of the included-decor column; added sliding doors, customizable lighting and lawn games from the site.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "thirty-foot sliding glass doors ... lawn games, and even a wedding bounce house",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "Deposit is half the venue cost\nNon-refundable but transferable to another available date",
+   "action": "added",
+   "change_origin": "Booking pages state the deposit terms.",
+   "source_url": "https://www.thewillowsprings.com/service-page/april-october-friday-saturday-holidays",
+   "evidence": "The deposit is half the price of the venue cost. It is non refundable but can be transferred to another available date.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "Open vendor policy: no preferred vendors required, so you may use your own caterer",
+   "action": "added",
+   "change_origin": "Pricing page says the venue does not require preferred vendors.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Unlike other venues, we do not require the use of preferred vendors.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Statement covers all vendors; caterers are not named specifically."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Full kitchen\n2 ovens\nIce machine\nRefrigerator",
+   "verified_value": "Full kitchen with 2 ovens, stove top, ice machine, fridge and microwave",
+   "action": "corrected",
+   "change_origin": "Added stove top and microwave from the indoor amenities list.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Kitchen with 2 ovens, ice machine, stove top, fridge, & microwave",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Venue staff",
+   "verified_value": "On-site event manager (included)",
+   "action": "corrected",
+   "change_origin": "Amenities list names an on-site event manager.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "One site Event Manager",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bridal suite with private bathroom",
+   "verified_value": "Bridal suite with private bathroom",
+   "action": "confirmed",
+   "change_origin": "Indoor amenities list.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Bridal Suite with bathroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Official pricing page lists décor packages at $325 and $225; the About page states décor starts at $395",
+   "verified_value": "Booking pages say décor packages start at $395, but the pricing page lists $325 and $225 packages\nBooking pages list a contact address of 554 West Spring Creek Place; the venue address on every page is 554 West 1200 North",
+   "action": "corrected",
+   "change_origin": "The $395 figure is on the booking pages, not an About page; added the address discrepancy.",
+   "source_url": "https://www.thewillowsprings.com/service-page/april-october-friday-saturday-holidays",
+   "evidence": "We also have décor packages that start at $395.00.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-960-4000\nEmail: info@thewillowsprings.com",
+   "verified_value": "Phone: (385) 375-7756\nEmail: janelle@thewillowsprings.com",
+   "action": "corrected",
+   "change_origin": "Every page lists a different phone and email than the old data; 801-960-4000 and info@ do not appear.",
+   "source_url": "https://www.thewillowsprings.com/contact",
+   "evidence": "(385) 375-7756 janelle@thewillowsprings.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "1199-2499",
+   "verified_value": "1199-2499",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "$1,199 ... $2,499",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "150",
+   "verified_value": "150",
+   "action": "confirmed",
+   "change_origin": "Inferred from 150 included chairs.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "150 chairs",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "No stated capacity."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.thewillowsprings.com/contact",
+   "evidence": "Springville, UT 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Included amenities.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Wireless Mic & Stand",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official pricing page and booking pages include a projector and screen; follows from the corrected `sound system` column.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Projector & screen",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Included amenities.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Speaker system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Included amenities.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "2 TV's",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Included amenities.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Bridal Suite with bathroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Included on-site event manager.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "One site Event Manager",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Indoor ballroom.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "indoor/outdoor venue",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Covered patio and lawn.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "outdoor lawn area offers room for seating under the sparkling string lights, dancing, lawn games",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Linens are $16.25 each.",
+   "source_url": "https://www.thewillowsprings.com/service-page/linens",
+   "evidence": "Linens $16.25",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official pricing page: no preferred vendors required; follows from the new `Catering` column.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Unlike other venues, we do not require the use of preferred vendors.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (Instagram mention only).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official Basic Decoration Package page includes 12 table centerpieces; follows from the corrected `Other Decor for Rent` column.",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package",
+   "evidence": "Table Centerpieces (5 to choose from) - Quantity: 12",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official Ceremony Decoration Package page includes an arch/backdrop.",
+   "source_url": "https://www.thewillowsprings.com/service-page/ceremony-decoration-package",
+   "evidence": "Arch/Backdrop (4 to choose from) - Quantity: 1",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (only chair ties and aisle enders, no draping or chair covers).",
+   "source_url": "https://www.thewillowsprings.com/service-page/ceremony-decoration-package",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official pricing page lists a fireplace with a mantle in the ballroom.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "a statement fireplace with a mantle",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Basic decoration package centerpieces include greenery and flowers.",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package",
+   "evidence": "Wood Lantern with greenery and flameless candle, Hoop with flowers, vase with flowers",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Basic decoration package includes chalkboards, easels and a welcome sign.",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package",
+   "evidence": "Standing Easels - Quantity: 9 total ... Welcome Sign",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Basic decoration package centerpieces include lanterns and flameless candles.",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package",
+   "evidence": "Wreath with Lantern ... Wood Lantern with greenery and flameless candle",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Ballroom chandeliers.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "four dazzling chandeliers",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Café lights and pergola string lights included.",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "Cafe Lights ... Pergola with string lights",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, all six booking pages, decor/linen/extra-hour pages, contact checked).",
+   "source_url": "https://www.thewillowsprings.com/pricing",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Willow Springs Event Center",
+  "link": "https://www.thewillowsprings.com/",
+  "Description": "A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom.",
+  "Standard Price Range": "$1,199-$2,499",
+  "Packages and Prices": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans) — Nov-Mar Mon-Wed — $1,199\nSame inclusions — Nov-Mar Thu — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays — $1,799\nSame inclusions — Apr-Oct Mon-Wed — $1,749\nSame inclusions — Apr-Oct Thu — $1,999\nSame inclusions — Apr-Oct Fri-Sat and holidays — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour",
+  "Seated Capacity": "150",
+  "Standing Capacity": "",
+  "Time slots": "Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm",
+  "Length of Rental": "7 hours (3pm-10pm); additional hours $295/hour, up to midnight",
+  "Style": "White\nBright\nIndoor-outdoor",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "150 chairs\n16 round tables (60 in.)\n4 8-ft and 14 6-ft banquet tables\n7 bistro tables\nFour chandeliers\nFireplace with mantle\nCovered patio with enclosure, heaters, fans and lighting\nCafé lights over the lawn and send-off area\nPergola with string lights\nLarge lawn\nBasketball court\nWifi",
+  "Other Decor for Rent": "Basic decoration package (12 table centerpieces with wreaths, lanterns, greenery, flameless candles or flowers; mantle and entry table decor; 2 A-frame chalkboards; 9 easels; welcome sign) — $325\nCeremony decoration package (arch/backdrop, 16 aisle enders) — $225\nAisle-ender chair ties — $4.25 per chair\nLinens (floor-length base linens, overlays, runners, chair ties, napkins) — $16.25",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Parking area",
+  "Full Address": "554 W 1200 N, Springville, UT 84663",
+  "City": "Springville",
+  "sound system": "Yes\nIndoor and outdoor speaker systems\nWireless microphone and stand\nProjector and screen\n2 indoor TVs and 1 outdoor TV",
+  "extras": "Thirty-foot sliding glass doors to the patio\nCustomizable lighting\nLawn games and room for a bounce house",
+  "cleanup crew": "",
+  "Accessibility": "",
+  "Deposit Policy": "Deposit is half the venue cost\nNon-refundable but transferable to another available date",
+  "Catering": "Open vendor policy: no preferred vendors required, so you may use your own caterer",
+  "Prep Area": "Full kitchen with 2 ovens, stove top, ice machine, fridge and microwave",
+  "Alcohol policy": "",
+  "Event Coordinator": "On-site event manager (included)",
+  "Bride/Groom Rooms": "Bridal suite with private bathroom",
+  "Restrictions": "",
+  "Important Notes": "Booking pages say décor packages start at $395, but the pricing page lists $325 and $225 packages\nBooking pages list a contact address of 554 West Spring Creek Place; the venue address on every page is 554 West 1200 North",
+  "Contact Information": "Phone: (385) 375-7756\nEmail: janelle@thewillowsprings.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern"
+  ],
+  "suggested": [
+   "Modern"
+  ],
+  "change": "none",
+  "reasoning": "Description says 'bright white' (Modern rule). The site emphasizes a white, bright ballroom with chandeliers and a patio/lawn; no rustic, historic or luxury cues. The lawn is part of the space, but the venue is not centered on nature, so Outdoors is not suggested.",
+  "site_cues": [
+   "white, bright ballroom",
+   "four dazzling chandeliers",
+   "thirty-foot sliding glass doors"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal and day-of-week pricing",
+   "why": "Six rate cells by season and day group",
+   "data": {
+    "rates": [
+     {
+      "season": "Nov-Mar",
+      "days": "Mon-Wed",
+      "price": "$1,199"
+     },
+     {
+      "season": "Nov-Mar",
+      "days": "Thu",
+      "price": "$1,499"
+     },
+     {
+      "season": "Nov-Mar",
+      "days": "Fri-Sat & holidays",
+      "price": "$1,799"
+     },
+     {
+      "season": "Apr-Oct",
+      "days": "Mon-Wed",
+      "price": "$1,749"
+     },
+     {
+      "season": "Apr-Oct",
+      "days": "Thu",
+      "price": "$1,999"
+     },
+     {
+      "season": "Apr-Oct",
+      "days": "Fri-Sat & holidays",
+      "price": "$2,499"
+     }
+    ],
+    "hours": "3pm-10pm (7 hours)",
+    "extra_hour": "$295/hour up to midnight",
+    "deposit": "50% of venue cost, non-refundable, transferable"
+   }
+  },
+  {
+   "title": "Decor packages",
+   "why": "Two named packages with itemized contents",
+   "data": {
+    "packages": [
+     {
+      "name": "Basic Decoration Package",
+      "price": "$325",
+      "includes": [
+       "12 table centerpieces (5 styles)",
+       "fireplace mantle decorations",
+       "entry table decorations",
+       "2 A-frame chalkboards",
+       "9 easels",
+       "welcome sign"
+      ]
+     },
+     {
+      "name": "Ceremony Decoration Package",
+      "price": "$225",
+      "includes": [
+       "arch/backdrop (4 styles)",
+       "16 ceremony aisle enders"
+      ],
+      "add_ons": [
+       "aisle-ender chair ties $4.25 per chair"
+      ]
+     },
+     {
+      "name": "Linens",
+      "price": "$16.25",
+      "includes": [
+       "floor-length base linens, overlays, runners, chair ties, napkins (third-party vendor)"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spaces",
+   "why": "Indoor ballroom plus several outdoor areas",
+   "data": {
+    "spaces": [
+     {
+      "name": "Ballroom",
+      "setting": "indoor",
+      "notes": "four chandeliers, fireplace, 30-ft sliding glass doors"
+     },
+     {
+      "name": "Covered patio",
+      "setting": "outdoor (covered, heated, enclosable)"
+     },
+     {
+      "name": "Lawn with café lights and pergola",
+      "setting": "outdoor"
+     },
+     {
+      "name": "Basketball court",
+      "setting": "outdoor"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity is not stated; 150 comes from the 150 included chairs. Confirm the seated maximum.",
+  "Décor package price conflict: booking pages say packages start at $395, pricing page lists $325 and $225.",
+  "Sparkler, alcohol, cleanup and accessibility policies are not on the site (Terms & Conditions page is blank)."
+ ]
+}

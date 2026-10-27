@@ -1,0 +1,223 @@
+{
+ "row": 14,
+ "id": "conrad-ranch",
+ "official_name": {
+  "name": "Conrad Ranch",
+  "source_url": "https://www.conradranch.com/landing",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Handicap accessible",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "We have Handicap Parking to access the house",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "new spacious bridal room",
+   "price": "",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Onsite coordinator to assist with needs and questions",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Grooms room is located at the end of the building downstairs",
+   "price": "",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "both indoor and outdoor areas",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Are linens included? Yes!",
+   "price": "",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "both indoor and outdoor areas",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "You can hire your own caterer or bring your own food",
+   "price": "",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "We do allow sparklers (unless the state has banned them)",
+   "price": "",
+   "source_url": "https://www.conradranch.com/frequently-asked-questions"
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Centerpieces/Decorations for rent",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Iron Brown arch included and does not move'; 'Backdrop arches available to rent or bring your own",
+   "price": "",
+   "source_url": "https://www.conradranch.com/ceremony-only"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fire Place (Two)",
+   "price": "",
+   "source_url": "https://www.conradranch.com/read-me"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included+rent",
+   "wording": "2 (4 ft) floor easels'; 'Love Sign ... $100.00 to rent",
+   "price": "$100.00",
+   "source_url": "https://www.conradranch.com/read-me"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "White Lanterns ... $10.00 each",
+   "price": "$10.00",
+   "source_url": "https://www.conradranch.com/rental-items"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included+rent",
+   "wording": "Patio with lights for dancing'; 'Canopy of lights... $300.00 to setup",
+   "price": "$300.00",
+   "source_url": "https://www.conradranch.com/rental-items"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake table with linen to the ground",
+   "price": "",
+   "source_url": "https://www.conradranch.com/rental-option"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included",
+   "wording": "1 Black Square Iron Beverage Table",
+   "price": "",
+   "source_url": "https://www.conradranch.com/read-me"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Baby Grand Piano",
+   "price": "",
+   "source_url": "https://www.conradranch.com/read-me"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 4000,
+  "high": 6000,
+  "basis": "rental",
+  "wording": "Rental packages $4,000–$6,000",
+  "math": ""
+ },
+ "seated": {
+  "low": 85,
+  "high": 112,
+  "wording": "85 indoors for a formal dinner | 112 with rented tables"
+ },
+ "standing": {
+  "low": 350,
+  "high": 350,
+  "wording": "350+ for an open house (indoor facility)"
+ },
+ "row_updates": {
+  "Venue Name": "Conrad Ranch"
+ }
+}

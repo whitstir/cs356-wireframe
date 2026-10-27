@@ -1,0 +1,748 @@
+{
+ "id": "the-blake",
+ "name": "The Blake",
+ "city": "Provo",
+ "description": "A modern, contemporary 3,000 sq ft event space in downtown Provo with a main hall (The Gallery), a dark-walled dining room (The Assembly Hall), an outdoor terrace, a bridal suite and a prep kitchen. Holds events of up to 350 guests; tables, chairs, sound and a decor package are included.",
+ "styles": [
+  "Modern",
+  "Classic"
+ ],
+ "priceMin": 1700,
+ "priceMax": 2600,
+ "priceBasis": "rental",
+ "priceText": "Day-of-week rentals $1,700–$2,600",
+ "seated": 120,
+ "seatedMin": 120,
+ "seatedText": "120 chairs included (seated maximum not stated)",
+ "standing": 350,
+ "standingMin": 300,
+ "standingText": "300-350 (total venue capacity; seated vs standing not stated)",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included",
+   "rent"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "included",
+   "rent"
+  ],
+  "Photo booth / backdrop": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound Room (Microphone + Speakers)"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal Suite"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Reception areas"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Terrace (Outdoor)'; 'included at no additional charge"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Any vendor, including food trucks"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Hexagon Wedding Arch'; 'Copper Arch (Rental)"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Features: Greenery wall'; 'Bud Vases"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easels'; 'Neon Sign - \"Mr. and Mrs."
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "included+rent",
+   "wording": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Selfie Photo Booth (Rental)"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A modern, contemporary 3,000 sq ft event space in downtown Provo with a main hall (The Gallery), a dark-walled dining room (The Assembly Hall), an outdoor terrace, a bridal suite and a prep kitchen. Holds events of up to 350 guests; tables, chairs, sound and a decor package are included."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "407 W 100 S, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Stylish\nContemporary\nModern\nSleek"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Day-of-week rentals $1,700–$2,600"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Full venue rental (The Gallery, The Assembly Hall, The Terrace, bridal suite, kitchen, sound room, decorations room, one included set-up, tables, chairs, decor package) — Sun-Wed — $1,700\nSame inclusions — Thu — $1,900\nSame inclusions — Fri-Sat — $2,600\nEarly access or late checkout — $100/hour\nAlcohol fee (licensed bartender required) — $300"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Reception areas"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "The Terrace (Outdoor)'; 'included at no additional charge"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "120 chairs included (seated maximum not stated)"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300-350 (total venue capacity; seated vs standing not stated)"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "The Gallery",
+     "value": "Setting: indoor · Note: high ceilings, greenery wall, black slat wall, two glass garage doors; ceremonies, receptions, dancing"
+    },
+    {
+     "id": "spaces-1",
+     "label": "The Assembly Hall",
+     "value": "Setting: indoor · Note: dark-walled dining / refreshment room"
+    },
+    {
+     "id": "spaces-2",
+     "label": "The Terrace",
+     "value": "Setting: outdoor · Note: ceremonies, activities, extra dining"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Bridal suite",
+     "value": "Setting: indoor"
+    },
+    {
+     "id": "spaces-4",
+     "label": "Prep kitchen",
+     "value": "Setting: indoor"
+    },
+    {
+     "id": "spaces-5",
+     "label": "Total capacity",
+     "value": "300-350 guests (seated vs standing not stated)"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bridal Suite"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal suite"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "12 large banquet tables (8x3 ft)\n3 medium banquet tables (6x3 ft)\n10 standing cocktail tables\n120 chairs\nTable runners\nPhoto frames and frame stands\nBud vases\nCandles\nEasels\nFlower stands\nDrink dispensers and drink trough\nCharcuterie boards\nHexagon wedding arch\nRectangle wedding arch\n3 neon signs\nGreenery wall and black slat wall (The Gallery)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Sound Room (Microphone + Speakers)"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound room with microphone and speakers"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included+rent",
+     "value": "Hexagon Wedding Arch'; 'Copper Arch (Rental)"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "Features: Greenery wall'; 'Bud Vases"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Easels'; 'Neon Sign - \"Mr. and Mrs."
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "Candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Lemonade bar (rental, price not stated)\nSelfie photo booth (rental, price not stated)\nS'mores bar (rental, price not stated)\nCopper arch (rental, price not stated)\nDisconnected arch (rental, price not stated)\nCandy truck (rental, price not stated)\nAudio guestbook phone booth (rental, price not stated)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Early access or late checkout — $100/hour\nOne included set-up\nDecorations room\n4 large garage doors open for food truck service"
+    }
+   ]
+  },
+  {
+   "id": "decor-catalog",
+   "title": "Decor catalog",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-catalog-0",
+     "label": "Included",
+     "value": "table runners; photo frames; bud vases; candles; easels; flower stands; drink dispensers; drink trough; charcuterie boards; frame stands; hexagon wedding arch; rectangle wedding arch; 3 neon signs"
+    },
+    {
+     "id": "decor-catalog-1",
+     "label": "Rental price not stated",
+     "value": "lemonade bar; selfie photo booth; s'mores bar; copper arch; candy truck; audio guestbook phone booth; disconnected arch"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "included+rent",
+     "value": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "rent",
+     "value": "Selfie Photo Booth (Rental)"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Any vendor, including food trucks"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Any vendors allowed, including food trucks\nPreferred vendor list provided"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed with a licensed bartender\n$300 alcohol fee"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Sun-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm\nEarly access or late checkout $100/hour, until 11pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "12 hours (full day)"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Two public parking lots in front of the venue, 300+ spaces combined, open all day"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Total capacity 300-350; seated capacity not stated; 120 chairs included"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (385) 286-2002\nEmail: theblakevenue@gmail.com\nVenue Director: Gabie"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.theblakevenue.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-blake",
+  "Venue Name": "The Blake",
+  "link": "https://www.theblakevenue.com/",
+  "City": "Provo",
+  "Full Address": "407 W 100 S, Provo, UT 84601",
+  "Description": "A modern, contemporary 3,000 sq ft event space in downtown Provo with a main hall (The Gallery), a dark-walled dining room (The Assembly Hall), an outdoor terrace, a bridal suite and a prep kitchen. Holds events of up to 350 guests; tables, chairs, sound and a decor package are included.",
+  "Price Low": "1700",
+  "Price High": "2600",
+  "Price Basis": "rental",
+  "Standard Price Range": "Day-of-week rentals $1,700–$2,600",
+  "Seated Low": "120",
+  "Seated High": "120",
+  "Seated Capacity": "120 chairs included (seated maximum not stated)",
+  "Standing Low": "300",
+  "Standing High": "350",
+  "Standing Capacity": "300-350 (total venue capacity; seated vs standing not stated)",
+  "Packages and Prices": "Full venue rental (The Gallery, The Assembly Hall, The Terrace, bridal suite, kitchen, sound room, decorations room, one included set-up, tables, chairs, decor package) — Sun-Wed — $1,700\nSame inclusions — Thu — $1,900\nSame inclusions — Fri-Sat — $2,600\nEarly access or late checkout — $100/hour\nAlcohol fee (licensed bartender required) — $300",
+  "Time slots": "Sun-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm\nEarly access or late checkout $100/hour, until 11pm",
+  "Length of Rental": "12 hours (full day)",
+  "Style": "Stylish\nContemporary\nModern\nSleek",
+  "Other Decor Included": "12 large banquet tables (8x3 ft)\n3 medium banquet tables (6x3 ft)\n10 standing cocktail tables\n120 chairs\nTable runners\nPhoto frames and frame stands\nBud vases\nCandles\nEasels\nFlower stands\nDrink dispensers and drink trough\nCharcuterie boards\nHexagon wedding arch\nRectangle wedding arch\n3 neon signs\nGreenery wall and black slat wall (The Gallery)",
+  "Other Decor for Rent": "Lemonade bar (rental, price not stated)\nSelfie photo booth (rental, price not stated)\nS'mores bar (rental, price not stated)\nCopper arch (rental, price not stated)\nDisconnected arch (rental, price not stated)\nCandy truck (rental, price not stated)\nAudio guestbook phone booth (rental, price not stated)",
+  "parking?": "Two public parking lots in front of the venue, 300+ spaces combined, open all day",
+  "sound system": "Yes\nSound room with microphone and speakers",
+  "extras": "Early access or late checkout — $100/hour\nOne included set-up\nDecorations room\n4 large garage doors open for food truck service",
+  "Catering": "Any vendors allowed, including food trucks\nPreferred vendor list provided",
+  "Prep Area": "Prep kitchen",
+  "Alcohol policy": "Alcohol allowed with a licensed bartender\n$300 alcohol fee",
+  "Bride/Groom Rooms": "Bridal suite",
+  "Important Notes": "Total capacity 300-350; seated capacity not stated; 120 chairs included",
+  "Contact Information": "Phone: (385) 286-2002\nEmail: theblakevenue@gmail.com\nVenue Director: Gabie"
+ }
+}

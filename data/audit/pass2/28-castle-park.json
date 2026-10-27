@@ -1,0 +1,223 @@
+{
+ "row": 28,
+ "id": "castle-park",
+ "official_name": {
+  "name": "Castle Park",
+  "source_url": "https://castleparkevents.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Follow the handicapped paint walkway to the elevator ... There is a ramp entrance",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "You may use these & the elevator for carts",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "House sound system w/wireless mic",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "House sound system w/wireless mic",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "We have TV's in both ballrooms and in the Upper grooms room.",
+   "price": "",
+   "source_url": "https://castleparkevents.com/faqs/"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Brides room in both ballrooms",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Every package is professionally managed by a Castle Park wedding planner.",
+   "price": "",
+   "source_url": "https://castleparkevents.com/pricing/"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Upper includes grooms/Media room",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Your choice: Upper Ballroom or Lower Ballroom",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "We include tufted linens for all standard tables with your rental",
+   "price": "",
+   "source_url": "https://castleparkevents.com/faqs/"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "CASTLE OR GAZEBO CEREMONY PACKAGE ... Private garden space",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Castle Park has no such restrictions. We charge nothing extra if you want to self serve or find your own catering.",
+   "price": "",
+   "source_url": "https://castleparkevents.com/faqs/"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparklers, bubbles or bells for your exit included in every package; not lit inside or over carpet",
+   "price": "",
+   "source_url": "https://castleparkevents.com/pricing/"
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Non - floral centerpieces for your guest tables",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Standard backdrop ... CEREMONY DECOR PACKAGE $515 Backdrop for the ceremony",
+   "price": "$515",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "LIGHTS/DRAPES PACKAGES Lower Ballroom $600 Upper Ballroom $700",
+   "price": "$600",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "CUSTOM FLORAL & WEDDING CAKES AVAILABLE UPON REQUEST",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Decor > Signs / easels": {
+   "status": "included+rent",
+   "wording": "Floor easel for your display ... Easel and Sign in table with linen",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "rent",
+   "wording": "LIGHTS/DRAPES PACKAGES",
+   "price": "",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "ALCOHOL BAR PACKAGE $950 ... licensed and insured bartender for 3 hours, tables and linens",
+   "price": "$950",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1825,
+  "high": 8675,
+  "basis": "rental",
+  "wording": "One ballroom $1,825–$3,595; both ballrooms (Large Party) $6,045–$8,675",
+  "math": ""
+ },
+ "seated": {
+  "low": 96,
+  "high": 200,
+  "wording": "96 (Venue & Decor package) | Upper 120 / Lower 150 | Lower 200 with Large Party package"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Castle Park"
+ }
+}

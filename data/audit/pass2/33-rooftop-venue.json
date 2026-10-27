@@ -1,0 +1,223 @@
+{
+ "row": 33,
+ "id": "rooftop-venue",
+ "official_name": {
+  "name": "The Rooftop",
+  "source_url": "https://www.therooftoplehi.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "do not block ... accessible (ADA) spaces",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/faq"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "audio system",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "Built-in AV: television and audio system",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/corporate"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "bride room",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "setup/takedown, cleaning",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "a venue coordinator on-site during your rental time",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/faq"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "groom room",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The Overlook (3,200 sq ft), The Skylight Room",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/venue"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "floor-length linens",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/weddings"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Courtyard is an outdoor patio",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/venue"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "You may use your own caterer",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/faq"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparklers are permitted only in the parking lot.",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/faq"
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "center pieces",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "ceremony arch",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "easels",
+   "price": "",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Photo booth: $200/hr. (2-hr minimum)",
+   "price": "$200/hr",
+   "source_url": "https://www.therooftoplehi.com/pricing"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 2500,
+  "high": 4500,
+  "basis": "rental",
+  "wording": "Rentals $2,500–$4,500",
+  "math": ""
+ },
+ "seated": {
+  "low": 80,
+  "high": 300,
+  "wording": "Setting 2: 80 | Setting 1: 280 (pricing) | 300 (home page) | 200 (FAQ)"
+ },
+ "standing": {
+  "low": 300,
+  "high": 700,
+  "wording": "Setting 1: up to 700 flowing reception\nSetting 2: up to 300 flowing reception"
+ },
+ "row_updates": {
+  "Venue Name": "The Rooftop"
+ }
+}

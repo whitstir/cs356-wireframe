@@ -1,0 +1,784 @@
+{
+ "id": "springville-museum-of-art",
+ "name": "Springville Museum of Art",
+ "city": "Springville",
+ "description": "A historic Spanish-colonial-style art museum in Springville with galleries, a sculpture garden, and indoor and outdoor event spaces.",
+ "styles": [
+  "Classic"
+ ],
+ "priceMin": 805,
+ "priceMax": 2130,
+ "priceBasis": "rental",
+ "priceText": "Garden only $805–$995; Main Level $925–$1,135; Main Level + Garden $1,730–$2,130",
+ "seated": 63,
+ "seatedMin": 48,
+ "seatedText": "Dumke Gallery 48\nSculpture Garden 54\nAtrium 63 seated dinner",
+ "standing": 750,
+ "standingMin": 400,
+ "standingText": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)",
+ "decor": {
+  "Signs / easels": [
+   "included"
+  ],
+  "Piano": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": true,
+  "ADA restrooms": true,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Wheelchair available for guests"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "Elevator to all levels and restrooms"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "Accessible restrooms on the main and lower levels"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Accessible parking in the east lot"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound System, Microphone, TV Screen"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound System"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TV Screen"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Event coordinator (Gina Woolf)"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor galleries"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Sculpture Garden"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "rent",
+   "wording": "Upright piano, $25 (not in the Swanson Gallery)"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic Spanish-colonial-style art museum in Springville with galleries, a sculpture garden, and indoor and outdoor event spaces."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "126 E 400 S, Springville, UT 84663"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Historic\nSpanish colonial-style\nElegant\nUnique\nAffordable"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Garden only $805–$995; Main Level $925–$1,135; Main Level + Garden $1,730–$2,130"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Main Level + Stewart Sculpture Garden: 6.5-hour private after-hours rental with event hosts and basic table and chair setup — Mon, Tue, Thu, Fri or Sat 4pm-10:30pm — $1,730-$2,130 ($600 deposit)\nMain Level only, same inclusions — $925-$1,135 ($300 deposit)\nSculpture Garden only, same inclusions — $805-$995 ($300 deposit)\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$600 deposit (Main Level + Garden)\n$300 deposit (Main Level or Garden only)\n$100 deposit per additional gallery"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor galleries"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Sculpture Garden"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Dumke Gallery 48\nSculpture Garden 54\nAtrium 63 seated dinner"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)"
+    }
+   ]
+  },
+  {
+   "id": "rentable-spaces",
+   "title": "Rentable spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "rentable-spaces-0",
+     "label": "Main Level + Stewart Sculpture Garden",
+     "value": "Setting: indoor+outdoor · Seated: 63 (Atrium) / 48 (Dumke Gallery) / 54 (Garden) · Standing: 750 · Price: $1,730-$2,130 for 6.5 hours · Deposit: $600 · Notes: Only sheet that lists Weddings"
+    },
+    {
+     "id": "rentable-spaces-1",
+     "label": "Main Level",
+     "value": "Setting: indoor · Seated: 63 (Atrium) / 48 (Dumke Gallery) · Standing: 450 · Price: $925-$1,135 for 6.5 hours · Deposit: $300"
+    },
+    {
+     "id": "rentable-spaces-2",
+     "label": "Diane and Sam Stewart Sculpture Garden (with Smoot Pavilion)",
+     "value": "Setting: outdoor · Standing: 400 · Price: $805-$995 for 6.5 hours; semi-private $80-$105/hour · Deposit: $300 ($100 semi-private)"
+    },
+    {
+     "id": "rentable-spaces-3",
+     "label": "Atrium (semi-private daytime)",
+     "value": "Setting: indoor · Seated: 63 · Price: $80-$105/hour, 1.5 hours · Deposit: $100"
+    },
+    {
+     "id": "rentable-spaces-4",
+     "label": "Grand and East Galleries (upper level)",
+     "value": "Setting: indoor · Seated: 99 (Grand) / 20 (East) · Price: $115-$150/hour as additional gallery; semi-private $60-$85/hour · Notes: Grand piano; concerts, recitals, ceremonies"
+    },
+    {
+     "id": "rentable-spaces-5",
+     "label": "Utah Families Foundation Youth Gallery (lower level)",
+     "value": "Setting: indoor · Seated: 104 dinner / 100 lecture · Standing: 200 · Price: $115-$150/hour as additional gallery; semi-private $60-$85/hour · Notes: Projector and screen"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Event coordinator (Gina Woolf)"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Tables\nChairs\nPodium\nEasels\nBenches\nCanopies\nWireless internet"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Event coordinator Gina Woolf (tours, scheduling, floor-plan approval)\nEvent hosts included with the rental"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Sound System, Microphone, TV Screen"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound System"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TV Screen"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound system\nMicrophone\nTV screen"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Specialty setup or mid-event setup change — $40+\nUpright piano (select locations) — $25"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Stewart Sculpture Garden with Smoot Pavilion\nArt galleries\nSpanish colonial-style architecture (1937)\nPhotography sessions free with a booked rental"
+    }
+   ]
+  },
+  {
+   "id": "available-equipment-main-level-facility-map",
+   "title": "Available equipment (Main Level facility map)",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "available-equipment-main-level-facility-map-0",
+     "label": "8 ft rectangular table",
+     "value": "Count: 6"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-1",
+     "label": "3 ft rectangular table",
+     "value": "Count: 4"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-2",
+     "label": "60 in. round table (seats 8)",
+     "value": "Count: 2"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-3",
+     "label": "black folding chairs",
+     "value": "Count: 30"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-4",
+     "label": "50 in. wrought-iron tables with chairs (Atrium only, seat 6)",
+     "value": "Count: 9"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-5",
+     "label": "serpentine tables",
+     "value": "Count: 4"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-6",
+     "label": "easels",
+     "value": "Count: 3"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-7",
+     "label": "7 ft wooden benches",
+     "value": "Count: 9"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-8",
+     "label": "podium",
+     "value": "Count: 1"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-9",
+     "label": "upright piano ($25)",
+     "value": "Count: 1"
+    },
+    {
+     "id": "available-equipment-main-level-facility-map-10",
+     "label": "Av",
+     "value": "flat screen (renter provides slideshow); CD player; iPod cable; microphone with stand; microphone with podium; speakers in Atrium, Dumke Gallery and Foyer; Wi-Fi"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "rent",
+     "value": "Upright piano, $25 (not in the Swanson Gallery)"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Food staging area with oven, counters, sink and fridges\nBridal party may change in the lower-level restrooms"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Private events: Mon, Tue, Thu, Fri, Sat 4pm-10:30pm\nSemi-private (Atrium, Garden): Tue-Sat 10:30am-3:30pm; Sun 3:30pm-5:30pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "6.5 hours (private after-hours); 1.5 hours (semi-private)"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Closed Sundays and holidays\nTours by appointment (Tue 11am-2pm, Wed 5pm-8pm, some Saturdays)\nFloor plan must be approved by the event coordinator one week before the event\nNothing may be placed between the dashed line and the walls; grey areas are closed during events\nWrought-iron tables only in the Atrium; piano not usable in the Swanson Gallery"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "Wheelchair available for guests"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "included",
+     "value": "Elevator to all levels and restrooms"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "included",
+     "value": "Accessible restrooms on the main and lower levels"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Accessible parking in the east lot"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "ADA accessible (except the Swanson Gallery)\nElevator to all levels\nWheelchair available at the front desk\nAccessible parking in the east lot\nAccessible restrooms on the main and lower levels\nRamps to the front doors"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Free parking lot directly east of the Museum\nAdditional free parking west of the Museum on 100 E"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Rates come from an undated rate-sheet PDF on smofa.org that the current Rentals page no longer links; the Rentals page and FAQ say to contact the event coordinator for rates\nWeddings are listed on the Main Level + Garden sheet; the Main Level and Garden sheets list receptions\nPhoto sessions are free with a booked rental (otherwise $40 per 1.5 hours)"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-489-2727\nEvent coordinator: 801-491-5711\nEmail: SMAinfo@springvilleutah.gov\nEmail: gwoolf@springville.org"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.smofa.org/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "springville-museum-of-art",
+  "Venue Name": "Springville Museum of Art",
+  "link": "https://www.smofa.org/",
+  "City": "Springville",
+  "Full Address": "126 E 400 S, Springville, UT 84663",
+  "Description": "A historic Spanish-colonial-style art museum in Springville with galleries, a sculpture garden, and indoor and outdoor event spaces.",
+  "Price Low": "805",
+  "Price High": "2130",
+  "Price Basis": "rental",
+  "Standard Price Range": "Garden only $805–$995; Main Level $925–$1,135; Main Level + Garden $1,730–$2,130",
+  "Seated Low": "48",
+  "Seated High": "63",
+  "Seated Capacity": "Dumke Gallery 48\nSculpture Garden 54\nAtrium 63 seated dinner",
+  "Standing Low": "400",
+  "Standing High": "750",
+  "Standing Capacity": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)",
+  "Packages and Prices": "Main Level + Stewart Sculpture Garden: 6.5-hour private after-hours rental with event hosts and basic table and chair setup — Mon, Tue, Thu, Fri or Sat 4pm-10:30pm — $1,730-$2,130 ($600 deposit)\nMain Level only, same inclusions — $925-$1,135 ($300 deposit)\nSculpture Garden only, same inclusions — $805-$995 ($300 deposit)\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25",
+  "Time slots": "Private events: Mon, Tue, Thu, Fri, Sat 4pm-10:30pm\nSemi-private (Atrium, Garden): Tue-Sat 10:30am-3:30pm; Sun 3:30pm-5:30pm",
+  "Length of Rental": "6.5 hours (private after-hours); 1.5 hours (semi-private)",
+  "Style": "Historic\nSpanish colonial-style\nElegant\nUnique\nAffordable",
+  "Other Decor Included": "Tables\nChairs\nPodium\nEasels\nBenches\nCanopies\nWireless internet",
+  "Other Decor for Rent": "Specialty setup or mid-event setup change — $40+\nUpright piano (select locations) — $25",
+  "parking?": "Free parking lot directly east of the Museum\nAdditional free parking west of the Museum on 100 E",
+  "sound system": "Yes\nSound system\nMicrophone\nTV screen",
+  "extras": "Stewart Sculpture Garden with Smoot Pavilion\nArt galleries\nSpanish colonial-style architecture (1937)\nPhotography sessions free with a booked rental",
+  "Accessibility": "ADA accessible (except the Swanson Gallery)\nElevator to all levels\nWheelchair available at the front desk\nAccessible parking in the east lot\nAccessible restrooms on the main and lower levels\nRamps to the front doors",
+  "Deposit Policy": "$600 deposit (Main Level + Garden)\n$300 deposit (Main Level or Garden only)\n$100 deposit per additional gallery",
+  "Prep Area": "Food staging area with oven, counters, sink and fridges\nBridal party may change in the lower-level restrooms",
+  "Event Coordinator": "Event coordinator Gina Woolf (tours, scheduling, floor-plan approval)\nEvent hosts included with the rental",
+  "Restrictions": "Closed Sundays and holidays\nTours by appointment (Tue 11am-2pm, Wed 5pm-8pm, some Saturdays)\nFloor plan must be approved by the event coordinator one week before the event\nNothing may be placed between the dashed line and the walls; grey areas are closed during events\nWrought-iron tables only in the Atrium; piano not usable in the Swanson Gallery",
+  "Important Notes": "Rates come from an undated rate-sheet PDF on smofa.org that the current Rentals page no longer links; the Rentals page and FAQ say to contact the event coordinator for rates\nWeddings are listed on the Main Level + Garden sheet; the Main Level and Garden sheets list receptions\nPhoto sessions are free with a booked rental (otherwise $40 per 1.5 hours)",
+  "Contact Information": "Phone: 801-489-2727\nEvent coordinator: 801-491-5711\nEmail: SMAinfo@springvilleutah.gov\nEmail: gwoolf@springville.org"
+ }
+}

@@ -1,0 +1,681 @@
+{
+ "id": "the-oaks-at-spanish-fork",
+ "name": "Event Center at The Oaks",
+ "city": "Spanish Fork",
+ "description": "An event center at The Oaks at Spanish Fork, a city-run golf course, with a 3,500-square-foot reception area, a large outdoor deck overlooking the golf course, a fireplace and a prep kitchen; outside food is allowed and alcohol is not.",
+ "styles": [
+  "Modern"
+ ],
+ "priceMin": 1600,
+ "priceMax": 2400,
+ "priceBasis": "rental",
+ "priceText": "4–11pm or all-day rentals $1,600–$2,400",
+ "seated": 160,
+ "seatedMin": 160,
+ "seatedText": "20 round tables seating 8 (160)",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Fireplace": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Premium sound system and microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Premium sound system and microphone"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "2 HD TVs"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's room with vanity"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "3,500 square feet of reception area"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Large outdoor deck"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Own catering or food at no extra cost"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fireplace"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Chalkboard greeting signs"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "An event center at The Oaks at Spanish Fork, a city-run golf course, with a 3,500-square-foot reception area, a large outdoor deck overlooking the golf course, a fireplace and a prep kitchen; outside food is allowed and alcohol is not."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "2300 E Powerhouse Rd, Spanish Fork, UT 84660"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Golf course setting\nFlexible"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "4–11pm or all-day rentals $1,600–$2,400"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Monday-Thursday 4-11pm — $1,600\nMonday-Thursday all day — $2,000\nMonday-Thursday hourly — $250/hour (3-hour minimum)\nFriday-Sunday and holidays 4-11pm — $1,900\nFriday-Sunday and holidays all day — $2,400\nFriday-Sunday and holidays hourly — $300/hour (3-hour minimum)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "3,500 square feet of reception area"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Large outdoor deck"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "20 round tables seating 8 (160)"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Reception area",
+     "value": "Size sqft: 3500 · Seated: 160 · Setting: indoor"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Outdoor deck",
+     "value": "Setting: outdoor · Note: golf course views"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride's room with vanity"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's room with vanity"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "20 round tables (seat 8 each)\n160 chairs\n2 head tables\n4 serving tables\nDisplay tables\nChalkboard greeting signs\nFireplace\n2 HD TVs\nBlu-ray player\nPremium sound system and microphone"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Premium sound system and microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Premium sound system and microphone"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "2 HD TVs"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nPremium sound system and microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Fireplace"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Chalkboard greeting signs"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Large outdoor deck with golf course views\nIce machine"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Own catering or food at no extra cost"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Own caterer or food allowed at no additional cost"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen and serving area with ice machine"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol not permitted"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Monday-Thursday: 4-11pm or all day\nFriday-Sunday and holidays: 4-11pm or all day\nHourly rentals (3-hour minimum)"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "7 hours (4-11pm)\nAll day\nHourly, 3-hour minimum"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Alcohol not permitted\nHourly rentals require a 3-hour minimum"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Event center is at The Oaks at Spanish Fork golf course, run by Spanish Fork City\nThe old theoaksatsf.com address now redirects to the city's website"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Event Center Coordinator: (385) 448-6658\nEmail: sfoaksevents@gmail.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-oaks-at-spanish-fork",
+  "Venue Name": "Event Center at The Oaks",
+  "link": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/",
+  "City": "Spanish Fork",
+  "Full Address": "2300 E Powerhouse Rd, Spanish Fork, UT 84660",
+  "Description": "An event center at The Oaks at Spanish Fork, a city-run golf course, with a 3,500-square-foot reception area, a large outdoor deck overlooking the golf course, a fireplace and a prep kitchen; outside food is allowed and alcohol is not.",
+  "Price Low": "1600",
+  "Price High": "2400",
+  "Price Basis": "rental",
+  "Standard Price Range": "4–11pm or all-day rentals $1,600–$2,400",
+  "Seated Low": "160",
+  "Seated High": "160",
+  "Seated Capacity": "20 round tables seating 8 (160)",
+  "Packages and Prices": "Monday-Thursday 4-11pm — $1,600\nMonday-Thursday all day — $2,000\nMonday-Thursday hourly — $250/hour (3-hour minimum)\nFriday-Sunday and holidays 4-11pm — $1,900\nFriday-Sunday and holidays all day — $2,400\nFriday-Sunday and holidays hourly — $300/hour (3-hour minimum)",
+  "Time slots": "Monday-Thursday: 4-11pm or all day\nFriday-Sunday and holidays: 4-11pm or all day\nHourly rentals (3-hour minimum)",
+  "Length of Rental": "7 hours (4-11pm)\nAll day\nHourly, 3-hour minimum",
+  "Style": "Golf course setting\nFlexible",
+  "Other Decor Included": "20 round tables (seat 8 each)\n160 chairs\n2 head tables\n4 serving tables\nDisplay tables\nChalkboard greeting signs\nFireplace\n2 HD TVs\nBlu-ray player\nPremium sound system and microphone",
+  "sound system": "Yes\nPremium sound system and microphone",
+  "extras": "Large outdoor deck with golf course views\nIce machine",
+  "Catering": "Own caterer or food allowed at no additional cost",
+  "Prep Area": "Prep kitchen and serving area with ice machine",
+  "Alcohol policy": "Alcohol not permitted",
+  "Bride/Groom Rooms": "Bride's room with vanity",
+  "Restrictions": "Alcohol not permitted\nHourly rentals require a 3-hour minimum",
+  "Important Notes": "Event center is at The Oaks at Spanish Fork golf course, run by Spanish Fork City\nThe old theoaksatsf.com address now redirects to the city's website",
+  "Contact Information": "Event Center Coordinator: (385) 448-6658\nEmail: sfoaksevents@gmail.com"
+ }
+}

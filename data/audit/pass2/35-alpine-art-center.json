@@ -1,0 +1,223 @@
+{
+ "row": 35,
+ "id": "alpine-art-center",
+ "official_name": {
+  "name": "Alpine Art Center",
+  "source_url": "https://alpineartcenter.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound system with microphone (one cordless)",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/events/"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector (with HDMI connection)",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Speaker System",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's Room",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "provide setup and cleanup",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/about-us/"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Event Director will work with you with a hands-on approach",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/events/"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's Room",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Banquet Room",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "10 floor length linens",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/events/"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "multiple indoor and outdoor ceremony locations'; 'Full access to gardens",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/events/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Can I bring in my own catering? Yes, you can.",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/faq/"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces Options",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "3 floor easels'; 'Personalized sign at entrance",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/events/"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Includes: 'Large Chandelier",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table 32″",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included",
+   "wording": "1 Drink Table (4′)",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Baby Grand Piano",
+   "price": "",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  },
+  "Other > Sweetheart table": {
+   "status": "rent",
+   "wording": "Rectangle Sweethearts Table 4′ (Each) $22",
+   "price": "$22",
+   "source_url": "https://alpineartcenter.com/pricing/"
+  }
+ },
+ "price": {
+  "low": 1700,
+  "high": 4200,
+  "basis": "rental",
+  "wording": "Seasonal and day-of-week rentals $1,700–$4,200",
+  "math": ""
+ },
+ "seated": {
+  "low": 120,
+  "high": 120,
+  "wording": "120 for a sit-down dinner"
+ },
+ "standing": {
+  "low": 360,
+  "high": 500,
+  "wording": "400-500 come-and-go reception\n360-400 for a dance"
+ },
+ "row_updates": {
+  "Venue Name": "Alpine Art Center"
+ }
+}

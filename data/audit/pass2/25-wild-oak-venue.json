@@ -1,0 +1,223 @@
+{
+ "row": 25,
+ "id": "wild-oak-venue",
+ "official_name": {
+  "name": "The Wild Oak",
+  "source_url": "https://thewildoakvenue.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Close parking and handicap parking",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Studio quality sound system with microphones",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Studio quality sound system with microphones",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride & Groom private rooms",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Bride & Groom private rooms",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Elegant interiors with Venetian plaster",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor patio under a pergola",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "If you choose a caterer outside of this catering list, they must be licensed and insured",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/vendors/"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "table centerpieces",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/in-house-services/"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Rock waterfall and wooden arch",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fireplace",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Our skillful and creative team brings your floral inspiration to life",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/in-house-services/"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "unique welcome signs, seating charts, custom menus",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/in-house-services/"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Outdoor patio under a pergola with bistro lights",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Hand planed black walnut cake table",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included+rent",
+   "wording": "Beautiful glass bar ... Outdoor wood bar",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Other > Firepit": {
+   "status": "included",
+   "wording": "Gas fire pit and gathering areas",
+   "price": "",
+   "source_url": "https://thewildoakvenue.com/weddings/"
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 3000,
+  "high": 7000,
+  "basis": "rental",
+  "wording": "Seasonal all-day wedding rentals $3,000–$7,000",
+  "math": ""
+ },
+ "seated": {
+  "low": 150,
+  "high": 150,
+  "wording": "150 seated indoors"
+ },
+ "standing": {
+  "low": 250,
+  "high": 300,
+  "wording": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)"
+ },
+ "row_updates": {
+  "Venue Name": "The Wild Oak"
+ }
+}

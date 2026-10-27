@@ -1,0 +1,726 @@
+{
+ "id": "sun-river-gardens",
+ "name": "Sun River Gardens",
+ "city": "Orem",
+ "description": "A year-round garden reception venue at Sun River Gardens in Orem: The Garden Room is a climate-controlled greenhouse atrium with tropical and seasonal foliage, fountains, patios and a private bridal room.",
+ "styles": [
+  "Outdoors"
+ ],
+ "priceMin": 3200,
+ "priceMax": 3500,
+ "priceBasis": "rental",
+ "priceText": "Tue–Thu $3,200; Fri–Sat $3,500",
+ "seated": null,
+ "seatedMin": null,
+ "seatedText": "Not stated",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Draping / chair covers": [
+   "rent"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "P.A. System-Portable microphone & mic stand"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Overhead stereo system (iPod/iPhone connection)"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "32” Flat Screen HD-TV and DVD player"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Private Bridal Room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "1-2 wedding coordinators on-site during event"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "As a climate controlled atrium, The Garden Room"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "15 Base linens for tables, 70+ colors"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Indoor and outdoor gardens"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Ivy Topiaries and / or Lantern centerpieces for tables"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "Chair covers (extra charge)"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Tropical and seasonal foliage, flowering baskets"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "(4) Easels approx. 5' tall, 2 tabletop easels also available"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Lantern centerpieces for tables"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Sign-in Table, Gift Table, Cake Table & T.V Table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A year-round garden reception venue at Sun River Gardens in Orem: The Garden Room is a climate-controlled greenhouse atrium with tropical and seasonal foliage, fountains, patios and a private bridal room."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "1248 N State St, Orem, UT 84057"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Garden\nGreenhouse"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Tue–Thu $3,200; Fri–Sat $3,500"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Tuesday-Thursday — $3,200\nFriday & Saturday — $3,500\nIncludes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$500 non-refundable deposit to reserve"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "As a climate controlled atrium, The Garden Room"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Indoor and outdoor gardens"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Not stated"
+    }
+   ]
+  },
+  {
+   "id": "space",
+   "title": "Space",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "space-0",
+     "label": "The Garden Room (greenhouse atrium)",
+     "value": "Size: 7,000+ sq ft · Setting: indoor, with doors to patios in warmer months"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Private Bridal Room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Private bridal room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "15 Base linens for tables, 70+ colors"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "1-2 wedding coordinators on-site during event"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "12 60\" round tables and 5 tallboy tables\nBanquet tables on request\n15 base table linens (70+ colors)\n100+ cushioned chairs\nSign-in table, gift table, cake table and TV table\nIvy topiary and/or lantern centerpieces\n4 floor easels (about 5 ft) and 2 tabletop easels\n32\" flat-screen HD TV and DVD player\nTropical and seasonal greenery, water features, gazebos and flowering baskets"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Wedding coordinator helps plan event details\n1-2 wedding coordinators on-site during the event"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Staff set up and tear down tables, chairs and linens (general cleaning not stated)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "P.A. System-Portable microphone & mic stand"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Overhead stereo system (iPod/iPhone connection)"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "32” Flat Screen HD-TV and DVD player"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nOverhead stereo system with iPod/iPhone connection\nP.A. system with portable cordless microphone and stand"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Ivy Topiaries and / or Lantern centerpieces for tables"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "rent",
+     "value": "Chair covers (extra charge)"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "Tropical and seasonal foliage, flowering baskets"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "(4) Easels approx. 5' tall, 2 tabletop easels also available"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "Lantern centerpieces for tables"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Table toppers, sashes, napkins, chair covers and additional runners (extra charge, prices not stated)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Climate-controlled year-round (cooled to 75°F in warmer months)\nDancing area\nArea for wedding gifts\nEngagement/wedding photo sessions on the grounds — $50 site fee (by approval)"
+    }
+   ]
+  },
+  {
+   "id": "included-in-rental",
+   "title": "Included in rental",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "included-in-rental-0",
+     "label": "Staff",
+     "value": "Wedding coordinator for planning; 1-2 coordinators on-site; Setup and teardown of tables, chairs, linens"
+    },
+    {
+     "id": "included-in-rental-1",
+     "label": "Facility",
+     "value": "Indoor and outdoor gardens; Private bridal room; 7,000+ sq ft; Caterer staging area (microwave, fridge, sink); Overhead stereo; P.A. with microphone; Gift area; Dancing area; Climate control"
+    },
+    {
+     "id": "included-in-rental-2",
+     "label": "Furniture",
+     "value": "12 60-inch round tables; 5 tallboy tables; Banquet tables on request; 15 base linens (70+ colors); 100+ cushioned chairs; Sign-in, gift, cake and TV tables"
+    },
+    {
+     "id": "included-in-rental-3",
+     "label": "Extras",
+     "value": "32-inch HD TV and DVD player; Ivy topiary and/or lantern centerpieces; 4 floor easels, 2 tabletop easels"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Sign-in Table, Gift Table, Cake Table & T.V Table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Large caterer staging area with microwave, fridge and sink"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Tuesday-Thursday\nFriday-Saturday\nNo events in May"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No events in May (busy garden retail season)"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Convenient parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Reception information is on sunriverreceptions.com, linked from the garden center's menu\nReception site notice (undated): venue is undergoing an expansion through mid-summer; inquiries and reservations accepted from late spring\nReceptions offered since 2006"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone (receptions): 801-769-6805\nPhone (garden center): 801-229-1975\nEmail: info@sunrivergardens.com\nInstagram: @sunriverreceptions"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "http://www.sunriverreceptions.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "sun-river-gardens",
+  "Venue Name": "Sun River Gardens",
+  "link": "http://www.sunriverreceptions.com/",
+  "City": "Orem",
+  "Full Address": "1248 N State St, Orem, UT 84057",
+  "Description": "A year-round garden reception venue at Sun River Gardens in Orem: The Garden Room is a climate-controlled greenhouse atrium with tropical and seasonal foliage, fountains, patios and a private bridal room.",
+  "Price Low": "3200",
+  "Price High": "3500",
+  "Price Basis": "rental",
+  "Standard Price Range": "Tue–Thu $3,200; Fri–Sat $3,500",
+  "Seated Capacity": "Not stated",
+  "Packages and Prices": "Tuesday-Thursday — $3,200\nFriday & Saturday — $3,500\nIncludes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)",
+  "Time slots": "Tuesday-Thursday\nFriday-Saturday\nNo events in May",
+  "Style": "Garden\nGreenhouse",
+  "Other Decor Included": "12 60\" round tables and 5 tallboy tables\nBanquet tables on request\n15 base table linens (70+ colors)\n100+ cushioned chairs\nSign-in table, gift table, cake table and TV table\nIvy topiary and/or lantern centerpieces\n4 floor easels (about 5 ft) and 2 tabletop easels\n32\" flat-screen HD TV and DVD player\nTropical and seasonal greenery, water features, gazebos and flowering baskets",
+  "Other Decor for Rent": "Table toppers, sashes, napkins, chair covers and additional runners (extra charge, prices not stated)",
+  "parking?": "Convenient parking",
+  "sound system": "Yes\nOverhead stereo system with iPod/iPhone connection\nP.A. system with portable cordless microphone and stand",
+  "extras": "Climate-controlled year-round (cooled to 75°F in warmer months)\nDancing area\nArea for wedding gifts\nEngagement/wedding photo sessions on the grounds — $50 site fee (by approval)",
+  "cleanup crew": "Staff set up and tear down tables, chairs and linens (general cleaning not stated)",
+  "Deposit Policy": "$500 non-refundable deposit to reserve",
+  "Prep Area": "Large caterer staging area with microwave, fridge and sink",
+  "Event Coordinator": "Wedding coordinator helps plan event details\n1-2 wedding coordinators on-site during the event",
+  "Bride/Groom Rooms": "Private bridal room",
+  "Restrictions": "No events in May (busy garden retail season)",
+  "Important Notes": "Reception information is on sunriverreceptions.com, linked from the garden center's menu\nReception site notice (undated): venue is undergoing an expansion through mid-summer; inquiries and reservations accepted from late spring\nReceptions offered since 2006",
+  "Contact Information": "Phone (receptions): 801-769-6805\nPhone (garden center): 801-229-1975\nEmail: info@sunrivergardens.com\nInstagram: @sunriverreceptions"
+ }
+}

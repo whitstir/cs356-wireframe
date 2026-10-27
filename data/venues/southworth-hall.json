@@ -1,0 +1,637 @@
+{
+ "id": "southworth-hall",
+ "name": "Southworth Hall",
+ "city": "Provo",
+ "description": "A historic hall in downtown Provo with original brick, custom woodwork and a rustic interior. Rentals include up to 20 round and 6 rectangle tables, up to 200 chairs and the in-house sound system.",
+ "styles": [
+  "Classic",
+  "Rustic"
+ ],
+ "priceMin": 600,
+ "priceMax": 1890,
+ "priceBasis": "rental",
+ "priceText": "Rental tiers $600–$1,890",
+ "seated": 200,
+ "seatedMin": 200,
+ "seatedText": "Up to 200 chairs",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Photo booth / backdrop": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": false,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "One Wireless Mic"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "In-house sound system (free with all bookings)"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Historic brick building"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Photo Booth $199"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic hall in downtown Provo with original brick, custom woodwork and a rustic interior. Rentals include up to 20 round and 6 rectangle tables, up to 200 chairs and the in-house sound system."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "116 W Center Street, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Historic\nWarm\nClassy\nRustic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Rental tiers $600–$1,890"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs — Mon-Thu — $1,400\nSame inclusions — Fri-Sat — $1,600\nFull day 8am-12am, same tables and chairs — $1,890\nBrunch / luncheon, 3 hours between 6am-2pm, same tables and chairs — $600; additional time $100/hour\nSunday do-it-yourself 12pm-12am, no staff, up to 16 round & 6 rectangle tables, up to 200 chairs — call for pricing\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Historic brick building"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Up to 200 chairs"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Up to 20 round tables\nUp to 6 rectangle tables\nUp to 200 chairs"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "One Wireless Mic"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "In-house sound system (free with all bookings)"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nIn-house sound system\nOne wireless microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "White linens for 15 round tables and 5 buffet tables — $99"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "DJ (Southworth affiliate), 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "rent",
+     "value": "Photo Booth $199"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "3-16 hours"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Early bird special (limited dates): 25-40% off full-day or evening rates with an 8:30pm end time; add-ons 20-40% off except linens\nSundays are do-it-yourself with no staff; call for pricing"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://southworthhall.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "southworth-hall",
+  "Venue Name": "Southworth Hall",
+  "link": "https://southworthhall.com/",
+  "City": "Provo",
+  "Full Address": "116 W Center Street, Provo, UT 84601",
+  "Description": "A historic hall in downtown Provo with original brick, custom woodwork and a rustic interior. Rentals include up to 20 round and 6 rectangle tables, up to 200 chairs and the in-house sound system.",
+  "Price Low": "600",
+  "Price High": "1890",
+  "Price Basis": "rental",
+  "Standard Price Range": "Rental tiers $600–$1,890",
+  "Seated Low": "200",
+  "Seated High": "200",
+  "Seated Capacity": "Up to 200 chairs",
+  "Packages and Prices": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs — Mon-Thu — $1,400\nSame inclusions — Fri-Sat — $1,600\nFull day 8am-12am, same tables and chairs — $1,890\nBrunch / luncheon, 3 hours between 6am-2pm, same tables and chairs — $600; additional time $100/hour\nSunday do-it-yourself 12pm-12am, no staff, up to 16 round & 6 rectangle tables, up to 200 chairs — call for pricing\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+  "Time slots": "Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am",
+  "Length of Rental": "3-16 hours",
+  "Style": "Historic\nWarm\nClassy\nRustic",
+  "Other Decor Included": "Up to 20 round tables\nUp to 6 rectangle tables\nUp to 200 chairs",
+  "Other Decor for Rent": "White linens for 15 round tables and 5 buffet tables — $99",
+  "sound system": "Yes\nIn-house sound system\nOne wireless microphone",
+  "extras": "DJ (Southworth affiliate), 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+  "Important Notes": "Early bird special (limited dates): 25-40% off full-day or evening rates with an 8:30pm end time; add-ons 20-40% off except linens\nSundays are do-it-yourself with no staff; call for pricing",
+  "Contact Information": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall"
+ }
+}

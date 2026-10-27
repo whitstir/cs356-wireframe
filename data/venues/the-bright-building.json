@@ -1,0 +1,740 @@
+{
+ "id": "the-bright-building",
+ "name": "The Bright Building",
+ "city": "Provo",
+ "description": "A historic downtown Provo reception venue in a renovated auto dealership, offering an industrial and mid-century setting with a loft, commercial kitchen prep area, built-in lighting, audio equipment, and flexible vendor options.",
+ "styles": [
+  "Classic",
+  "Modern"
+ ],
+ "priceMin": 1250,
+ "priceMax": 2450,
+ "priceBasis": "rental",
+ "priceText": "Rentals $1,250–$2,450 (Fri & Sun $2,250, Sat $2,450)",
+ "seated": 150,
+ "seatedMin": 150,
+ "seatedText": "150 seated",
+ "standing": 350,
+ "standingMin": 350,
+ "standingText": "350",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": false,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "1 Wireless Microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector/Large Screen"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Speaker System"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride/Groom Room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Bride/Groom Room (one shared room)"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor urban space"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Any vendor"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparkler send-offs"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Wood Arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Indoor plants"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "3 Floor Easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "2 Large adjustable Circle Chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Strung Market Lighting"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic downtown Provo reception venue in a renovated auto dealership, offering an industrial and mid-century setting with a loft, commercial kitchen prep area, built-in lighting, audio equipment, and flexible vendor options."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "25 W 400 S, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Industrial\nMid-century\nHistoric\nUrban"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Rentals $1,250–$2,450 (Fri & Sun $2,250, Sat $2,450)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Full-day wedding rental 10am-11pm: Mon-Wed — $1,250; Thu — $1,950; Fri & Sun — $2,250; Sat — $2,450\nIncludes 15 wood and steel tables, 150 wooden folding chairs, wood arch, cake table, projector and large screen, speaker system, 1 wireless microphone, 2 adjustable circle chandeliers, strung market lighting, bride/groom room, kitchen prep space, loft, 6 restrooms, 3 floor easels, music/media adaptors\nEarly day-of setup before 10am — $150 per hour (if available)\nNight-before setup — $350 (if available)\nQuinceañera package 10am-2am: Mon-Wed $1,950; Thu $2,150; Fri & Sun $2,350; Sat $2,550\nNon-wedding events, 6-hour block: Mon-Wed $650; Thu-Sun $850"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "50% of the venue price, non-refundable, at booking"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor urban space"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "150 seated"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "350"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride/Groom Room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Bride/Groom Room (one shared room)"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride/groom room\nPowder room (getting-ready space)"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "15 custom wood and steel tables\n150 wooden folding chairs\nCake table and cake stand\nWood arch (6 ft wide, 7 ft tall)\n2 adjustable circle chandeliers\nPermanently hung cafe/market string lights\n3 floor easels\n2 chalkboard/dry-erase easels\n4 cocktail tables\nBureau\nIndoor plants"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Extra cost\nSelf-setup and self-cleanup allowed at no charge (cleaning supplies and checklist provided)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "1 Wireless Microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Projector/Large Screen"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Speaker System"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nProfessional speaker system\n1 wireless microphone\nProjector and large screen\nMusic/media adaptors"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Wood Arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "Indoor plants"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "3 Floor Easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "2 Large adjustable Circle Chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Strung Market Lighting"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Decor packages with setup and takedown from the in-house rental company Gloss (prices not listed)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Loft/mezzanine\nPowder room for getting ready\nSpiral staircase\n6 restrooms\nLarge garage door entrance\nIn-house catering and decorating services (paid)\nWedding planner referrals (Evergreen & Ivy, Soiree Productions)\nEarly setup — $150 per hour; night-before setup — $350"
+    }
+   ]
+  },
+  {
+   "id": "included-amenities-inventory",
+   "title": "Included amenities inventory",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "included-amenities-inventory-0",
+     "label": "Items",
+     "value": "15 tables 3x8 ft; 150 wooden folding chairs; wood arch 6 ft wide x 7 ft tall; cake stand 2 ft across; 4 cocktail tables; bureau; 3 floor easels; 2 chalkboard/dry-erase easels; 2 decorative rings 6 ft across; projector and large screen; speaker system; 1 wireless microphone; 2 adjustable circle chandeliers; strung market lighting; spiral staircase; garage door; catering prep kitchen; one 220V plug"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake Table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Any vendor"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Any vendor allowed\nIn-house catering available\nPreferred vendor list (not required)"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Catering prep kitchen with its own entrance\nCommercial fridge\nFreezer\nSink\nCounter space"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed with a licensed bartender\n$200 alcohol fee"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Sparkler send-offs"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes\nSparkler send-offs shown in the venue gallery; no written policy"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon 10am-11pm\nTue 10am-11pm\nWed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "13 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No duct tape\nNo confetti\nNo glitter\nCharges apply for banned items, extra cleaning or damage\nEarly setup only when booked and available\nNight-before setup only when available"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Private lot with 45 spaces\nStreet parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Former 1940s car dealership in Provo's historic Auto Row\nWeddings are booked as full days only\nHosting events since 2017"
+    }
+   ]
+  },
+  {
+   "id": "in-house-paid-services",
+   "title": "In-house paid services",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "in-house-paid-services-0",
+     "label": "Services",
+     "value": "setup/cleanup (fee not listed); decor packages via Gloss Design and Rentals; in-house catering"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-709-0455 (call or text)\nInstagram: @thebrightbuilding"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.thebrightbuilding.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-bright-building",
+  "Venue Name": "The Bright Building",
+  "link": "https://www.thebrightbuilding.com/",
+  "City": "Provo",
+  "Full Address": "25 W 400 S, Provo, UT 84601",
+  "Description": "A historic downtown Provo reception venue in a renovated auto dealership, offering an industrial and mid-century setting with a loft, commercial kitchen prep area, built-in lighting, audio equipment, and flexible vendor options.",
+  "Price Low": "1250",
+  "Price High": "2450",
+  "Price Basis": "rental",
+  "Standard Price Range": "Rentals $1,250–$2,450 (Fri & Sun $2,250, Sat $2,450)",
+  "Seated Low": "150",
+  "Seated High": "150",
+  "Seated Capacity": "150 seated",
+  "Standing Low": "350",
+  "Standing High": "350",
+  "Standing Capacity": "350",
+  "Packages and Prices": "Full-day wedding rental 10am-11pm: Mon-Wed — $1,250; Thu — $1,950; Fri & Sun — $2,250; Sat — $2,450\nIncludes 15 wood and steel tables, 150 wooden folding chairs, wood arch, cake table, projector and large screen, speaker system, 1 wireless microphone, 2 adjustable circle chandeliers, strung market lighting, bride/groom room, kitchen prep space, loft, 6 restrooms, 3 floor easels, music/media adaptors\nEarly day-of setup before 10am — $150 per hour (if available)\nNight-before setup — $350 (if available)\nQuinceañera package 10am-2am: Mon-Wed $1,950; Thu $2,150; Fri & Sun $2,350; Sat $2,550\nNon-wedding events, 6-hour block: Mon-Wed $650; Thu-Sun $850",
+  "Time slots": "Mon 10am-11pm\nTue 10am-11pm\nWed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
+  "Length of Rental": "13 hours",
+  "Style": "Industrial\nMid-century\nHistoric\nUrban",
+  "Other Decor Included": "15 custom wood and steel tables\n150 wooden folding chairs\nCake table and cake stand\nWood arch (6 ft wide, 7 ft tall)\n2 adjustable circle chandeliers\nPermanently hung cafe/market string lights\n3 floor easels\n2 chalkboard/dry-erase easels\n4 cocktail tables\nBureau\nIndoor plants",
+  "Other Decor for Rent": "Decor packages with setup and takedown from the in-house rental company Gloss (prices not listed)",
+  "sparklers allowed": "Yes\nSparkler send-offs shown in the venue gallery; no written policy",
+  "parking?": "Private lot with 45 spaces\nStreet parking",
+  "sound system": "Yes\nProfessional speaker system\n1 wireless microphone\nProjector and large screen\nMusic/media adaptors",
+  "extras": "Loft/mezzanine\nPowder room for getting ready\nSpiral staircase\n6 restrooms\nLarge garage door entrance\nIn-house catering and decorating services (paid)\nWedding planner referrals (Evergreen & Ivy, Soiree Productions)\nEarly setup — $150 per hour; night-before setup — $350",
+  "cleanup crew": "Extra cost\nSelf-setup and self-cleanup allowed at no charge (cleaning supplies and checklist provided)",
+  "Deposit Policy": "50% of the venue price, non-refundable, at booking",
+  "Catering": "Any vendor allowed\nIn-house catering available\nPreferred vendor list (not required)",
+  "Prep Area": "Catering prep kitchen with its own entrance\nCommercial fridge\nFreezer\nSink\nCounter space",
+  "Alcohol policy": "Alcohol allowed with a licensed bartender\n$200 alcohol fee",
+  "Bride/Groom Rooms": "Bride/groom room\nPowder room (getting-ready space)",
+  "Restrictions": "No duct tape\nNo confetti\nNo glitter\nCharges apply for banned items, extra cleaning or damage\nEarly setup only when booked and available\nNight-before setup only when available",
+  "Important Notes": "Former 1940s car dealership in Provo's historic Auto Row\nWeddings are booked as full days only\nHosting events since 2017",
+  "Contact Information": "Phone: 801-709-0455 (call or text)\nInstagram: @thebrightbuilding"
+ }
+}

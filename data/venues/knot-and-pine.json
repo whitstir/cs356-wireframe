@@ -1,0 +1,804 @@
+{
+ "id": "knot-and-pine",
+ "name": "Knot & Pine",
+ "city": "Alpine",
+ "description": "A restored historic barn in Alpine, originally a bronzing forge, with a 4,500 sq ft dark-wood event space, mountain views, a bridal suite, a groom's loft, and tables and chairs for up to 120 guests, blending rustic and modern features.",
+ "styles": [
+  "Classic",
+  "Rustic",
+  "Modern"
+ ],
+ "priceMin": 3500,
+ "priceMax": 4750,
+ "priceBasis": "rental",
+ "priceText": "Day-group rates $3,500–$4,750",
+ "seated": 120,
+ "seatedMin": 120,
+ "seatedText": "Up to 120",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "rent"
+  ],
+  "Draping / chair covers": [
+   "rent"
+  ],
+  "Greenery / florals": [
+   "rent"
+  ],
+  "Candles / lanterns": [
+   "rent"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included",
+   "rent"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Fully accessible"
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Microphone with Bluetooth sound system"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth sound system with speakers"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal suite with vanity and full-length mirror"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "General cleaning by staff"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Event hostess from one hour before through the event"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's loft with lounge area"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "4,500 sq ft hall"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Indoor/outdoor string and bistro lighting."
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Any vendor (except alcohol service)"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparkler send-offs"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Wooden arch $200"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "Draping $700 for ceiling and walls"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Fresh Table Greenery $79 for 6ft, min of 4"
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "Candle Package $30 per table"
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Flower-adorned chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included+rent",
+   "wording": "Indoor/outdoor string and bistro lighting."
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Two buffet tables and a cake table."
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A restored historic barn in Alpine, originally a bronzing forge, with a 4,500 sq ft dark-wood event space, mountain views, a bridal suite, a groom's loft, and tables and chairs for up to 120 guests, blending rustic and modern features."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "45 E 200 N, Alpine, UT 84004"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Rustic charm\nModern elegance\nHistoric"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Day-group rates $3,500–$4,750"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic) — Mon-Wed — $3,500\nSame inclusions — Thu — $4,500\nSame inclusions — Fri or Sat — $4,750\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$1,500 non-refundable deposit, applied to the total\nDate change or cancellation allowed within 72 hours of booking\n50% of remaining balance due 60 days before; final payment due 30 days before\nCancellation 60+ days out: 50% refund of balance (minus deposit); within 30 days: no refund"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "4,500 sq ft hall"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Indoor/outdoor string and bistro lighting."
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Up to 120"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bridal suite with vanity and full-length mirror"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom's loft with lounge area"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal suite with vanity and full-length mirror\nGroom's loft with lounge and TV"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "General cleaning by staff"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Event hostess from one hour before through the event"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "10 farm-style wood guest tables (96 in.)\n80-120 cross-back wood chairs\n2 buffet tables\nCake table\nIndoor and outdoor string and bistro lights\nChandeliers\nDouble-door entrance"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Event hostess on site 1 hour before and during the event (assists with setup and guest needs)"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included: general venue cleaning by venue staff\nCouple or vendors remove decorations and rented items"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Microphone with Bluetooth sound system"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Bluetooth sound system with speakers"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nHi-fi Bluetooth sound system with speakers\nCordless microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "rent",
+     "value": "Wooden arch $200"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "rent",
+     "value": "Draping $700 for ceiling and walls"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "rent",
+     "value": "Fresh Table Greenery $79 for 6ft, min of 4"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "rent",
+     "value": "Candle Package $30 per table"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Flower-adorned chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included+rent",
+     "value": "Indoor/outdoor string and bistro lighting."
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Full-service fresh greenery package (ceiling draping, chandelier and door greenery, 10 table packages, 2 food-table garlands) — $2,600\nCandle package — $30 per table\nTable package (candle package, chiffon runner, 6 ft faux garland) — $65 per table\nCeiling and wall draping — $700\nFresh table greenery — $79 (6 ft, min. 4), $169 (12 ft, min. 2), $303 (20 ft)\nFresh greenery table package — $110 per table\nBarn door decor — $300 Christmas trees, $470 fresh mixed greens, $150 twinkle lights drape, $225 curtains\nLong chiffon table runners — $15 each\nChandelier garland with fresh mixed greens — $470\nWooden arch backdrop — $200"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Mountain views\nRestored historic building (originally a bronzing forge)\nComplimentary one-hour photo session\nOne complimentary walkthrough"
+    }
+   ]
+  },
+  {
+   "id": "decor-packages",
+   "title": "Decor packages",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-packages-0",
+     "label": "Full Service Fresh Greenery",
+     "value": "Price: $2,600 · Includes: ceiling draping; chandeliers; doors; 10 table packages; 2 food table garlands"
+    },
+    {
+     "id": "decor-packages-1",
+     "label": "Candle Package",
+     "value": "Price: $30 per table · Includes: 4 tall clear glass votives with tea lights; 4 floating candles in vase; 4 glass votives"
+    },
+    {
+     "id": "decor-packages-2",
+     "label": "Table Package",
+     "value": "Price: $65 per table · Includes: candle package; long chiffon runner; 6 ft faux garland or faux flower garland"
+    },
+    {
+     "id": "decor-packages-3",
+     "label": "Fresh Greenery Table Package",
+     "value": "Price: $110 per table · Includes: candle package; long chiffon runner; 6 ft fresh greenery garland"
+    },
+    {
+     "id": "decor-packages-4",
+     "label": "Draping",
+     "value": "Price: $700 · Includes: ceiling and walls"
+    },
+    {
+     "id": "decor-packages-5",
+     "label": "Fresh Table Greenery",
+     "value": "Price: $79 (6 ft, min 4) / $169 (12 ft, min 2) / $303 (20 ft)"
+    },
+    {
+     "id": "decor-packages-6",
+     "label": "Barn door options",
+     "value": "Price: $300 Christmas trees / $470 fresh mixed greens / $150 twinkle lights drape / $225 pulled-back curtains / $225 straight-down curtains"
+    },
+    {
+     "id": "decor-packages-7",
+     "label": "Table linens (long chiffon runners)",
+     "value": "Price: $15 each"
+    },
+    {
+     "id": "decor-packages-8",
+     "label": "Chandelier garland",
+     "value": "Price: $470"
+    },
+    {
+     "id": "decor-packages-9",
+     "label": "Wooden arch backdrop",
+     "value": "Price: $200"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Two buffet tables and a cake table."
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Any vendor (except alcohol service)"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Open vendor policy; any caterer\nPreferred caterers listed: Bliss Catering, Crisp Catering\nNo extra fee for using outside vendors"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen for catering support"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Allowed with $400 alcohol fee\nMust be served by an approved licensed bartender (Copa Bar Service or The Bar Project)\nNo outside alcohol or bartenders"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Sparkler send-offs"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Setup access from 10am on the event day (earlier for $150)\n6-hour event block starting when the event begins (includes cleanup)\nEvents end by 10pm unless extended (up to midnight)"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "6-hour event block plus all-day setup access; extendable to midnight at $150/hour"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Events end by 10pm unless extended (up to midnight)\nMusic turned down at 10pm (city code)\nLit candles only in enclosed cylinder glass vases; none on the floor during the reception\nDecorations and adhesives must not damage the venue\nTables and chairs may not be removed from the venue\nNo outside alcohol or bartenders"
+    }
+   ]
+  },
+  {
+   "id": "payment-and-cancellation-schedule",
+   "title": "Payment and cancellation schedule",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "payment-and-cancellation-schedule-0",
+     "label": "Deposit",
+     "value": "$1,500 non-refundable, applied to balance"
+    },
+    {
+     "id": "payment-and-cancellation-schedule-1",
+     "label": "Payments",
+     "value": "50% of remaining balance 60 days before; final payment 30 days before"
+    },
+    {
+     "id": "payment-and-cancellation-schedule-2",
+     "label": "Cancellation",
+     "value": "free change/cancel within 72 hours of booking; 60+ days out: 50% refund of balance minus deposit; within 30 days: non-refundable"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "Fully accessible"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Venue states it is fully accessible for guests with disabilities"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Onsite parking\nNearby overflow parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Pricing page lists one rate per day group with no year; the separate 2026 and 2027 rate tables in the old data are no longer on the site\nHolidays may cost more (inquire)\nSister venue: 5th East Hall in American Fork"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 770-4642\nEmail: contactus@knotandpine.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://knotandpine.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "knot-and-pine",
+  "Venue Name": "Knot & Pine",
+  "link": "https://knotandpine.com/",
+  "City": "Alpine",
+  "Full Address": "45 E 200 N, Alpine, UT 84004",
+  "Description": "A restored historic barn in Alpine, originally a bronzing forge, with a 4,500 sq ft dark-wood event space, mountain views, a bridal suite, a groom's loft, and tables and chairs for up to 120 guests, blending rustic and modern features.",
+  "Price Low": "3500",
+  "Price High": "4750",
+  "Price Basis": "rental",
+  "Standard Price Range": "Day-group rates $3,500–$4,750",
+  "Seated Low": "120",
+  "Seated High": "120",
+  "Seated Capacity": "Up to 120",
+  "Packages and Prices": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic) — Mon-Wed — $3,500\nSame inclusions — Thu — $4,500\nSame inclusions — Fri or Sat — $4,750\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)",
+  "Time slots": "Setup access from 10am on the event day (earlier for $150)\n6-hour event block starting when the event begins (includes cleanup)\nEvents end by 10pm unless extended (up to midnight)",
+  "Length of Rental": "6-hour event block plus all-day setup access; extendable to midnight at $150/hour",
+  "Style": "Rustic charm\nModern elegance\nHistoric",
+  "Other Decor Included": "10 farm-style wood guest tables (96 in.)\n80-120 cross-back wood chairs\n2 buffet tables\nCake table\nIndoor and outdoor string and bistro lights\nChandeliers\nDouble-door entrance",
+  "Other Decor for Rent": "Full-service fresh greenery package (ceiling draping, chandelier and door greenery, 10 table packages, 2 food-table garlands) — $2,600\nCandle package — $30 per table\nTable package (candle package, chiffon runner, 6 ft faux garland) — $65 per table\nCeiling and wall draping — $700\nFresh table greenery — $79 (6 ft, min. 4), $169 (12 ft, min. 2), $303 (20 ft)\nFresh greenery table package — $110 per table\nBarn door decor — $300 Christmas trees, $470 fresh mixed greens, $150 twinkle lights drape, $225 curtains\nLong chiffon table runners — $15 each\nChandelier garland with fresh mixed greens — $470\nWooden arch backdrop — $200",
+  "sparklers allowed": "Yes",
+  "parking?": "Onsite parking\nNearby overflow parking",
+  "sound system": "Yes\nHi-fi Bluetooth sound system with speakers\nCordless microphone",
+  "extras": "Mountain views\nRestored historic building (originally a bronzing forge)\nComplimentary one-hour photo session\nOne complimentary walkthrough",
+  "cleanup crew": "Included: general venue cleaning by venue staff\nCouple or vendors remove decorations and rented items",
+  "Accessibility": "Venue states it is fully accessible for guests with disabilities",
+  "Deposit Policy": "$1,500 non-refundable deposit, applied to the total\nDate change or cancellation allowed within 72 hours of booking\n50% of remaining balance due 60 days before; final payment due 30 days before\nCancellation 60+ days out: 50% refund of balance (minus deposit); within 30 days: no refund",
+  "Catering": "Open vendor policy; any caterer\nPreferred caterers listed: Bliss Catering, Crisp Catering\nNo extra fee for using outside vendors",
+  "Prep Area": "Prep kitchen for catering support",
+  "Alcohol policy": "Allowed with $400 alcohol fee\nMust be served by an approved licensed bartender (Copa Bar Service or The Bar Project)\nNo outside alcohol or bartenders",
+  "Event Coordinator": "Event hostess on site 1 hour before and during the event (assists with setup and guest needs)",
+  "Bride/Groom Rooms": "Bridal suite with vanity and full-length mirror\nGroom's loft with lounge and TV",
+  "Restrictions": "Events end by 10pm unless extended (up to midnight)\nMusic turned down at 10pm (city code)\nLit candles only in enclosed cylinder glass vases; none on the floor during the reception\nDecorations and adhesives must not damage the venue\nTables and chairs may not be removed from the venue\nNo outside alcohol or bartenders",
+  "Important Notes": "Pricing page lists one rate per day group with no year; the separate 2026 and 2027 rate tables in the old data are no longer on the site\nHolidays may cost more (inquire)\nSister venue: 5th East Hall in American Fork",
+  "Contact Information": "Phone: (801) 770-4642\nEmail: contactus@knotandpine.com"
+ }
+}

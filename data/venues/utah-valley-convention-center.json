@@ -1,0 +1,760 @@
+{
+ "id": "utah-valley-convention-center",
+ "name": "Utah Valley Convention Center",
+ "city": "Provo",
+ "description": "A modern convention center in downtown Provo with natural light, mountain views, event managers, an in-house culinary team, a grand ballroom and a rooftop terrace.",
+ "styles": [
+  "Modern",
+  "Luxury"
+ ],
+ "priceMin": 15102,
+ "priceMax": 53946,
+ "priceBasis": "per-person x capacity",
+ "priceText": "Lunch $41.95 and dinner $49.95 per person ($41.95 × 360 seated = $15,102; $49.95 × 1,080 seated = $53,946)",
+ "seated": 1080,
+ "seatedMin": 360,
+ "seatedText": "Cascade Room 360\nBallroom third 380\nGrand Ballroom 1,080 (banquet rounds)",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Draping / chair covers": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": true,
+  "ADA restrooms": true,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "All facility entrances are wheelchair accessible."
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "There are four public elevators."
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "All public restrooms are ADA compliant."
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Limited disability parking in the attached lot"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Microphone and audio connection"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector with small screen (or TV)"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "House sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TV (or projector)"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Daily cleaning of rented spaces, lobbies and restrooms"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Assigned event manager"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Grand Ballroom (Level 2)"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Two mid-length linens per banquet table"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Provo wedding venues with indoor and outdoor options"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "House centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "included",
+   "wording": "Black or white chair covers and ties"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Hosted or non-hosted bar with bartender, $300 (3 hours)"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A modern convention center in downtown Provo with natural light, mountain views, event managers, an in-house culinary team, a grand ballroom and a rooftop terrace."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "220 W Center St, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern\nElegant\nFlexible"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Lunch $41.95 and dinner $49.95 per person ($41.95 × 360 seated = $15,102; $49.95 × 1,080 seated = $53,946)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Lunch Package — $41.95/person plus management charge and taxes: room rental, black or white chair covers and ties, 2 mid-length linens per banquet table, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, security attendant, event insurance (buffet; plated = 1 entrée)\nDinner Package — $49.95/person plus management charge and taxes: same as lunch plus floor-length linens with overlay, dance floor, staging, electrical, 2 gift/registration tables\nTimpanogos Terrace — additional $1,500 (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nReception menu beverage additions — lemonade or agua fresca $35/gallon, coffee $36/gallon, sodas or bottled water $3 each, mocktails $6/person"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Deposits accepted by credit card (Visa, AMEX, MC), ACH or check\nFinal meal guarantees due 7 business days before; menu selections due 21 days before"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Grand Ballroom (Level 2)"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Provo wedding venues with indoor and outdoor options"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Cascade Room 360\nBallroom third 380\nGrand Ballroom 1,080 (banquet rounds)"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Grand Ballroom (Ballroom ABC)",
+     "value": "Level: 2 · Sq ft: 16894 · Seated: 1080 · Theater: 2250 · Setting: indoor"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Ballroom A / B / C (each third)",
+     "value": "Level: 2 · Seated: 380 · Setting: indoor"
+    },
+    {
+     "id": "spaces-2",
+     "label": "Cascade Room (ABCDE)",
+     "value": "Level: 3 · Sq ft: 6862 · Seated: 360 · Seated note: 360 at 72-inch rounds per Weddings page; capacity chart says 500 banquet · Setting: indoor"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Timpanogos Terrace",
+     "value": "Level: 3 · Setting: outdoor rooftop · Price: $1,500 extra (indoor backup space required)"
+    }
+   ]
+  },
+  {
+   "id": "rain-plan",
+   "title": "Rain plan",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "rain-plan-0",
+     "label": "Rain plan",
+     "value": "Booking the Timpanogos Terrace requires an indoor backup space; $1,500 extra"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Two mid-length linens per banquet table"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Daily cleaning of rented spaces, lobbies and restrooms"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Assigned event manager"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Black or white chair covers and ties\nHouse centerpieces\nTV or projector with small screen\nDance floor (Dinner Package)\nStaging (Dinner Package)\n2 gift or registration tables (Dinner Package)\nElectrical (Dinner Package)\nSecurity attendant\nEvent insurance\nStandard room set with tables and chairs"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Assigned UVCC Event Manager\nEvent sales manager"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included: one-time daily cleaning of rented spaces (venue housekeeping/janitorial is exclusive)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Microphone and audio connection"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Projector with small screen (or TV)"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "House sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TV (or projector)"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nHouse sound\nMicrophone\nAudio connection"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "House centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "included",
+     "value": "Black or white chair covers and ties"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Timpanogos Terrace — $1,500 add-on (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nProfessional event managers\nFree public Wi-Fi"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "rent",
+     "value": "Hosted or non-hosted bar with bartender, $300 (3 hours)"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Exclusive food and beverage provider: UVCC Culinary Services (in-house)\nOutside food and beverage prohibited\nCustom menus available; allergy requests 2 weeks ahead"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Banquet alcohol license; hosted or non-hosted bar (full bar or beer and wine) through the venue\nOutside alcohol prohibited\nBar with bartender (3 hours) — $300"
+    }
+   ]
+  },
+  {
+   "id": "catering-menus",
+   "title": "Catering menus",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "catering-menus-0",
+     "label": "Reception Menu 2026",
+     "value": "Structure: Tier One hors d'oeuvres (select four), Tier Two (select one), infused water (select two) · Additions: Lemonade or agua fresca: $35/gallon · Coffee: $36/gallon · 12 oz sodas: $3 each · Bottled water: $3 each · Mocktails: $6/person · Pineapple tree with 200 fruit skewers: $400 · Hosted or non-hosted bar with bartender (3 hours): $300"
+    },
+    {
+     "id": "catering-menus-1",
+     "label": "Lunch Menu 2026",
+     "value": "Structure: 1 salad, 2 dressings, 2 entrées, 1 starch, 1 vegetable, 1 dessert"
+    },
+    {
+     "id": "catering-menus-2",
+     "label": "Dinner Menu 2026",
+     "value": "Structure: 1 salad, 2 dressings, 2 entrées, 1 starch, 1 vegetable, 1 dessert"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Timpanogos Terrace requires paying for an indoor backup space ($1,500)\nOutside food and beverage prohibited\nNo helium balloons, glitter, confetti or drones\nFog/smoke machines water-based only, 2 weeks notice, Fire Watch attendant required\nPyrotechnics only via licensed provider with Provo Fire approval"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "All facility entrances are wheelchair accessible."
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "included",
+     "value": "There are four public elevators."
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "included",
+     "value": "All public restrooms are ADA compliant."
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Limited disability parking in the attached lot"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "All entrances wheelchair accessible (street level or ramp, automatic doors)\nFour public elevators\nAll public restrooms ADA compliant\nLimited accessible parking stalls in attached lot; more off site\nADA stage ramp on request (2 weeks notice)\nLoaner wheelchairs (ID as collateral)"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "UVCC Surface Lot (250 W 100 N): 24 free spaces\nFreedom Surface Lot: $4/hr, $20 max; complimentary for up to 175 convention center guests (first come, register online)\nFreedom Commons Garage: $2/hr, $12 max\nSeveral other nearby public lots and garages"
+    }
+   ]
+  },
+  {
+   "id": "parking",
+   "title": "Parking",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "parking-0",
+     "label": "UVCC Surface Lot",
+     "value": "Address: 250 W 100 N · Rate: Free · Spaces: 24"
+    },
+    {
+     "id": "parking-1",
+     "label": "Freedom Surface Lot",
+     "value": "Address: 225 N Freedom Blvd · Rate: $4/hr, $20 max; complimentary for up to 175 UVCC guests (register online) · Spaces: 359"
+    },
+    {
+     "id": "parking-2",
+     "label": "Freedom Commons Garage",
+     "value": "Address: 165 W 200 N · Rate: $2/hr, $12 max · Spaces: 574"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Grand Ballroom 16,894 sq. ft., divisible into three sections of up to 380 guests each\nCascade Room 6,862 sq. ft. with rooftop Timpanogos Terrace on Level 3\nFacility size: 83,578 sq. ft.\nLEED Silver building; renovated 2022"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://utahvalleycc.com/weddings/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "utah-valley-convention-center",
+  "Venue Name": "Utah Valley Convention Center",
+  "link": "https://utahvalleycc.com/weddings/",
+  "City": "Provo",
+  "Full Address": "220 W Center St, Provo, UT 84601",
+  "Description": "A modern convention center in downtown Provo with natural light, mountain views, event managers, an in-house culinary team, a grand ballroom and a rooftop terrace.",
+  "Price Low": "15102",
+  "Price High": "53946",
+  "Price Basis": "per-person x capacity",
+  "Standard Price Range": "Lunch $41.95 and dinner $49.95 per person ($41.95 × 360 seated = $15,102; $49.95 × 1,080 seated = $53,946)",
+  "Seated Low": "360",
+  "Seated High": "1080",
+  "Seated Capacity": "Cascade Room 360\nBallroom third 380\nGrand Ballroom 1,080 (banquet rounds)",
+  "Packages and Prices": "Lunch Package — $41.95/person plus management charge and taxes: room rental, black or white chair covers and ties, 2 mid-length linens per banquet table, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, security attendant, event insurance (buffet; plated = 1 entrée)\nDinner Package — $49.95/person plus management charge and taxes: same as lunch plus floor-length linens with overlay, dance floor, staging, electrical, 2 gift/registration tables\nTimpanogos Terrace — additional $1,500 (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nReception menu beverage additions — lemonade or agua fresca $35/gallon, coffee $36/gallon, sodas or bottled water $3 each, mocktails $6/person",
+  "Style": "Modern\nElegant\nFlexible",
+  "Other Decor Included": "Black or white chair covers and ties\nHouse centerpieces\nTV or projector with small screen\nDance floor (Dinner Package)\nStaging (Dinner Package)\n2 gift or registration tables (Dinner Package)\nElectrical (Dinner Package)\nSecurity attendant\nEvent insurance\nStandard room set with tables and chairs",
+  "parking?": "UVCC Surface Lot (250 W 100 N): 24 free spaces\nFreedom Surface Lot: $4/hr, $20 max; complimentary for up to 175 convention center guests (first come, register online)\nFreedom Commons Garage: $2/hr, $12 max\nSeveral other nearby public lots and garages",
+  "sound system": "Yes\nHouse sound\nMicrophone\nAudio connection",
+  "extras": "Timpanogos Terrace — $1,500 add-on (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nProfessional event managers\nFree public Wi-Fi",
+  "cleanup crew": "Included: one-time daily cleaning of rented spaces (venue housekeeping/janitorial is exclusive)",
+  "Accessibility": "All entrances wheelchair accessible (street level or ramp, automatic doors)\nFour public elevators\nAll public restrooms ADA compliant\nLimited accessible parking stalls in attached lot; more off site\nADA stage ramp on request (2 weeks notice)\nLoaner wheelchairs (ID as collateral)",
+  "Deposit Policy": "Deposits accepted by credit card (Visa, AMEX, MC), ACH or check\nFinal meal guarantees due 7 business days before; menu selections due 21 days before",
+  "Catering": "Exclusive food and beverage provider: UVCC Culinary Services (in-house)\nOutside food and beverage prohibited\nCustom menus available; allergy requests 2 weeks ahead",
+  "Alcohol policy": "Banquet alcohol license; hosted or non-hosted bar (full bar or beer and wine) through the venue\nOutside alcohol prohibited\nBar with bartender (3 hours) — $300",
+  "Event Coordinator": "Assigned UVCC Event Manager\nEvent sales manager",
+  "Restrictions": "Timpanogos Terrace requires paying for an indoor backup space ($1,500)\nOutside food and beverage prohibited\nNo helium balloons, glitter, confetti or drones\nFog/smoke machines water-based only, 2 weeks notice, Fire Watch attendant required\nPyrotechnics only via licensed provider with Provo Fire approval",
+  "Important Notes": "Grand Ballroom 16,894 sq. ft., divisible into three sections of up to 380 guests each\nCascade Room 6,862 sq. ft. with rooftop Timpanogos Terrace on Level 3\nFacility size: 83,578 sq. ft.\nLEED Silver building; renovated 2022",
+  "Contact Information": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com"
+ }
+}

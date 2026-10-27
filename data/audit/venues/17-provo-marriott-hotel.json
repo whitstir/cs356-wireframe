@@ -1,0 +1,964 @@
+{
+ "row": 17,
+ "id": "provo-marriott-hotel",
+ "name": "Provo Marriott Hotel",
+ "website": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+ "website_status": "ok (JS-rendered; read with the built-in browser)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/ (Events page: counts, capacity chart dialog, equipment and services list with catering per-person prices, FAQs)",
+  "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/ (Weddings page, reached from modules.marriott.com/weddings/... redirect: venues, certified wedding planners, catering, directions and parking)",
+  "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/ (hotel overview: address, phone, parking rates, Accessibility Information accordion)",
+  "https://www.marriott.com/hotelwebsites/us/s/slcvo/slcvo_pdf/WeddingsMenu1.pdf (wedding menu PDF linked from Events page: returns 404 Page Not Found)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "101 West 100 North, Provo, Utah 84601",
+  "note": "Downtown Provo, across from the Utah Valley Convention Center."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Provo Marriott Hotel",
+   "verified_value": "Provo Marriott Hotel",
+   "action": "confirmed",
+   "change_origin": "Brand site names the property 'Provo Marriott Hotel & Conference Center'; current short name is acceptable.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "Provo Marriott Hotel & Conference Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Official full name is Provo Marriott Hotel & Conference Center; team may want the full name."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "verified_value": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "action": "confirmed",
+   "change_origin": "Link loads the property's Events page on marriott.com.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "Event & Meeting Spaces | Provo Marriott Hotel & Conference Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A full-service hotel reception venue with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners, and capacity for large wedding celebrations.",
+   "verified_value": "A full-service hotel reception venue with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners, and capacity for large wedding celebrations.",
+   "action": "confirmed",
+   "change_origin": "Events and Weddings pages support each element (Grand Ballroom, 19 rooms, terrace, in-house catering, certified planners, 1,000 capacity).",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Boasting 19 function rooms ... Marriott Certified Wedding Planners",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "No venue rental price stated on the official website",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: filler text from the AI collector; the site gives no venue rental price.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "Catering Services ... Reception:$50.00 / Person",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Only per-person catering prices are published."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Early Wedding Menu — $22/person\nDeluxe Early Wedding Menu — $26/person\nLunch catering — $35/person\nReception catering — $50/person\nDinner catering — $75/person",
+   "verified_value": "Lunch catering — $35/person\nReception catering — $50/person\nDinner catering — $75/person",
+   "action": "corrected",
+   "change_origin": "Official site, Events page 'Equipment and Services' catering list; the Early Wedding Menu ($22) and Deluxe Early Wedding Menu ($26) came from the wedding menu PDF, which now returns 404.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "Dinner:$75.00 / Person ... Lunch:$35.00 / Person ... Reception:$50.00 / Person",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Removed the two 'Early Wedding Menu' prices: the linked PDF (https://www.marriott.com/hotelwebsites/us/s/slcvo/slcvo_pdf/WeddingsMenu1.pdf) is gone, so they can't be verified. Events page also lists breakfast/break prices ($25-$30/person), not wedding-specific."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "60-650",
+   "verified_value": "650 (Grand Ballroom, banquet)",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page and Events capacity chart: Grand Ballroom banquet 650.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "The ballroom also seats up to 650 for a banquet",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Old '60-650' read as a range; 60 is the Terrace banquet count. Other spaces in venue_sections."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "1000",
+   "verified_value": "1000",
+   "action": "confirmed",
+   "change_origin": "Weddings page and capacity chart: Grand Ballroom reception 1,000.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "can host up to 1,000 guests for your wedding reception",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nTraditional\nVersatile",
+   "verified_value": "Elegant\nTraditional\nVersatile",
+   "action": "confirmed",
+   "change_origin": "Weddings page: 'elegant style', 'traditional receptions'; Events page: 'versatile' venues.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "From traditional receptions to one-of-a-kind gatherings ... Offering elegant style for large events",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (Events page lists equipment such as easels and direction signs as available, not as included).",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on decor rental prices.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Weddings page: indoor ballroom and rooms plus the outdoor Terrace for ceremonies/receptions.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Terrace - Take your Provo wedding outdoors.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Complimentary on-site parking",
+   "verified_value": "On-site parking garage (6 ft 6 in clearance): $3/hour, $15/day per hotel overview\nWeddings page says 'Complimentary on-site'\nElectric car charging",
+   "action": "corrected",
+   "change_origin": "Official site: hotel Overview lists paid on-site parking; the Weddings page says complimentary on-site. Both recorded.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "On-Site Parking Hourly: $3.00 Daily: $15.00 ... Parking garage height clearance is 6 feet 6 inches.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Conflict: Weddings page (https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/): 'Parking: Complimentary on-site.' Overview: $3/hr, $15/day. Ask the hotel whether wedding guests park free."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "101 W 100 N, Provo, UT 84601",
+   "verified_value": "101 W 100 N, Provo, UT 84601",
+   "action": "confirmed",
+   "change_origin": "Overview and footer.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "101 West 100 North, Provo, Utah, USA, 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Address is in Provo.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "PROVO, UTAH, USA, 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nPA system\nMicrophones\nWireless internet",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: the Events page lists PA system, microphones and wireless internet only as available equipment and services, not as included; no price given.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "Audio-Visual Equipment ... Microphone ... PA System TV ... Wireless Internet",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Moved to Important Notes as available equipment. Inclusion/pricing needs a call."
+  },
+  {
+   "field": "extras",
+   "current_value": "Grand Ballroom\nAspen room with dynamic changing lights\nOutdoor terrace\n19 function rooms",
+   "verified_value": "Grand Ballroom (8,142 sq. ft.)\nAspen room with color-adjustable lighting\nOutdoor Terrace (garden)\n19 function rooms",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page. Reworded the Aspen line: 'dynamic changing lights' made the keyword rule mark string/bistro lights as included, which the site doesn't offer.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Dynamic changing lights can be adjusted to match your wedding colors and décor.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "Main entrance and meeting spaces accessible, with accessible routes from the public entrance (wheelchair/mobility access)\nElevators\nAccessible parking on site",
+   "action": "added",
+   "change_origin": "Official site, Overview > Accessibility Information > Accessible Hotel Features.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "Accessible on-site parking ... Property has elevators ... Main Entrance is Accessible ... Meeting Spaces are Accessible",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The list says 'accessible' without the word 'wheelchair' for public areas; restrooms in event areas not mentioned (guest-room features listed separately)."
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Custom in-house catering\nPlated dinners\nBuffets\nCocktail receptions\nHors d'oeuvres",
+   "verified_value": "Custom in-house catering\nPlated dinners\nBuffets\nCocktail receptions\nHors d'oeuvres",
+   "action": "confirmed",
+   "change_origin": "Weddings page Catering Services paragraph.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "From plated dinners and buffets to cocktail receptions and hors d'oeuvres",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site doesn't state whether outside caterers are allowed."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on event alcohol (hotel has a full-service bar at SLATE restaurant, not an event policy).",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Marriott Certified Wedding Planners",
+   "verified_value": "Marriott Certified Wedding Planners",
+   "action": "confirmed",
+   "change_origin": "Weddings page: Marriott Certified Wedding Planners; no fee stated.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Marriott Certified Wedding Planners are trained to assist.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Site doesn't say whether planner service is included or paid."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "329 guest rooms on the property",
+   "verified_value": "329 guest rooms on the property\nEvents page lists available A/V (PA system, microphones, LCD projector, TV, AV technician) and event services (lighting, photographer, security, easels, portable stage); inclusion and prices not stated\nEvent space: 24,591 sq. ft. total (Events page); overview text says 28,000 sq. ft.",
+   "action": "corrected",
+   "change_origin": "Official site, Events page (equipment list, totals) and meetings overview text.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "19 Event Rooms 24591 SQ FT Total Event Space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Square-footage conflict between the Events page header (24,591) and the meetings blurb (28,000)."
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: +1 801-377-4700",
+   "verified_value": "Phone: +1 801-377-4700",
+   "action": "confirmed",
+   "change_origin": "Weddings page 'Contact Our Wedding Expert'.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Contact Our Wedding Expert +1-801-377-4700",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "",
+   "verified_value": "",
+   "action": "confirmed",
+   "change_origin": "No rental price on site.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "Reception:$50.00 / Person",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Per-person catering: lunch $35, reception $50, dinner $75. Not a rental price."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "650",
+   "verified_value": "650",
+   "action": "confirmed",
+   "change_origin": "Weddings page: ballroom seats 650 for a banquet.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "seats up to 650 for a banquet",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Address.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "PROVO, UTAH",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Overview > Accessibility Information: main entrance and meeting spaces accessible via accessible routes.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "Accessible Areas with Accessible Routes from Public Entrance ... Meeting Spaces are Accessible",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Site says 'accessible', not 'wheelchair' for public areas."
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Accessibility Information.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "Property has elevators",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent on public/event restrooms.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Accessibility Information.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/",
+   "evidence": "Accessible on-site parking",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "removed",
+   "change_origin": "Removed: microphones are listed only as available equipment; the site doesn't say they are included.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "Audio-Visual Equipment ... Microphone",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "May be included or paid; needs a call."
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Site lists projectors only as available equipment; not included.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "LCD Projector",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "removed",
+   "change_origin": "Removed: PA system listed only as available equipment, not as included.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "PA System",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Site lists TV only as available equipment.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+   "evidence": "TV",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: Marriott Certified Wedding Planners, no fee stated.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Marriott Certified Wedding Planners are trained to assist.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: Grand Ballroom, Aspen.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Grand Ballroom ... Aspen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: Terrace for ceremonies and receptions.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Take your Provo wedding outdoors.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Keyword rule misfire: 'dynamic changing lights' (Aspen room colour lighting) matched 'lights'; the site offers no string or bistro lights.",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/",
+   "evidence": "Dynamic changing lights can be adjusted to match your wedding colors",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Provo Marriott Hotel",
+  "link": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+  "Description": "A full-service hotel reception venue with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners, and capacity for large wedding celebrations.",
+  "Standard Price Range": "",
+  "Packages and Prices": "Lunch catering — $35/person\nReception catering — $50/person\nDinner catering — $75/person",
+  "Seated Capacity": "650 (Grand Ballroom, banquet)",
+  "Standing Capacity": "1000",
+  "Time slots": "",
+  "Length of Rental": "",
+  "Style": "Elegant\nTraditional\nVersatile",
+  "Linens Included": "",
+  "Other Decor Included": "",
+  "Other Decor for Rent": "",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "On-site parking garage (6 ft 6 in clearance): $3/hour, $15/day per hotel overview\nWeddings page says 'Complimentary on-site'\nElectric car charging",
+  "Full Address": "101 W 100 N, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "",
+  "extras": "Grand Ballroom (8,142 sq. ft.)\nAspen room with color-adjustable lighting\nOutdoor Terrace (garden)\n19 function rooms",
+  "cleanup crew": "",
+  "Accessibility": "Main entrance and meeting spaces accessible, with accessible routes from the public entrance (wheelchair/mobility access)\nElevators\nAccessible parking on site",
+  "Deposit Policy": "",
+  "Catering": "Custom in-house catering\nPlated dinners\nBuffets\nCocktail receptions\nHors d'oeuvres",
+  "Prep Area": "",
+  "Alcohol policy": "",
+  "Event Coordinator": "Marriott Certified Wedding Planners",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "",
+  "Important Notes": "329 guest rooms on the property\nEvents page lists available A/V (PA system, microphones, LCD projector, TV, AV technician) and event services (lighting, photographer, security, easels, portable stage); inclusion and prices not stated\nEvent space: 24,591 sq. ft. total (Events page); overview text says 28,000 sq. ft.",
+  "Contact Information": "Phone: +1 801-377-4700"
+ },
+ "style_suggestion": {
+  "current": [
+   "Luxury"
+  ],
+  "suggested": [
+   "Luxury"
+  ],
+  "change": "none",
+  "reasoning": "Description says 'full-service hotel', a Luxury cue in the rules. The site presents a downtown conference hotel with 'sophisticated' venues and 'elegant style'; nothing points to Modern, Rustic or Outdoors (one garden terrace only). Classic could fit 'elegant/traditional' but the rule sends elegant hotels to Luxury.",
+  "site_cues": [
+   "sophisticated reception venues",
+   "Offering elegant style for large events",
+   "From traditional receptions to one-of-a-kind gatherings"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "19 function rooms with separate capacities, incl. an outdoor terrace",
+   "data": {
+    "spaces": [
+     {
+      "name": "Grand Ballroom",
+      "sq_ft": 8142,
+      "seated": 650,
+      "standing": 1000,
+      "setting": "indoor",
+      "note": "divisible"
+     },
+     {
+      "name": "Aspen",
+      "sq_ft": 2392,
+      "seated": 140,
+      "seated_note": "Weddings page says banquet seating for 150",
+      "standing": 232,
+      "setting": "indoor",
+      "note": "Center Street entrance; colour-adjustable lighting"
+     },
+     {
+      "name": "Terrace",
+      "sq_ft": 1360,
+      "seated": 60,
+      "standing": 100,
+      "setting": "outdoor garden",
+      "note": "ceremonies or receptions"
+     },
+     {
+      "name": "Zion/Bryce/Arches",
+      "sq_ft": 6180,
+      "seated": 460,
+      "standing": 800,
+      "setting": "indoor"
+     },
+     {
+      "name": "Zion",
+      "sq_ft": 2508,
+      "seated": 200,
+      "standing": 400,
+      "setting": "indoor"
+     },
+     {
+      "name": "Birch / Cedar (each)",
+      "sq_ft": 1624,
+      "seated": 90,
+      "standing": 158,
+      "setting": "indoor"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Catering per-person prices",
+   "why": "Only per-person menu prices are published",
+   "data": {
+    "catering": [
+     {
+      "name": "Lunch",
+      "price": "$35/person"
+     },
+     {
+      "name": "Reception",
+      "price": "$50/person"
+     },
+     {
+      "name": "Dinner",
+      "price": "$75/person"
+     },
+     {
+      "name": "Continental breakfast / breaks",
+      "price": "$25/person"
+     },
+     {
+      "name": "Full breakfast",
+      "price": "$30/person"
+     }
+    ]
+   }
+  },
+  {
+   "title": "On-site lodging",
+   "why": "Hotel with guest rooms for the wedding party",
+   "data": {
+    "lodging": {
+     "guest_rooms": 329,
+     "check_in": "3:00 pm",
+     "check_out": "12:00 pm"
+    }
+   }
+  }
+ ],
+ "open_questions": [
+  "Is there a room rental fee or food-and-beverage minimum for wedding receptions?",
+  "Are PA system, microphones, projector and TV included with a ballroom booking or charged? (site only lists them as available)",
+  "Is parking free for wedding guests (Weddings page) or $3/hr, $15/day (Overview)?",
+  "The wedding menu PDF linked from the Events page is 404; is there a current wedding menu / package price list?",
+  "Are outside caterers, sparklers or a bridal suite/getting-ready room offered?"
+ ]
+}

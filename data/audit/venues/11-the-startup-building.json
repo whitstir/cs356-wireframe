@@ -1,0 +1,958 @@
+{
+ "row": 11,
+ "id": "the-startup-building",
+ "name": "The Startup Building",
+ "website": "https://www.thestartupbuilding.co",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.thestartupbuilding.co/ (home: description, amenities list, cleanup policy, team/manager, FAQ: capacity, rules, deposit, parking)",
+  "https://www.thestartupbuilding.co/rates (rates by day, amenities, capacity, add-ons)",
+  "https://www.thestartupbuilding.co/startupfloorplan (floor plan page: amenities list repeated)",
+  "https://www.thestartupbuilding.co/vendors (preferred vendors; Event Co decor packages link to an external vendor site, not used)",
+  "https://www.thestartupbuilding.co/comp (comparison page: alternate price list 'as of July 2026', parking count, brides room)",
+  "https://www.thestartupbuilding.co/parking-info (parking flyer image, read in browser screenshot)",
+  "https://www.thestartupbuilding.co/home-1 (other events / quinceanera pricing, not wedding rates)",
+  "https://www.thestartupbuilding.co/tour, https://www.thestartupbuilding.co/contact-us, https://www.thestartupbuilding.co/gallery, https://www.thestartupbuilding.co/work, https://www.thestartupbuilding.co/blog (no wedding facts beyond contact info)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "100 W 560 S St, Provo UT 84601",
+  "note": "Address in site footer on every page."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "The Startup Building",
+   "verified_value": "The Startup Building",
+   "action": "confirmed",
+   "change_origin": "Home page title.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "THE STARTUP BUILDING",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.thestartupbuilding.co",
+   "verified_value": "https://www.thestartupbuilding.co",
+   "action": "confirmed",
+   "change_origin": "Official site loads (200).",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "An industrial, historic reception venue in a former candy factory with original brick walls, wooden beams, elevated ceilings, a courtyard, catering space, integrated sound, and flexible layouts for up to 300 guests.",
+   "verified_value": "A historic former candy factory (built 1898) in downtown Provo with original brick walls, wooden beams and elevated ceilings in a rustic-industrial style. Includes a catering space, powder room and integrated sound; holds 120 seated or 300 standing, with an add-on outdoor courtyard.",
+   "action": "corrected",
+   "change_origin": "Official site, Rates and FAQ: 300 is standing capacity (120 seated) and the courtyard is a paid add-on; the site also calls itself rustic.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "'120 seated -300 standing'; 'Courtyard ($500 April-September/$200 October-March)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Old text implied 300 guests and a courtyard as standard."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,550-$2,750",
+   "verified_value": "$1,550-$2,750",
+   "action": "confirmed",
+   "change_origin": "Official site, Rates page: Mon-Wed $1,550 to Saturday $2,750.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "MON-WED $1,550 ... SATURDAY $2,750",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Comparison page (/comp) lists lower prices $1,350-$2,500 'as of July 2026'; Rates page used per brief (pricing page wins)."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless microphones, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed 10am-11pm — $1,550\nSame inclusions — Thu 10am-11pm — $2,250\nSame inclusions — Fri 10am-11pm — $2,550\nSame inclusions — Sat 10am-11pm — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol service with licensed bartender — $200",
+   "verified_value": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed — $1,550\nSame inclusions — Thu — $2,250\nSame inclusions — Fri & Sun — $2,550\nSame inclusions — Sat — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200",
+   "action": "corrected",
+   "change_origin": "Official site, Rates page: the $2,550 tier is 'Friday & Sunday'; old text had Friday only and no Sunday price.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "FRIDAY & SUNDAY $2,550 10am-11pm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "120",
+   "verified_value": "120",
+   "action": "confirmed",
+   "change_origin": "Rates page and FAQ.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "ROOM CAPACITY: -120 seated",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "300",
+   "verified_value": "300",
+   "action": "confirmed",
+   "change_origin": "Rates page and FAQ.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-300 standing",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
+   "verified_value": "Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
+   "action": "confirmed",
+   "change_origin": "Rates page: every day 10am-11pm.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "MON-WED ... 10am-11pm (same for every tier)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "13 hours",
+   "verified_value": "13 hours",
+   "action": "confirmed",
+   "change_origin": "Rates page: 10am-11pm = 13 hours.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "10am-11pm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Industrial\nHistoric\nRustic",
+   "verified_value": "Industrial\nHistoric\nRustic",
+   "action": "confirmed",
+   "change_origin": "Home and Rates pages.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'industrial wedding venue'; 'rustic wedding venue'; 'historic space'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Amenities list has no linens; Specialty Linens Utah is listed only as a preferred vendor."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Cafe lights\nCake table\nWooden arch\n2 wooden floor easels\n4 cocktail tables\n150 wooden chairs\n15 wooden tables\n3 chandeliers with faux greenery",
+   "verified_value": "Cafe lights\nCake table\nSign-in table\nWooden arch\n2 wooden floor easels\nSigns\n4 plastic cocktail tables\n150 wooden chairs\n15 wooden tables (3x8 ft)\n3 chandeliers with faux greenery",
+   "action": "corrected",
+   "change_origin": "Official site: home page in-house list adds sign-in table and signs; Rates page says cocktail tables are plastic.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'Tables, chairs, arch, cafe lights, wireless mics, cake table, sign-in table, projector, speakers... signs, easels'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Event Co decor packages are sold by an outside vendor (helloglossrentals.com), not the venue; not counted."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Home page: indoor space plus outdoor courtyard.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'Rustic copper toned indoor space, with an industrial outdoor courtyard'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Courtyard is a paid add-on ($500 Apr-Sep / $200 Oct-Mar)."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site silent on sparklers (gallery caption mentions a bubble send-off)."
+  },
+  {
+   "field": "parking?",
+   "current_value": "40 parking spots\nStreet parking",
+   "verified_value": "South lot: 31 spaces\nWest lot: 16 spaces\nStreet parking on 100 W\nLot busy on weekdays until about 5pm",
+   "action": "corrected",
+   "change_origin": "Official site, Parking info flyer (image) gives lot counts; FAQ notes weekday business traffic.",
+   "source_url": "https://www.thestartupbuilding.co/parking-info",
+   "evidence": "'South Parking lot: 31 Spaces'; 'West Parking Lot: 16 Spaces'; '100w West: 29 spaces'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "FAQ says 'at least 40 parking spots'; comparison page says '2 private parking lots with 56 private spaces'. Flyer read from a screenshot."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "100 W 560 S St, Provo, UT 84601",
+   "verified_value": "100 W 560 S St, Provo, UT 84601",
+   "action": "confirmed",
+   "change_origin": "Site footer.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "100 W 560 S St, Provo UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Site footer address.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "Provo UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nIntegrated sound system\n2 wireless microphones\nDigital projector",
+   "verified_value": "Yes\nIntegrated sound system\n2 wireless microphones\nDigital projector",
+   "action": "confirmed",
+   "change_origin": "Rates page amenities.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "'Sound System with Two Wireless Mics'; 'Digital Projector with HDMI cord and AppleTV'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Courtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nFood trucks\nLive band setup\nPowder room",
+   "verified_value": "Courtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nFood trucks, photo bus or live band in the courtyard (with courtyard add-on)\nPowder room with mirrors, sink and couch",
+   "action": "corrected",
+   "change_origin": "Official site, home page: food trucks / photo bus / live band are courtyard uses, and the courtyard is an add-on.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'having your favorite food trucks, photo bus or even a live band preform in a separate space. This space is an add on'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Not included; venue provides ladders, trash cans, trash bags and cleanup supplies",
+   "action": "added",
+   "change_origin": "Official site, home page states the venue does not clean up.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'We do not clean up but we do help ease the burden by offering ladders, trash cans, trash bags, and clean up supplies'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "4 ADA restrooms",
+   "action": "added",
+   "change_origin": "Official site, Rates page amenities (moved from Important Notes).",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-4 ADA Restrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "Deposit required; amount not stated on the official website",
+   "verified_value": "Deposit required to reserve the date",
+   "action": "corrected",
+   "change_origin": "Removed filler 'amount not stated'; FAQ states a deposit is required.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'A DEPOSIT IS REQUIRED TO LOCK-IN YOUR RESERVATION.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Catering area included\nFood trucks allowed",
+   "verified_value": "Catering prep area with refrigerator and freezer\nOutside vendors allowed; preferred caterer list provided\nFood trucks allowed in the courtyard (courtyard add-on)",
+   "action": "corrected",
+   "change_origin": "Official site: vendors page lists preferred (not required) caterers; comparison page says couples have flexibility with vendors; food trucks are a courtyard use.",
+   "source_url": "https://www.thestartupbuilding.co/comp",
+   "evidence": "'has equal flexibility with the vendors you use'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Catering area with fridge and freezer",
+   "verified_value": "Catering area with fridge and freezer",
+   "action": "confirmed",
+   "change_origin": "Rates page amenities.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "Catering Area with Refrigerator and Freezer",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed with a licensed bartender\n$200 alcohol fee",
+   "verified_value": "Alcohol allowed with a licensed bartender\n$200 alcohol fee",
+   "action": "confirmed",
+   "change_origin": "Rates page add-ons.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "Alcohol Fee $200 with Licensed Bartender",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "On-site manager\nManager on call",
+   "verified_value": "Manager meets you at the start of the event to go over day-of details\nManager on call during the event",
+   "action": "corrected",
+   "change_origin": "Official site, home page: the manager lets you in, reviews details, then is on call (not an on-site coordinator).",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'We also meet you on the day of your event... After you are set, the manager will be on call'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Get-ready room",
+   "verified_value": "Bridal / get-ready room (powder room with mirrors, sink and couch)",
+   "action": "corrected",
+   "change_origin": "Official site: home page lists a 'get ready room'; comparison page says it 'has a brides room'.",
+   "source_url": "https://www.thestartupbuilding.co/comp",
+   "evidence": "'has a brides room, arch, AV equipment'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No glitter\nNo confetti\nNo nails or tacks\nVenue does not provide cleanup; cleanup supplies are provided",
+   "verified_value": "No glitter\nNo confetti\nNo nails or tacks in walls or posts\nCandles only in a votive",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: adds candle rule; cleanup line moved to the cleanup crew column.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'NO GLITTER, NO CONFETTI, AND NO PUTTING NAILS OR TACKS IN WALLS OR POSTS. CANDLES ARE OK WITH A VOTIVE'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Four ADA restrooms\nOpen vendor and layout flexibility stated on the official site",
+   "verified_value": "Weekends typically book 1-2 months ahead; weekdays 2-4 weeks\nBuilding also houses offices, so the lot is busier on weekdays before 5pm\nSister venue: The Bright Building",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ; removed vague 'open vendor and layout flexibility' line and moved ADA restrooms to Accessibility.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'WEEKENDS TYPICALLY BOOK OUT 1-2 MONTHS IN ADVANCE AND WEEKDAYS 2-4 WEEKS.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding",
+   "verified_value": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding",
+   "action": "confirmed",
+   "change_origin": "Site footer and home page.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'CALL OR TEXT US (385) 236-3061'; '@thestartupbuilding'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "1550-2750",
+   "verified_value": "1550-2750",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "$1,550 to $2,750",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Comparison page shows $1,350-$2,500; see open questions."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "120",
+   "verified_value": "120",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "120 seated",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Footer address.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "Provo UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Comparison page mentions an elevator only on the FrontRunner pedestrian bridge across the street, not in the venue."
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Rates page lists 4 ADA restrooms; follows from the corrected Accessibility column.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-4 ADA Restrooms",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "Sound System with Two Wireless Mics",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "Digital Projector with HDMI cord and AppleTV",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "Sound System with Two Wireless Mics",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "AppleTV is a streaming device for the projector; no TV screens are listed."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, comparison page says it has a brides room (home calls it a get ready room); follows from corrected Bride/Groom Rooms column.",
+   "source_url": "https://www.thestartupbuilding.co/comp",
+   "evidence": "'has a brides room'",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Old text 'Get-ready room' did not match the keyword rule."
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Home page: venue does not clean up.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'We do not clean up'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "false",
+   "action": "removed",
+   "change_origin": "Official site describes only a manager who lets you in and is then on call; no coordinator is offered. Rule counts any line without '$'.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'After you are set, the manager will be on call'",
+   "confidence": "medium",
+   "fix_type": "rule",
+   "notes": "Needs team decision: is an on-call manager an 'event coordinator'?"
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'Rustic copper toned indoor space'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home page: outdoor courtyard event space.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "'industrial outdoor courtyard'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Courtyard is a paid add-on; kept true because it is an outdoor event space. Team decision."
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Comparison page (vendor flexibility) and vendors page (preferred, not required, caterers).",
+   "source_url": "https://www.thestartupbuilding.co/comp",
+   "evidence": "'has equal flexibility with the vendors you use'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No explicit catering policy on the site. Old value came from the keyword 'food trucks'."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rates page amenities.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-Wooden Arch",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rates page: chandeliers decorated in faux greenery.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "'Three Chandeliers... decorated in faux greenery'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rates page and home page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-2 Wooden Floor Easels",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rates page and FAQ.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-Cafe Lights",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-Three Chandeliers (12 feet in circumference each)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "FAQ allows candles in votives but the venue does not provide them."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Rates page.",
+   "source_url": "https://www.thestartupbuilding.co/rates",
+   "evidence": "-Cake Table",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/vendors",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Photo booths appear only as outside preferred vendors."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.thestartupbuilding.co/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "The Startup Building",
+  "link": "https://www.thestartupbuilding.co",
+  "Description": "A historic former candy factory (built 1898) in downtown Provo with original brick walls, wooden beams and elevated ceilings in a rustic-industrial style. Includes a catering space, powder room and integrated sound; holds 120 seated or 300 standing, with an add-on outdoor courtyard.",
+  "Standard Price Range": "$1,550-$2,750",
+  "Packages and Prices": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed — $1,550\nSame inclusions — Thu — $2,250\nSame inclusions — Fri & Sun — $2,550\nSame inclusions — Sat — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200",
+  "Seated Capacity": "120",
+  "Standing Capacity": "300",
+  "Time slots": "Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
+  "Length of Rental": "13 hours",
+  "Style": "Industrial\nHistoric\nRustic",
+  "Linens Included": "",
+  "Other Decor Included": "Cafe lights\nCake table\nSign-in table\nWooden arch\n2 wooden floor easels\nSigns\n4 plastic cocktail tables\n150 wooden chairs\n15 wooden tables (3x8 ft)\n3 chandeliers with faux greenery",
+  "Other Decor for Rent": "",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "South lot: 31 spaces\nWest lot: 16 spaces\nStreet parking on 100 W\nLot busy on weekdays until about 5pm",
+  "Full Address": "100 W 560 S St, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "Yes\nIntegrated sound system\n2 wireless microphones\nDigital projector",
+  "extras": "Courtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nFood trucks, photo bus or live band in the courtyard (with courtyard add-on)\nPowder room with mirrors, sink and couch",
+  "cleanup crew": "Not included; venue provides ladders, trash cans, trash bags and cleanup supplies",
+  "Accessibility": "4 ADA restrooms",
+  "Deposit Policy": "Deposit required to reserve the date",
+  "Catering": "Catering prep area with refrigerator and freezer\nOutside vendors allowed; preferred caterer list provided\nFood trucks allowed in the courtyard (courtyard add-on)",
+  "Prep Area": "Catering area with fridge and freezer",
+  "Alcohol policy": "Alcohol allowed with a licensed bartender\n$200 alcohol fee",
+  "Event Coordinator": "Manager meets you at the start of the event to go over day-of details\nManager on call during the event",
+  "Bride/Groom Rooms": "Bridal / get-ready room (powder room with mirrors, sink and couch)",
+  "Restrictions": "No glitter\nNo confetti\nNo nails or tacks in walls or posts\nCandles only in a votive",
+  "Important Notes": "Weekends typically book 1-2 months ahead; weekdays 2-4 weeks\nBuilding also houses offices, so the lot is busier on weekdays before 5pm\nSister venue: The Bright Building",
+  "Contact Information": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern",
+   "Classic"
+  ],
+  "suggested": [
+   "Modern",
+   "Classic",
+   "Rustic"
+  ],
+  "change": "add Rustic",
+  "reasoning": "The site calls itself both industrial and rustic, and the corrected Description says 'rustic-industrial', so the rules give Modern (industrial), Classic (historic) and Rustic (rustic).",
+  "site_cues": [
+   "'an industrial wedding venue in Utah County'",
+   "'this rustic wedding venue'",
+   "'rustic and industrial charm'",
+   "former candy factory built 1898, exposed brick, wooden beams"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing",
+   "why": "four price tiers by day, same inclusions",
+   "data": {
+    "rates": [
+     {
+      "days": "Mon-Wed",
+      "hours": "10am-11pm",
+      "price": "$1,550"
+     },
+     {
+      "days": "Thu",
+      "hours": "10am-11pm",
+      "price": "$2,250"
+     },
+     {
+      "days": "Fri & Sun",
+      "hours": "10am-11pm",
+      "price": "$2,550"
+     },
+     {
+      "days": "Sat",
+      "hours": "10am-11pm",
+      "price": "$2,750"
+     }
+    ],
+    "add_ons": [
+     {
+      "name": "Courtyard",
+      "price": "$500 Apr-Sep / $200 Oct-Mar"
+     },
+     {
+      "name": "Alcohol fee (licensed bartender required)",
+      "price": "$200"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spaces",
+   "why": "main hall plus an add-on outdoor courtyard",
+   "data": {
+    "spaces": [
+     {
+      "name": "Main event space (3,200 sq ft)",
+      "seated": 120,
+      "standing": 300,
+      "setting": "indoor"
+     },
+     {
+      "name": "Courtyard (add-on)",
+      "seated": null,
+      "standing": null,
+      "setting": "outdoor",
+      "note": "adds capacity; food trucks, photo bus or live band"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Other event packages",
+   "why": "non-wedding and quinceanera pricing on a separate page",
+   "data": {
+    "packages": [
+     {
+      "name": "6-hour celebration block",
+      "price": "$650 Mon-Wed / $850 Thu-Sun"
+     },
+     {
+      "name": "Engagement (2 hours)",
+      "price": "$150"
+     },
+     {
+      "name": "Quinceanera 10am-2am",
+      "price": "$1,950 Mon-Wed / $2,150 Thu / $2,350 Fri & Sun / $2,550 Sat"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Price conflict: the Rates page says $1,550 / $2,250 / $2,550 / $2,750, but the comparison page lists $1,350 / $2,050 / $2,350 / $2,500 (Sun $2,350) 'as of July 2026'. A call should settle which is current.",
+  "Parking count differs by page: FAQ 'at least 40', parking flyer 31 + 16 = 47 lot spaces, comparison page '56 private spaces'.",
+  "Event coordinator filter: the site offers a manager who lets you in, reviews day-of details and is then on call. Team should decide whether that counts as an 'event coordinator' (marked false here).",
+  "Outdoors filter: the only outdoor event space is the courtyard, which is a paid add-on. Kept true because the venue has an outdoor event space; the team may prefer false under the paid-add-on rule.",
+  "Outside catering: the site lists preferred caterers and says couples have 'flexibility with the vendors you use' but never states a catering policy outright."
+ ]
+}

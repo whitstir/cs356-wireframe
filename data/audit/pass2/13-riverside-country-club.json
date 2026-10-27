@@ -1,0 +1,223 @@
+{
+ "row": 13,
+ "id": "riverside-country-club",
+ "official_name": {
+  "name": "Riverside Country Club",
+  "source_url": "https://riversidecountryclub.org/special-event/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Microphone, bluetooth speaker, & TV",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Microphone, bluetooth speaker, & TV",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "Microphone, bluetooth speaker, & TV",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Complete set-up & take down of tables & chairs",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "On-site venue coordinator",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "stunning indoor and outdoor spaces",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "White linen (other colors available with an additional charge)",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "gorgeous patio overlooking the golf course",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Multiple fireplaces",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Black iron floor easels",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Bar service available starting at $150.",
+   "price": "$150.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Upright black piano & electric baby grand",
+   "price": "",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 600,
+  "high": 3500,
+  "basis": "rental",
+  "wording": "Room fees $600–$3,500, plus food & beverage minimums $900–$8,000",
+  "math": ""
+ },
+ "seated": {
+  "low": 32,
+  "high": 150,
+  "wording": "Timpanogos Room 32 | Main Dining Room 80 | Wasatch 80–150 | Parley's Patio 150"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Riverside Country Club"
+ }
+}

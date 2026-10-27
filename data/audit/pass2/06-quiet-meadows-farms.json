@@ -1,0 +1,223 @@
+{
+ "row": 6,
+ "id": "quiet-meadows-farms",
+ "official_name": {
+  "name": "Quiet Meadow Farm",
+  "source_url": "https://www.quietmeadowfarms.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "HDMI-ready TV for slideshows, videos, or memories",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "A relaxing Bridal Suite",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Full setup, takedown, and cleanup handled by our staff",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "A dedicated Day-of Coordinator",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "comfortable Groom's Room",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The large barn is beautiful inside and out",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/about/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "A favorite place for guests to gather when the weather turns cold.",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/about/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "lanterns, centerpieces, candles, greenery",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "graced with an inviting fireplace",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/about/"
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "lanterns, centerpieces, candles, greenery, and rustic décor",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Assorted Easels (20) ... Wood Reserved Signs (14)",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "complete with lanterns, centerpieces, candles",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Extra tables for cake, gifts, or sign-in areas",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included",
+   "wording": "Drink Troughs( 4)",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "included",
+   "wording": "Sweetheart table",
+   "price": "",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/"
+  }
+ },
+ "price": {
+  "low": 3200,
+  "high": 8800,
+  "basis": "rental",
+  "wording": "Seasonal tiers $3,200–$6,800; all-day adds $2,000 (up to $8,800)",
+  "math": ""
+ },
+ "seated": {
+  "low": null,
+  "high": null,
+  "wording": "No seated capacity stated; max 300 guests (225 in winter)"
+ },
+ "standing": {
+  "low": 225,
+  "high": 300,
+  "wording": "300 max guests (225 in winter season)"
+ },
+ "row_updates": {
+  "Venue Name": "Quiet Meadow Farm"
+ }
+}

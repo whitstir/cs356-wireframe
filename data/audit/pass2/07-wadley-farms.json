@@ -1,0 +1,223 @@
+{
+ "row": 7,
+ "id": "wadley-farms",
+ "official_name": {
+  "name": "Wadley Farms",
+  "source_url": "https://wadleyfarms.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "wheelchair accessible",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/contact"
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "LCD projector and an 18 ft drop down screen",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "a professional sound system",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "an elegant bride's dressing room",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "castle coordinator ... lead hostess",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/about"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "a groom's dressing room",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Great Hall or the Barn provide beautiful, climate-controlled alternatives",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "generally include tables, chairs, linens, and setup",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor ceremonies are weather-dependent.",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "hire the caterer of your choice",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/faqs"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Yes, we allow sparklers for your grand exit!",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "A wisteria wrapped gazebo is the backdrop for the wedding ceremony (venue photo caption)",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "The 4500 sq ft Great Hall features two grand staircases and a 38 ft fireplace.",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "a grand chandelier",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "stone patio ... lit by bistro lights; walkway lined with bistro lights (venue photo caption)",
+   "price": "",
+   "source_url": "https://wadleyfarms.com/weddings"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 3100,
+  "high": 7200,
+  "basis": "rental",
+  "wording": "Barn & Railroad winter $3,100 to Castle Fri–Sat $7,200",
+  "math": ""
+ },
+ "seated": {
+  "low": 40,
+  "high": 200,
+  "wording": "Castle 200 | Barn 100 | Railroad Building 40"
+ },
+ "standing": {
+  "low": 250,
+  "high": 350,
+  "wording": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house"
+ },
+ "row_updates": {
+  "Venue Name": "Wadley Farms"
+ }
+}

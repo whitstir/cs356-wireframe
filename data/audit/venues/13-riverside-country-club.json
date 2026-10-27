@@ -1,0 +1,973 @@
+{
+ "row": 13,
+ "id": "riverside-country-club",
+ "name": "Riverside Country Club",
+ "website": "https://www.riversidecountryclub.org/Dining_Events",
+ "website_status": "listed link is dead (HTTP 404); the club's site was redesigned and wedding info now lives at https://riversidecountryclub.org/special-event/ and its Guest Wedding Lookbook PDF",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.riversidecountryclub.org/Dining_Events (listed link: HTTP 404)",
+  "https://riversidecountryclub.org/ (home: club overview, Weddings & Events tile, address, phone)",
+  "https://riversidecountryclub.org/special-event/ (Special Events page: inquiry form and links to Guest / Member Wedding Lookbooks)",
+  "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf (Guest Wedding Lookbook 'Guest Edition 2025': inclusions, room fees, food & beverage minimums, capacities, ceremony fee, event team)",
+  "https://riversidecountryclub.org/weddings/ (weddings page: one sentence, 'Take a Tour')",
+  "https://riversidecountryclub.org/amenities/ (dining, golf, pool; no event facts)",
+  "https://riversidecountryclub.org/about/ (history: clubhouse completed 2012)",
+  "https://riversidecountryclub.org/contact/ (contact: address, phone)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "2701 N University Ave, Provo, UT 84604",
+  "note": "Address in footer and contact page."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Riverside Country Club",
+   "verified_value": "Riverside Country Club",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://riversidecountryclub.org/",
+   "evidence": "Riverside Country Club",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.riversidecountryclub.org/Dining_Events",
+   "verified_value": "https://riversidecountryclub.org/special-event/",
+   "action": "corrected",
+   "change_origin": "Listed link returns HTTP 404 after a site redesign; the Special Events page holds the wedding inquiry and lookbook.",
+   "source_url": "https://riversidecountryclub.org/special-event/",
+   "evidence": "Special Events / Your Perfect Venue Awaits / Guest Wedding Lookbook",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A country-club reception venue offering indoor dining rooms, a patio, scenic surroundings, in-house cuisine, custom menu options, and event planning support for wedding celebrations.",
+   "verified_value": "A private country club in Provo with indoor dining and event rooms and a patio overlooking the golf course and Mount Timpanogos. Weddings include an in-house culinary team, white linen, serving staff and an on-site venue coordinator; food and beverage minimums apply.",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook: added the private-club setting, included services and the food & beverage minimum.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'gorgeous patio overlooking the golf course'; 'On-site venue coordinator'; 'we require a food and beverage minimum'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "No single standard price stated on the official website",
+   "verified_value": "$600-$3,500 room fee",
+   "action": "corrected",
+   "change_origin": "Removed filler; Lookbook room fees run from $600 (Timpanogos Room) to $3,500 (Parley's Patio).",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "price tables, 'ROOM FEE' column: $600 ... $3,500",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Plus food & beverage minimum $900-$8,000, 22% service charge and 8.25% tax. Reception/open-house room fees are $2,000-$3,000. Ceremony fee $200."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Main Dining Room, 80 plated or 60 buffet guests, room fee $3,000, food and beverage minimum $5,000\nTimpanogos Room, up to 32 guests, room fee $600, food and beverage minimum $900\nParley's Patio, up to 150 guests, room fee $3,500, food and beverage minimum $8,000\nWasatch South and Parlor, up to 80 guests, room fee $1,000, food and beverage minimum $5,000\nEntire Wasatch Room, 150 plated or 120 buffet guests, room fee $2,000, food and beverage minimum $5,000\nBar service — from $150",
+   "verified_value": "Reception / open house: Dining Room & Outdoor Patio — room fee $3,000, food & beverage minimum $8,000\nReception / open house: Wasatch Room — room fee $2,000, food & beverage minimum $6,000\nLuncheon / dinner: Main Dining Room, 80 plated or 60 buffet — room fee $3,000, food & beverage minimum $5,000\nLuncheon / dinner: Timpanogos Room, up to 32 — room fee $600, food & beverage minimum $900\nLuncheon / dinner: Parley's Patio, 150, must be rented with Main Dining Room or Timpanogos Room — room fee $3,500, food & beverage minimum $8,000\nLuncheon / dinner: Wasatch South & Parlor, up to 80 — room fee $1,000, food & beverage minimum $5,000\nLuncheon / dinner: Entire Wasatch Room, 150 plated or 120 buffet — room fee $2,000, food & beverage minimum $5,000\nCeremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook: added the reception/open-house table, the patio rental condition and the $200 ceremony fee.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'RECEPTION & OPEN HOUSE PRICING ... Dining Room & Outdoor Patio $3,000 $8,000'; 'A $200 ceremony fee'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "32-150",
+   "verified_value": "Main Dining Room: 80 plated\nTimpanogos Room: 32\nWasatch South & Parlor: 80\nEntire Wasatch Room: 150 plated\nParley's Patio: 150",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook, luncheon & dinner table (per-room figures instead of a bare range).",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'Entire Wasatch Room 150 (plated) 120 (buffet)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Patio figure '150' is not labelled seated or standing."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Only plated and buffet counts are given."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nCountry club",
+   "verified_value": "Elegant\nPrivate country club\nModern interior",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook style words.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'elegant, high-class venue'; 'stylish modern interior'; 'exclusive private club atmosphere'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "TRUE",
+   "action": "added",
+   "change_origin": "Official Guest Wedding Lookbook, 'Booking includes' list.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'White linen (other colors available with an additional charge)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "",
+   "verified_value": "5 ft and 6 ft round tables, 8 ft rectangle tables, round high-top tables\nStandard Riverside chairs\nBlack iron floor easels\nChina, flatware and glassware\nWhite linen\nUpright black piano and electric baby grand piano\nMultiple fireplaces\nMicrophone, bluetooth speaker and TV\nDesignated photography areas",
+   "action": "added",
+   "change_origin": "Official Guest Wedding Lookbook, 'Booking includes' list.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'Black iron floor easels'; 'Upright black piano & electric baby grand'; 'Multiple fireplaces'; 'Microphone, bluetooth speaker, & TV'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Gold chiavari chairs — additional charge\nLinens in other colors — additional charge",
+   "action": "added",
+   "change_origin": "Official Guest Wedding Lookbook, 'Booking includes' list notes these as extra-cost options (price not stated).",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'gold chiavari chairs available for an additional charge'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Lookbook: indoor and outdoor spaces.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'a variety of stunning indoor and outdoor spaces'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Convenient parking (included)",
+   "action": "added",
+   "change_origin": "Official Guest Wedding Lookbook, 'Booking includes' list.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Convenient parking",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "2701 N University Ave, Provo, UT 84604",
+   "verified_value": "2701 N University Ave, Provo, UT 84604",
+   "action": "confirmed",
+   "change_origin": "Contact page and footer.",
+   "source_url": "https://riversidecountryclub.org/contact/",
+   "evidence": "2701 North University Avenue Provo, UT 84604",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://riversidecountryclub.org/contact/",
+   "evidence": "Provo, UT 84604",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "",
+   "verified_value": "Yes\nMicrophone\nBluetooth speaker",
+   "action": "added",
+   "change_origin": "Official Guest Wedding Lookbook, 'Booking includes' list.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Microphone, bluetooth speaker, & TV",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "A bluetooth speaker rather than a built-in system."
+  },
+  {
+   "field": "extras",
+   "current_value": "Event planning support\nParley's Patio",
+   "verified_value": "Ceremony site with golf course and Mount Timpanogos views — $200 ceremony fee\nCutting and serving of wedding cakes\nPersonalized menus and custom layouts\nComplete recommended vendor list\nBar service — from $150",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook; added paid bar service; replaced vague 'Event planning support' and 'Parley's Patio' (patio is in Packages).",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'A $200 ceremony fee grants access'; 'Cutting & serving of wedding cakes'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included: complete set-up and take-down of tables and chairs; serving staff",
+   "action": "added",
+   "change_origin": "Official Guest Wedding Lookbook, 'Booking includes' list.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'Complete set-up & take down of tables & chairs'; 'Exceptional serving staff'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Full cleanup is not stated in so many words."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "In-house cuisine\nCustom menu options",
+   "verified_value": "In-house culinary team with pastry chef\nCustomizable menus: small bites, action stations, brunch, luncheon, dinner\nFood and beverage minimum required for all weddings",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'Our exceptional culinary team, featuring an in-house pastry chef'; 'we require a food and beverage minimum for all wedding events'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Bar service available from $150",
+   "verified_value": "Bar service available from $150",
+   "action": "confirmed",
+   "change_origin": "Lookbook.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Bar service available starting at $150.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event planning support",
+   "verified_value": "On-site venue coordinator\nDedicated event team",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook: coordinator is included in every booking.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'On-site venue coordinator'; 'our dedicated event team is here to guide you'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "22% service charge\n8.25% tax",
+   "verified_value": "22% service charge and 8.25% tax on room fees and food & beverage\nFood and beverage minimum: any shortfall is charged as a fee\nPrivate club; guest pricing shown",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook: added the minimum-spend rule.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'*ADD 22% SERVICE CHARGE AND 8.25% TAX'; 'the remaining balance will be charged as a fee'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-374-1347",
+   "verified_value": "Phone: 801-374-1347\nEvents: Katie Alger, katie@riversidecountryclub.org, ext. 104\nEvents: Hailey Williams, hailey@riversidecountryclub.org, ext. 107",
+   "action": "corrected",
+   "change_origin": "Official Guest Wedding Lookbook, 'Event Management Team' page.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'Katie Alger katie@riversidecountryclub.org 801-374-1347 ext. 104'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "",
+   "verified_value": "600-3500",
+   "action": "added",
+   "change_origin": "Official Lookbook room fees $600-$3,500; follows from the corrected Standard Price Range (old cell was filler).",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "ROOM FEE column $600 to $3,500",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Food & beverage minimums ($900-$8,000) are extra and not in the slider."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "150",
+   "verified_value": "150",
+   "action": "confirmed",
+   "change_origin": "Lookbook: Entire Wasatch Room 150 plated.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Entire Wasatch Room 150 (plated)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://riversidecountryclub.org/contact/",
+   "evidence": "Provo, UT 84604",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Lookbook 'Booking includes'; follows from the corrected Other Decor Included / sound system columns.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Microphone, bluetooth speaker, & TV",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Lookbook includes a bluetooth speaker; follows from the corrected sound system column.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Microphone, bluetooth speaker, & TV",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Speaker, not a built-in PA. Team decision."
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Lookbook 'Booking includes'.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Microphone, bluetooth speaker, & TV",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Lookbook: complete set-up and take-down of tables and chairs is included.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Complete set-up & take down of tables & chairs",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Team decision: take-down plus serving staff treated as cleanup."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Lookbook.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "On-site venue coordinator",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Lookbook.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "stunning indoor and outdoor spaces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Lookbook: patio and ceremony site.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'gorgeous patio overlooking the golf course'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official Lookbook includes white linen; follows from the corrected Linens Included column.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "White linen (other colors available with an additional charge)",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Lookbook: in-house culinary team and a food & beverage minimum for every wedding.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "'we require a food and beverage minimum for all wedding events'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No explicit ban on outside caterers, but every wedding must meet an in-house F&B minimum."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official Lookbook includes black iron floor easels.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Black iron floor easels",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official Lookbook.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Multiple fireplaces",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Lookbook includes cake cutting and serving, not a cake table."
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official Lookbook: bar service is a paid add-on from $150; follows from the bar-service line added to extras.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Bar service available starting at $150.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Paid bar service treated as a rentable drink station."
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official Lookbook.",
+   "source_url": "https://riversidecountryclub.org/wp-content/uploads/2025/09/RCC-GUEST-WEDDING-LOOKBOOK.pdf",
+   "evidence": "Upright black piano & electric baby grand",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Riverside Country Club",
+  "link": "https://riversidecountryclub.org/special-event/",
+  "Description": "A private country club in Provo with indoor dining and event rooms and a patio overlooking the golf course and Mount Timpanogos. Weddings include an in-house culinary team, white linen, serving staff and an on-site venue coordinator; food and beverage minimums apply.",
+  "Standard Price Range": "$600-$3,500 room fee",
+  "Packages and Prices": "Reception / open house: Dining Room & Outdoor Patio — room fee $3,000, food & beverage minimum $8,000\nReception / open house: Wasatch Room — room fee $2,000, food & beverage minimum $6,000\nLuncheon / dinner: Main Dining Room, 80 plated or 60 buffet — room fee $3,000, food & beverage minimum $5,000\nLuncheon / dinner: Timpanogos Room, up to 32 — room fee $600, food & beverage minimum $900\nLuncheon / dinner: Parley's Patio, 150, must be rented with Main Dining Room or Timpanogos Room — room fee $3,500, food & beverage minimum $8,000\nLuncheon / dinner: Wasatch South & Parlor, up to 80 — room fee $1,000, food & beverage minimum $5,000\nLuncheon / dinner: Entire Wasatch Room, 150 plated or 120 buffet — room fee $2,000, food & beverage minimum $5,000\nCeremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax",
+  "Seated Capacity": "Main Dining Room: 80 plated\nTimpanogos Room: 32\nWasatch South & Parlor: 80\nEntire Wasatch Room: 150 plated\nParley's Patio: 150",
+  "Standing Capacity": "",
+  "Time slots": "",
+  "Length of Rental": "",
+  "Style": "Elegant\nPrivate country club\nModern interior",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "5 ft and 6 ft round tables, 8 ft rectangle tables, round high-top tables\nStandard Riverside chairs\nBlack iron floor easels\nChina, flatware and glassware\nWhite linen\nUpright black piano and electric baby grand piano\nMultiple fireplaces\nMicrophone, bluetooth speaker and TV\nDesignated photography areas",
+  "Other Decor for Rent": "Gold chiavari chairs — additional charge\nLinens in other colors — additional charge",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Convenient parking (included)",
+  "Full Address": "2701 N University Ave, Provo, UT 84604",
+  "City": "Provo",
+  "sound system": "Yes\nMicrophone\nBluetooth speaker",
+  "extras": "Ceremony site with golf course and Mount Timpanogos views — $200 ceremony fee\nCutting and serving of wedding cakes\nPersonalized menus and custom layouts\nComplete recommended vendor list\nBar service — from $150",
+  "cleanup crew": "Included: complete set-up and take-down of tables and chairs; serving staff",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "In-house culinary team with pastry chef\nCustomizable menus: small bites, action stations, brunch, luncheon, dinner\nFood and beverage minimum required for all weddings",
+  "Prep Area": "",
+  "Alcohol policy": "Bar service available from $150",
+  "Event Coordinator": "On-site venue coordinator\nDedicated event team",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "",
+  "Important Notes": "22% service charge and 8.25% tax on room fees and food & beverage\nFood and beverage minimum: any shortfall is charged as a fee\nPrivate club; guest pricing shown",
+  "Contact Information": "Phone: 801-374-1347\nEvents: Katie Alger, katie@riversidecountryclub.org, ext. 104\nEvents: Hailey Williams, hailey@riversidecountryclub.org, ext. 107"
+ },
+ "style_suggestion": {
+  "current": [
+   "Luxury"
+  ],
+  "suggested": [
+   "Luxury",
+   "Outdoors"
+  ],
+  "change": "add Outdoors",
+  "reasoning": "Country club gives Luxury. The corrected Description names the golf course and Mount Timpanogos views, so the 'golf grounds' cue gives Outdoors, which matches Sleepy Ridge Golf Course. If the team thinks a clubhouse venue shouldn't be Outdoors, the rule should require the event itself to be held outside, not just views.",
+  "site_cues": [
+   "'one of Utah's premier private clubs'",
+   "'gorgeous patio overlooking the golf course'",
+   "'elegant, high-class venue'",
+   "'stylish modern interior'"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Rooms with fees and minimums",
+   "why": "each room has its own capacity, room fee and food & beverage minimum",
+   "data": {
+    "reception_open_house": [
+     {
+      "name": "Dining Room & Outdoor Patio",
+      "room_fee": "$3,000",
+      "fb_minimum": "$8,000"
+     },
+     {
+      "name": "Wasatch Room",
+      "room_fee": "$2,000",
+      "fb_minimum": "$6,000"
+     }
+    ],
+    "luncheon_dinner": [
+     {
+      "name": "Main Dining Room",
+      "seated": 80,
+      "buffet": 60,
+      "room_fee": "$3,000",
+      "fb_minimum": "$5,000",
+      "setting": "indoor"
+     },
+     {
+      "name": "Timpanogos Room",
+      "seated": 32,
+      "room_fee": "$600",
+      "fb_minimum": "$900",
+      "setting": "indoor"
+     },
+     {
+      "name": "Parley's Patio",
+      "guests": 150,
+      "room_fee": "$3,500",
+      "fb_minimum": "$8,000",
+      "setting": "outdoor",
+      "note": "must be rented with Main Dining Room or Timpanogos Room"
+     },
+     {
+      "name": "Wasatch South & Parlor",
+      "guests": 80,
+      "room_fee": "$1,000",
+      "fb_minimum": "$5,000",
+      "setting": "indoor"
+     },
+     {
+      "name": "Entire Wasatch Room",
+      "seated": 150,
+      "buffet": 120,
+      "room_fee": "$2,000",
+      "fb_minimum": "$5,000",
+      "setting": "indoor"
+     }
+    ],
+    "surcharges": "22% service charge and 8.25% tax"
+   }
+  },
+  {
+   "title": "Ceremony site",
+   "why": "separate ceremony location and fee",
+   "data": {
+    "ceremony": {
+     "setting": "outdoor, golf course and Mount Timpanogos views",
+     "fee": "$200"
+    }
+   }
+  },
+  {
+   "title": "Minimum spend",
+   "why": "food & beverage minimum for every wedding",
+   "data": {
+    "rule": "Shortfall below the minimum is charged as a fee",
+    "range": "$900-$8,000 depending on room"
+   }
+  },
+  {
+   "title": "Catering",
+   "why": "in-house culinary team and menu styles",
+   "data": {
+    "catering": {
+     "in_house": true,
+     "pastry_chef": true,
+     "styles": [
+      "small bites",
+      "interactive action stations",
+      "brunch",
+      "luncheon",
+      "dinner"
+     ],
+     "bar_service": "from $150"
+    }
+   }
+  }
+ ],
+ "open_questions": [
+  "Update the link: the listed /Dining_Events page is 404; suggested replacement https://riversidecountryclub.org/special-event/.",
+  "Lookbook is the 'Guest Edition 2025'; confirm 2026 prices. A separate Member Wedding Lookbook exists (member pricing not used).",
+  "Sound system filter: the club includes a microphone and a bluetooth speaker. Team should decide whether a bluetooth speaker counts as an in-house sound system (marked true, medium).",
+  "Cleanup crew filter: the club includes 'complete set-up & take down of tables & chairs' and serving staff; marked true (medium). Confirm whether full cleanup is included.",
+  "Outside catering is not stated as banned, but the club has an in-house culinary team and a food & beverage minimum for every wedding; marked false.",
+  "Site is silent on deposit, accessibility, rental hours, getting-ready rooms and sparklers."
+ ]
+}

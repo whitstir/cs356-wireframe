@@ -1,0 +1,757 @@
+{
+ "id": "quiet-meadows-farms",
+ "name": "Quiet Meadow Farm",
+ "city": "Mapleton",
+ "description": "A rustic farm venue on 130 acres beneath the mountains in Mapleton, with a large barn with a fireplace, outdoor ceremony and reception space, a bridal suite and groom's room, a prep kitchen, and an included day-of coordinator.",
+ "styles": [
+  "Rustic",
+  "Outdoors"
+ ],
+ "priceMin": 3200,
+ "priceMax": 8800,
+ "priceBasis": "rental",
+ "priceText": "Seasonal tiers $3,200–$6,800; all-day adds $2,000 (up to $8,800)",
+ "seated": null,
+ "seatedMin": null,
+ "seatedText": "No seated capacity stated; max 300 guests (225 in winter)",
+ "standing": 300,
+ "standingMin": 225,
+ "standingText": "300 max guests (225 in winter season)",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "included"
+  ],
+  "Sweetheart table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": false,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "HDMI-ready TV"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal suite"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Full setup, takedown and cleanup by staff"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "A dedicated Day-of Coordinator"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Large barn"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor gathering area"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Lanterns, centerpieces, candles, greenery"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fireplace"
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Greenery and rustic decor"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "20 easels; 14 wood reserved signs"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Lanterns and candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Extra tables for cake, gifts, or sign-in areas"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included",
+   "wording": "Drink Troughs( 4)"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "included",
+   "wording": "Sweetheart table"
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A rustic farm venue on 130 acres beneath the mountains in Mapleton, with a large barn with a fireplace, outdoor ceremony and reception space, a bridal suite and groom's room, a prep kitchen, and an included day-of coordinator."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "1805 E 1200 N, Mapleton, UT 84664"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Rustic\nNatural\nPeaceful"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Seasonal tiers $3,200–$6,800; all-day adds $2,000 (up to $8,800)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Peak season Apr-Oct 2026: Fri or Sat 2pm-10pm — $6,600\nPeak season Apr-Oct 2026: Mon-Thu 2pm-10pm — $5,600\nWinter Nov 2026-Mar 2027: Fri or Sat 2pm-10pm — $5,800\nWinter Nov 2026-Mar 2027: Mon-Thu 2pm-10pm — $5,200\nMornings Mon-Sat 8am-12:30pm: peak 2026 — $3,300; winter 2026-27 — $3,200\nReception only, Mon-Thu 4:30pm-10pm — $4,400\nPeak season Apr-Oct 2027: Fri or Sat — $6,800; Thu — $6,400; Mon-Wed — $5,800\nWinter Nov 2027-Mar 2028: Fri or Sat — $6,000; Thu — $5,600; Mon-Wed — $5,000\nMornings 2027: peak — $3,400; winter 2027-28 — $3,200\nAll-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Deposit and signed contract required to reserve"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Large barn"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor gathering area"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "No seated capacity stated; max 300 guests (225 in winter)"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300 max guests (225 in winter season)"
+    }
+   ]
+  },
+  {
+   "id": "seasonal-capacity",
+   "title": "Seasonal capacity",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "seasonal-capacity-0",
+     "label": "Max guests",
+     "value": "Peak: 300 · Winter: 225"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bridal suite"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom's room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal suite\nGroom's room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Full setup, takedown and cleanup by staff"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "A dedicated Day-of Coordinator"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "15 farmhouse tables\n4 barrel-top tables (two 6 ft, two 8 ft)\n16-foot barn-wood buffet table\n150 chairs\nWhite, ivory or tan table runners\nDecorating package: centerpieces, lanterns, candles, greenery, rustic décor\nExtra tables for cake, gifts and sign-in\nCake stands\nSweetheart table\nEasels and reserved signs\nDrink troughs\nHDMI-ready TV\nBarn fireplace"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Dedicated day-of coordinator included"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included\nSetup, takedown and cleanup handled by venue staff"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "HDMI-ready TV"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Limited: speaker system for soft background music only (no mic provided)\nDJ from the venue's preferred list required"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Lanterns, centerpieces, candles, greenery"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Fireplace"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "Greenery and rustic decor"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "20 easels; 14 wood reserved signs"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "Lanterns and candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Plates, flatware, stemware and extra rentals arranged through the venue office (prices not listed)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Day-of coordinator included\nAdditional event staff on site\nLawn games available (must be pre-approved)"
+    }
+   ]
+  },
+  {
+   "id": "decor-inventory",
+   "title": "Decor inventory",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-inventory-0",
+     "label": "Items",
+     "value": "Small log card holders (60); Wood reserved signs (14); Paper reserved signs (15); Drink troughs (4); Copper lanterns (15); Small votives (50); Medium votives (25); Large white lanterns (6); Wheat centerpieces (23); Brown lanterns (15); Large crates (5); Milk jars for ceremony (9); Sweetheart table; Log cake stand; Cake stand; Easels (20); Bud vases (36); Assorted artificial flowers; Flower girl baskets (10)"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Extra tables for cake, gifts, or sign-in areas"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "included",
+     "value": "Drink Troughs( 4)"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "included",
+     "value": "Sweetheart table"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Caterer must be from the venue's approved list\nHomemade food not allowed; all food must be commercially prepared\nVenue staff do not serve, bus or clear food"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen for caterers\nRefrigerator\nFreezer\nMicrowave\nWarming oven"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed\n$300 alcohol fee (includes a bar and additional staff)\nBartender from the preferred list required\nBar open 4 hours maximum"
+    }
+   ]
+  },
+  {
+   "id": "required-vendor-lists",
+   "title": "Required vendor lists",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "required-vendor-lists-0",
+     "label": "Required",
+     "value": "Caterers: El Camino Kitchen; Bro Bro's Frozen Treats; Brown Brothers; Greenhollow Catering; Fiore Pizza; Beehive Catering; Lux Catering; Landmark Catering; Penguin Brothers; Pinguino's Gelato; Marvellous Catering Co.; R&R BBQ; Culinary Crafts; J. Dawgs; Magleby's; The Place Pizza; Thirst Drinks and Catering · Bartenders: Copa Bar Service; Cheers and Swizzles · Djs: DJ JC; Alive Entertainment; DJ Cooper Brown; DJ Chase Worthen"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "No\nSparklers and cold sparkler machines are not allowed"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Sat 2pm-10pm (evening)\nMon-Sat 10am-10pm (all-day, extra $2,000)\nMon-Sat 8am-12:30pm (morning)\nMon-Thu 4:30pm-10pm (reception only)\nClosed Sundays"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "4.5-12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Caterer, DJ and bartender must be from the preferred lists\nNo live bands\nNo sparklers, cold sparkler machines, confetti, glitter, rice, bird seed or flower petals (petals allowed during the ceremony)\nNo bounce houses, mechanical bulls or carnival rides\nLawn games must be pre-approved\nNo pets without prior approval (service animals and ceremony animals excepted)\nNo food or décor drop-off before the scheduled time\nNo rehearsals on site\nMaximum 89 decibels (noise ordinance)\nOwn sound equipment limited to a small boombox-style system\nNo smoking except in the designated area\nNo full-size buses"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "130-acre property\nMaximum capacity 300 guests (225 in winter season)\nClosed Sundays\nAll event item rentals go through the venue office"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 438-9394\nEmail: quietmeadowfarms@gmail.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.quietmeadowfarms.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "quiet-meadows-farms",
+  "Venue Name": "Quiet Meadow Farm",
+  "link": "https://www.quietmeadowfarms.com/",
+  "City": "Mapleton",
+  "Full Address": "1805 E 1200 N, Mapleton, UT 84664",
+  "Description": "A rustic farm venue on 130 acres beneath the mountains in Mapleton, with a large barn with a fireplace, outdoor ceremony and reception space, a bridal suite and groom's room, a prep kitchen, and an included day-of coordinator.",
+  "Price Low": "3200",
+  "Price High": "8800",
+  "Price Basis": "rental",
+  "Standard Price Range": "Seasonal tiers $3,200–$6,800; all-day adds $2,000 (up to $8,800)",
+  "Seated Capacity": "No seated capacity stated; max 300 guests (225 in winter)",
+  "Standing Low": "225",
+  "Standing High": "300",
+  "Standing Capacity": "300 max guests (225 in winter season)",
+  "Packages and Prices": "Peak season Apr-Oct 2026: Fri or Sat 2pm-10pm — $6,600\nPeak season Apr-Oct 2026: Mon-Thu 2pm-10pm — $5,600\nWinter Nov 2026-Mar 2027: Fri or Sat 2pm-10pm — $5,800\nWinter Nov 2026-Mar 2027: Mon-Thu 2pm-10pm — $5,200\nMornings Mon-Sat 8am-12:30pm: peak 2026 — $3,300; winter 2026-27 — $3,200\nReception only, Mon-Thu 4:30pm-10pm — $4,400\nPeak season Apr-Oct 2027: Fri or Sat — $6,800; Thu — $6,400; Mon-Wed — $5,800\nWinter Nov 2027-Mar 2028: Fri or Sat — $6,000; Thu — $5,600; Mon-Wed — $5,000\nMornings 2027: peak — $3,400; winter 2027-28 — $3,200\nAll-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator",
+  "Time slots": "Mon-Sat 2pm-10pm (evening)\nMon-Sat 10am-10pm (all-day, extra $2,000)\nMon-Sat 8am-12:30pm (morning)\nMon-Thu 4:30pm-10pm (reception only)\nClosed Sundays",
+  "Length of Rental": "4.5-12 hours",
+  "Style": "Rustic\nNatural\nPeaceful",
+  "Other Decor Included": "15 farmhouse tables\n4 barrel-top tables (two 6 ft, two 8 ft)\n16-foot barn-wood buffet table\n150 chairs\nWhite, ivory or tan table runners\nDecorating package: centerpieces, lanterns, candles, greenery, rustic décor\nExtra tables for cake, gifts and sign-in\nCake stands\nSweetheart table\nEasels and reserved signs\nDrink troughs\nHDMI-ready TV\nBarn fireplace",
+  "Other Decor for Rent": "Plates, flatware, stemware and extra rentals arranged through the venue office (prices not listed)",
+  "sparklers allowed": "No\nSparklers and cold sparkler machines are not allowed",
+  "sound system": "Limited: speaker system for soft background music only (no mic provided)\nDJ from the venue's preferred list required",
+  "extras": "Day-of coordinator included\nAdditional event staff on site\nLawn games available (must be pre-approved)",
+  "cleanup crew": "Included\nSetup, takedown and cleanup handled by venue staff",
+  "Deposit Policy": "Deposit and signed contract required to reserve",
+  "Catering": "Caterer must be from the venue's approved list\nHomemade food not allowed; all food must be commercially prepared\nVenue staff do not serve, bus or clear food",
+  "Prep Area": "Prep kitchen for caterers\nRefrigerator\nFreezer\nMicrowave\nWarming oven",
+  "Alcohol policy": "Alcohol allowed\n$300 alcohol fee (includes a bar and additional staff)\nBartender from the preferred list required\nBar open 4 hours maximum",
+  "Event Coordinator": "Dedicated day-of coordinator included",
+  "Bride/Groom Rooms": "Bridal suite\nGroom's room",
+  "Restrictions": "Caterer, DJ and bartender must be from the preferred lists\nNo live bands\nNo sparklers, cold sparkler machines, confetti, glitter, rice, bird seed or flower petals (petals allowed during the ceremony)\nNo bounce houses, mechanical bulls or carnival rides\nLawn games must be pre-approved\nNo pets without prior approval (service animals and ceremony animals excepted)\nNo food or décor drop-off before the scheduled time\nNo rehearsals on site\nMaximum 89 decibels (noise ordinance)\nOwn sound equipment limited to a small boombox-style system\nNo smoking except in the designated area\nNo full-size buses",
+  "Important Notes": "130-acre property\nMaximum capacity 300 guests (225 in winter season)\nClosed Sundays\nAll event item rentals go through the venue office",
+  "Contact Information": "Phone: (801) 438-9394\nEmail: quietmeadowfarms@gmail.com"
+ }
+}

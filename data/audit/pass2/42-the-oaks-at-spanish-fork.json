@@ -1,0 +1,223 @@
+{
+ "row": 42,
+ "id": "the-oaks-at-spanish-fork",
+ "official_name": {
+  "name": "Event Center at The Oaks",
+  "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Premium sound system and microphone",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Premium sound system and microphone",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "2 HD TVs",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's room with vanity",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "3,500 square feet of reception area",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Large outdoor deck",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Guests may bring in their own catering or food at no additional cost.",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fireplace",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Chalkboard greeting signs",
+   "price": "",
+   "source_url": "https://www.spanishfork.gov/recreation-parks-and-culture/the-oaks-at-spanish-fork/event-center-at-the-oaks/"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1600,
+  "high": 2400,
+  "basis": "rental",
+  "wording": "4–11pm or all-day rentals $1,600–$2,400",
+  "math": ""
+ },
+ "seated": {
+  "low": 160,
+  "high": 160,
+  "wording": "20 round tables seating 8 (160)"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Event Center at The Oaks"
+ }
+}

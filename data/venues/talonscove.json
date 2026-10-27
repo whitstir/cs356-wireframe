@@ -1,0 +1,735 @@
+{
+ "id": "talonscove",
+ "name": "TalonsCove",
+ "city": "Saratoga Springs",
+ "description": "A wedding and reception center at TalonsCove Golf Club in Saratoga Springs, on the west shore of Utah Lake, with a garden rotunda for ceremonies, a veranda and outdoor fire bowl, a 3,000-square-foot ballroom with a chandelier and fireplace, and a bar and lounge.",
+ "styles": [
+  "Luxury",
+  "Outdoors"
+ ],
+ "priceMin": 3800,
+ "priceMax": 4600,
+ "priceBasis": "rental",
+ "priceText": "Rental blocks $3,800 / $4,200 / $4,600",
+ "seated": 200,
+ "seatedMin": 200,
+ "seatedText": "200 formal dining",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Draping / chair covers": [
+   "included"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "included",
+   "rent"
+  ],
+  "Firepit": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": false,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Indoor sound system & microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector & screen"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Indoor sound system & microphone"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Two well appointed dressing rooms"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Set up & take down of event space"
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Two well appointed dressing rooms"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Use of indoor & outdoor venue space"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "20 floor length base linens"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Use of indoor & outdoor venue space"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Outside caterers allowed"
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "50 send-off sparklers (Ceremony Package add-on, $400)"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "included",
+   "wording": "Ceiling draping with twinkle lights included"
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "The large fireplace offers a warm ambiance"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easels (floor and table top)"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "20 Antique white lanterns"
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "24-arm chandelier"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Ceiling draping with twinkle lights included"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "included+rent",
+   "wording": "1,500 sq ft bar and lounge"
+  },
+  "Other > Firepit": {
+   "status": "included",
+   "wording": "Outdoor fire bowl"
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A wedding and reception center at TalonsCove Golf Club in Saratoga Springs, on the west shore of Utah Lake, with a garden rotunda for ceremonies, a veranda and outdoor fire bowl, a 3,000-square-foot ballroom with a chandelier and fireplace, and a bar and lounge."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "2220 South TalonsCove Drive, Saratoga Springs, UT 84045"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Elegant\nScenic\nGolf-course\nMountain"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Rental blocks $3,800 / $4,200 / $4,600"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Half day 4-11pm — $3,800\n2/3 day 1-11pm — $4,200\nFull day 10am-11pm — $4,600\nLuncheon rental, 4 hours (9am-1pm or 10am-2pm) — price on request\nWedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Use of indoor & outdoor venue space"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Use of indoor & outdoor venue space"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "200 formal dining"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Rotunda Garden & Veranda",
+     "value": "Setting: outdoor · Use: ceremony; veranda; fire bowl"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Vista Ballroom",
+     "value": "Size sqft: 3000 · Seated: 200 · Setting: indoor · Features: 24-arm chandelier; lighted ceiling draping; fireplace"
+    },
+    {
+     "id": "spaces-2",
+     "label": "Bar & Lounge",
+     "value": "Size sqft: 1500 · Setting: indoor · Use: opens to ballroom or intimate indoor ceremony"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Dressing rooms",
+     "value": "Count: 2"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Two well appointed dressing rooms"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Two well appointed dressing rooms"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "2 dressing rooms with seating, full-length mirrors and vanities"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "20 floor length base linens"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Set up & take down of event space"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "200 black Chiavari chairs\n20 folding tables (60-inch round or 6-foot banquet)\n20 floor-length base linens\nCeiling draping with twinkle lights\n20 antique white lanterns\n20 wood rounds\n20 large fish bowl vases\nFloor and tabletop easels\n24-arm chandelier\nFireplace\nProjector and screen\nIndoor sound system and microphone"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Wedding planning and coordination through partner planner (discounted, price on request)"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included\nSetup and take down of event space"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Indoor sound system & microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Projector & screen"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Indoor sound system & microphone"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nIndoor sound system and microphone with aux connection\nProjector and screen"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "included",
+     "value": "Ceiling draping with twinkle lights included"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "The large fireplace offers a warm ambiance"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Easels (floor and table top)"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "20 Antique white lanterns"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "24-arm chandelier"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Ceiling draping with twinkle lights included"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Additional decor rentals through partner planner — price on request"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Garden with filigree rotunda for ceremonies\nStream and waterfalls\nVeranda\nOutdoor fire bowl\n1,500 sq ft bar and lounge\nDigital event layout\nUtah Lake and Mt. Timpanogos views\nWedding ceremony package — $400\nBar service — $600\nFood service staffing — $250\nMulti-room setup — $200"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "included+rent",
+     "value": "1,500 sq ft bar and lounge"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "included",
+     "value": "Outdoor fire bowl"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Outside caterers allowed"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterers welcome\nCaterer has access to the prep kitchen\nFood service staffing — $250"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen with refrigerator, ice machine and sink\nFood staging only; no cooking or warming"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Bar service — $600 (4 hours with disposable cups; alcohol, mixers and garnish not included)"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "addon",
+     "value": "50 send-off sparklers (Ceremony Package add-on, $400)"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "50 sparklers included in the Wedding Ceremony Package — $400"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Full day 10am-11pm\n2/3 day 1-11pm\nHalf day 4-11pm\nLuncheon 9am-1pm or 10am-2pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "4-13 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "All setup and cleanup must fit within the rental block\nKitchen is for food staging only"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Ballroom is listed as 3,000 sq ft on the wedding site and 3,500 sq ft on the golf club site"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 407-3030\nEmail: info@talonscoveweddings.com\nEmail: info@talonscove.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.talonscoveweddings.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "talonscove",
+  "Venue Name": "TalonsCove",
+  "link": "https://www.talonscoveweddings.com/",
+  "City": "Saratoga Springs",
+  "Full Address": "2220 South TalonsCove Drive, Saratoga Springs, UT 84045",
+  "Description": "A wedding and reception center at TalonsCove Golf Club in Saratoga Springs, on the west shore of Utah Lake, with a garden rotunda for ceremonies, a veranda and outdoor fire bowl, a 3,000-square-foot ballroom with a chandelier and fireplace, and a bar and lounge.",
+  "Price Low": "3800",
+  "Price High": "4600",
+  "Price Basis": "rental",
+  "Standard Price Range": "Rental blocks $3,800 / $4,200 / $4,600",
+  "Seated Low": "200",
+  "Seated High": "200",
+  "Seated Capacity": "200 formal dining",
+  "Packages and Prices": "Half day 4-11pm — $3,800\n2/3 day 1-11pm — $4,200\nFull day 10am-11pm — $4,600\nLuncheon rental, 4 hours (9am-1pm or 10am-2pm) — price on request\nWedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request",
+  "Time slots": "Full day 10am-11pm\n2/3 day 1-11pm\nHalf day 4-11pm\nLuncheon 9am-1pm or 10am-2pm",
+  "Length of Rental": "4-13 hours",
+  "Style": "Elegant\nScenic\nGolf-course\nMountain",
+  "Other Decor Included": "200 black Chiavari chairs\n20 folding tables (60-inch round or 6-foot banquet)\n20 floor-length base linens\nCeiling draping with twinkle lights\n20 antique white lanterns\n20 wood rounds\n20 large fish bowl vases\nFloor and tabletop easels\n24-arm chandelier\nFireplace\nProjector and screen\nIndoor sound system and microphone",
+  "Other Decor for Rent": "Additional decor rentals through partner planner — price on request",
+  "sparklers allowed": "50 sparklers included in the Wedding Ceremony Package — $400",
+  "sound system": "Yes\nIndoor sound system and microphone with aux connection\nProjector and screen",
+  "extras": "Garden with filigree rotunda for ceremonies\nStream and waterfalls\nVeranda\nOutdoor fire bowl\n1,500 sq ft bar and lounge\nDigital event layout\nUtah Lake and Mt. Timpanogos views\nWedding ceremony package — $400\nBar service — $600\nFood service staffing — $250\nMulti-room setup — $200",
+  "cleanup crew": "Included\nSetup and take down of event space",
+  "Catering": "Outside caterers welcome\nCaterer has access to the prep kitchen\nFood service staffing — $250",
+  "Prep Area": "Prep kitchen with refrigerator, ice machine and sink\nFood staging only; no cooking or warming",
+  "Alcohol policy": "Bar service — $600 (4 hours with disposable cups; alcohol, mixers and garnish not included)",
+  "Event Coordinator": "Wedding planning and coordination through partner planner (discounted, price on request)",
+  "Bride/Groom Rooms": "2 dressing rooms with seating, full-length mirrors and vanities",
+  "Restrictions": "All setup and cleanup must fit within the rental block\nKitchen is for food staging only",
+  "Important Notes": "Ballroom is listed as 3,000 sq ft on the wedding site and 3,500 sq ft on the golf club site",
+  "Contact Information": "Phone: (801) 407-3030\nEmail: info@talonscoveweddings.com\nEmail: info@talonscove.com"
+ }
+}

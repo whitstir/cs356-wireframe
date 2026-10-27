@@ -112,11 +112,14 @@ Follows the course Tree Test spec:
 ## Editing and publishing
 Saving a file only changes your computer. The live site updates after you **commit and push**, and GitHub Pages takes about 1–2 minutes to rebuild.
 
-1. If you edited the venue spreadsheet ([data/venues.csv](data/venues.csv)), regenerate the site data:
+1. Venue data comes from the Google Sheet's *Venues* and *Venue sections* tabs ([data/venues.csv](data/venues.csv), [data/venue-sections.csv](data/venue-sections.csv)). After editing the sheet, open the repo's **Actions** tab → **Venue data** → **Run workflow**. It downloads the tabs, rebuilds, and commits the result. To do the same locally:
    ```bash
-   python3 tools/build_data.py
+   python3 tools/sync_sheet.py
    ```
-   Style tags live in that script (`STYLES`). Cities come straight from the spreadsheet's City column.
+   Or, after editing a CSV directly, run `python3 tools/build_data.py`.
+   - Each filter is its own column (e.g. `Features: Bridal room`). A cell is blank (no) or starts with `Included:`, `Add-on:`, `For rent:` or `Included + for rent:`, followed by the venue's own wording.
+   - Style tags live in `tools/build_data.py` (`STYLES`, keyed by Venue ID). Cities come straight from the City column.
+   - See [data/audit/](data/audit/) for how the data was checked.
 2. If you changed `style.css`, `app.js` or anything in `data/`, raise the `?v=` number on the four file lines in `index.html`. Otherwise browsers may keep showing the old version for about 10 minutes.
 3. Commit and push:
    ```bash

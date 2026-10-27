@@ -1,0 +1,1010 @@
+{
+ "row": 22,
+ "id": "grove-station",
+ "name": "Grove Station",
+ "website": "https://grovestationpg.com/venue-2/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://grovestationpg.com/venue-2/ (venue spaces, patios, parking, soda shop, food trucks)",
+  "https://grovestationpg.com/ (home: style wording)",
+  "https://grovestationpg.com/prices/ (venue pricing, inclusions, add-ons)",
+  "https://grovestationpg.com/contact-us/ (address, phone, email)",
+  "https://grovestationpg.com/preferred-vendors/ (preferred vendors incl. caterers)",
+  "https://grovestationpg.com/soda-shop/ (soda shop and mocktail pricing)",
+  "https://grovestationpg.com/food-truck-park/ (food truck park: placeholder content)",
+  "https://grovestationpg.com/public-events/ (public events: trivia, swing dance, flower market)",
+  "https://grovestationpg.com/gallery/ (gallery: no captions)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "273 N County Blvd, Pleasant Grove, UT 84062",
+  "note": ""
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Grove Station",
+   "verified_value": "Grove Station",
+   "action": "confirmed",
+   "change_origin": "Official site header.",
+   "source_url": "https://grovestationpg.com/",
+   "evidence": "Welcome to Grove Station",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://grovestationpg.com/venue-2/",
+   "verified_value": "https://grovestationpg.com/venue-2/",
+   "action": "confirmed",
+   "change_origin": "Official venue page loads (HTTP 200).",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "The Venue — Grove Station Events & Weddings",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar.",
+   "verified_value": "A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar.",
+   "action": "confirmed",
+   "change_origin": "Official site, Venue page: high ceilings, indoor/outdoor space, private lot, patios, soda shop, food trucks; Pricing page: sound system.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "large main space with gorgeous high ceilings, tables, chairs & soda shop",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Built-in' sound is not stated (pricing page just says 'sound system'); harmless."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$2,800-$4,300",
+   "verified_value": "$2,800-$4,300",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page: standard rental $2,800 (Monday) to $4,300 (Fri & Sat).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Monday Standard: $2800 ... Fri & Sat Standard: $4300",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Premium tier runs $4,000-$5,500; 11am start adds $600. Slider should use $2,800-$4,300 (standard rental)."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Standard rental with tables, chairs, setup, sound system, patios, private parking, basic decor, access to decor inventory, and cleanup — Sun-Thu 3pm-10pm — $2,800\nStandard rental with same inclusions — Fri-Sat 3pm-10pm — $4,300\nPremium rental with linens, upgraded decor, extra furniture, food truck or vendor coordination, and premium service — $5,500\nTable rearrangement — $100\nAdditional setup or teardown labor — $35 per staff hour\nEngagement or bridal session — $150\nHeater — $75\nDrink dispenser — $10 or $20",
+   "verified_value": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners) — 3pm-10pm:\nMonday — $2,800\nWednesday-Thursday — $3,400\nFriday-Saturday — $4,300\nPremium rental (standard plus all rental add-ons) — Monday $4,000 / Wednesday-Thursday $4,600 / Friday-Saturday $5,500\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page. AI text had wrong days (Sun-Thu $2,800; real: Monday $2,800, Wed-Thu $3,400), invented Premium contents, and mislabelled the $35/hr staff fee.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Monday Standard: $2800 Premium: $4000 ... Wed & Thu Standard: $3400 Premium: $4600",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Tuesday and Sunday are not listed (Tuesday hosts public swing dancing)."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "250 indoor",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: '250 indoor' is not on any page of the official site (venue, pricing, contact, gallery, home checked).",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "No capacity stated on the site",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Unverified number from the AI collector; likely from another source."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Sun-Thu 3pm-10pm\nFri-Sat 3pm-10pm\nOptional earlier start 11am",
+   "verified_value": "3pm-10pm\nOptional 11am start (+$600)\nPriced days: Monday, Wednesday-Thursday, Friday-Saturday",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: 3pm-10pm, +$600 for 11am start; only Monday, Wed-Thu, Fri-Sat are priced (not Sun-Thu).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "STANDARD RENTAL 3pm-10pm ... +$600 for 11am Start",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "7-11 hours",
+   "verified_value": "7 hours (11 hours with 11am start)",
+   "action": "corrected",
+   "change_origin": "Follows from the Pricing page hours (3pm-10pm = 7 hours; 11am start = 11 hours).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "3pm-10pm; +$600 for 11am Start",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Modern\nVintage\nIndustrial",
+   "verified_value": "Modern\nElegant\nFun",
+   "action": "corrected",
+   "change_origin": "Official site, Home page wording. 'Vintage' and 'Industrial' are not used on the site.",
+   "source_url": "https://grovestationpg.com/",
+   "evidence": "combines elegance and class with a fun and modern feel",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page: linens are a $18 add-on (included only in Premium).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Linens for Wood Tables: $18/ea",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs\nTable runners of choice\nPatio furniture",
+   "verified_value": "Tables (arranged before arrival)\nChairs\nTable runners of choice\nAvailable venue decor\nOutdoor seating",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page (standard tables arranged, available decor incl. table runners) and Venue page (chairs, outdoor seating). 'Patio furniture' reworded to the site's 'outdoor seating'.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Table linens — $18 each\nDecor set — $100\nAdditional tables — $30 each\nDrink dispensers — $10 or $20",
+   "verified_value": "Linens for wood tables — $18 each\nDecor set before arrival — $100\nAdditional tables — $30 each\nDecorative drink dispensers — $10/$20 each\nOutdoor propane heaters — $75 each",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page add-ons; added heaters, fixed dispenser wording.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Grove Station Decor Set Before Arrival: $100 ... Outdoor Propane Heaters: $75/ea",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Official site, Venue page: indoor space and outdoor space with front and back patios.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "With a back and a front patio, a private parking lot and outdoor seating",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Private parking lot",
+   "verified_value": "Private parking lot",
+   "action": "confirmed",
+   "change_origin": "Official site, Venue page.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "a private parking lot",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "273 N County Blvd, Pleasant Grove, UT 84062",
+   "verified_value": "273 N County Blvd, Pleasant Grove, UT 84062",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://grovestationpg.com/contact-us/",
+   "evidence": "273 N County Blvd, Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Pleasant Grove",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page address.",
+   "source_url": "https://grovestationpg.com/contact-us/",
+   "evidence": "Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nBuilt-in sound system",
+   "verified_value": "Yes\nSound system (included in standard rental)",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page lists the sound system in the standard rental; 'built-in' not stated.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "onsite venue manager, sound system, an after-event cleaning",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Soda shop\nNon-alcoholic bar\nFood trucks\nPrivate parking\nPatio",
+   "verified_value": "Soda shop (flavored sodas, mocktails) — from $2.25 per person\nFood trucks can be hosted on the front patio\nFront and back patios\nEntry hall with private room and bathrooms\nUnlimited planning meetings",
+   "action": "corrected",
+   "change_origin": "Official site, Venue page and Soda Shop page. Soda shop is paid (from $2.25/person), so it now carries its price; 'Non-alcoholic bar' merged into soda shop; 'Private parking' moved to parking column only.",
+   "source_url": "https://grovestationpg.com/soda-shop/",
+   "evidence": "Single: $2.25/person; Unlimited: $4.25/person",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included",
+   "verified_value": "Included (after-event cleaning)",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page: after-event cleaning included in standard rental.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "an after-event cleaning",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside caterers allowed\nFood trucks allowed\nNon-alcoholic bar available",
+   "verified_value": "No in-house catering stated; site lists preferred caterers\nFood trucks allowed on the front patio as an alternative to traditional catering\nSoda shop drinks available (paid)",
+   "action": "corrected",
+   "change_origin": "Official site, Venue page (food trucks as alternative to catering) and Preferred Vendors page (lists caterers). 'Outside caterers allowed' isn't stated in those words.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "guests can enjoy food trucks as an alternative to traditional catering if they prefer",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Site never says whether any caterer may be used or only listed ones."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Warming kitchen",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: 'Warming kitchen' is not mentioned anywhere on the official site.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "Indoor space features list has no kitchen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event coordinator — $500\nOn-site staff — $35 per hour each",
+   "verified_value": "Day-of coordinator — $500 (included in Premium)\nStaff during event — $35/hour each",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: Day of Coordinator $500 (included in Premium); Staff During Event $35/hr each.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Day of Coordinator: $500 ... Staff During Event: $35/hr ea",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Getting-ready areas",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: 'Getting-ready areas' is not on the site; Venue page mentions only 'entry hall with private room and bathrooms' (purpose not stated).",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "entry hall with private room and bathrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Private room moved to extras."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Alcohol policy not stated on the official website",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: filler text from the AI collector ('Alcohol policy not stated...').",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "No restrictions stated",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Premium package is listed at $5,500; standard rentals are priced by day",
+   "verified_value": "Standard rental includes an onsite venue manager\nPremium rental includes all rental add-ons\nTuesday and Sunday rentals are not priced on the site",
+   "action": "corrected",
+   "change_origin": "Replaced AI note with facts from the Pricing page.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Rental Add-ons (Included in Premium Packages)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 385-236-4070\nEmail: hello@grovestationpg.com\nInstagram: @grovestationpg",
+   "verified_value": "Phone: 801-608-6002\nEmail: grovestationpg@gmail.com\nInstagram: @grovestationpg",
+   "action": "corrected",
+   "change_origin": "Official site, Contact page: phone and email differ from the sheet (385-236-4070 and hello@grovestationpg.com are not on the site). Instagram from site footer link.",
+   "source_url": "https://grovestationpg.com/contact-us/",
+   "evidence": "grovestationpg@gmail.com | 801-608-6002",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    2800,
+    4300
+   ],
+   "verified_value": [
+    2800,
+    4300
+   ],
+   "action": "confirmed",
+   "change_origin": "Pricing page standard rental range.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Monday Standard: $2800 ... Fri & Sat Standard: $4300",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Premium tier up to $5,500 not included in slider range."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 250,
+   "verified_value": null,
+   "action": "removed",
+   "change_origin": "Follows from the removed `Seated Capacity` column; the site states no capacity.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "No capacity stated",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Venue will drop out of the Capacity filter once the slider moves; needs a phone call."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Pleasant Grove",
+   "action": "confirmed",
+   "change_origin": "Contact page address.",
+   "source_url": "https://grovestationpg.com/contact-us/",
+   "evidence": "Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Pricing page: sound system in standard rental.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "onsite venue manager, sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (only an unnamed 'private room').",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "entry hall with private room and bathrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Pricing page: after-event cleaning included.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "an after-event cleaning",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Pricing page: day-of coordinator is a $500 add-on (onsite venue manager is included but is not a coordinator).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Day of Coordinator: $500",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Venue page: indoor space.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "The Indoor Space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Venue page: front and back patios, outdoor seating.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "With a back and a front patio ... and outdoor seating",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Pricing page: linens $18 each.",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "Linens for Wood Tables: $18/ea",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Venue page: food trucks can replace traditional catering; no in-house catering; many outside caterers on Preferred Vendors page.",
+   "source_url": "https://grovestationpg.com/venue-2/",
+   "evidence": "food trucks as an alternative to traditional catering",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Not stated whether a caterer not on the preferred list is allowed."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on specific decor items (only 'available decor including table runners' and a $100 decor set-up).",
+   "source_url": "https://grovestationpg.com/prices/",
+   "evidence": "available decor including table runners of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "included+rent",
+   "verified_value": "rent",
+   "action": "corrected",
+   "change_origin": "Soda shop is paid per person and drink dispensers are $10/$20; neither is included. 'included' came from the unpriced 'Soda shop' / 'Non-alcoholic bar' lines in extras.",
+   "source_url": "https://grovestationpg.com/soda-shop/",
+   "evidence": "Unlimited: $4.25/person; Single: $2.25/person",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Grove Station",
+  "link": "https://grovestationpg.com/venue-2/",
+  "Description": "A modern reception venue in Pleasant Grove with high ceilings, spacious indoor and outdoor areas, private parking, built-in sound, a patio, and flexible service options including food trucks and a non-alcoholic bar.",
+  "Standard Price Range": "$2,800-$4,300",
+  "Packages and Prices": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners) — 3pm-10pm:\nMonday — $2,800\nWednesday-Thursday — $3,400\nFriday-Saturday — $4,300\nPremium rental (standard plus all rental add-ons) — Monday $4,000 / Wednesday-Thursday $4,600 / Friday-Saturday $5,500\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each",
+  "Seated Capacity": "",
+  "Standing Capacity": "",
+  "Time slots": "3pm-10pm\nOptional 11am start (+$600)\nPriced days: Monday, Wednesday-Thursday, Friday-Saturday",
+  "Length of Rental": "7 hours (11 hours with 11am start)",
+  "Style": "Modern\nElegant\nFun",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "Tables (arranged before arrival)\nChairs\nTable runners of choice\nAvailable venue decor\nOutdoor seating",
+  "Other Decor for Rent": "Linens for wood tables — $18 each\nDecor set before arrival — $100\nAdditional tables — $30 each\nDecorative drink dispensers — $10/$20 each\nOutdoor propane heaters — $75 each",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Private parking lot",
+  "Full Address": "273 N County Blvd, Pleasant Grove, UT 84062",
+  "City": "Pleasant Grove",
+  "sound system": "Yes\nSound system (included in standard rental)",
+  "extras": "Soda shop (flavored sodas, mocktails) — from $2.25 per person\nFood trucks can be hosted on the front patio\nFront and back patios\nEntry hall with private room and bathrooms\nUnlimited planning meetings",
+  "cleanup crew": "Included (after-event cleaning)",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "No in-house catering stated; site lists preferred caterers\nFood trucks allowed on the front patio as an alternative to traditional catering\nSoda shop drinks available (paid)",
+  "Prep Area": "",
+  "Alcohol policy": "",
+  "Event Coordinator": "Day-of coordinator — $500 (included in Premium)\nStaff during event — $35/hour each",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "",
+  "Important Notes": "Standard rental includes an onsite venue manager\nPremium rental includes all rental add-ons\nTuesday and Sunday rentals are not priced on the site",
+  "Contact Information": "Phone: 801-608-6002\nEmail: grovestationpg@gmail.com\nInstagram: @grovestationpg"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern"
+  ],
+  "suggested": [
+   "Modern",
+   "Classic"
+  ],
+  "change": "add Classic",
+  "reasoning": "Site describes itself as combining 'elegance and class with a fun and modern feel'. Modern is clear. Elegance/class maps to Classic under the rules, but the current Description has no 'elegant' cue, so the rules give Modern only. Optional: add Classic if the Description mentions the site's elegance wording.",
+  "site_cues": [
+   "combines elegance and class with a fun and modern feel",
+   "spacious and stylish space",
+   "soda shop",
+   "food trucks"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing",
+   "why": "Standard and Premium tiers by day",
+   "data": {
+    "hours": "3pm-10pm (+$600 for 11am start)",
+    "rates": [
+     {
+      "days": "Monday",
+      "standard": "$2,800",
+      "premium": "$4,000"
+     },
+     {
+      "days": "Wednesday-Thursday",
+      "standard": "$3,400",
+      "premium": "$4,600"
+     },
+     {
+      "days": "Friday-Saturday",
+      "standard": "$4,300",
+      "premium": "$5,500"
+     }
+    ],
+    "standard_includes": [
+     "space",
+     "standard tables arranged",
+     "onsite venue manager",
+     "sound system",
+     "after-event cleaning",
+     "unlimited planning meetings",
+     "available decor incl. table runners"
+    ],
+    "premium_includes": "all rental add-ons"
+   }
+  },
+  {
+   "title": "Rental add-ons",
+   "why": "Priced a-la-carte list",
+   "data": {
+    "add_ons": [
+     {
+      "name": "Linens for wood tables",
+      "price": "$18 each"
+     },
+     {
+      "name": "Staff rearranges tables mid-event",
+      "price": "$100"
+     },
+     {
+      "name": "Remove or add tables",
+      "price": "$30/table"
+     },
+     {
+      "name": "Decor set before arrival",
+      "price": "$100"
+     },
+     {
+      "name": "Day-of coordinator",
+      "price": "$500"
+     },
+     {
+      "name": "Staff during event",
+      "price": "$35/hr each"
+     },
+     {
+      "name": "1 hour engagement/bridal photos",
+      "price": "$150"
+     },
+     {
+      "name": "Decorative drink dispensers",
+      "price": "$10/$20 each"
+     },
+     {
+      "name": "Outdoor propane heaters",
+      "price": "$75 each"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Soda shop / drink catering",
+   "why": "In-house drink menu with per-person and per-gallon prices",
+   "data": {
+    "base": [
+     {
+      "name": "Unlimited",
+      "price": "$4.25/person"
+     },
+     {
+      "name": "Single",
+      "price": "$2.25/person"
+     }
+    ],
+    "add_ons": [
+     {
+      "name": "Specialty, vintage, milks",
+      "price": "$0.50/person"
+     },
+     {
+      "name": "Mocktails",
+      "price": "$3.25/person"
+     },
+     {
+      "name": "Custom, hot drinks, floats",
+      "price": "$1.00/person"
+     },
+     {
+      "name": "Extra serving time",
+      "price": "$150/hour"
+     }
+    ],
+    "mobile_bar_per_gallon": {
+     "mixed soda": "$60",
+     "specialty": "$75",
+     "hot": "$80",
+     "floats": "$80",
+     "mocktails": "$95"
+    }
+   }
+  },
+  {
+   "title": "Food trucks",
+   "why": "Alternative to catering, hosted on front patio",
+   "data": {
+    "food_trucks": "Front patio can host one or more food trucks"
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated / standing capacity (not on the site; the sheet's '250 indoor' is unverified).",
+  "Are Tuesday and Sunday rentals available, and at what price?",
+  "May couples bring any caterer, or only preferred vendors?",
+  "Alcohol policy, sparkler policy, accessibility, deposit (all unstated).",
+  "Is the 'private room' in the entry hall a getting-ready / bridal room?"
+ ]
+}

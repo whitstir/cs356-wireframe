@@ -1,0 +1,685 @@
+{
+ "id": "provo-marriott-hotel",
+ "name": "Provo Marriott Hotel & Conference Center",
+ "city": "Provo",
+ "description": "A full-service hotel in downtown Provo with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners and space for large weddings.",
+ "styles": [
+  "Luxury"
+ ],
+ "priceMin": 22750,
+ "priceMax": 48750,
+ "priceBasis": "per-person x capacity",
+ "priceText": "Lunch $35, reception $50, dinner $75 per person ($35 × 650 seated = $22,750; $75 × 650 = $48,750)",
+ "seated": 650,
+ "seatedMin": 650,
+ "seatedText": "Grand Ballroom 650 (banquet)",
+ "standing": 1000,
+ "standingMin": 1000,
+ "standingText": "1000",
+ "decor": {},
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": false,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": true,
+  "ADA restrooms": false,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Accessible routes and meeting spaces"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "Property has elevators"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Accessible on-site parking"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Marriott Certified Wedding Planners are trained to assist."
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Grand Ballroom and Aspen rooms"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor wedding space"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A full-service hotel in downtown Provo with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners and space for large weddings."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "101 W 100 N, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Elegant\nTraditional\nVersatile"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Lunch $35, reception $50, dinner $75 per person ($35 × 650 seated = $22,750; $75 × 650 = $48,750)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Lunch catering — $35/person\nReception catering — $50/person\nDinner catering — $75/person"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Grand Ballroom and Aspen rooms"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor wedding space"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Grand Ballroom 650 (banquet)"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "1000"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Grand Ballroom",
+     "value": "Sq ft: 8142 · Seated: 650 · Standing: 1000 · Setting: indoor · Note: divisible"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Aspen",
+     "value": "Sq ft: 2392 · Seated: 140 · Seated note: Weddings page says banquet seating for 150 · Standing: 232 · Setting: indoor · Note: Center Street entrance; colour-adjustable lighting"
+    },
+    {
+     "id": "spaces-2",
+     "label": "Terrace",
+     "value": "Sq ft: 1360 · Seated: 60 · Standing: 100 · Setting: outdoor garden · Note: ceremonies or receptions"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Zion/Bryce/Arches",
+     "value": "Sq ft: 6180 · Seated: 460 · Standing: 800 · Setting: indoor"
+    },
+    {
+     "id": "spaces-4",
+     "label": "Zion",
+     "value": "Sq ft: 2508 · Seated: 200 · Standing: 400 · Setting: indoor"
+    },
+    {
+     "id": "spaces-5",
+     "label": "Birch / Cedar (each)",
+     "value": "Sq ft: 1624 · Seated: 90 · Standing: 158 · Setting: indoor"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Marriott Certified Wedding Planners are trained to assist."
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Marriott Certified Wedding Planners"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Grand Ballroom (8,142 sq. ft.)\nAspen room with color-adjustable lighting\nOutdoor Terrace (garden)\n19 function rooms"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Custom in-house catering\nPlated dinners\nBuffets\nCocktail receptions\nHors d'oeuvres"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "Accessible routes and meeting spaces"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "included",
+     "value": "Property has elevators"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Accessible on-site parking"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Main entrance and meeting spaces accessible, with accessible routes from the public entrance (wheelchair/mobility access)\nElevators\nAccessible parking on site"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "On-site parking garage (6 ft 6 in clearance): $3/hour, $15/day per hotel overview\nWeddings page says 'Complimentary on-site'\nElectric car charging"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "329 guest rooms on the property\nEvents page lists available A/V (PA system, microphones, LCD projector, TV, AV technician) and event services (lighting, photographer, security, easels, portable stage); inclusion and prices not stated\nEvent space: 24,591 sq. ft. total (Events page); overview text says 28,000 sq. ft."
+    }
+   ]
+  },
+  {
+   "id": "on-site-lodging",
+   "title": "On-site lodging",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "on-site-lodging-0",
+     "label": "Lodging",
+     "value": "Guest rooms: 329 · Check in: 3:00 pm · Check out: 12:00 pm"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: +1 801-377-4700"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "provo-marriott-hotel",
+  "Venue Name": "Provo Marriott Hotel & Conference Center",
+  "link": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+  "City": "Provo",
+  "Full Address": "101 W 100 N, Provo, UT 84601",
+  "Description": "A full-service hotel in downtown Provo with a Grand Ballroom, flexible event rooms, an outdoor terrace, in-house catering, certified wedding planners and space for large weddings.",
+  "Price Low": "22750",
+  "Price High": "48750",
+  "Price Basis": "per-person x capacity",
+  "Standard Price Range": "Lunch $35, reception $50, dinner $75 per person ($35 × 650 seated = $22,750; $75 × 650 = $48,750)",
+  "Seated Low": "650",
+  "Seated High": "650",
+  "Seated Capacity": "Grand Ballroom 650 (banquet)",
+  "Standing Low": "1000",
+  "Standing High": "1000",
+  "Standing Capacity": "1000",
+  "Packages and Prices": "Lunch catering — $35/person\nReception catering — $50/person\nDinner catering — $75/person",
+  "Style": "Elegant\nTraditional\nVersatile",
+  "parking?": "On-site parking garage (6 ft 6 in clearance): $3/hour, $15/day per hotel overview\nWeddings page says 'Complimentary on-site'\nElectric car charging",
+  "extras": "Grand Ballroom (8,142 sq. ft.)\nAspen room with color-adjustable lighting\nOutdoor Terrace (garden)\n19 function rooms",
+  "Accessibility": "Main entrance and meeting spaces accessible, with accessible routes from the public entrance (wheelchair/mobility access)\nElevators\nAccessible parking on site",
+  "Catering": "Custom in-house catering\nPlated dinners\nBuffets\nCocktail receptions\nHors d'oeuvres",
+  "Event Coordinator": "Marriott Certified Wedding Planners",
+  "Important Notes": "329 guest rooms on the property\nEvents page lists available A/V (PA system, microphones, LCD projector, TV, AV technician) and event services (lighting, photographer, security, easels, portable stage); inclusion and prices not stated\nEvent space: 24,591 sq. ft. total (Events page); overview text says 28,000 sq. ft.",
+  "Contact Information": "Phone: +1 801-377-4700"
+ }
+}

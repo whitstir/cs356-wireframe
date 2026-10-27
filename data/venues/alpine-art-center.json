@@ -1,0 +1,835 @@
+{
+ "id": "alpine-art-center",
+ "name": "Alpine Art Center",
+ "city": "Alpine",
+ "description": "An Alpine event center combining an art gallery, sculpture park, gardens and water features, with indoor and outdoor ceremony locations, an included banquet-room setup and in-house catering.",
+ "styles": [
+  "Classic",
+  "Outdoors"
+ ],
+ "priceMin": 1700,
+ "priceMax": 4200,
+ "priceBasis": "rental",
+ "priceText": "Seasonal and day-of-week rentals $1,700–$4,200",
+ "seated": 120,
+ "seatedMin": 120,
+ "seatedText": "120 for a sit-down dinner",
+ "standing": 500,
+ "standingMin": 360,
+ "standingText": "400-500 come-and-go reception\n360-400 for a dance",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "included"
+  ],
+  "Piano": [
+   "included"
+  ],
+  "Sweetheart table": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound system with microphone (one cordless)"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector with HDMI"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Speaker System"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's Room"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Setup and cleanup"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Event director"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's Room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Banquet Room"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "10 floor length linens"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Indoor and outdoor ceremony sites; gardens"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Own catering"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces Options"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "3 floor easels'; 'Personalized sign at entrance"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Includes: 'Large Chandelier"
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table 32″"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included",
+   "wording": "1 Drink Table (4′)"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Baby Grand Piano"
+  },
+  "Other > Sweetheart table": {
+   "status": "rent",
+   "wording": "Rectangle Sweethearts Table 4′ (Each) $22"
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "An Alpine event center combining an art gallery, sculpture park, gardens and water features, with indoor and outdoor ceremony locations, an included banquet-room setup and in-house catering."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "450 S Alpine Hwy, Suite 100, Alpine, UT 84004"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Elegant\nLush"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Seasonal and day-of-week rentals $1,700–$4,200"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$1,000 non-refundable payment reserves the date\nBalance due 60 days before the event\nFinal payments (add-ons, catering) due 4 weeks before\nAll payments non-refundable\n$500 transfer fee to move the date\nCancelling 60 days or less before the event: full rental due"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Banquet Room"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Indoor and outdoor ceremony sites; gardens"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "120 for a sit-down dinner"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "400-500 come-and-go reception\n360-400 for a dance"
+    }
+   ]
+  },
+  {
+   "id": "ceremony-sites",
+   "title": "Ceremony sites",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "ceremony-sites-0",
+     "label": "Indoor",
+     "value": "Price: $350 · Includes: chair setup/takedown; rehearsal; staff to play music"
+    },
+    {
+     "id": "ceremony-sites-1",
+     "label": "Outdoor",
+     "value": "Price: $350 · Includes: black wrought iron chairs; chair setup/takedown; rehearsal; staff to play music"
+    },
+    {
+     "id": "ceremony-sites-2",
+     "label": "Theater seating",
+     "value": "200"
+    }
+   ]
+  },
+  {
+   "id": "capacity-by-layout",
+   "title": "Capacity by layout",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "capacity-by-layout-0",
+     "label": "Sit-down dinner",
+     "value": "120"
+    },
+    {
+     "id": "capacity-by-layout-1",
+     "label": "Theater",
+     "value": "200"
+    },
+    {
+     "id": "capacity-by-layout-2",
+     "label": "Dance",
+     "value": "360-400"
+    },
+    {
+     "id": "capacity-by-layout-3",
+     "label": "Come-and-go reception",
+     "value": "400-500"
+    },
+    {
+     "id": "capacity-by-layout-4",
+     "label": "Included chairs",
+     "value": "80"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride's Room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom's Room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride room\nGroom room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "10 floor length linens"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Setup and cleanup"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Event director"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "10 60-inch round tables\n2 8-foot banquet tables\n80 Italian teak chairs\nCake table\n2 serving tables\n2 cabaret tables\nSign-in table\nDrink table\n3 floor easels\nProjector (HDMI)\nCenterpiece options\nLarge chandelier\nBaby grand piano\n10 floor-length linens, overlays and table runners\nPersonalized sign at entrance\nBirdcage"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Event Host\nEvent Director"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included: set-up and take-down of tables and chairs, and venue cleanup\nSelf-catering parties must empty trash and wipe counters ($300 fee if not)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Sound system with microphone (one cordless)"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Projector with HDMI"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Speaker System"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSpeaker system\nWireless microphone\nProjector"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Centerpieces Options"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "3 floor easels'; 'Personalized sign at entrance"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Includes: 'Large Chandelier"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Additional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Art gallery\nSculpture park\nGardens\nWater features and fountains\nGazebo\nPergola\nBaby grand piano\nIndoor and outdoor ceremony locations"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake Table 32″"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "included",
+     "value": "1 Drink Table (4′)"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "included",
+     "value": "Baby Grand Piano"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "rent",
+     "value": "Rectangle Sweethearts Table 4′ (Each) $22"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Own catering"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "In-house catering: plated meals $20.95-$29.95 per person; buffet items priced per 100 guests\nSelf-catering allowed (own food or caterer, under the self-catering policy)"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Kitchen: sinks, counter tops, serving carts, buffet tables, ice maker, refrigerator, trash cans and liners\nNot available: ovens, stoves, freezers, utensils, silverware, glassware"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "$400 alcohol charge (includes table, chilling, ice machine use and extra clean-up)\nLicensed, insured bartender from the Center's required list (COPA, The Bar Project, Cheers & Swizzles)\nClient furnishes the alcohol"
+    }
+   ]
+  },
+  {
+   "id": "catering-menu",
+   "title": "Catering menu",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "catering-menu-0",
+     "label": "Plated per person",
+     "value": "Range: $20.95-$29.95 · Examples: Chicken cordon bleu: $29.95 · Spaghetti with marinara: $20.95 · Baron of beef: $26.95"
+    },
+    {
+     "id": "catering-menu-1",
+     "label": "Buffet",
+     "value": "Unit: per 100 guests · Minimum: 100 · Examples: Raspberry lemonade: $255 · Soda bar: $595 · Croissants: $575"
+    },
+    {
+     "id": "catering-menu-2",
+     "label": "Cake cutting",
+     "value": "$65"
+    },
+    {
+     "id": "catering-menu-3",
+     "label": "Self catering",
+     "value": "allowed; $300 fee if policy broken"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "No (illegal at this location)\nFiber-optic wand send-off offered instead — $50"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "5-12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Licensed bartender required for alcohol\nCandles must be contained so wax does not drip on linens\nNo sparklers\nSelf-catering: no use of ovens, stoves, freezers or utensils"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Large parking lot"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Prices are 2026 rates; on season April-October, off season November-March.\nSeats 200 theater-style (ceremony).\nCatering has no hidden or mandatory service charges (home page).\nFAQ says final payment is due 3.5 weeks before the event; the Pricing page says 4 weeks."
+    }
+   ]
+  },
+  {
+   "id": "send-off-packages",
+   "title": "Send-off packages",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "send-off-packages-0",
+     "label": "Bubble",
+     "value": "$75"
+    },
+    {
+     "id": "send-off-packages-1",
+     "label": "Streamer",
+     "value": "$50"
+    },
+    {
+     "id": "send-off-packages-2",
+     "label": "Fiber-optic wand",
+     "value": "$50"
+    },
+    {
+     "id": "send-off-packages-3",
+     "label": "Quantity",
+     "value": "50 guests"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://alpineartcenter.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "alpine-art-center",
+  "Venue Name": "Alpine Art Center",
+  "link": "https://alpineartcenter.com/",
+  "City": "Alpine",
+  "Full Address": "450 S Alpine Hwy, Suite 100, Alpine, UT 84004",
+  "Description": "An Alpine event center combining an art gallery, sculpture park, gardens and water features, with indoor and outdoor ceremony locations, an included banquet-room setup and in-house catering.",
+  "Price Low": "1700",
+  "Price High": "4200",
+  "Price Basis": "rental",
+  "Standard Price Range": "Seasonal and day-of-week rentals $1,700–$4,200",
+  "Seated Low": "120",
+  "Seated High": "120",
+  "Seated Capacity": "120 for a sit-down dinner",
+  "Standing Low": "360",
+  "Standing High": "500",
+  "Standing Capacity": "400-500 come-and-go reception\n360-400 for a dance",
+  "Packages and Prices": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65",
+  "Time slots": "Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm",
+  "Length of Rental": "5-12 hours",
+  "Style": "Elegant\nLush",
+  "Other Decor Included": "10 60-inch round tables\n2 8-foot banquet tables\n80 Italian teak chairs\nCake table\n2 serving tables\n2 cabaret tables\nSign-in table\nDrink table\n3 floor easels\nProjector (HDMI)\nCenterpiece options\nLarge chandelier\nBaby grand piano\n10 floor-length linens, overlays and table runners\nPersonalized sign at entrance\nBirdcage",
+  "Other Decor for Rent": "Additional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8",
+  "sparklers allowed": "No (illegal at this location)\nFiber-optic wand send-off offered instead — $50",
+  "parking?": "Large parking lot",
+  "sound system": "Yes\nSpeaker system\nWireless microphone\nProjector",
+  "extras": "Art gallery\nSculpture park\nGardens\nWater features and fountains\nGazebo\nPergola\nBaby grand piano\nIndoor and outdoor ceremony locations",
+  "cleanup crew": "Included: set-up and take-down of tables and chairs, and venue cleanup\nSelf-catering parties must empty trash and wipe counters ($300 fee if not)",
+  "Deposit Policy": "$1,000 non-refundable payment reserves the date\nBalance due 60 days before the event\nFinal payments (add-ons, catering) due 4 weeks before\nAll payments non-refundable\n$500 transfer fee to move the date\nCancelling 60 days or less before the event: full rental due",
+  "Catering": "In-house catering: plated meals $20.95-$29.95 per person; buffet items priced per 100 guests\nSelf-catering allowed (own food or caterer, under the self-catering policy)",
+  "Prep Area": "Kitchen: sinks, counter tops, serving carts, buffet tables, ice maker, refrigerator, trash cans and liners\nNot available: ovens, stoves, freezers, utensils, silverware, glassware",
+  "Alcohol policy": "$400 alcohol charge (includes table, chilling, ice machine use and extra clean-up)\nLicensed, insured bartender from the Center's required list (COPA, The Bar Project, Cheers & Swizzles)\nClient furnishes the alcohol",
+  "Event Coordinator": "Event Host\nEvent Director",
+  "Bride/Groom Rooms": "Bride room\nGroom room",
+  "Restrictions": "Licensed bartender required for alcohol\nCandles must be contained so wax does not drip on linens\nNo sparklers\nSelf-catering: no use of ovens, stoves, freezers or utensils",
+  "Important Notes": "Prices are 2026 rates; on season April-October, off season November-March.\nSeats 200 theater-style (ceremony).\nCatering has no hidden or mandatory service charges (home page).\nFAQ says final payment is due 3.5 weeks before the event; the Pricing page says 4 weeks.",
+  "Contact Information": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com"
+ }
+}

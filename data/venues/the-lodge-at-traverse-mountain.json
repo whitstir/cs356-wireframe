@@ -1,0 +1,762 @@
+{
+ "id": "the-lodge-at-traverse-mountain",
+ "name": "The Lodge at Traverse Mountain",
+ "city": "Lehi",
+ "description": "A stone-and-wood lodge in Lehi at Point of the Mountain with a 2,200 sq ft Grand Room, three fireplaces and an outdoor patio overlooking Utah Valley; tables, chairs, 20 linens, built-in audio/video and an event manager are included.",
+ "styles": [
+  "Rustic"
+ ],
+ "priceMin": 1850,
+ "priceMax": 2850,
+ "priceBasis": "rental",
+ "priceText": "Day-of-week rentals $1,850–$2,850",
+ "seated": 120,
+ "seatedMin": 100,
+ "seatedText": "100 seated reception\n100–120 chairs listed",
+ "standing": 300,
+ "standingMin": 300,
+ "standingText": "300 come-and-go reception",
+ "decor": {
+  "Fireplace": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Built-in audio/video system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "42\" TV'; Board Room '64\" Smart TV"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "The Bride's Room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Free event manager for planning and setup"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Grand Room (2,200 sq ft)"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "20 table linens"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor patio with valley views"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Own caterer and vendors"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Indoor fireplace; two patio fireplaces"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A stone-and-wood lodge in Lehi at Point of the Mountain with a 2,200 sq ft Grand Room, three fireplaces and an outdoor patio overlooking Utah Valley; tables, chairs, 20 linens, built-in audio/video and an event manager are included."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "3940 Traverse Mountain Blvd, Lehi, UT 84043"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Mountain views\nNatural stone and wood"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Day-of-week rentals $1,850–$2,850"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$500 deposit to reserve the date\nRefunded within 15 business days after the event unless the event is cancelled; fees may be deducted for damage\nCancellation: deposit non-refundable\nDate change: $100 admin fee if the original date re-books, otherwise the deposit is forfeited"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Grand Room (2,200 sq ft)"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor patio with valley views"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "100 seated reception\n100–120 chairs listed"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300 come-and-go reception"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "The Grand Room",
+     "value": "Sqft: 2200 · Seated: 100 · Setting: indoor · Features: built-in audio/video; 42\" TV; indoor fireplace; greeting area"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Outdoor patio",
+     "value": "Setting: outdoor · Features: two fireplaces; valley, Timpanogos and Utah Lake views"
+    },
+    {
+     "id": "spaces-2",
+     "label": "The Bride's Room",
+     "value": "Features: vanity; full-length mirror; two large windows"
+    },
+    {
+     "id": "spaces-3",
+     "label": "The Board Room",
+     "value": "Sqft: 570 · Features: 64\" Smart TV; conference table with 10 executive chairs"
+    }
+   ]
+  },
+  {
+   "id": "capacity-by-layout",
+   "title": "Capacity by layout",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "capacity-by-layout-0",
+     "label": "Seated dinner",
+     "value": "100"
+    },
+    {
+     "id": "capacity-by-layout-1",
+     "label": "Ceremony (no tables)",
+     "value": "150"
+    },
+    {
+     "id": "capacity-by-layout-2",
+     "label": "Come-and-go reception",
+     "value": "up to 300 through the night"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "The Bride's Room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "20 table linens"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Free event manager for planning and setup"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Up to 120 white padded chairs\n14 60-inch round tables\n8 6-foot rectangular serving tables\n8 32-inch bar-height tables\n20 table linens\nBuilt-in audio/video system\n3 fireplaces (1 indoor, 2 on the patio)\nOutdoor patio\nBoard Room with conference table and 10 executive chairs"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Event manager included"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Setup and takedown done by the venue ($250 off with DIY setup and takedown)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Built-in audio/video system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "42\" TV'; Board Room '64\" Smart TV"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBuilt-in audio/video system\n42-inch TV"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Indoor fireplace; two patio fireplaces"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Unlimited decor rentals — $350 (or a la carte)\nAdditional table linens — additional fee"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Mountain and lake views\nFireplaces\nOutdoor patio\nBoard Room\n64-inch TV"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Own caterer and vendors"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterers and vendors allowed\nPreferred vendors listed on the official site"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming kitchen\nCaterer area with serving window"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "No alcohol\nNo smoking"
+    }
+   ]
+  },
+  {
+   "id": "preferred-vendors",
+   "title": "Preferred vendors",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "preferred-vendors-0",
+     "label": "Vendors",
+     "value": "Specialty Linens Utah; Magleby's; Caley's Catering; Rent Event Utah; Chelsey Black Photography; Have Party Will Travel; Cake by Allessandra; Snap Happy Photo Booth; Laughing Gravy; Moonlight Wedding & Event Lighting; Utah Sparklers"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "5-13.5 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No alcohol\nNo smoking\nNot available during weekday business hours (facility shared with tenants)"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Onsite parking\nAdditional north parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "FAQ says the $500 deposit is fully refundable unless the event is cancelled; the cancellation policy says the deposit is non-refundable.\nFAQ says 100 chairs and 12 round tables are on site; the pricing section says up to 120 chairs and 14 round tables.\nCeremony seating up to 150 (without tables).\nMon-Fri events may use the evening before for setup."
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (385) 234-1406\nText: (385) 234-1406"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.thelodgeattraverse.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-lodge-at-traverse-mountain",
+  "Venue Name": "The Lodge at Traverse Mountain",
+  "link": "https://www.thelodgeattraverse.com/",
+  "City": "Lehi",
+  "Full Address": "3940 Traverse Mountain Blvd, Lehi, UT 84043",
+  "Description": "A stone-and-wood lodge in Lehi at Point of the Mountain with a 2,200 sq ft Grand Room, three fireplaces and an outdoor patio overlooking Utah Valley; tables, chairs, 20 linens, built-in audio/video and an event manager are included.",
+  "Price Low": "1850",
+  "Price High": "2850",
+  "Price Basis": "rental",
+  "Standard Price Range": "Day-of-week rentals $1,850–$2,850",
+  "Seated Low": "100",
+  "Seated High": "120",
+  "Seated Capacity": "100 seated reception\n100–120 chairs listed",
+  "Standing Low": "300",
+  "Standing High": "300",
+  "Standing Capacity": "300 come-and-go reception",
+  "Packages and Prices": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee",
+  "Time slots": "Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm",
+  "Length of Rental": "5-13.5 hours",
+  "Style": "Mountain views\nNatural stone and wood",
+  "Other Decor Included": "Up to 120 white padded chairs\n14 60-inch round tables\n8 6-foot rectangular serving tables\n8 32-inch bar-height tables\n20 table linens\nBuilt-in audio/video system\n3 fireplaces (1 indoor, 2 on the patio)\nOutdoor patio\nBoard Room with conference table and 10 executive chairs",
+  "Other Decor for Rent": "Unlimited decor rentals — $350 (or a la carte)\nAdditional table linens — additional fee",
+  "parking?": "Onsite parking\nAdditional north parking",
+  "sound system": "Yes\nBuilt-in audio/video system\n42-inch TV",
+  "extras": "Mountain and lake views\nFireplaces\nOutdoor patio\nBoard Room\n64-inch TV",
+  "cleanup crew": "Setup and takedown done by the venue ($250 off with DIY setup and takedown)",
+  "Deposit Policy": "$500 deposit to reserve the date\nRefunded within 15 business days after the event unless the event is cancelled; fees may be deducted for damage\nCancellation: deposit non-refundable\nDate change: $100 admin fee if the original date re-books, otherwise the deposit is forfeited",
+  "Catering": "Outside caterers and vendors allowed\nPreferred vendors listed on the official site",
+  "Prep Area": "Warming kitchen\nCaterer area with serving window",
+  "Alcohol policy": "No alcohol\nNo smoking",
+  "Event Coordinator": "Event manager included",
+  "Bride/Groom Rooms": "Bride's room",
+  "Restrictions": "No alcohol\nNo smoking\nNot available during weekday business hours (facility shared with tenants)",
+  "Important Notes": "FAQ says the $500 deposit is fully refundable unless the event is cancelled; the cancellation policy says the deposit is non-refundable.\nFAQ says 100 chairs and 12 round tables are on site; the pricing section says up to 120 chairs and 14 round tables.\nCeremony seating up to 150 (without tables).\nMon-Fri events may use the evening before for setup.",
+  "Contact Information": "Phone: (385) 234-1406\nText: (385) 234-1406"
+ }
+}

@@ -1,0 +1,961 @@
+{
+ "row": 26,
+ "id": "walker-farms",
+ "name": "Walker Farms",
+ "website": "https://walkerfarms.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://walkerfarms.com/ (home: location in Lindon, barn, suites, kitchen, outdoor pavilion; read in browser)",
+  "https://walkerfarms.com/pricing/ (2026 peak/off-season rates, capacity, vendor/alcohol policy, full 'Included in Rental' list)",
+  "https://walkerfarms.com/about/ (owners, history of the Walker homestead in Lindon)",
+  "https://walkerfarms.com/contact/ (address 26 S. 500 E., Lindon; phone; Tripleseat inquiry form; read in browser)",
+  "https://walkerfarms.com/gallery/ (image filenames only, no captions)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "26 S. 500 E., Lindon, UT 84042",
+  "note": "The linked site is the Walker Farms in Lindon, Utah County ('premiere wedding venue located in Lindon, Utah ... in the center of Utah County'). The CSV's Riverton address (13140 S 2200 W), phone 801-446-3513, '62-acre farm' and @walkerfarmsutah do not appear anywhere on this site and look like they came from a different business. The row is not out of area once the address and city are corrected."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Walker Farms",
+   "verified_value": "Walker Farms",
+   "action": "confirmed",
+   "change_origin": "Confirmed on home page.",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "Wedding and Event Venue - Walker Farms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://walkerfarms.com/",
+   "verified_value": "https://walkerfarms.com/",
+   "action": "confirmed",
+   "change_origin": "Loads; it is the venue's own site.",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "Site loads (HTTP 200), WordPress site for Walker Farms.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic, modern reception venue on a 62-acre farm with a renovated barn, indoor and outdoor spaces, bridal suites, scenic agricultural surroundings, coordinated support, and flexible catering options.",
+   "verified_value": "A newly built barn venue in Lindon whose design draws on historic agricultural architecture, with a modern all-white, light-filled interior, bridal and groom's suites, a large kitchen, and an outdoor pavilion for ceremonies and receptions.",
+   "action": "corrected",
+   "change_origin": "Official site, home page: 'newly constructed' barn in Lindon; the '62-acre farm', 'renovated barn' and 'ceremony meadow or orchard' are not on the site.",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "A newly constructed event venue ... draws upon historic agricultural architecture, yet is thoroughly modernized",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$5,500-$8,500",
+   "verified_value": "$5,500-$8,500",
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page (off-season Mon-Wed $5,500 to peak Fri/Sat $8,500).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Off Season ... Monday – Wednesday Event $5,500 ... Peak Season ... Friday or Saturday Event $8,500",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "2026 calendar rates. The range is right but the CSV package lines had the wrong per-day prices (see Packages and Prices)."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Exclusive venue use, 150 chairs, tables, bridal suite, groom suite, large catering kitchen, ceremony meadow or orchard, covered patio, setup, cleanup, one-hour coordination meeting, and onsite hostess — Mon-Wed 10am-10pm — $5,500\nSame inclusions — Thu 10am-10pm — $6,500\nSame inclusions — Fri-Sat 10am-10pm — $8,500\nAdditional two-hour bridal photo session outside rental date — price not stated",
+   "verified_value": "Peak season (May-October), 10am-10pm: Mon-Wed $6,500; Thursday $7,500; Friday or Saturday $8,500\nOff season (November-April), 10am-10pm: Mon-Wed $5,500; Thursday $6,000; Friday or Saturday $6,500\nEvery booking includes exclusive use of the property, onsite hostess, 60-minute coordination meeting, table and chair setup/takedown (3 configurations), bridal suite, groom's room, warming kitchen, AV, piano, fire pit and decor items\nLast-minute booking discount for events within 60 days (contact venue)",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page: separate peak and off-season tables; the CSV's Thu $6,500 and Mon-Wed $5,500-only lines mixed the two seasons, and the photo session is included, not unpriced.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Peak Season (May – October) ... Thursday Event $7,500 ... Off Season (November – April) ... Thursday Event $6,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "150",
+   "verified_value": "150",
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Up to 150 guests for a seated luncheon or dinner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "400",
+   "verified_value": "400",
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Up to 400 guests for an open-house style reception",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
+   "verified_value": "Mon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page (day groups and 10am-10pm hours).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Each event booking includes private, full-day use of the entire property from 10:00AM to 10:00PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "No Sunday rate is listed."
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "12 hours",
+   "verified_value": "12 hours",
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page (10am-10pm, including setup and cleanup).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "full-day use of the entire property from 10:00AM to 10:00PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic\nModern\nAgricultural",
+   "verified_value": "Barn\nHistoric agricultural architecture\nModernized\nAll-white, light-filled",
+   "action": "corrected",
+   "change_origin": "Official site, home page wording; 'Agricultural' alone was vague and 'barn' was missing.",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "draws upon historic agricultural architecture, yet is thoroughly modernized ... all-white-everything space is flooded with natural light",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "'Included in Rental' list does not mention linens or tablecloths.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "150 chairs\nTables\nBridal suite\nGroom suite\nCovered patio\nLarge catering kitchen\nCeremony meadow or orchard",
+   "verified_value": "24 wood farm tables and 3 adjustable bistro tables (indoor)\n150 bentwood chairs, 6 vintage padded benches, 5 couches (indoor)\n12 Oktoberfest tables and 18 60\" round tables (outdoor)\n150 padded white folding chairs and 24 wooden benches (outdoor)\nBistro lights and golden chandeliers in the pavilion\nDrink dispensers, serving platters, charcuterie boards, cake stands\nYamaha grand player piano\nLarge outdoor gas fire pit\nAntique tables for cake, guest book, gifts and pictures\nLarge floor easels, chalkboards, card boxes, baskets, welcome signs",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page 'Included in Rental' list. Suites, patio, kitchen and meadow/orchard removed from this column (rooms and kitchen have their own columns; meadow/orchard and covered patio not on the site).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Outdoor Lighting: Bistro Lights & Golden Chandeliers in the Pavilion ... Yamaha Grand Player Piano ... Large Outdoor Gas Fire Pit",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "No rental or add-on items listed.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Confirmed on home page (barn interior plus outdoor pavilion).",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "Our large outdoor space has a grand pavilion used for outdoor ceremonies, luncheons, dinners or receptions.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "No mention of sparklers.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "No mention of parking.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "13140 S 2200 W, Riverton, UT 84065",
+   "verified_value": "26 S. 500 E., Lindon, UT 84042",
+   "action": "corrected",
+   "change_origin": "Official site, contact page; the Riverton address is not on the site.",
+   "source_url": "https://walkerfarms.com/contact/",
+   "evidence": "Walker Farms Address 26 S. 500 E. Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Riverton",
+   "verified_value": "Lindon",
+   "action": "corrected",
+   "change_origin": "Official site, contact and home pages give Lindon.",
+   "source_url": "https://walkerfarms.com/contact/",
+   "evidence": "Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nVenue sound system",
+   "verified_value": "Yes\nSurround sound system\nMicrophones\n60\" TV and video equipment",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page 'Included in Rental' list names the equipment.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "60″ TV and Video Equipment / Surround Sound System / Microphones",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "62-acre farm\nRenovated barn\nOrchard\nMeadow\nCovered patio\nBridal photo session",
+   "verified_value": "Grand outdoor pavilion\nUse of barn and gardens for bridal and engagement photos (2 hours, outside the rental date, included)",
+   "action": "corrected",
+   "change_origin": "Removed: '62-acre farm', 'renovated barn', 'orchard', 'meadow' and 'covered patio' are not on the official site. Pavilion from home page; photo session from pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Use of Barn and Gardens for Bridal and Engagement Photos (2hrs additional outside of your rental date)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included",
+   "verified_value": "Venue sets up and takes down tables and chairs\nAll other clean-up is done by you and your vendors within the rental time",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page: only table/chair takedown is included; clean-up time is part of the renter's reserved time.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "your reserved event time includes all set-up and clean-up time. This applies to you, your vendors, and guests.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The site does not say who does general cleaning; it implies the renter. Confirm by phone."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "No accessibility information.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "No deposit terms stated.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Own vendors allowed\nPreferred vendors available",
+   "verified_value": "Own vendors allowed (no fee)\nFamily and friends may provide services\nPreferred vendor list available",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page (adds 'no fee' and family/friends detail).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "You are welcome to bring in your own vendors or have family & friends provide services ... no fees for using your own vendors",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Large catering kitchen\nWarming kitchen",
+   "verified_value": "Large, well-equipped warming kitchen",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page names one warming kitchen; 'large catering kitchen' and 'warming kitchen' were duplicates.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Large, Well Equipped Warming Kitchen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "No alcohol allowed",
+   "verified_value": "No alcohol allowed",
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Alcohol and smoking are not permitted on the property.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Onsite hostess\nOne-hour coordination meeting included",
+   "verified_value": "Onsite hostess during entire event\n60-minute coordination meeting included\nEvent planners available (cost not stated)",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page (hostess and meeting included; planners offered).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Hostess Onsite During Entire Event / 60 Minute Coordination Meeting for Your Event",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bridal suite\nGroom suite",
+   "verified_value": "Bridal suite with balcony and private restroom\nGroom's dressing room with TV and private restroom",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page (adds details).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Spacious Bridal Suite with Balcony and Private Restroom / Groom's Dressing Room with TV and Private Restroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No alcohol\nNo smoking\nSetup and cleanup must occur within reserved time",
+   "verified_value": "No alcohol\nNo smoking\nSetup and cleanup must occur within reserved time\nAll events must end by 10pm",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page (adds the 10pm end time).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "All events must conclude by 10:00PM.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Venue offers one private event per day",
+   "verified_value": "Each booking includes private, full-day use of the entire property\nPrices shown are 2026 calendar rates",
+   "action": "corrected",
+   "change_origin": "Official site, pricing page; reworded from 'one private event per day', which the site implies but does not state.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "All pricing listed below reflects Walker Farms 2026 calendar rates. Each event booking includes private, full-day use of the entire property",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-446-3513\nInstagram: @walkerfarmsutah",
+   "verified_value": "Phone: (801) 899-5102\nInstagram: @walkerfarmsliving",
+   "action": "corrected",
+   "change_origin": "Official site, contact page phone and header Instagram link; 801-446-3513 and @walkerfarmsutah are not on the site.",
+   "source_url": "https://walkerfarms.com/contact/",
+   "evidence": "(801)899-5102; header links to instagram.com/walkerfarmsliving",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Inquiries go through a Tripleseat form; no email address is published."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    5500,
+    8500
+   ],
+   "verified_value": [
+    5500,
+    8500
+   ],
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "$5,500 (off-season Mon-Wed) to $8,500 (peak Fri/Sat)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 150,
+   "verified_value": 150,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Up to 150 guests for a seated luncheon or dinner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Riverton",
+   "verified_value": "Lindon",
+   "action": "corrected",
+   "change_origin": "Official site, contact page address is in Lindon, not Riverton.",
+   "source_url": "https://walkerfarms.com/contact/",
+   "evidence": "26 S. 500 E. Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, pricing page lists microphones as included; follows from the corrected `sound system` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Microphones",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Pricing page lists TV and video equipment but no projector.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "60″ TV and Video Equipment",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Surround Sound System",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, pricing page lists a 60-inch TV as included; follows from the corrected `sound system` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "60″ TV and Video Equipment",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing and home pages.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Spacious Bridal Suite with Balcony and Private Restroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Groom's Dressing Room with TV and Private Restroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Official site, pricing page: clean-up is part of the renter's reserved time; only table/chair takedown is included. Follows from the corrected `cleanup crew` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "your reserved event time includes all set-up and clean-up time. This applies to you, your vendors, and guests.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page (onsite hostess and coordination meeting included).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Hostess Onsite During Entire Event / 60 Minute Coordination Meeting",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Included help is a hostess plus a 60-minute meeting, not a full day-of coordinator."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on home page (barn interior).",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "all-white-everything space is flooded with natural light",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on home page (outdoor pavilion).",
+   "source_url": "https://walkerfarms.com/",
+   "evidence": "large outdoor space has a grand pavilion used for outdoor ceremonies",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "You are welcome to bring in your own vendors",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page decor items; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Decor Items: Large Floor Easels, Chalkboards, Card Boxes, Baskets, Welcome Signs",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "There is an outdoor fire pit (see Other > Firepit), not a fireplace."
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Outdoor Lighting: Bistro Lights & Golden Chandeliers in the Pavilion",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Golden Chandeliers in the Pavilion",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page (antique cake tables and cake stands); follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Various Antique Pieces Including Tables for Cake, Guest Book, Gifts",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page lists drink dispensers among included kitchen items; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Kitchen Items: Drink Dispensers, Serving Platters, Charcuterie Boards, Cake Stands",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Equipment for a self-serve drink station, not a staffed bar (no alcohol allowed)."
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, about, contact, gallery checked).",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Large Outdoor Gas Fire Pit",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, pricing page; follows from the corrected `Other Decor Included` column.",
+   "source_url": "https://walkerfarms.com/pricing/",
+   "evidence": "Yamaha Grand Player Piano",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Walker Farms",
+  "link": "https://walkerfarms.com/",
+  "Description": "A newly built barn venue in Lindon whose design draws on historic agricultural architecture, with a modern all-white, light-filled interior, bridal and groom's suites, a large kitchen, and an outdoor pavilion for ceremonies and receptions.",
+  "Standard Price Range": "$5,500-$8,500",
+  "Packages and Prices": "Peak season (May-October), 10am-10pm: Mon-Wed $6,500; Thursday $7,500; Friday or Saturday $8,500\nOff season (November-April), 10am-10pm: Mon-Wed $5,500; Thursday $6,000; Friday or Saturday $6,500\nEvery booking includes exclusive use of the property, onsite hostess, 60-minute coordination meeting, table and chair setup/takedown (3 configurations), bridal suite, groom's room, warming kitchen, AV, piano, fire pit and decor items\nLast-minute booking discount for events within 60 days (contact venue)",
+  "Seated Capacity": "150",
+  "Standing Capacity": "400",
+  "Time slots": "Mon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
+  "Length of Rental": "12 hours",
+  "Style": "Barn\nHistoric agricultural architecture\nModernized\nAll-white, light-filled",
+  "Linens Included": "",
+  "Other Decor Included": "24 wood farm tables and 3 adjustable bistro tables (indoor)\n150 bentwood chairs, 6 vintage padded benches, 5 couches (indoor)\n12 Oktoberfest tables and 18 60\" round tables (outdoor)\n150 padded white folding chairs and 24 wooden benches (outdoor)\nBistro lights and golden chandeliers in the pavilion\nDrink dispensers, serving platters, charcuterie boards, cake stands\nYamaha grand player piano\nLarge outdoor gas fire pit\nAntique tables for cake, guest book, gifts and pictures\nLarge floor easels, chalkboards, card boxes, baskets, welcome signs",
+  "Other Decor for Rent": "",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "",
+  "Full Address": "26 S. 500 E., Lindon, UT 84042",
+  "City": "Lindon",
+  "sound system": "Yes\nSurround sound system\nMicrophones\n60\" TV and video equipment",
+  "extras": "Grand outdoor pavilion\nUse of barn and gardens for bridal and engagement photos (2 hours, outside the rental date, included)",
+  "cleanup crew": "Venue sets up and takes down tables and chairs\nAll other clean-up is done by you and your vendors within the rental time",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "Own vendors allowed (no fee)\nFamily and friends may provide services\nPreferred vendor list available",
+  "Prep Area": "Large, well-equipped warming kitchen",
+  "Alcohol policy": "No alcohol allowed",
+  "Event Coordinator": "Onsite hostess during entire event\n60-minute coordination meeting included\nEvent planners available (cost not stated)",
+  "Bride/Groom Rooms": "Bridal suite with balcony and private restroom\nGroom's dressing room with TV and private restroom",
+  "Restrictions": "No alcohol\nNo smoking\nSetup and cleanup must occur within reserved time\nAll events must end by 10pm",
+  "Important Notes": "Each booking includes private, full-day use of the entire property\nPrices shown are 2026 calendar rates",
+  "Contact Information": "Phone: (801) 899-5102\nInstagram: @walkerfarmsliving"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Modern",
+   "Rustic",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Modern",
+   "Rustic",
+   "Outdoors"
+  ],
+  "change": "remove Classic",
+  "reasoning": "The site presents a newly built, all-white, light-filled barn (Modern + Rustic) on the family's homestead farm with gardens and an outdoor pavilion (Outdoors). The only Classic cue is 'historic agricultural architecture', which describes the barn's inspiration, not a historic building. The current rules would still tag Classic from 'historic' in the corrected Description; a rule refinement would be to ignore 'historic' when it describes design inspiration ('draws on historic ...').",
+  "site_cues": [
+   "takes barn inspo to a whole new level",
+   "thoroughly modernized",
+   "all-white-everything space is flooded with natural light",
+   "grand pavilion used for outdoor ceremonies",
+   "Walker Family originally homesteaded this property"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal / day-of-week pricing",
+   "why": "Two seasons x three day groups, all 10am-10pm",
+   "data": {
+    "year": 2026,
+    "seasons": [
+     {
+      "name": "Peak",
+      "months": "May-October",
+      "hours": "10am-10pm",
+      "prices": {
+       "Mon-Wed": "$6,500",
+       "Thursday": "$7,500",
+       "Friday or Saturday": "$8,500"
+      }
+     },
+     {
+      "name": "Off season",
+      "months": "November-April",
+      "hours": "10am-10pm",
+      "prices": {
+       "Mon-Wed": "$5,500",
+       "Thursday": "$6,000",
+       "Friday or Saturday": "$6,500"
+      }
+     }
+    ],
+    "discounts": [
+     "Last-minute booking discounts for events within 60 days (contact venue)"
+    ]
+   }
+  },
+  {
+   "title": "Spaces",
+   "why": "Indoor barn and outdoor pavilion with separate furniture sets and different capacities by format",
+   "data": {
+    "spaces": [
+     {
+      "name": "The Barn (indoor)",
+      "setting": "indoor",
+      "furniture": "24 wood farm tables (36x90), 3 bistro tables, 150 bentwood chairs, 6 padded benches, 5 couches"
+     },
+     {
+      "name": "Pavilion / outdoor space",
+      "setting": "outdoor",
+      "furniture": "12 Oktoberfest tables, 18 60-inch round tables, 150 padded folding chairs, 24 benches",
+      "lighting": "bistro lights, golden chandeliers"
+     }
+    ],
+    "capacity": {
+     "seated": 150,
+     "open_house": 400
+    }
+   }
+  },
+  {
+   "title": "Included in rental",
+   "why": "Long inclusion list that the standard columns only partly capture",
+   "data": {
+    "includes": [
+     "Exclusive use 10am-10pm",
+     "Onsite hostess",
+     "60-minute coordination meeting",
+     "Setup and takedown of tables and chairs (3 configurations, no fee for ceremony or luncheon/dinner)",
+     "Bridal suite with balcony and private restroom",
+     "Groom's dressing room with TV and private restroom",
+     "Warming kitchen with drink dispensers, platters, charcuterie boards, cake stands",
+     "60-inch TV and video equipment",
+     "Surround sound system",
+     "Microphones",
+     "Yamaha grand player piano",
+     "Outdoor gas fire pit",
+     "Antique cake/guest book/gift tables",
+     "Floor easels, chalkboards, card boxes, baskets, welcome signs",
+     "2-hour bridal/engagement photo session on another date"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Row was flagged as out-of-area (Riverton), but the linked official site is Walker Farms in Lindon, Utah County. The team should keep the row and update address/city/phone; the Riverton details in the old CSV seem to come from another business.",
+  "Who performs general cleanup? The site says clean-up time is part of the renter's reserved time; only table/chair takedown is listed as included.",
+  "Are linens available (included or rented)? The site does not mention them."
+ ]
+}

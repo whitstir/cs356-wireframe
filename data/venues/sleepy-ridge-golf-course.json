@@ -1,0 +1,761 @@
+{
+ "id": "sleepy-ridge-golf-course",
+ "name": "Sleepy Ridge Weddings",
+ "city": "Orem",
+ "description": "A country-club-style reception venue on a golf course near Utah Lake, with indoor and outdoor spaces, mountain and lake views, gardens, a gazebo, and separate areas for ceremonies and receptions.",
+ "styles": [
+  "Luxury",
+  "Outdoors"
+ ],
+ "priceMin": 4200,
+ "priceMax": 7000,
+ "priceBasis": "rental",
+ "priceText": "Wedding rental by date and season, $4,200–$7,000",
+ "seated": 250,
+ "seatedMin": 250,
+ "seatedText": "250 seated",
+ "standing": 700,
+ "standingMin": 700,
+ "standingText": "700",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Bluetooth Sound System Wireless Microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth Sound System"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "95\" HD TVs"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal suite"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Setup and cleanup"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "On-site event hostess support"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom suite"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Sunset Room (dinner and dancing)"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Floor Length Linens of any Color"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Garden Patio for outdoor ceremonies"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "No in-house catering or required vendor list"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Large Fireplace and Mantle"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Floor Easels, Table Easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Sunset Balcony Bistro Lighting"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A country-club-style reception venue on a golf course near Utah Lake, with indoor and outdoor spaces, mountain and lake views, gardens, a gazebo, and separate areas for ceremonies and receptions."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "730 S Sleepy Ridge Dr, Orem, UT 84059"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Country club-style\nElegant\nRomantic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Wedding rental by date and season, $4,200–$7,000"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon rental (all room-rental items) — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "50% of room rental\nNon-refundable and non-transferable\nFinal payment due two weeks before the event"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Sunset Room (dinner and dancing)"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Garden Patio for outdoor ceremonies"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "250 seated"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "700"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Sunset Room",
+     "value": "Seated: 250 · Standing: 700 · Sq ft: 4160 · Setting: indoor (third floor, balcony)"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Garden Patio",
+     "value": "Ceremony seated: 150 · Sq ft: 2160 · Setting: outdoor · Note: $1,000 add-on with Front Garden cocktail hour"
+    }
+   ]
+  },
+  {
+   "id": "rain-plan",
+   "title": "Rain plan",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "rain-plan-0",
+     "label": "Rain plan",
+     "value": "If the weather turns, the indoor reception space is already set (Rooms page)."
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bridal suite"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom suite"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal suite\nGroom suite"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Floor Length Linens of any Color"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Setup and cleanup"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "On-site event hostess support"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "60-inch round tables\n8-foot banquet tables\n6-foot banquet tables\n36-inch bistro tables\nIn-house chairs\nFloor-length linens\nCenterpieces\nFloor and table easels\nBistro lighting\nLarge fireplace and mantle\nHardwood floors\nPrivate balcony\nFront lush gardens\nIvy wall\nWillow tree"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Director of Weddings and Events\nAssistant Director\nOnsite venue attendant / hostess team included\nTours and consultations available"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included\nStandard setup and take-down"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Bluetooth Sound System Wireless Microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Bluetooth Sound System"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "95\" HD TVs"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBluetooth sound system\nWireless microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Large Fireplace and Mantle"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Floor Easels, Table Easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Sunset Balcony Bistro Lighting"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Garden Patio and Front Garden cocktail-hour add-on — $1,000\nOne wedding at a time\n95-inch HD TVs"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "No in-house catering or required vendor list"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterers allowed at no extra cost\nNo in-house catering and no required caterer list\nPreferred caterers listed on venue site"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming/prep kitchen"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed\nPreferred bartender required: COPA Bar Service or The Bar Project\nAlcohol venue fee — $750"
+    }
+   ]
+  },
+  {
+   "id": "required-vendors",
+   "title": "Required vendors",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "required-vendors-0",
+     "label": "Alcohol",
+     "value": "Vendors: COPA Bar Service; The Bar Project"
+    },
+    {
+     "id": "required-vendors-1",
+     "label": "Fireworks",
+     "value": "Vendors: Vortex Fireworks"
+    },
+    {
+     "id": "required-vendors-2",
+     "label": "Lighting & drapes",
+     "value": "Vendors: Moonlight Lighting"
+    },
+    {
+     "id": "required-vendors-3",
+     "label": "Preferred caterers",
+     "value": "Brown Brothers Catering; Crisp Catering; Marvellous Catering; R&R BBQ Catering; Wooden Horse Catering"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "5-12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Required alcohol vendor: COPA Bar Service or The Bar Project\nRequired fireworks vendor: Vortex Fireworks\nRequired lighting and drapes vendor: Moonlight Lighting\nSetup and cleanup (including vendors') must occur within booked hours"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Ample parking for guests\nLarge parking area"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "One wedding at a time\n$500 off venue rental for new bookings of off-season weddings (November-March)"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.sleepyridgeweddings.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "sleepy-ridge-golf-course",
+  "Venue Name": "Sleepy Ridge Weddings",
+  "link": "https://www.sleepyridgeweddings.com/",
+  "City": "Orem",
+  "Full Address": "730 S Sleepy Ridge Dr, Orem, UT 84059",
+  "Description": "A country-club-style reception venue on a golf course near Utah Lake, with indoor and outdoor spaces, mountain and lake views, gardens, a gazebo, and separate areas for ceremonies and receptions.",
+  "Price Low": "4200",
+  "Price High": "7000",
+  "Price Basis": "rental",
+  "Standard Price Range": "Wedding rental by date and season, $4,200–$7,000",
+  "Seated Low": "250",
+  "Seated High": "250",
+  "Seated Capacity": "250 seated",
+  "Standing Low": "700",
+  "Standing High": "700",
+  "Standing Capacity": "700",
+  "Packages and Prices": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon rental (all room-rental items) — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire",
+  "Time slots": "Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm",
+  "Length of Rental": "5-12 hours",
+  "Style": "Country club-style\nElegant\nRomantic",
+  "Other Decor Included": "60-inch round tables\n8-foot banquet tables\n6-foot banquet tables\n36-inch bistro tables\nIn-house chairs\nFloor-length linens\nCenterpieces\nFloor and table easels\nBistro lighting\nLarge fireplace and mantle\nHardwood floors\nPrivate balcony\nFront lush gardens\nIvy wall\nWillow tree",
+  "parking?": "Ample parking for guests\nLarge parking area",
+  "sound system": "Yes\nBluetooth sound system\nWireless microphone",
+  "extras": "Garden Patio and Front Garden cocktail-hour add-on — $1,000\nOne wedding at a time\n95-inch HD TVs",
+  "cleanup crew": "Included\nStandard setup and take-down",
+  "Deposit Policy": "50% of room rental\nNon-refundable and non-transferable\nFinal payment due two weeks before the event",
+  "Catering": "Outside caterers allowed at no extra cost\nNo in-house catering and no required caterer list\nPreferred caterers listed on venue site",
+  "Prep Area": "Warming/prep kitchen",
+  "Alcohol policy": "Alcohol allowed\nPreferred bartender required: COPA Bar Service or The Bar Project\nAlcohol venue fee — $750",
+  "Event Coordinator": "Director of Weddings and Events\nAssistant Director\nOnsite venue attendant / hostess team included\nTours and consultations available",
+  "Bride/Groom Rooms": "Bridal suite\nGroom suite",
+  "Restrictions": "Required alcohol vendor: COPA Bar Service or The Bar Project\nRequired fireworks vendor: Vortex Fireworks\nRequired lighting and drapes vendor: Moonlight Lighting\nSetup and cleanup (including vendors') must occur within booked hours",
+  "Important Notes": "One wedding at a time\n$500 off venue rental for new bookings of off-season weddings (November-March)",
+  "Contact Information": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com"
+ }
+}

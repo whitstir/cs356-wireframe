@@ -1,0 +1,223 @@
+{
+ "row": 34,
+ "id": "the-lodge-at-traverse-mountain",
+ "official_name": {
+  "name": "The Lodge at Traverse Mountain",
+  "source_url": "https://www.thelodgeattraverse.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "built-in audio/video system",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "42\" TV'; Board Room '64\" Smart TV",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "The Bride's Room",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "An Event Manager is provided, free of charge, to help you plan, arrange your space",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The Grand Room... 2,200 square feet",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "20 table linens included !",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "an outdoor patio with gorgeous views",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Bring your own caterer (and vendors)!... we don't require it",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "an indoor fireplace with seating and two fireplaces on the outdoor patio",
+   "price": "",
+   "source_url": "https://www.thelodgeattraverse.com/"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1850,
+  "high": 2850,
+  "basis": "rental",
+  "wording": "Day-of-week rentals $1,850–$2,850",
+  "math": ""
+ },
+ "seated": {
+  "low": 100,
+  "high": 120,
+  "wording": "100 seated reception | 100–120 chairs listed"
+ },
+ "standing": {
+  "low": 300,
+  "high": 300,
+  "wording": "300 come-and-go reception"
+ },
+ "row_updates": {
+  "Venue Name": "The Lodge at Traverse Mountain"
+ }
+}

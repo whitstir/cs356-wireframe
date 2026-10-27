@@ -1,0 +1,976 @@
+{
+ "row": 10,
+ "id": "copper-creek-event-center",
+ "name": "Copper Creek Event Center",
+ "website": "https://coppercreekeventcenter.com/",
+ "website_status": "ok (Wix site; coppercreekeventcenter.com redirects to www; pages read in the built-in browser)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.coppercreekeventcenter.com/ (home: overview, footer address/phone/email, testimonial)",
+  "https://www.coppercreekeventcenter.com/pricing (Pricing Guide 2026: rates, inclusions, restrictions, add-ons, capacity) - browser",
+  "https://www.coppercreekeventcenter.com/copy-of-about-us (FAQ page: booking, accessibility, decor, catering, A/V, staffing, policies, cleanup, sparklers) - browser",
+  "https://www.coppercreekeventcenter.com/about-us-1 (About: managers, decor packages, preferred vendors not required) - browser",
+  "https://www.coppercreekeventcenter.com/floral-design (in-house florist Ben & Annie Flowers) - browser",
+  "https://www.coppercreekeventcenter.com/venue-tour (venue tour video page) - browser"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "688 W 400 S #202 Springville, UT 84663",
+  "note": "Springville, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Copper Creek Event Center",
+   "verified_value": "Copper Creek Event Center",
+   "action": "confirmed",
+   "change_origin": "Site name.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "Copper Creek Event Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://coppercreekeventcenter.com/",
+   "verified_value": "https://coppercreekeventcenter.com/",
+   "action": "confirmed",
+   "change_origin": "Loads (redirects to www).",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "final URL https://www.coppercreekeventcenter.com/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "An elegant, romantic ballroom reception venue with mountain views, a prep kitchen, integrated sound, projection, flexible seating, and dedicated support for wedding celebrations.",
+   "verified_value": "An elegant, romantic ballroom reception venue with mountain views, a prep kitchen, integrated sound, projection, flexible seating, and dedicated support for wedding celebrations.",
+   "action": "confirmed",
+   "change_origin": "Home, Pricing and About pages; mountain view from a testimonial on the home page.",
+   "source_url": "https://www.coppercreekeventcenter.com/about-us-1",
+   "evidence": "an atmosphere of timeless elegance paired with modern versatility",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "'Mountain views' is only in a home-page testimonial."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,800-$4,200",
+   "verified_value": "$1,800-$4,200",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Daytime $1,800 ... All-Day $4,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "90 guest chairs, 9 round 60-inch tables, cake table, selected linens, cake stand and cutting utensils, personalized entry sign, sign-in table, 9 round dining linens, 2 banquet tables with selected linens, setup and takedown, prep kitchen, ice machine, floor easels, private bride's dressing room, integrated sound system, projector and screen, wireless microphone and stand, venue host or hostess — Mon-Wed 10am-3pm — $1,800\nSame inclusions — Mon-Wed 5pm-10pm — $2,250\nSame inclusions — Mon-Wed 10am-10pm — $3,000\nSame inclusions — Thu-Sat 10am-3pm — $2,150\nSame inclusions — Thu-Sat 5pm-10pm — $2,750\nSame inclusions — Thu-Sat 10am-10pm — $4,200\nCeremony coordination — $125\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nGarden room overflow — $400",
+   "verified_value": "Weekday (Mon-Wed): 10am-3pm — $1,800; 5pm-10pm — $2,250; 10am-10pm — $3,000\nPrime (Thu-Sat): 10am-3pm — $2,150; 5pm-10pm — $2,750; 10am-10pm — $4,200\nEvery rental includes 90 chairs, 9 60-inch round tables with linens, cake table with linen, cake stand and cutting utensils, personalized entry sign, sign-in table, 2 banquet tables with linens, setup/takedown of tables and chairs, prep kitchen, ice machine, floor easels, bride's dressing room, sound system, projector and screen, wireless microphone and stand, venue host/hostess\nCeremony coordination — $125\nFull decor closet (staff set up and take down) — $150\nClient personal decor setup — $100\nWooden or circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nSparkler package, 50 count — $40\nSparkler package, 100 count — $70 (FAQ says $75)\nGarden room overflow — $400\nCeremony transition fee for groups over 90 — $100",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: same rates; added the decor-setup fee and ceremony transition fee, and the 100-count sparkler conflict.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Client Personal Decor Setup - $100 ... Ceremony Transition ... $100 transition fee for any group larger than 90",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "90-160",
+   "verified_value": "Seated dinner: 130 preferred, 160 max\nBuffet dinner: 120 preferred, 140 max\nCeremony: 110 preferred, 140 max",
+   "action": "corrected",
+   "change_origin": "Pricing page gives counts by setup; '90-160' mixed the open-house seating with the dinner max. Max stays 160.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Seated Dinner Maximum Count: 160",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site gives no standing capacity.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Open House Style: Seats 90-120 (Invite up to 400)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Invite up to 400' is an invitation count, not a standing capacity; noted in Important Notes."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 10am-3pm\nMon-Wed 5pm-10pm\nMon-Wed 10am-10pm\nThu-Sat 10am-3pm\nThu-Sat 5pm-10pm\nThu-Sat 10am-10pm",
+   "verified_value": "Mon-Wed 10am-3pm\nMon-Wed 5pm-10pm\nMon-Wed 10am-10pm\nThu-Sat 10am-3pm\nThu-Sat 5pm-10pm\nThu-Sat 10am-10pm\nShorter events: 3-hour minimum at an hourly rate",
+   "action": "corrected",
+   "change_origin": "Added FAQ's 3-hour minimum hourly rentals.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "The minimum rental period for our Utah Wedding and Event Venue is 3 hours.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "5-12 hours",
+   "verified_value": "5-12 hours",
+   "action": "confirmed",
+   "change_origin": "Pricing page (wedding blocks 5 or 12 hours).",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "5-hour rental ... 12-hour rental",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Hourly rentals from 3 hours exist for small events."
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nRomantic\nTimeless\nSophisticated",
+   "verified_value": "Elegant\nRomantic\nTimeless\nSophisticated",
+   "action": "confirmed",
+   "change_origin": "About page and meta description.",
+   "source_url": "https://www.coppercreekeventcenter.com/about-us-1",
+   "evidence": "an atmosphere of timeless elegance",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "9 Round table dining linens of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "90 guest chairs\n9 round 60-inch tables\nCake table\nSelected linens\nPersonalized entry sign\nSign-in table\n2 banquet tables with selected linens\nFloor easels\nWireless microphone stand",
+   "verified_value": "90 guest chairs\n9 round 60-inch tables with dining linens\nCake table with linen\nCake stand and cutting utensils\nPersonalized digital entry sign and directional signs\nSign-in table\n2 banquet tables with linens\nFloor easels\n5 drink dispensers",
+   "action": "corrected",
+   "change_origin": "Added digital entry sign and directional signs, 5 drink dispensers (FAQ); moved microphone stand to sound system.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "We provide 5 medium-sized drink dispensers for our clients to use.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Full decor closet — $150\nWooden or circle arch backdrop — $75\n50-count sparkler package — $40\n100-count sparkler package — $70",
+   "verified_value": "Full decor closet (set up and taken down by staff) — $150\nWooden or golden circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60",
+   "action": "corrected",
+   "change_origin": "Removed sparkler packages (not decor; kept in Packages/sparklers); added additional linens and tables; arch is wooden or golden circle.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Wooden or Circle Arch Backdrop - $75",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Inside",
+   "verified_value": "Inside",
+   "action": "confirmed",
+   "change_origin": "Ballroom only; no outdoor event space described.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "Our Ballroom is the perfect space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Garden Room Overflow — $400' is not described; may be an indoor room."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes\nSparkler packages: 50 count — $40; 100 count — $70 (FAQ: $75); staff hand out, light and dispose",
+   "action": "confirmed",
+   "change_origin": "Pricing and FAQ.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "We offer two sparkler packages to make your send-off effortless",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "100-count price differs: $70 (Pricing) vs $75 (FAQ)."
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "FAQ mentions dumpsters 'in the north parking lot directly behind the building' only."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "688 W 400 S #202, Springville, UT 84663",
+   "verified_value": "688 W 400 S #202, Springville, UT 84663",
+   "action": "confirmed",
+   "change_origin": "Footer.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "688 W 400 S #202 Springville, UT 84663",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Footer.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "Springville, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nIntegrated sound system\nProjector and screen\nWireless microphone\nWireless microphone stand",
+   "verified_value": "Yes\nIntegrated surround sound system (client provides the music device)\nProjector and large screen\n1 wireless microphone and stand",
+   "action": "corrected",
+   "change_origin": "Worded per FAQ: one wireless mic; client brings the device.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "we provide one wireless microphone that connects directly to our house audio system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Ceremony coordination — $125\nGarden room overflow — $400\nVenue host or hostess",
+   "verified_value": "Venue host/hostess on site (not a wedding coordinator)\nCeremony coordination — $125\nClient personal decor setup — $100\nGarden room overflow — $400\nIn-house florist Ben & Annie Flowers (client discounts)\nExtra hour before or after the rental when available",
+   "action": "corrected",
+   "change_origin": "Host marked 'not a wedding coordinator' (FAQ); added decor setup fee, florist, hourly extension.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Your venue host/hostess is not a wedding coordinator",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included\nStaff take down tables, chairs and linens and clean the floors\nClient clears table trash to the dumpsters and cleans the kitchen ($100 fee if left dirty)",
+   "action": "added",
+   "change_origin": "FAQ: staff handle tables, chairs, linens and floors; client clears table trash and the kitchen.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Our venue staff will handle the heavy lifting, including tables, chairs, linens, and cleaning the floors",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "Wheelchair accessible\nElevator",
+   "verified_value": "Wheelchair accessible\nElevator just inside the main entrance",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Our facility is fully wheelchair accessible, featuring an elevator located conveniently just inside the main doors",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Preferred vendors listed on the official site\nIn-house floral design available",
+   "verified_value": "Own caterer or self-catering allowed (no required vendors)\nKitchen use fee without a licensed caterer — $120 (FAQ says $125)\nPreferred caterer list available",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: caterers are not required and you may provide your own food; the CSV implied preferred vendors were required.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "You are not required to hire a professional caterer and are welcome to provide your own food.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Kitchen use fee $120 on Pricing page vs $125 in the FAQ."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Prep kitchen included\nIce machine",
+   "verified_value": "Prep kitchen (no oven, stove or freezer)\nRefrigerator\nPebble ice machine\nMicrowave\nSinks",
+   "action": "corrected",
+   "change_origin": "FAQ kitchen details (no oven/stove/freezer; fridge, ice machine, microwave, sinks).",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "It is equipped with a refrigerator, ice machine, microwave, and sinks; however, we do not have an oven or a stove",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol strictly prohibited on the space and property",
+   "verified_value": "Alcohol prohibited on the space and property\n$200 fee and confiscation if alcohol is found",
+   "action": "corrected",
+   "change_origin": "Added the $200 fee from the FAQ.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "If alcohol is found on the premises, a $200 fee will be charged, and the alcohol will be confiscated.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Venue host or hostess\nCeremony coordination — $125",
+   "verified_value": "Ceremony coordinator — $125 (the venue host/hostess is not a coordinator)",
+   "action": "corrected",
+   "change_origin": "Removed 'Venue host or hostess' as a coordinator: FAQ says the host is not a coordinator.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Your venue host/hostess is not a wedding coordinator",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Private bride's dressing room",
+   "verified_value": "Private bride's dressing room",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "we provide a beautiful, dedicated bride's room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "No groom's room (FAQ)."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Alcohol prohibited on the space and property\nLive-flame candles only through the in-house floral team\nOther candles must be faux",
+   "verified_value": "Alcohol prohibited on the space and property\nLive-flame candles only through in-house florist Ben & Annie Flowers; other candles must be faux\nNo confetti or glitter (rice paper allowed)\nNothing attached to the walls\nLights or drapery hung only by a licensed, insured company\nFamily-friendly music only\nBuilding must be vacated at rental end ($200 per extra half-hour)\nBussing tables is the caterer's or client's responsibility",
+   "action": "corrected",
+   "change_origin": "Added FAQ rules: confetti/glitter, walls, hanging lights/drapery, music, late fee, bussing.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "we do not allow anything to be attached to the walls",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Pricing page lists 100-count sparklers at $70; FAQ page lists $75",
+   "verified_value": "Sparkler 100-count price: pricing page $70, FAQ $75\nKitchen use fee: pricing page $120, FAQ $125\nNo dedicated groom's room\nOpen house style: seating for 90-120, invite up to 400\n1-2 staff on site during every event",
+   "action": "corrected",
+   "change_origin": "Added kitchen-fee conflict, groom's room, open-house count, staffing.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "we do not currently have a dedicated room specifically for the groom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-900-3082\nEmail: admin@coppercreekeventcenter.com",
+   "verified_value": "Phone: 801-900-3082\nEmail: admin@coppercreekeventcenter.com",
+   "action": "confirmed",
+   "change_origin": "Footer.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "801-900-3082 admin@coppercreekeventcenter.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "FAQ shows 802-900-3082, an apparent typo."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    1800,
+    4200
+   ],
+   "verified_value": [
+    1800,
+    4200
+   ],
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "$1,800 ... $4,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 160,
+   "verified_value": 160,
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Seated Dinner Maximum Count: 160",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Footer.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "Springville, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Our facility is fully wheelchair accessible",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "there is an elevator located just inside the main entrance",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "One wireless microphone.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Wireless microphone and stand",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Projector and screen.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Projector and screen for video",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Integrated sound system.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Fully Integrated sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Projector screen only; entry sign is 'digital' but no TVs listed."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Bride's dressing room.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Private Bride's dressing room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "FAQ: no groom's room.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "we do not currently have a dedicated room specifically for the groom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Staff handle tables, chairs, linens and floors.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Our venue staff will handle the heavy lifting, including tables, chairs, linens, and cleaning the floors",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Client still clears table trash and the kitchen."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Host is not a coordinator; ceremony coordinator is a paid add-on ($125).",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "Your venue host/hostess is not a wedding coordinator",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Ballroom.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "Our Ballroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "No outdoor event space described.",
+   "source_url": "https://www.coppercreekeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Table linens included.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "9 Round table dining linens of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "FAQ: no required vendors; own food allowed.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "You are not required to hire a professional caterer and are welcome to provide your own food.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Kitchen use fee without a licensed caterer: $120 (Pricing) / $125 (FAQ)."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Sparkler packages offered.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "We offer two sparkler packages",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Contents of the $150 decor closet are not listed."
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Arch backdrop $75.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Wooden or Circle Arch Backdrop - $75",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Drapery only by a licensed company."
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/floral-design",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Florals via florist Ben & Annie Flowers (paid vendor)."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Entry sign, directional signs, floor easels.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Personalized Entry Sign ... A selection of Floor easels",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Live flame only via the florist; otherwise faux candles brought by client."
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Cake table and cake stand.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "Cake table & selected linen ... Cake Stand and cutting Utensils",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "5 drink dispensers provided.",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us",
+   "evidence": "We provide 5 medium-sized drink dispensers for our clients to use.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Copper Creek Event Center",
+  "link": "https://coppercreekeventcenter.com/",
+  "Description": "An elegant, romantic ballroom reception venue with mountain views, a prep kitchen, integrated sound, projection, flexible seating, and dedicated support for wedding celebrations.",
+  "Standard Price Range": "$1,800-$4,200",
+  "Packages and Prices": "Weekday (Mon-Wed): 10am-3pm — $1,800; 5pm-10pm — $2,250; 10am-10pm — $3,000\nPrime (Thu-Sat): 10am-3pm — $2,150; 5pm-10pm — $2,750; 10am-10pm — $4,200\nEvery rental includes 90 chairs, 9 60-inch round tables with linens, cake table with linen, cake stand and cutting utensils, personalized entry sign, sign-in table, 2 banquet tables with linens, setup/takedown of tables and chairs, prep kitchen, ice machine, floor easels, bride's dressing room, sound system, projector and screen, wireless microphone and stand, venue host/hostess\nCeremony coordination — $125\nFull decor closet (staff set up and take down) — $150\nClient personal decor setup — $100\nWooden or circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nSparkler package, 50 count — $40\nSparkler package, 100 count — $70 (FAQ says $75)\nGarden room overflow — $400\nCeremony transition fee for groups over 90 — $100",
+  "Seated Capacity": "Seated dinner: 130 preferred, 160 max\nBuffet dinner: 120 preferred, 140 max\nCeremony: 110 preferred, 140 max",
+  "Standing Capacity": "",
+  "Time slots": "Mon-Wed 10am-3pm\nMon-Wed 5pm-10pm\nMon-Wed 10am-10pm\nThu-Sat 10am-3pm\nThu-Sat 5pm-10pm\nThu-Sat 10am-10pm\nShorter events: 3-hour minimum at an hourly rate",
+  "Length of Rental": "5-12 hours",
+  "Style": "Elegant\nRomantic\nTimeless\nSophisticated",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "90 guest chairs\n9 round 60-inch tables with dining linens\nCake table with linen\nCake stand and cutting utensils\nPersonalized digital entry sign and directional signs\nSign-in table\n2 banquet tables with linens\nFloor easels\n5 drink dispensers",
+  "Other Decor for Rent": "Full decor closet (set up and taken down by staff) — $150\nWooden or golden circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60",
+  "outside/inside": "Inside",
+  "sparklers allowed": "Yes\nSparkler packages: 50 count — $40; 100 count — $70 (FAQ: $75); staff hand out, light and dispose",
+  "parking?": "",
+  "Full Address": "688 W 400 S #202, Springville, UT 84663",
+  "City": "Springville",
+  "sound system": "Yes\nIntegrated surround sound system (client provides the music device)\nProjector and large screen\n1 wireless microphone and stand",
+  "extras": "Venue host/hostess on site (not a wedding coordinator)\nCeremony coordination — $125\nClient personal decor setup — $100\nGarden room overflow — $400\nIn-house florist Ben & Annie Flowers (client discounts)\nExtra hour before or after the rental when available",
+  "cleanup crew": "Included\nStaff take down tables, chairs and linens and clean the floors\nClient clears table trash to the dumpsters and cleans the kitchen ($100 fee if left dirty)",
+  "Accessibility": "Wheelchair accessible\nElevator just inside the main entrance",
+  "Deposit Policy": "",
+  "Catering": "Own caterer or self-catering allowed (no required vendors)\nKitchen use fee without a licensed caterer — $120 (FAQ says $125)\nPreferred caterer list available",
+  "Prep Area": "Prep kitchen (no oven, stove or freezer)\nRefrigerator\nPebble ice machine\nMicrowave\nSinks",
+  "Alcohol policy": "Alcohol prohibited on the space and property\n$200 fee and confiscation if alcohol is found",
+  "Event Coordinator": "Ceremony coordinator — $125 (the venue host/hostess is not a coordinator)",
+  "Bride/Groom Rooms": "Private bride's dressing room",
+  "Restrictions": "Alcohol prohibited on the space and property\nLive-flame candles only through in-house florist Ben & Annie Flowers; other candles must be faux\nNo confetti or glitter (rice paper allowed)\nNothing attached to the walls\nLights or drapery hung only by a licensed, insured company\nFamily-friendly music only\nBuilding must be vacated at rental end ($200 per extra half-hour)\nBussing tables is the caterer's or client's responsibility",
+  "Important Notes": "Sparkler 100-count price: pricing page $70, FAQ $75\nKitchen use fee: pricing page $120, FAQ $125\nNo dedicated groom's room\nOpen house style: seating for 90-120, invite up to 400\n1-2 staff on site during every event",
+  "Contact Information": "Phone: 801-900-3082\nEmail: admin@coppercreekeventcenter.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic"
+  ],
+  "suggested": [
+   "Classic"
+  ],
+  "change": "none",
+  "reasoning": "'elegant', 'timeless' -> Classic. A single ballroom in an office-style building is not 'super fancy', so Luxury does not apply.",
+  "site_cues": [
+   "timeless elegance paired with modern versatility",
+   "Experience the Elegance",
+   "Our elegant ballroom"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Time-block pricing",
+   "why": "Three time blocks x two day groups",
+   "data": {
+    "weekday_Mon_Wed": {
+     "10am-3pm": "$1,800",
+     "5pm-10pm": "$2,250",
+     "10am-10pm": "$3,000"
+    },
+    "prime_Thu_Sat": {
+     "10am-3pm": "$2,150",
+     "5pm-10pm": "$2,750",
+     "10am-10pm": "$4,200"
+    },
+    "hourly": "3-hour minimum for small events; rate not published",
+    "late_fee": "$200 per half-hour"
+   }
+  },
+  {
+   "title": "Capacity by layout",
+   "why": "Different counts for ceremony, seated dinner, buffet and open house",
+   "data": {
+    "layouts": [
+     {
+      "layout": "Ceremony / stadium",
+      "preferred": 110,
+      "max": 140
+     },
+     {
+      "layout": "Seated dinner",
+      "preferred": 130,
+      "max": 160
+     },
+     {
+      "layout": "Buffet dinner",
+      "preferred": 120,
+      "max": 140
+     },
+     {
+      "layout": "Open house",
+      "seats": "90-120",
+      "invite": "up to 400"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Add-ons",
+   "why": "Itemized paid services",
+   "data": {
+    "add_ons": [
+     {
+      "name": "Ceremony coordination",
+      "price": "$125"
+     },
+     {
+      "name": "Full decor closet (staff setup/takedown)",
+      "price": "$150"
+     },
+     {
+      "name": "Client personal decor setup",
+      "price": "$100"
+     },
+     {
+      "name": "Wooden or circle arch backdrop",
+      "price": "$75"
+     },
+     {
+      "name": "Additional linens",
+      "price": "$20"
+     },
+     {
+      "name": "Additional table with linen and chairs",
+      "price": "$60"
+     },
+     {
+      "name": "Sparklers, 50",
+      "price": "$40"
+     },
+     {
+      "name": "Sparklers, 100",
+      "price": "$70 (FAQ: $75)"
+     },
+     {
+      "name": "Garden room overflow",
+      "price": "$400"
+     },
+     {
+      "name": "Ceremony transition (groups over 90)",
+      "price": "$100"
+     },
+     {
+      "name": "Kitchen use without licensed caterer",
+      "price": "$120 (FAQ: $125)"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "100-count sparkler package: $70 (Pricing) vs $75 (FAQ). Kitchen use fee: $120 (Pricing) vs $125 (FAQ).",
+  "What is the 'Garden Room Overflow' ($400): an indoor room or an outdoor space? Outdoors is kept false.",
+  "Is there on-site guest parking? The site only mentions a north parking lot for dumpsters.",
+  "Outside catering changed false -> true and Event coordinator true -> false based on the FAQ; both are demo-visible filter changes."
+ ]
+}

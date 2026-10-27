@@ -1,0 +1,223 @@
+{
+ "row": 37,
+ "id": "springville-museum-of-art",
+ "official_name": {
+  "name": "Springville Museum of Art",
+  "source_url": "https://www.smofa.org/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "We also have a wheelchair for patrons to use",
+   "price": "",
+   "source_url": "https://www.smofa.org/accessibility"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "We have an elevator to enable ease of access to the upper and lower levels, including the restrooms.",
+   "price": "",
+   "source_url": "https://www.smofa.org/accessibility"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "Accessible, gender neutral restroom is available on the Main Level. Wheelchair accessible men and women's restrooms are available on the lower level.",
+   "price": "",
+   "source_url": "https://www.smofa.org/accessibility"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Accessible parking is available in the Museum's east parking lot.",
+   "price": "",
+   "source_url": "https://www.smofa.org/accessibility"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound System, Microphone, TV Screen",
+   "price": "",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound System",
+   "price": "",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TV Screen",
+   "price": "",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Our event coordinator, Gina Woolf, is available to assist you",
+   "price": "",
+   "source_url": "https://www.smofa.org/rentals"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "indoor and outdoor garden spaces",
+   "price": "",
+   "source_url": "https://www.smofa.org/rentals"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Diane and Sam Stewart Sculpture Garden ... 400 for a standing reception",
+   "price": "",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easels",
+   "price": "",
+   "source_url": "http://www.smofa.org/uploads/files/7/Mail-Level.pdf"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "rent",
+   "wording": "upright piano ($25 fee; cannot be used in the Swanson Gallery)",
+   "price": "$25",
+   "source_url": "http://www.smofa.org/uploads/files/10/Facility-Map-Main-Level.pdf"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 805,
+  "high": 2130,
+  "basis": "rental",
+  "wording": "Garden only $805–$995; Main Level $925–$1,135; Main Level + Garden $1,730–$2,130",
+  "math": ""
+ },
+ "seated": {
+  "low": 48,
+  "high": 63,
+  "wording": "Dumke Gallery 48 | Sculpture Garden 54 | Atrium 63 seated dinner"
+ },
+ "standing": {
+  "low": 400,
+  "high": 750,
+  "wording": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)"
+ },
+ "row_updates": {
+  "Venue Name": "Springville Museum of Art"
+ }
+}

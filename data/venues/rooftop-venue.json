@@ -1,0 +1,803 @@
+{
+ "id": "rooftop-venue",
+ "name": "The Rooftop",
+ "city": "Lehi",
+ "description": "A modern rooftop venue in Lehi with Wasatch Mountain views, two indoor rooms (the Overlook and the Skylight Room) and an outdoor courtyard; tables, floor-length linens, centerpieces, a ceremony arch, AV and a venue host are included.",
+ "styles": [
+  "Modern",
+  "Luxury"
+ ],
+ "priceMin": 2500,
+ "priceMax": 4500,
+ "priceBasis": "rental",
+ "priceText": "Rentals $2,500–$4,500",
+ "seated": 300,
+ "seatedMin": 80,
+ "seatedText": "Setting 2: 80\nSetting 1: 280 (pricing)\n300 (home page)\n200 (FAQ)",
+ "standing": 700,
+ "standingMin": 300,
+ "standingText": "Setting 1: up to 700 flowing reception\nSetting 2: up to 300 flowing reception",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Photo booth / backdrop": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Accessible (ADA) parking spaces"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Audio system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "Built-in AV: television and audio system"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride room"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Setup, takedown and cleaning"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Venue coordinator onsite during the rental"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The Overlook (3,200 sq ft), The Skylight Room"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Floor-length linens"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Courtyard is an outdoor patio"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Own caterer"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparklers are permitted only in the parking lot."
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Ceremony arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Photo booth: $200/hr. (2-hr minimum)"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A modern rooftop venue in Lehi with Wasatch Mountain views, two indoor rooms (the Overlook and the Skylight Room) and an outdoor courtyard; tables, floor-length linens, centerpieces, a ceremony arch, AV and a venue host are included."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "139 N Hunters Grove Ln, Suite 400, Lehi, UT 84043"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern\nElegant\nPanoramic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Rentals $2,500–$4,500"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Setting 1 (large event: Overlook, Skylight Room and Courtyard) — Mon-Thu 1pm-11pm — $3,500\nSetting 1 — Fri-Sat 1pm-11pm — $4,500\nSetting 2 (small event: excludes the Overlook) — Mon-Thu 1pm-11pm — $2,500\nSetting 2 — Fri-Sat 1pm-11pm — $3,500\nBoth settings include setup/takedown, cleaning, tables, chairs, linens, easels, television, audio system, centerpieces, ceremony arch, venue host, bride room, groom room, full prep kitchen and parking\nAll-day rental 10am-11pm — $500\nAdditional hour — $200\nGolf lounge (TrackMan simulator) — $200\nPhoto booth — $200/hour, 2-hour minimum\nAlcohol-use fee — $400\nSecurity deposit — $750\nBridal or baby shower, Setting 2, 9am-12pm, tables/chairs and televisions — $750 (deposit $250)"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Security deposit — $750 ($250 for showers)\nSigned contract and deposit reserve the date\nBalance due 30 days before the event\nDeposit refunded 10-15 business days after the event if no damage, excess cleaning or late departure\nAll cancellations forfeit the deposit; cancelling within 30 days forfeits the full rental fee"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "The Overlook (3,200 sq ft), The Skylight Room"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "The Courtyard is an outdoor patio"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Setting 2: 80\nSetting 1: 280 (pricing)\n300 (home page)\n200 (FAQ)"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "Setting 1: up to 700 flowing reception\nSetting 2: up to 300 flowing reception"
+    }
+   ]
+  },
+  {
+   "id": "spaces-and-settings",
+   "title": "Spaces and settings",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-and-settings-0",
+     "label": "The Overlook",
+     "value": "Sqft: 3200 · Setting: indoor · Note: largest room; folding glass doors to courtyard"
+    },
+    {
+     "id": "spaces-and-settings-1",
+     "label": "The Skylight Room",
+     "value": "Sqft: 1185 · Setting: indoor"
+    },
+    {
+     "id": "spaces-and-settings-2",
+     "label": "The Courtyard",
+     "value": "Sqft: 1300 · Setting: outdoor · Note: included in all rentals; used for ceremonies"
+    },
+    {
+     "id": "spaces-and-settings-3",
+     "label": "Setting 1",
+     "value": "Rooms: Overlook; Skylight Room; Courtyard · Seated: 280 · Flowing: 700 · Presentation: 300 · Mon-thu: $3,500 · Fri-sat: $4,500"
+    },
+    {
+     "id": "spaces-and-settings-4",
+     "label": "Setting 2",
+     "value": "Rooms: Skylight Room; Courtyard · Seated: 80 · Flowing: 300 · Mon-thu: $2,500 · Fri-sat: $3,500"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride room\nGroom room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Floor-length linens"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Setup, takedown and cleaning"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Venue coordinator onsite during the rental"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Chairs\nTables\nLinens\nEasels\nTelevisions\nCenterpieces\nCeremony arch\nSetup and takedown\nCleaning"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Venue host / coordinator on-site during the rental (venue logistics, not planning)"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Audio system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "Built-in AV: television and audio system"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBuilt-in audio system\nTelevision"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Ceremony arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Mountain views\nOutdoor courtyard (1,300 sq ft)\nCourtyard used for outdoor ceremonies\nGolf lounge with TrackMan simulator — $200\nPhoto booth — $200/hour"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "rent",
+     "value": "Photo booth: $200/hr. (2-hr minimum)"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Own caterer"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Own caterer allowed (licensed and insured)\nVenue gives recommendations"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Full prep kitchen"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed with a $400 alcohol-use fee\nMust use an approved licensed bartending vendor\nNo shots or straight liquor; service ends 90 minutes before the event ends; 5-hour maximum"
+    }
+   ]
+  },
+  {
+   "id": "alcohol-rules",
+   "title": "Alcohol rules",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "alcohol-rules-0",
+     "label": "Fee",
+     "value": "$400"
+    },
+    {
+     "id": "alcohol-rules-1",
+     "label": "Bartender",
+     "value": "approved licensed bartending vendor"
+    },
+    {
+     "id": "alcohol-rules-2",
+     "label": "Limits",
+     "value": "no shots or straight liquor; service ends 90 minutes before event end; max 5 hours of service"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Sparklers are permitted only in the parking lot."
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes, in the parking lot only\nCold sparklers permitted"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Thu 1pm-11pm\nFri-Sat 1pm-11pm\nAll-day 10am-11pm\nBridal or baby shower 9am-12pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "10-13 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Additional hours $200/hour\nOutdoor music must stop by 10pm\nNo confetti, petals, rice or streamers\nCandles only if the flame is fully enclosed in glass\nNo fog machines or CO2 cannons indoors\nSmoke-, vape- and drug-free\nNo tacking, taping or nailing decor"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Accessible (ADA) parking spaces"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Accessible parking spaces in the lot"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Ample on-site parking\nAbout 160 stalls\nWeekday business-hours events may have limited parking (shared with building tenants)"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Seated capacity differs by page: Pricing and Weddings pages say 280 (Setting 1), home page says 300, FAQ says 200.\nFAQ lists wedding hours as 4pm-11pm (all-day 11am-11pm) and overtime at $150 per half hour; the Pricing page says 1pm-11pm, all-day 10am-11pm, $200 per additional hour."
+    }
+   ]
+  },
+  {
+   "id": "showers",
+   "title": "Showers",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "showers-0",
+     "label": "Price",
+     "value": "$750"
+    },
+    {
+     "id": "showers-1",
+     "label": "Deposit",
+     "value": "$250"
+    },
+    {
+     "id": "showers-2",
+     "label": "Hours",
+     "value": "9am-12pm"
+    },
+    {
+     "id": "showers-3",
+     "label": "Space",
+     "value": "Setting 2"
+    },
+    {
+     "id": "showers-4",
+     "label": "Includes",
+     "value": "tables/chairs; televisions"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-448-7714\nEmail: info@therooftoplehi.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.therooftoplehi.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "rooftop-venue",
+  "Venue Name": "The Rooftop",
+  "link": "https://www.therooftoplehi.com/",
+  "City": "Lehi",
+  "Full Address": "139 N Hunters Grove Ln, Suite 400, Lehi, UT 84043",
+  "Description": "A modern rooftop venue in Lehi with Wasatch Mountain views, two indoor rooms (the Overlook and the Skylight Room) and an outdoor courtyard; tables, floor-length linens, centerpieces, a ceremony arch, AV and a venue host are included.",
+  "Price Low": "2500",
+  "Price High": "4500",
+  "Price Basis": "rental",
+  "Standard Price Range": "Rentals $2,500–$4,500",
+  "Seated Low": "80",
+  "Seated High": "300",
+  "Seated Capacity": "Setting 2: 80\nSetting 1: 280 (pricing)\n300 (home page)\n200 (FAQ)",
+  "Standing Low": "300",
+  "Standing High": "700",
+  "Standing Capacity": "Setting 1: up to 700 flowing reception\nSetting 2: up to 300 flowing reception",
+  "Packages and Prices": "Setting 1 (large event: Overlook, Skylight Room and Courtyard) — Mon-Thu 1pm-11pm — $3,500\nSetting 1 — Fri-Sat 1pm-11pm — $4,500\nSetting 2 (small event: excludes the Overlook) — Mon-Thu 1pm-11pm — $2,500\nSetting 2 — Fri-Sat 1pm-11pm — $3,500\nBoth settings include setup/takedown, cleaning, tables, chairs, linens, easels, television, audio system, centerpieces, ceremony arch, venue host, bride room, groom room, full prep kitchen and parking\nAll-day rental 10am-11pm — $500\nAdditional hour — $200\nGolf lounge (TrackMan simulator) — $200\nPhoto booth — $200/hour, 2-hour minimum\nAlcohol-use fee — $400\nSecurity deposit — $750\nBridal or baby shower, Setting 2, 9am-12pm, tables/chairs and televisions — $750 (deposit $250)",
+  "Time slots": "Mon-Thu 1pm-11pm\nFri-Sat 1pm-11pm\nAll-day 10am-11pm\nBridal or baby shower 9am-12pm",
+  "Length of Rental": "10-13 hours",
+  "Style": "Modern\nElegant\nPanoramic",
+  "Other Decor Included": "Chairs\nTables\nLinens\nEasels\nTelevisions\nCenterpieces\nCeremony arch\nSetup and takedown\nCleaning",
+  "sparklers allowed": "Yes, in the parking lot only\nCold sparklers permitted",
+  "parking?": "Ample on-site parking\nAbout 160 stalls\nWeekday business-hours events may have limited parking (shared with building tenants)",
+  "sound system": "Yes\nBuilt-in audio system\nTelevision",
+  "extras": "Mountain views\nOutdoor courtyard (1,300 sq ft)\nCourtyard used for outdoor ceremonies\nGolf lounge with TrackMan simulator — $200\nPhoto booth — $200/hour",
+  "cleanup crew": "Included",
+  "Accessibility": "Accessible parking spaces in the lot",
+  "Deposit Policy": "Security deposit — $750 ($250 for showers)\nSigned contract and deposit reserve the date\nBalance due 30 days before the event\nDeposit refunded 10-15 business days after the event if no damage, excess cleaning or late departure\nAll cancellations forfeit the deposit; cancelling within 30 days forfeits the full rental fee",
+  "Catering": "Own caterer allowed (licensed and insured)\nVenue gives recommendations",
+  "Prep Area": "Full prep kitchen",
+  "Alcohol policy": "Alcohol allowed with a $400 alcohol-use fee\nMust use an approved licensed bartending vendor\nNo shots or straight liquor; service ends 90 minutes before the event ends; 5-hour maximum",
+  "Event Coordinator": "Venue host / coordinator on-site during the rental (venue logistics, not planning)",
+  "Bride/Groom Rooms": "Bride room\nGroom room",
+  "Restrictions": "Additional hours $200/hour\nOutdoor music must stop by 10pm\nNo confetti, petals, rice or streamers\nCandles only if the flame is fully enclosed in glass\nNo fog machines or CO2 cannons indoors\nSmoke-, vape- and drug-free\nNo tacking, taping or nailing decor",
+  "Important Notes": "Seated capacity differs by page: Pricing and Weddings pages say 280 (Setting 1), home page says 300, FAQ says 200.\nFAQ lists wedding hours as 4pm-11pm (all-day 11am-11pm) and overtime at $150 per half hour; the Pricing page says 1pm-11pm, all-day 10am-11pm, $200 per additional hour.",
+  "Contact Information": "Phone: 801-448-7714\nEmail: info@therooftoplehi.com"
+ }
+}

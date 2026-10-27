@@ -1,0 +1,744 @@
+{
+ "id": "white-willow-reception-center",
+ "name": "White Willow Reception Center",
+ "city": "Provo",
+ "description": "A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen.",
+ "styles": [
+  "Classic",
+  "Rustic"
+ ],
+ "priceMin": 1000,
+ "priceMax": 2350,
+ "priceBasis": "rental",
+ "priceText": "Mon–Wed / Thu / Fri–Sat evening and all-day rates, $1,000–$2,350",
+ "seated": 100,
+ "seatedMin": 100,
+ "seatedText": "100 chairs included (no stated maximum)",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound system with wireless microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound system with wireless microphone"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TV (connects to YouTube for easy slideshow presentation)"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride’s Room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "1-hour consultation; host or hostess onsite during the event"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom’s Room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Ballroom; Buffet Room, Parlors"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Parlors, Gardens"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Outside food and cake deliveries allowed"
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "Send-off sparklers, $6 per dozen pre-ordered or $9 per dozen day of event"
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Do-it-yourself centerpieces from the venue's decor collection"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Greenery (eucalyptus, evergreen, boxwood) and flowers"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Table and floor easels, signs, chalkboards"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Lanterns (antique, wooden, aged metal) and fairy lights"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Carved Cake Table, & choice of Cake Stand"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "342 N 500 W, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Historic\nVintage\nFrench farmhouse"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Mon–Wed / Thu / Fri–Sat evening and all-day rates, $1,000–$2,350"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site — Mon-Wed morning 10am-3pm $1,000\nSame inclusions — Thu morning 10am-3pm $1,100\nSame inclusions — Fri-Sat morning 10am-3pm $1,200\nSame inclusions — Mon-Wed evening 4pm-10pm $1,350\nSame inclusions — Thu evening 4pm-10pm $1,600\nSame inclusions — Fri-Sat evening 4pm-10pm $1,850\nSame inclusions — Mon-Wed all-day 10am-10pm $1,850\nSame inclusions — Thu all-day 10am-10pm $2,100\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$500 non-refundable deposit at booking\nBalance due two weeks before event"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Ballroom; Buffet Room, Parlors"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Parlors, Gardens"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "100 chairs included (no stated maximum)"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Spaces",
+     "value": "Ballroom (added 1998); Buffet room; Parlors; Gardens; Bride's room; Groom's room; Serving kitchen"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride’s Room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom’s Room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's room\nGroom's room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "1-hour consultation; host or hostess onsite during the event"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "10 60-inch round tables\n2 6-foot banquet tables\n8 adjustable cocktail tables\n100 white chairs\nCarved cake table\nChoice of cake stand\nCenterpiece bases (wood slices, silver chargers, golden mirrors and more)\nGreenery (eucalyptus, evergreen, boxwood and more)\nFlowers (roses, baby's breath, sunflowers, peonies and more)\nLanterns (antique, wooden, aged metal and more)\nTable easels\nFloor easels\nSigns\nChalkboards\nGift card holders"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "1-hour personalized consultation\nHost or hostess on site during event"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Staff set up and take down all venue-provided inventory\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nFloor cleaning fee — $50 on all rentals\nKitchen cleaning is the renter's responsibility"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Sound system with wireless microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound system with wireless microphone"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TV (connects to YouTube for easy slideshow presentation)"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound system with wireless microphone (connects to a phone or device)\nTV (connects to YouTube for slideshows)"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Do-it-yourself centerpieces from the venue's decor collection"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "Greenery (eucalyptus, evergreen, boxwood) and flowers"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Table and floor easels, signs, chalkboards"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "Lanterns (antique, wooden, aged metal) and fairy lights"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Additional 60-inch round table and 10 chairs — $35 per set\nLinens — extra cost, must be rented through venue"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Food service and cleanup staff — $300 for up to 3 hours\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Carved Cake Table, & choice of Cake Stand"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Outside food and cake deliveries allowed"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Self-catered: no in-house catering listed; outside food deliveries allowed during the rental period\nServing kitchen with fridge, freezer and microwave\nNo oven or cooking\nKitchen cleaning is renter responsibility"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Serving kitchen\nFridge\nFreezer\nMicrowave\nNo oven or cooking"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "No alcohol permitted"
+    }
+   ]
+  },
+  {
+   "id": "diy-centerpiece-bar",
+   "title": "DIY centerpiece bar",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "diy-centerpiece-bar-0",
+     "label": "Bases",
+     "value": "wood slices; silver chargers; golden mirrors"
+    },
+    {
+     "id": "diy-centerpiece-bar-1",
+     "label": "Greenery",
+     "value": "eucalyptus; evergreen; boxwood"
+    },
+    {
+     "id": "diy-centerpiece-bar-2",
+     "label": "Flowers",
+     "value": "roses; baby's breath; Queen Anne; succulents; sunflowers; dahlias; peonies"
+    },
+    {
+     "id": "diy-centerpiece-bar-3",
+     "label": "Lanterns",
+     "value": "antique; fairy lights; wooden; aged metal"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "addon",
+     "value": "Send-off sparklers, $6 per dozen pre-ordered or $9 per dozen day of event"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes\n$6 per dozen pre-ordered\n$9 per dozen day of event"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Wed 10am-3pm\nThu 10am-3pm\nFri-Sat 10am-3pm\nMon-Wed 4pm-10pm\nThu 4pm-10pm\nFri-Sat 4pm-10pm\nMon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "5-12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No cooking in serving kitchen\nNo alcohol on site\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Historic 1904 mansion\n95% of home is original\nBallroom added in 1998\n$50 floor cleaning fee added to all rentals"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.whitewillowweddings.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "white-willow-reception-center",
+  "Venue Name": "White Willow Reception Center",
+  "link": "https://www.whitewillowweddings.com/",
+  "City": "Provo",
+  "Full Address": "342 N 500 W, Provo, UT 84601",
+  "Description": "A historic 1904 Provo mansion reception venue featuring original stained glass and handcrafted woodwork, a ballroom, French farmhouse character, gardens, parlors, patio space, and a serving kitchen.",
+  "Price Low": "1000",
+  "Price High": "2350",
+  "Price Basis": "rental",
+  "Standard Price Range": "Mon–Wed / Thu / Fri–Sat evening and all-day rates, $1,000–$2,350",
+  "Seated Low": "100",
+  "Seated High": "100",
+  "Seated Capacity": "100 chairs included (no stated maximum)",
+  "Packages and Prices": "Use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site — Mon-Wed morning 10am-3pm $1,000\nSame inclusions — Thu morning 10am-3pm $1,100\nSame inclusions — Fri-Sat morning 10am-3pm $1,200\nSame inclusions — Mon-Wed evening 4pm-10pm $1,350\nSame inclusions — Thu evening 4pm-10pm $1,600\nSame inclusions — Fri-Sat evening 4pm-10pm $1,850\nSame inclusions — Mon-Wed all-day 10am-10pm $1,850\nSame inclusions — Thu all-day 10am-10pm $2,100\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue",
+  "Time slots": "Mon-Wed 10am-3pm\nThu 10am-3pm\nFri-Sat 10am-3pm\nMon-Wed 4pm-10pm\nThu 4pm-10pm\nFri-Sat 4pm-10pm\nMon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
+  "Length of Rental": "5-12 hours",
+  "Style": "Historic\nVintage\nFrench farmhouse",
+  "Other Decor Included": "10 60-inch round tables\n2 6-foot banquet tables\n8 adjustable cocktail tables\n100 white chairs\nCarved cake table\nChoice of cake stand\nCenterpiece bases (wood slices, silver chargers, golden mirrors and more)\nGreenery (eucalyptus, evergreen, boxwood and more)\nFlowers (roses, baby's breath, sunflowers, peonies and more)\nLanterns (antique, wooden, aged metal and more)\nTable easels\nFloor easels\nSigns\nChalkboards\nGift card holders",
+  "Other Decor for Rent": "Additional 60-inch round table and 10 chairs — $35 per set\nLinens — extra cost, must be rented through venue",
+  "sparklers allowed": "Yes\n$6 per dozen pre-ordered\n$9 per dozen day of event",
+  "sound system": "Yes\nSound system with wireless microphone (connects to a phone or device)\nTV (connects to YouTube for slideshows)",
+  "extras": "Food service and cleanup staff — $300 for up to 3 hours\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35",
+  "cleanup crew": "Staff set up and take down all venue-provided inventory\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nFloor cleaning fee — $50 on all rentals\nKitchen cleaning is the renter's responsibility",
+  "Deposit Policy": "$500 non-refundable deposit at booking\nBalance due two weeks before event",
+  "Catering": "Self-catered: no in-house catering listed; outside food deliveries allowed during the rental period\nServing kitchen with fridge, freezer and microwave\nNo oven or cooking\nKitchen cleaning is renter responsibility",
+  "Prep Area": "Serving kitchen\nFridge\nFreezer\nMicrowave\nNo oven or cooking",
+  "Alcohol policy": "No alcohol permitted",
+  "Event Coordinator": "1-hour personalized consultation\nHost or hostess on site during event",
+  "Bride/Groom Rooms": "Bride's room\nGroom's room",
+  "Restrictions": "No cooking in serving kitchen\nNo alcohol on site\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period",
+  "Important Notes": "Historic 1904 mansion\n95% of home is original\nBallroom added in 1998\n$50 floor cleaning fee added to all rentals",
+  "Contact Information": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com"
+ }
+}

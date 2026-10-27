@@ -1,0 +1,1004 @@
+{
+ "row": 35,
+ "id": "alpine-art-center",
+ "name": "Alpine Art Center",
+ "website": "https://alpineartcenter.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://alpineartcenter.com/ (home: setting, catering note, address, phone)",
+  "https://alpineartcenter.com/pricing/ (2026 prices, inclusions, add-ons, rentals, payment and alcohol policy; same as /events/pricing/)",
+  "https://alpineartcenter.com/events/ (event types, 'Included In Price' amenities)",
+  "https://alpineartcenter.com/faq/ (capacity, catering, sparklers, alcohol, candles, payments)",
+  "https://alpineartcenter.com/catering/ (self-catering policy, kitchen)",
+  "https://alpineartcenter.com/catering/plated-meals/ (plated menu prices)",
+  "https://alpineartcenter.com/catering/alacarte-meals/ (buffet prices)",
+  "https://alpineartcenter.com/about-us/ (history, setup and cleanup)",
+  "https://alpineartcenter.com/contact-us/ (phone, email, address)",
+  "https://alpineartcenter.com/tours/ and https://alpineartcenter.com/gallery/ (no extra facts)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "450 South Alpine Highway Suite 100, Alpine, Utah 84004",
+  "note": "Alpine, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Alpine Art Center",
+   "verified_value": "Alpine Art Center",
+   "action": "confirmed",
+   "change_origin": "Official site.",
+   "source_url": "https://alpineartcenter.com/",
+   "evidence": "'Alpine Art Center'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://alpineartcenter.com/",
+   "verified_value": "https://alpineartcenter.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads.",
+   "source_url": "https://alpineartcenter.com/",
+   "evidence": "Home page loads",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "An elegant Alpine reception venue combining an art gallery, sculpture park, gardens, water features, flexible indoor and outdoor ceremony areas, and a full-service event setup.",
+   "verified_value": "An elegant Alpine event center combining an art gallery, sculpture park, gardens and water features, with indoor and outdoor ceremony locations, an included banquet-room setup and in-house catering.",
+   "action": "corrected",
+   "change_origin": "Official site, home and Events pages: replaced 'full-service event setup' (a Luxury rule cue the site doesn't use) with the included banquet setup and in-house catering.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'beautiful, versatile, and elegant venue'; home: 'garden scenes, stunning water features, a gorgeous art gallery, and our very own sculpture park'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,700-$4,200",
+   "verified_value": "$1,700-$4,200",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page (2026).",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "Mon-Wed off season 10am-3pm $1,700 ... Fri-Sat on season 10am-10pm $4,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour",
+   "verified_value": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added 'Large Chandelier' to inclusions, alcohol charge; FAQ: $65 cake service.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "Includes: 'Large Chandelier'; 'Alcohol Charge = $400'; FAQ: '$65 cake service fee'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "80",
+   "verified_value": "120 sit-down dinner",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: 120 for a sit-down dinner; the old 80 was the number of included chairs.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'We can seat 200 theater-style, 120 for a sit-down dinner'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "80 teak chairs are included; extra tables with chairs rent at $35. Theater-style 200 kept in Important Notes."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "400-500 come-and-go reception\n360-400 for a dance",
+   "action": "added",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'360-400 for a dance, and 400-500 for a reception (come and go)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm",
+   "verified_value": "Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page (2026).",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'10 am – 3 pm', '5 pm – 10 pm', '10 am – 10 pm' for each day group and season",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "5-12 hours",
+   "verified_value": "5-12 hours",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "5-hour blocks or 10am-10pm (12 hours)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nLush\nPicturesque",
+   "verified_value": "Elegant\nLush\nPicturesque",
+   "action": "confirmed",
+   "change_origin": "Official site, home and Events pages.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'elegant venue'; 'lush greenery'; home: 'These picturesque views'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Official site, Events and Pricing pages.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "Included In Price: '10 floor length linens'; 'Table runners'; 'Linen overlays'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "10 round tables\n2 banquet tables\n80 teak chairs\nCake table\nServing tables\nCabaret tables\nSign-in table\nDrink table\n3 easels\nProjector\nCenterpiece options\nBaby grand piano\nLinens\nBride and groom rooms",
+   "verified_value": "10 60-inch round tables\n2 8-foot banquet tables\n80 Italian teak chairs\nCake table\n2 serving tables\n2 cabaret tables\nSign-in table\nDrink table\n3 floor easels\nProjector (HDMI)\nCenterpiece options\nLarge chandelier\nBaby grand piano\n10 floor-length linens, overlays and table runners\nPersonalized sign at entrance\nBirdcage",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing and Events pages: added large chandelier, runners/overlays, personalized entrance sign and birdcage; removed bride/groom rooms (own column).",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Large Chandelier'; 'Personalized sign at entrance'; 'Birdcage'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Additional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8",
+   "verified_value": "Additional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page 'Items For Rent'.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Rectangle Sweethearts Table 4′ (Each) $22'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Official site: banquet room plus gardens and outdoor ceremonies.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'multiple indoor and outdoor ceremony locations'; 'Full access to gardens'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "No (illegal at this location)\nFiber-optic wand send-off offered instead — $50",
+   "action": "added",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'Can we have sparklers at our event? No, due to our location they are unfortunately illegal.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Large parking lot",
+   "verified_value": "Large parking lot",
+   "action": "confirmed",
+   "change_origin": "Official site, Events page.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Large parking lot'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "450 S Alpine Hwy, Suite 100, Alpine, UT 84004",
+   "verified_value": "450 S Alpine Hwy, Suite 100, Alpine, UT 84004",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://alpineartcenter.com/contact-us/",
+   "evidence": "'450 South Alpine Highway Suite 100 Alpine, Utah 84004'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Alpine",
+   "verified_value": "Alpine",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://alpineartcenter.com/contact-us/",
+   "evidence": "'Alpine, Utah 84004'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSpeaker system\nWireless microphone\nProjector",
+   "verified_value": "Yes\nSpeaker system\nWireless microphone\nProjector",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing and Events pages.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Sound system with microphone (one cordless)'; 'Projector'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Art gallery\nSculpture park\nGardens\nWater features\nGazebo\nBaby grand piano\nIndoor and outdoor ceremony areas",
+   "verified_value": "Art gallery\nSculpture park\nGardens\nWater features and fountains\nGazebo\nPergola\nBaby grand piano\nIndoor and outdoor ceremony locations",
+   "action": "corrected",
+   "change_origin": "Official site, Events page amenities: added pergola and fountains.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Gazebo'; 'Water feature and outdoor fountain'; 'Indoor fountain'; 'Pergola'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included: set-up and take-down of tables and chairs, and venue cleanup\nSelf-catering parties must empty trash and wipe counters ($300 fee if not)",
+   "action": "added",
+   "change_origin": "Official site: set-up/take-down included (Pricing), venue provides cleanup (About), alcohol charge covers 'extra clean-up' (Pricing).",
+   "source_url": "https://alpineartcenter.com/about-us/",
+   "evidence": "'provide setup and cleanup to make the evening less stressful'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The About-page sentence is in a school-events paragraph; the alcohol-charge wording implies staff do standard cleanup. Self-catering parties have kitchen duties."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "$1,000 payment to reserve the date\nNon-refundable\n$500 transfer fee if the date is moved",
+   "verified_value": "$1,000 non-refundable payment reserves the date\nBalance due 60 days before the event\nFinal payments (add-ons, catering) due 4 weeks before\nAll payments non-refundable\n$500 transfer fee to move the date\nCancelling 60 days or less before the event: full rental due",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page and FAQ: added the 60-day balance and cancellation rule.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'A secondary payment is due 60 days before the event.'; 'If an event is cancelled 60 days or less from the event date, the rental must be paid in full.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Catering available through Alpine Art Center\nSelf-catering allowed",
+   "verified_value": "In-house catering: plated meals $20.95-$29.95 per person; buffet items priced per 100 guests\nSelf-catering allowed (own food or caterer, under the self-catering policy)",
+   "action": "corrected",
+   "change_origin": "Official site, Catering pages: in-house menu prices added; self-catering confirmed.",
+   "source_url": "https://alpineartcenter.com/catering/",
+   "evidence": "'We allow renting parties to bring in their own food for events.'; plated meals $20.95-$29.95",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Kitchen counters\nSinks\nCarts\nBuffet tables\nIce maker\nTrash cans and liners\nRefrigerator\nNo ovens, stoves, freezers or utensils",
+   "verified_value": "Kitchen: sinks, counter tops, serving carts, buffet tables, ice maker, refrigerator, trash cans and liners\nNot available: ovens, stoves, freezers, utensils, silverware, glassware",
+   "action": "corrected",
+   "change_origin": "Official site, Catering page self-catering policy (wording; added silverware/glassware).",
+   "source_url": "https://alpineartcenter.com/catering/",
+   "evidence": "Available: 'Sinks, Kitchen Counter Tops, Serving Carts...'; NOT available: 'Ovens & Stoves, Freezers, Utensils'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "$400 alcohol charge\nLicensed bartender required\nClient furnishes the alcohol",
+   "verified_value": "$400 alcohol charge (includes table, chilling, ice machine use and extra clean-up)\nLicensed, insured bartender from the Center's required list (COPA, The Bar Project, Cheers & Swizzles)\nClient furnishes the alcohol",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page and FAQ: named the required bartender list and what the $400 covers.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'You must use one of our Preferred Bartenders which are: COPA, The Bar Project, or Cheers & Swizzles.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event Host\nEvent Director",
+   "verified_value": "Event Host\nEvent Director",
+   "action": "confirmed",
+   "change_origin": "Official site, Events and Catering pages.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Our incredible Wedding Staff and Event Director'; 'Event Hostess'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride room\nGroom room",
+   "verified_value": "Bride room\nGroom room",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Bride's Room'; 'Groom's Room'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Licensed bartender required for alcohol\nNo open-flame candles except enclosed candles\nClient must follow cleanup and cancellation policies",
+   "verified_value": "Licensed bartender required for alcohol\nCandles must be contained so wax does not drip on linens\nNo sparklers\nSelf-catering: no use of ovens, stoves, freezers or utensils",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: candles are allowed if contained (old row said no open flame); added sparkler ban; removed filler 'Client must follow cleanup and cancellation policies'.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'Can we have open flame candles...? Yes, you can! The candles must be contained'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "No hidden mandatory service charges stated on the official pricing page\nFinal payment due four weeks before the event",
+   "verified_value": "Prices are 2026 rates; on season April-October, off season November-March.\nSeats 200 theater-style (ceremony).\nCatering has no hidden or mandatory service charges (home page).\nFAQ says final payment is due 3.5 weeks before the event; the Pricing page says 4 weeks.",
+   "action": "corrected",
+   "change_origin": "Official site: 'no hidden service charges' is about catering (home page), not the pricing page; added season definitions, theater seating and the payment-date conflict.",
+   "source_url": "https://alpineartcenter.com/",
+   "evidence": "'experience food at its finest, without any hidden or mandatory service charges'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com",
+   "verified_value": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://alpineartcenter.com/contact-us/",
+   "evidence": "'(801) 763-7173'; 'info@alpineartcenter.com'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    1700,
+    4200
+   ],
+   "verified_value": [
+    1700,
+    4200
+   ],
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "$1,700 to $4,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 80,
+   "verified_value": 120,
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: 120 for a sit-down dinner (old 80 = included chairs).",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'120 for a sit-down dinner'",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "200 theater-style not used for the slider; team may decide otherwise."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Alpine",
+   "verified_value": "Alpine",
+   "action": "confirmed",
+   "change_origin": "Official site, Contact page.",
+   "source_url": "https://alpineartcenter.com/contact-us/",
+   "evidence": "'Alpine, Utah 84004'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Events page.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Sound system with microphone (one cordless)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Projector (with HDMI connection)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Speaker System'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Bride's Room'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Groom's Room'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site: venue provides set-up/take-down and cleanup.",
+   "source_url": "https://alpineartcenter.com/about-us/",
+   "evidence": "'provide setup and cleanup'",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "See cleanup crew column notes."
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Events page.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'Event Director will work with you with a hands-on approach'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Banquet Room'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Events page.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'multiple indoor and outdoor ceremony locations'; 'Full access to gardens'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Events page.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'10 floor length linens'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ and Catering page.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'Can I bring in my own catering? Yes, you can.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ: sparklers not allowed.",
+   "source_url": "https://alpineartcenter.com/faq/",
+   "evidence": "'No, due to our location they are unfortunately illegal.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing and Events pages.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Centerpieces Options'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Gazebo and pergola exist on the grounds but no arch/backdrop item is listed."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Gardens are part of the grounds, not a decor item."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing and Events pages.",
+   "source_url": "https://alpineartcenter.com/events/",
+   "evidence": "'3 floor easels'; 'Personalized sign at entrance'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Contained candles are allowed if brought by the client."
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Pricing page inclusions.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "Includes: 'Large Chandelier'",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Cake Table 32″'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'1 Drink Table (4′)'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Baby Grand Piano'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Official site, Pricing page.",
+   "source_url": "https://alpineartcenter.com/pricing/",
+   "evidence": "'Rectangle Sweethearts Table 4′ (Each) $22'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Alpine Art Center",
+  "link": "https://alpineartcenter.com/",
+  "Description": "An elegant Alpine event center combining an art gallery, sculpture park, gardens and water features, with indoor and outdoor ceremony locations, an included banquet-room setup and in-house catering.",
+  "Standard Price Range": "$1,700-$4,200",
+  "Packages and Prices": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65",
+  "Seated Capacity": "120 sit-down dinner",
+  "Standing Capacity": "400-500 come-and-go reception\n360-400 for a dance",
+  "Time slots": "Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm",
+  "Length of Rental": "5-12 hours",
+  "Style": "Elegant\nLush\nPicturesque",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "10 60-inch round tables\n2 8-foot banquet tables\n80 Italian teak chairs\nCake table\n2 serving tables\n2 cabaret tables\nSign-in table\nDrink table\n3 floor easels\nProjector (HDMI)\nCenterpiece options\nLarge chandelier\nBaby grand piano\n10 floor-length linens, overlays and table runners\nPersonalized sign at entrance\nBirdcage",
+  "Other Decor for Rent": "Additional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8",
+  "outside/inside": "Both",
+  "sparklers allowed": "No (illegal at this location)\nFiber-optic wand send-off offered instead — $50",
+  "parking?": "Large parking lot",
+  "Full Address": "450 S Alpine Hwy, Suite 100, Alpine, UT 84004",
+  "City": "Alpine",
+  "sound system": "Yes\nSpeaker system\nWireless microphone\nProjector",
+  "extras": "Art gallery\nSculpture park\nGardens\nWater features and fountains\nGazebo\nPergola\nBaby grand piano\nIndoor and outdoor ceremony locations",
+  "cleanup crew": "Included: set-up and take-down of tables and chairs, and venue cleanup\nSelf-catering parties must empty trash and wipe counters ($300 fee if not)",
+  "Accessibility": "",
+  "Deposit Policy": "$1,000 non-refundable payment reserves the date\nBalance due 60 days before the event\nFinal payments (add-ons, catering) due 4 weeks before\nAll payments non-refundable\n$500 transfer fee to move the date\nCancelling 60 days or less before the event: full rental due",
+  "Catering": "In-house catering: plated meals $20.95-$29.95 per person; buffet items priced per 100 guests\nSelf-catering allowed (own food or caterer, under the self-catering policy)",
+  "Prep Area": "Kitchen: sinks, counter tops, serving carts, buffet tables, ice maker, refrigerator, trash cans and liners\nNot available: ovens, stoves, freezers, utensils, silverware, glassware",
+  "Alcohol policy": "$400 alcohol charge (includes table, chilling, ice machine use and extra clean-up)\nLicensed, insured bartender from the Center's required list (COPA, The Bar Project, Cheers & Swizzles)\nClient furnishes the alcohol",
+  "Event Coordinator": "Event Host\nEvent Director",
+  "Bride/Groom Rooms": "Bride room\nGroom room",
+  "Restrictions": "Licensed bartender required for alcohol\nCandles must be contained so wax does not drip on linens\nNo sparklers\nSelf-catering: no use of ovens, stoves, freezers or utensils",
+  "Important Notes": "Prices are 2026 rates; on season April-October, off season November-March.\nSeats 200 theater-style (ceremony).\nCatering has no hidden or mandatory service charges (home page).\nFAQ says final payment is due 3.5 weeks before the event; the Pricing page says 4 weeks.",
+  "Contact Information": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Classic",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Site calls itself 'elegant' (Classic per rules; not upscale enough for Luxury) and centres on gardens, a sculpture park and water features (Outdoors). The corrected Description keeps 'elegant', 'sculpture park' and 'gardens', so the rules give the same tags.",
+  "site_cues": [
+   "'beautiful, versatile, and elegant venue'",
+   "'our very own sculpture park'",
+   "'lush greenery'",
+   "reviewer: 'a classic venue'"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal and day-of-week pricing",
+   "why": "18 prices by day group, season and time block",
+   "data": {
+    "year": 2026,
+    "seasons": {
+     "on": "April-October",
+     "off": "November-March"
+    },
+    "prices": {
+     "Mon-Wed": {
+      "on": {
+       "10am-3pm": "$2,400",
+       "5pm-10pm": "$2,600",
+       "10am-10pm": "$3,000"
+      },
+      "off": {
+       "10am-3pm": "$1,700",
+       "5pm-10pm": "$1,900",
+       "10am-10pm": "$2,500"
+      }
+     },
+     "Thu": {
+      "on": {
+       "10am-3pm": "$2,600",
+       "5pm-10pm": "$3,000",
+       "10am-10pm": "$3,600"
+      },
+      "off": {
+       "10am-3pm": "$1,900",
+       "5pm-10pm": "$2,500",
+       "10am-10pm": "$2,900"
+      }
+     },
+     "Fri-Sat": {
+      "on": {
+       "10am-3pm": "$3,000",
+       "5pm-10pm": "$3,600",
+       "10am-10pm": "$4,200"
+      },
+      "off": {
+       "10am-3pm": "$2,500",
+       "5pm-10pm": "$2,900",
+       "10am-10pm": "$3,300"
+      }
+     }
+    },
+    "extra_time": "$250/hour; after 10pm $350/hour"
+   }
+  },
+  {
+   "title": "Ceremony sites",
+   "why": "Separate paid indoor and outdoor ceremonies",
+   "data": {
+    "indoor": {
+     "price": "$350",
+     "includes": [
+      "chair setup/takedown",
+      "rehearsal",
+      "staff to play music"
+     ]
+    },
+    "outdoor": {
+     "price": "$350",
+     "includes": [
+      "black wrought iron chairs",
+      "chair setup/takedown",
+      "rehearsal",
+      "staff to play music"
+     ]
+    },
+    "theater_seating": 200
+   }
+  },
+  {
+   "title": "Send-off packages",
+   "why": "Priced send-offs instead of sparklers",
+   "data": {
+    "bubble": "$75",
+    "streamer": "$50",
+    "fiber-optic wand": "$50",
+    "quantity": "50 guests"
+   }
+  },
+  {
+   "title": "Catering menu",
+   "why": "In-house catering with per-person and per-100 prices",
+   "data": {
+    "plated_per_person": {
+     "range": "$20.95-$29.95",
+     "examples": {
+      "Chicken Cordon Bleu": "$29.95",
+      "Spaghetti with Marinara": "$20.95",
+      "Baron of Beef": "$26.95"
+     }
+    },
+    "buffet": {
+     "unit": "per 100 guests",
+     "minimum": 100,
+     "examples": {
+      "Raspberry Lemonade": "$255",
+      "Soda Bar": "$595",
+      "Croissants": "$575"
+     }
+    },
+    "cake_cutting": "$65",
+    "self_catering": "allowed; $300 fee if policy broken"
+   }
+  },
+  {
+   "title": "Capacity by layout",
+   "why": "Different figures for dinner, theater, dance and reception",
+   "data": {
+    "sit-down dinner": 120,
+    "theater": 200,
+    "dance": "360-400",
+    "come-and-go reception": "400-500",
+    "included chairs": 80
+   }
+  }
+ ],
+ "open_questions": [
+  "Capacity slider: use 120 (sit-down dinner) or 200 (theater-style)? Audit uses 120.",
+  "Is general cleanup done by staff for weddings? Implied (About page, alcohol charge wording), not stated plainly.",
+  "Final payment: 4 weeks (Pricing) or 3.5 weeks (FAQ) before the event?"
+ ]
+}

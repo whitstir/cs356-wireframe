@@ -1,0 +1,223 @@
+{
+ "row": 36,
+ "id": "knot-and-pine",
+ "official_name": {
+  "name": "Knot & Pine",
+  "source_url": "https://knotandpine.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Is the venue accessible for guests with disabilities? Yes, the venue is fully accessible for all guests.",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "a top-of-the-line Bluetooth sound system with speakers and a microphone is included",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Yes, a top-of-the-line Bluetooth sound system with speakers and a microphone is included.",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal suite with vanity and full-length mirror",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Our staff handles general venue cleaning.",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Event hostess available one hour before and during the event to assist with setup and guest needs",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's loft with lounge area",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Spacious 4,500 sq ft venue with ample seating",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Indoor/outdoor string and bistro lighting.",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "We have an open vendor policy (except for alcohol service), so you're welcome to choose any vendor you like",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/vendors"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "a sparkler send-off on a snowy night ... Guests line both sides, holding glowing sparklers high",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Backdrop Rentals ... $200 for wooden arch",
+   "price": "$200",
+   "source_url": "https://www.knotandpine.com/packages"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "rent",
+   "wording": "Draping $700 for ceiling and walls",
+   "price": "$700",
+   "source_url": "https://www.knotandpine.com/packages"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Fresh Table Greenery $79 for 6ft, min of 4",
+   "price": "$79",
+   "source_url": "https://www.knotandpine.com/packages"
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "Candle Package $30 per table",
+   "price": "$30 per table",
+   "source_url": "https://www.knotandpine.com/packages"
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "wooden chairs, and chandeliers adorned with flowers",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included+rent",
+   "wording": "Indoor/outdoor string and bistro lighting.",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Two buffet tables and a cake table.",
+   "price": "",
+   "source_url": "https://www.knotandpine.com/amenities"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 3500,
+  "high": 4750,
+  "basis": "rental",
+  "wording": "Day-group rates $3,500–$4,750",
+  "math": ""
+ },
+ "seated": {
+  "low": 120,
+  "high": 120,
+  "wording": "Up to 120"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Knot & Pine"
+ }
+}

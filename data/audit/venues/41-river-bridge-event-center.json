@@ -1,0 +1,1025 @@
+{
+ "row": 41,
+ "id": "river-bridge-event-center",
+ "name": "River Bridge Event Center",
+ "website": "https://www.riverbridgeeventcenter.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.riverbridgeeventcenter.com/ (home: overview, contact block)",
+  "https://www.riverbridgeeventcenter.com/about-us (about: team, space)",
+  "https://www.riverbridgeeventcenter.com/pricing (pricing hub; links to 2026/2027 pricing and packages)",
+  "https://www.riverbridgeeventcenter.com/2026pricing (2026 peak/off-season rental prices)",
+  "https://www.riverbridgeeventcenter.com/2027pricing (2027 prices; identical to 2026)",
+  "https://www.riverbridgeeventcenter.com/amenities (full indoor/outdoor amenities list)",
+  "https://www.riverbridgeeventcenter.com/packages (optional add-on packages, alcohol fee, chinaware)",
+  "https://www.riverbridgeeventcenter.com/vendors (preferred vendor categories; read in browser)",
+  "https://www.riverbridgeeventcenter.com/catering (preferred caterers list)",
+  "https://www.riverbridgeeventcenter.com/bartending (preferred bartenders)",
+  "https://www.riverbridgeeventcenter.com/rentals (preferred rental companies)",
+  "https://www.riverbridgeeventcenter.com/contact (address, phone, email)",
+  "https://www.riverbridgeeventcenter.com/galleries (portfolio; no captions)",
+  "https://www.riverbridgeeventcenter.com/copy-of-home (old home copy, same text)",
+  "https://www.riverbridgeeventcenter.com/pages-sitemap.xml (page list)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "1225 S Main Street, Spanish Fork, Utah 84660",
+  "note": "Every page footer and the contact page give Spanish Fork. The sheet's 1650 W 500 S, Springville address and Springville city are wrong."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "River Bridge Event Center",
+   "verified_value": "River Bridge Event Center",
+   "action": "confirmed",
+   "change_origin": "Official site, every page header and footer.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "Welcome to River Bridge Event Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.riverbridgeeventcenter.com/",
+   "verified_value": "https://www.riverbridgeeventcenter.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads at this URL.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "Page loads (HTTP 200).",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A polished reception venue in Spanish Fork with a 7,000-square-foot ballroom, indoor and outdoor ceremony spaces, built-in audio, elegant furnishings, and flexible packages for intimate or large celebrations.",
+   "verified_value": "A wedding venue in Spanish Fork with an indoor reception hall, indoor and outdoor ceremony locations, a covered patio and pavilion, a lawn with a water feature and mountain views on the Spanish Fork River trail; rentals include furniture, sound, setup and cleanup.",
+   "action": "corrected",
+   "change_origin": "Corrected: the 7,000-square-foot ballroom is not on the site; facts rewritten from the Amenities and About pages.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Covered patio | Covered pavilion with lighting | Lawn area | Water feature | Located on Spanish Fork river trail",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site never states square footage or a ballroom size."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$3,000-$7,000",
+   "verified_value": "$3,000-$7,000",
+   "action": "confirmed",
+   "change_origin": "Official site, 2026 and 2027 pricing pages: off-season half day $3,000 up to peak Friday-Saturday $7,000.",
+   "source_url": "https://www.riverbridgeeventcenter.com/2026pricing",
+   "evidence": "HALF DAY $3,000 ... FRIDAY - SATURDAY $7,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Same range as before but for different reasons: the old $3,000/$5,000/$7,000 weekday/Friday/Saturday split is not on the site. 2027 prices identical to 2026."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Venue rental with tables, chairs, bar, built-in audio, 12-foot sweetheart table, 8-foot head table, 8-foot guest tables, cake table, gift table, display tables, 4 easels, setup, cleanup, and one-hour pre-event consultation — Weekday 10am-10pm — $3,000\nSame inclusions — Friday 10am-11pm — $5,000\nSame inclusions — Saturday 10am-11pm — $7,000\nOne-hour additional time — $500",
+   "verified_value": "Peak season (May-October), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $5,000; Thursday $6,000; Friday-Saturday $7,000\nOff season (November-April), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $3,500; Thursday $4,500; Friday-Saturday $5,500\nOff-season half day, 6 hours Monday-Wednesday — $3,000\nUltimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request",
+   "action": "corrected",
+   "change_origin": "Corrected from the 2026/2027 pricing pages and Packages page; the old weekday/Friday/Saturday tiers and $500 extra hour were not on the site.",
+   "source_url": "https://www.riverbridgeeventcenter.com/2026pricing",
+   "evidence": "Peak May-October: Mon-Wed $5,000, Thu $6,000, Fri-Sat $7,000; Off season: $3,500/$4,500/$5,500; half day $3,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Add-on packages from https://www.riverbridgeeventcenter.com/packages."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "50-300",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: the site gives no guest capacity anywhere (checked all pages in the sitemap).",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "No capacity figure on any page.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The '50-300' value appears to come from another source; needs a phone call."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "400",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: the site gives no capacity; the 'up to 400 guests' claim in Important Notes is not on the site.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "No capacity figure on any page.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Weekday 10am-10pm\nFriday 10am-11pm\nSaturday 10am-11pm",
+   "verified_value": "Full day 10am-10pm (Monday-Saturday)\nOff-season half day: 6 hours between 10am-10pm, Monday-Wednesday",
+   "action": "corrected",
+   "change_origin": "Corrected from the pricing pages: every full-day rental is 10am-10pm, including Friday-Saturday (not 11pm).",
+   "source_url": "https://www.riverbridgeeventcenter.com/2026pricing",
+   "evidence": "12-hour rental (10am-10pm) on a Friday - Saturday",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "12-13 hours",
+   "verified_value": "12 hours\n6 hours (off-season half day)",
+   "action": "corrected",
+   "change_origin": "Corrected from the pricing pages: 12-hour full day, 6-hour off-season half day.",
+   "source_url": "https://www.riverbridgeeventcenter.com/2026pricing",
+   "evidence": "6-hour rental on Monday-Wednesday between 10am-10pm during off season",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Elegant\nPolished\nFlexible",
+   "verified_value": "Timeless\nElevated\nRefined\nLuxurious",
+   "action": "corrected",
+   "change_origin": "Corrected to the site's own style words.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "A Timeless Wedding Venue ... LUXURIOUS ... TIMELESS ELEVATED ... REFINED",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "TRUE",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities page, lists runners and full-length linens as included.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "12 runners + 8 full length linens for full day rental",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Only 12 runners and 8 full-length linens; not enough for every table. Team should decide whether this counts as 'linens included'."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs\nBar\n12-foot sweetheart table\n8-foot head table\n8-foot guest tables\nCake table\nGift table\nDisplay tables\n4 easels\nBuilt-in audio",
+   "verified_value": "12 farmhouse tables\n18 8-foot banquet tables\n18 60-inch round tables\n2 wood bistro tables\n12 runners and 8 full-length linens (full day); 12 runners (half day)\n200 outdoor chairs\nAccess to decor closet\n1 backdrop option\nBistro lighting\nGas firepit\nCustomizable marquee sign\nYard games\n2 TVs\n2 wireless microphones\nBluetooth sound system",
+   "action": "corrected",
+   "change_origin": "Corrected from the Amenities page. Removed sweetheart, head, cake, gift and display tables, 4 easels and a bar: none are on the site.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "12 farmhouse tables ... 1 backdrop option ... Bistro lighting ... Gas firepit ... Customizable marquee sign",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Text reads '18 8' banquet tables18 60\" round tables'; read as 18 banquet and 18 round tables. Indoor chair count not stated."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Chinaware, chargers, flatware and goblets — price on request",
+   "action": "added",
+   "change_origin": "Added from the Packages page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/packages",
+   "evidence": "We have chinaware, chargers, flatware, and goblets available for rental.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page lists indoor and outdoor event spaces.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "INDOOR AMENITIES ... OUTDOOR AMENITIES ... Outdoor ceremony locations",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Sparkler Package — $100 (venue provides, lights and disposes of 100 sparklers)",
+   "action": "corrected",
+   "change_origin": "Corrected: sparklers are offered only as a paid package run by the venue.",
+   "source_url": "https://www.riverbridgeeventcenter.com/packages",
+   "evidence": "Sparkler Package - $100 ... provide one hundred 20\" sparklers, light the sparklers",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Paid add-on, so the Sparklers filter is false under the brief's rule."
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Spacious parking lot",
+   "action": "added",
+   "change_origin": "Added from the Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Spacious parking lot",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1650 W 500 S, Springville, UT 84663",
+   "verified_value": "1225 S Main Street, Spanish Fork, UT 84660",
+   "action": "corrected",
+   "change_origin": "Corrected: site footer and Contact page give a Spanish Fork address.",
+   "source_url": "https://www.riverbridgeeventcenter.com/contact",
+   "evidence": "1225 S. Main St. Spanish Fork, UT 84660",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Springville",
+   "verified_value": "Spanish Fork",
+   "action": "corrected",
+   "change_origin": "Corrected: the venue's address is in Spanish Fork.",
+   "source_url": "https://www.riverbridgeeventcenter.com/contact",
+   "evidence": "1225 S. Main St. Spanish Fork, UT 84660",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nBuilt-in audio\nWireless microphones",
+   "verified_value": "Yes\nBluetooth sound system (indoor and outdoor)\n2 wireless microphones",
+   "action": "corrected",
+   "change_origin": "Corrected wording from the Amenities page (Bluetooth sound system indoors and outdoors).",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "2 wireless microphones | Bluetooth sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Indoor ceremony space\nOutdoor ceremony space\nOne-hour pre-event consultation\nDressing room",
+   "verified_value": "Indoor and outdoor ceremony locations\nCovered patio\nCovered pavilion with lighting\nLawn area and water feature\nFamily and vendor room\n4 bathrooms\nWifi\nOnsite event manager and hostess\nOn the Spanish Fork River trail\nUltimate Event Package — $2,000\nCeremony Essentials — $750\nDecorating Package — $500\nProjectiles (confetti, rice, petals) — $250",
+   "action": "corrected",
+   "change_origin": "Corrected from the Amenities and Packages pages; 'dressing room' and 'one-hour pre-event consultation' are not on the site.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Family + Vendor room | 4 bathrooms | Onsite event manager + hostess | Wifi available",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included",
+   "verified_value": "Included",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Cleanup at the end of the evening",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside caterers allowed\nPreferred caterers listed on the official website",
+   "verified_value": "Preferred caterers listed: Caley's Catering, Crisp Catering, Culinary Crafts, Green Hollow Catering, Magleby's Catering, Marvellous Catering",
+   "action": "corrected",
+   "change_origin": "Corrected: the site lists preferred caterers but never says outside caterers are allowed.",
+   "source_url": "https://www.riverbridgeeventcenter.com/catering",
+   "evidence": "CATERERS Caley's Catering, Crisp Catering, culinary crafts, Green Hollow Catering, Magleby's Catering, Marvellous Catering",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Whether any caterer may be used is not stated."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Kitchen prep area",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: the site never mentions a kitchen or prep area.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Not in the amenities list.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "Alcohol fee — $500\nAlcohol must be served by licensed and insured bartenders (recommended bartenders listed)",
+   "action": "added",
+   "change_origin": "Added from the Packages page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/packages",
+   "evidence": "We have a $500 venue alcohol fee, and alcohol must be served by one of our licensed and insured bartenders.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event coordinator available\nOne-hour pre-event consultation included",
+   "verified_value": "Onsite event manager and hostess (included)\nMonth-of and day-of coordination in Ultimate Event Package — $2,000\nCeremony coordination in Ceremony Essentials — $750",
+   "action": "corrected",
+   "change_origin": "Corrected from the Amenities and Packages pages; the 'one-hour pre-event consultation' is not on the site.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Onsite event manager + hostess",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Full coordination is paid (Ultimate Event Package, Ceremony Essentials)."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Dressing room",
+   "verified_value": "Bridal suite\nGroom's lounge\nFamily and vendor room",
+   "action": "corrected",
+   "change_origin": "Corrected from the Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Bridal Suite + Groom's Lounge | Family + Vendor room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Additional time is billed at $500 per hour",
+   "verified_value": "Projectiles (confetti, rice, petals) only with the $250 add-on; client cleans up projectiles",
+   "action": "corrected",
+   "change_origin": "Corrected: the $500/hour overtime rate is not on the site; replaced with the projectiles rule.",
+   "source_url": "https://www.riverbridgeeventcenter.com/packages",
+   "evidence": "Applicable to those who wish to throw projectiles ... client is responsible for all cleanup of projectiles.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Package pricing varies by day; official site states capacity up to 400 guests",
+   "verified_value": "Peak season May-October; off season November-April\nAll listed amenities are included in the rental; packages are optional",
+   "action": "corrected",
+   "change_origin": "Corrected: the 'capacity up to 400' note is not on the site; replaced with season definitions.",
+   "source_url": "https://www.riverbridgeeventcenter.com/2026pricing",
+   "evidence": "Peak season ... is May - October. ... Off season ... is November - April.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-491-8085\nEmail: info@riverbridgeeventcenter.com",
+   "verified_value": "Phone: 801-663-1134\nEmail: info@riverbridgeeventcenter.com",
+   "action": "corrected",
+   "change_origin": "Corrected: phone and email from the site footer and Contact page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/contact",
+   "evidence": "801.663.1134 info@riverbridgeeventcenter.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The email link actually opens ellie@riverbridgeeventcenter.com."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "3000-7000",
+   "verified_value": "3000-7000",
+   "action": "confirmed",
+   "change_origin": "Official site, 2026/2027 pricing pages.",
+   "source_url": "https://www.riverbridgeeventcenter.com/2026pricing",
+   "evidence": "HALF DAY $3,000 ... FRIDAY - SATURDAY $7,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 300,
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: the site states no capacity.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "No capacity on any page.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Venue will show 'Capacity not listed'."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Springville",
+   "verified_value": "Spanish Fork",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected City column (site address is Spanish Fork).",
+   "source_url": "https://www.riverbridgeeventcenter.com/contact",
+   "evidence": "1225 S. Main St. Spanish Fork, UT 84660",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "2 wireless microphones",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Bluetooth sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, Amenities page lists 2 TVs.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "2 TV's",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Bridal Suite + Groom's Lounge",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Bridal Suite + Groom's Lounge",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Cleanup at the end of the evening",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page: onsite event manager included.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Onsite event manager + hostess",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Planning/coordination itself is a paid package; included staff is an onsite event manager."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "INDOOR AMENITIES",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Outdoor ceremony locations | Covered patio | Lawn area",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Follows from the corrected Linens Included column.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "12 runners + 8 full length linens for full day rental",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Partial linens only."
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: the site lists preferred caterers but never says couples may bring any caterer.",
+   "source_url": "https://www.riverbridgeeventcenter.com/catering",
+   "evidence": "Preferred caterers list only.",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Policy unknown; ask the venue."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Removed: sparklers only via the paid $100 Sparkler Package.",
+   "source_url": "https://www.riverbridgeeventcenter.com/packages",
+   "evidence": "Sparkler Package - $100",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Paid add-on → false per brief."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "1 backdrop option",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities page lists a customizable marquee sign.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Customizable marquee sign",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The old '4 easels' is not on the site; the sign keeps this true."
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Bistro lighting",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: no cake table on the site (AI collector's invented list).",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Not in amenities list.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: the 'Bar' item is not on the site; only bartender vendors are listed.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Not in amenities list.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official site, Amenities page.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Gas firepit",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (Photo Booth Bus appears only as an outside rental vendor).",
+   "source_url": "https://www.riverbridgeeventcenter.com/rentals",
+   "evidence": "Photo Booth Bus (vendor list)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://www.riverbridgeeventcenter.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: no sweetheart table on the site.",
+   "source_url": "https://www.riverbridgeeventcenter.com/amenities",
+   "evidence": "Not in amenities list.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "River Bridge Event Center",
+  "link": "https://www.riverbridgeeventcenter.com/",
+  "Description": "A wedding venue in Spanish Fork with an indoor reception hall, indoor and outdoor ceremony locations, a covered patio and pavilion, a lawn with a water feature and mountain views on the Spanish Fork River trail; rentals include furniture, sound, setup and cleanup.",
+  "Standard Price Range": "$3,000-$7,000",
+  "Packages and Prices": "Peak season (May-October), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $5,000; Thursday $6,000; Friday-Saturday $7,000\nOff season (November-April), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $3,500; Thursday $4,500; Friday-Saturday $5,500\nOff-season half day, 6 hours Monday-Wednesday — $3,000\nUltimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request",
+  "Seated Capacity": "",
+  "Standing Capacity": "",
+  "Time slots": "Full day 10am-10pm (Monday-Saturday)\nOff-season half day: 6 hours between 10am-10pm, Monday-Wednesday",
+  "Length of Rental": "12 hours\n6 hours (off-season half day)",
+  "Style": "Timeless\nElevated\nRefined\nLuxurious",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "12 farmhouse tables\n18 8-foot banquet tables\n18 60-inch round tables\n2 wood bistro tables\n12 runners and 8 full-length linens (full day); 12 runners (half day)\n200 outdoor chairs\nAccess to decor closet\n1 backdrop option\nBistro lighting\nGas firepit\nCustomizable marquee sign\nYard games\n2 TVs\n2 wireless microphones\nBluetooth sound system",
+  "Other Decor for Rent": "Chinaware, chargers, flatware and goblets — price on request",
+  "outside/inside": "Both",
+  "sparklers allowed": "Sparkler Package — $100 (venue provides, lights and disposes of 100 sparklers)",
+  "parking?": "Spacious parking lot",
+  "Full Address": "1225 S Main Street, Spanish Fork, UT 84660",
+  "City": "Spanish Fork",
+  "sound system": "Yes\nBluetooth sound system (indoor and outdoor)\n2 wireless microphones",
+  "extras": "Indoor and outdoor ceremony locations\nCovered patio\nCovered pavilion with lighting\nLawn area and water feature\nFamily and vendor room\n4 bathrooms\nWifi\nOnsite event manager and hostess\nOn the Spanish Fork River trail\nUltimate Event Package — $2,000\nCeremony Essentials — $750\nDecorating Package — $500\nProjectiles (confetti, rice, petals) — $250",
+  "cleanup crew": "Included",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "Preferred caterers listed: Caley's Catering, Crisp Catering, Culinary Crafts, Green Hollow Catering, Magleby's Catering, Marvellous Catering",
+  "Prep Area": "",
+  "Alcohol policy": "Alcohol fee — $500\nAlcohol must be served by licensed and insured bartenders (recommended bartenders listed)",
+  "Event Coordinator": "Onsite event manager and hostess (included)\nMonth-of and day-of coordination in Ultimate Event Package — $2,000\nCeremony coordination in Ceremony Essentials — $750",
+  "Bride/Groom Rooms": "Bridal suite\nGroom's lounge\nFamily and vendor room",
+  "Restrictions": "Projectiles (confetti, rice, petals) only with the $250 add-on; client cleans up projectiles",
+  "Important Notes": "Peak season May-October; off season November-April\nAll listed amenities are included in the rental; packages are optional",
+  "Contact Information": "Phone: 801-663-1134\nEmail: info@riverbridgeeventcenter.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic"
+  ],
+  "suggested": [
+   "Classic"
+  ],
+  "change": "none",
+  "reasoning": "The site calls itself 'A Timeless Wedding Venue' and uses refined/elevated wording, which fits Classic. The corrected Description is neutral and has no style cue word, so Classic stays a hand tag. Not nature-centered enough for Outdoors.",
+  "site_cues": [
+   "A Timeless Wedding Venue",
+   "refined yet welcoming setting",
+   "LUXURIOUS ... TIMELESS ... ELEVATED"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal / day-of-week pricing",
+   "why": "Prices differ by season and weekday",
+   "data": {
+    "peak_season": "May-October",
+    "off_season": "November-April",
+    "rates": [
+     {
+      "season": "peak",
+      "days": "Monday-Wednesday",
+      "hours": "10am-10pm",
+      "price": "$5,000"
+     },
+     {
+      "season": "peak",
+      "days": "Thursday",
+      "hours": "10am-10pm",
+      "price": "$6,000"
+     },
+     {
+      "season": "peak",
+      "days": "Friday-Saturday",
+      "hours": "10am-10pm",
+      "price": "$7,000"
+     },
+     {
+      "season": "off",
+      "days": "Monday-Wednesday half day",
+      "hours": "6 hours",
+      "price": "$3,000"
+     },
+     {
+      "season": "off",
+      "days": "Monday-Wednesday",
+      "hours": "10am-10pm",
+      "price": "$3,500"
+     },
+     {
+      "season": "off",
+      "days": "Thursday",
+      "hours": "10am-10pm",
+      "price": "$4,500"
+     },
+     {
+      "season": "off",
+      "days": "Friday-Saturday",
+      "hours": "10am-10pm",
+      "price": "$5,500"
+     }
+    ],
+    "years": "2026 and 2027 identical"
+   }
+  },
+  {
+   "title": "Add-on packages",
+   "why": "Named optional packages with prices",
+   "data": {
+    "packages": [
+     {
+      "name": "Ultimate Event Package",
+      "price": "$2,000",
+      "includes": [
+       "month-of and day-of coordination",
+       "Ceremony Essentials",
+       "Decorating Package",
+       "100 sparklers",
+       "projectiles allowed"
+      ]
+     },
+     {
+      "name": "Ceremony Essentials",
+      "price": "$750",
+      "includes": [
+       "day-of rehearsal",
+       "ceremony coordination"
+      ]
+     },
+     {
+      "name": "Decorating Package",
+      "price": "$500",
+      "includes": [
+       "table decorating with client or in-house decor (no florals)"
+      ]
+     },
+     {
+      "name": "Sparkler Package",
+      "price": "$100",
+      "includes": [
+       "100 20-inch sparklers",
+       "lighting",
+       "send-off coordination",
+       "disposal buckets"
+      ]
+     },
+     {
+      "name": "Projectiles",
+      "price": "$250",
+      "includes": [
+       "confetti, rice or petals for send-off; client cleans up"
+      ]
+     },
+     {
+      "name": "Alcohol fee",
+      "price": "$500",
+      "includes": [
+       "must use licensed, insured bartender"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Indoor vs outdoor amenities",
+   "why": "Long split amenity list",
+   "data": {
+    "indoor": [
+     "12 farmhouse tables",
+     "18 banquet tables",
+     "18 60-inch rounds",
+     "2 TVs",
+     "2 wireless mics",
+     "Bluetooth sound",
+     "decor closet",
+     "bridal suite",
+     "groom's lounge",
+     "family + vendor room",
+     "4 bathrooms",
+     "1 backdrop"
+    ],
+    "outdoor": [
+     "200 chairs",
+     "ceremony locations",
+     "covered patio",
+     "covered pavilion with lighting",
+     "gas firepit",
+     "bistro lighting",
+     "yard games",
+     "lawn",
+     "water feature",
+     "marquee sign",
+     "parking lot"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Capacity is not on the site; call the venue for seated and standing capacity (current 50-300 / 400 values are unverified and were removed).",
+  "Outside catering policy: site lists preferred caterers only. Ask whether other caterers are allowed.",
+  "Sparklers are only available through the $100 venue package; brief rule makes the filter false. Team may want a rule for 'allowed via paid package'.",
+  "Linens: only 12 runners + 8 full-length linens are included; decide whether that counts as 'Linens included'."
+ ]
+}

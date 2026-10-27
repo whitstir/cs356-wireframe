@@ -1,0 +1,671 @@
+{
+ "id": "orion-event-venue",
+ "name": "Orion Event Venue",
+ "city": "Lindon",
+ "description": "A modern event venue in Lindon with an indoor ballroom and a private patio with hanging outdoor lights; tables, chairs, TVs, sound, setup, takedown and cleaning are included.",
+ "styles": [
+  "Modern",
+  "Classic"
+ ],
+ "priceMin": 1800,
+ "priceMax": 3400,
+ "priceBasis": "rental",
+ "priceText": "Sun–Thu $1,800; Fri $2,300; Sat $3,400",
+ "seated": 200,
+ "seatedMin": 200,
+ "seatedText": "200 chairs and 20 round tables provided",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Signs / easels": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "2 – Wireless microphones"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound System with media dock"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "3 – 60” 4K TVs"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Cleaning Included"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Onsite staff; planning meeting with the venue's event planner"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Ballroom decorated with flowers for a wedding"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Private Patio Space / Hanging Outdoor Lights"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Easel or Chalk Board"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Chandeliers over the dance floor"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Hanging Outdoor Lights"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "1 – Cake Table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A modern event venue in Lindon with an indoor ballroom and a private patio with hanging outdoor lights; tables, chairs, TVs, sound, setup, takedown and cleaning are included."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "283 N 290 W, Lindon, UT 84042"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern\nElegant"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Sun–Thu $1,800; Fri $2,300; Sat $3,400"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Sunday-Thursday, 11am-11pm — $1,800\nFriday, 12pm-1am — $2,300\nSaturday, 12pm-1am — $3,400\nAdditional hour — $150 per hour"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Ballroom decorated with flowers for a wedding"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Private Patio Space / Hanging Outdoor Lights"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "200 chairs and 20 round tables provided"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Cleaning Included"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Onsite staff; planning meeting with the venue's event planner"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "200 silver Chiavari chairs\n20 round tables\nCake table\n4 banquette tables\n36\" entrance table\nEasel or chalkboard\nHanging outdoor lights\nBallroom chandeliers"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "On-site staff\nPlanning meeting with the venue's event planner"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "2 – Wireless microphones"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound System with media dock"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "3 – 60” 4K TVs"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound system with media dock\n2 wireless microphones\n3 60\" 4K TVs\nBlu-ray/DVD player"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Easel or Chalk Board"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Chandeliers over the dance floor"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Hanging Outdoor Lights"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Private patio space\nPublic restrooms\nAdditional decorations and amenities arranged with the event planner"
+    }
+   ]
+  },
+  {
+   "id": "included-equipment",
+   "title": "Included equipment",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "included-equipment-0",
+     "label": "Includes",
+     "value": "200 silver Chiavari chairs; 20 round tables; 1 cake table; 4 banquette tables; 3 60-inch 4K TVs; Blu-ray/DVD player; Sound system with media dock; 2 wireless microphones; Warming kitchen, fridge/freezer, warming oven; 36-inch entrance table; Easel or chalkboard; Public restrooms; On-site staff; Private patio space; Hanging outdoor lights; Setup and takedown; Cleaning"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "1 – Cake Table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming kitchen\nStandard-size refrigerator and freezer\nWarming oven"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Sunday-Thursday 11am-11pm\nFriday-Saturday 12pm-1am"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "12-13 hours"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Spanish spoken (Hablamos español)\nAlso hosts quinceañeras and corporate events"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 806-4880 (text preferred)\nEmail: orioneventvenue@gmail.com\nInstagram: @orioneventvenue"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.orioneventvenue.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "orion-event-venue",
+  "Venue Name": "Orion Event Venue",
+  "link": "https://www.orioneventvenue.com/",
+  "City": "Lindon",
+  "Full Address": "283 N 290 W, Lindon, UT 84042",
+  "Description": "A modern event venue in Lindon with an indoor ballroom and a private patio with hanging outdoor lights; tables, chairs, TVs, sound, setup, takedown and cleaning are included.",
+  "Price Low": "1800",
+  "Price High": "3400",
+  "Price Basis": "rental",
+  "Standard Price Range": "Sun–Thu $1,800; Fri $2,300; Sat $3,400",
+  "Seated Low": "200",
+  "Seated High": "200",
+  "Seated Capacity": "200 chairs and 20 round tables provided",
+  "Packages and Prices": "Sunday-Thursday, 11am-11pm — $1,800\nFriday, 12pm-1am — $2,300\nSaturday, 12pm-1am — $3,400\nAdditional hour — $150 per hour",
+  "Time slots": "Sunday-Thursday 11am-11pm\nFriday-Saturday 12pm-1am",
+  "Length of Rental": "12-13 hours",
+  "Style": "Modern\nElegant",
+  "Other Decor Included": "200 silver Chiavari chairs\n20 round tables\nCake table\n4 banquette tables\n36\" entrance table\nEasel or chalkboard\nHanging outdoor lights\nBallroom chandeliers",
+  "sound system": "Yes\nSound system with media dock\n2 wireless microphones\n3 60\" 4K TVs\nBlu-ray/DVD player",
+  "extras": "Private patio space\nPublic restrooms\nAdditional decorations and amenities arranged with the event planner",
+  "cleanup crew": "Included",
+  "Prep Area": "Warming kitchen\nStandard-size refrigerator and freezer\nWarming oven",
+  "Event Coordinator": "On-site staff\nPlanning meeting with the venue's event planner",
+  "Important Notes": "Spanish spoken (Hablamos español)\nAlso hosts quinceañeras and corporate events",
+  "Contact Information": "Phone: (801) 806-4880 (text preferred)\nEmail: orioneventvenue@gmail.com\nInstagram: @orioneventvenue"
+ }
+}

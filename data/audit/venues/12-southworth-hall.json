@@ -1,0 +1,967 @@
+{
+ "row": 12,
+ "id": "southworth-hall",
+ "name": "Southworth Hall",
+ "website": "https://southworthhall.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://southworthhall.com/ (home: description, history, contact, social links)",
+  "https://southworthhall.com/southworth-hall-pricing/ (pricing page, updated 2024-10-12: rental tiers, add-ons, early bird, Sunday DIY)",
+  "https://southworthhall.com/location/ (location: address, downtown Provo)",
+  "https://southworthhall.com/reservations/ (reservations: phone/text/email)",
+  "https://southworthhall.com/events-corporate-conference-expo-birthday-quinceanera-family-reunion/ (live events page, nothing for weddings)",
+  "https://southworthhall.com/?page_id=11819 (Gallery menu link: 404)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "116 W Center Street, Provo UT 84601",
+  "note": "Location page; next door to the Provo Marriott, one block from the Provo City Center Temple."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Southworth Hall",
+   "verified_value": "Southworth Hall",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "Southworth Hall",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://southworthhall.com/",
+   "verified_value": "https://southworthhall.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads (200).",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic, warm, classy, rustic reception hall in downtown Provo with original brick, custom woodwork, flexible table layouts, in-house sound, and space for up to 200 seated guests.",
+   "verified_value": "A historic hall in downtown Provo with original brick, custom woodwork and a warm, classy, rustic feel. Rentals include up to 20 round and 6 rectangle tables, up to 200 chairs and the in-house sound system.",
+   "action": "corrected",
+   "change_origin": "Official site, home and pricing pages: 'flexible table layouts' is not stated; replaced with the stated table and chair counts.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "'Up to 20 round & 6 rectangle tables Up to 200 chairs'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Kept the site's own style words (historic, warm, classy, rustic)."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$600-$1,890",
+   "verified_value": "$600-$1,890",
+   "action": "confirmed",
+   "change_origin": "Pricing page: brunch $600 to full day $1,890.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Brunch /Luncheon $600 ... Full Day $1890",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Sunday DIY is 'Call'; brunch extra time $100/hour."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Up to 20 round tables, 6 rectangle tables, up to 200 chairs — Mon-Thu 2:30pm-12am — $1,400\nUp to 20 round tables, 6 rectangle tables, up to 200 chairs — Fri-Sat 2:30pm-12am — $1,600\nUp to 20 round tables, 6 rectangle tables, up to 200 chairs — Full day 8am-12am — $1,890\nBrunch or luncheon rental, 3 hours between 6am-2pm — $600\nWhite linens for 15 round tables and 5 buffet tables — $99\nIn-house sound system and one wireless microphone — $0\nDJ, 3-hour block — $299\nDJ additional hour — $75\nPhoto booth — $199\nLinens, sound, DJ and photo booth — $799",
+   "verified_value": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs — Mon-Thu — $1,400\nSame inclusions — Fri-Sat — $1,600\nFull day 8am-12am, same tables and chairs — $1,890\nBrunch / luncheon, 3 hours between 6am-2pm, same tables and chairs — $600; additional time $100/hour\nSunday do-it-yourself 12pm-12am, no staff, up to 16 round & 6 rectangle tables, up to 200 chairs — call for pricing\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added brunch overtime, Sunday DIY tier and photo booth details; sound package is $199 but free with all bookings (old text said $0).",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "'Sound Package $199 Now Free with all bookings!'; 'Additional time $100/hour'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "200",
+   "verified_value": "200",
+   "action": "confirmed",
+   "change_origin": "Pricing page: up to 200 chairs with every rental.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Up to 200 chairs",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No explicit capacity figure; 200 chairs is the only number."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am",
+   "verified_value": "Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Start time 2:30 PM End time 12 AM; Full Day 8 AM-12 AM; Sunday 12:00 PM-12:00 AM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "3-16 hours",
+   "verified_value": "3-16 hours",
+   "action": "confirmed",
+   "change_origin": "Pricing page: 3-hour brunch to 16-hour full day.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "3 hours between 6AM-2PM; Full Day 8 AM-12 AM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic\nWarm\nClassy\nRustic",
+   "verified_value": "Historic\nWarm\nClassy\nRustic",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "'historic building... has a warm, classy, and rustic feel'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "Pricing page: linens are a $99 add-on.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Linens $99 White Linens 15 Rounds 5 Buffet",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs",
+   "verified_value": "Up to 20 round tables\nUp to 6 rectangle tables\nUp to 200 chairs",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page gives the table and chair counts.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Up to 20 round & 6 rectangle tables Up to 200 chairs",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "White linens for 15 round tables and 5 buffet tables — $99",
+   "verified_value": "White linens for 15 round tables and 5 buffet tables — $99",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Linens $99 White Linens 15 Rounds 5 Buffet",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Inside",
+   "verified_value": "Inside",
+   "action": "confirmed",
+   "change_origin": "Home and location pages describe an indoor downtown hall only.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "'this historic building... With original brick, and custom woodwork'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No outdoor event space mentioned anywhere."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/location/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Location page mentions only the downtown setting."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "",
+   "verified_value": "116 W Center Street, Provo, UT 84601",
+   "action": "added",
+   "change_origin": "Official site, Location page.",
+   "source_url": "https://southworthhall.com/location/",
+   "evidence": "116 W Center Street, Provo UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Location page address.",
+   "source_url": "https://southworthhall.com/location/",
+   "evidence": "Provo UT 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nIn-house sound system\nOne wireless microphone",
+   "verified_value": "Yes\nIn-house sound system\nOne wireless microphone",
+   "action": "confirmed",
+   "change_origin": "Pricing page: sound package now free with all bookings.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "'Now Free with all bookings! In House Sound System One Wireless Mic'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "DJ — $299\nPhoto booth — $199\nWhole Enchilada package — $799",
+   "verified_value": "DJ (Southworth affiliate), 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: added DJ overtime and package contents.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "'DJ $299 3 Hour Block Extra Time $75/Hour'; 'The Whole Enchilada $799 All 4 Packages'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/reservations/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Reservations page mentions 'friendly staff' who help plan by phone; no coordinator. Sundays are unstaffed."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Early-bird pricing is 25-40% below regular pricing; event end time is 8:30pm; extras receive 20-40% discounts except linens, PA and DJ",
+   "verified_value": "Early bird special (limited dates): 25-40% off full-day or evening rates with an 8:30pm end time; add-ons 20-40% off except linens\nSundays are do-it-yourself with no staff; call for pricing",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page: the early-bird discount covers the PA system and DJ; only linens are excluded (old text said linens, PA and DJ were excluded).",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "'20-40% off everything in your booking (except linens), the PA system, or even a DJ, all at 20-40% off'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Page heading says 20-40% while body says 25-40% off rates."
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall",
+   "verified_value": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall",
+   "action": "confirmed",
+   "change_origin": "Header, Reservations page and footer Instagram link.",
+   "source_url": "https://southworthhall.com/reservations/",
+   "evidence": "'Phone: 801-616-6046 email: reservations@southworthhall.com text: 801-616-6046'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "600-1890",
+   "verified_value": "600-1890",
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "$600 to $1890",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "200",
+   "verified_value": "200",
+   "action": "confirmed",
+   "change_origin": "Pricing page: up to 200 chairs.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Up to 200 chairs",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Location page.",
+   "source_url": "https://southworthhall.com/location/",
+   "evidence": "Provo UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page: one wireless mic, free with all bookings.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "One Wireless Mic",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Pricing page: in-house sound now free with all bookings.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Now Free with all bookings! In House Sound System",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://southworthhall.com/",
+   "evidence": "historic building with original brick",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Pricing page: linens $99 add-on.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Linens $99",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "Pricing page: photo booth $199 add-on.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "Photo Booth $199",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://southworthhall.com/southworth-hall-pricing/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Southworth Hall",
+  "link": "https://southworthhall.com/",
+  "Description": "A historic hall in downtown Provo with original brick, custom woodwork and a warm, classy, rustic feel. Rentals include up to 20 round and 6 rectangle tables, up to 200 chairs and the in-house sound system.",
+  "Standard Price Range": "$600-$1,890",
+  "Packages and Prices": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs — Mon-Thu — $1,400\nSame inclusions — Fri-Sat — $1,600\nFull day 8am-12am, same tables and chairs — $1,890\nBrunch / luncheon, 3 hours between 6am-2pm, same tables and chairs — $600; additional time $100/hour\nSunday do-it-yourself 12pm-12am, no staff, up to 16 round & 6 rectangle tables, up to 200 chairs — call for pricing\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+  "Seated Capacity": "200",
+  "Standing Capacity": "",
+  "Time slots": "Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am",
+  "Length of Rental": "3-16 hours",
+  "Style": "Historic\nWarm\nClassy\nRustic",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "Up to 20 round tables\nUp to 6 rectangle tables\nUp to 200 chairs",
+  "Other Decor for Rent": "White linens for 15 round tables and 5 buffet tables — $99",
+  "outside/inside": "Inside",
+  "sparklers allowed": "",
+  "parking?": "",
+  "Full Address": "116 W Center Street, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "Yes\nIn-house sound system\nOne wireless microphone",
+  "extras": "DJ (Southworth affiliate), 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+  "cleanup crew": "",
+  "Accessibility": "",
+  "Deposit Policy": "",
+  "Catering": "",
+  "Prep Area": "",
+  "Alcohol policy": "",
+  "Event Coordinator": "",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "",
+  "Important Notes": "Early bird special (limited dates): 25-40% off full-day or evening rates with an 8:30pm end time; add-ons 20-40% off except linens\nSundays are do-it-yourself with no staff; call for pricing",
+  "Contact Information": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Rustic"
+  ],
+  "suggested": [
+   "Classic",
+   "Rustic"
+  ],
+  "change": "none",
+  "reasoning": "Site describes a historic downtown hall with a 'warm, classy, and rustic feel'; the rules give Classic (historic, classy) and Rustic (rustic).",
+  "site_cues": [
+   "'historic building'",
+   "'warm, classy, and rustic feel'",
+   "'original brick, and custom woodwork'"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Rental tiers",
+   "why": "evening, full-day, luncheon and Sunday DIY rates",
+   "data": {
+    "rates": [
+     {
+      "name": "Evening Mon-Thu",
+      "hours": "2:30pm-12am",
+      "price": "$1,400"
+     },
+     {
+      "name": "Evening Fri-Sat",
+      "hours": "2:30pm-12am",
+      "price": "$1,600"
+     },
+     {
+      "name": "Full day",
+      "hours": "8am-12am",
+      "price": "$1,890"
+     },
+     {
+      "name": "Brunch / luncheon",
+      "hours": "3 hours between 6am-2pm",
+      "price": "$600",
+      "extra": "$100/hour"
+     },
+     {
+      "name": "Sunday (do it yourself, no staff)",
+      "hours": "12pm-12am",
+      "price": "call"
+     }
+    ],
+    "included_furniture": "up to 20 round & 6 rectangle tables (16 round on Sunday), up to 200 chairs"
+   }
+  },
+  {
+   "title": "Add-on packages",
+   "why": "priced extras and a bundle",
+   "data": {
+    "packages": [
+     {
+      "name": "Linens",
+      "price": "$99",
+      "includes": [
+       "white linens for 15 rounds and 5 buffet tables"
+      ]
+     },
+     {
+      "name": "Sound package",
+      "price": "$199, now free with all bookings",
+      "includes": [
+       "in-house sound system",
+       "one wireless mic"
+      ]
+     },
+     {
+      "name": "DJ",
+      "price": "$299 (3 hours), $75/extra hour",
+      "includes": [
+       "Southworth affiliate DJ"
+      ]
+     },
+     {
+      "name": "Photo booth",
+      "price": "$199",
+      "includes": [
+       "photo strips",
+       "custom design",
+       "green screen"
+      ]
+     },
+     {
+      "name": "The Whole Enchilada",
+      "price": "$799",
+      "includes": [
+       "linens",
+       "sound",
+       "DJ",
+       "photo booth"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Early bird special",
+   "why": "conditional discount",
+   "data": {
+    "discount": "25-40% off full day or evening rates (page heading says 20-40%)",
+    "condition": "event ends 8:30pm; limited dates",
+    "add_ons": "20-40% off everything except linens, including PA and DJ"
+   }
+  }
+ ],
+ "open_questions": [
+  "Sunday do-it-yourself price is 'call for pricing'.",
+  "The site is silent on catering rules, alcohol, deposit, parking, accessibility, cleanup, getting-ready rooms and outdoor space; a call is needed to fill these.",
+  "Build year is inconsistent on the site (home text 1890, footer 1900, location page 'over 200 years ago').",
+  "Pricing page was last updated 2024-10-12; confirm prices are current."
+ ]
+}

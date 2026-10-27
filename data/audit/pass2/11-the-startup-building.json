@@ -1,0 +1,223 @@
+{
+ "row": 11,
+ "id": "the-startup-building",
+ "official_name": {
+  "name": "The Startup Building",
+  "source_url": "https://www.thestartupbuilding.co",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "-4 ADA Restrooms",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound System with Two Wireless Mics",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Digital Projector with HDMI cord and AppleTV",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound System with Two Wireless Mics",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "has a brides room",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/comp"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Manager meets you at the start to go over day-of details, then is on call during the event",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Rustic copper toned indoor space",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "industrial outdoor courtyard",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "has equal flexibility with the vendors you use",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/comp"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "-Wooden Arch",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Three Chandeliers... decorated in faux greenery",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "-2 Wooden Floor Easels",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "-Three Chandeliers (12 feet in circumference each)",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "-Cafe Lights",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "-Cake Table",
+   "price": "",
+   "source_url": "https://www.thestartupbuilding.co/rates"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1350,
+  "high": 2750,
+  "basis": "rental",
+  "wording": "Rates page $1,550–$2,750; comparison page $1,350–$2,500 (July 2026)",
+  "math": "range spans both pages"
+ },
+ "seated": {
+  "low": 120,
+  "high": 120,
+  "wording": "120 seated"
+ },
+ "standing": {
+  "low": 300,
+  "high": 300,
+  "wording": "300"
+ },
+ "row_updates": {
+  "Venue Name": "The Startup Building"
+ }
+}

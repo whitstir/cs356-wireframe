@@ -1,0 +1,782 @@
+{
+ "id": "northampton-house",
+ "name": "Northampton House",
+ "city": "American Fork",
+ "description": "A historic 1903 former church meetinghouse in American Fork with a stained-glass chapel (the Monarch), a Grand Ballroom with crystal chandeliers, and nearly a quarter acre of gardens with a rose arch, terrace and fountain.",
+ "styles": [
+  "Classic"
+ ],
+ "priceMin": 5800,
+ "priceMax": 7200,
+ "priceBasis": "rental",
+ "priceText": "Wedding packages $5,800–$7,200",
+ "seated": 178,
+ "seatedMin": 126,
+ "seatedText": "Grand Ballroom 178\nMonarch 126",
+ "standing": 385,
+ "standingMin": 270,
+ "standingText": "Grand Ballroom: 385\nMonarch: 270",
+ "decor": {
+  "Centerpieces": [
+   "rent"
+  ],
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Signs / easels": [
+   "rent"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Piano": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "To Wheelchair Access (under balcony)"
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Bluetooth Mics"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "AV System"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TVs"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Brides Room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "addon",
+   "wording": "Event-day coordinator, $300"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Grooms Room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Two Banquet Halls"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Table Linens"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor Ceremony Space"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Open Vendor Policy"
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "Sparkler send-off — $1.50 per sparkler — $1.50 each"
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Flower bud vases"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Seasonal rose arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "Gold easels $10 each; square sign stands $10 each"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Crystal chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Pergola with string lights"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Mini Grand Piano"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic 1903 former church meetinghouse in American Fork with a stained-glass chapel (the Monarch), a Grand Ballroom with crystal chandeliers, and nearly a quarter acre of gardens with a rose arch, terrace and fountain."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "198 W 300 N, American Fork, UT 84003"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Historic\nElegant\nClassic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Wedding packages $5,800–$7,200"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Full-building rental (Monarch, Grand Ballroom and grounds), 10am-10pm with 2 hosts: Mon-Thu — $5,800; Fri-Sat — $7,200\nIncludes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Two Banquet Halls"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor Ceremony Space"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Grand Ballroom 178\nMonarch 126"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "Grand Ballroom: 385\nMonarch: 270"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "The Grand Ballroom",
+     "value": "Seated: 178 · Standing: 385 · Setting: indoor · Features: crystal chandeliers; grand staircase; opens to terrace"
+    },
+    {
+     "id": "spaces-1",
+     "label": "The Monarch",
+     "value": "Seated: 126 · Standing: 270 · Setting: indoor · Features: stained-glass windows; mahogany staircase; mini grand piano"
+    },
+    {
+     "id": "spaces-2",
+     "label": "The Grounds",
+     "value": "Setting: outdoor · Features: seasonal rose arch; terrace pergola with twinkling lights (32 x 19 ft seating space); tiered stone fountain; nearly a quarter acre of gardens"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Rental",
+     "value": "Full building only, 10am-10pm Mon-Sat, 2 hosts"
+    }
+   ]
+  },
+  {
+   "id": "seasonal-package",
+   "title": "Seasonal package",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "seasonal-package-0",
+     "label": "December winter celebrations",
+     "value": "Days: Mon-Thu, December only · Slots: 8am-2pm; 4pm-10pm · Includes: all decor and add-ons · Price: on request"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Brides Room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Grooms Room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's room\nGroom's/family room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Table Linens"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "addon",
+     "value": "Event-day coordinator, $300"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "15 tables (60-inch rounds and 30-inch high/low tables)\n178 chairs (Grand Ballroom)\n126 chairs (Monarch)\nTable linens\nMini grand piano\nCrystal chandeliers (Grand Ballroom)\nChandeliers (Monarch)\nSeasonal rose arch\nTerrace pergola with twinkling lights\nTiered stone fountain\nGardens\nStained-glass windows\nGrand staircase"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Event Day Coordinator — $300 (add-on; shown only on the mobile add-ons page)"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Set up and take down listed among included amenities"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Bluetooth Mics"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "AV System"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TVs"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nAV system\nTVs\n1 Bluetooth microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "rent",
+     "value": "Flower bud vases"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Seasonal rose arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "rent",
+     "value": "Gold easels $10 each; square sign stands $10 each"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Crystal chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Pergola with string lights"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Gold easels — $10 each\nSquare sign stand — $10\nCustom welcome sign — $500\nParasols — $3 each\nAssorted bud vases for centerpieces — $20 for 40\n8-inch round vases — $25 for 48\n10-inch round vases — $15 for 28\nSparkler send-off — $1.50 per sparkler\nGift card box — $10\nCheese cloth table runners — $3 each\nAudio guestbook (price not listed)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "2 hosts included with full-building rental\nRoom flip — $150\nEvent Day Coordinator — $300 (shown only on the mobile add-ons page)\nAudio guestbook rental"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "included",
+     "value": "Mini Grand Piano"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Open Vendor Policy"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Open vendor policy\nIn-house caterer: Crisp Catering\nPreferred caterers: Magleby's, Thirst Catering"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen"
+    }
+   ]
+  },
+  {
+   "id": "preferred-vendors",
+   "title": "Preferred vendors",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "preferred-vendors-0",
+     "label": "In house caterer",
+     "value": "Crisp Catering"
+    },
+    {
+     "id": "preferred-vendors-1",
+     "label": "Caterers",
+     "value": "Magleby's; Thirst Catering"
+    },
+    {
+     "id": "preferred-vendors-2",
+     "label": "Bartending",
+     "value": "Cheers & Swizzles; Copa Bar Service"
+    },
+    {
+     "id": "preferred-vendors-3",
+     "label": "Planning",
+     "value": "Everson Events"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "addon",
+     "value": "Sparkler send-off — $1.50 per sparkler — $1.50 each"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes\nSparkler send-off through the venue — $1.50 per sparkler"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Thu 10am-10pm\nFri-Sat 10am-10pm\nDecember Mon-Thu: 8am-2pm or 4pm-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Reserved time must include set-up and take-down"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "To Wheelchair Access (under balcony)"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Wheelchair access (entrance under the Monarch balcony, per floor plan)"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "120-stall parking lot"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Built 1903 as the American Fork 3rd Ward meetinghouse\nFull-building rental; individual rooms only on discounted dates shown on the availability calendar\nGrand Ballroom opens onto the garden terrace\nEach event includes 15 tables; extra tables for a fee"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 385-324-9973\nEmail: info@northamptonhouse.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://northamptonhouse.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "northampton-house",
+  "Venue Name": "Northampton House",
+  "link": "https://northamptonhouse.com/",
+  "City": "American Fork",
+  "Full Address": "198 W 300 N, American Fork, UT 84003",
+  "Description": "A historic 1903 former church meetinghouse in American Fork with a stained-glass chapel (the Monarch), a Grand Ballroom with crystal chandeliers, and nearly a quarter acre of gardens with a rose arch, terrace and fountain.",
+  "Price Low": "5800",
+  "Price High": "7200",
+  "Price Basis": "rental",
+  "Standard Price Range": "Wedding packages $5,800–$7,200",
+  "Seated Low": "126",
+  "Seated High": "178",
+  "Seated Capacity": "Grand Ballroom 178\nMonarch 126",
+  "Standing Low": "270",
+  "Standing High": "385",
+  "Standing Capacity": "Grand Ballroom: 385\nMonarch: 270",
+  "Packages and Prices": "Full-building rental (Monarch, Grand Ballroom and grounds), 10am-10pm with 2 hosts: Mon-Thu — $5,800; Fri-Sat — $7,200\nIncludes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150",
+  "Time slots": "Mon-Thu 10am-10pm\nFri-Sat 10am-10pm\nDecember Mon-Thu: 8am-2pm or 4pm-10pm",
+  "Length of Rental": "12 hours",
+  "Style": "Historic\nElegant\nClassic",
+  "Other Decor Included": "15 tables (60-inch rounds and 30-inch high/low tables)\n178 chairs (Grand Ballroom)\n126 chairs (Monarch)\nTable linens\nMini grand piano\nCrystal chandeliers (Grand Ballroom)\nChandeliers (Monarch)\nSeasonal rose arch\nTerrace pergola with twinkling lights\nTiered stone fountain\nGardens\nStained-glass windows\nGrand staircase",
+  "Other Decor for Rent": "Gold easels — $10 each\nSquare sign stand — $10\nCustom welcome sign — $500\nParasols — $3 each\nAssorted bud vases for centerpieces — $20 for 40\n8-inch round vases — $25 for 48\n10-inch round vases — $15 for 28\nSparkler send-off — $1.50 per sparkler\nGift card box — $10\nCheese cloth table runners — $3 each\nAudio guestbook (price not listed)",
+  "sparklers allowed": "Yes\nSparkler send-off through the venue — $1.50 per sparkler",
+  "parking?": "120-stall parking lot",
+  "sound system": "Yes\nAV system\nTVs\n1 Bluetooth microphone",
+  "extras": "2 hosts included with full-building rental\nRoom flip — $150\nEvent Day Coordinator — $300 (shown only on the mobile add-ons page)\nAudio guestbook rental",
+  "cleanup crew": "Set up and take down listed among included amenities",
+  "Accessibility": "Wheelchair access (entrance under the Monarch balcony, per floor plan)",
+  "Catering": "Open vendor policy\nIn-house caterer: Crisp Catering\nPreferred caterers: Magleby's, Thirst Catering",
+  "Prep Area": "Prep kitchen",
+  "Event Coordinator": "Event Day Coordinator — $300 (add-on; shown only on the mobile add-ons page)",
+  "Bride/Groom Rooms": "Bride's room\nGroom's/family room",
+  "Restrictions": "Reserved time must include set-up and take-down",
+  "Important Notes": "Built 1903 as the American Fork 3rd Ward meetinghouse\nFull-building rental; individual rooms only on discounted dates shown on the availability calendar\nGrand Ballroom opens onto the garden terrace\nEach event includes 15 tables; extra tables for a fee",
+  "Contact Information": "Phone: 385-324-9973\nEmail: info@northamptonhouse.com"
+ }
+}

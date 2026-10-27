@@ -1,0 +1,771 @@
+{
+ "id": "ivory-hall",
+ "name": "The Ivory Hall",
+ "city": "Provo",
+ "description": "A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access.",
+ "styles": [
+  "Modern"
+ ],
+ "priceMin": 2500,
+ "priceMax": 3750,
+ "priceBasis": "rental",
+ "priceText": "2027 rates: Fri/Sun $3,250, Sat $3,750; weekdays from $2,500",
+ "seated": 150,
+ "seatedMin": 150,
+ "seatedText": "150 at banquet tables",
+ "standing": 500,
+ "standingMin": 300,
+ "standingText": "300 at once (seated + standing)\n500 open house across the evening",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Sweetheart table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": false,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Accessible parking stall"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "2 wireless microphones + stands"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "4 overhead Bluetooth speakers"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "55-inch Frame TV"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Main-level bridal room"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Cleanup by staff"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "On event day an on-site manager is in the building."
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "One open room"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Any caterer"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Staff run the sparkler send-off"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Gold hoop arch (7.4′ × 8.5′) Rectangular wooden arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "30 faux greenery garlands"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "3 easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "90 electric candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Bistro lighting & chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Bistro lighting & chandeliers"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake cutting set Cake stand"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "included",
+   "wording": "Sweetheart table"
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "388 W Center Street, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern\nBright\nFlexible"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "2027 rates: Fri/Sun $3,250, Sat $3,750; weekdays from $2,500"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,250\nSame inclusions — Sat — $3,750\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Signed contract and deposit required to hold a date"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "One open room"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "150 at banquet tables"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300 at once (seated + standing)\n500 open house across the evening"
+    }
+   ]
+  },
+  {
+   "id": "layouts-and-capacity",
+   "title": "Layouts and capacity",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "layouts-and-capacity-0",
+     "label": "Seated dinner",
+     "value": "Guests: 150"
+    },
+    {
+     "id": "layouts-and-capacity-1",
+     "label": "Ceremony + reception",
+     "value": "Guests: 200"
+    },
+    {
+     "id": "layouts-and-capacity-2",
+     "label": "Long tables",
+     "value": "Guests: 118"
+    },
+    {
+     "id": "layouts-and-capacity-3",
+     "label": "At once, seated + standing",
+     "value": "Guests: 300"
+    },
+    {
+     "id": "layouts-and-capacity-4",
+     "label": "Open house across the evening",
+     "value": "Guests: 500"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Main-level bridal room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Main-level bridal room included\nUpstairs Bridal Suite — $500 add-on"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Cleanup by staff"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "On event day an on-site manager is in the building."
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "200 wood cross-back chairs\n15 large wood banquet tables\n6 catering or gift tables\n2 cocktail tables\n15 white chiffon table runners\n90 electric candles\n90 glass vases\n30 faux greenery garlands\n60 bud vases\n3 easels\nGold hoop arch (7.4 x 8.5 ft)\nRectangular wood arch\nCake stand and cake cutting set\nSweetheart table (set from venue tables)\nBistro lighting and chandeliers (hall fixtures)\nTV"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "On-site venue manager on event day (handles the building)\nFinal walkthrough 3 weeks before (vendors, timeline, floor plan)"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included: venue staff clean up after the event"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "2 wireless microphones + stands"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "4 overhead Bluetooth speakers"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "55-inch Frame TV"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\n4 overhead Bluetooth speakers\n2 wireless microphones and stands"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Gold hoop arch (7.4′ × 8.5′) Rectangular wooden arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "30 faux greenery garlands"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "3 easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "90 electric candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Bistro lighting & chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Bistro lighting & chandeliers"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Upstairs Bridal Suite — $500\nDance Floor Package (professional party speakers) — $300\nOn-site manager\nFinal walkthrough (3 weeks before)\nLounge\n55-inch Frame TV"
+    }
+   ]
+  },
+  {
+   "id": "included-decor-inventory",
+   "title": "Included decor inventory",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "included-decor-inventory-0",
+     "label": "Inventory",
+     "value": "Cross-back chairs: 200 · Banquet tables: 15 · Catering/gift tables: 6 · Cocktail tables: 2 · Chiffon runners: 15 · Electric candles: 90 · Glass vases: 90 · Faux greenery garlands: 30 · Bud vases: 60 · Easels: 3 · Arches: gold hoop 7.4 x 8.5 ft; rectangular wood · Cake: stand; cutting set"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake cutting set Cake stand"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "included",
+     "value": "Sweetheart table"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Any caterer"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Open vendor policy\nLarge kitchen and prep kitchen"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Large prep kitchen for caterers"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed with a licensed bartender\n$300 alcohol fee"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Staff run the sparkler send-off"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes (staff run the send-off; couple brings the sparklers)"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "13 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Accessible parking stall"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "1 accessible parking stall in private lot"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Private lot: 21 stalls incl. 1 accessible stall\n300-stall public lot across the street\nStreet parking on Center Street; garage 0.3 mile away"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "4,000 sq. ft. great hall (82 x 48 ft)\nOpen vendor policy\nSetup and takedown included\nNight-before setup billed hourly, opens about 2 months out\nPricing shown is 2027"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.theivoryhall.com"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "ivory-hall",
+  "Venue Name": "The Ivory Hall",
+  "link": "https://www.theivoryhall.com",
+  "City": "Provo",
+  "Full Address": "388 W Center Street, Provo, UT 84601",
+  "Description": "A modern, bright, flexible reception hall in downtown Provo with 4,000 square feet, standard décor and furniture, a prep kitchen, audiovisual equipment, private parking, a bridal room, and full-day access.",
+  "Price Low": "2500",
+  "Price High": "3750",
+  "Price Basis": "rental",
+  "Standard Price Range": "2027 rates: Fri/Sun $3,250, Sat $3,750; weekdays from $2,500",
+  "Seated Low": "150",
+  "Seated High": "150",
+  "Seated Capacity": "150 at banquet tables",
+  "Standing Low": "300",
+  "Standing High": "500",
+  "Standing Capacity": "300 at once (seated + standing)\n500 open house across the evening",
+  "Packages and Prices": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,250\nSame inclusions — Sat — $3,750\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300",
+  "Time slots": "Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm",
+  "Length of Rental": "13 hours",
+  "Style": "Modern\nBright\nFlexible",
+  "Other Decor Included": "200 wood cross-back chairs\n15 large wood banquet tables\n6 catering or gift tables\n2 cocktail tables\n15 white chiffon table runners\n90 electric candles\n90 glass vases\n30 faux greenery garlands\n60 bud vases\n3 easels\nGold hoop arch (7.4 x 8.5 ft)\nRectangular wood arch\nCake stand and cake cutting set\nSweetheart table (set from venue tables)\nBistro lighting and chandeliers (hall fixtures)\nTV",
+  "sparklers allowed": "Yes (staff run the send-off; couple brings the sparklers)",
+  "parking?": "Private lot: 21 stalls incl. 1 accessible stall\n300-stall public lot across the street\nStreet parking on Center Street; garage 0.3 mile away",
+  "sound system": "Yes\n4 overhead Bluetooth speakers\n2 wireless microphones and stands",
+  "extras": "Upstairs Bridal Suite — $500\nDance Floor Package (professional party speakers) — $300\nOn-site manager\nFinal walkthrough (3 weeks before)\nLounge\n55-inch Frame TV",
+  "cleanup crew": "Included: venue staff clean up after the event",
+  "Accessibility": "1 accessible parking stall in private lot",
+  "Deposit Policy": "Signed contract and deposit required to hold a date",
+  "Catering": "Open vendor policy\nLarge kitchen and prep kitchen",
+  "Prep Area": "Large prep kitchen for caterers",
+  "Alcohol policy": "Alcohol allowed with a licensed bartender\n$300 alcohol fee",
+  "Event Coordinator": "On-site venue manager on event day (handles the building)\nFinal walkthrough 3 weeks before (vendors, timeline, floor plan)",
+  "Bride/Groom Rooms": "Main-level bridal room included\nUpstairs Bridal Suite — $500 add-on",
+  "Restrictions": "Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm",
+  "Important Notes": "4,000 sq. ft. great hall (82 x 48 ft)\nOpen vendor policy\nSetup and takedown included\nNight-before setup billed hourly, opens about 2 months out\nPricing shown is 2027",
+  "Contact Information": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com"
+ }
+}

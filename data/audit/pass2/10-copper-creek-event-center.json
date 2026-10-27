@@ -1,0 +1,223 @@
+{
+ "row": 10,
+ "id": "copper-creek-event-center",
+ "official_name": {
+  "name": "Copper Creek Event Center",
+  "source_url": "https://coppercreekeventcenter.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Our facility is fully wheelchair accessible",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "there is an elevator located just inside the main entrance",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Wireless microphone and stand",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector and screen for video",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Fully Integrated sound system",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Private Bride's dressing room",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Our venue staff will handle the heavy lifting, including tables, chairs, linens, and cleaning the floors",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Features > Event coordinator": {
+   "status": "addon",
+   "wording": "Ceremony coordinator — $125 (the venue host/hostess is not a wedding coordinator)",
+   "price": "$125",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Our Ballroom",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "9 Round table dining linens of your choice",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "You are not required to hire a professional caterer and are welcome to provide your own food.",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "Two sparkler packages: 50 — $40; 100 — $70 (FAQ: $75); staff hand out, light and dispose",
+   "price": "$40–$75",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Wooden or Circle Arch Backdrop - $75",
+   "price": "$75",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Personalized Entry Sign ... A selection of Floor easels",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake table & selected linen ... Cake Stand and cutting Utensils",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/pricing"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included",
+   "wording": "We provide 5 medium-sized drink dispensers for our clients to use.",
+   "price": "",
+   "source_url": "https://www.coppercreekeventcenter.com/copy-of-about-us"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1800,
+  "high": 4200,
+  "basis": "rental",
+  "wording": "Time-block rentals $1,800–$4,200",
+  "math": ""
+ },
+ "seated": {
+  "low": 120,
+  "high": 160,
+  "wording": "Seated dinner 130 preferred, 160 max | Buffet dinner 120–140"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Copper Creek Event Center"
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "row": 38,
+ "id": "willow-springs-event-center",
+ "official_name": {
+  "name": "Willow Springs Event Center",
+  "source_url": "https://www.thewillowsprings.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Wireless Mic & Stand",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector & screen",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Speaker system",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "2 TV's",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal Suite with bathroom",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "One site Event Manager",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "indoor/outdoor venue",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "outdoor lawn area offers room for seating under the sparkling string lights, dancing, lawn games",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Unlike other venues, we do not require the use of preferred vendors.",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Table Centerpieces (5 to choose from) - Quantity: 12",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Arch/Backdrop (4 to choose from) - Quantity: 1",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/service-page/ceremony-decoration-package"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "a statement fireplace with a mantle",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Wood Lantern with greenery and flameless candle, Hoop with flowers, vase with flowers",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "Standing Easels - Quantity: 9 total ... Welcome Sign",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "Wreath with Lantern ... Wood Lantern with greenery and flameless candle",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/service-page/basic-decoration-package"
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "four dazzling chandeliers",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Cafe Lights ... Pergola with string lights",
+   "price": "",
+   "source_url": "https://www.thewillowsprings.com/pricing"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 1199,
+  "high": 2499,
+  "basis": "rental",
+  "wording": "Seasonal and day-of-week rentals $1,199–$2,499",
+  "math": ""
+ },
+ "seated": {
+  "low": 150,
+  "high": 150,
+  "wording": "150 chairs included"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Willow Springs Event Center"
+ }
+}

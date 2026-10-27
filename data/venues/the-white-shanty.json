@@ -1,0 +1,794 @@
+{
+ "id": "the-white-shanty",
+ "name": "The White Shanty",
+ "city": "Provo",
+ "description": "A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character, with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access and an onsite attendant.",
+ "styles": [
+  "Modern",
+  "Rustic"
+ ],
+ "priceMin": 1200,
+ "priceMax": 3350,
+ "priceBasis": "rental",
+ "priceText": "Time-block rentals $1,200–$3,350",
+ "seated": 100,
+ "seatedMin": 100,
+ "seatedText": "100 seated",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included",
+   "rent"
+  ],
+  "Greenery / florals": [
+   "included",
+   "rent"
+  ],
+  "Signs / easels": [
+   "rent"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Firepit": [
+   "included"
+  ],
+  "Photo booth / backdrop": [
+   "rent"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Wireless microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Brand new state of the art sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "40” TV"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Onsite venue attendant during the event"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor event space"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Landscaped outdoor area with firepit"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Hexagon arch (free); triangle arch $40"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included+rent",
+   "wording": "Boxwood wall $85; floral arch $50"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "Welcome Sign $40"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Pre-hung lighting"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "included",
+   "wording": "Outdoor firepit"
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "rent",
+   "wording": "Photo Booth $200"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character, with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access and an onsite attendant."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "502 South 300 West, Provo, UT"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Industrial\nFarmhouse"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Time-block rentals $1,200–$3,350"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor event space"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Landscaped outdoor area with firepit"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "100 seated"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride's room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom's room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's room\nGroom's room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Onsite venue attendant during the event"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "10 rectangular 3'x8' farmhouse/industrial tables\n16-foot banquet table\n8-foot live-edge table\n73 chairs\n6 benches\nCake table\nSign-in table\nFirepit\nPre-hung lighting\nVariety of plants (greenery)\nBackdrop\n3 bookcases\nHexagon arch (free)\nFarmhouse arch (free)"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Onsite venue attendant for the duration of the event"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Wireless microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Brand new state of the art sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "40” TV"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nState-of-the-art sound system\nWireless microphone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included+rent",
+     "value": "Hexagon arch (free); triangle arch $40"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included+rent",
+     "value": "Boxwood wall $85; floral arch $50"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "rent",
+     "value": "Welcome Sign $40"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Pre-hung lighting"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Triangle arch — $40\nSimple wood arch — $30\nBoxwood wall — $85\nGold pipe arch — $25\nFloral arch — $50\nGold hoop arch — $40\nWood slat wall — $70\nPhoto booth — $200\nArched mirror — $25\nWelcome mirror — $20\nLarge pink bow — $50\nWelcome sign — $40"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Firepit\nBackdrop\n40-inch TV\nOnsite venue attendant"
+    }
+   ]
+  },
+  {
+   "id": "decor-rentals",
+   "title": "Decor rentals",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-rentals-0",
+     "label": "Hexagon Arch",
+     "value": "Price: Free"
+    },
+    {
+     "id": "decor-rentals-1",
+     "label": "Farmhouse Arch",
+     "value": "Price: Free"
+    },
+    {
+     "id": "decor-rentals-2",
+     "label": "Triangle Arch",
+     "value": "Price: $40"
+    },
+    {
+     "id": "decor-rentals-3",
+     "label": "Simple Wood Arch",
+     "value": "Price: $30"
+    },
+    {
+     "id": "decor-rentals-4",
+     "label": "Boxwood Wall",
+     "value": "Price: $85"
+    },
+    {
+     "id": "decor-rentals-5",
+     "label": "Gold Pipe Arch",
+     "value": "Price: $25"
+    },
+    {
+     "id": "decor-rentals-6",
+     "label": "Floral Arch",
+     "value": "Price: $50"
+    },
+    {
+     "id": "decor-rentals-7",
+     "label": "Gold Hoop Arch",
+     "value": "Price: $40"
+    },
+    {
+     "id": "decor-rentals-8",
+     "label": "Wood Slat Wall",
+     "value": "Price: $70"
+    },
+    {
+     "id": "decor-rentals-9",
+     "label": "Photo Booth",
+     "value": "Price: $200"
+    },
+    {
+     "id": "decor-rentals-10",
+     "label": "Arched Mirror",
+     "value": "Price: $25"
+    },
+    {
+     "id": "decor-rentals-11",
+     "label": "Welcome Mirror",
+     "value": "Price: $20"
+    },
+    {
+     "id": "decor-rentals-12",
+     "label": "Large Pink Bow",
+     "value": "Price: $50"
+    },
+    {
+     "id": "decor-rentals-13",
+     "label": "Welcome Sign",
+     "value": "Price: $40"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "included",
+     "value": "Outdoor firepit"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "rent",
+     "value": "Photo Booth $200"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Kitchen available"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed with signed contract\n$350 alcohol fee"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm\nSunday: call for availability"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "6-12 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Reserved rental block must include setup and takedown time"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Expanded parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Venue has indoor and outdoor event areas\nSeating for 100 guests\nCentral air and heating\nPhoto shoots: indoor from $150/hour, outdoor only from $50/hour; loft above the venue 50% off when renting the venue"
+    }
+   ]
+  },
+  {
+   "id": "photo-shoots",
+   "title": "Photo shoots",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "photo-shoots-0",
+     "label": "Venue indoor",
+     "value": "from $150/hour"
+    },
+    {
+     "id": "photo-shoots-1",
+     "label": "Venue outdoor only",
+     "value": "from $50/hour"
+    },
+    {
+     "id": "photo-shoots-2",
+     "label": "Loft",
+     "value": "from $100/hr, $1,200/day, 2-hour minimum, 50% off when renting the venue"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.whiteshantyvenue.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-white-shanty",
+  "Venue Name": "The White Shanty",
+  "link": "https://www.whiteshantyvenue.com/",
+  "City": "Provo",
+  "Full Address": "502 South 300 West, Provo, UT",
+  "Description": "A 3,600-square-foot indoor and outdoor reception venue combining industrial and farmhouse character, with large picture windows, sliding barn doors, flexible layouts, a firepit, kitchen access and an onsite attendant.",
+  "Price Low": "1200",
+  "Price High": "3350",
+  "Price Basis": "rental",
+  "Standard Price Range": "Time-block rentals $1,200–$3,350",
+  "Seated Low": "100",
+  "Seated High": "100",
+  "Seated Capacity": "100 seated",
+  "Packages and Prices": "10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)",
+  "Time slots": "Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm\nSunday: call for availability",
+  "Length of Rental": "6-12 hours",
+  "Style": "Industrial\nFarmhouse",
+  "Other Decor Included": "10 rectangular 3'x8' farmhouse/industrial tables\n16-foot banquet table\n8-foot live-edge table\n73 chairs\n6 benches\nCake table\nSign-in table\nFirepit\nPre-hung lighting\nVariety of plants (greenery)\nBackdrop\n3 bookcases\nHexagon arch (free)\nFarmhouse arch (free)",
+  "Other Decor for Rent": "Triangle arch — $40\nSimple wood arch — $30\nBoxwood wall — $85\nGold pipe arch — $25\nFloral arch — $50\nGold hoop arch — $40\nWood slat wall — $70\nPhoto booth — $200\nArched mirror — $25\nWelcome mirror — $20\nLarge pink bow — $50\nWelcome sign — $40",
+  "parking?": "Expanded parking",
+  "sound system": "Yes\nState-of-the-art sound system\nWireless microphone",
+  "extras": "Firepit\nBackdrop\n40-inch TV\nOnsite venue attendant",
+  "Prep Area": "Kitchen available",
+  "Alcohol policy": "Alcohol allowed with signed contract\n$350 alcohol fee",
+  "Event Coordinator": "Onsite venue attendant for the duration of the event",
+  "Bride/Groom Rooms": "Bride's room\nGroom's room",
+  "Restrictions": "Reserved rental block must include setup and takedown time",
+  "Important Notes": "Venue has indoor and outdoor event areas\nSeating for 100 guests\nCentral air and heating\nPhoto shoots: indoor from $150/hour, outdoor only from $50/hour; loft above the venue 50% off when renting the venue",
+  "Contact Information": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011"
+ }
+}

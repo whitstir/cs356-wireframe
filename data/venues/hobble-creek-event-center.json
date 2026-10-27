@@ -1,0 +1,846 @@
+{
+ "id": "hobble-creek-event-center",
+ "name": "Hobble Creek Event Center",
+ "city": "Springville",
+ "description": "An event center on Hobble Creek Golf Course in Springville with mountain and canyon views, an indoor reception room and patio, and weddings year-round; in-house catering is available from the Sand Trap Café.",
+ "styles": [
+  "Outdoors"
+ ],
+ "priceMin": 1500,
+ "priceMax": 3000,
+ "priceBasis": "rental",
+ "priceText": "Mon–Thu $1,500 (6 h) / $2,500 (12 h); Fri–Sun $2,000 / $3,000 (starting from)",
+ "seated": 96,
+ "seatedMin": 96,
+ "seatedText": "Up to 96 chairs included",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "rent"
+  ],
+  "Ceremony arch / backdrop": [
+   "rent"
+  ],
+  "Greenery / florals": [
+   "rent"
+  ],
+  "Signs / easels": [
+   "rent"
+  ],
+  "Chandeliers": [
+   "rent"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": false,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "AV System"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Venue coordination and setup"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor reception room"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "12 linens, color of choice"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor patio with string lights"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Outside catering is permitted"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Premier decor package: up to 100 sparklers, bubbles or light wands"
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "8-10 Simple Custom Curated Centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Ceremony Backdrop with One Floral Spray"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Ceremony Back Drop with Two Faux Floral Spray's"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "Wedding signs, guest sign, card box etc"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "rent",
+   "wording": "Two Floral Chandeliers or Two Crystal Chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Bistro lights"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table, Gift Table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "An event center on Hobble Creek Golf Course in Springville with mountain and canyon views, an indoor reception room and patio, and weddings year-round; in-house catering is available from the Sand Trap Café."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "Hobble Creek Golf Course, Springville, UT"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Scenic\nSeasonal\nLush"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Mon–Thu $1,500 (6 h) / $2,500 (12 h); Fri–Sun $2,000 / $3,000 (starting from)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Weekday rental (Mon-Thu), 6 hours 4pm-10pm (up to 96 crossback chairs, 12 tables, 12 linens, color of choice, cake table, gift table, table and chair setup, AV system) — $1,500\nSame inclusions — weekday 12 hours — $2,500\nSame inclusions — weekend (Fri-Sun) 6 hours 4pm-10pm — $2,000\nSame inclusions — weekend 12 hours — $3,000\nClassic Decor package — $350\nPremier decor package — $500"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Date is secured only once a deposit is received (amount not stated)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor reception room"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor patio with string lights"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Up to 96 chairs included"
+    }
+   ]
+  },
+  {
+   "id": "ceremony-sites",
+   "title": "Ceremony sites",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "ceremony-sites-0",
+     "label": "Rule",
+     "value": "No ceremonies on the golf course"
+    },
+    {
+     "id": "ceremony-sites-1",
+     "label": "Suggested offsite",
+     "value": "Kelly's Grove; Jolley's Ranch"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "12 linens, color of choice"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Venue coordination and setup"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Up to 96 crossback chairs\n12 tables\n12 linens, color of choice\nCake table\nGift table\nTable and chair setup\nBistro lights"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Venue team provides coordination, setup and planning support"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Couple handles setup and takedown within the rental time\nSand Trap Café handles setup, service and cleanup of its own catering"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "AV System"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nAV system (included with rental)"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "rent",
+     "value": "8-10 Simple Custom Curated Centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "rent",
+     "value": "Ceremony Backdrop with One Floral Spray"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "rent",
+     "value": "Ceremony Back Drop with Two Faux Floral Spray's"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "rent",
+     "value": "Wedding signs, guest sign, card box etc"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "rent",
+     "value": "Two Floral Chandeliers or Two Crystal Chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Bistro lights"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Classic Decor package (8-10 simple centerpieces, ceremony backdrop with one floral spray, 8-10 table runners, wedding signs and card box; setup and takedown) — $350\nPremier decor package (8-10 centerpieces, 8-10 table runners, cake knife set, send-off set for up to 100 with sparklers, bubbles or light wands, two floral or crystal chandeliers, ceremony backdrop with two faux floral sprays, signage, custom entry sign; setup and takedown) — $500"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Golf-course setting with mountain and canyon views\nIn-house catering available from the Sand Trap Café\n3D virtual tour on the website"
+    }
+   ]
+  },
+  {
+   "id": "decor-packages",
+   "title": "Decor packages",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-packages-0",
+     "label": "Classic Decor",
+     "value": "Price: $350 · Includes: 8-10 simple custom curated centerpieces; ceremony backdrop with one floral spray; 8-10 table runners; wedding signs, guest sign, card box; setup and takedown"
+    },
+    {
+     "id": "decor-packages-1",
+     "label": "Premier package",
+     "value": "Price: $500 · Includes: 8-10 custom curated centerpieces; 8-10 table runners; cake knife set; send-off set for up to 100 (sparklers, bubbles or light wands); two floral or two crystal chandeliers; ceremony backdrop with two faux floral sprays; wedding signage; custom wedding entry sign; setup and takedown"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake Table, Gift Table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Outside catering is permitted"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside catering permitted; outside caterers have no access to the Sand Trap Café kitchen\nIn-house catering partner: Sand Trap Café (10% gratuity on custom catering)\nFavorite caterers listed: Brown Brothers, Marvelous, Magleby's"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "A licensed and insured professional bartender must be hired to serve all alcohol"
+    }
+   ]
+  },
+  {
+   "id": "in-house-catering-menu-sand-trap-caf",
+   "title": "In-house catering menu (Sand Trap Café)",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-0",
+     "label": "Terms",
+     "value": "10% gratuity on custom catering; 1 meal choice under 30 people, 2 over 30; one flavored beverage and water included; prices subject to change"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-1",
+     "label": "Classic lasagna or vegetable",
+     "value": "Price: $12.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-2",
+     "label": "Chicken salad sandwich",
+     "value": "Price: $13.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-3",
+     "label": "Raspberry glazed chicken",
+     "value": "Price: $18.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-4",
+     "label": "Chicken cordon bleu",
+     "value": "Price: $16.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-5",
+     "label": "Parmesan crusted salmon",
+     "value": "Price: $19.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-6",
+     "label": "Original Malibu chicken",
+     "value": "Price: $16.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-7",
+     "label": "Parmesan chicken",
+     "value": "Price: $16.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-8",
+     "label": "Baked potato bar",
+     "value": "Price: $10.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-9",
+     "label": "Street taco bar",
+     "value": "Price: $15.00-$18.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-10",
+     "label": "Pasta bar",
+     "value": "Price: $15.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-11",
+     "label": "Chips & salsa",
+     "value": "Price: $2.50"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-12",
+     "label": "Mozzarella sticks",
+     "value": "Price: $3.50"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-13",
+     "label": "Jalapeño poppers",
+     "value": "Price: $4.50"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-14",
+     "label": "Shrimp cocktail",
+     "value": "Price: $6.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-15",
+     "label": "Berry bruschetta",
+     "value": "Price: $7.50"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-16",
+     "label": "Chicken wings",
+     "value": "Price: $5.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-17",
+     "label": "Artichoke dip and chips",
+     "value": "Price: $3.00"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-18",
+     "label": "French fries",
+     "value": "Price: $2.50"
+    },
+    {
+     "id": "in-house-catering-menu-sand-trap-caf-19",
+     "label": "Charcuterie board",
+     "value": "Price: $10.00"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Premier decor package: up to 100 sparklers, bubbles or light wands"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes (sparklers are a send-off option in the Premier decor package)"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Weekday (Mon-Thu) 4pm-10pm, or 12-hour rental\nWeekend (Fri-Sun) 4pm-10pm, or 12-hour rental\nTimes can be adjusted"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "6 hours or 12 hours; rental time must include setup and takedown"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No ceremonies on the golf course; use off-site rented areas such as Kelly's Grove or Jolley's Ranch\nCouple photos on the golf course only with a staff member\nRental time must include setup and takedown\nOutside caterers may not use the Sand Trap Café kitchen"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "More parking is available later in the day"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Rental rates and decor packages are published as images linked from the Services page; prices are listed as 'starting from'\nRental includes up to 96 crossback chairs; no guest capacity is stated"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 636-1920\nEmail: hobblecreekevents@gmail.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.hobblecreekevents.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "hobble-creek-event-center",
+  "Venue Name": "Hobble Creek Event Center",
+  "link": "https://www.hobblecreekevents.com/",
+  "City": "Springville",
+  "Full Address": "Hobble Creek Golf Course, Springville, UT",
+  "Description": "An event center on Hobble Creek Golf Course in Springville with mountain and canyon views, an indoor reception room and patio, and weddings year-round; in-house catering is available from the Sand Trap Café.",
+  "Price Low": "1500",
+  "Price High": "3000",
+  "Price Basis": "rental",
+  "Standard Price Range": "Mon–Thu $1,500 (6 h) / $2,500 (12 h); Fri–Sun $2,000 / $3,000 (starting from)",
+  "Seated Low": "96",
+  "Seated High": "96",
+  "Seated Capacity": "Up to 96 chairs included",
+  "Packages and Prices": "Weekday rental (Mon-Thu), 6 hours 4pm-10pm (up to 96 crossback chairs, 12 tables, 12 linens, color of choice, cake table, gift table, table and chair setup, AV system) — $1,500\nSame inclusions — weekday 12 hours — $2,500\nSame inclusions — weekend (Fri-Sun) 6 hours 4pm-10pm — $2,000\nSame inclusions — weekend 12 hours — $3,000\nClassic Decor package — $350\nPremier decor package — $500",
+  "Time slots": "Weekday (Mon-Thu) 4pm-10pm, or 12-hour rental\nWeekend (Fri-Sun) 4pm-10pm, or 12-hour rental\nTimes can be adjusted",
+  "Length of Rental": "6 hours or 12 hours; rental time must include setup and takedown",
+  "Style": "Scenic\nSeasonal\nLush",
+  "Other Decor Included": "Up to 96 crossback chairs\n12 tables\n12 linens, color of choice\nCake table\nGift table\nTable and chair setup\nBistro lights",
+  "Other Decor for Rent": "Classic Decor package (8-10 simple centerpieces, ceremony backdrop with one floral spray, 8-10 table runners, wedding signs and card box; setup and takedown) — $350\nPremier decor package (8-10 centerpieces, 8-10 table runners, cake knife set, send-off set for up to 100 with sparklers, bubbles or light wands, two floral or crystal chandeliers, ceremony backdrop with two faux floral sprays, signage, custom entry sign; setup and takedown) — $500",
+  "sparklers allowed": "Yes (sparklers are a send-off option in the Premier decor package)",
+  "parking?": "More parking is available later in the day",
+  "sound system": "Yes\nAV system (included with rental)",
+  "extras": "Golf-course setting with mountain and canyon views\nIn-house catering available from the Sand Trap Café\n3D virtual tour on the website",
+  "cleanup crew": "Couple handles setup and takedown within the rental time\nSand Trap Café handles setup, service and cleanup of its own catering",
+  "Deposit Policy": "Date is secured only once a deposit is received (amount not stated)",
+  "Catering": "Outside catering permitted; outside caterers have no access to the Sand Trap Café kitchen\nIn-house catering partner: Sand Trap Café (10% gratuity on custom catering)\nFavorite caterers listed: Brown Brothers, Marvelous, Magleby's",
+  "Alcohol policy": "A licensed and insured professional bartender must be hired to serve all alcohol",
+  "Event Coordinator": "Venue team provides coordination, setup and planning support",
+  "Restrictions": "No ceremonies on the golf course; use off-site rented areas such as Kelly's Grove or Jolley's Ranch\nCouple photos on the golf course only with a staff member\nRental time must include setup and takedown\nOutside caterers may not use the Sand Trap Café kitchen",
+  "Important Notes": "Rental rates and decor packages are published as images linked from the Services page; prices are listed as 'starting from'\nRental includes up to 96 crossback chairs; no guest capacity is stated",
+  "Contact Information": "Phone: (801) 636-1920\nEmail: hobblecreekevents@gmail.com"
+ }
+}

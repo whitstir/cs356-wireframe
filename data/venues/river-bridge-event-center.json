@@ -1,0 +1,709 @@
+{
+ "id": "river-bridge-event-center",
+ "name": "River Bridge Event Center",
+ "city": "Spanish Fork",
+ "description": "A wedding venue in Spanish Fork with an indoor reception hall, indoor and outdoor ceremony locations, a covered patio and pavilion, a lawn with a water feature and mountain views on the Spanish Fork River trail; rentals include furniture, sound, setup and cleanup.",
+ "styles": [
+  "Classic"
+ ],
+ "priceMin": 3000,
+ "priceMax": 7000,
+ "priceBasis": "rental",
+ "priceText": "Peak $5,000/$6,000/$7,000; off-season $3,500–$5,500; off-season half day $3,000",
+ "seated": null,
+ "seatedMin": null,
+ "seatedText": "Not stated",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Firepit": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": true,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": false,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "2 wireless microphones"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "2 TV's"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal Suite + Groom's Lounge"
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "Cleanup at the end of the evening"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Onsite event manager + hostess"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Bridal Suite + Groom's Lounge"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor reception hall"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "12 runners + 8 full length linens for full day rental"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor ceremony locations | Covered patio | Lawn area"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "Sparkler package, $100 (100 sparklers; venue lights and disposes)"
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "1 backdrop option"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Customizable marquee sign"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Bistro lighting"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "included",
+   "wording": "Gas firepit"
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A wedding venue in Spanish Fork with an indoor reception hall, indoor and outdoor ceremony locations, a covered patio and pavilion, a lawn with a water feature and mountain views on the Spanish Fork River trail; rentals include furniture, sound, setup and cleanup."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "1225 S Main Street, Spanish Fork, UT 84660"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Timeless\nElevated\nRefined"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Peak $5,000/$6,000/$7,000; off-season $3,500–$5,500; off-season half day $3,000"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Peak season (May-October), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $5,000; Thursday $6,000; Friday-Saturday $7,000\nOff season (November-April), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $3,500; Thursday $4,500; Friday-Saturday $5,500\nOff-season half day, 6 hours Monday-Wednesday — $3,000\nUltimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor reception hall"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor ceremony locations | Covered patio | Lawn area"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Not stated"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bridal Suite + Groom's Lounge"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Bridal Suite + Groom's Lounge"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal suite\nGroom's lounge\nFamily and vendor room"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "12 runners + 8 full length linens for full day rental"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "included",
+     "value": "Cleanup at the end of the evening"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Onsite event manager + hostess"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "12 farmhouse tables\n18 8-foot banquet tables\n18 60-inch round tables\n2 wood bistro tables\n12 runners and 8 full-length linens (full day); 12 runners (half day)\n200 outdoor chairs\nAccess to decor closet\n1 backdrop option\nBistro lighting\nGas firepit\nCustomizable marquee sign\nYard games\n2 TVs\n2 wireless microphones\nBluetooth sound system"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Onsite event manager and hostess (included)\nMonth-of and day-of coordination in Ultimate Event Package — $2,000\nCeremony coordination in Ceremony Essentials — $750"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Included"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "2 wireless microphones"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Bluetooth sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "2 TV's"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBluetooth sound system (indoor and outdoor)\n2 wireless microphones"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "1 backdrop option"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Customizable marquee sign"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Bistro lighting"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Chinaware, chargers, flatware and goblets — price on request"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Indoor and outdoor ceremony locations\nCovered patio\nCovered pavilion with lighting\nLawn area and water feature\nFamily and vendor room\n4 bathrooms\nWifi\nOnsite event manager and hostess\nOn the Spanish Fork River trail\nUltimate Event Package — $2,000\nCeremony Essentials — $750\nDecorating Package — $500\nProjectiles (confetti, rice, petals) — $250"
+    }
+   ]
+  },
+  {
+   "id": "indoor-vs-outdoor-amenities",
+   "title": "Indoor vs outdoor amenities",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "indoor-vs-outdoor-amenities-0",
+     "label": "Indoor",
+     "value": "12 farmhouse tables; 18 banquet tables; 18 60-inch rounds; 2 TVs; 2 wireless mics; Bluetooth sound; decor closet; bridal suite; groom's lounge; family + vendor room; 4 bathrooms; 1 backdrop"
+    },
+    {
+     "id": "indoor-vs-outdoor-amenities-1",
+     "label": "Outdoor",
+     "value": "200 chairs; ceremony locations; covered patio; covered pavilion with lighting; gas firepit; bistro lighting; yard games; lawn; water feature; marquee sign; parking lot"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "included",
+     "value": "Gas firepit"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Preferred caterers listed: Caley's Catering, Crisp Catering, Culinary Crafts, Green Hollow Catering, Magleby's Catering, Marvellous Catering"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol fee — $500\nAlcohol must be served by licensed and insured bartenders (recommended bartenders listed)"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "addon",
+     "value": "Sparkler package, $100 (100 sparklers; venue lights and disposes)"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Sparkler Package — $100 (venue provides, lights and disposes of 100 sparklers)"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Full day 10am-10pm (Monday-Saturday)\nOff-season half day: 6 hours between 10am-10pm, Monday-Wednesday"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "12 hours\n6 hours (off-season half day)"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Projectiles (confetti, rice, petals) only with the $250 add-on; client cleans up projectiles"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Spacious parking lot"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Peak season May-October; off season November-April\nAll listed amenities are included in the rental; packages are optional"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-663-1134\nEmail: info@riverbridgeeventcenter.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.riverbridgeeventcenter.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "river-bridge-event-center",
+  "Venue Name": "River Bridge Event Center",
+  "link": "https://www.riverbridgeeventcenter.com/",
+  "City": "Spanish Fork",
+  "Full Address": "1225 S Main Street, Spanish Fork, UT 84660",
+  "Description": "A wedding venue in Spanish Fork with an indoor reception hall, indoor and outdoor ceremony locations, a covered patio and pavilion, a lawn with a water feature and mountain views on the Spanish Fork River trail; rentals include furniture, sound, setup and cleanup.",
+  "Price Low": "3000",
+  "Price High": "7000",
+  "Price Basis": "rental",
+  "Standard Price Range": "Peak $5,000/$6,000/$7,000; off-season $3,500–$5,500; off-season half day $3,000",
+  "Seated Capacity": "Not stated",
+  "Packages and Prices": "Peak season (May-October), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $5,000; Thursday $6,000; Friday-Saturday $7,000\nOff season (November-April), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $3,500; Thursday $4,500; Friday-Saturday $5,500\nOff-season half day, 6 hours Monday-Wednesday — $3,000\nUltimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request",
+  "Time slots": "Full day 10am-10pm (Monday-Saturday)\nOff-season half day: 6 hours between 10am-10pm, Monday-Wednesday",
+  "Length of Rental": "12 hours\n6 hours (off-season half day)",
+  "Style": "Timeless\nElevated\nRefined",
+  "Other Decor Included": "12 farmhouse tables\n18 8-foot banquet tables\n18 60-inch round tables\n2 wood bistro tables\n12 runners and 8 full-length linens (full day); 12 runners (half day)\n200 outdoor chairs\nAccess to decor closet\n1 backdrop option\nBistro lighting\nGas firepit\nCustomizable marquee sign\nYard games\n2 TVs\n2 wireless microphones\nBluetooth sound system",
+  "Other Decor for Rent": "Chinaware, chargers, flatware and goblets — price on request",
+  "sparklers allowed": "Sparkler Package — $100 (venue provides, lights and disposes of 100 sparklers)",
+  "parking?": "Spacious parking lot",
+  "sound system": "Yes\nBluetooth sound system (indoor and outdoor)\n2 wireless microphones",
+  "extras": "Indoor and outdoor ceremony locations\nCovered patio\nCovered pavilion with lighting\nLawn area and water feature\nFamily and vendor room\n4 bathrooms\nWifi\nOnsite event manager and hostess\nOn the Spanish Fork River trail\nUltimate Event Package — $2,000\nCeremony Essentials — $750\nDecorating Package — $500\nProjectiles (confetti, rice, petals) — $250",
+  "cleanup crew": "Included",
+  "Catering": "Preferred caterers listed: Caley's Catering, Crisp Catering, Culinary Crafts, Green Hollow Catering, Magleby's Catering, Marvellous Catering",
+  "Alcohol policy": "Alcohol fee — $500\nAlcohol must be served by licensed and insured bartenders (recommended bartenders listed)",
+  "Event Coordinator": "Onsite event manager and hostess (included)\nMonth-of and day-of coordination in Ultimate Event Package — $2,000\nCeremony coordination in Ceremony Essentials — $750",
+  "Bride/Groom Rooms": "Bridal suite\nGroom's lounge\nFamily and vendor room",
+  "Restrictions": "Projectiles (confetti, rice, petals) only with the $250 add-on; client cleans up projectiles",
+  "Important Notes": "Peak season May-October; off season November-April\nAll listed amenities are included in the rental; packages are optional",
+  "Contact Information": "Phone: 801-663-1134\nEmail: info@riverbridgeeventcenter.com"
+ }
+}

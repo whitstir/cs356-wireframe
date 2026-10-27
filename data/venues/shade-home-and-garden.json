@@ -1,0 +1,804 @@
+{
+ "id": "shade-home-and-garden",
+ "name": "Shade Weddings and Events",
+ "city": "Orem",
+ "description": "A greenhouse-and-vineyard wedding venue in Orem with three event spaces (the Glasshouse, the Vineyard and the Greenhouse), greenery and modern, minimalist touches; each 10-hour rental includes two of the three spaces.",
+ "styles": [
+  "Outdoors",
+  "Modern"
+ ],
+ "priceMin": 3000,
+ "priceMax": 5500,
+ "priceBasis": "rental",
+ "priceText": "Seasonal rentals $3,000–$5,500",
+ "seated": 168,
+ "seatedMin": 120,
+ "seatedText": "Greenhouse 120\nGlasshouse 140\nVineyard 168 at tables",
+ "standing": 400,
+ "standingMin": 200,
+ "standingText": "Glasshouse: 280 reception\nVineyard: 400 reception\nGreenhouse: 200 reception",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included",
+   "rent"
+  ],
+  "Signs / easels": [
+   "included",
+   "rent"
+  ],
+  "Candles / lanterns": [
+   "rent"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Inclusions With All Venues: 'Microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth Speakers for Ambient Music"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "2 Wedding Suites / Dressing Rooms"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Wedding Hostess Onsite During Entire Wedding"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "2 Wedding Suites / Dressing Rooms"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "The Glasshouse (Included in Every Rental)"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "The Vineyard (June-October Weddings)"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Recommended vendors are preferred, bartenders are required."
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "Included Decor: '2 Golden Arches"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included+rent",
+   "wording": "Dark and light greenery (21 each)"
+  },
+  "Decor > Signs / easels": {
+   "status": "included+rent",
+   "wording": "Standing easels (2 black or 4 gold); 16 table easels for rent"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "18 large black lanterns; battery candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake Table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A greenhouse-and-vineyard wedding venue in Orem with three event spaces (the Glasshouse, the Vineyard and the Greenhouse), greenery and modern, minimalist touches; each 10-hour rental includes two of the three spaces."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "435 S Geneva Rd, Orem, UT 84058"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Greenhouse\nVineyard\nNatural\nModern\nMinimalist"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Seasonal rentals $3,000–$5,500"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "10-hour rental 12pm-10pm, two of three event spaces, tables and chairs in a predetermined layout — Nov-Mar Mon-Thu — $3,000\nSame inclusions — Nov-Mar Fri-Sat — $4,000\nSame inclusions — Apr-Oct Mon-Thu — $4,500\nSame inclusions — Apr-Oct Fri-Sat — $5,500\nDecor rental (entire decor inventory, flat rate) — $200\nAlcohol fee — $500"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "The Glasshouse (Included in Every Rental)"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "The Vineyard (June-October Weddings)"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "Greenhouse 120\nGlasshouse 140\nVineyard 168 at tables"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "Glasshouse: 280 reception\nVineyard: 400 reception\nGreenhouse: 200 reception"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "The Glasshouse",
+     "value": "Seated: 140 · Ceremony: 180 · Reception: 280 · Availability: included in every rental · Tables: 14 5'x5', 2 6'x30\", 2 8'x30\""
+    },
+    {
+     "id": "spaces-1",
+     "label": "The Vineyard",
+     "value": "Seated: 168 · Ceremony: 220 · Reception: 400 · Availability: June-October weddings · Tables: 28 3'x5'"
+    },
+    {
+     "id": "spaces-2",
+     "label": "The Greenhouse",
+     "value": "Seated: 120 · Ceremony: 200 · Reception: 200 · Availability: November-May weddings · Tables: 20 3'x5'"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "2 Wedding Suites / Dressing Rooms"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "2 Wedding Suites / Dressing Rooms"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "2 wedding suites / dressing rooms"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Wedding Hostess Onsite During Entire Wedding"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Tables and chairs\nCake table\n37 ivory table runners\nStanding easels (2 black or 4 gold)\n2 golden arches\nLush greenery and blooms throughout the spaces"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Wedding hostess onsite during the entire wedding"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "One setup and take-down of tables and chairs included; cleaning not stated"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Inclusions With All Venues: 'Microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Bluetooth Speakers for Ambient Music"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBluetooth speakers for ambient music\nMicrophone"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "Included Decor: '2 Golden Arches"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included+rent",
+     "value": "Dark and light greenery (21 each)"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included+rent",
+     "value": "Standing easels (2 black or 4 gold); 16 table easels for rent"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "rent",
+     "value": "18 large black lanterns; battery candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Entire decor inventory (flat rate) — $200\nDark and light greenery\nLarge lanterns\nWood slices\nTaper and thick candlesticks with holders\nBud vases and large glass vases\nMetal bowls\nTable runners\nTable easels\nMr and Mrs sign\nGold photo/sign standing frame\nTV\nChalkboard A-frames\nTable numbers\nCard boxes\nGlass votives\nBattery-powered candles"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Three event spaces: Glasshouse, Vineyard, Greenhouse\nArborescent paths\nPhotos on the property at no extra cost\n4 restrooms"
+    }
+   ]
+  },
+  {
+   "id": "decor-rental-inventory",
+   "title": "Decor rental inventory",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-rental-inventory-0",
+     "label": "Flat rate",
+     "value": "$200"
+    },
+    {
+     "id": "decor-rental-inventory-1",
+     "label": "Items",
+     "value": "Dark greenery x21; Light greenery x21; Large lanterns black x18, gold x2; Wood slices x10; Taper candlesticks; Thick candlesticks; Clear bud vases x92; Painted bud vases x22; Large glass vases x4; Metal bowls x17; Table runners x13; Table easels x16; Mr and Mrs sign x1; Gold photo/sign standing frame x1; TV x1; Chalkboard A-frames x2; Candlestick holders; Table numbers 1-15; Card box x2; Clear glass votives x22; Battery candles"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake Table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Recommended vendors are preferred, bartenders are required."
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Own caterer allowed; preferred caterers recommended, not required\nPreferred caterers: Crisp Catering, Rockwell Catering, Charcutie"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Prep kitchen with 2 fridges/freezers, table space and sink"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol permitted onsite\n$500 alcohol fee\nPreferred bartender required"
+    }
+   ]
+  },
+  {
+   "id": "preferred-vendors",
+   "title": "Preferred vendors",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "preferred-vendors-0",
+     "label": "Required bartenders",
+     "value": "Mobile Mixers; The Bar Project; Cheers and Swizzles"
+    },
+    {
+     "id": "preferred-vendors-1",
+     "label": "Preferred caterers",
+     "value": "Crisp Catering; Rockwell Catering; Charcutie"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "12pm-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "10 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Two of three event spaces included per rental\nPreferred bartender required for alcohol\nNo open flames or confetti unless approved (Events page)"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Parking included (stated for hourly event rentals)"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "The Glasshouse is included in every rental; the Vineyard is used for June-October weddings and the Greenhouse for November-May weddings.\nNon-wedding events rent hourly: Glasshouse $400/hour, Vineyard or Greenhouse $300/hour, 3-hour minimum."
+    }
+   ]
+  },
+  {
+   "id": "hourly-event-rentals-non-wedding",
+   "title": "Hourly event rentals (non-wedding)",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "hourly-event-rentals-non-wedding-0",
+     "label": "Glasshouse",
+     "value": "$400/hour"
+    },
+    {
+     "id": "hourly-event-rentals-non-wedding-1",
+     "label": "Vineyard",
+     "value": "$300/hour"
+    },
+    {
+     "id": "hourly-event-rentals-non-wedding-2",
+     "label": "Greenhouse",
+     "value": "$300/hour"
+    },
+    {
+     "id": "hourly-event-rentals-non-wedding-3",
+     "label": "Minimum",
+     "value": "3 hours"
+    },
+    {
+     "id": "hourly-event-rentals-non-wedding-4",
+     "label": "Secondary space",
+     "value": "$125/hour"
+    },
+    {
+     "id": "hourly-event-rentals-non-wedding-5",
+     "label": "Decor package",
+     "value": "$200"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (385) 225-7981\nEmail: shadeweddings@gmail.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.shadeweddings.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "shade-home-and-garden",
+  "Venue Name": "Shade Weddings and Events",
+  "link": "https://www.shadeweddings.com/",
+  "City": "Orem",
+  "Full Address": "435 S Geneva Rd, Orem, UT 84058",
+  "Description": "A greenhouse-and-vineyard wedding venue in Orem with three event spaces (the Glasshouse, the Vineyard and the Greenhouse), greenery and modern, minimalist touches; each 10-hour rental includes two of the three spaces.",
+  "Price Low": "3000",
+  "Price High": "5500",
+  "Price Basis": "rental",
+  "Standard Price Range": "Seasonal rentals $3,000–$5,500",
+  "Seated Low": "120",
+  "Seated High": "168",
+  "Seated Capacity": "Greenhouse 120\nGlasshouse 140\nVineyard 168 at tables",
+  "Standing Low": "200",
+  "Standing High": "400",
+  "Standing Capacity": "Glasshouse: 280 reception\nVineyard: 400 reception\nGreenhouse: 200 reception",
+  "Packages and Prices": "10-hour rental 12pm-10pm, two of three event spaces, tables and chairs in a predetermined layout — Nov-Mar Mon-Thu — $3,000\nSame inclusions — Nov-Mar Fri-Sat — $4,000\nSame inclusions — Apr-Oct Mon-Thu — $4,500\nSame inclusions — Apr-Oct Fri-Sat — $5,500\nDecor rental (entire decor inventory, flat rate) — $200\nAlcohol fee — $500",
+  "Time slots": "12pm-10pm",
+  "Length of Rental": "10 hours",
+  "Style": "Greenhouse\nVineyard\nNatural\nModern\nMinimalist",
+  "Other Decor Included": "Tables and chairs\nCake table\n37 ivory table runners\nStanding easels (2 black or 4 gold)\n2 golden arches\nLush greenery and blooms throughout the spaces",
+  "Other Decor for Rent": "Entire decor inventory (flat rate) — $200\nDark and light greenery\nLarge lanterns\nWood slices\nTaper and thick candlesticks with holders\nBud vases and large glass vases\nMetal bowls\nTable runners\nTable easels\nMr and Mrs sign\nGold photo/sign standing frame\nTV\nChalkboard A-frames\nTable numbers\nCard boxes\nGlass votives\nBattery-powered candles",
+  "parking?": "Parking included (stated for hourly event rentals)",
+  "sound system": "Yes\nBluetooth speakers for ambient music\nMicrophone",
+  "extras": "Three event spaces: Glasshouse, Vineyard, Greenhouse\nArborescent paths\nPhotos on the property at no extra cost\n4 restrooms",
+  "cleanup crew": "One setup and take-down of tables and chairs included; cleaning not stated",
+  "Catering": "Own caterer allowed; preferred caterers recommended, not required\nPreferred caterers: Crisp Catering, Rockwell Catering, Charcutie",
+  "Prep Area": "Prep kitchen with 2 fridges/freezers, table space and sink",
+  "Alcohol policy": "Alcohol permitted onsite\n$500 alcohol fee\nPreferred bartender required",
+  "Event Coordinator": "Wedding hostess onsite during the entire wedding",
+  "Bride/Groom Rooms": "2 wedding suites / dressing rooms",
+  "Restrictions": "Two of three event spaces included per rental\nPreferred bartender required for alcohol\nNo open flames or confetti unless approved (Events page)",
+  "Important Notes": "The Glasshouse is included in every rental; the Vineyard is used for June-October weddings and the Greenhouse for November-May weddings.\nNon-wedding events rent hourly: Glasshouse $400/hour, Vineyard or Greenhouse $300/hour, 3-hour minimum.",
+  "Contact Information": "Phone: (385) 225-7981\nEmail: shadeweddings@gmail.com"
+ }
+}

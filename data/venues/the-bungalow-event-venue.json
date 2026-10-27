@@ -1,0 +1,802 @@
+{
+ "id": "the-bungalow-event-venue",
+ "name": "The Bungalow",
+ "city": "Pleasant Grove",
+ "description": "A family-run Pleasant Grove reception venue with French-country, old-world character (stone, ivy, gardens, a gazebo, vaulted ceilings and a fireplace). The whole facility is booked exclusively, with indoor and outdoor spaces, ivory linens, centerpieces, a sound system and an event coordinator included.",
+ "styles": [
+  "Classic",
+  "Luxury"
+ ],
+ "priceMin": 2600,
+ "priceMax": 3400,
+ "priceBasis": "rental",
+ "priceText": "Seasonal and day-of-week rentals $2,600–$3,400",
+ "seated": 165,
+ "seatedMin": 70,
+ "seatedText": "70 indoors for a sit-down dinner\n165 chairs total",
+ "standing": 350,
+ "standingMin": 300,
+ "standingText": "300 indoors (open-house reception)\n350 outdoors (open-house reception)",
+ "decor": {
+  "Centerpieces": [
+   "included"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Wireless microphone"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Indoor and outdoor sound system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TV for slideshows"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Dressing rooms"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Event coordinator"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Dressing rooms"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor event space"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Ivory linens"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Outdoor space for up to 350 guests"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Any established professional caterer"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "Centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Antique brick entryway and fireplace"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Standing and table easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Lanterns on shepherd's hooks (outdoors)"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Indoor and outdoor bistro and twinkle lights"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A family-run Pleasant Grove reception venue with French-country, old-world character (stone, ivy, gardens, a gazebo, vaulted ceilings and a fireplace). The whole facility is booked exclusively, with indoor and outdoor spaces, ivory linens, centerpieces, a sound system and an event coordinator included."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "235 South 100 West, Pleasant Grove, UT 84062"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Old-world charm\nFrench country\nEuropean country estate\nModern-day elegance"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Seasonal and day-of-week rentals $2,600–$3,400"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Reception rental, 6-hour block (3pm-9pm or 4pm-10pm), all amenities included:\nPeak season (April-October) Tuesday-Friday — $3,000\nPeak season Saturday — $3,400\nOff-peak (November-March) Tuesday-Thursday — $2,600\nOff-peak Friday — $2,800\nOff-peak Saturday — $3,000\nCeremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "$700 nonrefundable retainer secures the date\nFinal payment due 30 days before the event\n4% fee on credit/debit cards; cash, cashier's checks and checks accepted"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor event space"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Outdoor space for up to 350 guests"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "70 indoors for a sit-down dinner\n165 chairs total"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300 indoors (open-house reception)\n350 outdoors (open-house reception)"
+    }
+   ]
+  },
+  {
+   "id": "ceremony-options",
+   "title": "Ceremony options",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "ceremony-options-0",
+     "label": "Ceremony with reception",
+     "value": "Price: $750 peak (outdoor or indoor, 70 max) / $550 off-peak (indoor, 40 max) · Includes: 1 extra hour; chair setup/takedown; music; rehearsal; coordination"
+    },
+    {
+     "id": "ceremony-options-1",
+     "label": "Ceremony only",
+     "value": "Price: $1,000 · Days: Tuesday-Thursday · Includes: 3-hour block; indoor (40 max) or outdoor (70 max); chairs; music; rehearsal; coordination"
+    }
+   ]
+  },
+  {
+   "id": "spaces-and-seating",
+   "title": "Spaces and seating",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-and-seating-0",
+     "label": "Reception hall",
+     "value": "Seated: 75 · Tables: 11 · Setting: indoor"
+    },
+    {
+     "id": "spaces-and-seating-1",
+     "label": "Upstairs",
+     "value": "Seated: 40 · Tables: 10 · Setting: indoor"
+    },
+    {
+     "id": "spaces-and-seating-2",
+     "label": "Outdoors (seasonal)",
+     "value": "Seated: 50 · Tables: 9 · Setting: outdoor"
+    },
+    {
+     "id": "spaces-and-seating-3",
+     "label": "Sit down dinner indoors",
+     "value": "70"
+    },
+    {
+     "id": "spaces-and-seating-4",
+     "label": "Open house indoors",
+     "value": "300"
+    },
+    {
+     "id": "spaces-and-seating-5",
+     "label": "Open house outdoors",
+     "value": "350"
+    }
+   ]
+  },
+  {
+   "id": "rain-plan",
+   "title": "Rain plan",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "rain-plan-0",
+     "label": "Rain plan",
+     "value": "In inclement weather an outdoor ceremony may be moved indoors"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Dressing rooms"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Dressing rooms"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Dressing rooms"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Ivory linens"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Event coordinator"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Centerpieces\nStanding and table easels\nIvory linens\nBistro lights (indoor and outdoor)\nTwinkle lights (indoor and outdoor)\nLanterns on shepherd's hooks (outdoors)\nCake table\nSign-in table\nGift table\nTables and chairs"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Event coordinator included with all bookings\nBungalow staff for table clearing and cleanup — $25 per hour per staff member"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Partial: venue staff take down venue-provided items and clean restrooms\nHost and vendors clean up everything they bring, including catering and send-off mess\nStaff to help clean up — $25 per hour per staff member"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Wireless microphone"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Indoor and outdoor sound system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TV for slideshows"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSound system (indoors and outdoors)\nWireless microphone\nTV for slideshows (HDTV indoors; DVD, thumb drive or laptop)"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "included",
+     "value": "Centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Antique brick entryway and fireplace"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Standing and table easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "Lanterns on shepherd's hooks (outdoors)"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Indoor and outdoor bistro and twinkle lights"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Large selection of decor (ask venue for details)\nKitchen supplies"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Exclusive use of building and gardens\nDining hall\nGreeting room\nGazebo with 3 serving tables\nIndoor serving buffet\nFireplace\nWireless internet\nDVD player\nBirdcage for cards\nCeremony add-on (with reception) — $750 peak / $550 off-peak\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Any established professional caterer"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Outside caterer required: any established, professional caterer (must sign Brought-In Food Policy)\nNo food made by family or friends\nCaterer or host provides plates, cups, utensils, napkins, water dispenser and ice"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Kitchen for warming and prepping (caterer completes a checklist)\nNo ice maker; limited freezer space"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Beer and wine only\n$600 alcohol privilege fee\nLicensed, insured bartender required; host or bartender supplies alcohol, cups and ice"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "No\nSparklers, fireworks and floating lanterns not allowed (fire hazard)"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "3:00pm-9:00pm or 4:00pm-10:00pm\nPeak (April-October): Tuesday-Saturday\nOff-peak (November-March): Tuesday-Saturday\nClosed Sunday"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "6 hours (reception)\n3 hours (ceremony only or special event)"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No sparklers, fireworks or floating lanterns\nNo confetti\nMusic off by 10:00pm (city ordinance)\nNo dogs\nNo early access, drop-offs or storage before the event\nFurniture moved only by venue staff\nCake must be from an established professional baker\nHost cleans up send-off and vehicle-decorating mess"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Parking lot (mentioned in send-off policy)"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Whole facility is booked exclusively\nOff-peak season: outdoor tables and chairs are stored for winter\nCeremony capacity: 70 outdoors / 40 indoors\nTours by appointment only; closed Sunday"
+    }
+   ]
+  },
+  {
+   "id": "special-events",
+   "title": "Special events",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "special-events-0",
+     "label": "Special events",
+     "value": "Price: $1,500 · Days: Tuesday-Thursday · Includes: 3-hour block; all amenities"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-785-2111\nEmail: infobungalowwedding@gmail.com\nInstagram: @bungalowweddings"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.bungalowwedding.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-bungalow-event-venue",
+  "Venue Name": "The Bungalow",
+  "link": "https://www.bungalowwedding.com/",
+  "City": "Pleasant Grove",
+  "Full Address": "235 South 100 West, Pleasant Grove, UT 84062",
+  "Description": "A family-run Pleasant Grove reception venue with French-country, old-world character (stone, ivy, gardens, a gazebo, vaulted ceilings and a fireplace). The whole facility is booked exclusively, with indoor and outdoor spaces, ivory linens, centerpieces, a sound system and an event coordinator included.",
+  "Price Low": "2600",
+  "Price High": "3400",
+  "Price Basis": "rental",
+  "Standard Price Range": "Seasonal and day-of-week rentals $2,600–$3,400",
+  "Seated Low": "70",
+  "Seated High": "165",
+  "Seated Capacity": "70 indoors for a sit-down dinner\n165 chairs total",
+  "Standing Low": "300",
+  "Standing High": "350",
+  "Standing Capacity": "300 indoors (open-house reception)\n350 outdoors (open-house reception)",
+  "Packages and Prices": "Reception rental, 6-hour block (3pm-9pm or 4pm-10pm), all amenities included:\nPeak season (April-October) Tuesday-Friday — $3,000\nPeak season Saturday — $3,400\nOff-peak (November-March) Tuesday-Thursday — $2,600\nOff-peak Friday — $2,800\nOff-peak Saturday — $3,000\nCeremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600",
+  "Time slots": "3:00pm-9:00pm or 4:00pm-10:00pm\nPeak (April-October): Tuesday-Saturday\nOff-peak (November-March): Tuesday-Saturday\nClosed Sunday",
+  "Length of Rental": "6 hours (reception)\n3 hours (ceremony only or special event)",
+  "Style": "Old-world charm\nFrench country\nEuropean country estate\nModern-day elegance",
+  "Other Decor Included": "Centerpieces\nStanding and table easels\nIvory linens\nBistro lights (indoor and outdoor)\nTwinkle lights (indoor and outdoor)\nLanterns on shepherd's hooks (outdoors)\nCake table\nSign-in table\nGift table\nTables and chairs",
+  "Other Decor for Rent": "Large selection of decor (ask venue for details)\nKitchen supplies",
+  "sparklers allowed": "No\nSparklers, fireworks and floating lanterns not allowed (fire hazard)",
+  "parking?": "Parking lot (mentioned in send-off policy)",
+  "sound system": "Yes\nSound system (indoors and outdoors)\nWireless microphone\nTV for slideshows (HDTV indoors; DVD, thumb drive or laptop)",
+  "extras": "Exclusive use of building and gardens\nDining hall\nGreeting room\nGazebo with 3 serving tables\nIndoor serving buffet\nFireplace\nWireless internet\nDVD player\nBirdcage for cards\nCeremony add-on (with reception) — $750 peak / $550 off-peak\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member",
+  "cleanup crew": "Partial: venue staff take down venue-provided items and clean restrooms\nHost and vendors clean up everything they bring, including catering and send-off mess\nStaff to help clean up — $25 per hour per staff member",
+  "Deposit Policy": "$700 nonrefundable retainer secures the date\nFinal payment due 30 days before the event\n4% fee on credit/debit cards; cash, cashier's checks and checks accepted",
+  "Catering": "Outside caterer required: any established, professional caterer (must sign Brought-In Food Policy)\nNo food made by family or friends\nCaterer or host provides plates, cups, utensils, napkins, water dispenser and ice",
+  "Prep Area": "Kitchen for warming and prepping (caterer completes a checklist)\nNo ice maker; limited freezer space",
+  "Alcohol policy": "Beer and wine only\n$600 alcohol privilege fee\nLicensed, insured bartender required; host or bartender supplies alcohol, cups and ice",
+  "Event Coordinator": "Event coordinator included with all bookings\nBungalow staff for table clearing and cleanup — $25 per hour per staff member",
+  "Bride/Groom Rooms": "Dressing rooms",
+  "Restrictions": "No sparklers, fireworks or floating lanterns\nNo confetti\nMusic off by 10:00pm (city ordinance)\nNo dogs\nNo early access, drop-offs or storage before the event\nFurniture moved only by venue staff\nCake must be from an established professional baker\nHost cleans up send-off and vehicle-decorating mess",
+  "Important Notes": "Whole facility is booked exclusively\nOff-peak season: outdoor tables and chairs are stored for winter\nCeremony capacity: 70 outdoors / 40 indoors\nTours by appointment only; closed Sunday",
+  "Contact Information": "Phone: 801-785-2111\nEmail: infobungalowwedding@gmail.com\nInstagram: @bungalowweddings"
+ }
+}

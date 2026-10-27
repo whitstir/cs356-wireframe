@@ -1,0 +1,223 @@
+{
+ "row": 5,
+ "id": "barbwire-and-lace",
+ "official_name": {
+  "name": "Barbwire & Lace",
+  "source_url": "https://www.barbwireandlace.com/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound System with microphone",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Use of onsite Sound System",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal Room",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/amenities"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Owner Carole will be there every step of the way (custom celebration support)",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom’s Room",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/amenities"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Exclusive use of all indoor & outdoor areas",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Open Air Barn ... Spacious lawn areas",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/amenities"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "feel free to choose any vendor you wish; there is no extra cost. Food trucks are welcome!",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Features > Sparklers allowed": {
+   "status": "addon",
+   "wording": "50 sparklers — $25 (Do It Yourself), free in All Access; extra sparklers $0.50 each",
+   "price": "$25",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "10 Round tables with your choice of Centerpieces",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Backdrops and Props ... Vine Covered Arbor is beautifully lit",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/amenities"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Open air barn dance floor pavilion with working fireplace",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/package-pricing"
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Bathed in the warm glow of chandeliers and fairy lights",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "chandeliers and fairy lights",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/"
+  },
+  "Other > Cake table": {
+   "status": "included+rent",
+   "wording": "Whiskey Barrel with Glass Top is FREE ... Cake Tables - $100 Extra",
+   "price": "$100",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options"
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Drink Station $100 Extra ... Saloon $200",
+   "price": "$100",
+   "source_url": "https://www.barbwireandlace.com/barbwirelace-options"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "included",
+   "wording": "Photography – Shaded benches, water fountains ... Backdrops and Props",
+   "price": "",
+   "source_url": "https://www.barbwireandlace.com/amenities"
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 3000,
+  "high": 4500,
+  "basis": "rental",
+  "wording": "Do It Yourself package $3,000; All Access package $4,500",
+  "math": ""
+ },
+ "seated": {
+  "low": 100,
+  "high": 200,
+  "wording": "100 (Do It Yourself) | 200 (All Access)"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Barbwire & Lace"
+ }
+}

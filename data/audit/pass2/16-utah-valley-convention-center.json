@@ -1,0 +1,223 @@
+{
+ "row": 16,
+ "id": "utah-valley-convention-center",
+ "official_name": {
+  "name": "Utah Valley Convention Center",
+  "source_url": "https://utahvalleycc.com/weddings/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "All facility entrances are wheelchair accessible.",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/accessibility/"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "There are four public elevators.",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/accessibility/"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "All public restrooms are ADA compliant.",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/accessibility/"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "A limited number of disability parking stalls are in our attached parking lot.",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/accessibility/"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "microphone, audio connection to play music, house sound",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "television or projector with small screen",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "house sound",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "television or projector with small screen",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "included",
+   "wording": "a one-time daily cleaning of rented spaces, including lobbies and restrooms",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/planners/"
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "the help of our professional event managers",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Level 2 - Grand Ballroom",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "two mid-length linens on each banquet table",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Provo wedding venues with indoor and outdoor options",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "included",
+   "wording": "house centerpieces",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "included",
+   "wording": "black or white chair covers, chair ties",
+   "price": "",
+   "source_url": "https://utahvalleycc.com/weddings/"
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "rent",
+   "wording": "Hosted or Non-Hosted Bar $300 with Bartender (3 hours service)",
+   "price": "$300",
+   "source_url": "https://utahvalleycc.com/wp-content/uploads/2026/03/Wedding-Reception-Menu-2026.jpg"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 15102,
+  "high": 53946,
+  "basis": "per-person x capacity",
+  "wording": "Lunch $41.95 and dinner $49.95 per person",
+  "math": "$41.95 × 360 seated = $15,102; $49.95 × 1,080 seated = $53,946"
+ },
+ "seated": {
+  "low": 360,
+  "high": 1080,
+  "wording": "Cascade Room 360 | Ballroom third 380 | Grand Ballroom 1,080 (banquet rounds)"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Utah Valley Convention Center"
+ }
+}

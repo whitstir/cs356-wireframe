@@ -1,0 +1,744 @@
+{
+ "id": "willow-springs-event-center",
+ "name": "Willow Springs Event Center",
+ "city": "Springville",
+ "description": "A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom.",
+ "styles": [
+  "Modern"
+ ],
+ "priceMin": 1199,
+ "priceMax": 2499,
+ "priceBasis": "rental",
+ "priceText": "Seasonal and day-of-week rentals $1,199–$2,499",
+ "seated": 150,
+ "seatedMin": 150,
+ "seatedText": "150 chairs included",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Centerpieces": [
+   "rent"
+  ],
+  "Ceremony arch / backdrop": [
+   "rent"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "rent"
+  ],
+  "Signs / easels": [
+   "rent"
+  ],
+  "Candles / lanterns": [
+   "rent"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": false,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": false
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Wireless Mic & Stand"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector & screen"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Speaker system"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "2 TV's"
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bridal Suite with bathroom"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "One site Event Manager"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor venue"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Lawn with string lights, seating and lawn games"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "No preferred-vendor requirement"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Table Centerpieces (5 to choose from) - Quantity: 12"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "rent",
+   "wording": "Arch/Backdrop (4 to choose from) - Quantity: 1"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "Fireplace with mantel"
+  },
+  "Decor > Greenery / florals": {
+   "status": "rent",
+   "wording": "Lantern, hoop and vase floral pieces"
+  },
+  "Decor > Signs / easels": {
+   "status": "rent",
+   "wording": "9 standing easels; welcome sign"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "rent",
+   "wording": "Wreath and wood lanterns with flameless candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Four chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "Cafe lights; pergola with string lights"
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "554 W 1200 N, Springville, UT 84663"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "White\nBright\nIndoor-outdoor"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Seasonal and day-of-week rentals $1,199–$2,499"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans) — Nov-Mar Mon-Wed — $1,199\nSame inclusions — Nov-Mar Thu — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays — $1,799\nSame inclusions — Apr-Oct Mon-Wed — $1,749\nSame inclusions — Apr-Oct Thu — $1,999\nSame inclusions — Apr-Oct Fri-Sat and holidays — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Deposit is half the venue cost\nNon-refundable but transferable to another available date"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor venue"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Lawn with string lights, seating and lawn games"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "150 chairs included"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Ballroom",
+     "value": "Setting: indoor · Notes: four chandeliers, fireplace, 30-ft sliding glass doors"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Covered patio",
+     "value": "Setting: outdoor (covered, heated, enclosable)"
+    },
+    {
+     "id": "spaces-2",
+     "label": "Lawn with café lights and pergola",
+     "value": "Setting: outdoor"
+    },
+    {
+     "id": "spaces-3",
+     "label": "Basketball court",
+     "value": "Setting: outdoor"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bridal Suite with bathroom"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal suite with private bathroom"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "One site Event Manager"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "150 chairs\n16 round tables (60 in.)\n4 8-ft and 14 6-ft banquet tables\n7 bistro tables\nFour chandeliers\nFireplace with mantle\nCovered patio with enclosure, heaters, fans and lighting\nCafé lights over the lawn and send-off area\nPergola with string lights\nLarge lawn\nBasketball court\nWifi"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "On-site event manager (included)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Wireless Mic & Stand"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Projector & screen"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Speaker system"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "2 TV's"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nIndoor and outdoor speaker systems\nWireless microphone and stand\nProjector and screen\n2 indoor TVs and 1 outdoor TV"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "rent",
+     "value": "Table Centerpieces (5 to choose from) - Quantity: 12"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "rent",
+     "value": "Arch/Backdrop (4 to choose from) - Quantity: 1"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "Fireplace with mantel"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "rent",
+     "value": "Lantern, hoop and vase floral pieces"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "rent",
+     "value": "9 standing easels; welcome sign"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "rent",
+     "value": "Wreath and wood lanterns with flameless candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Four chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "Cafe lights; pergola with string lights"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Basic decoration package (12 table centerpieces with wreaths, lanterns, greenery, flameless candles or flowers; mantle and entry table decor; 2 A-frame chalkboards; 9 easels; welcome sign) — $325\nCeremony decoration package (arch/backdrop, 16 aisle enders) — $225\nAisle-ender chair ties — $4.25 per chair\nLinens (floor-length base linens, overlays, runners, chair ties, napkins) — $16.25"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Thirty-foot sliding glass doors to the patio\nCustomizable lighting\nLawn games and room for a bounce house"
+    }
+   ]
+  },
+  {
+   "id": "decor-packages",
+   "title": "Decor packages",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "decor-packages-0",
+     "label": "Basic Decoration Package",
+     "value": "Price: $325 · Includes: 12 table centerpieces (5 styles); fireplace mantle decorations; entry table decorations; 2 A-frame chalkboards; 9 easels; welcome sign"
+    },
+    {
+     "id": "decor-packages-1",
+     "label": "Ceremony Decoration Package",
+     "value": "Price: $225 · Includes: arch/backdrop (4 styles); 16 ceremony aisle enders · Add ons: aisle-ender chair ties $4.25 per chair"
+    },
+    {
+     "id": "decor-packages-2",
+     "label": "Linens",
+     "value": "Price: $16.25 · Includes: floor-length base linens, overlays, runners, chair ties, napkins (third-party vendor)"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "No preferred-vendor requirement"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Open vendor policy: no preferred vendors required, so any caterer may be used"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Full kitchen with 2 ovens, stove top, ice machine, fridge and microwave"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "7 hours (3pm-10pm); additional hours $295/hour, up to midnight"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Parking area"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Booking pages say décor packages start at $395, but the pricing page lists $325 and $225 packages\nBooking pages list a contact address of 554 West Spring Creek Place; the venue address on every page is 554 West 1200 North"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (385) 375-7756\nEmail: janelle@thewillowsprings.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.thewillowsprings.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "willow-springs-event-center",
+  "Venue Name": "Willow Springs Event Center",
+  "link": "https://www.thewillowsprings.com/",
+  "City": "Springville",
+  "Full Address": "554 W 1200 N, Springville, UT 84663",
+  "Description": "A bright white reception venue with indoor and outdoor areas, chandeliers, a covered heated patio, lawn space, a pergola, a full kitchen, and a private bridal suite with bathroom.",
+  "Price Low": "1199",
+  "Price High": "2499",
+  "Price Basis": "rental",
+  "Standard Price Range": "Seasonal and day-of-week rentals $1,199–$2,499",
+  "Seated Low": "150",
+  "Seated High": "150",
+  "Seated Capacity": "150 chairs included",
+  "Packages and Prices": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans) — Nov-Mar Mon-Wed — $1,199\nSame inclusions — Nov-Mar Thu — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays — $1,799\nSame inclusions — Apr-Oct Mon-Wed — $1,749\nSame inclusions — Apr-Oct Thu — $1,999\nSame inclusions — Apr-Oct Fri-Sat and holidays — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour",
+  "Time slots": "Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm",
+  "Length of Rental": "7 hours (3pm-10pm); additional hours $295/hour, up to midnight",
+  "Style": "White\nBright\nIndoor-outdoor",
+  "Other Decor Included": "150 chairs\n16 round tables (60 in.)\n4 8-ft and 14 6-ft banquet tables\n7 bistro tables\nFour chandeliers\nFireplace with mantle\nCovered patio with enclosure, heaters, fans and lighting\nCafé lights over the lawn and send-off area\nPergola with string lights\nLarge lawn\nBasketball court\nWifi",
+  "Other Decor for Rent": "Basic decoration package (12 table centerpieces with wreaths, lanterns, greenery, flameless candles or flowers; mantle and entry table decor; 2 A-frame chalkboards; 9 easels; welcome sign) — $325\nCeremony decoration package (arch/backdrop, 16 aisle enders) — $225\nAisle-ender chair ties — $4.25 per chair\nLinens (floor-length base linens, overlays, runners, chair ties, napkins) — $16.25",
+  "parking?": "Parking area",
+  "sound system": "Yes\nIndoor and outdoor speaker systems\nWireless microphone and stand\nProjector and screen\n2 indoor TVs and 1 outdoor TV",
+  "extras": "Thirty-foot sliding glass doors to the patio\nCustomizable lighting\nLawn games and room for a bounce house",
+  "Deposit Policy": "Deposit is half the venue cost\nNon-refundable but transferable to another available date",
+  "Catering": "Open vendor policy: no preferred vendors required, so any caterer may be used",
+  "Prep Area": "Full kitchen with 2 ovens, stove top, ice machine, fridge and microwave",
+  "Event Coordinator": "On-site event manager (included)",
+  "Bride/Groom Rooms": "Bridal suite with private bathroom",
+  "Important Notes": "Booking pages say décor packages start at $395, but the pricing page lists $325 and $225 packages\nBooking pages list a contact address of 554 West Spring Creek Place; the venue address on every page is 554 West 1200 North",
+  "Contact Information": "Phone: (385) 375-7756\nEmail: janelle@thewillowsprings.com"
+ }
+}

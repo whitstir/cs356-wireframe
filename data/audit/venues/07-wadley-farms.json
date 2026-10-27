@@ -1,0 +1,1006 @@
+{
+ "row": 7,
+ "id": "wadley-farms",
+ "name": "Wadley Farms",
+ "website": "https://wadleyfarms.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://wadleyfarms.com/ (home: overview, capacity 200, image alt text)",
+  "https://wadleyfarms.com/weddings (pricing tables, add-ons, deposits, space descriptions, wedding FAQ, gallery alt text)",
+  "https://wadleyfarms.com/faqs (FAQ: reservations, catering, durations, capacity, wheelchair, parking, lodging)",
+  "https://wadleyfarms.com/events (same pricing tables; A/V FAQ)",
+  "https://wadleyfarms.com/about (history, staff and coordinator roles)",
+  "https://wadleyfarms.com/contact (address, two phone numbers, wheelchair, parking, pets)",
+  "https://wadleyfarms.com/recommended-vendors (recommended vendors; required vendors for Castle and alcohol)",
+  "https://wadleyfarms.com/lodging (three lodging rentals, two-night minimum)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "5 East 400 North, Lindon, UT 84042",
+  "note": "Lindon, Utah County."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Wadley Farms",
+   "verified_value": "Wadley Farms",
+   "action": "confirmed",
+   "change_origin": "Site name.",
+   "source_url": "https://wadleyfarms.com/",
+   "evidence": "Wadley Farms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://wadleyfarms.com/",
+   "verified_value": "https://wadleyfarms.com/",
+   "action": "confirmed",
+   "change_origin": "Home page loads.",
+   "source_url": "https://wadleyfarms.com/",
+   "evidence": "STATUS 200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A historic, destination-style reception venue on a 23-acre property with a castle, event barn, gardens, mountain views, on-site lodging, and multiple indoor and outdoor settings for elegant celebrations.",
+   "verified_value": "A historic family farm venue (since 1869) on 23 acres in Lindon with a castle, an event barn, a historic railroad building, gardens, vineyards, orchards and on-site lodging, offering indoor and outdoor settings.",
+   "action": "corrected",
+   "change_origin": "Added the Railroad Building, orchards and 1869 history; dropped marketing words ('destination-style', 'elegant celebrations').",
+   "source_url": "https://wadleyfarms.com/",
+   "evidence": "a grand castle and two historic buildings ... 23 acres of vibrant gardens, vineyards, and orchards",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Style cues (castle, historic, farm/barn, acres/gardens/vineyards) unchanged."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$3,100-$7,200",
+   "verified_value": "$3,100-$7,200",
+   "action": "confirmed",
+   "change_origin": "Weddings page.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "range from $3,100 for a winter weekday at the Barn to $7,200 for a Saturday at the Castle",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Tables, chairs, linens, setup, exclusive access to Castle, bride's dressing room, groom's dressing room, garden access, professional sound system — Mon-Wed 2pm-10pm — $5,600\nSame inclusions — Thu 2pm-10pm — $6,000\nSame inclusions — Fri-Sat 2pm-10pm — $7,200\nTables, chairs, linens, setup, exclusive access to Barn and Railroad Building, bride's dressing room, groom's dressing room — Mon-Wed 2pm-10pm Apr-Sep — $4,800\nSame inclusions — Thu 2pm-10pm Apr-Sep — $5,200\nSame inclusions — Fri-Sat 2pm-10pm Apr-Sep — $5,600\nSame inclusions — Mon-Thu 2pm-10pm Oct-Mar — $3,100\nSame inclusions — Fri-Sat 2pm-10pm Oct-Mar — $3,600\nCastle plus Barn access, two nights of onsite lodging, private dinner the evening before, full weekend access — starting at $17,500\nCastle ceremony add-on — $350",
+   "verified_value": "The Castle, 2pm-10pm year-round: Mon-Wed — $5,600; Thu — $6,000; Fri-Sat — $7,200\nThe Barn & Railroad Building, summer (Apr-Sep) 2pm-10pm: Mon-Wed — $4,800; Thu — $5,200; Fri-Sat — $5,600\nThe Barn & Railroad Building, winter (Oct-Mar) 2pm-10pm: Mon-Thu — $3,100; Fri-Sat — $3,600\nRentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page price tables. Removed 'bride's/groom's dressing room' from the Barn package (site lists them only in the Castle) and 'professional sound system' as a package line; added full-day option.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Our packages vary by venue but generally include tables, chairs, linens, and setup.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Prices match the CSV; full-day 10am-10pm price is not published."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "40-200",
+   "verified_value": "Castle: 200\nBarn: 100\nRailroad Building: 40",
+   "action": "corrected",
+   "change_origin": "Same numbers, written per space so the source is clear (rule max stays 200).",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "The Castle: Up to 200 seated (ceremony/dinner) ... The Barn: Up to 100 seated",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Railroad Building: 40 for a sit-down meal (Weddings page)."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "350",
+   "verified_value": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house",
+   "action": "corrected",
+   "change_origin": "Per-space open-flow numbers from the FAQ and space descriptions.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "up to 350 open-flow guests ... up to 250 open-flow guests",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Conflict: FAQ says Barn 250 open-flow; space description says Barn 300 for an open house."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 2pm-10pm\nThu 2pm-10pm\nFri-Sat 2pm-10pm\nMon-Wed 10am-10pm full-day option\nThu 10am-10pm full-day option\nFri-Sat 10am-10pm full-day option",
+   "verified_value": "Mon-Sat 2pm-10pm\nMon-Sat 10am-10pm full-day option\nA la carte hours on request",
+   "action": "corrected",
+   "change_origin": "Site gives 2pm-10pm or 10am-10pm blocks; pricing covers Mon-Sat only; a la carte hours on request.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "available for rental from 2pm-10pm (8 hours) and 10am-10pm (12 hours). A la carte hours",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "8-12 hours",
+   "verified_value": "8-12 hours",
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "2pm-10pm (8 hours) and 10am-10pm (12 hours)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Historic\nNatural\nElegant\nRustic",
+   "verified_value": "Historic\nNatural\nElegant\nRustic",
+   "action": "confirmed",
+   "change_origin": "Site words: historic charm, rustic and elegance, natural backdrops.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "The Barn combines rustic and elegance",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Weddings FAQ.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Our packages vary by venue but generally include tables, chairs, linens, and setup.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "'Generally' - not guaranteed for every package."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs\nLinens\nCastle dressing rooms\nBarn dressing rooms\nCastle grand staircase\nBarn chandelier\nTwo fireplaces\nWrought-iron balcony\nVine-wrapped gazebo\nGardens",
+   "verified_value": "Tables\nChairs\nLinens\nCastle Great Hall 38-ft fireplace and upper-chamber fireplace\nBarn grand chandelier and two fireplaces\nRailroad Building fireplace\nCastle iron chandeliers\nCastle grand staircases\nBarn wrought-iron balcony\nVine-wrapped gazebo (ceremony backdrop)\nGardens, vineyards and orchards (Apr-Sep with rental)\nBistro lights along garden paths and castle terrace",
+   "action": "corrected",
+   "change_origin": "Removed dressing rooms (not decor; Barn rooms not on site); added Castle and Railroad fireplaces, Castle iron chandeliers (gallery), gazebo as ceremony backdrop and bistro lights (gallery captions).",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "a grand chandelier, two fireplaces, cathedral ceiling, and a wrought iron balcony",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Bistro lights and Castle chandeliers come from gallery alt text: 'stone pathway lined with bistro lights', 'black iron chandeliers'."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "6-foot wooden tables — $100 each\nCrossback chairs — $8 each\nCastle lighting — $1,000",
+   "verified_value": "6-ft wooden tables — $100 each\nCrossback chairs — $8 each\nLighting in the Castle — $1,000",
+   "action": "confirmed",
+   "change_origin": "Rental Add-Ons list.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "6 ft wooden tables — $100 each; Crossback chairs — $8 each; Lighting in the Castle — $1,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "What the $1,000 Castle lighting includes is not described."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Indoor buildings plus gardens used for ceremonies and receptions.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Do you allow outdoor ceremonies year-round? ... indoor spaces like the Great Hall or the Barn",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes\nSparkler exits allowed; other fireworks not permitted",
+   "action": "confirmed",
+   "change_origin": "Weddings FAQ; added the fireworks limit.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Yes, we allow sparklers for your grand exit! However, other forms of fireworks are not permitted.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Ample parking",
+   "verified_value": "Ample on-site parking",
+   "action": "corrected",
+   "change_origin": "FAQ wording: on-site parking.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "Yes, ample on-site parking is available for guests.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "5 East 400 North, Lindon, UT 84042",
+   "verified_value": "5 East 400 North, Lindon, UT 84042",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "5 East 400 North Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Lindon",
+   "verified_value": "Lindon",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nProfessional sound system in Castle",
+   "verified_value": "Yes\nProfessional sound system in the Castle\nLCD projector and 18-ft drop-down screen in the Castle",
+   "action": "corrected",
+   "change_origin": "Added the Castle LCD projector and 18-ft screen from the Castle description.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "a professional sound system, LCD projector and an 18 ft drop down screen",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Castle only; nothing stated for the Barn or Railroad Building."
+  },
+  {
+   "field": "extras",
+   "current_value": "Onsite lodging\nPrivate dinner the evening before\nCastle ceremony add-on — $350\nVineyard and garden access\nExclusive venue access",
+   "verified_value": "Three on-site lodging rentals (Rustic Loft, Chateau, Hermitage), booked separately\nCeremony add-on — $350\nShuttle service (price on request)\nHigh-speed Wi-Fi in the Castle\nPhoto sessions on the grounds complimentary for booked clients",
+   "action": "corrected",
+   "change_origin": "Removed 'private dinner' (part of the Premium package, already in Packages) and 'exclusive access'; added shuttle, Wi-Fi, photo sessions, lodging names.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "If you have an event booked with us, photography sessions are complimentary.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Shuttle service: 'inquire for pricing' (Weddings page)."
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Setup is included; takedown/cleanup not mentioned."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "Wheelchair accessible",
+   "verified_value": "Wheelchair accessible (Castle and Barn)",
+   "action": "confirmed",
+   "change_origin": "Contact FAQ names both buildings.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "our facilities, including The Castle and The Barn, are wheelchair accessible",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "Castle deposit — $2,000 non-refundable\nBarn and Railroad Building deposit — $1,500 non-refundable",
+   "verified_value": "Castle — $2,000 non-refundable\nBarn & Railroad Building — $1,500 non-refundable\nSigned contract required to reserve",
+   "action": "confirmed",
+   "change_origin": "Booking & Policies list; added signed-contract requirement.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Castle deposit: $2,000 non-refundable, signed contract required to reserve",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Castle: preferred caterer required\nBarn and Railroad Building: outside caterer or self-cater allowed",
+   "verified_value": "Castle: caterer must be from the venue's recommended list\nBarn & Railroad Building: any caterer or self-catering allowed",
+   "action": "confirmed",
+   "change_origin": "FAQ (reworded to the site's terms).",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "you are able to bring in your own prepared food or hire the caterer of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Castle requires a caterer from the recommended list."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Castle full-service kitchen\nBarn and Railroad Building kitchen available for warm or cool food",
+   "verified_value": "Castle: full-service kitchen\nBarn & Railroad Building: kitchen for keeping food warm or cool",
+   "action": "confirmed",
+   "change_origin": "Castle description and FAQ.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Our full service kitchen includes onsite catering",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Castle: beer and wine only\nLicensed bartender required\n$1,000 alcohol privilege fee\nBarn and Railroad Building: alcohol generally not permitted",
+   "verified_value": "Beer and wine only, served by a licensed bartender\n$1,000 alcohol privilege fee\nCOPA bartenders listed as the required vendor for serving alcohol",
+   "action": "corrected",
+   "change_origin": "Removed 'Barn and Railroad Building: alcohol generally not permitted' (not on the site); beer-and-wine rule applies to all venues; added required bartender.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Alcohol (beer and wine only) is permitted when served by a licensed bartender.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Vendor page marks COPA Bartenders '**' = required vendor for serving alcohol."
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Full-day packages include event coordination\nPremium estate package includes an on-site hostess",
+   "verified_value": "Castle coordinator and Barn & Railroad Building coordinator on staff\nLead hostess on staff",
+   "action": "corrected",
+   "change_origin": "Removed 'Full-day packages include event coordination' and 'on-site hostess in Premium package' (not on the site). The About page lists a Castle coordinator, a Barn & Railroad coordinator and a lead hostess on staff.",
+   "source_url": "https://wadleyfarms.com/about",
+   "evidence": "Susie Webb castle coordinator ... Calleen Hardy barn and railroad building coordinator ... Heidi Norman lead hostess",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Whether day-of coordination is part of every rental is not stated."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Castle bride's dressing room\nCastle groom's dressing room\nBarn bride's dressing room\nBarn groom's dressing room",
+   "verified_value": "Castle bride's dressing room (with balcony)\nCastle groom's dressing room",
+   "action": "corrected",
+   "change_origin": "Removed Barn bride's/groom's dressing rooms (not on the site); Castle rooms confirmed.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "an elegant bride's dressing room complete with a balcony overlooking the vineyards, a groom's dressing room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Outdoor ceremonies are weather-dependent\nOutdoor ceremonies typically unavailable October-March\nCastle alcohol limited to beer and wine\nNo gatherings or events in lodging before or after the event",
+   "verified_value": "Outdoor ceremonies weather-dependent; typically not scheduled Oct-Mar\nAlcohol limited to beer and wine\nCastle requires a caterer from the recommended list\nNo fireworks other than sparklers\nNo pets (service animals welcome)\nNo gatherings or getting-ready groups in the lodging unless part of a package",
+   "action": "corrected",
+   "change_origin": "Alcohol limit applies to all spaces; added fireworks, pets and lodging rules from the site.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "We generally do not allow pets on the property ... service animals are always welcome.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Exclusive venue access\nCastle seats up to 200\nBarn seats up to 100\nRailroad Building seats up to 40\nBarn and Railroad Building standing capacity stated at 250\nCastle open-flow capacity stated at 350",
+   "verified_value": "Family farm since 1869; 23 acres\nExclusive use of the rented building; its surrounding gardens are included Apr-Sep\nCastle: 4,500 sq ft Great Hall and up to four breakout rooms\nLodging has a two-night minimum",
+   "action": "corrected",
+   "change_origin": "Capacity lines moved to the capacity columns; replaced the wrong 'Barn and Railroad Building standing 250' line with site facts.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "During the summer months (Apr-Sept), you automatically get exclusive use of the gardens",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Email: info@wadleyfarms.com",
+   "verified_value": "Castle: 801-400-5442\nBarn/Railroad Building: 801-404-9996\nEmail: info@wadleyfarms.com",
+   "action": "corrected",
+   "change_origin": "Added the two phone numbers from the Contact page.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "Castle: 801-400-5442 Barn/RR Building: 801-404-9996",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    3100,
+    7200
+   ],
+   "verified_value": [
+    3100,
+    7200
+   ],
+   "action": "confirmed",
+   "change_origin": "Weddings page.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "$3,100 ... to $7,200",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 200,
+   "verified_value": 200,
+   "action": "confirmed",
+   "change_origin": "FAQ.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "The Castle: Up to 200 seated",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Lindon",
+   "verified_value": "Lindon",
+   "action": "confirmed",
+   "change_origin": "Contact page.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "Lindon, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Contact FAQ.",
+   "source_url": "https://wadleyfarms.com/contact",
+   "evidence": "wheelchair accessible",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "A/V FAQ mentions sound systems and projectors, not microphones."
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Castle has an LCD projector and 18-ft drop-down screen.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "LCD projector and an 18 ft drop down screen",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Castle only; listed as a Castle feature rather than an explicit rental inclusion."
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Castle professional sound system.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "a professional sound system",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Castle only."
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Castle bride's dressing room.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "an elegant bride's dressing room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Castle groom's dressing room.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "a groom's dressing room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Castle only; Barn rooms not on the site."
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Staff includes building coordinators and a lead hostess.",
+   "source_url": "https://wadleyfarms.com/about",
+   "evidence": "castle coordinator ... lead hostess",
+   "confidence": "low",
+   "fix_type": "",
+   "notes": "Inferred from staff roles; the site never says coordination is included. Needs a phone check."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Castle, Barn, Railroad Building.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Great Hall or the Barn provide beautiful, climate-controlled alternatives",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Garden ceremonies and receptions (Apr-Sep).",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Outdoor ceremonies are weather-dependent.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings FAQ.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "generally include tables, chairs, linens, and setup",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Barn & Railroad Building allow any caterer or self-catering.",
+   "source_url": "https://wadleyfarms.com/faqs",
+   "evidence": "hire the caterer of your choice",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Castle rentals require a recommended caterer."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings FAQ.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "Yes, we allow sparklers for your grand exit!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Vine-wrapped gazebo used as ceremony backdrop; many garden archways in the gallery.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "A wisteria wrapped gazebo is the backdrop for the wedding ceremony (gallery alt text)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Permanent garden feature, not a movable arch; holding a ceremony costs a $350 add-on."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Barn (2), Railroad Building, Castle (38 ft).",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "The 4500 sq ft Great Hall features two grand staircases and a 38 ft fireplace.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Gardens are a setting, not decor."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Barn grand chandelier; Castle iron chandeliers in gallery.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "a grand chandelier",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Gallery captions show bistro lights on garden paths and the castle terrace.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "stone patio ... lit by bistro lights; walkway lined with bistro lights (gallery alt text)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "May be permanent fixtures; separately, 'Lighting in the Castle' is a $1,000 add-on of unstated type."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Photo booths are outside vendors on the recommended list."
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://wadleyfarms.com/weddings",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Wadley Farms",
+  "link": "https://wadleyfarms.com/",
+  "Description": "A historic family farm venue (since 1869) on 23 acres in Lindon with a castle, an event barn, a historic railroad building, gardens, vineyards, orchards and on-site lodging, offering indoor and outdoor settings.",
+  "Standard Price Range": "$3,100-$7,200",
+  "Packages and Prices": "The Castle, 2pm-10pm year-round: Mon-Wed — $5,600; Thu — $6,000; Fri-Sat — $7,200\nThe Barn & Railroad Building, summer (Apr-Sep) 2pm-10pm: Mon-Wed — $4,800; Thu — $5,200; Fri-Sat — $5,600\nThe Barn & Railroad Building, winter (Oct-Mar) 2pm-10pm: Mon-Thu — $3,100; Fri-Sat — $3,600\nRentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)",
+  "Seated Capacity": "Castle: 200\nBarn: 100\nRailroad Building: 40",
+  "Standing Capacity": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house",
+  "Time slots": "Mon-Sat 2pm-10pm\nMon-Sat 10am-10pm full-day option\nA la carte hours on request",
+  "Length of Rental": "8-12 hours",
+  "Style": "Historic\nNatural\nElegant\nRustic",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Tables\nChairs\nLinens\nCastle Great Hall 38-ft fireplace and upper-chamber fireplace\nBarn grand chandelier and two fireplaces\nRailroad Building fireplace\nCastle iron chandeliers\nCastle grand staircases\nBarn wrought-iron balcony\nVine-wrapped gazebo (ceremony backdrop)\nGardens, vineyards and orchards (Apr-Sep with rental)\nBistro lights along garden paths and castle terrace",
+  "Other Decor for Rent": "6-ft wooden tables — $100 each\nCrossback chairs — $8 each\nLighting in the Castle — $1,000",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes\nSparkler exits allowed; other fireworks not permitted",
+  "parking?": "Ample on-site parking",
+  "Full Address": "5 East 400 North, Lindon, UT 84042",
+  "City": "Lindon",
+  "sound system": "Yes\nProfessional sound system in the Castle\nLCD projector and 18-ft drop-down screen in the Castle",
+  "extras": "Three on-site lodging rentals (Rustic Loft, Chateau, Hermitage), booked separately\nCeremony add-on — $350\nShuttle service (price on request)\nHigh-speed Wi-Fi in the Castle\nPhoto sessions on the grounds complimentary for booked clients",
+  "cleanup crew": "",
+  "Accessibility": "Wheelchair accessible (Castle and Barn)",
+  "Deposit Policy": "Castle — $2,000 non-refundable\nBarn & Railroad Building — $1,500 non-refundable\nSigned contract required to reserve",
+  "Catering": "Castle: caterer must be from the venue's recommended list\nBarn & Railroad Building: any caterer or self-catering allowed",
+  "Prep Area": "Castle: full-service kitchen\nBarn & Railroad Building: kitchen for keeping food warm or cool",
+  "Alcohol policy": "Beer and wine only, served by a licensed bartender\n$1,000 alcohol privilege fee\nCOPA bartenders listed as the required vendor for serving alcohol",
+  "Event Coordinator": "Castle coordinator and Barn & Railroad Building coordinator on staff\nLead hostess on staff",
+  "Bride/Groom Rooms": "Castle bride's dressing room (with balcony)\nCastle groom's dressing room",
+  "Restrictions": "Outdoor ceremonies weather-dependent; typically not scheduled Oct-Mar\nAlcohol limited to beer and wine\nCastle requires a caterer from the recommended list\nNo fireworks other than sparklers\nNo pets (service animals welcome)\nNo gatherings or getting-ready groups in the lodging unless part of a package",
+  "Important Notes": "Family farm since 1869; 23 acres\nExclusive use of the rented building; its surrounding gardens are included Apr-Sep\nCastle: 4,500 sq ft Great Hall and up to four breakout rooms\nLodging has a two-night minimum",
+  "Contact Information": "Castle: 801-400-5442\nBarn/Railroad Building: 801-404-9996\nEmail: info@wadleyfarms.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Luxury",
+   "Rustic",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Classic",
+   "Luxury",
+   "Rustic",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Castle -> Luxury; historic -> Classic; farm/barn -> Rustic; 23 acres of gardens/vineyards -> Outdoors. All four cues remain in the corrected Description.",
+  "site_cues": [
+   "grand castle and two historic buildings",
+   "23 acres of vibrant gardens, vineyards, and orchards",
+   "The Barn combines rustic and elegance"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "Three rentable buildings with their own capacities and rules",
+   "data": {
+    "spaces": [
+     {
+      "name": "The Castle",
+      "seated": 200,
+      "standing": 350,
+      "setting": "indoor + gardens Apr-Sep",
+      "features": [
+       "4,500 sq ft Great Hall",
+       "38-ft fireplace",
+       "bride's and groom's dressing rooms",
+       "up to 4 breakout rooms",
+       "sound system",
+       "LCD projector + 18-ft screen",
+       "full-service kitchen"
+      ],
+      "catering": "recommended caterers only"
+     },
+     {
+      "name": "The Barn",
+      "seated": 100,
+      "standing": "250 open-flow (300 open house per space page)",
+      "setting": "indoor + gardens Apr-Sep",
+      "features": [
+       "grand chandelier",
+       "two fireplaces",
+       "wrought-iron balcony"
+      ],
+      "catering": "any caterer or self-cater"
+     },
+     {
+      "name": "The Railroad Building",
+      "seated": 40,
+      "standing": "100 for an indoor ceremony; 300 with garden for an open house",
+      "setting": "indoor + garden Apr-Sep",
+      "features": [
+       "fireplace",
+       "French doors to garden"
+      ],
+      "catering": "any caterer or self-cater",
+      "note": "Rented together with the Barn"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Seasonal and day-of-week pricing",
+   "why": "Different tables per building and season",
+   "data": {
+    "castle": {
+     "hours": "2pm-10pm",
+     "Mon-Wed": "$5,600",
+     "Thu": "$6,000",
+     "Fri-Sat": "$7,200"
+    },
+    "barn_railroad_summer_Apr_Sep": {
+     "Mon-Wed": "$4,800",
+     "Thu": "$5,200",
+     "Fri-Sat": "$5,600"
+    },
+    "barn_railroad_winter_Oct_Mar": {
+     "Mon-Thu": "$3,100",
+     "Fri-Sat": "$3,600"
+    },
+    "premium_estate_package": {
+     "price": "from $17,500",
+     "includes": [
+      "Castle and Barn",
+      "two nights on-site lodging",
+      "private dinner the evening before"
+     ]
+    },
+    "add_ons": {
+     "ceremony": "$350",
+     "6-ft wooden table": "$100 each",
+     "crossback chair": "$8 each",
+     "castle lighting": "$1,000",
+     "alcohol privilege fee": "$1,000",
+     "shuttle": "inquire"
+    }
+   }
+  },
+  {
+   "title": "On-site lodging",
+   "why": "Three rentals bookable with the venue",
+   "data": {
+    "lodging": [
+     {
+      "name": "The Hermitage Suite",
+      "sleeps": 4,
+      "notes": "2 bed, 1 bath, kitchen"
+     },
+     {
+      "name": "The Chateau",
+      "sleeps": 8,
+      "notes": "two private balconies"
+     },
+     {
+      "name": "The Rustic Loft",
+      "sleeps": 2
+     }
+    ],
+    "policies": [
+     "two-night minimum",
+     "check-in after 3pm, check-out 11am",
+     "no gatherings or getting-ready groups unless part of a package",
+     "50% deposit"
+    ]
+   }
+  },
+  {
+   "title": "Rain / season plan",
+   "why": "Outdoor ceremonies not scheduled Oct-Mar",
+   "data": {
+    "rain_plan": "Indoor Great Hall or Barn; outdoor ceremonies weather-dependent and typically not held Oct-Mar"
+   }
+  }
+ ],
+ "open_questions": [
+  "Event coordinator: the site lists a Castle coordinator, a Barn & Railroad coordinator and a lead hostess on staff, but never says day-of coordination is included. Filter kept true at low confidence; a phone call should settle it.",
+  "Barn standing capacity: FAQ says 250 open-flow, space description says 300 open house.",
+  "What does the $1,000 'Lighting in the Castle' add-on include, and are the garden bistro lights permanent (included)?",
+  "Capacity/price filters mix two buildings (Castle 200 seated / $5,600-$7,200; Barn 100 seated / $3,100-$5,600). Stage 3 may want per-space data."
+ ]
+}

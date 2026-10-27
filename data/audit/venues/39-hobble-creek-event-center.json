@@ -1,0 +1,1052 @@
+{
+ "row": 39,
+ "id": "hobble-creek-event-center",
+ "name": "Hobble Creek Event Center",
+ "website": "https://www.hobblecreekevents.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.hobblecreekevents.com/ (home: overview, golf-course setting)",
+  "https://www.hobblecreekevents.com/wedding-services-hobblecreek (services: seasons, team coordination; buttons link to the price list and decor images, read in the built-in browser to find the links)",
+  "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png (price list image: weekday/weekend rentals, inclusions, 'Need to Know' policies; read from the image)",
+  "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png (decor packages image: Classic $350, Premier $500; read from the image)",
+  "https://www.hobblecreekevents.com/sand-trap-cafe-catering (Sand Trap Café in-house catering)",
+  "https://www.hobblecreekevents.com/s/Catering-2026.png (Sand Trap catering menu image: entrées, 10% gratuity, bartender rule)",
+  "https://www.hobblecreekevents.com/s/Appetizer (appetizer menu PDF)",
+  "https://www.hobblecreekevents.com/s/Hobble-Creek-Favorites.pdf (favorite vendors PDF, contact line)",
+  "https://www.hobblecreekevents.com/utah-wedding-gallery (gallery text and photo alt text)",
+  "https://www.hobblecreekevents.com/utah-wedding-venue-contact (email and phone)",
+  "https://www.hobblecreekevents.com/letschat (404)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "Hobble Creek Golf Course, Springville, Utah (no street address on the site)",
+  "note": ""
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Hobble Creek Event Center",
+   "verified_value": "Hobble Creek Event Center",
+   "action": "confirmed",
+   "change_origin": "Price-list image header and home page.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Hobble Creek EVENT CENTER SPRINGVILLE, UTAH",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.hobblecreekevents.com/",
+   "verified_value": "https://www.hobblecreekevents.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads.",
+   "source_url": "https://www.hobblecreekevents.com/",
+   "evidence": "STATUS 200 https://www.hobblecreekevents.com/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A scenic golf-course reception setting with seasonal atmosphere, landscaped grounds, and official decor options for weddings and other celebrations.",
+   "verified_value": "An event center on Hobble Creek Golf Course in Springville with mountain and canyon views, an indoor reception room and patio, and weddings year-round; in-house catering is available from the Sand Trap Café.",
+   "action": "corrected",
+   "change_origin": "Rewritten from the home, services and catering pages; removed 'official decor options' (the AI collector's wording) and added the in-house café.",
+   "source_url": "https://www.hobblecreekevents.com/sand-trap-cafe-catering",
+   "evidence": "Sand Trap Café proudly serves as Hobble Creek's in-house catering partner",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "No venue rental price stated on the current official website",
+   "verified_value": "$1,500-$3,000",
+   "action": "corrected",
+   "change_origin": "Removed filler text; the official price list (linked image) gives weekday $1,500 to weekend 12-hour $3,000.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "6 Hour Venue Rental 4-10 PM $1500 ... 12 Hour Rental $3000",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read from an image; labeled 'Price starting from'."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Decor package with official site inclusions — $350\nPremium decor package with official site inclusions — $500",
+   "verified_value": "Weekday rental (Mon-Thu), 6 hours 4pm-10pm (up to 96 crossback chairs, 12 tables, 12 linens of your choice, cake table, gift table, table and chair setup, AV system) — $1,500\nSame inclusions — weekday 12 hours — $2,500\nSame inclusions — weekend (Fri-Sun) 6 hours 4pm-10pm — $2,000\nSame inclusions — weekend 12 hours — $3,000\nClassic Decor package — $350\nPremier decor package — $500",
+   "action": "corrected",
+   "change_origin": "Added the four rental options and inclusions from the official price-list image; decor package contents moved to the rent column.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Includes up to 96 Crossback Chairs, 12 tables, 12 linens of your choice, Cake Table, Gift Table, Set Up of tables and chairs, AV System",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read from an image."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site gives no capacity; the price list only says up to 96 crossback chairs are included.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": "Not filled from the chair count; see open questions."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "Weekday (Mon-Thu) 4pm-10pm, or 12-hour rental\nWeekend (Fri-Sun) 4pm-10pm, or 12-hour rental\nTimes can be adjusted",
+   "action": "added",
+   "change_origin": "Official price-list image.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Weekday Includes Monday-Thursday; 6 Hour Venue Rental 4-10 PM ... Times can be adjusted",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "",
+   "verified_value": "6 hours or 12 hours; rental time must include your setup and takedown",
+   "action": "added",
+   "change_origin": "Official price-list image.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "*Rental time must account for set up and take down required on your part.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Scenic\nSeasonal\nLush\nPicturesque",
+   "verified_value": "Scenic\nSeasonal\nLush\nPicturesque",
+   "action": "confirmed",
+   "change_origin": "Services and gallery pages describe seasonal, lush, picturesque settings.",
+   "source_url": "https://www.hobblecreekevents.com/wedding-services-hobblecreek",
+   "evidence": "lush green golf course ... Each season offers its own unforgettable experience",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "TRUE",
+   "action": "added",
+   "change_origin": "Official price list includes 12 linens with every rental.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "12 linens of your choice",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read from an image."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "",
+   "verified_value": "Up to 96 crossback chairs\n12 tables\n12 linens of your choice\nCake table\nGift table\nTable and chair setup\nBistro lights",
+   "action": "added",
+   "change_origin": "Rental inclusions from the price-list image; bistro lights from the gallery page text.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "up to 96 Crossback Chairs, 12 tables, 12 linens of your choice, Cake Table, Gift Table",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Bistro lights: gallery page says 'lively receptions beneath warm bistro lights'."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Classic Decor package (8-10 simple centerpieces, ceremony backdrop with one floral spray, 8-10 table runners, wedding signs and card box; setup and takedown) — $350\nPremier decor package (8-10 centerpieces, 8-10 table runners, cake knife set, send-off set for up to 100 with sparklers, bubbles or light wands, two floral or crystal chandeliers, ceremony backdrop with two faux floral sprays, signage, custom entry sign; setup and takedown) — $500",
+   "action": "added",
+   "change_origin": "Official decor-packages image (Classic $350, Premier $500).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Classic Decor ... Ceremony Backdrop with One Floral Spray ... $350; Premier Package ... Two Floral Chandeliers or Two Crystal Chandeliers ... $500",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read from an image."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Indoor reception room and an outdoor patio shown in gallery alt text.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "standing on an outdoor patio with string lights, during a wedding reception with guests seated nearby",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Ceremonies are not allowed on the golf course itself."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "Yes (sparklers are a send-off option in the Premier decor package)",
+   "action": "added",
+   "change_origin": "Premier decor package includes a sparkler send-off set; gallery alt text shows a sparkler send-off.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Up to 100 send off set, Sparklers, Bubbles or Light wands",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Parking is best later in the day",
+   "action": "added",
+   "change_origin": "Price-list 'Need to Know' note.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Times can be adjusted, parking is best later in the day",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "",
+   "verified_value": "Hobble Creek Golf Course, Springville, UT",
+   "action": "added",
+   "change_origin": "Site names the location but gives no street address.",
+   "source_url": "https://www.hobblecreekevents.com/",
+   "evidence": "Hobble creek events, HOBBLE CREEK GOLF COURESE,springville,utah",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Site says Springville.",
+   "source_url": "https://www.hobblecreekevents.com/",
+   "evidence": "Located in Springville, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "",
+   "verified_value": "Yes\nAV system (included with rental)",
+   "action": "added",
+   "change_origin": "Price list includes an AV system.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Set Up of tables and chairs, AV System",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Equipment not itemized."
+  },
+  {
+   "field": "extras",
+   "current_value": "Golf-course setting\nSeasonal grounds\nWedding decor options",
+   "verified_value": "Golf-course setting with mountain and canyon views\nIn-house catering available from the Sand Trap Café\n3D virtual tour on the website",
+   "action": "corrected",
+   "change_origin": "Replaced vague lines ('Wedding decor options', 'Seasonal grounds') with facts from the site.",
+   "source_url": "https://www.hobblecreekevents.com/wedding-services-hobblecreek",
+   "evidence": "CLICK HERE FOR OUR 3D Tour",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Couple handles setup and takedown within the rental time\nSand Trap Café handles setup, service and cleanup of its own catering",
+   "action": "added",
+   "change_origin": "Price list: couples handle setup and takedown within rental time; catering page: café team cleans up its service.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "*Rental time must account for set up and take down required on your part.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "Date is secured only once a deposit is received (amount not stated)",
+   "action": "added",
+   "change_origin": "Price-list 'Need to Know'.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "No date is secured until a deposit has been received.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "Outside catering permitted; outside caterers have no access to the Sand Trap Café kitchen\nIn-house catering partner: Sand Trap Café (10% gratuity on custom catering)\nFavorite caterers listed: Brown Brothers, Marvelous, Magleby's",
+   "action": "added",
+   "change_origin": "Price list allows outside catering; catering page names the in-house café; menu adds the gratuity.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Outside catering is permitted however they do not have access to the Sand Trap Cafe's kitchen.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on a prep kitchen for renters (outside caterers may not use the café kitchen).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "A licensed and insured professional bartender must be hired to serve all alcohol",
+   "action": "added",
+   "change_origin": "Price-list 'Need to Know'.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Professional Licensed and Insured Bartender must be hired to dispense all alcohol.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "",
+   "verified_value": "Venue team provides coordination, setup and planning support",
+   "action": "added",
+   "change_origin": "Services page describes the team's coordination and planning support.",
+   "source_url": "https://www.hobblecreekevents.com/wedding-services-hobblecreek",
+   "evidence": "From seamless communication and attentive coordination to thoughtful setup ... offer flexible planning support",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No named coordinator role or day-of coordinator promise."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent; one gallery alt text shows a bride getting ready 'in a dressing room', not enough to list a bridal room.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "No ceremonies on the golf course; use off-site rented areas such as Kelly's Grove or Jolley's Ranch\nCouple photos on the golf course only with a staff member\nRental time must include your setup and takedown\nOutside caterers may not use the Sand Trap Café kitchen",
+   "action": "added",
+   "change_origin": "Price-list 'Need to Know'.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "No Ceremonies on the golf course, you must use offsite rented areas such as Kelly's Grove and Jolley's Ranch",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Current official website provides venue description and decor pricing but does not publish a venue rental rate, capacity, address or full contact block.",
+   "verified_value": "Rental rates and decor packages are published as images linked from the Services page; prices are listed as 'starting from'\nRental includes up to 96 crossback chairs; no guest capacity is stated",
+   "action": "corrected",
+   "change_origin": "Old note said no rental rate, capacity or contact was published; rates and contact are on the site.",
+   "source_url": "https://www.hobblecreekevents.com/wedding-services-hobblecreek",
+   "evidence": "CLICK HERE FOR PRICING ... CLICK HERE FOR Decor Packages",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "",
+   "verified_value": "Phone: (801) 636-1920\nEmail: hobblecreekevents@gmail.com",
+   "action": "added",
+   "change_origin": "Contact page.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-venue-contact",
+   "evidence": "hobblecreekevents@gmail.com (801)636-1920",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "",
+   "verified_value": "1500-3000",
+   "action": "added",
+   "change_origin": "Official price-list image: $1,500 weekday 6 hours to $3,000 weekend 12 hours.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Price starting from $1500 ... $2,000; 12 Hour Rental $3000",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site gives no guest capacity (only 96 included chairs).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Springville",
+   "verified_value": "Springville",
+   "action": "confirmed",
+   "change_origin": "Site location.",
+   "source_url": "https://www.hobblecreekevents.com/",
+   "evidence": "Located in Springville, Utah",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official price list includes an AV system; follows from the new `sound system` column.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "AV System",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "'AV system' is not itemized; assumed to include sound."
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent except one gallery alt text describing wall-mounted TVs in a reception photo.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": "Low evidence; left false."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (gallery alt mentions a dressing room only).",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "Couples handle their own setup and takedown.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "set up and take down required on your part",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Services page promises coordination and planning support; follows from the new `Event Coordinator` column.",
+   "source_url": "https://www.hobblecreekevents.com/wedding-services-hobblecreek",
+   "evidence": "From seamless communication and attentive coordination to thoughtful setup",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Indoor reception room in gallery.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "A bride and groom dancing indoors ... large window behind them",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Outdoor patio used during receptions.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "standing on an outdoor patio with string lights, during a wedding reception",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Ceremonies are not allowed on the golf course."
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official price list includes 12 linens; follows from the new `Linens Included` value.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "12 linens of your choice",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official price list permits outside catering; follows from the new `Catering` column.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Outside catering is permitted",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Premier package offers a sparkler send-off set; follows from the new `sparklers allowed` column.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Up to 100 send off set, Sparklers, Bubbles or Light wands",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Both decor packages include 8-10 centerpieces.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "8-10 Simple Custom Curated Centerpieces",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Both decor packages include a ceremony backdrop.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Ceremony Backdrop with One Floral Spray",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent except a gallery alt text describing a room with a stone fireplace.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": "Low evidence; left none."
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Decor packages include floral sprays.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Ceremony Back Drop with Two Faux Floral Spray's",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Decor packages include wedding signs and an entry sign.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Wedding signs, guest sign, card box etc",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Premier package includes two floral or crystal chandeliers.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-2-fbcx.png",
+   "evidence": "Two Floral Chandeliers or Two Crystal Chandeliers",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Gallery page text describes receptions under the venue's bistro lights.",
+   "source_url": "https://www.hobblecreekevents.com/utah-wedding-gallery",
+   "evidence": "lively receptions beneath warm bistro lights",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Official price list includes a cake table.",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "Cake Table, Gift Table",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, services, price-list and decor images, catering page and menus, gallery, contact checked).",
+   "source_url": "https://www.hobblecreekevents.com/s/Hobble-Creek-Services-58xa.png",
+   "evidence": "",
+   "confidence": "",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Hobble Creek Event Center",
+  "link": "https://www.hobblecreekevents.com/",
+  "Description": "An event center on Hobble Creek Golf Course in Springville with mountain and canyon views, an indoor reception room and patio, and weddings year-round; in-house catering is available from the Sand Trap Café.",
+  "Standard Price Range": "$1,500-$3,000",
+  "Packages and Prices": "Weekday rental (Mon-Thu), 6 hours 4pm-10pm (up to 96 crossback chairs, 12 tables, 12 linens of your choice, cake table, gift table, table and chair setup, AV system) — $1,500\nSame inclusions — weekday 12 hours — $2,500\nSame inclusions — weekend (Fri-Sun) 6 hours 4pm-10pm — $2,000\nSame inclusions — weekend 12 hours — $3,000\nClassic Decor package — $350\nPremier decor package — $500",
+  "Seated Capacity": "",
+  "Standing Capacity": "",
+  "Time slots": "Weekday (Mon-Thu) 4pm-10pm, or 12-hour rental\nWeekend (Fri-Sun) 4pm-10pm, or 12-hour rental\nTimes can be adjusted",
+  "Length of Rental": "6 hours or 12 hours; rental time must include your setup and takedown",
+  "Style": "Scenic\nSeasonal\nLush\nPicturesque",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Up to 96 crossback chairs\n12 tables\n12 linens of your choice\nCake table\nGift table\nTable and chair setup\nBistro lights",
+  "Other Decor for Rent": "Classic Decor package (8-10 simple centerpieces, ceremony backdrop with one floral spray, 8-10 table runners, wedding signs and card box; setup and takedown) — $350\nPremier decor package (8-10 centerpieces, 8-10 table runners, cake knife set, send-off set for up to 100 with sparklers, bubbles or light wands, two floral or crystal chandeliers, ceremony backdrop with two faux floral sprays, signage, custom entry sign; setup and takedown) — $500",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes (sparklers are a send-off option in the Premier decor package)",
+  "parking?": "Parking is best later in the day",
+  "Full Address": "Hobble Creek Golf Course, Springville, UT",
+  "City": "Springville",
+  "sound system": "Yes\nAV system (included with rental)",
+  "extras": "Golf-course setting with mountain and canyon views\nIn-house catering available from the Sand Trap Café\n3D virtual tour on the website",
+  "cleanup crew": "Couple handles setup and takedown within the rental time\nSand Trap Café handles setup, service and cleanup of its own catering",
+  "Accessibility": "",
+  "Deposit Policy": "Date is secured only once a deposit is received (amount not stated)",
+  "Catering": "Outside catering permitted; outside caterers have no access to the Sand Trap Café kitchen\nIn-house catering partner: Sand Trap Café (10% gratuity on custom catering)\nFavorite caterers listed: Brown Brothers, Marvelous, Magleby's",
+  "Prep Area": "",
+  "Alcohol policy": "A licensed and insured professional bartender must be hired to serve all alcohol",
+  "Event Coordinator": "Venue team provides coordination, setup and planning support",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "No ceremonies on the golf course; use off-site rented areas such as Kelly's Grove or Jolley's Ranch\nCouple photos on the golf course only with a staff member\nRental time must include your setup and takedown\nOutside caterers may not use the Sand Trap Café kitchen",
+  "Important Notes": "Rental rates and decor packages are published as images linked from the Services page; prices are listed as 'starting from'\nRental includes up to 96 crossback chairs; no guest capacity is stated",
+  "Contact Information": "Phone: (801) 636-1920\nEmail: hobblecreekevents@gmail.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Outdoors"
+  ],
+  "suggested": [
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "The site sells the golf-course and canyon setting through the seasons (Outdoors: golf grounds). The page meta mentions 'rustic charm with modern comforts', but that is SEO text, and the corrected Description has no Rustic or Modern cue. A public golf course event center is not 'super fancy', so Luxury (country club / golf club) does not fit.",
+  "site_cues": [
+   "UTAH COUNTY WEDDING VENUE WITH A VIEW located ON HOBBLE CREEK GOLF COURSE",
+   "the lush green golf course creates a vibrant backdrop",
+   "Come fall, the canyon bursts into stunning color"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing",
+   "why": "Weekday/weekend rates with 6- and 12-hour options",
+   "data": {
+    "rates": [
+     {
+      "days": "Mon-Thu",
+      "hours": "6 (4-10pm)",
+      "price": "$1,500"
+     },
+     {
+      "days": "Mon-Thu",
+      "hours": "12",
+      "price": "$2,500"
+     },
+     {
+      "days": "Fri-Sun",
+      "hours": "6 (4-10pm)",
+      "price": "$2,000"
+     },
+     {
+      "days": "Fri-Sun",
+      "hours": "12",
+      "price": "$3,000"
+     }
+    ],
+    "includes": [
+     "up to 96 crossback chairs",
+     "12 tables",
+     "12 linens of your choice",
+     "cake table",
+     "gift table",
+     "table and chair setup",
+     "AV system"
+    ]
+   }
+  },
+  {
+   "title": "Decor packages",
+   "why": "Two named packages with inclusions",
+   "data": {
+    "packages": [
+     {
+      "name": "Classic Decor",
+      "price": "$350",
+      "includes": [
+       "8-10 simple custom curated centerpieces",
+       "ceremony backdrop with one floral spray",
+       "8-10 table runners",
+       "wedding signs, guest sign, card box",
+       "setup and takedown"
+      ]
+     },
+     {
+      "name": "Premier Package",
+      "price": "$500",
+      "includes": [
+       "8-10 custom curated centerpieces",
+       "8-10 table runners",
+       "cake knife set",
+       "send-off set for up to 100 (sparklers, bubbles or light wands)",
+       "two floral or two crystal chandeliers",
+       "ceremony backdrop with two faux floral sprays",
+       "wedding signage",
+       "custom wedding entry sign",
+       "setup and takedown"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "In-house catering menu (Sand Trap Café)",
+   "why": "Per-plate catering prices",
+   "data": {
+    "terms": [
+     "10% gratuity on custom catering",
+     "1 meal choice under 30 people, 2 over 30",
+     "one flavored beverage and water included",
+     "prices subject to change"
+    ],
+    "entrees": [
+     {
+      "name": "Classic lasagna or vegetable",
+      "price": "$12.00"
+     },
+     {
+      "name": "Chicken salad sandwich",
+      "price": "$13.00"
+     },
+     {
+      "name": "Raspberry glazed chicken",
+      "price": "$18.00"
+     },
+     {
+      "name": "Chicken cordon bleu",
+      "price": "$16.00"
+     },
+     {
+      "name": "Parmesan crusted salmon",
+      "price": "$19.00"
+     },
+     {
+      "name": "Original Malibu chicken",
+      "price": "$16.00"
+     },
+     {
+      "name": "Parmesan chicken",
+      "price": "$16.00"
+     },
+     {
+      "name": "Baked potato bar",
+      "price": "$10.00"
+     },
+     {
+      "name": "Street taco bar",
+      "price": "$15.00-$18.00"
+     },
+     {
+      "name": "Pasta bar",
+      "price": "$15.00"
+     }
+    ],
+    "appetizers_per_person": [
+     {
+      "name": "Chips & salsa",
+      "price": "$2.50"
+     },
+     {
+      "name": "Mozzarella sticks",
+      "price": "$3.50"
+     },
+     {
+      "name": "Jalapeño poppers",
+      "price": "$4.50"
+     },
+     {
+      "name": "Shrimp cocktail",
+      "price": "$6.00"
+     },
+     {
+      "name": "Berry bruschetta",
+      "price": "$7.50"
+     },
+     {
+      "name": "Chicken wings",
+      "price": "$5.00"
+     },
+     {
+      "name": "Artichoke dip and chips",
+      "price": "$3.00"
+     },
+     {
+      "name": "French fries",
+      "price": "$2.50"
+     },
+     {
+      "name": "Charcuterie board",
+      "price": "$10.00"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ceremony sites",
+   "why": "Ceremonies cannot be held on site",
+   "data": {
+    "rule": "No ceremonies on the golf course",
+    "suggested_offsite": [
+     "Kelly's Grove",
+     "Jolley's Ranch"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity is not published (rental includes up to 96 crossback chairs). Ask the venue for its seated maximum.",
+  "Rates and decor packages are only in images, labeled 'starting from'; confirm they are current.",
+  "What does the included 'AV system' contain (speakers, microphone, TVs)?",
+  "No street address on the site; the venue is at Hobble Creek Golf Course in Springville.",
+  "Is a bridal/dressing room available? Only a gallery photo caption suggests one."
+ ]
+}

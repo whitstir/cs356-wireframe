@@ -1,0 +1,223 @@
+{
+ "row": 18,
+ "id": "provo-library-ballroom",
+ "official_name": {
+  "name": "Provo Library Ballroom",
+  "source_url": "https://provolibrary.gov/ballroom-8755",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "a wheelchair accessible ramp to the right of the South Entrance",
+   "price": "",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "Walk down the hall to the elevator, and select 3rd floor.",
+   "price": "",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Two accessible parking stalls are located near this entrance.",
+   "price": "",
+   "source_url": "https://provolibrary.gov/directionsparkingmaps-8518"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Includes speakers, microphones, a projector, and a screen.",
+   "price": "",
+   "source_url": "https://provolibrary.gov/ballroom-8755"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "a projector, and a screen",
+   "price": "",
+   "source_url": "https://provolibrary.gov/ballroom-8755"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound Systems (Aux. Input for iPod/Laptop/CD)",
+   "price": "",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "Televisions ... All equipment is available to you at no additional cost.",
+   "price": "",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "BALLROOM",
+   "price": "",
+   "source_url": "https://provolibrary.gov/ballroom-8755"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "There are no additional fees or restrictions for using third-party services.",
+   "price": "",
+   "source_url": "https://provolibrary.gov/ballroom-8755"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Decorative Easles / Flipchart & Tripod Easels",
+   "price": "",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "A large empty ballroom with four central pillars and three chandeliers",
+   "price": "",
+   "source_url": "https://provolibrary.gov/meetingrooms"
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Baby Grand Piano (for use in Ballroom only)",
+   "price": "",
+   "source_url": "https://provolibrary.gov/planninganeventatacademysquare"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 840,
+  "high": 2300,
+  "basis": "rental",
+  "wording": "Ballroom rental $840–$2,300 by day and time",
+  "math": ""
+ },
+ "seated": {
+  "low": 320,
+  "high": 350,
+  "wording": "320 banquet (ballroom page) | 350 dinner (meeting-rooms page)"
+ },
+ "standing": {
+  "low": null,
+  "high": null,
+  "wording": ""
+ },
+ "row_updates": {
+  "Venue Name": "Provo Library Ballroom"
+ }
+}

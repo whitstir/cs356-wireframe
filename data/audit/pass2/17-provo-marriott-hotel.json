@@ -1,0 +1,223 @@
+{
+ "row": 17,
+ "id": "provo-marriott-hotel",
+ "official_name": {
+  "name": "Provo Marriott Hotel & Conference Center",
+  "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/",
+  "evidence": "site title / logo"
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Accessible Areas with Accessible Routes from Public Entrance ... Meeting Spaces are Accessible",
+   "price": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "Property has elevators",
+   "price": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/"
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Accessible on-site parking",
+   "price": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/overview/"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Marriott Certified Wedding Planners are trained to assist.",
+   "price": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Grand Ballroom ... Aspen",
+   "price": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Take your Provo wedding outdoors.",
+   "price": "",
+   "source_url": "https://www.marriott.com/en-us/hotels/slcvo-provo-marriott-hotel-and-conference-center/events/slcvo-weddings/"
+  },
+  "Features > Outside catering allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": "",
+   "price": "",
+   "source_url": ""
+  }
+ },
+ "price": {
+  "low": 22750,
+  "high": 48750,
+  "basis": "per-person x capacity",
+  "wording": "Lunch $35, reception $50, dinner $75 per person",
+  "math": "$35 × 650 seated = $22,750; $75 × 650 = $48,750"
+ },
+ "seated": {
+  "low": 650,
+  "high": 650,
+  "wording": "Grand Ballroom 650 (banquet)"
+ },
+ "standing": {
+  "low": 1000,
+  "high": 1000,
+  "wording": "1000"
+ },
+ "row_updates": {
+  "Venue Name": "Provo Marriott Hotel & Conference Center"
+ }
+}

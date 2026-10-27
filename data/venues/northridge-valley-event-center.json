@@ -1,0 +1,807 @@
+{
+ "id": "northridge-valley-event-center",
+ "name": "Northridge Valley Wedding and Event Center",
+ "city": "Mapleton",
+ "description": "A 1981 barn and carriage house in northeast Mapleton, renovated in 2021, with mountain views, two lawns for ceremonies, a main hall seating up to 200, an 1888 pioneer cabin, and an included in-house planner.",
+ "styles": [
+  "Modern",
+  "Classic"
+ ],
+ "priceMin": 5000,
+ "priceMax": 7000,
+ "priceBasis": "rental",
+ "priceText": "Home page $5,000–$6,000; pricing page up to $7,000 (range spans both pages)",
+ "seated": 200,
+ "seatedMin": 50,
+ "seatedText": "50–200 seated",
+ "standing": 300,
+ "standingMin": 300,
+ "standingText": "300",
+ "decor": {
+  "Centerpieces": [
+   "rent"
+  ],
+  "Ceremony arch / backdrop": [
+   "included",
+   "rent"
+  ],
+  "Draping / chair covers": [
+   "included",
+   "rent"
+  ],
+  "Fireplace": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included",
+   "rent"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Candles / lanterns": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ],
+  "Drink / beverage station": [
+   "included",
+   "rent"
+  ],
+  "Sweetheart table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": false,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": true,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": true,
+  "Indoors": true,
+  "Linens included": true,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": true,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "ADA Bathrooms"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Mic and speaker included."
+  },
+  "Audio/Visual > Projector": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Bluetooth sound systems and party speaker"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TV on wheels also included."
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "In House Day of Cordinator"
+  },
+  "Features > Groom's room": {
+   "status": "included",
+   "wording": "Groom's room"
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Indoor & Outdoor Spaces"
+  },
+  "Features > Linens included": {
+   "status": "included",
+   "wording": "Five floor-length linens with tables"
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "East & West Lawns for ceremonies and social hours."
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Licensed commercial caterers"
+  },
+  "Features > Sparklers allowed": {
+   "status": "included",
+   "wording": "Sparklers are allowed on front patio - torches provided."
+  },
+  "Decor > Centerpieces": {
+   "status": "rent",
+   "wording": "Florals from $2,500, including centerpieces"
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included+rent",
+   "wording": "Arch and drapes are included."
+  },
+  "Decor > Draping / chair covers": {
+   "status": "included+rent",
+   "wording": "Draping from $250 (sheer curtain with lights and up)"
+  },
+  "Decor > Fireplace": {
+   "status": "included",
+   "wording": "14-ft fireplace"
+  },
+  "Decor > Greenery / florals": {
+   "status": "included+rent",
+   "wording": "Green garlands and bud vases"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Chalkboards"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "included",
+   "wording": "Floating, pillar and tapered candles"
+  },
+  "Decor > Chandeliers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "Cake, buffet, gift and sign-in tables with linens"
+  },
+  "Other > Drink / beverage station": {
+   "status": "included+rent",
+   "wording": "Bar top $25"
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "included",
+   "wording": "1 - 5' Sweetheart farmhouse table"
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A 1981 barn and carriage house in northeast Mapleton, renovated in 2021, with mountain views, two lawns for ceremonies, a main hall seating up to 200, an 1888 pioneer cabin, and an included in-house planner."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "975 E Northridge Dr, Mapleton, UT 84664"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Modern elegance\nTimeless charm\nElegant"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Home page $5,000–$6,000; pricing page up to $7,000 (range spans both pages)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms) — Weekday 12pm-10pm — $5,000 off-peak (Nov-Mar) or $5,500 peak (Apr-Oct)\nSame inclusions — Friday 10am-10pm — $6,000 off-peak or $6,500 peak\nSame inclusions — Saturday 10am-10pm — $6,500 off-peak or $7,000 peak\nUtah sales tax applies"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Indoor & Outdoor Spaces"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "East & West Lawns for ceremonies and social hours."
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "50–200 seated"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300"
+    }
+   ]
+  },
+  {
+   "id": "ceremony-sites",
+   "title": "Ceremony sites",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "ceremony-sites-0",
+     "label": "Fireplace (indoor)",
+     "value": "Setting: indoor · Notes: smaller guest count"
+    },
+    {
+     "id": "ceremony-sites-1",
+     "label": "West wall window (indoor)",
+     "value": "Setting: indoor"
+    },
+    {
+     "id": "ceremony-sites-2",
+     "label": "Garden",
+     "value": "Setting: outdoor"
+    },
+    {
+     "id": "ceremony-sites-3",
+     "label": "Grapevines",
+     "value": "Setting: outdoor"
+    },
+    {
+     "id": "ceremony-sites-4",
+     "label": "Mountain View",
+     "value": "Setting: outdoor"
+    },
+    {
+     "id": "ceremony-sites-5",
+     "label": "Ceremony capacity",
+     "value": "150"
+    },
+    {
+     "id": "ceremony-sites-6",
+     "label": "Includes",
+     "value": "arch with drapes; chair setup"
+    }
+   ]
+  },
+  {
+   "id": "spaces-and-capacity",
+   "title": "Spaces and capacity",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-and-capacity-0",
+     "label": "Main hall",
+     "value": "Setting: indoor · Seated: 200 · Standing: 300"
+    },
+    {
+     "id": "spaces-and-capacity-1",
+     "label": "Upstairs overflow",
+     "value": "Setting: indoor · Notes: round tables for extra seating"
+    },
+    {
+     "id": "spaces-and-capacity-2",
+     "label": "East and West lawns",
+     "value": "Setting: outdoor"
+    },
+    {
+     "id": "spaces-and-capacity-3",
+     "label": "Pioneer cabin (1888)",
+     "value": "Setting: outdoor"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride's room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "included",
+     "value": "Groom's room"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bride's suite with back-lit mirrors, chandelier, mini fridge and en-suite bathroom\nGroom's room with mini fridge, full-length mirror, large TV, couch and private bathroom"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "included",
+     "value": "Five floor-length linens with tables"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "In House Day of Cordinator"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "12 farmhouse tables (9 ft x 40 in., seat up to 12 each)\nSweetheart table (5-ft farmhouse)\n220 crossback chairs\nBuffet, cake, gift and sign-in tables\n5 linens, color of choice\nTable runners\nCandles (floating, pillar and tapered)\nCard box, bud vases, chalkboard signs and frames\nGreen garlands and simple silk florals\nCake stands and serving set\nDrink dispensers and carafes\nCeremony arch with draping (set up at the chosen site)\n14-ft fireplace\nLawn games\nTorches for sparkler send-offs\nPioneer cabin (1888)"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "In-house planner and day-of coordinator included (planning meeting, final walkthrough, team lead on the wedding day)\nMonth Out Coordination (2 team members) — $2,500\nComplete Wedding Service (6 months of planning, setup, takedown, day-of coordination) — $5,000"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Caterers clean the kitchen when finished"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Mic and speaker included."
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Bluetooth sound systems and party speaker"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TV on wheels also included."
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nBluetooth surround sound system and party box\nMicrophone and speaker\nTV on wheels"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "rent",
+     "value": "Florals from $2,500, including centerpieces"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included+rent",
+     "value": "Arch and drapes are included."
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "included+rent",
+     "value": "Draping from $250 (sheer curtain with lights and up)"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "included",
+     "value": "14-ft fireplace"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included+rent",
+     "value": "Green garlands and bud vases"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Chalkboards"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "included",
+     "value": "Floating, pillar and tapered candles"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-for-rent",
+     "label": "For rent",
+     "value": "Mantle and ceremony backdrop decorating (silk florals and greenery) — $950\nBasic greenery — $500\nFlorals by a floral designer (personal flowers and centerpieces) — from $2,500\nFramed backdrops (simple sheer curtain to full draping) — from $250\nDrop-off decorating setup (couple's centerpieces, signage, photos, favors) — $500\nAdditional linens — $20 each\nBar top — $25\nChinaware and glassware — $5 per person ($1 per piece)"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Mountain views\nTwo lawns (east and west) for ceremonies and social hour\nUpstairs overflow seating\nWater dispensers\nTake-out box delivered to the send-off vehicle\nSnow machine — $150\nGetaway car (1915 Dodge Brothers touring car, driver provided) — $500\nExtra help (2 staff for restocking and clearing tables) — $250"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "Cake, buffet, gift and sign-in tables with linens"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "included+rent",
+     "value": "Bar top $25"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "included",
+     "value": "1 - 5' Sweetheart farmhouse table"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Licensed commercial caterers"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Any commercially licensed caterer, any caterer allowed\nFood trucks on the vendor list\nPopular caterers: Brown Brothers, Utah Celebrations, Marvelous, Magleby's, Culinary Crafts"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming kitchen for caterers\nBeverage dispensers"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "$250 fee to bring alcohol\nMust use one of two bartending services (COPA or Cheers and Swizzles), unless Culinary Crafts provides its own bartenders"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "included",
+     "value": "Sparklers are allowed on front patio - torches provided."
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "Yes\nSparklers allowed on the front patio (torches provided)\nCold sparks outdoors only"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "10 hours weekdays; 12 hours Friday and Saturday"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "Events end by 10pm (city noise ordinance)\nSparklers only on the front patio; cold sparks outdoors only\nFireworks only in winter with fire department approval\nDJs, bands and musicians must be licensed and insured\nDogs need management approval\nTours by appointment only"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "included",
+     "value": "ADA Bathrooms"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "ADA-accessible bathrooms"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Parking lot with 70 stalls\nOverflow parking"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Home page lists a rental range of $5,000-$6,000; the pricing page goes up to $7,000 (Saturday peak)\nNo minimum guest count; ceremony seating for up to 150\nUtah sales tax applies"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: (801) 573-4249\nEmail: jessica@northridge-valley.com"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.northridge-valley.com/"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "northridge-valley-event-center",
+  "Venue Name": "Northridge Valley Wedding and Event Center",
+  "link": "https://www.northridge-valley.com/",
+  "City": "Mapleton",
+  "Full Address": "975 E Northridge Dr, Mapleton, UT 84664",
+  "Description": "A 1981 barn and carriage house in northeast Mapleton, renovated in 2021, with mountain views, two lawns for ceremonies, a main hall seating up to 200, an 1888 pioneer cabin, and an included in-house planner.",
+  "Price Low": "5000",
+  "Price High": "7000",
+  "Price Basis": "rental",
+  "Standard Price Range": "Home page $5,000–$6,000; pricing page up to $7,000 (range spans both pages)",
+  "Seated Low": "50",
+  "Seated High": "200",
+  "Seated Capacity": "50–200 seated",
+  "Standing Low": "300",
+  "Standing High": "300",
+  "Standing Capacity": "300",
+  "Packages and Prices": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms) — Weekday 12pm-10pm — $5,000 off-peak (Nov-Mar) or $5,500 peak (Apr-Oct)\nSame inclusions — Friday 10am-10pm — $6,000 off-peak or $6,500 peak\nSame inclusions — Saturday 10am-10pm — $6,500 off-peak or $7,000 peak\nUtah sales tax applies",
+  "Time slots": "Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm",
+  "Length of Rental": "10 hours weekdays; 12 hours Friday and Saturday",
+  "Style": "Modern elegance\nTimeless charm\nElegant",
+  "Other Decor Included": "12 farmhouse tables (9 ft x 40 in., seat up to 12 each)\nSweetheart table (5-ft farmhouse)\n220 crossback chairs\nBuffet, cake, gift and sign-in tables\n5 linens, color of choice\nTable runners\nCandles (floating, pillar and tapered)\nCard box, bud vases, chalkboard signs and frames\nGreen garlands and simple silk florals\nCake stands and serving set\nDrink dispensers and carafes\nCeremony arch with draping (set up at the chosen site)\n14-ft fireplace\nLawn games\nTorches for sparkler send-offs\nPioneer cabin (1888)",
+  "Other Decor for Rent": "Mantle and ceremony backdrop decorating (silk florals and greenery) — $950\nBasic greenery — $500\nFlorals by a floral designer (personal flowers and centerpieces) — from $2,500\nFramed backdrops (simple sheer curtain to full draping) — from $250\nDrop-off decorating setup (couple's centerpieces, signage, photos, favors) — $500\nAdditional linens — $20 each\nBar top — $25\nChinaware and glassware — $5 per person ($1 per piece)",
+  "sparklers allowed": "Yes\nSparklers allowed on the front patio (torches provided)\nCold sparks outdoors only",
+  "parking?": "Parking lot with 70 stalls\nOverflow parking",
+  "sound system": "Yes\nBluetooth surround sound system and party box\nMicrophone and speaker\nTV on wheels",
+  "extras": "Mountain views\nTwo lawns (east and west) for ceremonies and social hour\nUpstairs overflow seating\nWater dispensers\nTake-out box delivered to the send-off vehicle\nSnow machine — $150\nGetaway car (1915 Dodge Brothers touring car, driver provided) — $500\nExtra help (2 staff for restocking and clearing tables) — $250",
+  "cleanup crew": "Caterers clean the kitchen when finished",
+  "Accessibility": "ADA-accessible bathrooms",
+  "Catering": "Any commercially licensed caterer, any caterer allowed\nFood trucks on the vendor list\nPopular caterers: Brown Brothers, Utah Celebrations, Marvelous, Magleby's, Culinary Crafts",
+  "Prep Area": "Warming kitchen for caterers\nBeverage dispensers",
+  "Alcohol policy": "$250 fee to bring alcohol\nMust use one of two bartending services (COPA or Cheers and Swizzles), unless Culinary Crafts provides its own bartenders",
+  "Event Coordinator": "In-house planner and day-of coordinator included (planning meeting, final walkthrough, team lead on the wedding day)\nMonth Out Coordination (2 team members) — $2,500\nComplete Wedding Service (6 months of planning, setup, takedown, day-of coordination) — $5,000",
+  "Bride/Groom Rooms": "Bride's suite with back-lit mirrors, chandelier, mini fridge and en-suite bathroom\nGroom's room with mini fridge, full-length mirror, large TV, couch and private bathroom",
+  "Restrictions": "Events end by 10pm (city noise ordinance)\nSparklers only on the front patio; cold sparks outdoors only\nFireworks only in winter with fire department approval\nDJs, bands and musicians must be licensed and insured\nDogs need management approval\nTours by appointment only",
+  "Important Notes": "Home page lists a rental range of $5,000-$6,000; the pricing page goes up to $7,000 (Saturday peak)\nNo minimum guest count; ceremony seating for up to 150\nUtah sales tax applies",
+  "Contact Information": "Phone: (801) 573-4249\nEmail: jessica@northridge-valley.com"
+ }
+}

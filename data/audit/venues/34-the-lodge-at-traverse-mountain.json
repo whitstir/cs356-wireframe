@@ -1,0 +1,972 @@
+{
+ "row": 34,
+ "id": "the-lodge-at-traverse-mountain",
+ "name": "The Lodge at Traverse Mountain",
+ "website": "https://www.thelodgeattraverse.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.thelodgeattraverse.com/ (single-page site: pricing, inclusions, details, amenities, FAQ, preferred vendors, contact)",
+  "https://www.thelodgeattraverse.com/ links checked in browser: decor selection and photo gallery go to Instagram, linen selection to an outside vendor, floorplan to Google Drive (not used as evidence)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "3940 Traverse Mountain Blvd, Lehi, UT 84043",
+  "note": "Lehi, Utah County (behind the Outlets at Traverse Mountain)."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "The Lodge at Traverse Mountain",
+   "verified_value": "The Lodge at Traverse Mountain",
+   "action": "confirmed",
+   "change_origin": "Official site title.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'The Lodge at Traverse Mountain - Lehi, Utah'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.thelodgeattraverse.com/",
+   "verified_value": "https://www.thelodgeattraverse.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads (single-page site).",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "Home page loads",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A rustic mountain reception venue at Traverse Mountain with stone and wood architecture, a patio, fireplaces, built-in audio/video, included tables and chairs, and a flexible full-day Saturday option.",
+   "verified_value": "A stone-and-wood lodge in Lehi at Point of the Mountain with a 2,200 sq ft Grand Room, three fireplaces and an outdoor patio overlooking Utah Valley; tables, chairs, 20 linens, built-in audio/video and an event manager are included.",
+   "action": "corrected",
+   "change_origin": "Official site, Amenities section: 'rustic' is not the site's word; replaced with the site's 'natural stone and wood' and named the Grand Room and patio views.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Natural stone and wood throughout.'; 'The Grand Room... 2,200 square feet'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,850-$2,850",
+   "verified_value": "$1,850-$2,850",
+   "action": "confirmed",
+   "change_origin": "Official site, Services & Pricing section.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Mon-Wed 5-10pm $1,850' ... 'Saturday 9am-10:30pm $2,850'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Venue rental with 12 round tables, 8 rectangular tables, 8 bar-height tables, up to 120 chairs, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nUnlimited decor rentals — $350\nDIY setup and takedown discount — $250",
+   "verified_value": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee",
+   "action": "corrected",
+   "change_origin": "Official site, 'Included in your price': 14 round tables (not 12); added a la carte decor and extra-linen fee.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'up to 120 white padded chairs, 14-60\" round tables, 8-6' long rectangular serving tables, and 8-32\" bar height tables'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "FAQ says 100 chairs and 12 round tables; the pricing section is used."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "100 seated reception",
+   "verified_value": "100 seated reception",
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'twelve (12) round tables with 100 seated guests'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Ceremony seating (no tables) up to 150 is kept in Important Notes, not here."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "300 come-and-go reception",
+   "verified_value": "300 come-and-go reception",
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Most \"come & go\" receptions at The Lodge have up to 300 guests'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Stated as typical, not a hard limit."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm",
+   "verified_value": "Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm",
+   "action": "confirmed",
+   "change_origin": "Official site, Services & Pricing section.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Friday 5-10:30pm'; 'Saturday 9am-10:30pm'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "5-13.5 hours",
+   "verified_value": "5-13.5 hours",
+   "action": "confirmed",
+   "change_origin": "Official site (5 h Mon-Thu to 13.5 h Saturday).",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "Time slots in pricing table",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Mountain\nRustic\nNatural stone and wood",
+   "verified_value": "Mountain views\nNatural stone and wood",
+   "action": "corrected",
+   "change_origin": "Removed 'Rustic': not a word the site uses; kept the site's own cues.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Natural stone and wood throughout.'; 'surrounded by beautiful mountain scenery'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Official site, 'Included in your price'.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'20 table linens included !'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Up to 120 white padded chairs\n12 round tables\n8 rectangular serving tables\n8 bar-height tables\n20 table linens\nBuilt-in audio/video system\nFireplaces\nOutdoor patio\nBoard Room tables and chairs",
+   "verified_value": "Up to 120 white padded chairs\n14 60-inch round tables\n8 6-foot rectangular serving tables\n8 32-inch bar-height tables\n20 table linens\nBuilt-in audio/video system\n3 fireplaces (1 indoor, 2 on the patio)\nOutdoor patio\nBoard Room with conference table and 10 executive chairs",
+   "action": "corrected",
+   "change_origin": "Official site: 14 round tables (not 12); fireplaces specified; TV moved to sound system/extras.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Three (3) beautiful fireplaces : an indoor fireplace with seating and two fireplaces on the outdoor patio.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Unlimited decor rentals — $350",
+   "verified_value": "Unlimited decor rentals — $350 (or a la carte)\nAdditional table linens — additional fee",
+   "action": "corrected",
+   "change_origin": "Official site, Addons: a la carte option and extra linens added.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Decor rental $350 for unlimited rentals ! Or purchase a la carte.'; 'Extra linens available for an additional fee.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The decor selection itself is only on the venue's Instagram, so items cannot be verified."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Official site: Grand Room plus outdoor patio.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'an outdoor patio with gorgeous views'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on a sparkler policy.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Utah Sparklers' is listed among preferred vendors, which suggests sparklers are used, but no policy is stated."
+  },
+  {
+   "field": "parking?",
+   "current_value": "Onsite parking\nAdditional north parking",
+   "verified_value": "Onsite parking\nAdditional north parking",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Convenient parking on site with extra parking available to the North.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "3940 Traverse Mountain Blvd, Lehi, UT 84043",
+   "verified_value": "3940 Traverse Mountain Blvd, Lehi, UT 84043",
+   "action": "confirmed",
+   "change_origin": "Official site, contact block.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'3940 Traverse Mountain Blvd. Lehi, UT 84043'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Lehi",
+   "verified_value": "Lehi",
+   "action": "confirmed",
+   "change_origin": "Official site, contact block.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Lehi, UT 84043'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nBuilt-in audio/video system\n42-inch TV",
+   "verified_value": "Yes\nBuilt-in audio/video system\n42-inch TV",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'built-in audio/video system, 42\" TV'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Mountain and lake views\nFireplaces\nOutdoor patio\nBoard Room\n64-inch TV",
+   "verified_value": "Mountain and lake views\nFireplaces\nOutdoor patio\nBoard Room\n64-inch TV",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'views of Mount Timpanogos, Utah Lake'; Board Room 'with a 64\" Smart TV'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Setup and takedown done by the venue ($250 off with DIY setup and takedown)",
+   "action": "added",
+   "change_origin": "Official site: packages include setup and takedown, since DIY setup & takedown earns $250 off.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Save $250 off any package with DIY setup & takedown.'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Cleaning itself is not mentioned; not counted as a cleanup crew."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "$500 deposit to reserve the date\nRefunded within 15 business days after the event unless the event is cancelled; fees may be deducted for damage\nCancellation: deposit non-refundable\nDate change: $100 admin fee if the original date re-books, otherwise the deposit is forfeited",
+   "action": "added",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'A $500 deposit is required to reserve your date.'; 'The deposit is considered non-refundable.'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "FAQ answers contradict on refundability."
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside caterers and vendors allowed\nPreferred vendors listed on the official site",
+   "verified_value": "Outside caterers and vendors allowed\nPreferred vendors listed on the official site",
+   "action": "confirmed",
+   "change_origin": "Official site, 'Included in your price' and FAQ.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Bring your own caterer (and vendors)!'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Warming kitchen\nCaterer area with serving window",
+   "verified_value": "Warming kitchen\nCaterer area with serving window",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Warming kitchen & caterer's area with a serving window.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "No alcohol\nNo smoking",
+   "verified_value": "No alcohol\nNo smoking",
+   "action": "confirmed",
+   "change_origin": "Official site, Details and FAQ.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'No smoking or alcohol allowed on building premises.'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Event manager included",
+   "verified_value": "Event manager included",
+   "action": "confirmed",
+   "change_origin": "Official site, 'Included in your price'.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'An Event Manager is provided, free of charge'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's room",
+   "verified_value": "Bride's room",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'The Bride's Room is the perfect, cozy space for the Bride to get ready'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No alcohol\nNo smoking\nDIY setup and takedown must fit within the rental period",
+   "verified_value": "No alcohol\nNo smoking\nNot available during weekday business hours (facility shared with tenants)",
+   "action": "corrected",
+   "change_origin": "Official site: removed 'DIY setup and takedown must fit within the rental period' (not stated); added the weekday-hours limit.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Scheduling is unavailable during normal weekday business hours'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "FAQ says the $500 deposit is fully refundable unless the event is cancelled; the cancellation policy says the deposit is non-refundable.",
+   "verified_value": "FAQ says the $500 deposit is fully refundable unless the event is cancelled; the cancellation policy says the deposit is non-refundable.\nFAQ says 100 chairs and 12 round tables are on site; the pricing section says up to 120 chairs and 14 round tables.\nCeremony seating up to 150 (without tables).\nMon-Fri events may use the evening before for setup.",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: deposit conflict kept; added chair/table count conflict, ceremony seating and setup-evening rule.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'For a ceremony style event, we recommend no more than 150 seated guests (without tables)'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: (385) 234-1406\nText: (385) 234-1406",
+   "verified_value": "Phone: (385) 234-1406\nText: (385) 234-1406",
+   "action": "confirmed",
+   "change_origin": "Official site, contact block.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Call or text (385) 234-1406'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    1850,
+    2850
+   ],
+   "verified_value": [
+    1850,
+    2850
+   ],
+   "action": "confirmed",
+   "change_origin": "Official site, pricing table.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "$1,850 Mon-Wed to $2,850 Saturday",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 100,
+   "verified_value": 100,
+   "action": "confirmed",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'100 seated guests'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Ceremony-style 150 without tables not counted."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Lehi",
+   "verified_value": "Lehi",
+   "action": "confirmed",
+   "change_origin": "Official site, contact block.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Lehi, UT 84043'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'built-in audio/video system'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'42\" TV'; Board Room '64\" Smart TV'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'The Bride's Room'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Board Room exists but is not described as a groom's room."
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Official site mentions setup/takedown only, not cleaning.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Save $250 off any package with DIY setup & takedown.'",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Team decision: does venue takedown count as cleanup?"
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'An Event Manager is provided, free of charge, to help you plan, arrange your space'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, Grand Room.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'The Grand Room... 2,200 square feet'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site, outdoor patio.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'an outdoor patio with gorgeous views'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'20 table linens included !'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Official site.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'Bring your own caterer (and vendors)!... we don't require it'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Utah Sparklers is a listed preferred vendor, but no sparkler policy is stated."
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Decor rental items are shown only on Instagram."
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Official site, Amenities.",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'an indoor fireplace with seating and two fireplaces on the outdoor patio'",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Keyword rule misfire: '\\bbar\\b' matched '8 bar-height tables'; the site lists no drink station (and bans alcohol).",
+   "source_url": "https://www.thelodgeattraverse.com/",
+   "evidence": "'8-32\" bar height tables'",
+   "confidence": "high",
+   "fix_type": "rule",
+   "notes": "Rule should exclude 'bar-height'/'bar height'. Alternatively reword the cell to 'high-top tables'."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Two outdoor fireplaces on the patio (counted under Fireplace)."
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Photo booth only via an outside vendor (Snap Happy Photo Booth)."
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "The Lodge at Traverse Mountain",
+  "link": "https://www.thelodgeattraverse.com/",
+  "Description": "A stone-and-wood lodge in Lehi at Point of the Mountain with a 2,200 sq ft Grand Room, three fireplaces and an outdoor patio overlooking Utah Valley; tables, chairs, 20 linens, built-in audio/video and an event manager are included.",
+  "Standard Price Range": "$1,850-$2,850",
+  "Packages and Prices": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee",
+  "Seated Capacity": "100 seated reception",
+  "Standing Capacity": "300 come-and-go reception",
+  "Time slots": "Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm",
+  "Length of Rental": "5-13.5 hours",
+  "Style": "Mountain views\nNatural stone and wood",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Up to 120 white padded chairs\n14 60-inch round tables\n8 6-foot rectangular serving tables\n8 32-inch bar-height tables\n20 table linens\nBuilt-in audio/video system\n3 fireplaces (1 indoor, 2 on the patio)\nOutdoor patio\nBoard Room with conference table and 10 executive chairs",
+  "Other Decor for Rent": "Unlimited decor rentals — $350 (or a la carte)\nAdditional table linens — additional fee",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Onsite parking\nAdditional north parking",
+  "Full Address": "3940 Traverse Mountain Blvd, Lehi, UT 84043",
+  "City": "Lehi",
+  "sound system": "Yes\nBuilt-in audio/video system\n42-inch TV",
+  "extras": "Mountain and lake views\nFireplaces\nOutdoor patio\nBoard Room\n64-inch TV",
+  "cleanup crew": "Setup and takedown done by the venue ($250 off with DIY setup and takedown)",
+  "Accessibility": "",
+  "Deposit Policy": "$500 deposit to reserve the date\nRefunded within 15 business days after the event unless the event is cancelled; fees may be deducted for damage\nCancellation: deposit non-refundable\nDate change: $100 admin fee if the original date re-books, otherwise the deposit is forfeited",
+  "Catering": "Outside caterers and vendors allowed\nPreferred vendors listed on the official site",
+  "Prep Area": "Warming kitchen\nCaterer area with serving window",
+  "Alcohol policy": "No alcohol\nNo smoking",
+  "Event Coordinator": "Event manager included",
+  "Bride/Groom Rooms": "Bride's room",
+  "Restrictions": "No alcohol\nNo smoking\nNot available during weekday business hours (facility shared with tenants)",
+  "Important Notes": "FAQ says the $500 deposit is fully refundable unless the event is cancelled; the cancellation policy says the deposit is non-refundable.\nFAQ says 100 chairs and 12 round tables are on site; the pricing section says up to 120 chairs and 14 round tables.\nCeremony seating up to 150 (without tables).\nMon-Fri events may use the evening before for setup.",
+  "Contact Information": "Phone: (385) 234-1406\nText: (385) 234-1406"
+ },
+ "style_suggestion": {
+  "current": [
+   "Rustic"
+  ],
+  "suggested": [
+   "Rustic",
+   "Outdoors"
+  ],
+  "change": "consider add Outdoors",
+  "reasoning": "'Natural stone and wood throughout' and the lodge name match the Rustic cue 'stone-and-wood lodge'; the corrected Description keeps that phrase. The patio with three fireplaces and valley/lake views is a real outdoor space but the venue centres on the indoor Grand Room, so Outdoors is optional; leaving Rustic only is also defensible.",
+  "site_cues": [
+   "'Natural stone and wood throughout.'",
+   "'surrounded by beautiful mountain scenery'",
+   "'outdoor patio with gorgeous views of Mount Timpanogos, Utah Lake'"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "Three named rooms with different uses",
+   "data": {
+    "spaces": [
+     {
+      "name": "The Grand Room",
+      "sqft": 2200,
+      "seated": 100,
+      "setting": "indoor",
+      "features": [
+       "built-in audio/video",
+       "42\" TV",
+       "indoor fireplace",
+       "greeting area"
+      ]
+     },
+     {
+      "name": "Outdoor patio",
+      "setting": "outdoor",
+      "features": [
+       "two fireplaces",
+       "valley, Timpanogos and Utah Lake views"
+      ]
+     },
+     {
+      "name": "The Bride's Room",
+      "features": [
+       "vanity",
+       "full-length mirror",
+       "two large windows"
+      ]
+     },
+     {
+      "name": "The Board Room",
+      "sqft": 570,
+      "features": [
+       "64\" Smart TV",
+       "conference table with 10 executive chairs"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Day-of-week pricing",
+   "why": "Price and hours differ by day",
+   "data": {
+    "Mon-Wed": {
+     "hours": "5-10pm",
+     "price": "$1,850"
+    },
+    "Thu": {
+     "hours": "5-10pm",
+     "price": "$2,100"
+    },
+    "Fri": {
+     "hours": "5-10:30pm",
+     "price": "$2,350"
+    },
+    "Sat": {
+     "hours": "9am-10:30pm",
+     "price": "$2,850"
+    },
+    "DIY setup/takedown discount": "$250",
+    "decor rental": "$350 unlimited"
+   }
+  },
+  {
+   "title": "Capacity by layout",
+   "why": "Different figures for dinner, ceremony and come-and-go",
+   "data": {
+    "seated dinner": 100,
+    "ceremony (no tables)": 150,
+    "come-and-go reception": "up to 300 through the night"
+   }
+  },
+  {
+   "title": "Preferred vendors",
+   "why": "Optional vendor list incl. a sparkler vendor",
+   "data": {
+    "vendors": [
+     "Specialty Linens Utah",
+     "Magleby's",
+     "Caley's Catering",
+     "Rent Event Utah",
+     "Chelsey Black Photography",
+     "Have Party Will Travel",
+     "Cake by Allessandra",
+     "Snap Happy Photo Booth",
+     "Laughing Gravy",
+     "Moonlight Wedding & Event Lighting",
+     "Utah Sparklers"
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Deposit: FAQ says fully refundable unless cancelled; cancellation policy says non-refundable. Which applies?",
+  "Included furniture: 12 or 14 round tables, 100 or 120 chairs? Pages disagree.",
+  "Are sparkler exits allowed? Utah Sparklers is a preferred vendor but no policy is stated.",
+  "Does venue takedown include cleaning (cleanup crew filter)?",
+  "What items are in the $350 decor rental? Only shown on Instagram."
+ ]
+}

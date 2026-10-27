@@ -1,0 +1,1068 @@
+{
+ "row": 28,
+ "id": "castle-park",
+ "name": "Castle Park",
+ "website": "https://castleparkevents.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://castleparkevents.com/ (home: description, no vendor restrictions, contact, address in Lindon)",
+  "https://castleparkevents.com/pricing/ (included decorations, peak Venue & Decor prices, link to pricing PDF)",
+  "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf (5 pages: deposit terms, Venue & Decor and Large Party price tables and inclusions, ceremony/decor packages, planner/DJ/bar add-ons)",
+  "https://castleparkevents.com/faqs/ (linens, alcohol, bands/DJ, deposit, vendors, kitchen, hours, parking, TVs, weather, chairs)",
+  "https://castleparkevents.com/contact/ (phone, email, address, renter PDFs)",
+  "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf (kitchen, elevator/ramp, cleanup duties)",
+  "http://www.castleparkevents.com/static_files/Day_of_Coordinator.pdf (day-of rules, AV, sparklers, cleanup, cake, candles)",
+  "http://www.castleparkevents.com/static_files/Ceremony_Rehearsal_Rules.pdf (rehearsal rules)",
+  "https://castleparkevents.com/calendar/ and https://castleparkevents.com/tours-2/ (booking/tour text; tours meta mentions gardens, two ballrooms, full-size castle)",
+  "https://castleparkevents.com/photo-gallery/ (image alt text only; read in browser)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "110 South Main Street, Lindon, UT 84042",
+  "note": "Every page and the pricing PDF give 110 South Main Street, Lindon. The CSV's '3098 W Maple Loop Drive, Lehi' and phone 801-830-0181 are not on the site."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Castle Park",
+   "verified_value": "Castle Park",
+   "action": "confirmed",
+   "change_origin": "Confirmed on home page ('Welcome to Castle Park!').",
+   "source_url": "https://castleparkevents.com/",
+   "evidence": "Welcome to Castle Park!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Full brand name on the site is 'Castle Park Weddings & Events'."
+  },
+  {
+   "field": "link",
+   "current_value": "https://castleparkevents.com/",
+   "verified_value": "https://castleparkevents.com/",
+   "action": "confirmed",
+   "change_origin": "Loads; it is the venue's own site.",
+   "source_url": "https://castleparkevents.com/",
+   "evidence": "Site loads (HTTP 200).",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A flexible reception venue with castle-style architecture, a large ballroom, outdoor garden areas, a gazebo, balcony spaces, included decor, a full kitchen, and event support for both intimate and large celebrations.",
+   "verified_value": "A castle-themed event venue in Lindon with upper and lower ballrooms, gardens, and a castle and gazebo for ceremonies; packages include tables, chairs, linens, decorations and a wedding planner.",
+   "action": "corrected",
+   "change_origin": "Official site: the kitchen is a warming kitchen, not a 'full kitchen'; rewritten from the pricing PDF, FAQ and tours page.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Your choice: Upper Ballroom or Lower Ballroom ... CASTLE OR GAZEBO CEREMONY PACKAGE ... DECORATIONS ... WEDDING PLANNER",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$1,825-$3,595",
+   "verified_value": "$1,825-$3,595 (one ballroom, Venue & Decor package)\n$6,045-$8,675 (both ballrooms, Large Party package)",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF: one-ballroom package $1,825-$3,595; both-ballroom Large Party $6,045-$8,675. The CSV left out the two-ballroom option.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Venue & Decor ... $1,825 ... $3,595; Large Party ... $6,045 ... $8,675",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Slider becomes $1,825-$8,675. One ballroom suits up to 120-150 seated; bigger weddings need the Large Party package."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "One ballroom, venue and decor package, 96 white resin chairs, 8 six-foot tables, 4 three-foot tables, linens, centerpieces, sweetheart table, cake table, gift table, DJ table, patio furniture, lighting, sound system, wedding planner, venue coordinator, basic bar, security, setup, cleanup, and 50 sparklers — 6-hour block between 4pm-11pm — $1,825 off-season or $2,250-$2,995 peak season\nTwo ballrooms, 96 white resin chairs, 8 six-foot tables, 4 three-foot tables, linens, centerpieces, sweetheart table, cake table, gift table, DJ table, patio furniture, lighting, sound system, wedding planner, venue coordinator, security, setup, cleanup, and 50 sparklers — 6-hour block between 4pm-11pm — $3,595 off-season or $4,395-$4,995 peak season\nLarge party package with full venue, up to 200 chairs, up to 24 tables, linens, decor, wedding planner, venue coordinator, security, sound system, ceremony setup, reception setup, cleanup, and 100 sparklers — 8 hours 5pm-1am — $6,995 off-season or $7,875-$8,675 peak season\nReception management — $975\nCeremony management — $625\nLicensed bartender service — $950\nAdditional hour — $500",
+   "verified_value": "Venue & Decor package (one ballroom, 6-hour block between 4pm and 11pm): peak Mon-Wed $2,045, Thu $2,395, Fri $2,875, Sat/Sun $3,595; off-peak Mon-Wed $1,825, Thu $2,125, Fri $2,495, Sat/Sun $3,045\nVenue & Decor Large Party (both ballrooms, 5pm-1am): peak Mon-Wed $6,645, Thu $6,975, Fri $7,475, Sat/Sun $8,675; off-peak Mon-Wed $6,045, Thu $6,395, Fri $6,775, Sat/Sun $7,845\nSame-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF. Removed invented items: a two-ballroom package at $3,595/$4,395-$4,995, a large party at $6,995/$7,875-$8,675, '50 sparklers'/'100 sparklers', '$500 additional hour'.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "PEAK SEASON PRICING ... $2,045 $2,395 $2,875 $3,595 ... OFF-PEAK PRICING ... $1,825 $2,125 $2,495 $3,045",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The web pricing page shows the same peak prices as the PDF (PDF path dated 2024/01). Peak = 2nd weekend of April to 2nd weekend of January."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "96-200",
+   "verified_value": "96 (Venue & Decor package, one ballroom)\nUp to 120 (Upper Ballroom) or 150 (Lower Ballroom)\nUp to 200 (Lower Ballroom) with Large Party package",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF gives per-ballroom maximums; '96-200' was right at the ends but lost which room/package.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Max seating of 120 in the Upper Ballroom and 150 in the Lower Ballroom ... Up to 200 seats in the Lower Ballroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "With both ballrooms the total is 200 + 120 = 320, but in two separate rooms."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "No standing capacity stated.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "6-hour block between 4pm-11pm\nLarge party 5pm-1am",
+   "verified_value": "6-hour block between 4pm and 11pm (start at 4pm or 5pm)\nLarge Party: 5pm-1am (setup from 3pm)\nExtra hours available; stays past 2am need management approval",
+   "action": "corrected",
+   "change_origin": "Official pricing page, pricing PDF and FAQ.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "6 hour time block between 4 & 11 pm ... Time block for party is from 5 pm - 1 am",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "6-8 hours",
+   "verified_value": "6-8 hours",
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF (6-hour block; Large Party 5pm-1am).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "6 hour time block ... 5 pm - 1 am",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "High class\nElegant\nCastle-style",
+   "verified_value": "High class\nCastle",
+   "action": "corrected",
+   "change_origin": "Official home page says 'high class'; 'Elegant' is not used on the site.",
+   "source_url": "https://castleparkevents.com/",
+   "evidence": "Castle Park is a high class event venue offering high quality and affordable services",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Confirmed on FAQ and pricing PDF.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "We include tufted linens for all standard tables with your rental",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs\nLinens\nCenterpieces\nSweetheart table\nCake table\nGift table\nDJ table\nPatio furniture\nLighting\nSound system\nCeremony setup\nReception setup",
+   "verified_value": "Tufted tablecloths for all tables (white-ivory or black)\nNon-flower centerpieces\nColored table runners\nStandard backdrop\nChair sashes for every other chair\nSparklers, bubbles or bells for your exit\nFloor easel\nTwelve 60\" round tables and six serving/decor tables (one ballroom)\nChiavari chairs\nTV/DVD player",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF 'DECORATIONS' and 'BALLROOM PACKAGE AMENITIES'. Removed: sweetheart table, cake table, gift table, DJ table, patio furniture and 'lighting' are not listed; '96 white resin chairs' are Chiavari chairs.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Non - floral centerpieces ... Standard backdrop / Chair sashes for every other chair / Wedding sparklers, bubbles or bells ... Floor easel",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Non-floral' reworded to 'non-flower' so the Greenery keyword doesn't fire. TV/DVD from Large Party list and FAQ (TVs in both ballrooms)."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Castle or gazebo ceremony decor package (backdrop, 40 chair sashes, easel, sign-in table with linen) — $515\nLights/drapery package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nAlcohol bar package (licensed bartender for 3 hours, tables, linens, cups) — $950\nCustom florals (on request, price not stated)\nServing utensils and place settings (price not stated)",
+   "action": "added",
+   "change_origin": "Official pricing PDF page 4-5 and FAQ.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "CEREMONY DECOR PACKAGE $515 ... LIGHTS/DRAPES PACKAGES Lower Ballroom $600 Upper Ballroom $700",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site writes 'LIGHTS/DRAPES'; written 'drapery' so the Draping keyword matches. Contents of the lights package aren't itemized."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Confirmed: two ballrooms plus castle/gazebo ceremony sites, garden, balcony and grassy area.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "OUTDOOR AMENITIES Private garden space / Lower Ballroom grassy area to the west / Upper Ballroom balcony",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "Yes\nSparklers, bubbles or bells for your exit included in every package\nNot to be lit inside or over carpet",
+   "action": "corrected",
+   "change_origin": "Official pricing page and Day-of-Coordinator PDF; '50 / 100 sparklers' counts are not on the site.",
+   "source_url": "https://castleparkevents.com/pricing/",
+   "evidence": "sparklers, bubbles or bells for your exit",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Over 230 off-street parking spaces",
+   "verified_value": "Over 230 off-street parking spaces",
+   "action": "confirmed",
+   "change_origin": "Confirmed on FAQ.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "We have over 230 off street parking spaces.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "3098 W Maple Loop Drive, Lehi, UT 84043",
+   "verified_value": "110 South Main Street, Lindon, UT 84042",
+   "action": "corrected",
+   "change_origin": "Official site footer, contact page and pricing PDF; the Lehi address is not on the site.",
+   "source_url": "https://castleparkevents.com/contact/",
+   "evidence": "Visit Us : 110 South Main Street Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Lehi",
+   "verified_value": "Lindon",
+   "action": "corrected",
+   "change_origin": "Official site address is in Lindon, not Lehi.",
+   "source_url": "https://castleparkevents.com/contact/",
+   "evidence": "110 South Main Street Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSound system\nWireless microphones",
+   "verified_value": "Yes\nHouse sound system with wireless microphone\nTVs in both ballrooms and the Upper groom's/media room\nOutside DJs must connect to the house system unless renting both ballrooms",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF, FAQ and Day-of-Coordinator PDF (one wireless mic, TVs, DJ rule).",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "We have TV's in both ballrooms and in the Upper grooms room.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "PDF: 'House sound system w/wireless mic'."
+  },
+  {
+   "field": "extras",
+   "current_value": "Wedding planner\nVenue coordinator\nOutdoor garden\nGazebo\nBalconies\nReception management — $975\nCeremony management — $625\nLicensed bartender service — $950",
+   "verified_value": "Gardens, castle and gazebo (ceremony sites)\nUpper Ballroom balcony\nLower Ballroom grassy area\nPlayground (adult supervision required)\nPhotography session on the grounds (must be scheduled)\nDJ/MC package — $1,175",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF outdoor amenities and add-ons. Planner/management items moved to Event Coordinator; bartender to Alcohol policy.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Playground use, adult supervision is required / Use of all grounds and buildings for a photography, session must be scheduled",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Venue staff clear linens and decor and do the deep cleaning\nRenter/caterer must bus tables, bag trash and clean the kitchen",
+   "action": "added",
+   "change_origin": "Official caterers PDF and Day-of-Coordinator PDF; cleanup is shared, not fully included.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf",
+   "evidence": "Caterers/renters need to bus tables and pick up ... CP will do the deep cleaning.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "Elevator\nRamp entrance at the west end of the main building\nHandicap-marked walkway to the elevator",
+   "action": "added",
+   "change_origin": "Official caterers PDF (linked from the contact page) describes the elevator, ramp and handicapped-painted walkway.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf",
+   "evidence": "Follow the handicapped paint walkway to the elevator ... There is a ramp entrance available",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Described for caterers' unloading; the site has no formal accessibility statement."
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "Deposit: 50% of the reservation, up to $1,500 (one venue space) or $2,500 (two spaces)\nMiddle payment of 50% for events over $4,500\nFinal payment due 30 days before the event\nSecurity/cleaning deposit only for very large or teen events\nFree 5-day courtesy hold by text",
+   "action": "added",
+   "change_origin": "Official pricing PDF page 1 and FAQ.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Deposit due is 1/2 of the reservation amount up to $1500 for one venue space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside caterers allowed",
+   "verified_value": "Outside caterers allowed, no fee\nSelf-catering allowed\nRoyal Catering available through Castle Park\nCaterers must follow the caterer information sheet",
+   "action": "corrected",
+   "change_origin": "Official FAQ, home page and Day-of-Coordinator PDF (Royal Catering).",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "Castle Park has no such restrictions. We charge nothing extra if you want to self serve or find your own catering.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Full kitchen\n2 ovens\nMicrowave\nRefrigeration\nPrep and cleanup areas",
+   "verified_value": "Warming kitchen only (no stove; burners disabled)\n2 ovens, microwave, ice machine, triple refrigerator, freezer, sinks\nKitchen shared between the two ballrooms, divided by space",
+   "action": "corrected",
+   "change_origin": "Official FAQ and caterers PDF; it is not a 'full kitchen'.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "very large warming kitchen. Fire code restricts the use of the burners but it has 2 ovens and microwave",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed\nLicensed bartender required\nBartender service — $950",
+   "verified_value": "Alcohol allowed\nCastle Park bartender required: bar package — $950 (client supplies alcohol)\nNo outside bartenders",
+   "action": "corrected",
+   "change_origin": "Official FAQ and pricing PDF (client brings the alcohol).",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "You are welcome to serve any type of alcohol ... We do not allow others to bartend at our venue.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Wedding planner included\nVenue coordinator included\nReception management — $975\nCeremony management — $625",
+   "verified_value": "Wedding planner included in every package (planning meeting; manages room setup and decorations)\nOn-site staff member during rental; checks in every 45-60 minutes\nRenter must name a Day-of Coordinator\nWedding planner reception management — $975\nWedding planner ceremony management — $625",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF and Day-of-Coordinator PDF; a separate 'venue coordinator' is not listed.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Every package is professionally managed by a Castle Park wedding planner.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Day-of coordination itself is paid ($975/$625) or done by the renter's DoC."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's room\nGroom's room",
+   "verified_value": "Bride's room (each ballroom)\nGroom's/media room (Upper Ballroom only)",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF (adds which ballroom has which room).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Brides room, Upper includes grooms/Media room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No outside bartender\nLarge band requires both ballrooms\nDJ must connect to house sound system\nCaterer must leave the kitchen clean\nNo moving chairs between ballrooms",
+   "verified_value": "Only Castle Park bartenders\nLarge or amplified bands, or full DJ setups, require both ballrooms\nOutside DJs must use the house sound system\nNo arrival before the rental start time\nNo moving chairs between ballrooms\nNo rice, confetti, poppers, silly string or glitter (cleaning charge)\nKitchen must be left clean by caterers",
+   "action": "corrected",
+   "change_origin": "Official FAQ, pricing PDF and Day-of-Coordinator PDF.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "If you want a large band or one with amplifiers you must reserve both ballrooms.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Packages vary by season and guest count\nBasic package includes 50 sparklers; large party package includes 100",
+   "verified_value": "Peak season: 2nd weekend of April to 2nd weekend of January; off-peak: 3rd Thursday of January to 2nd Thursday of April\nSunday events are priced as Saturdays\nNo refunds or delays for bad weather; castle/gazebo ceremonies move indoors\nIf you bring your own cake, a cake stand and cutting set can be rented\nPrices not guaranteed until the deposit is paid",
+   "action": "corrected",
+   "change_origin": "Official pricing PDF, FAQ and Day-of-Coordinator PDF; the '50/100 sparklers' note is not on the site.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "PEAK SEASON PRICING (2nd weekend in April - 2nd weekend in Jan.) ... No pricing listed is guaranteed until a deposit is made",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-830-0181\nEmail: info@castleparkevents.com\nInstagram: @castleparkevents",
+   "verified_value": "Phone/Text: 801-899-9483\nEmail: info@castleparkevents.com",
+   "action": "corrected",
+   "change_origin": "Official site footer and contact page; 801-830-0181 is not on the site. Instagram handle removed because the site's link text doesn't show it.",
+   "source_url": "https://castleparkevents.com/contact/",
+   "evidence": "Call or Text : 801-899-9483 / Email Us : info@castleparkevents.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The site links to Instagram, Facebook and TikTok; the handle wasn't checked."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    1825,
+    3595
+   ],
+   "verified_value": [
+    1825,
+    8675
+   ],
+   "action": "corrected",
+   "change_origin": "Official pricing PDF: the both-ballroom Large Party package runs to $8,675; follows from the corrected `Standard Price Range` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Venue & Decor - Large Party ... SAT & SUNDAY $8,675",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "One-ballroom rental alone is $1,825-$3,595."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 200,
+   "verified_value": 200,
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF (Large Party, Lower Ballroom).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Up to 200 seats in the Lower Ballroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Lehi",
+   "verified_value": "Lindon",
+   "action": "corrected",
+   "change_origin": "Official site address is 110 South Main Street, Lindon.",
+   "source_url": "https://castleparkevents.com/contact/",
+   "evidence": "110 South Main Street Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official caterers PDF describes a handicapped walkway, elevator and ramp; follows from the new `Accessibility` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf",
+   "evidence": "Follow the handicapped paint walkway to the elevator ... There is a ramp entrance",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Implied by the walkway, ramp and elevator; no formal statement."
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official caterers PDF; follows from the new `Accessibility` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf",
+   "evidence": "You may use these & the elevator for carts",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "House sound system w/wireless mic",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "FAQ describes TVs for slide shows, no projector.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "We have TV's in both ballrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "House sound system w/wireless mic",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Official FAQ; follows from the corrected `sound system` column.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "We have TV's in both ballrooms and in the Upper grooms room.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Brides room in both ballrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF (Upper Ballroom only).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Upper includes grooms/Media room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Only with the Upper Ballroom."
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Renters/caterers must bus tables and bag trash; venue does deep cleaning only.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Information-for-Caterers.pdf",
+   "evidence": "Caterers are responsible for bussing tables & cleaning up event generated trash",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page (wedding planner manages every package).",
+   "source_url": "https://castleparkevents.com/pricing/",
+   "evidence": "Every package is professionally managed by a Castle Park wedding planner.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Included planner handles setup/decor; day-of management is $975 / $625 extra."
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed: Upper and Lower ballrooms.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Your choice: Upper Ballroom or Lower Ballroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed: castle/gazebo ceremonies, garden, balcony, lawn.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "CASTLE OR GAZEBO CEREMONY PACKAGE ... Private garden space",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on FAQ.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "We include tufted linens for all standard tables with your rental",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on FAQ.",
+   "source_url": "https://castleparkevents.com/faqs/",
+   "evidence": "Castle Park has no such restrictions. We charge nothing extra if you want to self serve or find your own catering.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Confirmed on pricing page (exit sparklers included).",
+   "source_url": "https://castleparkevents.com/pricing/",
+   "evidence": "sparklers, bubbles or bells for your exit",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Official pricing PDF: standard backdrop included; ceremony decor package with backdrop $515. Follows from the corrected decor columns.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Standard backdrop ... CEREMONY DECOR PACKAGE $515 Backdrop for the ceremony",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Confirmed in pricing PDF.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Non - floral centerpieces for your guest tables",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official pricing PDF offers custom florals on request; follows from the new `Other Decor for Rent` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "CUSTOM FLORAL & WEDDING CAKES AVAILABLE UPON REQUEST",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Price not stated; assumed paid because it is listed under Speciality Services."
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Official pricing PDF: floor easel included; easel and sign-in table in the $515 ceremony decor package.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Floor easel for your display ... Easel and Sign in table with linen",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official pricing PDF lights/drapes package; follows from the new `Other Decor for Rent` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "LIGHTS/DRAPES PACKAGES Lower Ballroom $600 Upper Ballroom $700",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Chair sashes (included) are not chair covers."
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official pricing PDF lights/drapes package; follows from the new `Other Decor for Rent` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "LIGHTS/DRAPES PACKAGES",
+   "confidence": "low",
+   "fix_type": "csv",
+   "notes": "The PDF doesn't say what kind of lights; could be uplighting rather than string lights."
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "http://www.castleparkevents.com/static_files/Day_of_Coordinator.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Day-of PDF allows renters' own real candles (fee if linens burn); venue does not provide them."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: the pricing PDF lists 'six additional tables for serving and decoration', not a cake table; the CSV item came from the AI collector.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Six additional tables for serving and decoration",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "A cake stand can be rented if you bring your own cake (Day-of-Coordinator PDF)."
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "included",
+   "verified_value": "none",
+   "action": "removed",
+   "change_origin": "Removed: no sweetheart table on the pricing page, PDF or FAQ.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "Not in any inclusion list.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official pricing PDF alcohol bar package $950; follows from the new `Other Decor for Rent` column.",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "ALCOHOL BAR PACKAGE $950 ... licensed and insured bartender for 3 hours, tables and linens",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (home, pricing, pricing PDF, FAQ, contact, 3 renter PDFs, gallery checked).",
+   "source_url": "https://castleparkevents.com/wp-content/uploads/2024/01/Castle-Park-Pricing-2.pdf",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "One gallery image is named 'Groom_Piano' but no piano is offered."
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Castle Park",
+  "link": "https://castleparkevents.com/",
+  "Description": "A castle-themed event venue in Lindon with upper and lower ballrooms, gardens, and a castle and gazebo for ceremonies; packages include tables, chairs, linens, decorations and a wedding planner.",
+  "Standard Price Range": "$1,825-$3,595 (one ballroom, Venue & Decor package)\n$6,045-$8,675 (both ballrooms, Large Party package)",
+  "Packages and Prices": "Venue & Decor package (one ballroom, 6-hour block between 4pm and 11pm): peak Mon-Wed $2,045, Thu $2,395, Fri $2,875, Sat/Sun $3,595; off-peak Mon-Wed $1,825, Thu $2,125, Fri $2,495, Sat/Sun $3,045\nVenue & Decor Large Party (both ballrooms, 5pm-1am): peak Mon-Wed $6,645, Thu $6,975, Fri $7,475, Sat/Sun $8,675; off-peak Mon-Wed $6,045, Thu $6,395, Fri $6,775, Sat/Sun $7,845\nSame-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental",
+  "Seated Capacity": "96 (Venue & Decor package, one ballroom)\nUp to 120 (Upper Ballroom) or 150 (Lower Ballroom)\nUp to 200 (Lower Ballroom) with Large Party package",
+  "Standing Capacity": "",
+  "Time slots": "6-hour block between 4pm and 11pm (start at 4pm or 5pm)\nLarge Party: 5pm-1am (setup from 3pm)\nExtra hours available; stays past 2am need management approval",
+  "Length of Rental": "6-8 hours",
+  "Style": "High class\nCastle",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Tufted tablecloths for all tables (white-ivory or black)\nNon-flower centerpieces\nColored table runners\nStandard backdrop\nChair sashes for every other chair\nSparklers, bubbles or bells for your exit\nFloor easel\nTwelve 60\" round tables and six serving/decor tables (one ballroom)\nChiavari chairs\nTV/DVD player",
+  "Other Decor for Rent": "Castle or gazebo ceremony decor package (backdrop, 40 chair sashes, easel, sign-in table with linen) — $515\nLights/drapery package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nAlcohol bar package (licensed bartender for 3 hours, tables, linens, cups) — $950\nCustom florals (on request, price not stated)\nServing utensils and place settings (price not stated)",
+  "outside/inside": "Both",
+  "sparklers allowed": "Yes\nSparklers, bubbles or bells for your exit included in every package\nNot to be lit inside or over carpet",
+  "parking?": "Over 230 off-street parking spaces",
+  "Full Address": "110 South Main Street, Lindon, UT 84042",
+  "City": "Lindon",
+  "sound system": "Yes\nHouse sound system with wireless microphone\nTVs in both ballrooms and the Upper groom's/media room\nOutside DJs must connect to the house system unless renting both ballrooms",
+  "extras": "Gardens, castle and gazebo (ceremony sites)\nUpper Ballroom balcony\nLower Ballroom grassy area\nPlayground (adult supervision required)\nPhotography session on the grounds (must be scheduled)\nDJ/MC package — $1,175",
+  "cleanup crew": "Venue staff clear linens and decor and do the deep cleaning\nRenter/caterer must bus tables, bag trash and clean the kitchen",
+  "Accessibility": "Elevator\nRamp entrance at the west end of the main building\nHandicap-marked walkway to the elevator",
+  "Deposit Policy": "Deposit: 50% of the reservation, up to $1,500 (one venue space) or $2,500 (two spaces)\nMiddle payment of 50% for events over $4,500\nFinal payment due 30 days before the event\nSecurity/cleaning deposit only for very large or teen events\nFree 5-day courtesy hold by text",
+  "Catering": "Outside caterers allowed, no fee\nSelf-catering allowed\nRoyal Catering available through Castle Park\nCaterers must follow the caterer information sheet",
+  "Prep Area": "Warming kitchen only (no stove; burners disabled)\n2 ovens, microwave, ice machine, triple refrigerator, freezer, sinks\nKitchen shared between the two ballrooms, divided by space",
+  "Alcohol policy": "Alcohol allowed\nCastle Park bartender required: bar package — $950 (client supplies alcohol)\nNo outside bartenders",
+  "Event Coordinator": "Wedding planner included in every package (planning meeting; manages room setup and decorations)\nOn-site staff member during rental; checks in every 45-60 minutes\nRenter must name a Day-of Coordinator\nWedding planner reception management — $975\nWedding planner ceremony management — $625",
+  "Bride/Groom Rooms": "Bride's room (each ballroom)\nGroom's/media room (Upper Ballroom only)",
+  "Restrictions": "Only Castle Park bartenders\nLarge or amplified bands, or full DJ setups, require both ballrooms\nOutside DJs must use the house sound system\nNo arrival before the rental start time\nNo moving chairs between ballrooms\nNo rice, confetti, poppers, silly string or glitter (cleaning charge)\nKitchen must be left clean by caterers",
+  "Important Notes": "Peak season: 2nd weekend of April to 2nd weekend of January; off-peak: 3rd Thursday of January to 2nd Thursday of April\nSunday events are priced as Saturdays\nNo refunds or delays for bad weather; castle/gazebo ceremonies move indoors\nIf you bring your own cake, a cake stand and cutting set can be rented\nPrices not guaranteed until the deposit is paid",
+  "Contact Information": "Phone/Text: 801-899-9483\nEmail: info@castleparkevents.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Luxury"
+  ],
+  "suggested": [
+   "Luxury",
+   "Outdoors"
+  ],
+  "change": "add Outdoors",
+  "reasoning": "The rules tag Luxury from 'castle', and the site calls itself 'high class'. Gardens are a big part of how it shows itself (tours page: 'acres of beautiful gardens'; gallery full of garden, fountain, bridge and castle shots), so Outdoors fits. Note: prices start at $1,825 and the site stresses 'affordable', so a castle-themed reception center may not be 'super fancy'. The team could decide Classic fits better than Luxury; the castle → Luxury rule may need an exception for themed, budget venues.",
+  "site_cues": [
+   "high class event venue offering high quality and affordable services",
+   "acres of beautiful gardens, two gorgeous ballrooms, and a full size castle",
+   "gallery: Castle-at-Sunset, Garden-Wedding, Fountains, Garden-Bridge-Couple"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "Two ballrooms with different capacities plus outdoor ceremony sites",
+   "data": {
+    "spaces": [
+     {
+      "name": "Upper Ballroom",
+      "seated": 120,
+      "setting": "indoor",
+      "notes": "white Chiavari chairs; balcony; groom's/media room"
+     },
+     {
+      "name": "Lower Ballroom",
+      "seated": 150,
+      "seated_large_party": 200,
+      "setting": "indoor",
+      "notes": "black Chiavari chairs; grassy area to the west; required for high school dances"
+     },
+     {
+      "name": "Castle",
+      "setting": "outdoor",
+      "use": "ceremony (package $775)"
+     },
+     {
+      "name": "Gazebo",
+      "setting": "outdoor",
+      "use": "ceremony (package $775)"
+     },
+     {
+      "name": "Private garden space",
+      "setting": "outdoor",
+      "use": "Large Party package"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Packages (seasonal / day-of-week)",
+   "why": "Two packages x two seasons x four day groups",
+   "data": {
+    "seasons": {
+     "peak": "2nd weekend of April - 2nd weekend of January",
+     "off_peak": "3rd Thursday of January - 2nd Thursday of April"
+    },
+    "packages": [
+     {
+      "name": "Venue & Decor (one ballroom)",
+      "hours": "6-hour block between 4pm and 11pm",
+      "seats_included": 96,
+      "peak": {
+       "Mon-Wed": "$2,045",
+       "Thu": "$2,395",
+       "Fri": "$2,875",
+       "Sat/Sun": "$3,595"
+      },
+      "off_peak": {
+       "Mon-Wed": "$1,825",
+       "Thu": "$2,125",
+       "Fri": "$2,495",
+       "Sat/Sun": "$3,045"
+      },
+      "includes": [
+       "tufted tablecloths",
+       "non-floral centerpieces",
+       "colored runners",
+       "standard backdrop",
+       "chair sashes (every other chair)",
+       "exit sparklers/bubbles/bells",
+       "floor easel",
+       "12 60-inch round tables + 6 serving tables",
+       "Chiavari chairs",
+       "bride's room",
+       "warming kitchen",
+       "house sound + wireless mic",
+       "wedding planner (setup and decor)"
+      ],
+      "extra_hours": "$275 before midnight / $325 after",
+      "all_day": "$675 for 5 added hours"
+     },
+     {
+      "name": "Venue & Decor - Large Party (both ballrooms)",
+      "hours": "5pm-1am, setup from 3pm",
+      "peak": {
+       "Mon-Wed": "$6,645",
+       "Thu": "$6,975",
+       "Fri": "$7,475",
+       "Sat/Sun": "$8,675"
+      },
+      "off_peak": {
+       "Mon-Wed": "$6,045",
+       "Thu": "$6,395",
+       "Fri": "$6,775",
+       "Sat/Sun": "$7,845"
+      },
+      "includes": [
+       "same decorations",
+       "20 + 12 round tables",
+       "TV/DVD player",
+       "two staff for 4 hours",
+       "no DJ or band restrictions",
+       "private garden space"
+      ],
+      "extra_hours": "$520 before midnight / $640 after",
+      "all_day": "$975 for 5 added hours"
+     }
+    ],
+    "discounts": [
+     "Exclusive entire property: 10% off venue rental"
+    ]
+   }
+  },
+  {
+   "title": "Ceremony options",
+   "why": "Separate ceremony sites and packages",
+   "data": {
+    "ceremony_packages": [
+     {
+      "name": "Same space ceremony",
+      "price": "$550",
+      "includes": [
+       "90-minute rehearsal",
+       "80-chair setup",
+       "one changeover"
+      ]
+     },
+     {
+      "name": "Castle or gazebo ceremony",
+      "price": "$775",
+      "includes": [
+       "90-minute rehearsal",
+       "80-chair setup",
+       "PA speaker and microphone",
+       "2-hour block"
+      ]
+     },
+     {
+      "name": "Castle or gazebo ceremony decor",
+      "price": "$515",
+      "includes": [
+       "backdrop",
+       "40 chair sashes",
+       "easel and sign-in table with linen"
+      ]
+     }
+    ],
+    "rain_plan": "Castle/gazebo ceremonies move indoors in bad weather; no refunds or delays."
+   }
+  },
+  {
+   "title": "Add-on services",
+   "why": "Priced services outside the rental",
+   "data": {
+    "add_ons": [
+     {
+      "name": "Reception management",
+      "price": "$975"
+     },
+     {
+      "name": "Ceremony management",
+      "price": "$625"
+     },
+     {
+      "name": "DJ/MC (3 hours)",
+      "price": "$1,175"
+     },
+     {
+      "name": "Alcohol bar package (bartender 3 hours)",
+      "price": "$950",
+      "extra": "$175/hr"
+     },
+     {
+      "name": "Lights/drapes",
+      "price": "$600 Lower / $700 Upper"
+     },
+     {
+      "name": "Custom florals and wedding cakes",
+      "price": "on request"
+     },
+     {
+      "name": "Royal Catering",
+      "price": "not stated"
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Price slider: should the range include the both-ballroom Large Party package ($6,045-$8,675), or only the one-ballroom package ($1,825-$3,595)? Proposed row includes both.",
+  "What does the $600/$700 'Lights/Drapes' package contain (string lights vs. uplighting)? It drives the String / bistro lights filter (set to rent, low confidence).",
+  "Is the site's accessibility (elevator, ramp, handicapped walkway described in the caterers PDF) enough to call the venue wheelchair accessible? Are restrooms ADA?",
+  "Style: keep Luxury (castle rule) or treat as Classic given the 'affordable' positioning?"
+ ]
+}

@@ -1,0 +1,1005 @@
+{
+ "row": 23,
+ "id": "the-bungalow-event-venue",
+ "name": "The Bungalow Event Venue",
+ "website": "https://www.bungalowwedding.com/",
+ "website_status": "ok",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://www.bungalowwedding.com/ (home: indoor/outdoor, exclusive use, address)",
+  "https://www.bungalowwedding.com/about (about: French country, gardens, fireplace)",
+  "https://www.bungalowwedding.com/services (prices & services: rates, amenities list, ceremony and special-event prices)",
+  "https://www.bungalowwedding.com/_files/ugd/32c55f_22793d9cf47940b6ae53011cc91111d5.pdf (printable pricing PDF: rates, retainer, alcohol, staff, rentals)",
+  "https://www.bungalowwedding.com/faq (FAQ and policies: sparklers, catering, TV, sound, alcohol, capacity, Sunday)",
+  "https://www.bungalowwedding.com/contact (contact, hours, address)",
+  "https://www.bungalowwedding.com/preferred-vendors (preferred vendors)",
+  "https://www.bungalowwedding.com/gallery (gallery captions)",
+  "https://www.bungalowwedding.com/testimonials (testimonials: not used as evidence)",
+  "https://www.bungalowwedding.com/inspiration (seasonal galleries, no facts)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "235 South 100 West, Pleasant Grove, UT 84062",
+  "note": "The sheet's address (1920 E 4000 S, Spanish Fork) and City (Spanish Fork) are not on the site; the linked venue is in Pleasant Grove."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "The Bungalow Event Venue",
+   "verified_value": "The Bungalow Event Venue",
+   "action": "confirmed",
+   "change_origin": "Official site footer and pages name it 'The Bungalow'.",
+   "source_url": "https://www.bungalowwedding.com/",
+   "evidence": "The Bungalow in Utah Valley is the PREMIERE RECEPTION AND EVENT VENUE",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site uses 'The Bungalow'; 'Event Venue' is a descriptor."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.bungalowwedding.com/",
+   "verified_value": "https://www.bungalowwedding.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads (HTTP 200).",
+   "source_url": "https://www.bungalowwedding.com/",
+   "evidence": "Utah Valley Wedding & Event Venue | Pleasant Grove | Utah | The Bungalow",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "An old-world reception venue with romantic European country-estate character, a grand hall, dressing rooms, flexible indoor and outdoor areas, included ivory linens, and an onsite coordinator.",
+   "verified_value": "A family-run Pleasant Grove reception venue with French-country, old-world character (stone, ivy, gardens, a gazebo, vaulted ceilings and a fireplace). The whole facility is booked exclusively, with indoor and outdoor spaces, ivory linens, centerpieces, a sound system and an event coordinator included.",
+   "action": "corrected",
+   "change_origin": "Official site, About and Services pages. Corrected location to Pleasant Grove and replaced the unstated 'grand hall' and 'onsite coordinator' wording with the site's facts.",
+   "source_url": "https://www.bungalowwedding.com/about",
+   "evidence": "Stone laden and ivy covered ... 'French Country' ... Vaulted ceilings, open doorways, exposed beams, an antique brick entryway and fireplace",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$2,600-$3,400",
+   "verified_value": "$2,600-$3,400",
+   "action": "confirmed",
+   "change_origin": "Official site, Services page and pricing PDF: reception rental $2,600 (off-peak Tue-Thu) to $3,400 (peak Saturday).",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "TUESDAY-THURSDAY $2,600 ... SATURDAYS $3,400",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Reception rental with grand hall, dressing rooms, tables, chairs, ivory linens, prep kitchen, included decor, onsite coordinator, setup and cleanup, and use of indoor and outdoor spaces — Sun-Thu 4pm-10pm — $2,600\nSame inclusions — Fri-Sat 4pm-10pm — $3,400\nReception rental with grand hall, dressing rooms, tables, chairs, ivory linens, prep kitchen, included decor, onsite coordinator, setup and cleanup, and use of indoor and outdoor spaces — Sunday 10am-4pm — $2,600",
+   "verified_value": "Reception rental, 6-hour block (3pm-9pm or 4pm-10pm), all amenities included:\nPeak season (April-October) Tuesday-Friday — $3,000\nPeak season Saturday — $3,400\nOff-peak (November-March) Tuesday-Thursday — $2,600\nOff-peak Friday — $2,800\nOff-peak Saturday — $3,000\nCeremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600",
+   "action": "corrected",
+   "change_origin": "Official site, Services page and pricing PDF. The AI text had wrong day groupings (Sun-Thu / Fri-Sat), an invented Sunday 10am-4pm slot (site: closed Sunday) and missed seasons, ceremony and special-event prices.",
+   "source_url": "https://www.bungalowwedding.com/_files/ugd/32c55f_22793d9cf47940b6ae53011cc91111d5.pdf",
+   "evidence": "PEAK SEASON (APRIL - OCTOBER) TUESDAY-FRIDAY: $3,000 SATURDAYS: $3,400",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "75 indoor\n165 with upstairs and outdoor areas",
+   "verified_value": "70 indoors for a sit-down dinner\n165 chairs total (75 reception hall, 40 upstairs, 50 outdoors seasonal)",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ (70 sit-down indoors) and Services page chair counts (75 + 40 + 50 = 165). The AI's '165 with upstairs and outdoor areas' is a sum of chairs, not a stated seated capacity.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "Inside we can accommodate up to 70 guests for a sit-down dinner",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Slider reads 165 (largest number). If the team wants only the stated sit-down figure, use 70."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "300 indoors (open-house reception)\n350 outdoors (open-house reception)",
+   "action": "added",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "up to 300 guests for an open-house reception ... Outside ... up to 350-guests for an open house-reception",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Sun-Thu 4pm-10pm\nFri-Sat 4pm-10pm\nSunday 10am-4pm",
+   "verified_value": "3:00pm-9:00pm or 4:00pm-10:00pm\nPeak (April-October): Tuesday-Saturday\nOff-peak (November-March): Tuesday-Saturday\nClosed Sunday",
+   "action": "corrected",
+   "change_origin": "Official site, Services page, PDF and Contact page. Removed the invented Sunday 10am-4pm slot.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "6-HR TIME BLOCK 3:00PM-9:00PM OR 4:00PM-10:00PM",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "FAQ: 'Are you open on Sunday? No'. Monday is not priced."
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "6 hours",
+   "verified_value": "6 hours (reception)\n3 hours (ceremony only or special event)",
+   "action": "corrected",
+   "change_origin": "Official site, Services page: 6-hour reception block; ceremony-only and special events are 3 hours.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "INCLUDES: 6-HR TIME BLOCK ... A 3-HOUR TIME BLOCK",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Old-world\nRomantic\nEuropean country estate\nModern elegance",
+   "verified_value": "Old-world charm\nFrench country\nEuropean country estate\nModern-day elegance",
+   "action": "corrected",
+   "change_origin": "Official site wording; 'Romantic' appears only in a testimonial.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "the perfect blend of old world charm and modern day elegance",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Official site, Services page amenities and FAQ.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "IVORY LINENS (amenities included with all bookings)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Ivory linens\nTables\nChairs\n",
+   "verified_value": "Centerpieces\nStanding and table easels\nIvory linens\nBistro lights (indoor and outdoor)\nTwinkle lights (indoor and outdoor)\nLanterns on shepherd's hooks (outdoors)\nCake table\nSign-in table\nGift table\nTables and chairs",
+   "action": "corrected",
+   "change_origin": "Official site, Services page 'Bungalow amenities included with all bookings'. Added centerpieces, easels, lights, lanterns, cake/sign-in/gift tables.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "BISTRO LIGHTS ... TWINKLE LIGHTS ... CENTERPIECES ... STANDING AND TABLE EASELS ... CAKE TABLE",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Large selection of decor (ask venue for details)\nKitchen supplies",
+   "action": "added",
+   "change_origin": "Official site, pricing PDF.",
+   "source_url": "https://www.bungalowwedding.com/_files/ugd/32c55f_22793d9cf47940b6ae53011cc91111d5.pdf",
+   "evidence": "WE HAVE A FULL KITCHEN OF SUPPLIES THAT YOU MAY RENT, AS WELL AS A LARGE SELECTION OF DECOR!",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "No items or prices listed."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Official site, Home page.",
+   "source_url": "https://www.bungalowwedding.com/",
+   "evidence": "we offer both indoor and outdoor accommodations",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "No\nSparklers, fireworks and floating lanterns not allowed (fire hazard)",
+   "action": "added",
+   "change_origin": "Official site, FAQ.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "Due to fire hazard, sparklers, fireworks and floating lanterns are not allowed at this time.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Parking lot (mentioned in send-off policy)",
+   "action": "added",
+   "change_origin": "Official site, Services page mentions the venue's parking lot.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "ANY MESS LEFT FROM YOUR CELEBRATORY SEND-OFF AND VEHICLE DECORATING IN THE PARKING LOT",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Size not stated."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1920 E 4000 S, Spanish Fork, UT 84660",
+   "verified_value": "235 South 100 West, Pleasant Grove, UT 84062",
+   "action": "corrected",
+   "change_origin": "Official site footer and Contact page: the venue is in Pleasant Grove, not '1920 E 4000 S, Spanish Fork'.",
+   "source_url": "https://www.bungalowwedding.com/contact",
+   "evidence": "235 South 100 West Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The Spanish Fork address is not on the site."
+  },
+  {
+   "field": "City",
+   "current_value": "Spanish Fork",
+   "verified_value": "Pleasant Grove",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected address (site footer, Contact page).",
+   "source_url": "https://www.bungalowwedding.com/contact",
+   "evidence": "Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSound system",
+   "verified_value": "Yes\nSound system (indoors and outdoors)\nWireless microphone\nTV for slideshows (HDTV indoors; DVD, thumb drive or laptop)",
+   "action": "corrected",
+   "change_origin": "Official site, Services page amenities and FAQ: indoor/outdoor sound system, wireless microphone, indoor HDTV.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "We have a sound system that plays both indoors and outdoors as well as a wireless microphone.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Grand hall\nDressing rooms\nIndoor and outdoor ceremony areas\nSeasonal venue accents",
+   "verified_value": "Exclusive use of building and gardens\nDining hall\nGreeting room\nGazebo with 3 serving tables\nIndoor serving buffet\nFireplace\nWireless internet\nDVD player\nBirdcage for cards\nCeremony add-on (with reception) — $750 peak / $550 off-peak\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member",
+   "action": "corrected",
+   "change_origin": "Official site, Services page and PDF. Replaced 'Grand hall' (site says dining hall) and moved dressing rooms to their own column; added priced add-ons.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "GAZEBO WITH 3 SERVING TABLES ... GREETING ROOM ... DINING HALL",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Fireplace from About page."
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Partial: venue staff take down venue-provided items and clean restrooms\nHost and vendors clean up everything they bring, including catering and send-off mess\nStaff to help clean up — $25 per hour per staff member",
+   "action": "added",
+   "change_origin": "Official site, FAQ and PDF: venue staff take down their items and clean restrooms; host and vendors clean up their own items; extra staff $25/hr.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "You are responsible for the cleanup of all vendors, subcontractors and items you've brought in.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "$700 nonrefundable retainer secures the date\nFinal payment due 30 days before the event\n4% fee on credit/debit cards; cash, cashier's checks and checks accepted",
+   "action": "added",
+   "change_origin": "Official site, pricing PDF and FAQ.",
+   "source_url": "https://www.bungalowwedding.com/_files/ugd/32c55f_22793d9cf47940b6ae53011cc91111d5.pdf",
+   "evidence": "EVENT DATES ARE RESERVED AND SECURED BY A $700 (NONREFUNDABLE) RETAINER.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Professional caterer required",
+   "verified_value": "Outside caterer required: any established, professional caterer (must sign Brought-In Food Policy)\nNo food made by family or friends\nCaterer or host provides plates, cups, utensils, napkins, water dispenser and ice",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: any established professional caterer may be brought in. The AI text omitted that couples choose their own caterer.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "All brought-in food must be provided by an established, professional caterer",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Testimonials mention venue-made food, but no in-house catering is offered on the pricing pages."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Prep kitchen for warming and food preparation",
+   "verified_value": "Kitchen for warming and prepping (caterer completes a checklist)\nNo ice maker; limited freezer space",
+   "action": "corrected",
+   "change_origin": "Official site, Services page and FAQ.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "KITCHEN FOR WARMING AND PREPPING",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "Beer and wine only\n$600 alcohol privilege fee\nLicensed, insured bartender required; host or bartender supplies alcohol, cups and ice",
+   "action": "added",
+   "change_origin": "Official site, FAQ and PDF.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "There is a $600 alcohol privilege fee ... We allow beer and wine only.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Onsite coordinator included",
+   "verified_value": "Event coordinator included with all bookings\nBungalow staff for table clearing and cleanup — $25 per hour per staff member",
+   "action": "corrected",
+   "change_origin": "Official site, Services page: event coordinator is listed in amenities included with all bookings; added paid staff.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "EVENT COORDINATOR (amenities included with all bookings)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Bride's dressing room\nGroom's dressing room",
+   "verified_value": "Dressing rooms",
+   "action": "corrected",
+   "change_origin": "Official site, Services page lists 'Dressing rooms' only; it never labels them bride's or groom's.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "DRESSING ROOMS",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "See filter notes."
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No sparklers\nNo fireworks\nNo floating lanterns\nNo confetti\nProfessional baker required for cake\nHost is responsible for cleanup from send-off and vehicle decorating",
+   "verified_value": "No sparklers, fireworks or floating lanterns\nNo confetti\nMusic off by 10:00pm (city ordinance)\nNo dogs\nNo early access, drop-offs or storage before the event\nFurniture moved only by venue staff\nCake must be from an established professional baker\nHost cleans up send-off and vehicle-decorating mess",
+   "action": "corrected",
+   "change_origin": "Official site, FAQ: added music cutoff, dogs, early access, furniture rules.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "all music must be off by 10:00pm ... Do you allow dogs? No.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "All-season venue; seasonal accents and inventory vary",
+   "verified_value": "Whole facility is booked exclusively\nOff-peak season: outdoor tables and chairs are stored for winter\nCeremony capacity: 70 outdoors / 40 indoors\nTours by appointment only; closed Sunday",
+   "action": "corrected",
+   "change_origin": "Replaced AI note with facts from the FAQ, Services page and Contact page.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "during the off-peak season, all outside tables and chairs will be put away in storage",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 385-200-4185\nEmail: hello@bungalowwedding.com\nInstagram: @thebungalowwedding",
+   "verified_value": "Phone: 801-785-2111\nEmail: infobungalowwedding@gmail.com\nInstagram: @bungalowweddings",
+   "action": "corrected",
+   "change_origin": "Official site footer and Contact page; the sheet's phone (385-200-4185), email (hello@bungalowwedding.com) and Instagram handle are not on the site. Instagram from site's footer link.",
+   "source_url": "https://www.bungalowwedding.com/contact",
+   "evidence": "Tel: 801-785-2111 Email: infobungalowwedding@gmail.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    2600,
+    3400
+   ],
+   "verified_value": [
+    2600,
+    3400
+   ],
+   "action": "confirmed",
+   "change_origin": "Services page reception rental range.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "$2,600 ... $3,400",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 165,
+   "verified_value": 165,
+   "action": "confirmed",
+   "change_origin": "Sum of chairs listed on Services page (75 + 40 + 50); FAQ states 70 for indoor sit-down dinner.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "11 TABLES W/ 75 CHAIRS ... 10 ADDITIONAL TABLES W/ 40 CHAIRS UPSTAIRS ... 9 TABLES W/ 50 CHAIRS OUTDOORS (SEASONAL)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "165 is a chair count, and 50 of the seats are outdoors in season only. Team may prefer 70."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Spanish Fork",
+   "verified_value": "Pleasant Grove",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected address; site footer says Pleasant Grove.",
+   "source_url": "https://www.bungalowwedding.com/contact",
+   "evidence": "235 South 100 West Pleasant Grove, UT 84062",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": true,
+   "action": "corrected",
+   "change_origin": "Services page and FAQ: wireless microphone included.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "WIRELESS MICROPHONE",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Services page amenities.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "SOUND SYSTEM (INDOORS & OUTDOORS)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "corrected",
+   "change_origin": "Services page (HDTV) and FAQ (TV for slide-show).",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "Do you have a T.V. for Slide-Show? Yes, we have one inside.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Services page lists dressing rooms (plural) in every booking; not labelled 'bridal'.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "DRESSING ROOMS",
+   "confidence": "low",
+   "fix_type": "rule",
+   "notes": "Inferred: dressing rooms at a wedding venue. The column now says 'Dressing rooms', which the rule (bride/bridal) doesn't match; add 'dressing room' to the Bridal room rule or confirm by phone."
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Services page lists dressing rooms (plural); not labelled 'groom'.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "DRESSING ROOMS",
+   "confidence": "low",
+   "fix_type": "rule",
+   "notes": "Inferred from plural 'dressing rooms'; site never says one is for the groom. Needs a phone check."
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "FAQ: host and vendors must clean up what they bring; venue only takes down its own items; extra staff is paid.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "You are responsible for the cleanup of all vendors, subcontractors and items you've brought in.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Services page amenities included with all bookings.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "EVENT COORDINATOR",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Home page.",
+   "source_url": "https://www.bungalowwedding.com/",
+   "evidence": "we offer both indoor and outdoor accommodations",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Home page and FAQ (outdoor open-house up to 350).",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "Outside we can accommodate up to 350-guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Services page.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "IVORY LINENS",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": true,
+   "action": "corrected",
+   "change_origin": "FAQ: brought-in food from any established professional caterer is allowed (no approved list).",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "All brought-in food must be provided by an established, professional caterer",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Old column said 'Professional caterer required', which the rule doesn't match."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "FAQ: sparklers not allowed.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "sparklers, fireworks and floating lanterns are not allowed",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Services page amenities include centerpieces.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "CENTERPIECES",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (grape arbors and a gazebo are grounds features, not a ceremony arch).",
+   "source_url": "https://www.bungalowwedding.com/about",
+   "evidence": "grape arbors",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "About page: the interior has a fireplace.",
+   "source_url": "https://www.bungalowwedding.com/about",
+   "evidence": "an antique brick entryway and fireplace complete the old world look",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Building feature rather than decor item."
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent on floral decor (gardens are grounds).",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Services page amenities.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "STANDING AND TABLE EASELS",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Services page amenities.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "LANTERNS ON SHEPERDS HOOKS (OUTDOORS)",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Services page amenities.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "BISTRO LIGHTS (INDOOR & OUTDOOR) TWINKLE LIGHTS (INDOOR & OUTDOOR)",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Services page amenities.",
+   "source_url": "https://www.bungalowwedding.com/services",
+   "evidence": "CAKE TABLE",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (FAQ: caterer provides water dispenser).",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "It is the caterer's or your responsibility to provide a dispenser",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "confirmed",
+   "change_origin": "FAQ: no piano.",
+   "source_url": "https://www.bungalowwedding.com/faq",
+   "evidence": "Do you have a piano? No",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "The Bungalow Event Venue",
+  "link": "https://www.bungalowwedding.com/",
+  "Description": "A family-run Pleasant Grove reception venue with French-country, old-world character (stone, ivy, gardens, a gazebo, vaulted ceilings and a fireplace). The whole facility is booked exclusively, with indoor and outdoor spaces, ivory linens, centerpieces, a sound system and an event coordinator included.",
+  "Standard Price Range": "$2,600-$3,400",
+  "Packages and Prices": "Reception rental, 6-hour block (3pm-9pm or 4pm-10pm), all amenities included:\nPeak season (April-October) Tuesday-Friday — $3,000\nPeak season Saturday — $3,400\nOff-peak (November-March) Tuesday-Thursday — $2,600\nOff-peak Friday — $2,800\nOff-peak Saturday — $3,000\nCeremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600",
+  "Seated Capacity": "70 indoors for a sit-down dinner\n165 chairs total (75 reception hall, 40 upstairs, 50 outdoors seasonal)",
+  "Standing Capacity": "300 indoors (open-house reception)\n350 outdoors (open-house reception)",
+  "Time slots": "3:00pm-9:00pm or 4:00pm-10:00pm\nPeak (April-October): Tuesday-Saturday\nOff-peak (November-March): Tuesday-Saturday\nClosed Sunday",
+  "Length of Rental": "6 hours (reception)\n3 hours (ceremony only or special event)",
+  "Style": "Old-world charm\nFrench country\nEuropean country estate\nModern-day elegance",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Centerpieces\nStanding and table easels\nIvory linens\nBistro lights (indoor and outdoor)\nTwinkle lights (indoor and outdoor)\nLanterns on shepherd's hooks (outdoors)\nCake table\nSign-in table\nGift table\nTables and chairs",
+  "Other Decor for Rent": "Large selection of decor (ask venue for details)\nKitchen supplies",
+  "outside/inside": "Both",
+  "sparklers allowed": "No\nSparklers, fireworks and floating lanterns not allowed (fire hazard)",
+  "parking?": "Parking lot (mentioned in send-off policy)",
+  "Full Address": "235 South 100 West, Pleasant Grove, UT 84062",
+  "City": "Pleasant Grove",
+  "sound system": "Yes\nSound system (indoors and outdoors)\nWireless microphone\nTV for slideshows (HDTV indoors; DVD, thumb drive or laptop)",
+  "extras": "Exclusive use of building and gardens\nDining hall\nGreeting room\nGazebo with 3 serving tables\nIndoor serving buffet\nFireplace\nWireless internet\nDVD player\nBirdcage for cards\nCeremony add-on (with reception) — $750 peak / $550 off-peak\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member",
+  "cleanup crew": "Partial: venue staff take down venue-provided items and clean restrooms\nHost and vendors clean up everything they bring, including catering and send-off mess\nStaff to help clean up — $25 per hour per staff member",
+  "Accessibility": "",
+  "Deposit Policy": "$700 nonrefundable retainer secures the date\nFinal payment due 30 days before the event\n4% fee on credit/debit cards; cash, cashier's checks and checks accepted",
+  "Catering": "Outside caterer required: any established, professional caterer (must sign Brought-In Food Policy)\nNo food made by family or friends\nCaterer or host provides plates, cups, utensils, napkins, water dispenser and ice",
+  "Prep Area": "Kitchen for warming and prepping (caterer completes a checklist)\nNo ice maker; limited freezer space",
+  "Alcohol policy": "Beer and wine only\n$600 alcohol privilege fee\nLicensed, insured bartender required; host or bartender supplies alcohol, cups and ice",
+  "Event Coordinator": "Event coordinator included with all bookings\nBungalow staff for table clearing and cleanup — $25 per hour per staff member",
+  "Bride/Groom Rooms": "Dressing rooms",
+  "Restrictions": "No sparklers, fireworks or floating lanterns\nNo confetti\nMusic off by 10:00pm (city ordinance)\nNo dogs\nNo early access, drop-offs or storage before the event\nFurniture moved only by venue staff\nCake must be from an established professional baker\nHost cleans up send-off and vehicle-decorating mess",
+  "Important Notes": "Whole facility is booked exclusively\nOff-peak season: outdoor tables and chairs are stored for winter\nCeremony capacity: 70 outdoors / 40 indoors\nTours by appointment only; closed Sunday",
+  "Contact Information": "Phone: 801-785-2111\nEmail: infobungalowwedding@gmail.com\nInstagram: @bungalowweddings"
+ },
+ "style_suggestion": {
+  "current": [
+   "Classic",
+   "Luxury"
+  ],
+  "suggested": [
+   "Classic",
+   "Outdoors"
+  ],
+  "change": "remove Luxury, add Outdoors",
+  "reasoning": "Old-world / French-country charm fits Classic. Luxury came from 'European country-estate' wording, but this is a family-run, mid-priced venue, not a resort or destination estate. The site leans heavily on its gardens, gazebo and grape arbors, which fits the Outdoors (gardens) rule. With the corrected Description the rules give Classic (old-world) and, through 'gardens', Outdoors.",
+  "site_cues": [
+   "old world charm and modern day elegance",
+   "French Country",
+   "Vast gardens, stone columns, stepping stone pathways, grape arbors",
+   "indoor European country estate wedding"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal and day-of-week pricing",
+   "why": "Two seasons with different weekday/weekend rates",
+   "data": {
+    "block": "6 hours, 3pm-9pm or 4pm-10pm",
+    "rates": [
+     {
+      "season": "Peak (April-October)",
+      "days": "Tuesday-Friday",
+      "price": "$3,000"
+     },
+     {
+      "season": "Peak",
+      "days": "Saturday",
+      "price": "$3,400"
+     },
+     {
+      "season": "Off-peak (November-March)",
+      "days": "Tuesday-Thursday",
+      "price": "$2,600"
+     },
+     {
+      "season": "Off-peak",
+      "days": "Friday",
+      "price": "$2,800"
+     },
+     {
+      "season": "Off-peak",
+      "days": "Saturday",
+      "price": "$3,000"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ceremony options",
+   "why": "Separate ceremony pricing and capacities",
+   "data": {
+    "packages": [
+     {
+      "name": "Ceremony with reception",
+      "price": "$750 peak (outdoor or indoor, 70 max) / $550 off-peak (indoor, 40 max)",
+      "includes": [
+       "1 extra hour",
+       "chair setup/takedown",
+       "music",
+       "rehearsal",
+       "coordination"
+      ]
+     },
+     {
+      "name": "Ceremony only",
+      "price": "$1,000",
+      "days": "Tuesday-Thursday",
+      "includes": [
+       "3-hour block",
+       "indoor (40 max) or outdoor (70 max)",
+       "chairs",
+       "music",
+       "rehearsal",
+       "coordination"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Special events",
+   "why": "Non-wedding package",
+   "data": {
+    "packages": [
+     {
+      "name": "Special events",
+      "price": "$1,500",
+      "days": "Tuesday-Thursday",
+      "includes": [
+       "3-hour block",
+       "all amenities"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spaces and seating",
+   "why": "Seating split across three areas",
+   "data": {
+    "spaces": [
+     {
+      "name": "Reception hall",
+      "seated": 75,
+      "tables": 11,
+      "setting": "indoor"
+     },
+     {
+      "name": "Upstairs",
+      "seated": 40,
+      "tables": 10,
+      "setting": "indoor"
+     },
+     {
+      "name": "Outdoors (seasonal)",
+      "seated": 50,
+      "tables": 9,
+      "setting": "outdoor"
+     }
+    ],
+    "sit_down_dinner_indoors": 70,
+    "open_house_indoors": 300,
+    "open_house_outdoors": 350
+   }
+  },
+  {
+   "title": "Rain plan",
+   "why": "Outdoor ceremonies move inside",
+   "data": {
+    "rain_plan": "In inclement weather an outdoor ceremony may be moved indoors"
+   }
+  }
+ ],
+ "open_questions": [
+  "Where did the Spanish Fork address (1920 E 4000 S) come from? The linked site is in Pleasant Grove; confirm there's no second location.",
+  "Are the dressing rooms a bride's room and a groom's room? (Site only says 'dressing rooms'.)",
+  "Seated capacity for the filter: 165 (all chairs incl. seasonal outdoor) or 70 (stated indoor sit-down)?",
+  "Does the venue offer in-house catering? Testimonials mention venue food and a decor package, but the pricing pages don't.",
+  "Accessibility (not stated)."
+ ]
+}

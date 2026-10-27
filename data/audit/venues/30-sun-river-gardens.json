@@ -1,0 +1,944 @@
+{
+ "row": 30,
+ "id": "sun-river-gardens",
+ "name": "Sun River Gardens",
+ "website": "https://sunrivergardens.com/",
+ "website_status": "ok (garden-center site; reception details are on http://www.sunriverreceptions.com/, linked from its 'Weddings/Receptions' menu item)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://sunrivergardens.com/ (garden center home: greenhouse, nursery, gift shop, hours, address; menu link 'Weddings/Receptions' to sunriverreceptions.com; read in browser because the fetcher got HTTP 403)",
+  "https://sunrivergardens.com/photo-policy/ (photo sessions $50 site fee; mentions a Bridal Room)",
+  "https://www.sunriverreceptions.com/ (reception home: Garden Room atrium, year-round garden venue, expansion notice; Wix, read in browser)",
+  "https://www.sunriverreceptions.com/the-event-space (event space features, receptions since 2006)",
+  "https://www.sunriverreceptions.com/pricing (Tue-Thu $3,200, Fri-Sat $3,500, $500 deposit, no May events, full What's Included list)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "1248 N. State Street, Orem, UT 84057",
+  "note": "Same address on both the garden-center site and its reception site. Sun River Gardens still hosts receptions in its greenhouse 'Garden Room'; the reception info just lives on sunriverreceptions.com. The linked site is the right business, not a different one."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Sun River Gardens",
+   "verified_value": "Sun River Gardens",
+   "action": "confirmed",
+   "change_origin": "Confirmed on both sites.",
+   "source_url": "https://www.sunriverreceptions.com/",
+   "evidence": "At Sun River Gardens, beauty is always in full bloom.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://sunrivergardens.com/",
+   "verified_value": "http://www.sunriverreceptions.com/",
+   "action": "corrected",
+   "change_origin": "Official site's main menu links 'Weddings/Receptions' to sunriverreceptions.com, which holds all reception information.",
+   "source_url": "https://sunrivergardens.com/",
+   "evidence": "Menu item 'Weddings/Receptions' → http://www.sunriverreceptions.com/",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Team decision: change the link, or keep the garden-center site."
+  },
+  {
+   "field": "Description",
+   "current_value": "The current official website presents Sun River Gardens as a garden center with greenhouse, outdoor nursery, home décor, and workshops; it does not provide current reception-venue information.",
+   "verified_value": "A year-round garden reception venue at Sun River Gardens in Orem: The Garden Room is a climate-controlled greenhouse atrium with tropical and seasonal foliage, fountains, patios and a private bridal room.",
+   "action": "corrected",
+   "change_origin": "The old Description said the site no longer offers receptions; the reception site linked from the official menu shows it does.",
+   "source_url": "https://www.sunriverreceptions.com/",
+   "evidence": "As a climate controlled atrium, The Garden Room allows guests to enjoy ... tropical and seasonal foliage among myriad fountains",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "No current reception pricing information stated on the official website",
+   "verified_value": "$3,200-$3,500",
+   "action": "added",
+   "change_origin": "Removed filler text from the AI collector; reception pricing page lists $3,200-$3,500.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Tuesday - Thursday $3,200 Friday & Saturday $3,500",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "No current reception packages or prices stated on the official website",
+   "verified_value": "Tuesday-Thursday — $3,200\nFriday & Saturday — $3,500\nIncludes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)",
+   "action": "added",
+   "change_origin": "Removed filler text from the AI collector; reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Tuesday - Thursday $3,200 ... Friday & Saturday $3,500",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Lists 100+ cushioned chairs and 12 round tables, but no guest capacity.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Ask the venue for the seated maximum."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "No standing capacity stated.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "Tuesday-Thursday\nFriday-Saturday\nNo events in May",
+   "action": "added",
+   "change_origin": "Reception pricing page day groups and May blackout.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Due to our busy garden retail, we are unable to hold any events in the month of May",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Hours are not stated. Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "No hours or rental length stated.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Garden\nGreenhouse",
+   "verified_value": "Garden\nGreenhouse",
+   "action": "confirmed",
+   "change_origin": "Confirmed on reception site.",
+   "source_url": "https://www.sunriverreceptions.com/",
+   "evidence": "It's actually a greenhouse with beautiful flowers and plants.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Quote is from a review shown on the site; the site itself says 'garden venue'."
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "",
+   "verified_value": "TRUE",
+   "action": "added",
+   "change_origin": "Reception pricing page lists base linens as included.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "15 Base linens for tables, 70+ colors to choose from.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "",
+   "verified_value": "12 60\" round tables and 5 tallboy tables\nBanquet tables on request\n15 base table linens (70+ colors)\n100+ cushioned chairs\nSign-in table, gift table, cake table and TV table\nIvy topiary and/or lantern centerpieces\n4 floor easels (about 5 ft) and 2 tabletop easels\n32\" flat-screen HD TV and DVD player\nTropical and seasonal greenery, water features, gazebos and flowering baskets",
+   "action": "added",
+   "change_origin": "Reception pricing page 'What's Included' list.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Ivy Topiaries and / or Lantern centerpieces for tables / (4) Easels approx. 5' tall",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Site says 'foliage'; written 'greenery' so the Greenery keyword matches. Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Table toppers, sashes, napkins, chair covers and additional runners (extra charge, prices not stated)",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "(Toppers, sashes, napkin, chair covers, additional table runners are available at an extra charge)",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "",
+   "verified_value": "Both",
+   "action": "added",
+   "change_origin": "Reception event-space page: indoor and outdoor gardens; doors open to patios in warmer months.",
+   "source_url": "https://www.sunriverreceptions.com/the-event-space",
+   "evidence": "Beautiful indoor and outdoor gardens",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "No mention of sparklers.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "Convenient parking",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Convenient parking",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No lot size given."
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1248 N State St, Orem, UT 84057",
+   "verified_value": "1248 N State St, Orem, UT 84057",
+   "action": "confirmed",
+   "change_origin": "Confirmed on garden-center home page and reception site footer.",
+   "source_url": "https://sunrivergardens.com/",
+   "evidence": "1248 N. State Street Orem, UT 84057",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Orem",
+   "verified_value": "Orem",
+   "action": "confirmed",
+   "change_origin": "Confirmed by address.",
+   "source_url": "https://sunrivergardens.com/",
+   "evidence": "Orem, UT 84057",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "",
+   "verified_value": "Yes\nOverhead stereo system with iPod/iPhone connection\nP.A. system with portable cordless microphone and stand",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Overhead stereo system (iPod/iPhone connection) ... P.A. System-Portable microphone & mic stand",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "extras",
+   "current_value": "Greenhouse\nOutdoor nursery\nHome and garden décor\nWorkshops",
+   "verified_value": "Climate-controlled year-round (cooled to 75°F in warmer months)\nDancing area\nArea for wedding gifts\nEngagement/wedding photo sessions on the grounds — $50 site fee (by approval)",
+   "action": "corrected",
+   "change_origin": "Removed garden-center retail items (greenhouse, nursery, home decor, workshops), which are not venue amenities. Added from reception pricing page and photo policy.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Climate controlled year round ... Dancing Area / A $50 site fee will be charged for all ... Engagement/Wedding sessions",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Staff set up and tear down tables, chairs and linens (general cleaning not stated)",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Complete set-up and tear down of tables, chairs, linens.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Cleaning isn't mentioned, so the Cleanup filter stays false."
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "No accessibility information.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "$500 non-refundable deposit to reserve",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "$500 Non-refundable deposit required to reserve the facility",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Catering",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Caterer staging area listed; no policy on which caterers may be used.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Pricing page has a 'Recommended Vendors' heading with no list."
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "Large caterer staging area with microwave, fridge and sink",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Large caterer staging area complete with microwave, fridge and sink",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "No alcohol policy stated.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "",
+   "verified_value": "Wedding coordinator helps plan event details\n1-2 wedding coordinators on-site during the event",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Wedding Coordinator to help plan the details of your event / 1-2 wedding coordinators on-site during event",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Read on sunriverreceptions.com, the reception site linked as 'Weddings/Receptions' from the official site's main menu; medium confidence because it's a separate domain."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "Private bridal room",
+   "action": "added",
+   "change_origin": "Reception pricing page (also named on the garden-center photo policy).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Private Bridal Room",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "",
+   "verified_value": "No events in May (busy garden retail season)",
+   "action": "added",
+   "change_origin": "Reception pricing page.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "we are unable to hold any events in the month of May",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "The current official site no longer presents Sun River Gardens as a reception venue. Its photography policy lists a $50 fee for one hour, by approval, but does not publish reception details.",
+   "verified_value": "Reception information is on sunriverreceptions.com, linked from the garden center's menu\nReception site notice (undated): venue is undergoing an expansion through mid-summer; inquiries and reservations accepted from late spring\nReceptions offered since 2006",
+   "action": "corrected",
+   "change_origin": "The old note said the site no longer presents a reception venue; the linked reception site does. Expansion notice is on the reception home page.",
+   "source_url": "https://www.sunriverreceptions.com/",
+   "evidence": "Our Venue is currently undergoing an expansion through mid-summer. We will be accepting inquiries and reservations, in late spring.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The notice has no date, so it may be stale or current."
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-229-1975\nEmail: info@sunrivergardens.com",
+   "verified_value": "Phone (receptions): 801-769-6805\nPhone (garden center): 801-229-1975\nEmail: info@sunrivergardens.com\nInstagram: @sunriverreceptions",
+   "action": "corrected",
+   "change_origin": "Reception site footer phone and Instagram link; garden-center phone and email from the official home and photo-policy pages.",
+   "source_url": "https://www.sunriverreceptions.com/",
+   "evidence": "1248 N. State Street Orem, UT 84057 801-769-6805",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The email is the garden center's; the reception site lists only a contact form."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    null,
+    null
+   ],
+   "verified_value": [
+    3200,
+    3500
+   ],
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Standard Price Range` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Tuesday - Thursday $3,200 ... Friday & Saturday $3,500",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": null,
+   "verified_value": null,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Orem",
+   "verified_value": "Orem",
+   "action": "confirmed",
+   "change_origin": "Confirmed by address.",
+   "source_url": "https://sunrivergardens.com/",
+   "evidence": "1248 N. State Street Orem, UT 84057",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `sound system` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "P.A. System-Portable microphone & mic stand",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Reception pricing page lists a TV, no projector.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `sound system` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Overhead stereo system (iPod/iPhone connection)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Other Decor Included` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "32” Flat Screen HD-TV and DVD player",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Bride/Groom Rooms` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Private Bridal Room",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Reception pricing page covers setup/teardown only; cleaning not stated.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Complete set-up and tear down of tables, chairs, linens.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Event Coordinator` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "1-2 wedding coordinators on-site during event",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception site: climate-controlled greenhouse atrium; follows from the new `outside/inside` value.",
+   "source_url": "https://www.sunriverreceptions.com/",
+   "evidence": "As a climate controlled atrium, The Garden Room",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception event-space page: outdoor gardens and patios; follows from the new `outside/inside` value.",
+   "source_url": "https://www.sunriverreceptions.com/the-event-space",
+   "evidence": "Beautiful indoor and outdoor gardens",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Linens Included` value.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "15 Base linens for tables, 70+ colors",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Other Decor Included` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Ivy Topiaries and / or Lantern centerpieces for tables",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Reception pages: the event space is filled with foliage, flowering baskets and topiaries; follows from the new `Other Decor Included` column.",
+   "source_url": "https://www.sunriverreceptions.com/the-event-space",
+   "evidence": "filled with tropical and seasonal foliage, water features, flowering baskets",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Other Decor Included` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "(4) Easels approx. 5' tall, 2 tabletop easels also available",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Reception pricing page (chair covers at extra charge); follows from the new `Other Decor for Rent` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "chair covers ... are available at an extra charge",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site mentions 'beautiful ambient lighting' but not string lights."
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Reception pricing page (lantern centerpieces); follows from the new `Other Decor Included` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Lantern centerpieces for tables",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Reception pricing page; follows from the new `Other Decor Included` column.",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "Sign-in Table, Gift Table, Cake Table & T.V Table",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (garden-center home and photo policy, plus the reception site's home, event space and pricing pages checked).",
+   "source_url": "https://www.sunriverreceptions.com/pricing",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Sun River Gardens",
+  "link": "http://www.sunriverreceptions.com/",
+  "Description": "A year-round garden reception venue at Sun River Gardens in Orem: The Garden Room is a climate-controlled greenhouse atrium with tropical and seasonal foliage, fountains, patios and a private bridal room.",
+  "Standard Price Range": "$3,200-$3,500",
+  "Packages and Prices": "Tuesday-Thursday — $3,200\nFriday & Saturday — $3,500\nIncludes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)",
+  "Seated Capacity": "",
+  "Standing Capacity": "",
+  "Time slots": "Tuesday-Thursday\nFriday-Saturday\nNo events in May",
+  "Length of Rental": "",
+  "Style": "Garden\nGreenhouse",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "12 60\" round tables and 5 tallboy tables\nBanquet tables on request\n15 base table linens (70+ colors)\n100+ cushioned chairs\nSign-in table, gift table, cake table and TV table\nIvy topiary and/or lantern centerpieces\n4 floor easels (about 5 ft) and 2 tabletop easels\n32\" flat-screen HD TV and DVD player\nTropical and seasonal greenery, water features, gazebos and flowering baskets",
+  "Other Decor for Rent": "Table toppers, sashes, napkins, chair covers and additional runners (extra charge, prices not stated)",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Convenient parking",
+  "Full Address": "1248 N State St, Orem, UT 84057",
+  "City": "Orem",
+  "sound system": "Yes\nOverhead stereo system with iPod/iPhone connection\nP.A. system with portable cordless microphone and stand",
+  "extras": "Climate-controlled year-round (cooled to 75°F in warmer months)\nDancing area\nArea for wedding gifts\nEngagement/wedding photo sessions on the grounds — $50 site fee (by approval)",
+  "cleanup crew": "Staff set up and tear down tables, chairs and linens (general cleaning not stated)",
+  "Accessibility": "",
+  "Deposit Policy": "$500 non-refundable deposit to reserve",
+  "Catering": "",
+  "Prep Area": "Large caterer staging area with microwave, fridge and sink",
+  "Alcohol policy": "",
+  "Event Coordinator": "Wedding coordinator helps plan event details\n1-2 wedding coordinators on-site during the event",
+  "Bride/Groom Rooms": "Private bridal room",
+  "Restrictions": "No events in May (busy garden retail season)",
+  "Important Notes": "Reception information is on sunriverreceptions.com, linked from the garden center's menu\nReception site notice (undated): venue is undergoing an expansion through mid-summer; inquiries and reservations accepted from late spring\nReceptions offered since 2006",
+  "Contact Information": "Phone (receptions): 801-769-6805\nPhone (garden center): 801-229-1975\nEmail: info@sunrivergardens.com\nInstagram: @sunriverreceptions"
+ },
+ "style_suggestion": {
+  "current": [
+   "Outdoors"
+  ],
+  "suggested": [
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "A greenhouse garden venue at a garden center: the corrected Description has 'garden', 'greenhouse', 'foliage', which the rules map to Outdoors. Nothing on the site suggests Rustic, Modern, Luxury or Classic.",
+  "site_cues": [
+   "A Garden Wedding Without Checking the Weather Report!",
+   "climate controlled atrium ... tropical and seasonal foliage among myriad fountains",
+   "Beautiful indoor and outdoor gardens"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Day-of-week pricing and blackout",
+   "why": "Two day groups and a May blackout",
+   "data": {
+    "prices": [
+     {
+      "days": "Tuesday-Thursday",
+      "price": "$3,200"
+     },
+     {
+      "days": "Friday & Saturday",
+      "price": "$3,500"
+     }
+    ],
+    "deposit": "$500 non-refundable",
+    "blackout": "No events in May"
+   }
+  },
+  {
+   "title": "Included in rental",
+   "why": "Long inclusion list (staff, facility, furniture, AV)",
+   "data": {
+    "staff": [
+     "Wedding coordinator for planning",
+     "1-2 coordinators on-site",
+     "Setup and teardown of tables, chairs, linens"
+    ],
+    "facility": [
+     "Indoor and outdoor gardens",
+     "Private bridal room",
+     "7,000+ sq ft",
+     "Caterer staging area (microwave, fridge, sink)",
+     "Overhead stereo",
+     "P.A. with microphone",
+     "Gift area",
+     "Dancing area",
+     "Climate control"
+    ],
+    "furniture": [
+     "12 60-inch round tables",
+     "5 tallboy tables",
+     "Banquet tables on request",
+     "15 base linens (70+ colors)",
+     "100+ cushioned chairs",
+     "Sign-in, gift, cake and TV tables"
+    ],
+    "extras": [
+     "32-inch HD TV and DVD player",
+     "Ivy topiary and/or lantern centerpieces",
+     "4 floor easels, 2 tabletop easels"
+    ]
+   }
+  },
+  {
+   "title": "Space",
+   "why": "One main space with a stated size",
+   "data": {
+    "spaces": [
+     {
+      "name": "The Garden Room (greenhouse atrium)",
+      "size": "7,000+ sq ft",
+      "setting": "indoor, with doors to patios in warmer months",
+      "seated": null
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Change the `link` to http://www.sunriverreceptions.com/? The garden-center site links to it from its 'Weddings/Receptions' menu, and it holds all the reception details used in this audit (medium confidence, separate domain).",
+  "The reception site shows an undated notice: 'undergoing an expansion through mid-summer ... accepting inquiries and reservations in late spring.' Is the venue taking bookings now? Call 801-769-6805.",
+  "Seated capacity isn't stated (100+ chairs, 12 round tables). Ask the venue.",
+  "Catering and alcohol policies aren't stated."
+ ]
+}

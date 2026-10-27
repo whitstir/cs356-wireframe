@@ -1,0 +1,755 @@
+{
+ "id": "the-startup-building",
+ "name": "The Startup Building",
+ "city": "Provo",
+ "description": "A historic former candy factory (built 1898) in downtown Provo with original brick walls, wooden beams and elevated ceilings in a rustic-industrial style. Includes a catering space, powder room and integrated sound; holds 120 seated or 300 standing, with an add-on outdoor courtyard.",
+ "styles": [
+  "Modern",
+  "Classic"
+ ],
+ "priceMin": 1350,
+ "priceMax": 2750,
+ "priceBasis": "rental",
+ "priceText": "Rates page $1,550–$2,750; comparison page $1,350–$2,500 (July 2026) (range spans both pages)",
+ "seated": 120,
+ "seatedMin": 120,
+ "seatedText": "120 seated",
+ "standing": 300,
+ "standingMin": 300,
+ "standingText": "300",
+ "decor": {
+  "Ceremony arch / backdrop": [
+   "included"
+  ],
+  "Greenery / florals": [
+   "included"
+  ],
+  "Signs / easels": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "String / bistro lights": [
+   "included"
+  ],
+  "Cake table": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": false
+ },
+ "access": {
+  "Wheelchair accessible": false,
+  "Elevator": false,
+  "ADA restrooms": true,
+  "Accessible parking": false
+ },
+ "flags": {
+  "Bridal room": true,
+  "Cleanup crew": false,
+  "Event coordinator": true,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": true,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Elevator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "included",
+   "wording": "-4 ADA Restrooms"
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "no",
+   "wording": ""
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Sound System with Two Wireless Mics"
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Digital projector with HDMI and Apple TV"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound System with Two Wireless Mics"
+  },
+  "Audio/Visual > TV": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Bridal room": {
+   "status": "included",
+   "wording": "Bride's room"
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "included",
+   "wording": "Manager reviews day-of details, then on call during the event"
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Rustic copper toned indoor space"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "included",
+   "wording": "Industrial outdoor courtyard"
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Flexible vendor policy"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "included",
+   "wording": "-Wooden Arch"
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "included",
+   "wording": "Chandeliers decorated with faux greenery"
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "-2 Wooden Floor Easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "-Three Chandeliers (12 feet in circumference each)"
+  },
+  "Decor > String / bistro lights": {
+   "status": "included",
+   "wording": "-Cafe Lights"
+  },
+  "Other > Cake table": {
+   "status": "included",
+   "wording": "-Cake Table"
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic former candy factory (built 1898) in downtown Provo with original brick walls, wooden beams and elevated ceilings in a rustic-industrial style. Includes a catering space, powder room and integrated sound; holds 120 seated or 300 standing, with an add-on outdoor courtyard."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "100 W 560 S St, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Industrial\nHistoric\nRustic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Rates page $1,550–$2,750; comparison page $1,350–$2,500 (July 2026) (range spans both pages)"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed — $1,550\nSame inclusions — Thu — $2,250\nSame inclusions — Fri & Sun — $2,550\nSame inclusions — Sat — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Deposit required to reserve the date"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Rustic copper toned indoor space"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "included",
+     "value": "Industrial outdoor courtyard"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "120 seated"
+    },
+    {
+     "id": "capacity-standing",
+     "label": "Standing",
+     "value": "300"
+    }
+   ]
+  },
+  {
+   "id": "spaces",
+   "title": "Spaces",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "spaces-0",
+     "label": "Main event space (3,200 sq ft)",
+     "value": "Seated: 120 · Standing: 300 · Setting: indoor"
+    },
+    {
+     "id": "spaces-1",
+     "label": "Courtyard (add-on)",
+     "value": "Setting: outdoor · Note: adds capacity; food trucks, photo bus or live band"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "included",
+     "value": "Bride's room"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-rooms",
+     "label": "Rooms",
+     "value": "Bridal / get-ready room (powder room with mirrors, sink and couch)"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "included",
+     "value": "Manager reviews day-of details, then on call during the event"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Cafe lights\nCake table\nSign-in table\nWooden arch\n2 wooden floor easels\nSigns\n4 plastic cocktail tables\n150 wooden chairs\n15 wooden tables (3x8 ft)\n3 chandeliers with faux greenery"
+    },
+    {
+     "id": "included-staff-coordination",
+     "label": "Staff & coordination",
+     "value": "Manager meets the couple at the start of the event to go over day-of details\nManager on call during the event"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Not included; venue provides ladders, trash cans, trash bags and cleanup supplies"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Sound System with Two Wireless Mics"
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Digital projector with HDMI and Apple TV"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound System with Two Wireless Mics"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nIntegrated sound system\n2 wireless microphones\nDigital projector"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "included",
+     "value": "-Wooden Arch"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "included",
+     "value": "Chandeliers decorated with faux greenery"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "-2 Wooden Floor Easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "-Three Chandeliers (12 feet in circumference each)"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "included",
+     "value": "-Cafe Lights"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Courtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nFood trucks, photo bus or live band in the courtyard (with courtyard add-on)\nPowder room with mirrors, sink and couch"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "included",
+     "value": "-Cake Table"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Flexible vendor policy"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Catering prep area with refrigerator and freezer\nOutside vendors allowed; preferred caterer list provided\nFood trucks allowed in the courtyard (courtyard add-on)"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Catering area with fridge and freezer"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol allowed with a licensed bartender\n$200 alcohol fee"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "13 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No glitter\nNo confetti\nNo nails or tacks in walls or posts\nCandles only in a votive"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "included",
+     "value": "-4 ADA Restrooms"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "4 ADA restrooms"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "South lot: 31 spaces\nWest lot: 16 spaces\nStreet parking on 100 W\nLot busy on weekdays until about 5pm"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "Weekends typically book 1-2 months ahead; weekdays 2-4 weeks\nBuilding also houses offices, so the lot is busier on weekdays before 5pm\nSister venue: The Bright Building"
+    }
+   ]
+  },
+  {
+   "id": "other-event-packages",
+   "title": "Other event packages",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "other-event-packages-0",
+     "label": "6-hour celebration block",
+     "value": "Price: $650 Mon-Wed / $850 Thu-Sun"
+    },
+    {
+     "id": "other-event-packages-1",
+     "label": "Engagement (2 hours)",
+     "value": "Price: $150"
+    },
+    {
+     "id": "other-event-packages-2",
+     "label": "Quinceanera 10am-2am",
+     "value": "Price: $1,950 Mon-Wed / $2,150 Thu / $2,350 Fri & Sun / $2,550 Sat"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://www.thestartupbuilding.co"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "the-startup-building",
+  "Venue Name": "The Startup Building",
+  "link": "https://www.thestartupbuilding.co",
+  "City": "Provo",
+  "Full Address": "100 W 560 S St, Provo, UT 84601",
+  "Description": "A historic former candy factory (built 1898) in downtown Provo with original brick walls, wooden beams and elevated ceilings in a rustic-industrial style. Includes a catering space, powder room and integrated sound; holds 120 seated or 300 standing, with an add-on outdoor courtyard.",
+  "Price Low": "1350",
+  "Price High": "2750",
+  "Price Basis": "rental",
+  "Standard Price Range": "Rates page $1,550–$2,750; comparison page $1,350–$2,500 (July 2026) (range spans both pages)",
+  "Seated Low": "120",
+  "Seated High": "120",
+  "Seated Capacity": "120 seated",
+  "Standing Low": "300",
+  "Standing High": "300",
+  "Standing Capacity": "300",
+  "Packages and Prices": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed — $1,550\nSame inclusions — Thu — $2,250\nSame inclusions — Fri & Sun — $2,550\nSame inclusions — Sat — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200",
+  "Time slots": "Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
+  "Length of Rental": "13 hours",
+  "Style": "Industrial\nHistoric\nRustic",
+  "Other Decor Included": "Cafe lights\nCake table\nSign-in table\nWooden arch\n2 wooden floor easels\nSigns\n4 plastic cocktail tables\n150 wooden chairs\n15 wooden tables (3x8 ft)\n3 chandeliers with faux greenery",
+  "parking?": "South lot: 31 spaces\nWest lot: 16 spaces\nStreet parking on 100 W\nLot busy on weekdays until about 5pm",
+  "sound system": "Yes\nIntegrated sound system\n2 wireless microphones\nDigital projector",
+  "extras": "Courtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nFood trucks, photo bus or live band in the courtyard (with courtyard add-on)\nPowder room with mirrors, sink and couch",
+  "cleanup crew": "Not included; venue provides ladders, trash cans, trash bags and cleanup supplies",
+  "Accessibility": "4 ADA restrooms",
+  "Deposit Policy": "Deposit required to reserve the date",
+  "Catering": "Catering prep area with refrigerator and freezer\nOutside vendors allowed; preferred caterer list provided\nFood trucks allowed in the courtyard (courtyard add-on)",
+  "Prep Area": "Catering area with fridge and freezer",
+  "Alcohol policy": "Alcohol allowed with a licensed bartender\n$200 alcohol fee",
+  "Event Coordinator": "Manager meets the couple at the start of the event to go over day-of details\nManager on call during the event",
+  "Bride/Groom Rooms": "Bridal / get-ready room (powder room with mirrors, sink and couch)",
+  "Restrictions": "No glitter\nNo confetti\nNo nails or tacks in walls or posts\nCandles only in a votive",
+  "Important Notes": "Weekends typically book 1-2 months ahead; weekdays 2-4 weeks\nBuilding also houses offices, so the lot is busier on weekdays before 5pm\nSister venue: The Bright Building",
+  "Contact Information": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding"
+ }
+}

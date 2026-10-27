@@ -1,0 +1,991 @@
+{
+ "row": 25,
+ "id": "wild-oak-venue",
+ "name": "Wild Oak Venue",
+ "website": "https://thewildoakvenue.com/",
+ "website_status": "ok (blocks the plain fetcher with HTTP 403; read in the built-in browser)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://thewildoakvenue.com/ (home, browser)",
+  "https://thewildoakvenue.com/weddings/ (wedding pricing and included amenities, browser)",
+  "https://thewildoakvenue.com/events/ (event pricing and amenities, browser)",
+  "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf (2023 event brochure PDF: capacity, parking, bistro lights, arch, hostess)",
+  "https://thewildoakvenue.com/in-house-services/ (in-house bar, coordinating, decor, florals, graphic design, browser)",
+  "https://thewildoakvenue.com/vendors/ (preferred vendors + catering policy tab, browser)",
+  "https://thewildoakvenue.com/wp-content/uploads/2025/02/Preferred-Vendors-2025.pdf (2025 preferred vendor & catering PDF)",
+  "https://thewildoakvenue.com/about/ (about: history, 1.6 acres, ballroom)",
+  "https://thewildoakvenue.com/venue/ (venue page)",
+  "https://thewildoakvenue.com/contact/ (contact form only)",
+  "https://thewildoakvenue.com/?s=sparkler (site search: sparkler, wheelchair, deposit, linen gave no results)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "450 W Gillman Ln, Lindon, UT 84042",
+  "note": "Sheet had 1900 N 200 W, Pleasant Grove; the site footer says Lindon."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Wild Oak Venue",
+   "verified_value": "Wild Oak Venue",
+   "action": "confirmed",
+   "change_origin": "Official site title 'The Wild Oak'; venue page 'The Wild Oak Venue'.",
+   "source_url": "https://thewildoakvenue.com/venue/",
+   "evidence": "THE WILD OAK VENUE IN UTAH COUNTY",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Site mostly says 'The Wild Oak'."
+  },
+  {
+   "field": "link",
+   "current_value": "https://thewildoakvenue.com/",
+   "verified_value": "https://thewildoakvenue.com/",
+   "action": "confirmed",
+   "change_origin": "Official site loads in a browser (the plain fetcher gets HTTP 403).",
+   "source_url": "https://thewildoakvenue.com/",
+   "evidence": "The Wild Oak - The Wild Oak",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A modern reception venue with a bright open layout, outdoor ceremony area, private bride and groom suites, a day-of coordinating team, onsite parking, and access to decor and vendor support.",
+   "verified_value": "A family-run Lindon venue in a repurposed historic apple-orchard warehouse on 1.6 acres, with a European-inspired ballroom (19-foot ceilings), landscaped grounds with a pergola patio, fire pit and marriage grove, and in-house bar, decor, floral and day-of coordinating services.",
+   "action": "corrected",
+   "change_origin": "Official site, About page and Wedding amenities. The sheet's city, 'bright open layout' and coordinator wording are not on the site.",
+   "source_url": "https://thewildoakvenue.com/about/",
+   "evidence": "Spanning 1.6 acres ... repurposed from a historic apple orchard warehouse ... European-inspired ballroom features 19-foot ceilings",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$3,500-$5,000",
+   "verified_value": "$3,000-$7,000",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page: all-day rentals run $3,000 (winter weekdays, or Nov-Dec half-day) to $7,000 (peak Thu-Sun). The sheet's $3,500-$5,000 is not on the site.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Monday – Wednesday: $6,000 Thursday – Sunday: $7,000 ... Monday – Thursday: $3,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Read via browser (JS/403 site)."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Venue rental with tables, chairs, setup and cleanup, kitchen access, private suites, onsite parking, and day-of coordination — weekday — $3,500\nSame inclusions — Friday or Sunday — $4,000\nSame inclusions — Saturday — $5,000\nDay-of coordinating team — $1,000\nDecor package with arches, signs, linens, centerpieces, and styling — price not stated",
+   "verified_value": "All-day wedding rental (10am-11pm):\nPeak season (April-October) Monday-Wednesday — $6,000\nPeak season Thursday-Sunday — $7,000\nPeak winter (November-December) Monday-Thursday — $4,000\nPeak winter 6-hour half-day (Monday-Thursday) — $3,000\nPeak winter Friday-Sunday — $5,000\nWinter special (January-March) Monday-Thursday — $3,000\nWinter special Friday-Sunday — $4,000\nCeremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page: seasonal rates, ceremony add-on, hour fees, add-on minimums; Vendors page: $150 clean-up crew. The sheet's weekday/Fri-Sun/Sat prices and '$1,000 coordinating team' are not on the site.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "PEAK SEASON (APRIL – OCTOBER) All Day Rental (10am – 11pm)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "250",
+   "verified_value": "150 seated indoors",
+   "action": "corrected",
+   "change_origin": "Official site, 2023 event brochure PDF: 150 seated indoors (matches 150 cross-back chairs). '250' on the wedding page is for revolving guests, not seated.",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf",
+   "evidence": "Inside our venue we have space for 150 seated guests or 300 guests for flowing events.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Brochure dated 2023; wedding page (current) gives only '250 Max Capacity for Revolving Guests'."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)",
+   "action": "added",
+   "change_origin": "Official site, Weddings page and 2023 event brochure.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "*250 Max Capacity for Revolving Guests.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Pages disagree (250 vs 300)."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Monday-Thursday 10am-10pm\nFriday 10am-10pm\nSaturday 10am-10pm\nSunday 10am-10pm",
+   "verified_value": "All-day rental 10am-11pm\nBefore 10am — $100/hour; after 11pm — $350/hour\nSunday by inquiry",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page: 10am-11pm all-day rental with hourly fees outside it; Sunday by inquiry.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "*Inquire for Sunday rental. *$350/hr after 11:00pm *$100/hr before 10:00am.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "12 hours",
+   "verified_value": "13 hours (all-day)\n6-hour half-day (November-December, Monday-Thursday)",
+   "action": "corrected",
+   "change_origin": "Follows from Weddings page hours (10am-11pm = 13 hours) and half-day option.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "6 Hour Half-day Rental Available: $3,000",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Modern\nBright\nOpen",
+   "verified_value": "Timeless elegance\nModern design meets rustic charm\nEuropean-inspired ballroom",
+   "action": "corrected",
+   "change_origin": "Official site wording; 'Bright' and 'Open' are not used.",
+   "source_url": "https://thewildoakvenue.com/about/",
+   "evidence": "modern design meets rustic charm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Site silent on linens (not in the included amenities); FALSE blanked per brief.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Included amenities list has no linens",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "No filter change."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Tables\nChairs\nSetup and cleanup",
+   "verified_value": "Hand-planed black walnut tables and reclaimed 60\" round tables\n150 cross-back wood chairs\nBlack walnut cake table\nLive-edge walnut buffet table and 2 wood buffet tables\nGuestbook table\nGift table\nGlass bar (indoor) and wood bar (outdoor)\nBistro lights on pergola patio\nWooden arch by rock waterfall\nRed brick fireplace\nGas fire pit",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page included amenities and 2023 brochure (bistro lights, wooden arch). 'Setup and cleanup' is not an included item.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Hand planed black walnut cake table ... Beautiful glass bar ... Fireplace ... Gas fire pit",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "'Sign-in table' written as 'Guestbook table' so the Signs keyword rule doesn't misfire. Bistro lights and wooden arch appear only in the 2023 brochure."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "Decor package with arches, signs, linens, centerpieces, and styling — price not stated",
+   "verified_value": "Decor packages with a la carte items (prices not stated)\nIn-house florals: centerpieces, bouquets, ceremony arch and aisle arrangements (prices not stated)\nGraphic design: welcome signs, seating charts, menus (prices not stated)\nBar service, alcoholic and non-alcoholic (price not stated)",
+   "action": "corrected",
+   "change_origin": "Official site, In-House Services page: decor packages, florals, graphic design, bar service. No prices stated.",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "you'll start by selecting one of our decor packages ... table centerpieces ... ceremony arches & aisle arrangements",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Official site, Weddings page interior and exterior amenities.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "INTERIOR ... EXTERIOR ... Outdoor patio under a pergola",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "Yes",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: 'Yes' is not supported; no page or PDF on the site mentions sparklers (site search also empty).",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "No sparkler policy on site",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "parking?",
+   "current_value": "Onsite parking",
+   "verified_value": "Close parking and handicap parking\nReserved parking for bride and groom\nLot holds 72 cars plus overflow parking (2023 event brochure)",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page and 2023 brochure.",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf",
+   "evidence": "Our parking lot holds 72 cars. We also have overflow parking",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1900 N 200 W, Pleasant Grove, UT 84062",
+   "verified_value": "450 W Gillman Ln, Lindon, UT 84042",
+   "action": "corrected",
+   "change_origin": "Official site footer: 450 W Gillman Ln, Lindon (not '1900 N 200 W, Pleasant Grove').",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "450 W Gillman Ln, Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Lindon",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected address in the site footer.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nSound system",
+   "verified_value": "Yes\nStudio-quality indoor sound system with microphones\nOutdoor sound system and microphone",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page: indoor and outdoor sound systems with microphones.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Studio quality sound system with microphones ... Outdoor sound system and microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Day-of coordinating team — $1,000\nBridal suite\nGroom suite\nOutdoor ceremony area",
+   "verified_value": "Mezzanine for DJ or bouquet toss\nPergola-covered patio\nTrellis over pea-gravel path\nMarriage grove\nFood truck pad with electricity\nWide outdoor entry stairs for group photos\n4 antique tables for family-style dining\nDay-of coordinating service (in-house add-on, price not stated)\nCeremony add-on — $350",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page amenities; '$1,000' coordinating price is not on the site; bridal/groom rooms moved to their own column.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Mezzanine for DJ or bouquet throw ... Food truck pad with electricity ... Marriage grove",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included",
+   "verified_value": "Venue decor team sets up and cleans up selected decor\nClean-up crew — $150 (required when using food trucks)",
+   "action": "corrected",
+   "change_origin": "Official site, In-House Services (decor team cleans up decor) and Vendors page ($150 clean-up crew for food trucks). General cleanup is not stated as included.",
+   "source_url": "https://thewildoakvenue.com/vendors/",
+   "evidence": "You must purchase the $150 clean up crew",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "Accessible parking stated on the official website",
+   "verified_value": "Accessible parking",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page: 'handicap parking'. Written as 'Accessible parking' so the rule doesn't also mark Wheelchair accessible.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Close parking and handicap parking",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Catering",
+   "current_value": "Outside catering allowed\nPreferred vendor list available",
+   "verified_value": "Preferred caterer list; outside caterers allowed if licensed, insured and approved by the venue\nAny food truck welcome ($150 clean-up crew required)\nClient handles all communication with the caterer",
+   "action": "corrected",
+   "change_origin": "Official site, Vendors page Preferred Catering tab: outside caterers allowed if licensed, insured and approved; any food truck.",
+   "source_url": "https://thewildoakvenue.com/vendors/",
+   "evidence": "If you choose a caterer outside of this catering list, they must be licensed and insured and you must submit it for approval",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Kitchen access",
+   "verified_value": "Large kitchen for caterers and vendors",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Large kitchen for caterers and vendors",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed with venue-approved bartender",
+   "verified_value": "Venue holds a liquor license; in-house bar service (alcoholic and non-alcoholic) offered as an add-on",
+   "action": "corrected",
+   "change_origin": "Official site, In-House Services page: venue has a liquor license and provides bar service. 'Venue-approved bartender' is not stated.",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "With a newly obtained liquor license, we can include a full service alcoholic beverage service",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Not stated whether outside alcohol is allowed."
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Day-of coordinating team — $1,000",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: day-of coordinating is an in-house add-on with no price stated (the sheet's $1,000 isn't on the site); moved to extras so the rule doesn't count it as included.",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "DAY OF COORDINATING ... The couple can choose to work together with our in house services team",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Private bride suite\nPrivate groom suite",
+   "verified_value": "Bride's private room\nGroom's private room",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Bride & Groom private rooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "All setup, event time, and cleanup must fit inside the reserved rental period",
+   "verified_value": "Set-up and take-down must fit within rental hours\nPeak-season Thursday-Saturday weddings require at least 2 add-ons\nOutside caterers must be licensed, insured and approved\nFood trucks require the $150 clean-up crew",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page and Vendors page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "These hours account for set up and take down time.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Venue advertises access to in-house decor support and preferred vendors",
+   "verified_value": "Event hostess on site during events (2023 event brochure)\nSeparate hourly pricing for non-wedding events\nCapacity figures differ: 250 revolving guests (wedding page) vs 150 seated / 300 flowing (2023 brochure)",
+   "action": "corrected",
+   "change_origin": "Replaced AI note with facts from the 2023 brochure, Events page and the capacity conflict.",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf",
+   "evidence": "There will be an event hostess to make sure that the venue is running smoothly.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-420-8600\nEmail: hello@thewildoakvenue.com\nInstagram: @thewildoakvenue",
+   "verified_value": "Phone: 801-810-8829\nEmail: info@thewildoakvenue.com\nInstagram: @thewildoak",
+   "action": "corrected",
+   "change_origin": "Official site footer and header links; the sheet's phone (801-420-8600), email (hello@) and Instagram (@thewildoakvenue) are not on the site.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "(801)-810-8829 info@thewildoakvenue.com",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Instagram from footer link instagram.com/thewildoak."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    3500,
+    5000
+   ],
+   "verified_value": [
+    3000,
+    7000
+   ],
+   "action": "corrected",
+   "change_origin": "Follows from the corrected `Standard Price Range` (Weddings page).",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "$3,000 ... $7,000",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": 250,
+   "verified_value": 150,
+   "action": "corrected",
+   "change_origin": "Follows from the corrected `Seated Capacity` (2023 brochure: 150 seated).",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf",
+   "evidence": "space for 150 seated guests",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "250 is revolving (standing) guests."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Pleasant Grove",
+   "verified_value": "Lindon",
+   "action": "corrected",
+   "change_origin": "Follows from the corrected address (site footer).",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "450 W Gillman Ln, Lindon, UT 84042",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent (only handicap parking is stated).",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility > Accessible parking",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings page: handicap parking.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Close parking and handicap parking",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": true,
+   "action": "corrected",
+   "change_origin": "Weddings page: microphones included with indoor and outdoor sound.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Studio quality sound system with microphones",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Studio quality sound system with microphones",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Bride & Groom private rooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Bride & Groom private rooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": true,
+   "verified_value": false,
+   "action": "corrected",
+   "change_origin": "Follows from the corrected `cleanup crew` column: cleanup is not stated as included; a $150 clean-up crew is required with food trucks.",
+   "source_url": "https://thewildoakvenue.com/vendors/",
+   "evidence": "You must purchase the $150 clean up crew",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "In-House Services: day-of coordinating is an optional in-house service, not part of the rental.",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "The couple can choose to work together with our in house services team",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings page interior amenities.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Elegant interiors with Venetian plaster",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Weddings page exterior amenities.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Outdoor patio under a pergola",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": true,
+   "action": "corrected",
+   "change_origin": "Vendors page: caterers outside the preferred list are allowed if licensed, insured and approved; any food truck welcome. Old text 'Outside catering allowed' didn't match the rule's 'outside caterer'.",
+   "source_url": "https://thewildoakvenue.com/vendors/",
+   "evidence": "If you choose a caterer outside of this catering list, they must be licensed and insured",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": "Approval step, but not approved-list-only."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": true,
+   "verified_value": false,
+   "action": "removed",
+   "change_origin": "Follows from the removed `sparklers allowed` column; the site never mentions sparklers.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "No sparkler policy on site",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "In-House Services: florals include table centerpieces (paid service).",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "table centerpieces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "rent",
+   "verified_value": "included+rent",
+   "action": "corrected",
+   "change_origin": "2023 brochure: wooden arch on grounds (included); In-House Services florals: ceremony arch arrangements (paid).",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf",
+   "evidence": "Rock waterfall and wooden arch",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Arch listed only in 2023 brochure."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Weddings page exterior amenities; brochure: red brick fireplace.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Fireplace",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "In-House Services: in-house floral team (paid).",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "Our skillful and creative team brings your floral inspiration to life",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "rent",
+   "verified_value": "rent",
+   "action": "confirmed",
+   "change_origin": "In-House Services: graphic design makes welcome signs (paid).",
+   "source_url": "https://thewildoakvenue.com/in-house-services/",
+   "evidence": "unique welcome signs, seating charts, custom menus",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "2023 brochure: pergola patio with bistro lights.",
+   "source_url": "https://thewildoakvenue.com/wp-content/uploads/2023/11/Brochure-Event-.pdf",
+   "evidence": "Outdoor patio under a pergola with bistro lights",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Not repeated on the current Weddings page."
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Hand planed black walnut cake table",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included+rent",
+   "action": "added",
+   "change_origin": "Weddings page: glass bar and outdoor wood bar included; In-House Services: bar service paid.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Beautiful glass bar ... Outdoor wood bar",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Weddings page.",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Gas fire pit and gathering areas",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent (white backdrop by entry stairs is for group photos, not a photo booth).",
+   "source_url": "https://thewildoakvenue.com/weddings/",
+   "evidence": "Wide outdoor entry stairs perfect for group pictures with a beautiful white backdrop",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Wild Oak Venue",
+  "link": "https://thewildoakvenue.com/",
+  "Description": "A family-run Lindon venue in a repurposed historic apple-orchard warehouse on 1.6 acres, with a European-inspired ballroom (19-foot ceilings), landscaped grounds with a pergola patio, fire pit and marriage grove, and in-house bar, decor, floral and day-of coordinating services.",
+  "Standard Price Range": "$3,000-$7,000",
+  "Packages and Prices": "All-day wedding rental (10am-11pm):\nPeak season (April-October) Monday-Wednesday — $6,000\nPeak season Thursday-Sunday — $7,000\nPeak winter (November-December) Monday-Thursday — $4,000\nPeak winter 6-hour half-day (Monday-Thursday) — $3,000\nPeak winter Friday-Sunday — $5,000\nWinter special (January-March) Monday-Thursday — $3,000\nWinter special Friday-Sunday — $4,000\nCeremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150",
+  "Seated Capacity": "150 seated indoors",
+  "Standing Capacity": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)",
+  "Time slots": "All-day rental 10am-11pm\nBefore 10am — $100/hour; after 11pm — $350/hour\nSunday by inquiry",
+  "Length of Rental": "13 hours (all-day)\n6-hour half-day (November-December, Monday-Thursday)",
+  "Style": "Timeless elegance\nModern design meets rustic charm\nEuropean-inspired ballroom",
+  "Linens Included": "",
+  "Other Decor Included": "Hand-planed black walnut tables and reclaimed 60\" round tables\n150 cross-back wood chairs\nBlack walnut cake table\nLive-edge walnut buffet table and 2 wood buffet tables\nGuestbook table\nGift table\nGlass bar (indoor) and wood bar (outdoor)\nBistro lights on pergola patio\nWooden arch by rock waterfall\nRed brick fireplace\nGas fire pit",
+  "Other Decor for Rent": "Decor packages with a la carte items (prices not stated)\nIn-house florals: centerpieces, bouquets, ceremony arch and aisle arrangements (prices not stated)\nGraphic design: welcome signs, seating charts, menus (prices not stated)\nBar service, alcoholic and non-alcoholic (price not stated)",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "Close parking and handicap parking\nReserved parking for bride and groom\nLot holds 72 cars plus overflow parking (2023 event brochure)",
+  "Full Address": "450 W Gillman Ln, Lindon, UT 84042",
+  "City": "Lindon",
+  "sound system": "Yes\nStudio-quality indoor sound system with microphones\nOutdoor sound system and microphone",
+  "extras": "Mezzanine for DJ or bouquet toss\nPergola-covered patio\nTrellis over pea-gravel path\nMarriage grove\nFood truck pad with electricity\nWide outdoor entry stairs for group photos\n4 antique tables for family-style dining\nDay-of coordinating service (in-house add-on, price not stated)\nCeremony add-on — $350",
+  "cleanup crew": "Venue decor team sets up and cleans up selected decor\nClean-up crew — $150 (required when using food trucks)",
+  "Accessibility": "Accessible parking",
+  "Deposit Policy": "",
+  "Catering": "Preferred caterer list; outside caterers allowed if licensed, insured and approved by the venue\nAny food truck welcome ($150 clean-up crew required)\nClient handles all communication with the caterer",
+  "Prep Area": "Large kitchen for caterers and vendors",
+  "Alcohol policy": "Venue holds a liquor license; in-house bar service (alcoholic and non-alcoholic) offered as an add-on",
+  "Event Coordinator": "",
+  "Bride/Groom Rooms": "Bride's private room\nGroom's private room",
+  "Restrictions": "Set-up and take-down must fit within rental hours\nPeak-season Thursday-Saturday weddings require at least 2 add-ons\nOutside caterers must be licensed, insured and approved\nFood trucks require the $150 clean-up crew",
+  "Important Notes": "Event hostess on site during events (2023 event brochure)\nSeparate hourly pricing for non-wedding events\nCapacity figures differ: 250 revolving guests (wedding page) vs 150 seated / 300 flowing (2023 brochure)",
+  "Contact Information": "Phone: 801-810-8829\nEmail: info@thewildoakvenue.com\nInstagram: @thewildoak"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern"
+  ],
+  "suggested": [
+   "Classic",
+   "Rustic",
+   "Modern"
+  ],
+  "change": "add Classic and Rustic",
+  "reasoning": "The site describes 'timeless elegance', a historic orchard warehouse and 'modern design meets rustic charm'. Rules: historic / timeless / elegance → Classic; rustic → Rustic; modern → Modern. The old Description's 'bright open layout' (Modern only) isn't the site's wording. The corrected Description says 'historic' (Classic); add 'rustic charm' to it if the team wants Rustic picked up by the rules.",
+  "site_cues": [
+   "timeless elegance",
+   "modern design meets rustic charm",
+   "historic apple orchard warehouse",
+   "European-inspired ballroom features 19-foot ceilings"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal wedding pricing",
+   "why": "Three seasons with weekday/weekend rates",
+   "data": {
+    "hours": "10am-11pm (before 10am $100/hr, after 11pm $350/hr)",
+    "rates": [
+     {
+      "season": "Peak (April-October)",
+      "days": "Monday-Wednesday",
+      "price": "$6,000"
+     },
+     {
+      "season": "Peak",
+      "days": "Thursday-Sunday",
+      "price": "$7,000"
+     },
+     {
+      "season": "Peak winter (November-December)",
+      "days": "Monday-Thursday",
+      "price": "$4,000",
+      "half_day_6hr": "$3,000"
+     },
+     {
+      "season": "Peak winter",
+      "days": "Friday-Sunday",
+      "price": "$5,000"
+     },
+     {
+      "season": "Winter special (January-March)",
+      "days": "Monday-Thursday",
+      "price": "$3,000"
+     },
+     {
+      "season": "Winter special",
+      "days": "Friday-Sunday",
+      "price": "$4,000"
+     }
+    ],
+    "ceremony_add_on": "$350",
+    "minimum_add_ons": "Peak Thursday-Saturday: at least 2 of bar service, day-of coordinating, decor, florals ($3,000 minimum)"
+   }
+  },
+  {
+   "title": "Non-wedding event pricing",
+   "why": "Hourly / minimum pricing for other events",
+   "data": {
+    "rates": [
+     {
+      "season": "April-October",
+      "days": "Monday-Wednesday",
+      "price": "$500/hour"
+     },
+     {
+      "season": "April-October",
+      "days": "Thursday-Saturday",
+      "price": "$4,000 minimum (6 hours)"
+     },
+     {
+      "season": "November-March",
+      "days": "Monday-Thursday",
+      "price": "$350/hour (events page) or $500/hour (2023 brochure)"
+     },
+     {
+      "season": "November-March",
+      "days": "Friday-Saturday",
+      "price": "$2,500 minimum (6 hours)"
+     }
+    ],
+    "additional_hour": "$350",
+    "photo_shoots": "$100/hour"
+   }
+  },
+  {
+   "title": "In-house services",
+   "why": "Optional paid services (prices not stated)",
+   "data": {
+    "services": [
+     "Bar service (alcoholic and non-alcoholic)",
+     "Day-of coordinating",
+     "Decor packages + a la carte",
+     "Florals",
+     "Graphic design"
+    ]
+   }
+  },
+  {
+   "title": "Catering policy",
+   "why": "Preferred list with approval route and food-truck rule",
+   "data": {
+    "preferred_caterers": [
+     "Marvellous Catering",
+     "Lux Catering",
+     "Magleby's Catering",
+     "4 Forks Catering",
+     "Utah Celebrations Catering",
+     "El Camino Kitchen",
+     "State Street Catering",
+     "Savory Peaks Catering"
+    ],
+    "outside_caterer": "Allowed if licensed, insured and approved",
+    "food_trucks": "Any food truck; $150 clean-up crew required"
+   }
+  }
+ ],
+ "open_questions": [
+  "Seated capacity: 150 (2023 brochure) is the only seated figure; wedding page gives 250 revolving. Confirm current seated number.",
+  "Sparkler policy (sheet said Yes; site silent).",
+  "Prices for decor packages, florals, bar and day-of coordinating (not on site).",
+  "Is basic cleanup included in the rental, or only with the $150 crew?",
+  "Is the building wheelchair accessible (only handicap parking stated)?",
+  "Linens: included or rented?"
+ ]
+}

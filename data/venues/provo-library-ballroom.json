@@ -1,0 +1,749 @@
+{
+ "id": "provo-library-ballroom",
+ "name": "Provo Library Ballroom",
+ "city": "Provo",
+ "description": "A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests.",
+ "styles": [
+  "Classic"
+ ],
+ "priceMin": 840,
+ "priceMax": 2300,
+ "priceBasis": "rental",
+ "priceText": "Ballroom rental $840–$2,300 by day and time",
+ "seated": 350,
+ "seatedMin": 320,
+ "seatedText": "320 banquet (ballroom page)\n350 dinner (meeting-rooms page)",
+ "standing": null,
+ "standingMin": null,
+ "standingText": "",
+ "decor": {
+  "Signs / easels": [
+   "included"
+  ],
+  "Chandeliers": [
+   "included"
+  ],
+  "Piano": [
+   "included"
+  ]
+ },
+ "av": {
+  "Microphone": true,
+  "Projector": true,
+  "Sound system": true,
+  "TV": true
+ },
+ "access": {
+  "Wheelchair accessible": true,
+  "Elevator": true,
+  "ADA restrooms": false,
+  "Accessible parking": true
+ },
+ "flags": {
+  "Bridal room": false,
+  "Cleanup crew": false,
+  "Event coordinator": false,
+  "Groom's room": false,
+  "Indoors": true,
+  "Linens included": false,
+  "Outdoors": false,
+  "Outside catering allowed": true,
+  "Sparklers allowed": false,
+  "Designated lot": true
+ },
+ "filters": {
+  "Accessibility options > Wheelchair accessible": {
+   "status": "included",
+   "wording": "Wheelchair ramp at the south entrance"
+  },
+  "Accessibility options > Elevator": {
+   "status": "included",
+   "wording": "Walk down the hall to the elevator, and select 3rd floor."
+  },
+  "Accessibility options > ADA restrooms": {
+   "status": "no",
+   "wording": ""
+  },
+  "Accessibility options > Accessible parking": {
+   "status": "included",
+   "wording": "Two accessible parking stalls near the entrance"
+  },
+  "Audio/Visual > Microphone": {
+   "status": "included",
+   "wording": "Includes speakers, microphones, a projector, and a screen."
+  },
+  "Audio/Visual > Projector": {
+   "status": "included",
+   "wording": "Projector and screen"
+  },
+  "Audio/Visual > Sound system": {
+   "status": "included",
+   "wording": "Sound Systems (Aux. Input for iPod/Laptop/CD)"
+  },
+  "Audio/Visual > TV": {
+   "status": "included",
+   "wording": "TVs (free)"
+  },
+  "Features > Bridal room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Cleanup crew": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Event coordinator": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Groom's room": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Indoors": {
+   "status": "included",
+   "wording": "Ballroom"
+  },
+  "Features > Linens included": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outdoors": {
+   "status": "no",
+   "wording": ""
+  },
+  "Features > Outside catering allowed": {
+   "status": "included",
+   "wording": "Third-party vendors with no extra fees"
+  },
+  "Features > Sparklers allowed": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Centerpieces": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Ceremony arch / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Draping / chair covers": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Fireplace": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Greenery / florals": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Signs / easels": {
+   "status": "included",
+   "wording": "Decorative Easles / Flipchart & Tripod Easels"
+  },
+  "Decor > Candles / lanterns": {
+   "status": "no",
+   "wording": ""
+  },
+  "Decor > Chandeliers": {
+   "status": "included",
+   "wording": "Three chandeliers"
+  },
+  "Decor > String / bistro lights": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Cake table": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Drink / beverage station": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Firepit": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Photo booth / backdrop": {
+   "status": "no",
+   "wording": ""
+  },
+  "Other > Piano": {
+   "status": "included",
+   "wording": "Baby Grand Piano (for use in Ballroom only)"
+  },
+  "Other > Sweetheart table": {
+   "status": "no",
+   "wording": ""
+  }
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "filters": [],
+   "items": [
+    {
+     "id": "overview-description",
+     "label": "Description",
+     "value": "A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests."
+    },
+    {
+     "id": "overview-address",
+     "label": "Address",
+     "value": "550 N University Ave, Provo, UT 84601"
+    },
+    {
+     "id": "overview-style-words",
+     "label": "Style words",
+     "value": "Historic"
+    }
+   ]
+  },
+  {
+   "id": "pricing",
+   "title": "Pricing",
+   "filters": [],
+   "items": [
+    {
+     "id": "pricing-price",
+     "label": "Price",
+     "value": "Ballroom rental $840–$2,300 by day and time"
+    },
+    {
+     "id": "pricing-packages-add-ons",
+     "label": "Packages & add-ons",
+     "value": "9-hour block, Mon-Thu 9am-6pm — $840 ($200 deposit)\n14-hour block, Mon-Thu 9am-11pm — $1,350 ($300 deposit)\n14-hour block, Fri-Sat 9am-11pm — $2,000 ($300 deposit)\n15-hour block, Mon-Sat 9am-12am — $2,300 ($500 deposit)\nAll blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental"
+    },
+    {
+     "id": "pricing-deposit",
+     "label": "Deposit",
+     "value": "Security/cleaning deposit: $200 (9-hour block), $300 (14-hour blocks), $500 (15-hour block), due at booking\nRental fee due 30 days before the event\n100% deposit and rental refund with written cancellation 90+ days ahead; deposit forfeited within 89 days\nDeposit refund depends on room condition"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "title": "Capacity & spaces",
+   "filters": [
+    "Features > Indoors",
+    "Features > Outdoors"
+   ],
+   "items": [
+    {
+     "id": "capacity-indoors",
+     "label": "Indoors",
+     "filter": "Features > Indoors",
+     "status": "included",
+     "value": "Ballroom"
+    },
+    {
+     "id": "capacity-outdoors",
+     "label": "Outdoors",
+     "filter": "Features > Outdoors",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "capacity-seated",
+     "label": "Seated",
+     "value": "320 banquet (ballroom page)\n350 dinner (meeting-rooms page)"
+    }
+   ]
+  },
+  {
+   "id": "layouts",
+   "title": "Layouts",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "layouts-0",
+     "label": "Banquet/dinner",
+     "value": "Guests: 320"
+    },
+    {
+     "id": "layouts-1",
+     "label": "Theater (chairs only)",
+     "value": "Guests: 500"
+    },
+    {
+     "id": "layouts-2",
+     "label": "Classroom",
+     "value": "Guests: 150"
+    }
+   ]
+  },
+  {
+   "id": "extra-room",
+   "title": "Extra room",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "extra-room-0",
+     "label": "Brimhall Room #302",
+     "value": "Theater: 75 · Classroom: 45 · Dinner: 56 · Price: included with Ballroom · Note: reservable no more than 30 days ahead"
+    }
+   ]
+  },
+  {
+   "id": "rooms",
+   "title": "Getting ready",
+   "filters": [
+    "Features > Bridal room",
+    "Features > Groom's room"
+   ],
+   "items": [
+    {
+     "id": "rooms-bridal-room",
+     "label": "Bridal room",
+     "filter": "Features > Bridal room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rooms-groom-s-room",
+     "label": "Groom's room",
+     "filter": "Features > Groom's room",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "included",
+   "title": "What's included",
+   "filters": [
+    "Features > Linens included",
+    "Features > Cleanup crew",
+    "Features > Event coordinator"
+   ],
+   "items": [
+    {
+     "id": "included-linens-included",
+     "label": "Linens included",
+     "filter": "Features > Linens included",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-cleanup-crew",
+     "label": "Cleanup crew",
+     "filter": "Features > Cleanup crew",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-event-coordinator",
+     "label": "Event coordinator",
+     "filter": "Features > Event coordinator",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "included-included-items",
+     "label": "Included items",
+     "value": "Library tables and chairs, set up and taken down\nStage and 8-inch portable risers\nDecorative easels\nThree chandeliers (room fixtures)\nBrimhall Room"
+    },
+    {
+     "id": "included-setup-cleanup",
+     "label": "Setup & cleanup",
+     "value": "Library sets up and takes down its tables and chairs; renter must leave the room clean (security/cleaning deposit refunded based on room condition)"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "title": "Audio / visual",
+   "filters": [
+    "Audio/Visual > Microphone",
+    "Audio/Visual > Projector",
+    "Audio/Visual > Sound system",
+    "Audio/Visual > TV"
+   ],
+   "items": [
+    {
+     "id": "av-microphone",
+     "label": "Microphone",
+     "filter": "Audio/Visual > Microphone",
+     "status": "included",
+     "value": "Includes speakers, microphones, a projector, and a screen."
+    },
+    {
+     "id": "av-projector",
+     "label": "Projector",
+     "filter": "Audio/Visual > Projector",
+     "status": "included",
+     "value": "Projector and screen"
+    },
+    {
+     "id": "av-sound-system",
+     "label": "Sound system",
+     "filter": "Audio/Visual > Sound system",
+     "status": "included",
+     "value": "Sound Systems (Aux. Input for iPod/Laptop/CD)"
+    },
+    {
+     "id": "av-tv",
+     "label": "TV",
+     "filter": "Audio/Visual > TV",
+     "status": "included",
+     "value": "TVs (free)"
+    },
+    {
+     "id": "av-equipment",
+     "label": "Equipment",
+     "value": "Yes\nSpeakers and sound system (aux input)\nMicrophones and stands\nProjector and screen\nTelevisions\nAll A/V free of charge, first come, first served"
+    }
+   ]
+  },
+  {
+   "id": "decor",
+   "title": "Decor",
+   "filters": [
+    "Decor > Centerpieces",
+    "Decor > Ceremony arch / backdrop",
+    "Decor > Draping / chair covers",
+    "Decor > Fireplace",
+    "Decor > Greenery / florals",
+    "Decor > Signs / easels",
+    "Decor > Candles / lanterns",
+    "Decor > Chandeliers",
+    "Decor > String / bistro lights"
+   ],
+   "items": [
+    {
+     "id": "decor-centerpieces",
+     "label": "Centerpieces",
+     "filter": "Decor > Centerpieces",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-ceremony-arch-backdrop",
+     "label": "Ceremony arch / backdrop",
+     "filter": "Decor > Ceremony arch / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-draping-chair-covers",
+     "label": "Draping / chair covers",
+     "filter": "Decor > Draping / chair covers",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-fireplace",
+     "label": "Fireplace",
+     "filter": "Decor > Fireplace",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-greenery-florals",
+     "label": "Greenery / florals",
+     "filter": "Decor > Greenery / florals",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-signs-easels",
+     "label": "Signs / easels",
+     "filter": "Decor > Signs / easels",
+     "status": "included",
+     "value": "Decorative Easles / Flipchart & Tripod Easels"
+    },
+    {
+     "id": "decor-candles-lanterns",
+     "label": "Candles / lanterns",
+     "filter": "Decor > Candles / lanterns",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-chandeliers",
+     "label": "Chandeliers",
+     "filter": "Decor > Chandeliers",
+     "status": "included",
+     "value": "Three chandeliers"
+    },
+    {
+     "id": "decor-string-bistro-lights",
+     "label": "String / bistro lights",
+     "filter": "Decor > String / bistro lights",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "decor-extras",
+     "label": "Extras",
+     "value": "Free audiovisual equipment\nBrimhall Room included\nBaby grand piano (Ballroom only), free\nKitchen use"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other items",
+   "filters": [
+    "Other > Cake table",
+    "Other > Drink / beverage station",
+    "Other > Firepit",
+    "Other > Photo booth / backdrop",
+    "Other > Piano",
+    "Other > Sweetheart table"
+   ],
+   "items": [
+    {
+     "id": "other-cake-table",
+     "label": "Cake table",
+     "filter": "Other > Cake table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-drink-beverage-station",
+     "label": "Drink / beverage station",
+     "filter": "Other > Drink / beverage station",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-firepit",
+     "label": "Firepit",
+     "filter": "Other > Firepit",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-photo-booth-backdrop",
+     "label": "Photo booth / backdrop",
+     "filter": "Other > Photo booth / backdrop",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "other-piano",
+     "label": "Piano",
+     "filter": "Other > Piano",
+     "status": "included",
+     "value": "Baby Grand Piano (for use in Ballroom only)"
+    },
+    {
+     "id": "other-sweetheart-table",
+     "label": "Sweetheart table",
+     "filter": "Other > Sweetheart table",
+     "status": "no",
+     "value": "Not listed by the venue"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & drink",
+   "filters": [
+    "Features > Outside catering allowed"
+   ],
+   "items": [
+    {
+     "id": "food-outside-catering-allowed",
+     "label": "Outside catering allowed",
+     "filter": "Features > Outside catering allowed",
+     "status": "included",
+     "value": "Third-party vendors with no extra fees"
+    },
+    {
+     "id": "food-catering",
+     "label": "Catering",
+     "value": "Third-party or self-provided catering allowed, no extra fees or restrictions\nNo cooking on site (chafing fuel only; electric warmers with approval)"
+    },
+    {
+     "id": "food-kitchen-prep",
+     "label": "Kitchen / prep",
+     "value": "Warming oven\n2 refrigerators\nFreezer\nIce machine\nSinks\nNo cooking"
+    },
+    {
+     "id": "food-alcohol",
+     "label": "Alcohol",
+     "value": "Alcohol prohibited on all library premises"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "title": "Rules & policies",
+   "filters": [
+    "Features > Sparklers allowed"
+   ],
+   "items": [
+    {
+     "id": "rules-sparklers-allowed",
+     "label": "Sparklers allowed",
+     "filter": "Features > Sparklers allowed",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "rules-sparklers",
+     "label": "Sparklers",
+     "value": "No (open flame, cold sparks and all pyrotechnics prohibited)"
+    },
+    {
+     "id": "rules-times",
+     "label": "Times",
+     "value": "Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am"
+    },
+    {
+     "id": "rules-rental-length",
+     "label": "Rental length",
+     "value": "9-15 hours"
+    },
+    {
+     "id": "rules-restrictions",
+     "label": "Restrictions",
+     "value": "No cooking in the facility\nAccess only during scheduled hours; overtime fees up to the full deposit\nNo midday furniture switchovers\nNo open flame or lit candles; no glitter, colored powder, fog, smoke, fireworks, cold sparks or pyrotechnics\nDecorations pre-approved; no tape or adhesives on walls\nNo alcohol; no smoking\nLibrary grounds (lawns, parking) not available for events"
+    }
+   ]
+  },
+  {
+   "id": "cancellation-policy",
+   "title": "Cancellation policy",
+   "filters": [],
+   "venueSpecific": true,
+   "items": [
+    {
+     "id": "cancellation-policy-0",
+     "label": "Refunds",
+     "value": "Notice: none · Deposit: 0% · Rental: 0%"
+    },
+    {
+     "id": "cancellation-policy-1",
+     "label": "Refunds",
+     "value": "Notice: 90+ days · Deposit: 100% · Rental: 100%"
+    },
+    {
+     "id": "cancellation-policy-2",
+     "label": "Refunds",
+     "value": "Notice: under 90 days · Deposit: 0% · Rental: 100%"
+    }
+   ]
+  },
+  {
+   "id": "access",
+   "title": "Accessibility & parking",
+   "filters": [
+    "Accessibility options > Wheelchair accessible",
+    "Accessibility options > Elevator",
+    "Accessibility options > ADA restrooms",
+    "Accessibility options > Accessible parking"
+   ],
+   "items": [
+    {
+     "id": "access-wheelchair-accessible",
+     "label": "Wheelchair accessible",
+     "filter": "Accessibility options > Wheelchair accessible",
+     "status": "included",
+     "value": "Wheelchair ramp at the south entrance"
+    },
+    {
+     "id": "access-elevator",
+     "label": "Elevator",
+     "filter": "Accessibility options > Elevator",
+     "status": "included",
+     "value": "Walk down the hall to the elevator, and select 3rd floor."
+    },
+    {
+     "id": "access-ada-restrooms",
+     "label": "ADA restrooms",
+     "filter": "Accessibility options > ADA restrooms",
+     "status": "no",
+     "value": "Not listed by the venue"
+    },
+    {
+     "id": "access-accessible-parking",
+     "label": "Accessible parking",
+     "filter": "Accessibility options > Accessible parking",
+     "status": "included",
+     "value": "Two accessible parking stalls near the entrance"
+    },
+    {
+     "id": "access-accessibility",
+     "label": "Accessibility",
+     "value": "Wheelchair-accessible ramp at the South Entrance\nElevator from the underground garage to the third-floor Ballroom\nAccessible parking: 3 stalls in the South lot, 2 near the Academy Entrance in the underground garage"
+    },
+    {
+     "id": "access-parking",
+     "label": "Parking",
+     "value": "Free for attendees of scheduled events\nTwo above-ground lots (north and south) and a one-level underground garage (enter off 100 East; 8 ft clearance)\nUnderground garage entrance nearest the Academy Ballroom"
+    }
+   ]
+  },
+  {
+   "id": "notes",
+   "title": "Good to know",
+   "filters": [],
+   "items": [
+    {
+     "id": "notes-notes",
+     "label": "Notes",
+     "value": "User-provided decorations, linens and catering allowed with no extra fees\nBallroom cannot be booked online; book by phone or in person (Events Scheduling Office, Room #213)\nBookable up to one year ahead\nBallroom is room #315, third floor of the Academy wing"
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "filters": [],
+   "items": [
+    {
+     "id": "contact-contact",
+     "label": "Contact",
+     "value": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov"
+    },
+    {
+     "id": "contact-website",
+     "label": "Website",
+     "value": "https://provolibrary.gov/ballroom-8755"
+    }
+   ]
+  }
+ ],
+ "raw": {
+  "Venue ID": "provo-library-ballroom",
+  "Venue Name": "Provo Library Ballroom",
+  "link": "https://provolibrary.gov/ballroom-8755",
+  "City": "Provo",
+  "Full Address": "550 N University Ave, Provo, UT 84601",
+  "Description": "A historic library ballroom reception venue with banquet and theater layouts, provided furniture, free audiovisual equipment, kitchen support, a stage, and space for up to 320 banquet guests.",
+  "Price Low": "840",
+  "Price High": "2300",
+  "Price Basis": "rental",
+  "Standard Price Range": "Ballroom rental $840–$2,300 by day and time",
+  "Seated Low": "320",
+  "Seated High": "350",
+  "Seated Capacity": "320 banquet (ballroom page)\n350 dinner (meeting-rooms page)",
+  "Packages and Prices": "9-hour block, Mon-Thu 9am-6pm — $840 ($200 deposit)\n14-hour block, Mon-Thu 9am-11pm — $1,350 ($300 deposit)\n14-hour block, Fri-Sat 9am-11pm — $2,000 ($300 deposit)\n15-hour block, Mon-Sat 9am-12am — $2,300 ($500 deposit)\nAll blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental",
+  "Time slots": "Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am",
+  "Length of Rental": "9-15 hours",
+  "Style": "Historic",
+  "Other Decor Included": "Library tables and chairs, set up and taken down\nStage and 8-inch portable risers\nDecorative easels\nThree chandeliers (room fixtures)\nBrimhall Room",
+  "sparklers allowed": "No (open flame, cold sparks and all pyrotechnics prohibited)",
+  "parking?": "Free for attendees of scheduled events\nTwo above-ground lots (north and south) and a one-level underground garage (enter off 100 East; 8 ft clearance)\nUnderground garage entrance nearest the Academy Ballroom",
+  "sound system": "Yes\nSpeakers and sound system (aux input)\nMicrophones and stands\nProjector and screen\nTelevisions\nAll A/V free of charge, first come, first served",
+  "extras": "Free audiovisual equipment\nBrimhall Room included\nBaby grand piano (Ballroom only), free\nKitchen use",
+  "cleanup crew": "Library sets up and takes down its tables and chairs; renter must leave the room clean (security/cleaning deposit refunded based on room condition)",
+  "Accessibility": "Wheelchair-accessible ramp at the South Entrance\nElevator from the underground garage to the third-floor Ballroom\nAccessible parking: 3 stalls in the South lot, 2 near the Academy Entrance in the underground garage",
+  "Deposit Policy": "Security/cleaning deposit: $200 (9-hour block), $300 (14-hour blocks), $500 (15-hour block), due at booking\nRental fee due 30 days before the event\n100% deposit and rental refund with written cancellation 90+ days ahead; deposit forfeited within 89 days\nDeposit refund depends on room condition",
+  "Catering": "Third-party or self-provided catering allowed, no extra fees or restrictions\nNo cooking on site (chafing fuel only; electric warmers with approval)",
+  "Prep Area": "Warming oven\n2 refrigerators\nFreezer\nIce machine\nSinks\nNo cooking",
+  "Alcohol policy": "Alcohol prohibited on all library premises",
+  "Restrictions": "No cooking in the facility\nAccess only during scheduled hours; overtime fees up to the full deposit\nNo midday furniture switchovers\nNo open flame or lit candles; no glitter, colored powder, fog, smoke, fireworks, cold sparks or pyrotechnics\nDecorations pre-approved; no tape or adhesives on walls\nNo alcohol; no smoking\nLibrary grounds (lawns, parking) not available for events",
+  "Important Notes": "User-provided decorations, linens and catering allowed with no extra fees\nBallroom cannot be booked online; book by phone or in person (Events Scheduling Office, Room #213)\nBookable up to one year ahead\nBallroom is room #315, third floor of the Academy wing",
+  "Contact Information": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov"
+ }
+}

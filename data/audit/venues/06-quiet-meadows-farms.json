@@ -1,0 +1,1061 @@
+{
+ "row": 6,
+ "id": "quiet-meadows-farms",
+ "name": "Quiet Meadows Farms",
+ "website": "https://www.quietmeadowfarms.com/",
+ "website_status": "ok (www and quietmeadowfarms.com serve the same site; the site calls itself 'Quiet Meadow Farm')",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://quietmeadowfarms.com/ (home: footer contact, address, blog post list)",
+  "https://quietmeadowfarms.com/pricing/ (2026 and 2027 rental price tables)",
+  "https://quietmeadowfarms.com/what-is-included/ (what is included; alcohol, smoking, animals, food service rules)",
+  "https://quietmeadowfarms.com/policies/ (policies: times, required vendors, capacity, prohibited items, sound)",
+  "https://quietmeadowfarms.com/about/ (130 acres, barn with fireplace)",
+  "https://quietmeadowfarms.com/available-decorations/ (available decorations list)",
+  "https://quietmeadowfarms.com/preferred-vendors/ (approved caterers, bartenders, DJs; speaker-system note)",
+  "https://quietmeadowfarms.com/availability/ (availability calendar: closed Sundays)",
+  "https://quietmeadowfarms.com/book-now/ (reservation form text: deposit + contract)",
+  "https://quietmeadowfarms.com/contact (contact form only)",
+  "https://quietmeadowfarms.com/gallery (images only, no captions in server HTML)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "1805 E 1200 N Mapleton, UT 84664201 (footer; ZIP has extra digits)",
+  "note": "Mapleton, Utah County. ZIP is 84664."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Quiet Meadows Farms",
+   "verified_value": "Quiet Meadow Farm",
+   "action": "corrected",
+   "change_origin": "Official site names itself 'Quiet Meadow Farm' in the page titles, About page and policies; 'Quiet Meadows Farms' appears only in the domain.",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "Quiet Meadow Farm is a Magical Venue on 130 acres",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Changing the name changes the generated id and the STYLES key in build_data.py; team decision."
+  },
+  {
+   "field": "link",
+   "current_value": "https://www.quietmeadowfarms.com/",
+   "verified_value": "https://www.quietmeadowfarms.com/",
+   "action": "confirmed",
+   "change_origin": "Home page loads (www redirects to quietmeadowfarms.com).",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "STATUS 200, final URL https://quietmeadowfarms.com/",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A peaceful, rustic reception venue on 130 acres beneath the mountains, featuring a large barn, outdoor ceremony spaces, gardens, private getting-ready rooms, a prep kitchen, and coordinated wedding support.",
+   "verified_value": "A rustic farm venue on 130 acres beneath the mountains in Mapleton, with a large barn with a fireplace, outdoor ceremony and reception space, a bridal suite and groom's room, a prep kitchen, and an included day-of coordinator.",
+   "action": "corrected",
+   "change_origin": "Removed 'gardens' (site never mentions gardens); added the barn fireplace from the About page.",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "The large barn is beautiful inside and out, and is graced with an inviting fireplace.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "$3,200-$6,800",
+   "verified_value": "$3,200-$6,800",
+   "action": "confirmed",
+   "change_origin": "Pricing page: lowest rental $3,200 (winter mornings), highest base rental $6,800 (2027 peak Fri/Sat).",
+   "source_url": "https://quietmeadowfarms.com/pricing/",
+   "evidence": "Mornings-Winter ... $3200; PEAK Season 2027 Friday or Saturday $6800",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "All-day 10am-10pm adds $2,000 to any 2pm-10pm rate, so the true max is $8,800 (2027 peak Fri/Sat all-day). Kept $2,000 out of this cell because the price rule would read it as the minimum."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "15 farmhouse tables, 150 chairs, 3 barrel-top tables, barn-wood buffet table, white cloth table runners, centerpieces, lanterns, candles, rustic décor, setup, takedown, cleanup, bridal suite, groom room, prep kitchen, day-of coordinator — Peak season Apr-Oct 2026 Mon-Thu 2pm-10pm — $5,600\nSame inclusions — Peak season Apr-Oct 2026 Fri-Sat 2pm-10pm — $6,600\nSame inclusions — Winter Nov 2026-Mar 2027 Mon-Thu 2pm-10pm — $5,200\nSame inclusions — Winter Nov 2026-Mar 2027 Fri-Sat 2pm-10pm — $5,800\n15 farmhouse tables, 150 chairs, centerpieces, lanterns, candles, rustic décor, setup, takedown, cleanup, bridal suite, groom room, prep kitchen, day-of coordinator — 2027 Mon-Thu 2pm-10pm — $5,800\nSame inclusions — 2027 Fri-Sat 2pm-10pm — $6,800\nReception-only access, standard venue inclusions — Mon-Thu 4:30pm-10pm — $4,200",
+   "verified_value": "Peak season Apr-Oct 2026: Fri or Sat 2pm-10pm — $6,600\nPeak season Apr-Oct 2026: Mon-Thu 2pm-10pm — $5,600\nWinter Nov 2026-Mar 2027: Fri or Sat 2pm-10pm — $5,800\nWinter Nov 2026-Mar 2027: Mon-Thu 2pm-10pm — $5,200\nMornings Mon-Sat 8am-12:30pm: peak 2026 — $3,300; winter 2026-27 — $3,200\nReception only, Mon-Thu 4:30pm-10pm — $4,400\nPeak season Apr-Oct 2027: Fri or Sat — $6,800; Thu — $6,400; Mon-Wed — $5,800\nWinter Nov 2027-Mar 2028: Fri or Sat — $6,000; Thu — $5,600; Mon-Wed — $5,000\nMornings 2027: peak — $3,400; winter 2027-28 — $3,200\nAll-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator",
+   "action": "corrected",
+   "change_origin": "Official site, Pricing page. CSV had wrong 2027 tiers (Mon-Thu $5,800; site splits Mon-Wed $5,800 / Thu $6,400), wrong reception-only price ($4,200 vs $4,400), and was missing mornings, 2027-28 winter and the all-day surcharge.",
+   "source_url": "https://quietmeadowfarms.com/pricing/",
+   "evidence": "Reception only ... Monday-Thursday 4:30pm-10:00pm $4400",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Inclusion list moved to the last line; 3 barrel-top tables corrected to 4 (two 6 ft + two 8 ft)."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site gives only an overall maximum (300; 225 in winter), not a seated figure.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Max capacity is 300 guests (225 for winter season).",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Only 150 chairs are included (more on request)."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "300",
+   "verified_value": "300 max guests (225 in winter season)",
+   "action": "corrected",
+   "change_origin": "Policies page: max 300, 225 in winter; added the winter limit.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Max capacity is 300 guests (225 for winter season).",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "The site does not say whether 300 is standing or seated; it is an overall maximum."
+  },
+  {
+   "field": "Time slots",
+   "current_value": "Mon-Thu 2pm-10pm\nFri 2pm-10pm\nSat 2pm-10pm\nMon-Thu 4:30pm-10pm reception-only\nMon 10am-2pm morning option\nTue 10am-2pm morning option\nWed 10am-2pm morning option\nThu 10am-2pm morning option\nFri 10am-2pm morning option\nSat 10am-2pm morning option",
+   "verified_value": "Mon-Sat 2pm-10pm (evening)\nMon-Sat 10am-10pm (all-day, extra $2,000)\nMon-Sat 8am-12:30pm (morning)\nMon-Thu 4:30pm-10pm (reception only)\nClosed Sundays",
+   "action": "corrected",
+   "change_origin": "Removed invented '10am-2pm morning option' rows; site mornings are 8am-12:30pm Mon-Sat. Added all-day option and Sunday closure.",
+   "source_url": "https://quietmeadowfarms.com/pricing/",
+   "evidence": "Mornings-Peak ... Monday – Saturday 8:00am-12:30pm",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Availability page: 'We are not open on Sundays.'"
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "4-12 hours",
+   "verified_value": "4.5-12 hours",
+   "action": "corrected",
+   "change_origin": "Shortest slot is the 4.5-hour morning (8am-12:30pm); longest is all-day 10am-10pm (12 h).",
+   "source_url": "https://quietmeadowfarms.com/pricing/",
+   "evidence": "8:00am-12:30pm ... $2000 more for all day rental 10am-10pm.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Rustic\nNatural\nPeaceful\nMagical",
+   "verified_value": "Rustic\nNatural\nPeaceful\nMagical",
+   "action": "confirmed",
+   "change_origin": "About page uses 'Magical', 'peaceful', 'natural landscape'; What's Included lists 'rustic décor'.",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "natural landscape provides an incredible and peaceful setting",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "FALSE",
+   "verified_value": "FALSE",
+   "action": "confirmed",
+   "change_origin": "What's Included lists only table runners, no tablecloths.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "White, ivory, or tan runners to soften and elevate your table styling",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Runners are included; full linens are not mentioned."
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "15 farmhouse tables\n3 barrel-top tables\nBarn-wood buffet table\n150 chairs\nWhite cloth table runners\nCenterpieces\nLanterns\nCandles\nRustic décor",
+   "verified_value": "15 farmhouse tables\n4 barrel-top tables (two 6 ft, two 8 ft)\n16-foot barn-wood buffet table\n150 chairs\nWhite, ivory or tan table runners\nDecorating package: centerpieces, lanterns, candles, greenery, rustic décor\nExtra tables for cake, gifts and sign-in\nCake stands\nSweetheart table\nEasels and reserved signs\nDrink troughs\nHDMI-ready TV\nBarn fireplace",
+   "action": "corrected",
+   "change_origin": "Official site, What's Included and Available Decorations pages. Fixed barrel-top table count (4), runner colours, added greenery, easels/signs, cake stands, sweetheart table, drink troughs, TV and barn fireplace.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "Our signature decorating package, complete with lanterns, centerpieces, candles, greenery, and rustic décor",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Available Decorations items (easels, signs, sweetheart table, cake stands, drink troughs) are assumed part of the included decorating package ('mix and match'); the page does not state a price."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "Plates, flatware, stemware and extra rentals arranged through the venue office (prices not listed)",
+   "action": "added",
+   "change_origin": "Policies page: all item rentals must go through the venue office.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "All event item rentals (i.e. tables, chairs, plates, flatware, stemware etc.) must go through our office",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "No prices published."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Barn (indoor) plus outdoor setting implied by ceremony timing advice and 'gather [in the barn] when the weather turns cold'.",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "A favorite place for guests to gather when the weather turns cold.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "No page names a specific lawn or ceremony site; blog posts show outdoor ceremonies."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "No",
+   "verified_value": "No\nSparklers and cold sparkler machines are not allowed",
+   "action": "confirmed",
+   "change_origin": "Policies list sparklers among prohibited items.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Sparklers, cold sparkler machines, confetti, glitter, rice, bird seed ...",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The list has no 'prohibited' header on the page but sits with 'are prohibited' items."
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "1805 E 1200 N, Mapleton, UT 84664",
+   "verified_value": "1805 E 1200 N, Mapleton, UT 84664",
+   "action": "confirmed",
+   "change_origin": "Footer address; ZIP shown as 84664201, recorded as 84664.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "1805 E 1200 N Mapleton, UT 84664201",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "City",
+   "current_value": "Mapleton",
+   "verified_value": "Mapleton",
+   "action": "confirmed",
+   "change_origin": "Footer address.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "Mapleton, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "",
+   "verified_value": "Limited: speaker system for soft background music only (no mic provided)\nDJ from the venue's preferred list required",
+   "action": "added",
+   "change_origin": "Preferred Vendors page: in-house speaker system is only for soft background music, no microphone; DJ from list required.",
+   "source_url": "https://quietmeadowfarms.com/preferred-vendors/",
+   "evidence": "our speaker system is only for soft background music and we do not have a microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Starts with 'Limited' so the Sound system filter stays false; team may decide otherwise."
+  },
+  {
+   "field": "extras",
+   "current_value": "Day-of coordinator\nBridal suite\nGroom room\nPrep kitchen\nLawn games available by request",
+   "verified_value": "Day-of coordinator included\nAdditional event staff on site\nLawn games available (must be pre-approved)",
+   "action": "corrected",
+   "change_origin": "Removed duplicates of rooms/kitchen (they have their own columns); added staff and lawn-game approval from the site.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "Additional event staff on-site to support you throughout your celebration",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "Included\nSetup, takedown, and cleanup are included",
+   "verified_value": "Included\nSetup, takedown and cleanup handled by venue staff",
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "Full setup, takedown, and cleanup handled by our staff",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "Deposit and signed contract required to reserve",
+   "action": "added",
+   "change_origin": "Book Now page.",
+   "source_url": "https://quietmeadowfarms.com/book-now/",
+   "evidence": "Reservations are official with deposit and signed contract.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Deposit amount not published."
+  },
+  {
+   "field": "Catering",
+   "current_value": "Preferred caterer required\nHomemade food not allowed\nCommercially prepared food only",
+   "verified_value": "Caterer must be from the venue's approved list\nHomemade food not allowed; all food must be commercially prepared\nVenue staff do not serve, bus or clear food",
+   "action": "corrected",
+   "change_origin": "Reworded to the site's terms (approved list, not 'preferred'); added no food service by staff.",
+   "source_url": "https://quietmeadowfarms.com/preferred-vendors/",
+   "evidence": "Any caterer you use must be on this list. Outside or unapproved caterers are not permitted.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "Prep kitchen\nRefrigerator\nFreezer\nMicrowave\nWarming oven",
+   "verified_value": "Prep kitchen for caterers\nRefrigerator\nFreezer\nMicrowave\nWarming oven",
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "Prep kitchen for caterers, with refrigerator, freezer, microwave, and warming oven",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "Alcohol allowed\n$300 alcohol fee\nPreferred bartender required\nMaximum alcohol service time: 4 hours",
+   "verified_value": "Alcohol allowed\n$300 alcohol fee (includes a bar and additional staff)\nBartender from the preferred list required\nBar open 4 hours maximum",
+   "action": "corrected",
+   "change_origin": "Added that the $300 fee includes a bar and staff (Policies page).",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Alcohol fee is $300 which includes a bar and additional staff to monitor.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Dedicated Day-of Coordinator included",
+   "verified_value": "Dedicated day-of coordinator included",
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "A dedicated Day-of Coordinator to guide your timeline and handle details",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "Private bridal suite\nGroom room",
+   "verified_value": "Bridal suite\nGroom's room",
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "A relaxing Bridal Suite and comfortable Groom's Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "No sparklers\nNo live bands\nNo bounce houses\nNo mechanical bulls\nNo carnival rides\nLawn games require approval\nNo pets\nNo dropping off food or décor before scheduled time\nNo rehearsal on site",
+   "verified_value": "Caterer, DJ and bartender must be from the preferred lists\nNo live bands\nNo sparklers, cold sparkler machines, confetti, glitter, rice, bird seed or flower petals (petals allowed during the ceremony)\nNo bounce houses, mechanical bulls or carnival rides\nLawn games must be pre-approved\nNo pets without prior approval (service animals and ceremony animals excepted)\nNo food or décor drop-off before the scheduled time\nNo rehearsals on site\nMaximum 89 decibels (noise ordinance)\nOwn sound equipment limited to a small boombox-style system\nNo smoking except in the designated area\nNo full-size buses",
+   "action": "corrected",
+   "change_origin": "Official site, Policies, Preferred Vendors and What's Included pages: added required DJ/caterer/bartender lists, confetti/rice/petal ban, 89 dB limit, sound-equipment limit, smoking, buses; pet rule softened to match site.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Due to the noise ordinance in the area our maximum decibel level is 89 decibels.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "130-acre property\nWedding venue is closed to the public on event days\nOfficial footer displays the ZIP as 84664201; address recorded as 84664",
+   "verified_value": "130-acre property\nMaximum capacity 300 guests (225 in winter season)\nClosed Sundays\nAll event item rentals go through the venue office",
+   "action": "corrected",
+   "change_origin": "Removed 'closed to the public on event days' (not on the site) and the ZIP note; added capacity, Sunday closure and rental rule.",
+   "source_url": "https://quietmeadowfarms.com/availability/",
+   "evidence": "We are not open on Sundays.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: 801-794-4043\nEmail: info@quietmeadowsfarms.com",
+   "verified_value": "Phone: (801) 438-9394\nEmail: quietmeadowfarms@gmail.com",
+   "action": "corrected",
+   "change_origin": "Site footer shows a different phone and email; 801-794-4043 and info@quietmeadowsfarms.com appear nowhere on the site.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "quietmeadowfarms@gmail.com (801) 438-9394",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Price",
+   "current_value": [
+    3200,
+    6800
+   ],
+   "verified_value": [
+    3200,
+    6800
+   ],
+   "action": "confirmed",
+   "change_origin": "Pricing page.",
+   "source_url": "https://quietmeadowfarms.com/pricing/",
+   "evidence": "Mornings-Winter $3200 ... PEAK 2027 Fri/Sat $6800",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "All-day rentals add $2,000 (max $8,800); team may want the slider max raised."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": null,
+   "verified_value": null,
+   "action": "blank_ok",
+   "change_origin": "Site gives only an overall max of 300 (225 winter), not seated.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Max capacity is 300 guests (225 for winter season).",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Venue drops out of capacity searches; open question."
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Mapleton",
+   "verified_value": "Mapleton",
+   "action": "confirmed",
+   "change_origin": "Footer address.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "Mapleton, UT",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Preferred Vendors page says the venue has no microphone.",
+   "source_url": "https://quietmeadowfarms.com/preferred-vendors/",
+   "evidence": "we do not have a microphone",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": false,
+   "verified_value": false,
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Only a soft background-music speaker system; DJ from preferred list required.",
+   "source_url": "https://quietmeadowfarms.com/preferred-vendors/",
+   "evidence": "our speaker system is only for soft background music",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Borderline: there IS an in-house speaker system, but not a usable PA. Team decision."
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": false,
+   "verified_value": true,
+   "action": "added",
+   "change_origin": "What's Included lists an HDMI-ready TV.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "HDMI-ready TV for slideshows, videos, or memories",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "A relaxing Bridal Suite",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "comfortable Groom's Room",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "Full setup, takedown, and cleanup handled by our staff",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "What's Included page.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "A dedicated Day-of Coordinator",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Large barn.",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "The large barn is beautiful inside and out",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": true,
+   "verified_value": true,
+   "action": "confirmed",
+   "change_origin": "Outdoor setting implied (barn is where guests gather 'when the weather turns cold'; ceremony timing advice).",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "A favorite place for guests to gather when the weather turns cold.",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Only runners listed.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "White, ivory, or tan runners",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Runners included; no tablecloths mentioned."
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Approved-list-only catering.",
+   "source_url": "https://quietmeadowfarms.com/preferred-vendors/",
+   "evidence": "Outside or unapproved caterers are not permitted.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Approved list only."
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": false,
+   "verified_value": false,
+   "action": "confirmed",
+   "change_origin": "Policies list sparklers among prohibited items.",
+   "source_url": "https://quietmeadowfarms.com/policies/",
+   "evidence": "Sparklers, cold sparkler machines, confetti ...",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "What's Included decorating package.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "lanterns, centerpieces, candles, greenery",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent as an amenity.",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/",
+   "evidence": "",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Two 2022 blog posts show an 'Arch' in photo captions, but no arch is listed in the decorations or inclusions."
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "About page: barn has a fireplace.",
+   "source_url": "https://quietmeadowfarms.com/about/",
+   "evidence": "graced with an inviting fireplace",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Decorating package includes greenery; Available Decorations lists assorted (artificial/paper) flowers and bud vases.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "lanterns, centerpieces, candles, greenery, and rustic décor",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Available Decorations lists 20 easels, reserved signs and table numbers.",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/",
+   "evidence": "Assorted Easels (20) ... Wood Reserved Signs (14)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Assumed part of the included decorating package."
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Decorating package; votives and lanterns in decorations list.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "complete with lanterns, centerpieces, candles",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Extra tables for cake included; cake stands in decorations list.",
+   "source_url": "https://quietmeadowfarms.com/what-is-included/",
+   "evidence": "Extra tables for cake, gifts, or sign-in areas",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Available Decorations lists 4 drink troughs.",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/",
+   "evidence": "Drink Troughs( 4)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Alcohol service also comes with a bar for the $300 alcohol fee (Policies)."
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "https://quietmeadowfarms.com/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "included",
+   "action": "added",
+   "change_origin": "Available Decorations lists a sweetheart table.",
+   "source_url": "https://quietmeadowfarms.com/available-decorations/",
+   "evidence": "Sweetheart table",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Assumed part of the included decorating package."
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Quiet Meadow Farm",
+  "link": "https://www.quietmeadowfarms.com/",
+  "Description": "A rustic farm venue on 130 acres beneath the mountains in Mapleton, with a large barn with a fireplace, outdoor ceremony and reception space, a bridal suite and groom's room, a prep kitchen, and an included day-of coordinator.",
+  "Standard Price Range": "$3,200-$6,800",
+  "Packages and Prices": "Peak season Apr-Oct 2026: Fri or Sat 2pm-10pm — $6,600\nPeak season Apr-Oct 2026: Mon-Thu 2pm-10pm — $5,600\nWinter Nov 2026-Mar 2027: Fri or Sat 2pm-10pm — $5,800\nWinter Nov 2026-Mar 2027: Mon-Thu 2pm-10pm — $5,200\nMornings Mon-Sat 8am-12:30pm: peak 2026 — $3,300; winter 2026-27 — $3,200\nReception only, Mon-Thu 4:30pm-10pm — $4,400\nPeak season Apr-Oct 2027: Fri or Sat — $6,800; Thu — $6,400; Mon-Wed — $5,800\nWinter Nov 2027-Mar 2028: Fri or Sat — $6,000; Thu — $5,600; Mon-Wed — $5,000\nMornings 2027: peak — $3,400; winter 2027-28 — $3,200\nAll-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator",
+  "Seated Capacity": "",
+  "Standing Capacity": "300 max guests (225 in winter season)",
+  "Time slots": "Mon-Sat 2pm-10pm (evening)\nMon-Sat 10am-10pm (all-day, extra $2,000)\nMon-Sat 8am-12:30pm (morning)\nMon-Thu 4:30pm-10pm (reception only)\nClosed Sundays",
+  "Length of Rental": "4.5-12 hours",
+  "Style": "Rustic\nNatural\nPeaceful\nMagical",
+  "Linens Included": "FALSE",
+  "Other Decor Included": "15 farmhouse tables\n4 barrel-top tables (two 6 ft, two 8 ft)\n16-foot barn-wood buffet table\n150 chairs\nWhite, ivory or tan table runners\nDecorating package: centerpieces, lanterns, candles, greenery, rustic décor\nExtra tables for cake, gifts and sign-in\nCake stands\nSweetheart table\nEasels and reserved signs\nDrink troughs\nHDMI-ready TV\nBarn fireplace",
+  "Other Decor for Rent": "Plates, flatware, stemware and extra rentals arranged through the venue office (prices not listed)",
+  "outside/inside": "Both",
+  "sparklers allowed": "No\nSparklers and cold sparkler machines are not allowed",
+  "parking?": "",
+  "Full Address": "1805 E 1200 N, Mapleton, UT 84664",
+  "City": "Mapleton",
+  "sound system": "Limited: speaker system for soft background music only (no mic provided)\nDJ from the venue's preferred list required",
+  "extras": "Day-of coordinator included\nAdditional event staff on site\nLawn games available (must be pre-approved)",
+  "cleanup crew": "Included\nSetup, takedown and cleanup handled by venue staff",
+  "Accessibility": "",
+  "Deposit Policy": "Deposit and signed contract required to reserve",
+  "Catering": "Caterer must be from the venue's approved list\nHomemade food not allowed; all food must be commercially prepared\nVenue staff do not serve, bus or clear food",
+  "Prep Area": "Prep kitchen for caterers\nRefrigerator\nFreezer\nMicrowave\nWarming oven",
+  "Alcohol policy": "Alcohol allowed\n$300 alcohol fee (includes a bar and additional staff)\nBartender from the preferred list required\nBar open 4 hours maximum",
+  "Event Coordinator": "Dedicated day-of coordinator included",
+  "Bride/Groom Rooms": "Bridal suite\nGroom's room",
+  "Restrictions": "Caterer, DJ and bartender must be from the preferred lists\nNo live bands\nNo sparklers, cold sparkler machines, confetti, glitter, rice, bird seed or flower petals (petals allowed during the ceremony)\nNo bounce houses, mechanical bulls or carnival rides\nLawn games must be pre-approved\nNo pets without prior approval (service animals and ceremony animals excepted)\nNo food or décor drop-off before the scheduled time\nNo rehearsals on site\nMaximum 89 decibels (noise ordinance)\nOwn sound equipment limited to a small boombox-style system\nNo smoking except in the designated area\nNo full-size buses",
+  "Important Notes": "130-acre property\nMaximum capacity 300 guests (225 in winter season)\nClosed Sundays\nAll event item rentals go through the venue office",
+  "Contact Information": "Phone: (801) 438-9394\nEmail: quietmeadowfarms@gmail.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Rustic",
+   "Outdoors"
+  ],
+  "suggested": [
+   "Rustic",
+   "Outdoors"
+  ],
+  "change": "none",
+  "reasoning": "Barn + farm on 130 acres: 'rustic', 'farm', 'barn' give Rustic and 'acreage/farm/meadow' gives Outdoors under the decisions.md rules. Corrected Description keeps both cues.",
+  "site_cues": [
+   "Magical Venue on 130 acres, nestled beneath the mountains",
+   "rustic décor",
+   "The large barn"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Seasonal and day-of-week pricing",
+   "why": "Two years of season/day tables plus morning, reception-only and all-day options",
+   "data": {
+    "rates": [
+     {
+      "season": "Peak Apr-Oct 2026",
+      "days": "Fri or Sat",
+      "hours": "2pm-10pm",
+      "price": "$6,600"
+     },
+     {
+      "season": "Peak Apr-Oct 2026",
+      "days": "Mon-Thu",
+      "hours": "2pm-10pm",
+      "price": "$5,600"
+     },
+     {
+      "season": "Winter Nov 2026-Mar 2027",
+      "days": "Fri or Sat",
+      "hours": "2pm-10pm",
+      "price": "$5,800"
+     },
+     {
+      "season": "Winter Nov 2026-Mar 2027",
+      "days": "Mon-Thu",
+      "hours": "2pm-10pm",
+      "price": "$5,200"
+     },
+     {
+      "season": "Peak 2026",
+      "days": "Mon-Sat",
+      "hours": "8am-12:30pm",
+      "price": "$3,300"
+     },
+     {
+      "season": "Winter 2026-27",
+      "days": "Mon-Sat",
+      "hours": "8am-12:30pm",
+      "price": "$3,200"
+     },
+     {
+      "season": "Any",
+      "days": "Mon-Thu",
+      "hours": "4:30pm-10pm (reception only)",
+      "price": "$4,400"
+     },
+     {
+      "season": "Peak Apr-Oct 2027",
+      "days": "Fri or Sat",
+      "hours": "2pm-10pm",
+      "price": "$6,800"
+     },
+     {
+      "season": "Peak Apr-Oct 2027",
+      "days": "Thu",
+      "hours": "2pm-10pm",
+      "price": "$6,400"
+     },
+     {
+      "season": "Peak Apr-Oct 2027",
+      "days": "Mon-Wed",
+      "hours": "2pm-10pm",
+      "price": "$5,800"
+     },
+     {
+      "season": "Winter Nov 2027-Mar 2028",
+      "days": "Fri or Sat",
+      "hours": "2pm-10pm",
+      "price": "$6,000"
+     },
+     {
+      "season": "Winter Nov 2027-Mar 2028",
+      "days": "Thu",
+      "hours": "2pm-10pm",
+      "price": "$5,600"
+     },
+     {
+      "season": "Winter Nov 2027-Mar 2028",
+      "days": "Mon-Wed",
+      "hours": "2pm-10pm",
+      "price": "$5,000"
+     },
+     {
+      "season": "Peak 2027",
+      "days": "Mon-Sat",
+      "hours": "8am-12:30pm",
+      "price": "$3,400"
+     },
+     {
+      "season": "Winter 2027-28",
+      "days": "Mon-Sat",
+      "hours": "8am-12:30pm",
+      "price": "$3,200"
+     }
+    ],
+    "all_day_surcharge": "$2,000 for 10am-10pm instead of 2pm-10pm",
+    "note": "Site lists the 2027-28 weekday winter range as 'November 2026-March 2028' (likely a typo for Nov 2027)."
+   }
+  },
+  {
+   "title": "Required vendor lists",
+   "why": "Caterer, DJ and bartender must come from the venue's lists",
+   "data": {
+    "required": {
+     "caterers": [
+      "El Camino Kitchen",
+      "Bro Bro's Frozen Treats",
+      "Brown Brothers",
+      "Greenhollow Catering",
+      "Fiore Pizza",
+      "Beehive Catering",
+      "Lux Catering",
+      "Landmark Catering",
+      "Penguin Brothers",
+      "Pinguino's Gelato",
+      "Marvellous Catering Co.",
+      "R&R BBQ",
+      "Culinary Crafts",
+      "J. Dawgs",
+      "Magleby's",
+      "The Place Pizza",
+      "Thirst Drinks and Catering"
+     ],
+     "bartenders": [
+      "Copa Bar Service",
+      "Cheers and Swizzles"
+     ],
+     "djs": [
+      "DJ JC",
+      "Alive Entertainment",
+      "DJ Cooper Brown",
+      "DJ Chase Worthen"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Decor inventory",
+   "why": "Long included decor inventory with counts",
+   "data": {
+    "items": [
+     "Small log card holders (60)",
+     "Wood reserved signs (14)",
+     "Paper reserved signs (15)",
+     "Drink troughs (4)",
+     "Copper lanterns (15)",
+     "Small votives (50)",
+     "Medium votives (25)",
+     "Large white lanterns (6)",
+     "Wheat centerpieces (23)",
+     "Brown lanterns (15)",
+     "Large crates (5)",
+     "Milk jars for ceremony (9)",
+     "Sweetheart table",
+     "Log cake stand",
+     "Cake stand",
+     "Easels (20)",
+     "Bud vases (36)",
+     "Assorted artificial flowers",
+     "Flower girl baskets (10)"
+    ]
+   }
+  },
+  {
+   "title": "Seasonal capacity",
+   "why": "Max guest count changes by season",
+   "data": {
+    "max_guests": {
+     "peak": 300,
+     "winter": 225
+    }
+   }
+  }
+ ],
+ "open_questions": [
+  "Venue name: the site calls itself 'Quiet Meadow Farm'. Renaming changes the id and the STYLES key in build_data.py; team to decide.",
+  "Capacity: the site gives only 'max capacity 300 (225 winter)' without saying seated or standing. Should 300 feed the Capacity slider? Currently blank, so the venue drops out of capacity searches.",
+  "Price slider: should the all-day surcharge (+$2,000, max $8,800) be reflected in the max?",
+  "Sound system: an in-house speaker exists but is 'only for soft background music'; marked false. Confirm the team agrees.",
+  "Are the Available Decorations items (easels, signs, sweetheart table, drink troughs) included free? The site implies so ('mix and match') but has no explicit statement.",
+  "The CSV phone 801-794-4043 and email info@quietmeadowsfarms.com are not on the site; site shows (801) 438-9394 and quietmeadowfarms@gmail.com."
+ ]
+}

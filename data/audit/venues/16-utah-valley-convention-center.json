@@ -1,0 +1,1028 @@
+{
+ "row": 16,
+ "id": "utah-valley-convention-center",
+ "name": "Utah Valley Convention Center",
+ "website": "https://utahvalleycc.com/weddings/",
+ "website_status": "ok (pages need a real browser: plain fetch returns HTTP 403; read with the built-in browser)",
+ "verified_on": "2026-10-26",
+ "pages_checked": [
+  "https://utahvalleycc.com/weddings/ (weddings: Level 3 Cascade/Terrace, Level 2 Ballroom, Lunch and Dinner packages, menu images)",
+  "https://utahvalleycc.com/wp-content/uploads/2026/03/Wedding-Lunch-Menu-2026.jpg (2026 lunch menu image)",
+  "https://utahvalleycc.com/wp-content/uploads/2026/03/Wedding-Dinner-Menu-2026.jpg (2026 dinner menu image)",
+  "https://utahvalleycc.com/wp-content/uploads/2026/03/Wedding-Reception-Menu-2026.jpg (2026 reception menu image: hors d'oeuvres tiers, beverage additions, bar $300)",
+  "https://utahvalleycc.com/food-and-beverage/ (exclusive F&B provider, bar service, F&B FAQs)",
+  "https://utahvalleycc.com/planners/ (planner FAQs: exclusive services, room rental inclusions, prohibited items, fog/pyrotechnics)",
+  "https://utahvalleycc.com/attendees/ (attendee FAQs: prohibited items, alcohol, Wi-Fi)",
+  "https://utahvalleycc.com/accessibility/ (accessibility: entrances, elevators, ADA restrooms, disability parking)",
+  "https://utahvalleycc.com/parking/ (parking lots and rates)",
+  "https://utahvalleycc.com/level-2-ballroom/ (Grand Ballroom capacity chart)",
+  "https://utahvalleycc.com/meeting-room-level/ (Cascade rooms capacity chart, rooftop terrace)",
+  "https://utahvalleycc.com/floorplans/ (floor plan overview)",
+  "https://utahvalleycc.com/On-Site%20Services/ (on-site services: AV, equipment, Wi-Fi, decorating rate sheets)",
+  "https://utahvalleycc.com/contact-us/ (business address, phone, email)",
+  "https://utahvalleycc.com/about-uvcc/ (facility overview)"
+ ],
+ "location_check": {
+  "in_utah_county": true,
+  "address_on_site": "220 West Center Street, Suite 200, Provo, UT 84601",
+  "note": "Address is the business/office address on the Contact page and footer; the building is on Center Street at Freedom Blvd (200 West) in downtown Provo."
+ },
+ "audit": [
+  {
+   "field": "Venue Name",
+   "current_value": "Utah Valley Convention Center",
+   "verified_value": "Utah Valley Convention Center",
+   "action": "confirmed",
+   "change_origin": "Official site header and Weddings page.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Weddings at the UVCC ... Utah Valley Convention Center",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "link",
+   "current_value": "https://utahvalleycc.com/weddings/",
+   "verified_value": "https://utahvalleycc.com/weddings/",
+   "action": "confirmed",
+   "change_origin": "Link loads the official Weddings page (browser only; plain fetch gets 403).",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Weddings at the UVCC",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Description",
+   "current_value": "A modern, elegant reception venue in downtown Provo with natural light, mountain views, professional event managers, a culinary team, a grand ballroom, and a rooftop terrace.",
+   "verified_value": "A modern, elegant reception venue in downtown Provo with natural light, mountain views, professional event managers, a culinary team, a grand ballroom, and a rooftop terrace.",
+   "action": "confirmed",
+   "change_origin": "Weddings and About pages support every element (modern design, natural light, mountain views, event managers, culinary team, ballroom, rooftop terrace).",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "professional event managers, culinary team ... modern architecture",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Standard Price Range",
+   "current_value": "No single standard price stated on the official website",
+   "verified_value": "",
+   "action": "removed",
+   "change_origin": "Removed: filler text from the AI collector; the site gives only per-person package prices, no venue rental price.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Lunch Package – $41.95 per Person ... Dinner Package – $49.95 per Person",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Price slider should stay empty; per-person package prices are in Packages and Prices."
+  },
+  {
+   "field": "Packages and Prices",
+   "current_value": "Reception package with room rental, black or white chair covers and ties, floor-length linens with overlay, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, dance floor, staging, electrical, 2 gift or registration tables, security attendant and event insurance — $28.95/person plus current management charge and taxes\nLunch package with room rental, black or white chair covers, chair ties, 2 mid-length linens per banquet table, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, security attendant and event insurance — $41.95/person plus current management charge and taxes\nDinner package with room rental, black or white chair covers and ties, black or white floor-length linens with overlay, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, dance floor, staging, electrical, 2 gift or registration tables, security attendant and event insurance — $49.95/person plus current management charge and taxes\nTimpanogos Terrace add-on — $1,500\nCake attendant — $75",
+   "verified_value": "Lunch Package — $41.95/person plus management charge and taxes: room rental, black or white chair covers and ties, 2 mid-length linens per banquet table, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, security attendant, event insurance (buffet; plated = 1 entrée)\nDinner Package — $49.95/person plus management charge and taxes: same as lunch plus floor-length linens with overlay, dance floor, staging, electrical, 2 gift/registration tables\nTimpanogos Terrace — additional $1,500 (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nReception menu beverage additions — lemonade or agua fresca $35/gallon, coffee $36/gallon, sodas or bottled water $3 each, mocktails $6/person",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page lists only the Lunch ($41.95) and Dinner ($49.95) packages; the $28.95 'Reception package' and the $75 cake attendant are not on the current site; bar and beverage prices from the 2026 Reception Menu image.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Lunch Package – $41.95 per Person + current management charge and taxes",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Removed the 'Reception package $28.95' (not on site; its inclusions were copied from the Dinner package) and 'Cake attendant $75' (not on site). Reception Menu image (2026) lists hors d'oeuvres without a package price."
+  },
+  {
+   "field": "Seated Capacity",
+   "current_value": "360-1,080",
+   "verified_value": "1,080 (Grand Ballroom, banquet rounds)\n380 per Ballroom third\n360 (Cascade Room, 72-inch rounds)",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page and Level 2 capacity chart: Ballroom 1,080 banquet, each third 380; Cascade Room 360 at banquet rounds.",
+   "source_url": "https://utahvalleycc.com/level-2-ballroom/",
+   "evidence": "Ballroom ABC 16,894 ... Banquet 1,080; Ballroom A ... 380",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Old value '360-1,080' read as a range; rewritten as per-space maxima. Level 3 chart lists Cascade ABCDE banquet 500 while the Weddings page says 360 at 72-inch rounds; kept the wedding-page figure. Charts say capacities exclude staging, AV and food tables."
+  },
+  {
+   "field": "Standing Capacity",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent (charts give banquet, theater, classroom and crescent counts, no standing/reception count).",
+   "source_url": "https://utahvalleycc.com/level-2-ballroom/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Time slots",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Length of Rental",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Style",
+   "current_value": "Modern\nElegant\nFlexible",
+   "verified_value": "Modern\nElegant\nFlexible",
+   "action": "confirmed",
+   "change_origin": "Weddings page: 'flexible, elegant spaces'; Ballroom 'modern architecture'.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "The UVCC offers flexible, elegant spaces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Linens Included",
+   "current_value": "TRUE",
+   "verified_value": "TRUE",
+   "action": "confirmed",
+   "change_origin": "Official site, Weddings page: both packages include linens on each banquet table.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "two mid-length linens on each banquet table ... floor-length linens with an overlay",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Other Decor Included",
+   "current_value": "Black or white chair covers and ties\nHouse centerpieces\nDance floor for dinner or reception package\nStaging\n2 gift or registration tables\nElectrical\nSecurity attendant\nEvent insurance",
+   "verified_value": "Black or white chair covers and ties\nHouse centerpieces\nTV or projector with small screen\nDance floor (Dinner Package)\nStaging (Dinner Package)\n2 gift or registration tables (Dinner Package)\nElectrical (Dinner Package)\nSecurity attendant\nEvent insurance\nStandard room set with tables and chairs",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page package inclusions; dance floor, staging, electrical and gift tables are listed only in the Dinner Package; standard room set from Planner FAQ.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Includes: room rental*, black or white chair covers, chair ties ... house centerpieces, television or projector",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Marked Dinner-only items; added TV/projector (included in both packages). Planner FAQ: 'a one-time standard room set per room per event day' is in room rental."
+  },
+  {
+   "field": "Other Decor for Rent",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on decor rentals for weddings (decorating rate sheet is for trade-show booths and pipe-and-drape).",
+   "source_url": "https://utahvalleycc.com/On-Site%20Services/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "On-Site Services page offers pipe and drape by the foot and booth decorating at per-event cost; not listed as wedding decor, so not added."
+  },
+  {
+   "field": "outside/inside",
+   "current_value": "Both",
+   "verified_value": "Both",
+   "action": "confirmed",
+   "change_origin": "Weddings page: indoor ballroom/Cascade rooms plus rooftop Timpanogos Terrace for outdoor functions.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Provo wedding venues with indoor and outdoor options",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "The Terrace costs an extra $1,500 because an indoor backup space must be booked."
+  },
+  {
+   "field": "sparklers allowed",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on sparklers.",
+   "source_url": "https://utahvalleycc.com/planners/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Planner FAQ: pyrotechnics only through a licensed provider with Provo Fire permits and a paid Fire Watch attendant; glitter and confetti prohibited. Sparklers not mentioned."
+  },
+  {
+   "field": "parking?",
+   "current_value": "",
+   "verified_value": "UVCC Surface Lot (250 W 100 N): 24 free spaces\nFreedom Surface Lot: $4/hr, $20 max; complimentary for up to 175 convention center guests (first come, register online)\nFreedom Commons Garage: $2/hr, $12 max\nSeveral other nearby public lots and garages",
+   "action": "added",
+   "change_origin": "Official site, Parking & Directions page lists nearby lots, rates and the 175-guest complimentary parking.",
+   "source_url": "https://utahvalleycc.com/parking/",
+   "evidence": "UVCC SURFACE LOT 250 West 100 North Free 24 Spaces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Full Address",
+   "current_value": "",
+   "verified_value": "220 W Center St, Provo, UT 84601",
+   "action": "added",
+   "change_origin": "Official site, Contact Us page business address.",
+   "source_url": "https://utahvalleycc.com/contact-us/",
+   "evidence": "220 West Center Street Suite 200 Provo UT, 84601",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "This is the business address (Suite 200); listed as the company address in the site footer."
+  },
+  {
+   "field": "City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page address is in Provo.",
+   "source_url": "https://utahvalleycc.com/contact-us/",
+   "evidence": "Provo UT, 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "sound system",
+   "current_value": "Yes\nHouse sound\nMicrophone\nAudio connection",
+   "verified_value": "Yes\nHouse sound\nMicrophone\nAudio connection",
+   "action": "confirmed",
+   "change_origin": "Weddings page: microphone, audio connection and house sound in both packages.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "microphone, audio connection to play music, house sound",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "extras",
+   "current_value": "Timpanogos Terrace — $1,500 add-on\nCake attendant — $75\nProfessional event managers\nFree public Wi-Fi",
+   "verified_value": "Timpanogos Terrace — $1,500 add-on (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nProfessional event managers\nFree public Wi-Fi",
+   "action": "corrected",
+   "change_origin": "Weddings page (Terrace $1,500), Reception Menu image (bar $300), Planners/On-Site Services pages (event managers, free Wi-Fi). Removed the $75 cake attendant, which is not on the site.",
+   "source_url": "https://utahvalleycc.com/wp-content/uploads/2026/03/Wedding-Reception-Menu-2026.jpg",
+   "evidence": "Hosted or Non-Hosted Bar $300 with Bartender (3 hours service)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "cleanup crew",
+   "current_value": "",
+   "verified_value": "Included: one-time daily cleaning of rented spaces (venue housekeeping/janitorial is exclusive)",
+   "action": "added",
+   "change_origin": "Official site, Planner FAQs: room rental includes a one-time daily cleaning; housekeeping and janitorial are provided exclusively by the venue team.",
+   "source_url": "https://utahvalleycc.com/planners/",
+   "evidence": "a one-time daily cleaning of rented spaces, including lobbies and restrooms",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Accessibility",
+   "current_value": "",
+   "verified_value": "All entrances wheelchair accessible (street level or ramp, automatic doors)\nFour public elevators\nAll public restrooms ADA compliant\nLimited accessible parking stalls in attached lot; more off site\nADA stage ramp on request (2 weeks notice)\nLoaner wheelchairs (ID as collateral)",
+   "action": "added",
+   "change_origin": "Official site, Accessibility page.",
+   "source_url": "https://utahvalleycc.com/accessibility/",
+   "evidence": "All facility entrances are wheelchair accessible ... There are four public elevators ... All public restrooms are ADA compliant.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Deposit Policy",
+   "current_value": "",
+   "verified_value": "Deposits accepted by credit card (Visa, AMEX, MC), ACH or check\nFinal meal guarantees due 7 business days before; menu selections due 21 days before",
+   "action": "added",
+   "change_origin": "Official site, Planner FAQs (payment) and Food & Beverage FAQs (guarantee and menu deadlines).",
+   "source_url": "https://utahvalleycc.com/planners/",
+   "evidence": "For event deposit payments, we accept credit cards (VISA, AMEX, MC), ACH transfers, or checks.",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Deposit amount and refund terms not stated."
+  },
+  {
+   "field": "Catering",
+   "current_value": "Exclusive food and beverage provider\nIn-house culinary team",
+   "verified_value": "Exclusive food and beverage provider: UVCC Culinary Services (in-house)\nOutside food and beverage prohibited\nCustom menus available; allergy requests 2 weeks ahead",
+   "action": "corrected",
+   "change_origin": "Official site, Food & Beverage page and Planner FAQs.",
+   "source_url": "https://utahvalleycc.com/food-and-beverage/",
+   "evidence": "The UVCC Culinary Services team is the exclusive Food and Beverage provider",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Prep Area",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent on a couple/caterer prep area (ballroom has an adjacent full-service kitchen used by the in-house team).",
+   "source_url": "https://utahvalleycc.com/level-2-ballroom/",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Alcohol policy",
+   "current_value": "",
+   "verified_value": "Banquet alcohol license; hosted or non-hosted bar (full bar or beer and wine) through the venue\nOutside alcohol prohibited\nBar with bartender (3 hours) — $300",
+   "action": "added",
+   "change_origin": "Official site, Food & Beverage page, Attendee FAQs and Reception Menu image.",
+   "source_url": "https://utahvalleycc.com/food-and-beverage/",
+   "evidence": "holds a banquet alcohol license. Hosted or non-hosted bar services can be provided at any event",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Event Coordinator",
+   "current_value": "Professional event managers\nEvent sales manager",
+   "verified_value": "Assigned UVCC Event Manager\nEvent sales manager",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page and F&B FAQs refer to professional event managers and 'your assigned Event Manager'.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "the help of our professional event managers ... an event sales manager will contact you",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Wording tightened; same meaning."
+  },
+  {
+   "field": "Bride/Groom Rooms",
+   "current_value": "",
+   "verified_value": "",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Restrictions",
+   "current_value": "Timpanogos Terrace requires an indoor backup rental",
+   "verified_value": "Timpanogos Terrace requires paying for an indoor backup space ($1,500)\nOutside food and beverage prohibited\nNo helium balloons, glitter, confetti or drones\nFog/smoke machines water-based only, 2 weeks notice, Fire Watch attendant required\nPyrotechnics only via licensed provider with Provo Fire approval",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page (Terrace) and Planner FAQs (prohibited items, fog, pyrotechnics).",
+   "source_url": "https://utahvalleycc.com/planners/",
+   "evidence": "Outside food and beverage is prohibited ... (e.g., helium balloons, glitter, confetti, and drones)",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Important Notes",
+   "current_value": "Grand Ballroom can be divided into three sections of up to 380 guests each\nFacility size: 83,578 sq. ft.",
+   "verified_value": "Grand Ballroom 16,894 sq. ft., divisible into three sections of up to 380 guests each\nCascade Room 6,862 sq. ft. with rooftop Timpanogos Terrace on Level 3\nFacility size: 83,578 sq. ft.\nLEED Silver building; renovated 2022",
+   "action": "corrected",
+   "change_origin": "Official site, Weddings page, Planners page and About page.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "our 16,894 sq. ft. Ballroom ... divided into three separate sections, each section offering seating for up to 380 guests",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "Contact Information",
+   "current_value": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com",
+   "verified_value": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com",
+   "action": "confirmed",
+   "change_origin": "Contact Us page: phone (801) 851-2200, email info@utahvalleycc.com.",
+   "source_url": "https://utahvalleycc.com/contact-us/",
+   "evidence": "Email info@utahvalleycc.com Call Us (801) 851-2200",
+   "confidence": "medium",
+   "fix_type": "",
+   "notes": "Conflict: the Weddings page says to call (801) 851-2000; Contact page and footer say (801) 851-2200. Kept 851-2200."
+  },
+  {
+   "field": "filter: Price",
+   "current_value": "",
+   "verified_value": "",
+   "action": "confirmed",
+   "change_origin": "Site gives per-person package prices only; no rental price.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Lunch Package – $41.95 per Person",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Per-person: $41.95 (lunch) and $49.95 (dinner) plus management charge and taxes. Should not feed the rental-price slider."
+  },
+  {
+   "field": "filter: Capacity",
+   "current_value": "1080",
+   "verified_value": "1080",
+   "action": "confirmed",
+   "change_origin": "Level 2 capacity chart: Ballroom ABC banquet 1,080.",
+   "source_url": "https://utahvalleycc.com/level-2-ballroom/",
+   "evidence": "Ballroom ABC 16,894 23'-5\" 1,080",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: City",
+   "current_value": "Provo",
+   "verified_value": "Provo",
+   "action": "confirmed",
+   "change_origin": "Contact page address.",
+   "source_url": "https://utahvalleycc.com/contact-us/",
+   "evidence": "Provo UT, 84601",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Wheelchair accessible",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Accessibility page.",
+   "source_url": "https://utahvalleycc.com/accessibility/",
+   "evidence": "All facility entrances are wheelchair accessible.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Elevator",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Accessibility page.",
+   "source_url": "https://utahvalleycc.com/accessibility/",
+   "evidence": "There are four public elevators.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > ADA restrooms",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Accessibility page.",
+   "source_url": "https://utahvalleycc.com/accessibility/",
+   "evidence": "All public restrooms are ADA compliant.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Accessibility options > Accessible parking",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Accessibility page.",
+   "source_url": "https://utahvalleycc.com/accessibility/",
+   "evidence": "A limited number of disability parking stalls are in our attached parking lot.",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Microphone",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: microphone in both packages.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "microphone, audio connection to play music, house sound",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > Projector",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Weddings page: both packages include a television or projector with small screen.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "television or projector with small screen",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Included as an either/or (TV or projector); couples get one of the two."
+  },
+  {
+   "field": "filter: Audio/Visual > Sound system",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: house sound in both packages.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "house sound",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Audio/Visual > TV",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Weddings page: both packages include a television or projector with small screen.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "television or projector with small screen",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Either/or with the projector."
+  },
+  {
+   "field": "filter: Features > Bridal room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Groom's room",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Cleanup crew",
+   "current_value": "false",
+   "verified_value": "true",
+   "action": "added",
+   "change_origin": "Official site, Planner FAQs: room rental includes a one-time daily cleaning; janitorial is exclusive to venue staff.",
+   "source_url": "https://utahvalleycc.com/planners/",
+   "evidence": "a one-time daily cleaning of rented spaces, including lobbies and restrooms",
+   "confidence": "high",
+   "fix_type": "csv",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Event coordinator",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page and F&B FAQs: professional event managers; an assigned Event Manager.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "the help of our professional event managers",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Indoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: Ballroom and Cascade rooms.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Level 2 - Grand Ballroom",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outdoors",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: rooftop Timpanogos Terrace (extra $1,500).",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "Provo wedding venues with indoor and outdoor options",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": "Outdoor space costs $1,500 extra because an indoor backup must be booked; it is an event space, so Outdoors stays true."
+  },
+  {
+   "field": "filter: Features > Linens included",
+   "current_value": "true",
+   "verified_value": "true",
+   "action": "confirmed",
+   "change_origin": "Weddings page: linens in both packages.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "two mid-length linens on each banquet table",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Outside catering allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "confirmed",
+   "change_origin": "F&B page: exclusive in-house provider; outside food prohibited.",
+   "source_url": "https://utahvalleycc.com/food-and-beverage/",
+   "evidence": "the exclusive Food and Beverage provider",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Features > Sparklers allowed",
+   "current_value": "false",
+   "verified_value": "false",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Cake table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Sweetheart table",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Drink / beverage station",
+   "current_value": "none",
+   "verified_value": "rent",
+   "action": "added",
+   "change_origin": "Official site, 2026 Reception Menu image: hosted or non-hosted bar with bartender, $300 (3 hours).",
+   "source_url": "https://utahvalleycc.com/wp-content/uploads/2026/03/Wedding-Reception-Menu-2026.jpg",
+   "evidence": "Hosted or Non-Hosted Bar $300 with Bartender (3 hours service)",
+   "confidence": "medium",
+   "fix_type": "csv",
+   "notes": "Read from a menu image. Paid bar service, so 'For rent'."
+  },
+  {
+   "field": "filter: Other > Photo booth / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Firepit",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Other > Piano",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Ceremony arch / backdrop",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Centerpieces",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Weddings page: house centerpieces in both packages.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "house centerpieces",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Greenery / florals",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Signs / easels",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Draping / chair covers",
+   "current_value": "included",
+   "verified_value": "included",
+   "action": "confirmed",
+   "change_origin": "Weddings page: chair covers and ties in both packages.",
+   "source_url": "https://utahvalleycc.com/weddings/",
+   "evidence": "black or white chair covers, chair ties",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Fireplace",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > String / bistro lights",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Chandeliers",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  },
+  {
+   "field": "filter: Decor > Candles / lanterns",
+   "current_value": "none",
+   "verified_value": "none",
+   "action": "blank_ok",
+   "change_origin": "Site silent.",
+   "source_url": "",
+   "evidence": "",
+   "confidence": "high",
+   "fix_type": "",
+   "notes": ""
+  }
+ ],
+ "proposed_row": {
+  "Photo?": "",
+  "Venue Name": "Utah Valley Convention Center",
+  "link": "https://utahvalleycc.com/weddings/",
+  "Description": "A modern, elegant reception venue in downtown Provo with natural light, mountain views, professional event managers, a culinary team, a grand ballroom, and a rooftop terrace.",
+  "Standard Price Range": "",
+  "Packages and Prices": "Lunch Package — $41.95/person plus management charge and taxes: room rental, black or white chair covers and ties, 2 mid-length linens per banquet table, house centerpieces, TV or projector with small screen, microphone, audio connection, house sound, security attendant, event insurance (buffet; plated = 1 entrée)\nDinner Package — $49.95/person plus management charge and taxes: same as lunch plus floor-length linens with overlay, dance floor, staging, electrical, 2 gift/registration tables\nTimpanogos Terrace — additional $1,500 (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nReception menu beverage additions — lemonade or agua fresca $35/gallon, coffee $36/gallon, sodas or bottled water $3 each, mocktails $6/person",
+  "Seated Capacity": "1,080 (Grand Ballroom, banquet rounds)\n380 per Ballroom third\n360 (Cascade Room, 72-inch rounds)",
+  "Standing Capacity": "",
+  "Time slots": "",
+  "Length of Rental": "",
+  "Style": "Modern\nElegant\nFlexible",
+  "Linens Included": "TRUE",
+  "Other Decor Included": "Black or white chair covers and ties\nHouse centerpieces\nTV or projector with small screen\nDance floor (Dinner Package)\nStaging (Dinner Package)\n2 gift or registration tables (Dinner Package)\nElectrical (Dinner Package)\nSecurity attendant\nEvent insurance\nStandard room set with tables and chairs",
+  "Other Decor for Rent": "",
+  "outside/inside": "Both",
+  "sparklers allowed": "",
+  "parking?": "UVCC Surface Lot (250 W 100 N): 24 free spaces\nFreedom Surface Lot: $4/hr, $20 max; complimentary for up to 175 convention center guests (first come, register online)\nFreedom Commons Garage: $2/hr, $12 max\nSeveral other nearby public lots and garages",
+  "Full Address": "220 W Center St, Provo, UT 84601",
+  "City": "Provo",
+  "sound system": "Yes\nHouse sound\nMicrophone\nAudio connection",
+  "extras": "Timpanogos Terrace — $1,500 add-on (indoor backup space required)\nHosted or non-hosted bar with bartender (3 hours) — $300\nProfessional event managers\nFree public Wi-Fi",
+  "cleanup crew": "Included: one-time daily cleaning of rented spaces (venue housekeeping/janitorial is exclusive)",
+  "Accessibility": "All entrances wheelchair accessible (street level or ramp, automatic doors)\nFour public elevators\nAll public restrooms ADA compliant\nLimited accessible parking stalls in attached lot; more off site\nADA stage ramp on request (2 weeks notice)\nLoaner wheelchairs (ID as collateral)",
+  "Deposit Policy": "Deposits accepted by credit card (Visa, AMEX, MC), ACH or check\nFinal meal guarantees due 7 business days before; menu selections due 21 days before",
+  "Catering": "Exclusive food and beverage provider: UVCC Culinary Services (in-house)\nOutside food and beverage prohibited\nCustom menus available; allergy requests 2 weeks ahead",
+  "Prep Area": "",
+  "Alcohol policy": "Banquet alcohol license; hosted or non-hosted bar (full bar or beer and wine) through the venue\nOutside alcohol prohibited\nBar with bartender (3 hours) — $300",
+  "Event Coordinator": "Assigned UVCC Event Manager\nEvent sales manager",
+  "Bride/Groom Rooms": "",
+  "Restrictions": "Timpanogos Terrace requires paying for an indoor backup space ($1,500)\nOutside food and beverage prohibited\nNo helium balloons, glitter, confetti or drones\nFog/smoke machines water-based only, 2 weeks notice, Fire Watch attendant required\nPyrotechnics only via licensed provider with Provo Fire approval",
+  "Important Notes": "Grand Ballroom 16,894 sq. ft., divisible into three sections of up to 380 guests each\nCascade Room 6,862 sq. ft. with rooftop Timpanogos Terrace on Level 3\nFacility size: 83,578 sq. ft.\nLEED Silver building; renovated 2022",
+  "Contact Information": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com"
+ },
+ "style_suggestion": {
+  "current": [
+   "Modern",
+   "Luxury"
+  ],
+  "suggested": [
+   "Modern",
+   "Luxury"
+  ],
+  "change": "none",
+  "reasoning": "Description says 'modern' (Modern) and names a grand ballroom plus culinary team and a rooftop terrace (Luxury cues). The site leans on modern architecture, natural light and mountain views. A convention center is less 'super fancy' than a resort, but the Luxury rule (grand ballroom + culinary team, rooftop) applies as written.",
+  "site_cues": [
+   "Designed with functionality and modern architecture",
+   "flexible, elegant spaces",
+   "abundance of natural light, and breathtaking mountain views"
+  ]
+ },
+ "venue_sections": [
+  {
+   "title": "Spaces",
+   "why": "Several rooms with their own capacities, plus a rooftop terrace",
+   "data": {
+    "spaces": [
+     {
+      "name": "Grand Ballroom (Ballroom ABC)",
+      "level": 2,
+      "sq_ft": 16894,
+      "seated": 1080,
+      "theater": 2250,
+      "setting": "indoor"
+     },
+     {
+      "name": "Ballroom A / B / C (each third)",
+      "level": 2,
+      "seated": 380,
+      "setting": "indoor"
+     },
+     {
+      "name": "Cascade Room (ABCDE)",
+      "level": 3,
+      "sq_ft": 6862,
+      "seated": 360,
+      "seated_note": "360 at 72-inch rounds per Weddings page; capacity chart says 500 banquet",
+      "setting": "indoor"
+     },
+     {
+      "name": "Timpanogos Terrace",
+      "level": 3,
+      "setting": "outdoor rooftop",
+      "price": "$1,500 extra (indoor backup space required)"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Packages",
+   "why": "Two named per-person packages with different inclusions",
+   "data": {
+    "packages": [
+     {
+      "name": "Lunch Package",
+      "price": "$41.95/person + management charge and taxes",
+      "includes": [
+       "room rental",
+       "black or white chair covers and ties",
+       "2 mid-length linens per banquet table",
+       "house centerpieces",
+       "TV or projector with small screen",
+       "microphone",
+       "audio connection",
+       "house sound",
+       "security attendant",
+       "event insurance",
+       "buffet lunch menu"
+      ]
+     },
+     {
+      "name": "Dinner Package",
+      "price": "$49.95/person + management charge and taxes",
+      "includes": [
+       "room rental",
+       "black or white chair covers and ties",
+       "floor-length linens with overlay",
+       "house centerpieces",
+       "TV or projector with small screen",
+       "microphone",
+       "audio connection",
+       "house sound",
+       "dance floor",
+       "staging",
+       "electrical",
+       "2 gift and registration tables",
+       "security attendant",
+       "event insurance",
+       "buffet dinner menu"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Catering menus",
+   "why": "2026 Lunch, Dinner and Reception menus with choices and beverage add-on prices",
+   "data": {
+    "menus": [
+     {
+      "name": "Reception Menu 2026",
+      "structure": "Tier One hors d'oeuvres (select four), Tier Two (select one), infused water (select two)",
+      "additions": {
+       "lemonade or agua fresca": "$35/gallon",
+       "coffee": "$36/gallon",
+       "12 oz sodas": "$3 each",
+       "bottled water": "$3 each",
+       "mocktails": "$6/person",
+       "pineapple tree with 200 fruit skewers": "$400",
+       "hosted or non-hosted bar with bartender (3 hours)": "$300"
+      }
+     },
+     {
+      "name": "Lunch Menu 2026",
+      "structure": "1 salad, 2 dressings, 2 entrées, 1 starch, 1 vegetable, 1 dessert"
+     },
+     {
+      "name": "Dinner Menu 2026",
+      "structure": "1 salad, 2 dressings, 2 entrées, 1 starch, 1 vegetable, 1 dessert"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rain plan",
+   "why": "Terrace events must book an indoor backup space",
+   "data": {
+    "rain_plan": "Booking the Timpanogos Terrace requires an indoor backup space; $1,500 extra"
+   }
+  },
+  {
+   "title": "Parking",
+   "why": "Multiple nearby lots with different rates and a 175-guest complimentary allowance",
+   "data": {
+    "lots": [
+     {
+      "name": "UVCC Surface Lot",
+      "address": "250 W 100 N",
+      "rate": "Free",
+      "spaces": 24
+     },
+     {
+      "name": "Freedom Surface Lot",
+      "address": "225 N Freedom Blvd",
+      "rate": "$4/hr, $20 max; complimentary for up to 175 UVCC guests (register online)",
+      "spaces": 359
+     },
+     {
+      "name": "Freedom Commons Garage",
+      "address": "165 W 200 N",
+      "rate": "$2/hr, $12 max",
+      "spaces": 574
+     }
+    ]
+   }
+  }
+ ],
+ "open_questions": [
+  "Phone conflict: Weddings page says (801) 851-2000; Contact page and footer say (801) 851-2200. Which is the wedding sales line?",
+  "Does the room rental for a wedding have a stand-alone price (without a food package)? Planner FAQ says every proposal is custom.",
+  "Is the 'TV or projector' inclusion the couple's choice, and is a larger screen extra?",
+  "Are sparkler exits allowed (indoors or on the Terrace)? The site only covers licensed pyrotechnics.",
+  "The $28.95 'Reception package' in the old data is not on the current site. Is a reception-only (hors d'oeuvres) package still offered, and at what price?"
+ ]
+}
