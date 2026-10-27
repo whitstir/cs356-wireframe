@@ -844,7 +844,7 @@
       });
       return items.length ? `<div class="drow"><p class="eyebrow">${esc(title)}</p><dl>${items.join("")}</dl></div>` : "";
     }).join("");
-    return `<details class="details"${q ? " open" : ""}>
+    return `<details class="details" id="details"${q ? " open" : ""}>
       <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span><span class="small muted">Pricing, times, food, rules and contact: everything the venue lists${q ? `. Matches for “${esc(q)}” are highlighted.` : "."}</span></span><span class="chev" aria-hidden="true"></span></summary>
       ${rows}</details>`;
   }
@@ -894,6 +894,7 @@
           ${contact ? `<div class="kv"><p class="eyebrow">Contact</p><p class="pre" style="margin:0">${esc(contact)}</p></div>` : ""}
           ${/^https?:/i.test(link) ? `<a class="btn btn-primary" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (plan a visit)">Visit website</a>` : ""}
           ${sims.length ? `<a class="btn btn-outline" href="#similar" data-act="to-similar" data-log="Compare with similar">Compare with similar ${I.chevR}</a>` : ""}
+          <a class="btn btn-accent" href="#details" data-act="to-details" data-log="Detailed information (plan a visit)">Detailed information ${I.chevR}</a>
         </aside>
       </div>
       ${sims.length ? `<section class="band-cream section" id="similar" aria-labelledby="sim-h"><div class="wrap">
@@ -945,6 +946,7 @@
           ? `<figcaption class="small muted">${esc(KIND_LABEL[shots(v)[i].kind])} · Photo: ${creditLink(v)}</figcaption>` : ""}</figure>`).join("")}</div></div>`, true);
       $("#close-photos").onclick = hideOverlay;
     } else if (act === "to-similar") { e.preventDefault(); $("#similar").scrollIntoView({ behavior: "smooth" }); }
+    else if (act === "to-details") { e.preventDefault(); const d = $("#details"); d.open = true; d.scrollIntoView({ behavior: "smooth" }); }
   });
   // Re-render Explore in place (keeps open groups), updating the URL without a new history entry.
   function refreshExplore() {
