@@ -211,7 +211,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners) — 3pm-10pm:\nMonday — $2,800\nWednesday-Thursday — $3,400\nFriday-Saturday — $4,300\nPremium rental (standard plus all rental add-ons) — Monday $4,000 / Wednesday-Thursday $4,600 / Friday-Saturday $5,500\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each"
+     "value": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners)\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each"
     }
    ]
   },
@@ -684,6 +684,59 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon, Wed–Sat",
+ "hours": "3–10pm (11am start for $600)",
+ "rates": [
+  {
+   "package": "Standard rental",
+   "season": "",
+   "days": "Mon",
+   "hours": "3–10pm",
+   "price": "$2,800",
+   "note": ""
+  },
+  {
+   "package": "Standard rental",
+   "season": "",
+   "days": "Wed–Thu",
+   "hours": "3–10pm",
+   "price": "$3,400",
+   "note": ""
+  },
+  {
+   "package": "Standard rental",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "3–10pm",
+   "price": "$4,300",
+   "note": ""
+  },
+  {
+   "package": "Premium rental (standard plus all rental add-ons)",
+   "season": "",
+   "days": "Mon",
+   "hours": "3–10pm",
+   "price": "$4,000",
+   "note": ""
+  },
+  {
+   "package": "Premium rental (standard plus all rental add-ons)",
+   "season": "",
+   "days": "Wed–Thu",
+   "hours": "3–10pm",
+   "price": "$4,600",
+   "note": ""
+  },
+  {
+   "package": "Premium rental (standard plus all rental add-ons)",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "3–10pm",
+   "price": "$5,500",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "grove-station",
   "Venue Name": "Grove Station",
@@ -696,7 +749,7 @@
   "Price Basis": "rental",
   "Standard Price Range": "Mon $2,800; Wed–Thu $3,400; Fri–Sat $4,300; Premium $4,000–$5,500",
   "Seated Capacity": "Not stated",
-  "Packages and Prices": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners) — 3pm-10pm:\nMonday — $2,800\nWednesday-Thursday — $3,400\nFriday-Saturday — $4,300\nPremium rental (standard plus all rental add-ons) — Monday $4,000 / Wednesday-Thursday $4,600 / Friday-Saturday $5,500\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each",
+  "Packages and Prices": "Standard rental (space, tables arranged before arrival, onsite venue manager, sound system, after-event cleaning, unlimited planning meetings, available decor incl. table runners)\n11am start — +$600\nLinens for wood tables — $18 each\nStaff rearranges tables mid-event — $100\nRemove or add tables — $30 per table\nDecor set before arrival — $100\nDay-of coordinator — $500\nStaff during event — $35/hour each\n1 hour for engagement/bridal photos — $150\nDecorative drink dispensers (cold/hot) — $10/$20 each\nOutdoor propane heaters — $75 each",
   "Time slots": "3pm-10pm\nOptional 11am start (+$600)\nPriced days: Monday, Wednesday-Thursday, Friday-Saturday",
   "Length of Rental": "7 hours (11 hours with 11am start)",
   "Style": "Modern\nElegant\nFun",
@@ -709,6 +762,9 @@
   "Catering": "No in-house catering stated; site lists preferred caterers\nFood trucks allowed on the front patio as an alternative to traditional catering\nSoda shop drinks available (paid)",
   "Event Coordinator": "Day-of coordinator — $500 (included in Premium)\nStaff during event — $35/hour each",
   "Important Notes": "Standard rental includes an onsite venue manager\nPremium rental includes all rental add-ons\nTuesday and Sunday rentals are not priced on the site",
-  "Contact Information": "Phone: 801-608-6002\nEmail: grovestationpg@gmail.com\nInstagram: @grovestationpg"
+  "Contact Information": "Phone: 801-608-6002\nEmail: grovestationpg@gmail.com\nInstagram: @grovestationpg",
+  "Days Open": "Mon, Wed–Sat",
+  "Hours": "3–10pm (11am start for $600)",
+  "Rates": "Standard rental · Mon · 3–10pm — $2,800\nStandard rental · Wed–Thu · 3–10pm — $3,400\nStandard rental · Fri–Sat · 3–10pm — $4,300\nPremium rental (standard plus all rental add-ons) · Mon · 3–10pm — $4,000\nPremium rental (standard plus all rental add-ons) · Wed–Thu · 3–10pm — $4,600\nPremium rental (standard plus all rental add-ons) · Fri–Sat · 3–10pm — $5,500"
  }
 }

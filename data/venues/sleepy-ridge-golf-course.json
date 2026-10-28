@@ -221,7 +221,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon rental (all room-rental items) — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire"
+     "value": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire"
     },
     {
      "id": "pricing-deposit",
@@ -722,6 +722,57 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Preferred bartender (COPA or The Bar Project); $750 fee"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "4–11pm weekdays; 11am–11pm Fri–Sun",
+ "rates": [
+  {
+   "package": "Sunset Room rental",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "4–11pm",
+   "price": "$4,200",
+   "note": ""
+  },
+  {
+   "package": "Sunset Room rental",
+   "season": "",
+   "days": "Thu",
+   "hours": "4–11pm",
+   "price": "$4,700",
+   "note": ""
+  },
+  {
+   "package": "Sunset Room rental",
+   "season": "",
+   "days": "Fri",
+   "hours": "11am–11pm",
+   "price": "$6,500",
+   "note": ""
+  },
+  {
+   "package": "Sunset Room rental",
+   "season": "",
+   "days": "Sat–Sun",
+   "hours": "11am–11pm",
+   "price": "$7,000",
+   "note": ""
+  },
+  {
+   "package": "Luncheon (all room-rental items)",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "9am–2pm",
+   "price": "$3,000",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "sleepy-ridge-golf-course",
   "Venue Name": "Sleepy Ridge Weddings",
@@ -739,7 +790,7 @@
   "Standing Low": "700",
   "Standing High": "700",
   "Standing Capacity": "700",
-  "Packages and Prices": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography — Mon-Wed 4pm-11pm $4,200\nSame inclusions — Thu 4pm-11pm $4,700\nSame inclusions — Fri 11am-11pm $6,500\nSame inclusions — Sat-Sun 11am-11pm $7,000\nLuncheon rental (all room-rental items) — Mon-Thu 9am-2pm $3,000\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire",
+  "Packages and Prices": "Sunset Room rental with 60-inch round tables, 8-foot and 6-foot banquet tables, 36-inch bistro tables, in-house chairs, floor-length linens in any color, centerpieces, setup and take-down, onsite venue attendant, floor and table easels, Wi-Fi, ice machine, Bluetooth sound system, wireless microphone, 95-inch HD TVs, warming/prep kitchen, wedding suite, sunset balcony bistro lighting, large fireplace and mantle, large parking area, building/grounds/golf course access for photography\nGarden Patio ceremony and Front Garden cocktail-hour add-on — $1,000\nAdditional setup fee — $250\nAlcohol venue fee — $750\nHoliday pricing: inquire",
   "Time slots": "Mon-Wed 4pm-11pm\nThu 4pm-11pm\nFri 11am-11pm\nSat-Sun 11am-11pm\nLuncheon Mon-Thu 9am-2pm",
   "Length of Rental": "5-12 hours",
   "Style": "Country club-style\nElegant\nRomantic",
@@ -756,6 +807,10 @@
   "Bride/Groom Rooms": "Bridal suite\nGroom suite",
   "Restrictions": "Required alcohol vendor: COPA Bar Service or The Bar Project\nRequired fireworks vendor: Vortex Fireworks\nRequired lighting and drapes vendor: Moonlight Lighting\nSetup and cleanup (including vendors') must occur within booked hours",
   "Important Notes": "One wedding at a time\n$500 off venue rental for new bookings of off-season weddings (November-March)",
-  "Contact Information": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com"
+  "Contact Information": "Phone: 801-899-8000\nEmail: info@sleepyridgeweddings.com",
+  "Days Open": "Mon–Sun",
+  "Hours": "4–11pm weekdays; 11am–11pm Fri–Sun",
+  "Rates": "Sunset Room rental · Mon–Wed · 4–11pm — $4,200\nSunset Room rental · Thu · 4–11pm — $4,700\nSunset Room rental · Fri · 11am–11pm — $6,500\nSunset Room rental · Sat–Sun · 11am–11pm — $7,000\nLuncheon (all room-rental items) · Mon–Thu · 9am–2pm — $3,000",
+  "Rules": "Alcohol: Conditions — Preferred bartender (COPA or The Bar Project); $750 fee"
  }
 }

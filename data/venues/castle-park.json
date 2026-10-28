@@ -231,7 +231,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Venue & Decor package (one ballroom, 6-hour block between 4pm and 11pm): peak Mon-Wed $2,045, Thu $2,395, Fri $2,875, Sat/Sun $3,595; off-peak Mon-Wed $1,825, Thu $2,125, Fri $2,495, Sat/Sun $3,045\nVenue & Decor Large Party (both ballrooms, 5pm-1am): peak Mon-Wed $6,645, Thu $6,975, Fri $7,475, Sat/Sun $8,675; off-peak Mon-Wed $6,045, Thu $6,395, Fri $6,775, Sat/Sun $7,845\nSame-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental"
+     "value": "Same-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental"
     },
     {
      "id": "pricing-deposit",
@@ -744,6 +744,155 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Castle Park bartender only; $950 bar package"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Also no rice, poppers, silly string or glitter"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Bands or full DJ setups need both ballrooms"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "6 hours between 4 and 11pm",
+ "rates": [
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Peak",
+   "days": "Mon–Wed",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$2,045",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Peak",
+   "days": "Thu",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$2,395",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Peak",
+   "days": "Fri",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$2,875",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Peak",
+   "days": "Sat–Sun",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$3,595",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Off-peak",
+   "days": "Mon–Wed",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$1,825",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Off-peak",
+   "days": "Thu",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$2,125",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Off-peak",
+   "days": "Fri",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$2,495",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor, one ballroom",
+   "season": "Off-peak",
+   "days": "Sat–Sun",
+   "hours": "6-hour block between 4 and 11pm",
+   "price": "$3,045",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Peak",
+   "days": "Mon–Wed",
+   "hours": "5pm–1am",
+   "price": "$6,645",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Peak",
+   "days": "Thu",
+   "hours": "5pm–1am",
+   "price": "$6,975",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Peak",
+   "days": "Fri",
+   "hours": "5pm–1am",
+   "price": "$7,475",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Peak",
+   "days": "Sat–Sun",
+   "hours": "5pm–1am",
+   "price": "$8,675",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Off-peak",
+   "days": "Mon–Wed",
+   "hours": "5pm–1am",
+   "price": "$6,045",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Off-peak",
+   "days": "Thu",
+   "hours": "5pm–1am",
+   "price": "$6,395",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Off-peak",
+   "days": "Fri",
+   "hours": "5pm–1am",
+   "price": "$6,775",
+   "note": ""
+  },
+  {
+   "package": "Venue & Decor Large Party, both ballrooms",
+   "season": "Off-peak",
+   "days": "Sat–Sun",
+   "hours": "5pm–1am",
+   "price": "$7,845",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "castle-park",
   "Venue Name": "Castle Park",
@@ -758,7 +907,7 @@
   "Seated Low": "96",
   "Seated High": "200",
   "Seated Capacity": "96 (Venue & Decor package)\nUpper 120 / Lower 150\nLower 200 with Large Party package",
-  "Packages and Prices": "Venue & Decor package (one ballroom, 6-hour block between 4pm and 11pm): peak Mon-Wed $2,045, Thu $2,395, Fri $2,875, Sat/Sun $3,595; off-peak Mon-Wed $1,825, Thu $2,125, Fri $2,495, Sat/Sun $3,045\nVenue & Decor Large Party (both ballrooms, 5pm-1am): peak Mon-Wed $6,645, Thu $6,975, Fri $7,475, Sat/Sun $8,675; off-peak Mon-Wed $6,045, Thu $6,395, Fri $6,775, Sat/Sun $7,845\nSame-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental",
+  "Packages and Prices": "Same-space ceremony package — $550\nCastle or gazebo ceremony package — $775\nCastle or gazebo ceremony decor package — $515\nLights/drapes package — $600 (Lower Ballroom) / $700 (Upper Ballroom)\nWedding planner ceremony management — $625\nWedding planner reception management — $975\nDJ/MC package — $1,175\nAlcohol bar package — $950\nAdditional hour (one ballroom) — $275 before midnight / $325 after midnight\nAdditional hour (Large Party) — $520 before midnight / $640 after midnight\nAll day (5 hours added) — $675 (one ballroom) / $975 (Large Party)\nExclusive entire-property rental — 10% off venue rental",
   "Time slots": "6-hour block between 4pm and 11pm (start at 4pm or 5pm)\nLarge Party: 5pm-1am (setup from 3pm)\nExtra hours available; stays past 2am need management approval",
   "Length of Rental": "6-8 hours",
   "Style": "High class\nCastle",
@@ -778,6 +927,10 @@
   "Bride/Groom Rooms": "Bride's room (each ballroom)\nGroom's/media room (Upper Ballroom only)",
   "Restrictions": "Only Castle Park bartenders\nLarge or amplified bands, or full DJ setups, require both ballrooms\nOutside DJs must use the house sound system\nNo arrival before the rental start time\nNo moving chairs between ballrooms\nNo rice, confetti, poppers, silly string or glitter (cleaning charge)\nKitchen must be left clean by caterers",
   "Important Notes": "Peak season: 2nd weekend of April to 2nd weekend of January; off-peak: 3rd Thursday of January to 2nd Thursday of April\nSunday events are priced as Saturdays\nNo refunds or delays for bad weather; castle/gazebo ceremonies move indoors\nWith an outside cake, a cake stand and cutting set can be rented\nPrices not guaranteed until the deposit is paid",
-  "Contact Information": "Phone/Text: 801-899-9483\nEmail: info@castleparkevents.com"
+  "Contact Information": "Phone/Text: 801-899-9483\nEmail: info@castleparkevents.com",
+  "Days Open": "Mon–Sun",
+  "Hours": "6 hours between 4 and 11pm",
+  "Rates": "Venue & Decor, one ballroom · Peak · Mon–Wed · 6-hour block between 4 and 11pm — $2,045\nVenue & Decor, one ballroom · Peak · Thu · 6-hour block between 4 and 11pm — $2,395\nVenue & Decor, one ballroom · Peak · Fri · 6-hour block between 4 and 11pm — $2,875\nVenue & Decor, one ballroom · Peak · Sat–Sun · 6-hour block between 4 and 11pm — $3,595\nVenue & Decor, one ballroom · Off-peak · Mon–Wed · 6-hour block between 4 and 11pm — $1,825\nVenue & Decor, one ballroom · Off-peak · Thu · 6-hour block between 4 and 11pm — $2,125\nVenue & Decor, one ballroom · Off-peak · Fri · 6-hour block between 4 and 11pm — $2,495\nVenue & Decor, one ballroom · Off-peak · Sat–Sun · 6-hour block between 4 and 11pm — $3,045\nVenue & Decor Large Party, both ballrooms · Peak · Mon–Wed · 5pm–1am — $6,645\nVenue & Decor Large Party, both ballrooms · Peak · Thu · 5pm–1am — $6,975\nVenue & Decor Large Party, both ballrooms · Peak · Fri · 5pm–1am — $7,475\nVenue & Decor Large Party, both ballrooms · Peak · Sat–Sun · 5pm–1am — $8,675\nVenue & Decor Large Party, both ballrooms · Off-peak · Mon–Wed · 5pm–1am — $6,045\nVenue & Decor Large Party, both ballrooms · Off-peak · Thu · 5pm–1am — $6,395\nVenue & Decor Large Party, both ballrooms · Off-peak · Fri · 5pm–1am — $6,775\nVenue & Decor Large Party, both ballrooms · Off-peak · Sat–Sun · 5pm–1am — $7,845",
+  "Rules": "Alcohol: Conditions — Castle Park bartender only; $950 bar package\nConfetti: Not allowed — Also no rice, poppers, silly string or glitter\nMusic cutoff: Conditions — Bands or full DJ setups need both ballrooms"
  }
 }

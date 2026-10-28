@@ -221,7 +221,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Setting 1 (large event: Overlook, Skylight Room and Courtyard) — Mon-Thu 1pm-11pm — $3,500\nSetting 1 — Fri-Sat 1pm-11pm — $4,500\nSetting 2 (small event: excludes the Overlook) — Mon-Thu 1pm-11pm — $2,500\nSetting 2 — Fri-Sat 1pm-11pm — $3,500\nBoth settings include setup/takedown, cleaning, tables, chairs, linens, easels, television, audio system, centerpieces, ceremony arch, venue host, bride room, groom room, full prep kitchen and parking\nAll-day rental 10am-11pm — $500\nAdditional hour — $200\nGolf lounge (TrackMan simulator) — $200\nPhoto booth — $200/hour, 2-hour minimum\nAlcohol-use fee — $400\nSecurity deposit — $750\nBridal or baby shower, Setting 2, 9am-12pm, tables/chairs and televisions — $750 (deposit $250)"
+     "value": "Both settings include setup/takedown, cleaning, tables, chairs, linens, easels, television, audio system, centerpieces, ceremony arch, venue host, bride room, groom room, full prep kitchen and parking\nAll-day rental 10am-11pm — $500\nAdditional hour — $200\nGolf lounge (TrackMan simulator) — $200\nPhoto booth — $200/hour, 2-hour minimum\nAlcohol-use fee — $400\nSecurity deposit — $750\nBridal or baby shower, Setting 2, 9am-12pm, tables/chairs and televisions — $750 (deposit $250)"
     },
     {
      "id": "pricing-deposit",
@@ -762,6 +762,59 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Approved bartender; $400 fee; no shots; 5-hour maximum"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Also no petals, rice or streamers"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Outdoor music off by 10pm"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "1–11pm (all day from 10am)",
+ "rates": [
+  {
+   "package": "Setting 1, large event (Overlook, Skylight Room and Courtyard)",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "1–11pm",
+   "price": "$3,500",
+   "note": ""
+  },
+  {
+   "package": "Setting 1, large event (Overlook, Skylight Room and Courtyard)",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "1–11pm",
+   "price": "$4,500",
+   "note": ""
+  },
+  {
+   "package": "Setting 2, small event (no Overlook)",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "1–11pm",
+   "price": "$2,500",
+   "note": ""
+  },
+  {
+   "package": "Setting 2, small event (no Overlook)",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "1–11pm",
+   "price": "$3,500",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "rooftop-venue",
   "Venue Name": "The Rooftop",
@@ -779,7 +832,7 @@
   "Standing Low": "300",
   "Standing High": "700",
   "Standing Capacity": "Setting 1: up to 700 flowing reception\nSetting 2: up to 300 flowing reception",
-  "Packages and Prices": "Setting 1 (large event: Overlook, Skylight Room and Courtyard) — Mon-Thu 1pm-11pm — $3,500\nSetting 1 — Fri-Sat 1pm-11pm — $4,500\nSetting 2 (small event: excludes the Overlook) — Mon-Thu 1pm-11pm — $2,500\nSetting 2 — Fri-Sat 1pm-11pm — $3,500\nBoth settings include setup/takedown, cleaning, tables, chairs, linens, easels, television, audio system, centerpieces, ceremony arch, venue host, bride room, groom room, full prep kitchen and parking\nAll-day rental 10am-11pm — $500\nAdditional hour — $200\nGolf lounge (TrackMan simulator) — $200\nPhoto booth — $200/hour, 2-hour minimum\nAlcohol-use fee — $400\nSecurity deposit — $750\nBridal or baby shower, Setting 2, 9am-12pm, tables/chairs and televisions — $750 (deposit $250)",
+  "Packages and Prices": "Both settings include setup/takedown, cleaning, tables, chairs, linens, easels, television, audio system, centerpieces, ceremony arch, venue host, bride room, groom room, full prep kitchen and parking\nAll-day rental 10am-11pm — $500\nAdditional hour — $200\nGolf lounge (TrackMan simulator) — $200\nPhoto booth — $200/hour, 2-hour minimum\nAlcohol-use fee — $400\nSecurity deposit — $750\nBridal or baby shower, Setting 2, 9am-12pm, tables/chairs and televisions — $750 (deposit $250)",
   "Time slots": "Mon-Thu 1pm-11pm\nFri-Sat 1pm-11pm\nAll-day 10am-11pm\nBridal or baby shower 9am-12pm",
   "Length of Rental": "10-13 hours",
   "Style": "Modern\nElegant\nPanoramic",
@@ -798,6 +851,10 @@
   "Bride/Groom Rooms": "Bride room\nGroom room",
   "Restrictions": "Additional hours $200/hour\nOutdoor music must stop by 10pm\nNo confetti, petals, rice or streamers\nCandles only if the flame is fully enclosed in glass\nNo fog machines or CO2 cannons indoors\nSmoke-, vape- and drug-free\nNo tacking, taping or nailing decor",
   "Important Notes": "Seated capacity differs by page: Pricing and Weddings pages say 280 (Setting 1), home page says 300, FAQ says 200.\nFAQ lists wedding hours as 4pm-11pm (all-day 11am-11pm) and overtime at $150 per half hour; the Pricing page says 1pm-11pm, all-day 10am-11pm, $200 per additional hour.",
-  "Contact Information": "Phone: 801-448-7714\nEmail: info@therooftoplehi.com"
+  "Contact Information": "Phone: 801-448-7714\nEmail: info@therooftoplehi.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "1–11pm (all day from 10am)",
+  "Rates": "Setting 1, large event (Overlook, Skylight Room and Courtyard) · Mon–Thu · 1–11pm — $3,500\nSetting 1, large event (Overlook, Skylight Room and Courtyard) · Fri–Sat · 1–11pm — $4,500\nSetting 2, small event (no Overlook) · Mon–Thu · 1–11pm — $2,500\nSetting 2, small event (no Overlook) · Fri–Sat · 1–11pm — $3,500",
+  "Rules": "Alcohol: Conditions — Approved bartender; $400 fee; no shots; 5-hour maximum\nConfetti: Not allowed — Also no petals, rice or streamers\nMusic cutoff: Conditions — Outdoor music off by 10pm"
  }
 }

@@ -226,7 +226,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Full-building rental (Monarch, Grand Ballroom and grounds), 10am-10pm with 2 hosts: Mon-Thu — $5,800; Fri-Sat — $7,200\nIncludes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150"
+     "value": "Includes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150"
     }
    ]
   },
@@ -742,6 +742,27 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon–Sat",
+ "hours": "10am–10pm",
+ "rates": [
+  {
+   "package": "Full building (Monarch, Grand Ballroom and grounds), 2 hosts",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "10am–10pm",
+   "price": "$5,800",
+   "note": ""
+  },
+  {
+   "package": "Full building (Monarch, Grand Ballroom and grounds), 2 hosts",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "10am–10pm",
+   "price": "$7,200",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "northampton-house",
   "Venue Name": "Northampton House",
@@ -759,7 +780,7 @@
   "Standing Low": "270",
   "Standing High": "385",
   "Standing Capacity": "Grand Ballroom: 385\nMonarch: 270",
-  "Packages and Prices": "Full-building rental (Monarch, Grand Ballroom and grounds), 10am-10pm with 2 hosts: Mon-Thu — $5,800; Fri-Sat — $7,200\nIncludes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150",
+  "Packages and Prices": "Includes tables, chairs, table linens, AV system, TVs, Bluetooth mic, mini grand piano, bride's room, groom's/family room, prep kitchen, 120-stall parking lot, set up/take down, open vendor policy\nDecember Mon-Thu winter packages (8am-2pm or 4pm-10pm) include all decor and add-ons (price on request)\nRoom flip — $150",
   "Time slots": "Mon-Thu 10am-10pm\nFri-Sat 10am-10pm\nDecember Mon-Thu: 8am-2pm or 4pm-10pm",
   "Length of Rental": "12 hours",
   "Style": "Historic\nElegant\nClassic",
@@ -777,6 +798,9 @@
   "Bride/Groom Rooms": "Bride's room\nGroom's/family room",
   "Restrictions": "Reserved time must include set-up and take-down",
   "Important Notes": "Built 1903 as the American Fork 3rd Ward meetinghouse\nFull-building rental; individual rooms only on discounted dates shown on the availability calendar\nGrand Ballroom opens onto the garden terrace\nEach event includes 15 tables; extra tables for a fee",
-  "Contact Information": "Phone: 385-324-9973\nEmail: info@northamptonhouse.com"
+  "Contact Information": "Phone: 385-324-9973\nEmail: info@northamptonhouse.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "10am–10pm",
+  "Rates": "Full building (Monarch, Grand Ballroom and grounds), 2 hosts · Mon–Thu · 10am–10pm — $5,800\nFull building (Monarch, Grand Ballroom and grounds), 2 hosts · Fri–Sat · 10am–10pm — $7,200"
  }
 }

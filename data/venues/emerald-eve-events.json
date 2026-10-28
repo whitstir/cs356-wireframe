@@ -228,7 +228,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Mini, 2-20 guests, 4 hours — $100 (renter cleans) or $300 (venue cleans)\nSmall, 20-50 guests, 4 hours — $400 (renter cleans) or $600 (venue cleans)\nMedium, 50-100 guests, 6 hours — $1,000 (venue cleans)\nLarge, 100-150 guests, 6 hours — $1,500 (venue cleans)\nExtra Large, 150-250 guests, 8 hours — $2,500 (venue cleans)\nExtra hours — $20 to $160 per hour by package\n$50 non-refundable booking fee\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50\nDecor package — $150\nTablecloths — $100\nChair bows — $100\nCloth chair covers — $150\nKitchen items — $100\nKitchen appliances (stove, oven, heat lamp) — $200\nDecorating services with venue decor — $200\nFull decorating by venue staff — $250\nPermission to bring alcohol — $200"
+     "value": "Extra hours — $20 to $160 per hour by package\n$50 non-refundable booking fee\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50\nDecor package — $150\nTablecloths — $100\nChair bows — $100\nCloth chair covers — $150\nKitchen items — $100\nKitchen appliances (stove, oven, heat lamp) — $200\nDecorating services with venue decor — $200\nFull decorating by venue staff — $250\nPermission to bring alcohol — $200"
     },
     {
      "id": "pricing-deposit",
@@ -703,6 +703,62 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "$200 permission fee; licensed bartender; no cash bar"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "No glitter either"
+  }
+ ],
+ "daysOpen": "",
+ "hours": "4-, 6- or 8-hour blocks",
+ "rates": [
+  {
+   "package": "Mini, 2–20 guests",
+   "season": "",
+   "days": "",
+   "hours": "4 hours",
+   "price": "$100 or $300",
+   "note": "$100 if the renter cleans; $300 if the venue cleans"
+  },
+  {
+   "package": "Small, 20–50 guests",
+   "season": "",
+   "days": "",
+   "hours": "4 hours",
+   "price": "$400 or $600",
+   "note": "$400 if the renter cleans; $600 if the venue cleans"
+  },
+  {
+   "package": "Medium, 50–100 guests",
+   "season": "",
+   "days": "",
+   "hours": "6 hours",
+   "price": "$1,000",
+   "note": "Venue cleans"
+  },
+  {
+   "package": "Large, 100–150 guests",
+   "season": "",
+   "days": "",
+   "hours": "6 hours",
+   "price": "$1,500",
+   "note": "Venue cleans"
+  },
+  {
+   "package": "Extra Large, 150–250 guests",
+   "season": "",
+   "days": "",
+   "hours": "8 hours",
+   "price": "$2,500",
+   "note": "Venue cleans"
+  }
+ ],
  "raw": {
   "Venue ID": "emerald-eve-events",
   "Venue Name": "Emerald Eve Event Center",
@@ -720,7 +776,7 @@
   "Standing Low": "280",
   "Standing High": "280",
   "Standing Capacity": "280",
-  "Packages and Prices": "Mini, 2-20 guests, 4 hours — $100 (renter cleans) or $300 (venue cleans)\nSmall, 20-50 guests, 4 hours — $400 (renter cleans) or $600 (venue cleans)\nMedium, 50-100 guests, 6 hours — $1,000 (venue cleans)\nLarge, 100-150 guests, 6 hours — $1,500 (venue cleans)\nExtra Large, 150-250 guests, 8 hours — $2,500 (venue cleans)\nExtra hours — $20 to $160 per hour by package\n$50 non-refundable booking fee\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50\nDecor package — $150\nTablecloths — $100\nChair bows — $100\nCloth chair covers — $150\nKitchen items — $100\nKitchen appliances (stove, oven, heat lamp) — $200\nDecorating services with venue decor — $200\nFull decorating by venue staff — $250\nPermission to bring alcohol — $200",
+  "Packages and Prices": "Extra hours — $20 to $160 per hour by package\n$50 non-refundable booking fee\nElectronics (microphone, projector, Xbox, stage lighting, TVs) — $50\nDecor package — $150\nTablecloths — $100\nChair bows — $100\nCloth chair covers — $150\nKitchen items — $100\nKitchen appliances (stove, oven, heat lamp) — $200\nDecorating services with venue decor — $200\nFull decorating by venue staff — $250\nPermission to bring alcohol — $200",
   "Time slots": "4-hour block (Mini, Small)\n6-hour block (Medium, Large)\n8-hour block (Extra Large)",
   "Length of Rental": "4-8 hours",
   "Style": "Rustic-industrial\nAntique charm\nFlexible",
@@ -736,6 +792,9 @@
   "Event Coordinator": "Decorating services with venue decor — $200\nFull decorating by venue staff — $250",
   "Restrictions": "Staple gun only on arches; no nails\nNo glitter or confetti\nNothing hung from ceilings, lights or the white wall behind the stage",
   "Important Notes": "Packages priced by guest count; cleaning included from the Medium package up\nWeekends are typically reserved for weddings",
-  "Contact Information": "Phone: 801-477-7792\nEmail: events@emeraldeve.com"
+  "Contact Information": "Phone: 801-477-7792\nEmail: events@emeraldeve.com",
+  "Hours": "4-, 6- or 8-hour blocks",
+  "Rates": "Mini, 2–20 guests · 4 hours — $100 or $300 ($100 if the renter cleans; $300 if the venue cleans)\nSmall, 20–50 guests · 4 hours — $400 or $600 ($400 if the renter cleans; $600 if the venue cleans)\nMedium, 50–100 guests · 6 hours — $1,000 (Venue cleans)\nLarge, 100–150 guests · 6 hours — $1,500 (Venue cleans)\nExtra Large, 150–250 guests · 8 hours — $2,500 (Venue cleans)",
+  "Rules": "Alcohol: Conditions — $200 permission fee; licensed bartender; no cash bar\nConfetti: Not allowed — No glitter either"
  }
 }

@@ -212,7 +212,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Monday-Thursday — $2,000\nFriday-Saturday — $2,500\nIncludes 4pm-11pm barn access, 12 round tables and chairs for 100, 5 banquet tables, 5 cafe tables, cake/guest book table, tablecloths and kitchen use\nTablecloth overlays — extra cost (price not stated)"
+     "value": "Includes 4pm-11pm barn access, 12 round tables and chairs for 100, 5 banquet tables, 5 cafe tables, cake/guest book table, tablecloths and kitchen use\nTablecloth overlays — extra cost (price not stated)"
     },
     {
      "id": "pricing-deposit",
@@ -675,6 +675,38 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": "$1,000 fine"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Also no glitter or rice (deposit kept)"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "4–11pm",
+ "rates": [
+  {
+   "package": "Barn rental",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "4–11pm",
+   "price": "$2,000",
+   "note": ""
+  },
+  {
+   "package": "Barn rental",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "4–11pm",
+   "price": "$2,500",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "big-willow-barn",
   "Venue Name": "Big Willow Barn",
@@ -689,7 +721,7 @@
   "Seated Low": "100",
   "Seated High": "100",
   "Seated Capacity": "Tables and chairs for 100 included",
-  "Packages and Prices": "Monday-Thursday — $2,000\nFriday-Saturday — $2,500\nIncludes 4pm-11pm barn access, 12 round tables and chairs for 100, 5 banquet tables, 5 cafe tables, cake/guest book table, tablecloths and kitchen use\nTablecloth overlays — extra cost (price not stated)",
+  "Packages and Prices": "Includes 4pm-11pm barn access, 12 round tables and chairs for 100, 5 banquet tables, 5 cafe tables, cake/guest book table, tablecloths and kitchen use\nTablecloth overlays — extra cost (price not stated)",
   "Time slots": "4:00pm-11:00pm",
   "Length of Rental": "7 hours",
   "Style": "Rustic\nCountry charm\nClassy elegance",
@@ -704,6 +736,10 @@
   "Alcohol policy": "No alcohol allowed ($1,000 fine)",
   "Restrictions": "No alcohol ($1,000 fine; event ended if found)\nNo open flames (candles, fireworks, grills)\nNo glitter, rice or confetti (deposit kept)\nNo nailing, tacking or gluing to walls or floors\nDIY event: renter handles setup and decor",
   "Important Notes": "Outdoor space available June-October, weather permitting; move inside if weather turns bad\nProperty shared with Linden Nursery; daytime events may see customers and machinery",
-  "Contact Information": "Phone: (801) 500-3445\nEmail: haileyjcluff@gmail.com\nEmail: events@bigwillowbarn.com"
+  "Contact Information": "Phone: (801) 500-3445\nEmail: haileyjcluff@gmail.com\nEmail: events@bigwillowbarn.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "4–11pm",
+  "Rates": "Barn rental · Mon–Thu · 4–11pm — $2,000\nBarn rental · Fri–Sat · 4–11pm — $2,500",
+  "Rules": "Alcohol: Not allowed — $1,000 fine\nConfetti: Not allowed — Also no glitter or rice (deposit kept)"
  }
 }

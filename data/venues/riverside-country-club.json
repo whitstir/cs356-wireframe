@@ -220,7 +220,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Reception / open house: Dining Room & Outdoor Patio — room fee $3,000, food & beverage minimum $8,000\nReception / open house: Wasatch Room — room fee $2,000, food & beverage minimum $6,000\nLuncheon / dinner: Main Dining Room, 80 plated or 60 buffet — room fee $3,000, food & beverage minimum $5,000\nLuncheon / dinner: Timpanogos Room, up to 32 — room fee $600, food & beverage minimum $900\nLuncheon / dinner: Parley's Patio, 150, must be rented with Main Dining Room or Timpanogos Room — room fee $3,500, food & beverage minimum $8,000\nLuncheon / dinner: Wasatch South & Parlor, up to 80 — room fee $1,000, food & beverage minimum $5,000\nLuncheon / dinner: Entire Wasatch Room, 150 plated or 120 buffet — room fee $2,000, food & beverage minimum $5,000\nCeremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax"
+     "value": "Ceremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax"
     }
    ]
   },
@@ -724,6 +724,73 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Bar service through the club, from $150"
+  }
+ ],
+ "daysOpen": "",
+ "hours": "",
+ "rates": [
+  {
+   "package": "Reception / open house: Dining Room & Outdoor Patio",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$3,000 room fee",
+   "note": "Food & beverage minimum $8,000"
+  },
+  {
+   "package": "Reception / open house: Wasatch Room",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$2,000 room fee",
+   "note": "Food & beverage minimum $6,000"
+  },
+  {
+   "package": "Luncheon / dinner: Main Dining Room (80 plated, 60 buffet)",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$3,000 room fee",
+   "note": "Food & beverage minimum $5,000"
+  },
+  {
+   "package": "Luncheon / dinner: Timpanogos Room (up to 32)",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$600 room fee",
+   "note": "Food & beverage minimum $900"
+  },
+  {
+   "package": "Luncheon / dinner: Parley's Patio (150)",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$3,500 room fee",
+   "note": "Food & beverage minimum $8,000; rented with the Main Dining Room or Timpanogos Room"
+  },
+  {
+   "package": "Luncheon / dinner: Wasatch South & Parlor (up to 80)",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$1,000 room fee",
+   "note": "Food & beverage minimum $5,000"
+  },
+  {
+   "package": "Luncheon / dinner: Entire Wasatch Room (150 plated, 120 buffet)",
+   "season": "",
+   "days": "",
+   "hours": "",
+   "price": "$2,000 room fee",
+   "note": "Food & beverage minimum $5,000"
+  }
+ ],
  "raw": {
   "Venue ID": "riverside-country-club",
   "Venue Name": "Riverside Country Club",
@@ -738,7 +805,7 @@
   "Seated Low": "32",
   "Seated High": "150",
   "Seated Capacity": "Timpanogos Room 32\nMain Dining Room 80\nWasatch 80–150\nParley's Patio 150",
-  "Packages and Prices": "Reception / open house: Dining Room & Outdoor Patio — room fee $3,000, food & beverage minimum $8,000\nReception / open house: Wasatch Room — room fee $2,000, food & beverage minimum $6,000\nLuncheon / dinner: Main Dining Room, 80 plated or 60 buffet — room fee $3,000, food & beverage minimum $5,000\nLuncheon / dinner: Timpanogos Room, up to 32 — room fee $600, food & beverage minimum $900\nLuncheon / dinner: Parley's Patio, 150, must be rented with Main Dining Room or Timpanogos Room — room fee $3,500, food & beverage minimum $8,000\nLuncheon / dinner: Wasatch South & Parlor, up to 80 — room fee $1,000, food & beverage minimum $5,000\nLuncheon / dinner: Entire Wasatch Room, 150 plated or 120 buffet — room fee $2,000, food & beverage minimum $5,000\nCeremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax",
+  "Packages and Prices": "Ceremony on the grounds — $200\nBar service — from $150\nAll prices plus 22% service charge and 8.25% tax",
   "Style": "Elegant\nPrivate country club\nModern interior",
   "Other Decor Included": "5 ft and 6 ft round tables, 8 ft rectangle tables, round high-top tables\nStandard Riverside chairs\nBlack iron floor easels\nChina, flatware and glassware\nWhite linen\nUpright black piano and electric baby grand piano\nMultiple fireplaces\nMicrophone, bluetooth speaker and TV\nDesignated photography areas",
   "Other Decor for Rent": "Gold chiavari chairs — additional charge\nLinens in other colors — additional charge",
@@ -750,6 +817,8 @@
   "Alcohol policy": "Bar service available from $150",
   "Event Coordinator": "On-site venue coordinator\nDedicated event team",
   "Important Notes": "22% service charge and 8.25% tax on room fees and food & beverage\nFood and beverage minimum: any shortfall is charged as a fee\nPrivate club; guest pricing shown",
-  "Contact Information": "Phone: 801-374-1347\nEvents: Katie Alger, katie@riversidecountryclub.org, ext. 104\nEvents: Hailey Williams, hailey@riversidecountryclub.org, ext. 107"
+  "Contact Information": "Phone: 801-374-1347\nEvents: Katie Alger, katie@riversidecountryclub.org, ext. 104\nEvents: Hailey Williams, hailey@riversidecountryclub.org, ext. 107",
+  "Rates": "Reception / open house: Dining Room & Outdoor Patio — $3,000 room fee (Food & beverage minimum $8,000)\nReception / open house: Wasatch Room — $2,000 room fee (Food & beverage minimum $6,000)\nLuncheon / dinner: Main Dining Room (80 plated, 60 buffet) — $3,000 room fee (Food & beverage minimum $5,000)\nLuncheon / dinner: Timpanogos Room (up to 32) — $600 room fee (Food & beverage minimum $900)\nLuncheon / dinner: Parley's Patio (150) — $3,500 room fee (Food & beverage minimum $8,000; rented with the Main Dining Room or Timpanogos Room)\nLuncheon / dinner: Wasatch South & Parlor (up to 80) — $1,000 room fee (Food & beverage minimum $5,000)\nLuncheon / dinner: Entire Wasatch Room (150 plated, 120 buffet) — $2,000 room fee (Food & beverage minimum $5,000)",
+  "Rules": "Alcohol: Conditions — Bar service through the club, from $150"
  }
 }

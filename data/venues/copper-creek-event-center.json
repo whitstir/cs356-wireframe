@@ -220,7 +220,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Weekday (Mon-Wed): 10am-3pm — $1,800; 5pm-10pm — $2,250; 10am-10pm — $3,000\nPrime (Thu-Sat): 10am-3pm — $2,150; 5pm-10pm — $2,750; 10am-10pm — $4,200\nEvery rental includes 90 chairs, 9 60-inch round tables with linens, cake table with linen, cake stand and cutting utensils, personalized entry sign, sign-in table, 2 banquet tables with linens, setup/takedown of tables and chairs, prep kitchen, ice machine, floor easels, bride's dressing room, sound system, projector and screen, wireless microphone and stand, venue host/hostess\nCeremony coordination — $125\nFull decor closet (staff set up and take down) — $150\nClient personal decor setup — $100\nWooden or circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nSparkler package, 50 count — $40\nSparkler package, 100 count — $70 (FAQ says $75)\nGarden room overflow — $400\nCeremony transition fee for groups over 90 — $100"
+     "value": "Every rental includes 90 chairs, 9 60-inch round tables with linens, cake table with linen, cake stand and cutting utensils, personalized entry sign, sign-in table, 2 banquet tables with linens, setup/takedown of tables and chairs, prep kitchen, ice machine, floor easels, bride's dressing room, sound system, projector and screen, wireless microphone and stand, venue host/hostess\nCeremony coordination — $125\nFull decor closet (staff set up and take down) — $150\nClient personal decor setup — $100\nWooden or circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nSparkler package, 50 count — $40\nSparkler package, 100 count — $70 (FAQ says $75)\nGarden room overflow — $400\nCeremony transition fee for groups over 90 — $100"
     }
    ]
   },
@@ -690,6 +690,75 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": "$200 fee and confiscation if found"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Rice paper is allowed"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Family-friendly music only"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "10am–3pm, 5–10pm or all day",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekday (Mon–Wed)",
+   "hours": "10am–3pm",
+   "price": "$1,800",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekday (Mon–Wed)",
+   "hours": "5–10pm",
+   "price": "$2,250",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekday (Mon–Wed)",
+   "hours": "10am–10pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Prime (Thu–Sat)",
+   "hours": "10am–3pm",
+   "price": "$2,150",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Prime (Thu–Sat)",
+   "hours": "5–10pm",
+   "price": "$2,750",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Prime (Thu–Sat)",
+   "hours": "10am–10pm",
+   "price": "$4,200",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "copper-creek-event-center",
   "Venue Name": "Copper Creek Event Center",
@@ -704,7 +773,7 @@
   "Seated Low": "120",
   "Seated High": "160",
   "Seated Capacity": "Seated dinner 130 preferred, 160 max\nBuffet dinner 120–140",
-  "Packages and Prices": "Weekday (Mon-Wed): 10am-3pm — $1,800; 5pm-10pm — $2,250; 10am-10pm — $3,000\nPrime (Thu-Sat): 10am-3pm — $2,150; 5pm-10pm — $2,750; 10am-10pm — $4,200\nEvery rental includes 90 chairs, 9 60-inch round tables with linens, cake table with linen, cake stand and cutting utensils, personalized entry sign, sign-in table, 2 banquet tables with linens, setup/takedown of tables and chairs, prep kitchen, ice machine, floor easels, bride's dressing room, sound system, projector and screen, wireless microphone and stand, venue host/hostess\nCeremony coordination — $125\nFull decor closet (staff set up and take down) — $150\nClient personal decor setup — $100\nWooden or circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nSparkler package, 50 count — $40\nSparkler package, 100 count — $70 (FAQ says $75)\nGarden room overflow — $400\nCeremony transition fee for groups over 90 — $100",
+  "Packages and Prices": "Every rental includes 90 chairs, 9 60-inch round tables with linens, cake table with linen, cake stand and cutting utensils, personalized entry sign, sign-in table, 2 banquet tables with linens, setup/takedown of tables and chairs, prep kitchen, ice machine, floor easels, bride's dressing room, sound system, projector and screen, wireless microphone and stand, venue host/hostess\nCeremony coordination — $125\nFull decor closet (staff set up and take down) — $150\nClient personal decor setup — $100\nWooden or circle arch backdrop — $75\nAdditional linens — $20\nAdditional table with linen and chairs — $60\nSparkler package, 50 count — $40\nSparkler package, 100 count — $70 (FAQ says $75)\nGarden room overflow — $400\nCeremony transition fee for groups over 90 — $100",
   "Time slots": "Mon-Wed 10am-3pm\nMon-Wed 5pm-10pm\nMon-Wed 10am-10pm\nThu-Sat 10am-3pm\nThu-Sat 5pm-10pm\nThu-Sat 10am-10pm\nShorter events: 3-hour minimum at an hourly rate",
   "Length of Rental": "5-12 hours",
   "Style": "Elegant\nRomantic\nTimeless\nSophisticated",
@@ -722,6 +791,10 @@
   "Bride/Groom Rooms": "Private bride's dressing room",
   "Restrictions": "Alcohol prohibited on the space and property\nLive-flame candles only through in-house florist Ben & Annie Flowers; other candles must be faux\nNo confetti or glitter (rice paper allowed)\nNothing attached to the walls\nLights or drapery hung only by a licensed, insured company\nFamily-friendly music only\nBuilding must be vacated at rental end ($200 per extra half-hour)\nBussing tables is the caterer's or client's responsibility",
   "Important Notes": "Sparkler 100-count price: pricing page $70, FAQ $75\nKitchen use fee: pricing page $120, FAQ $125\nNo dedicated groom's room\nOpen house style: seating for 90-120, invite up to 400\n1-2 staff on site during every event",
-  "Contact Information": "Phone: 801-900-3082\nEmail: admin@coppercreekeventcenter.com"
+  "Contact Information": "Phone: 801-900-3082\nEmail: admin@coppercreekeventcenter.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "10am–3pm, 5–10pm or all day",
+  "Rates": "Weekday (Mon–Wed) · 10am–3pm — $1,800\nWeekday (Mon–Wed) · 5–10pm — $2,250\nWeekday (Mon–Wed) · 10am–10pm — $3,000\nPrime (Thu–Sat) · 10am–3pm — $2,150\nPrime (Thu–Sat) · 5–10pm — $2,750\nPrime (Thu–Sat) · 10am–10pm — $4,200",
+  "Rules": "Alcohol: Not allowed — $200 fee and confiscation if found\nConfetti: Not allowed — Rice paper is allowed\nMusic cutoff: Conditions — Family-friendly music only"
  }
 }

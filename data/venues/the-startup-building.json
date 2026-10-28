@@ -227,7 +227,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed — $1,550\nSame inclusions — Thu — $2,250\nSame inclusions — Fri & Sun — $2,550\nSame inclusions — Sat — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200"
+     "value": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200"
     },
     {
      "id": "pricing-deposit",
@@ -715,6 +715,54 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Licensed bartender; $200 fee"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "No glitter either"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "10am–11pm",
+ "rates": [
+  {
+   "package": "Full-day rental",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "10am–11pm",
+   "price": "$1,550",
+   "note": ""
+  },
+  {
+   "package": "Full-day rental",
+   "season": "",
+   "days": "Thu",
+   "hours": "10am–11pm",
+   "price": "$2,250",
+   "note": ""
+  },
+  {
+   "package": "Full-day rental",
+   "season": "",
+   "days": "Fri & Sun",
+   "hours": "10am–11pm",
+   "price": "$2,550",
+   "note": ""
+  },
+  {
+   "package": "Full-day rental",
+   "season": "",
+   "days": "Sat",
+   "hours": "10am–11pm",
+   "price": "$2,750",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "the-startup-building",
   "Venue Name": "The Startup Building",
@@ -732,7 +780,7 @@
   "Standing Low": "300",
   "Standing High": "300",
   "Standing Capacity": "300",
-  "Packages and Prices": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room — Mon-Wed — $1,550\nSame inclusions — Thu — $2,250\nSame inclusions — Fri & Sun — $2,550\nSame inclusions — Sat — $2,750\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200",
+  "Packages and Prices": "Full-day rental 10am-11pm with cafe lights, cake table, wooden arch, 2 wooden floor easels, 4 plastic cocktail tables, 150 wooden chairs, 15 wooden tables, 4 ADA restrooms, sound system with 2 wireless mics, digital projector with HDMI and AppleTV, catering area with fridge and freezer, 3 chandeliers with faux greenery, powder room\nCourtyard add-on — $500 Apr-Sep or $200 Oct-Mar\nAlcohol fee with licensed bartender — $200",
   "Time slots": "Mon-Wed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
   "Length of Rental": "13 hours",
   "Style": "Industrial\nHistoric\nRustic",
@@ -750,6 +798,10 @@
   "Bride/Groom Rooms": "Bridal / get-ready room (powder room with mirrors, sink and couch)",
   "Restrictions": "No glitter\nNo confetti\nNo nails or tacks in walls or posts\nCandles only in a votive",
   "Important Notes": "Weekends typically book 1-2 months ahead; weekdays 2-4 weeks\nBuilding also houses offices, so the lot is busier on weekdays before 5pm\nSister venue: The Bright Building",
-  "Contact Information": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding"
+  "Contact Information": "Phone/text: (385) 236-3061\nInstagram: @thestartupbuilding",
+  "Days Open": "Mon–Sun",
+  "Hours": "10am–11pm",
+  "Rates": "Full-day rental · Mon–Wed · 10am–11pm — $1,550\nFull-day rental · Thu · 10am–11pm — $2,250\nFull-day rental · Fri & Sun · 10am–11pm — $2,550\nFull-day rental · Sat · 10am–11pm — $2,750",
+  "Rules": "Alcohol: Conditions — Licensed bartender; $200 fee\nConfetti: Not allowed — No glitter either"
  }
 }

@@ -226,7 +226,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Tuesday-Thursday — $3,200\nFriday & Saturday — $3,500\nIncludes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)"
+     "value": "Includes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)"
     },
     {
      "id": "pricing-deposit",
@@ -694,6 +694,27 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Tue–Sat",
+ "hours": "",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Tue–Thu",
+   "hours": "",
+   "price": "$3,200",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri & Sat",
+   "hours": "",
+   "price": "$3,500",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "sun-river-gardens",
   "Venue Name": "Sun River Gardens",
@@ -706,7 +727,7 @@
   "Price Basis": "rental",
   "Standard Price Range": "Tue–Thu $3,200; Fri–Sat $3,500",
   "Seated Capacity": "Not stated",
-  "Packages and Prices": "Tuesday-Thursday — $3,200\nFriday & Saturday — $3,500\nIncludes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)",
+  "Packages and Prices": "Includes wedding coordinator, 1-2 on-site coordinators, setup and teardown of tables, chairs and linens\nToppers, sashes, napkins, chair covers and extra runners — extra charge (prices not stated)",
   "Time slots": "Tuesday-Thursday\nFriday-Saturday\nNo events in May",
   "Style": "Garden\nGreenhouse",
   "Other Decor Included": "12 60\" round tables and 5 tallboy tables\nBanquet tables on request\n15 base table linens (70+ colors)\n100+ cushioned chairs\nSign-in table, gift table, cake table and TV table\nIvy topiary and/or lantern centerpieces\n4 floor easels (about 5 ft) and 2 tabletop easels\n32\" flat-screen HD TV and DVD player\nTropical and seasonal greenery, water features, gazebos and flowering baskets",
@@ -721,6 +742,8 @@
   "Bride/Groom Rooms": "Private bridal room",
   "Restrictions": "No events in May (busy garden retail season)",
   "Important Notes": "Reception information is on sunriverreceptions.com, linked from the garden center's menu\nReception site notice (undated): venue is undergoing an expansion through mid-summer; inquiries and reservations accepted from late spring\nReceptions offered since 2006",
-  "Contact Information": "Phone (receptions): 801-769-6805\nPhone (garden center): 801-229-1975\nEmail: info@sunrivergardens.com\nInstagram: @sunriverreceptions"
+  "Contact Information": "Phone (receptions): 801-769-6805\nPhone (garden center): 801-229-1975\nEmail: info@sunrivergardens.com\nInstagram: @sunriverreceptions",
+  "Days Open": "Tue–Sat",
+  "Rates": "Tue–Thu — $3,200\nFri & Sat — $3,500"
  }
 }

@@ -240,7 +240,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "8-hour rental 2pm-10pm with indoor option (house), onsite coordinator or hostess, standard tables, chairs and linens, kitchen access, bridal suite and groom's room, patio with lights, parking — Mon-Wed — $4,000\nSame inclusions — Thu-Sat — $5,000\nFull day 10am-10pm — add $1,000 to the day rate\nCeremony only, 3 hours between 9am-1pm, indoor or outdoor, 100 chairs, sign-in table, lanterns on shepherd hooks, ice water, dressing rooms — $1,000 ($500 non-refundable deposit); extra hour $200\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nLinens only — $10-$20\nTable setup on the flat area — $200\nCatering restock staff — $75 per staff for 2 hours; $25/hour extra"
+     "value": "8-hour rental 2pm-10pm with indoor option (house), onsite coordinator or hostess, standard tables, chairs and linens, kitchen access, bridal suite and groom's room, patio with lights, parking\nFull day 10am-10pm — add $1,000 to the day rate\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nLinens only — $10-$20\nTable setup on the flat area — $200\nCatering restock staff — $75 per staff for 2 hours; $25/hour extra"
     },
     {
      "id": "pricing-deposit",
@@ -804,6 +804,51 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Also no silk petals, fireworks or fiber-optic wands"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Events end by 10pm (sound ordinance)"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "2–10pm (all day from 10am)",
+ "rates": [
+  {
+   "package": "8-hour rental",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "2–10pm",
+   "price": "$4,000",
+   "note": ""
+  },
+  {
+   "package": "8-hour rental",
+   "season": "",
+   "days": "Thu–Sat",
+   "hours": "2–10pm",
+   "price": "$5,000",
+   "note": ""
+  },
+  {
+   "package": "Ceremony only (indoor or outdoor)",
+   "season": "",
+   "days": "",
+   "hours": "3 hours between 9am and 1pm",
+   "price": "$1,000",
+   "note": "$500 nonrefundable deposit; extra hour $200; 100 chairs, sign-in table, lanterns on shepherd hooks, ice water, dressing rooms"
+  }
+ ],
  "raw": {
   "Venue ID": "conrad-ranch",
   "Venue Name": "Conrad Ranch",
@@ -821,7 +866,7 @@
   "Standing Low": "350",
   "Standing High": "350",
   "Standing Capacity": "350+ for an open house (indoor facility)",
-  "Packages and Prices": "8-hour rental 2pm-10pm with indoor option (house), onsite coordinator or hostess, standard tables, chairs and linens, kitchen access, bridal suite and groom's room, patio with lights, parking — Mon-Wed — $4,000\nSame inclusions — Thu-Sat — $5,000\nFull day 10am-10pm — add $1,000 to the day rate\nCeremony only, 3 hours between 9am-1pm, indoor or outdoor, 100 chairs, sign-in table, lanterns on shepherd hooks, ice water, dressing rooms — $1,000 ($500 non-refundable deposit); extra hour $200\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nLinens only — $10-$20\nTable setup on the flat area — $200\nCatering restock staff — $75 per staff for 2 hours; $25/hour extra",
+  "Packages and Prices": "8-hour rental 2pm-10pm with indoor option (house), onsite coordinator or hostess, standard tables, chairs and linens, kitchen access, bridal suite and groom's room, patio with lights, parking\nFull day 10am-10pm — add $1,000 to the day rate\n100 additional chairs — $2 each\nAdditional guest table with chairs and linen — $40 each, up to 5\nServing table with linen — $30 each\nLinens only — $10-$20\nTable setup on the flat area — $200\nCatering restock staff — $75 per staff for 2 hours; $25/hour extra",
   "Time slots": "Mon-Wed 2pm-10pm\nThu-Sat 2pm-10pm\nFull day 10am-10pm (add $1,000)\nCeremony only 9am-1pm (3-hour block)\nClosed Sunday",
   "Length of Rental": "3-12 hours",
   "Style": "Natural\nHistoric\nTimeless\nElegant",
@@ -841,6 +886,10 @@
   "Bride/Groom Rooms": "Bridal suite\nGroom's room",
   "Restrictions": "No cooking\nNo glass bottles served to guests\nNo silk petals, confetti, fireworks, fiber-optic wands or pond decorations\nSparklers only outside in provided metal buckets; cleanup required\nGround stakes need staff approval\nSmoking and vaping only in the parking lots\nEvents end by 10pm (sound ordinance)\nNo arriving early or staying past rental hours",
   "Important Notes": "No Wi-Fi; AT&T has the best cell service\nOutdoor events April-October; indoor events March-November 1\nDJ: outside DJ or in-house DJ\nOnly one event at a time",
-  "Contact Information": "Linda Conrad: 801-225-6238 (no text)\nJen Walker: (801) 368-3223\nEmail: conradranch1863@gmail.com"
+  "Contact Information": "Linda Conrad: 801-225-6238 (no text)\nJen Walker: (801) 368-3223\nEmail: conradranch1863@gmail.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "2–10pm (all day from 10am)",
+  "Rates": "8-hour rental · Mon–Wed · 2–10pm — $4,000\n8-hour rental · Thu–Sat · 2–10pm — $5,000\nCeremony only (indoor or outdoor) · 3 hours between 9am and 1pm — $1,000 ($500 nonrefundable deposit; extra hour $200; 100 chairs, sign-in table, lanterns on shepherd hooks, ice water, dressing rooms)",
+  "Rules": "Alcohol: Not allowed\nConfetti: Not allowed — Also no silk petals, fireworks or fiber-optic wands\nMusic cutoff: Conditions — Events end by 10pm (sound ordinance)"
  }
 }

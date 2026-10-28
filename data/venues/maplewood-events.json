@@ -233,7 +233,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Morning event 10am-2pm (Monday-Sunday) — $1,400\nEvening event 5-10pm — $1,600 (Monday-Wednesday); $2,050 (Thursday-Sunday)\nFull day 12-10pm — $1,900 (Monday-Wednesday); $2,450 (Thursday-Sunday)\nAdditional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant"
+     "value": "Additional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant"
     },
     {
      "id": "pricing-deposit",
@@ -776,6 +776,67 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": "$500 fine and event closure"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Automatic fine; no glitter either"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Events end by 10pm"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "10am–2pm, 5–10pm or 12–10pm",
+ "rates": [
+  {
+   "package": "Morning event",
+   "season": "",
+   "days": "Mon–Sun",
+   "hours": "10am–2pm",
+   "price": "$1,400",
+   "note": ""
+  },
+  {
+   "package": "Evening event",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "5–10pm",
+   "price": "$1,600",
+   "note": ""
+  },
+  {
+   "package": "Evening event",
+   "season": "",
+   "days": "Thu–Sun",
+   "hours": "5–10pm",
+   "price": "$2,050",
+   "note": ""
+  },
+  {
+   "package": "Full day",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "12–10pm",
+   "price": "$1,900",
+   "note": ""
+  },
+  {
+   "package": "Full day",
+   "season": "",
+   "days": "Thu–Sun",
+   "hours": "12–10pm",
+   "price": "$2,450",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "maplewood-events",
   "Venue Name": "Maplewood Events",
@@ -790,7 +851,7 @@
   "Seated Low": "112",
   "Seated High": "162",
   "Seated Capacity": "112 included\n162 with added tables",
-  "Packages and Prices": "Morning event 10am-2pm (Monday-Sunday) — $1,400\nEvening event 5-10pm — $1,600 (Monday-Wednesday); $2,050 (Thursday-Sunday)\nFull day 12-10pm — $1,900 (Monday-Wednesday); $2,450 (Thursday-Sunday)\nAdditional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant",
+  "Packages and Prices": "Additional 1-hour block — $200\nCeremony within booked time (up to 100 white chairs, decorated backdrop) — $100 if renter takes down chairs; $200 if Maplewood does\nCeremony with a 1-hour block added — $300-$400\nRental includes 10 reclaimed wood tables, 80-100 wood chairs, 4 bar tables with 3 stools each, backdrop, sign-in tables, gift area, cake table, serving tables, warming kitchen, 2 dressing rooms, sound system, microphone, Smart TV, dance lighting and an onsite attendant",
   "Time slots": "Morning 10am-2pm\nEvening 5-10pm\nFull day 12-10pm",
   "Length of Rental": "4 hours (morning)\n5 hours (evening)\n10 hours (full day)",
   "Style": "Modern\nDecorated\nCustomizable",
@@ -810,6 +871,10 @@
   "Bride/Groom Rooms": "2 private dressing rooms with vanities, mirrors and seating",
   "Restrictions": "No alcohol\nNo confetti or glitter inside or in the parking lot (automatic fine)\nNo fog machines or spark-free pyrotechnics\nNo tape, command strips or nails on walls\nFake petals only for ceremony aisle\nNo propane grills or fryers\nBuilding access only during booked time\nEvents end by 10pm",
   "Important Notes": "Building occupancy 224\nReception seating: 112 included, up to 162 with added tables at extra cost\nWeekend rates apply Thursday-Sunday",
-  "Contact Information": "Phone (Bonnie): (385) 250-7061\nPhone (Amy): (801) 319-2341\nEmail: maplewood1068@gmail.com"
+  "Contact Information": "Phone (Bonnie): (385) 250-7061\nPhone (Amy): (801) 319-2341\nEmail: maplewood1068@gmail.com",
+  "Days Open": "Mon–Sun",
+  "Hours": "10am–2pm, 5–10pm or 12–10pm",
+  "Rates": "Morning event · Mon–Sun · 10am–2pm — $1,400\nEvening event · Mon–Wed · 5–10pm — $1,600\nEvening event · Thu–Sun · 5–10pm — $2,050\nFull day · Mon–Wed · 12–10pm — $1,900\nFull day · Thu–Sun · 12–10pm — $2,450",
+  "Rules": "Alcohol: Not allowed — $500 fine and event closure\nConfetti: Not allowed — Automatic fine; no glitter either\nMusic cutoff: Conditions — Events end by 10pm"
  }
 }

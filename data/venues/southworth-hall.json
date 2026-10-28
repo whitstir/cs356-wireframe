@@ -212,7 +212,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs — Mon-Thu — $1,400\nSame inclusions — Fri-Sat — $1,600\nFull day 8am-12am, same tables and chairs — $1,890\nBrunch / luncheon, 3 hours between 6am-2pm, same tables and chairs — $600; additional time $100/hour\nSunday do-it-yourself 12pm-12am, no staff, up to 16 round & 6 rectangle tables, up to 200 chairs — call for pricing\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799"
+     "value": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799"
     }
    ]
   },
@@ -609,6 +609,51 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon–Sun",
+ "hours": "2:30pm–12am; full day or brunch",
+ "rates": [
+  {
+   "package": "Evening rental",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "2:30pm–12am",
+   "price": "$1,400",
+   "note": ""
+  },
+  {
+   "package": "Evening rental",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "2:30pm–12am",
+   "price": "$1,600",
+   "note": ""
+  },
+  {
+   "package": "Full day",
+   "season": "",
+   "days": "",
+   "hours": "8am–12am",
+   "price": "$1,890",
+   "note": ""
+  },
+  {
+   "package": "Brunch / luncheon",
+   "season": "",
+   "days": "",
+   "hours": "3 hours between 6am and 2pm",
+   "price": "$600",
+   "note": "Additional time $100/hour"
+  },
+  {
+   "package": "Sunday do-it-yourself",
+   "season": "",
+   "days": "Sun",
+   "hours": "12pm–12am",
+   "price": "Call for pricing",
+   "note": "No staff; up to 16 round and 6 rectangle tables, 200 chairs"
+  }
+ ],
  "raw": {
   "Venue ID": "southworth-hall",
   "Venue Name": "Southworth Hall",
@@ -623,7 +668,7 @@
   "Seated Low": "200",
   "Seated High": "200",
   "Seated Capacity": "Up to 200 chairs",
-  "Packages and Prices": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs — Mon-Thu — $1,400\nSame inclusions — Fri-Sat — $1,600\nFull day 8am-12am, same tables and chairs — $1,890\nBrunch / luncheon, 3 hours between 6am-2pm, same tables and chairs — $600; additional time $100/hour\nSunday do-it-yourself 12pm-12am, no staff, up to 16 round & 6 rectangle tables, up to 200 chairs — call for pricing\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
+  "Packages and Prices": "Evening rental 2:30pm-12am, up to 20 round & 6 rectangle tables, up to 200 chairs\nSound package (in-house sound system, one wireless mic) — $199, now free with all bookings\nWhite linens for 15 round and 5 buffet tables — $99\nDJ, 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
   "Time slots": "Mon-Thu 2:30pm-12am\nFri-Sat 2:30pm-12am\nFull day 8am-12am\nBrunch or luncheon 6am-2pm\nSunday DIY 12pm-12am",
   "Length of Rental": "3-16 hours",
   "Style": "Historic\nWarm\nClassy\nRustic",
@@ -632,6 +677,9 @@
   "sound system": "Yes\nIn-house sound system\nOne wireless microphone",
   "extras": "DJ (Southworth affiliate), 3-hour block — $299; extra time $75/hour\nPhoto booth (custom-designed photo strips, green screen) — $199\nThe Whole Enchilada (linens, sound, DJ, photo booth) — $799",
   "Important Notes": "Early bird special (limited dates): 25-40% off full-day or evening rates with an 8:30pm end time; add-ons 20-40% off except linens\nSundays are do-it-yourself with no staff; call for pricing",
-  "Contact Information": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall"
+  "Contact Information": "Phone: 801-616-6046\nText: 801-616-6046\nEmail: reservations@southworthhall.com\nInstagram: @southworthhall",
+  "Days Open": "Mon–Sun",
+  "Hours": "2:30pm–12am; full day or brunch",
+  "Rates": "Evening rental · Mon–Thu · 2:30pm–12am — $1,400\nEvening rental · Fri–Sat · 2:30pm–12am — $1,600\nFull day · 8am–12am — $1,890\nBrunch / luncheon · 3 hours between 6am and 2pm — $600 (Additional time $100/hour)\nSunday do-it-yourself · Sun · 12pm–12am — Call for pricing (No staff; up to 16 round and 6 rectangle tables, 200 chairs)"
  }
 }

@@ -217,7 +217,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "9-hour block, Mon-Thu 9am-6pm — $840 ($200 deposit)\n14-hour block, Mon-Thu 9am-11pm — $1,350 ($300 deposit)\n14-hour block, Fri-Sat 9am-11pm — $2,000 ($300 deposit)\n15-hour block, Mon-Sat 9am-12am — $2,300 ($500 deposit)\nAll blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental"
+     "value": "All blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental"
     },
     {
      "id": "pricing-deposit",
@@ -713,6 +713,49 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "9am to 6pm, 11pm or midnight",
+ "rates": [
+  {
+   "package": "9-hour block",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "9am–6pm",
+   "price": "$840",
+   "note": "$200 deposit"
+  },
+  {
+   "package": "14-hour block",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "9am–11pm",
+   "price": "$1,350",
+   "note": "$300 deposit"
+  },
+  {
+   "package": "14-hour block",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "9am–11pm",
+   "price": "$2,000",
+   "note": "$300 deposit"
+  },
+  {
+   "package": "15-hour block",
+   "season": "",
+   "days": "Mon–Sat",
+   "hours": "9am–12am",
+   "price": "$2,300",
+   "note": "$500 deposit"
+  }
+ ],
  "raw": {
   "Venue ID": "provo-library-ballroom",
   "Venue Name": "Provo Library Ballroom",
@@ -727,7 +770,7 @@
   "Seated Low": "320",
   "Seated High": "350",
   "Seated Capacity": "320 banquet (ballroom page)\n350 dinner (meeting-rooms page)",
-  "Packages and Prices": "9-hour block, Mon-Thu 9am-6pm — $840 ($200 deposit)\n14-hour block, Mon-Thu 9am-11pm — $1,350 ($300 deposit)\n14-hour block, Fri-Sat 9am-11pm — $2,000 ($300 deposit)\n15-hour block, Mon-Sat 9am-12am — $2,300 ($500 deposit)\nAll blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental",
+  "Packages and Prices": "All blocks include library tables, chairs and stage set up and taken down, kitchen use, all A/V equipment and the Brimhall Room\nProvo residents: 15% off rental",
   "Time slots": "Mon-Thu 9am-6pm\nMon-Thu 9am-11pm\nFri-Sat 9am-11pm\nMon-Sat 9am-12am",
   "Length of Rental": "9-15 hours",
   "Style": "Historic",
@@ -744,6 +787,10 @@
   "Alcohol policy": "Alcohol prohibited on all library premises",
   "Restrictions": "No cooking in the facility\nAccess only during scheduled hours; overtime fees up to the full deposit\nNo midday furniture switchovers\nNo open flame or lit candles; no glitter, colored powder, fog, smoke, fireworks, cold sparks or pyrotechnics\nDecorations pre-approved; no tape or adhesives on walls\nNo alcohol; no smoking\nLibrary grounds (lawns, parking) not available for events",
   "Important Notes": "User-provided decorations, linens and catering allowed with no extra fees\nBallroom cannot be booked online; book by phone or in person (Events Scheduling Office, Room #213)\nBookable up to one year ahead\nBallroom is room #315, third floor of the Academy wing",
-  "Contact Information": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov"
+  "Contact Information": "Phone: 801-852-6650\nPhone: 801-852-7691\nEmail: roomscheduling@provolibrary.gov",
+  "Days Open": "Mon–Sat",
+  "Hours": "9am to 6pm, 11pm or midnight",
+  "Rates": "9-hour block · Mon–Thu · 9am–6pm — $840 ($200 deposit)\n14-hour block · Mon–Thu · 9am–11pm — $1,350 ($300 deposit)\n14-hour block · Fri–Sat · 9am–11pm — $2,000 ($300 deposit)\n15-hour block · Mon–Sat · 9am–12am — $2,300 ($500 deposit)",
+  "Rules": "Alcohol: Not allowed"
  }
 }

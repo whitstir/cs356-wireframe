@@ -210,11 +210,6 @@
      "id": "pricing-price",
      "label": "Price",
      "value": "4–11pm or all-day rentals $1,600–$2,400"
-    },
-    {
-     "id": "pricing-packages-add-ons",
-     "label": "Packages & add-ons",
-     "value": "Monday-Thursday 4-11pm — $1,600\nMonday-Thursday all day — $2,000\nMonday-Thursday hourly — $250/hour (3-hour minimum)\nFriday-Sunday and holidays 4-11pm — $1,900\nFriday-Sunday and holidays all day — $2,400\nFriday-Sunday and holidays hourly — $300/hour (3-hour minimum)"
     }
    ]
   },
@@ -649,6 +644,65 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "4–11pm, all day or hourly",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "4–11pm",
+   "price": "$1,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "All day",
+   "price": "$2,000",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "Hourly",
+   "price": "$250/hour",
+   "note": "3-hour minimum"
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sun and holidays",
+   "hours": "4–11pm",
+   "price": "$1,900",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sun and holidays",
+   "hours": "All day",
+   "price": "$2,400",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sun and holidays",
+   "hours": "Hourly",
+   "price": "$300/hour",
+   "note": "3-hour minimum"
+  }
+ ],
  "raw": {
   "Venue ID": "the-oaks-at-spanish-fork",
   "Venue Name": "Event Center at The Oaks",
@@ -663,7 +717,6 @@
   "Seated Low": "160",
   "Seated High": "160",
   "Seated Capacity": "20 round tables seating 8 (160)",
-  "Packages and Prices": "Monday-Thursday 4-11pm — $1,600\nMonday-Thursday all day — $2,000\nMonday-Thursday hourly — $250/hour (3-hour minimum)\nFriday-Sunday and holidays 4-11pm — $1,900\nFriday-Sunday and holidays all day — $2,400\nFriday-Sunday and holidays hourly — $300/hour (3-hour minimum)",
   "Time slots": "Monday-Thursday: 4-11pm or all day\nFriday-Sunday and holidays: 4-11pm or all day\nHourly rentals (3-hour minimum)",
   "Length of Rental": "7 hours (4-11pm)\nAll day\nHourly, 3-hour minimum",
   "Style": "Golf course setting\nFlexible",
@@ -676,6 +729,10 @@
   "Bride/Groom Rooms": "Bride's room with vanity",
   "Restrictions": "Alcohol not permitted\nHourly rentals require a 3-hour minimum",
   "Important Notes": "Event center is at The Oaks at Spanish Fork golf course, run by Spanish Fork City\nThe old theoaksatsf.com address now redirects to the city's website",
-  "Contact Information": "Event Center Coordinator: (385) 448-6658\nEmail: sfoaksevents@gmail.com"
+  "Contact Information": "Event Center Coordinator: (385) 448-6658\nEmail: sfoaksevents@gmail.com",
+  "Days Open": "Mon–Sun",
+  "Hours": "4–11pm, all day or hourly",
+  "Rates": "Mon–Thu · 4–11pm — $1,600\nMon–Thu · All day — $2,000\nMon–Thu · Hourly — $250/hour (3-hour minimum)\nFri–Sun and holidays · 4–11pm — $1,900\nFri–Sun and holidays · All day — $2,400\nFri–Sun and holidays · Hourly — $300/hour (3-hour minimum)",
+  "Rules": "Alcohol: Not allowed"
  }
 }

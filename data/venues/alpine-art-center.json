@@ -230,7 +230,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65"
+     "value": "Every rental includes: banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65"
     },
     {
      "id": "pricing-deposit",
@@ -794,6 +794,161 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Required-list bartender; $400 fee; client brings alcohol"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "10am–3pm, 5–10pm or all day",
+ "rates": [
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Mon–Wed",
+   "hours": "10am–3pm",
+   "price": "$2,400",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Mon–Wed",
+   "hours": "5–10pm",
+   "price": "$2,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Mon–Wed",
+   "hours": "10am–10pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Thu",
+   "hours": "10am–3pm",
+   "price": "$2,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Thu",
+   "hours": "5–10pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$3,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Fri–Sat",
+   "hours": "10am–3pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Fri–Sat",
+   "hours": "5–10pm",
+   "price": "$3,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Apr–Oct",
+   "days": "Fri–Sat",
+   "hours": "10am–10pm",
+   "price": "$4,200",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Mon–Wed",
+   "hours": "10am–3pm",
+   "price": "$1,700",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Mon–Wed",
+   "hours": "5–10pm",
+   "price": "$1,900",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Mon–Wed",
+   "hours": "10am–10pm",
+   "price": "$2,500",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Thu",
+   "hours": "10am–3pm",
+   "price": "$1,900",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Thu",
+   "hours": "5–10pm",
+   "price": "$2,500",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$2,900",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Fri–Sat",
+   "hours": "10am–3pm",
+   "price": "$2,500",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Fri–Sat",
+   "hours": "5–10pm",
+   "price": "$2,900",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "Nov–Mar",
+   "days": "Fri–Sat",
+   "hours": "10am–10pm",
+   "price": "$3,300",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "alpine-art-center",
   "Venue Name": "Alpine Art Center",
@@ -811,7 +966,7 @@
   "Standing Low": "360",
   "Standing High": "500",
   "Standing Capacity": "400-500 come-and-go reception\n360-400 for a dance",
-  "Packages and Prices": "Banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown — Mon-Wed Apr-Oct 10am-3pm — $2,400\nSame inclusions — Mon-Wed Apr-Oct 5pm-10pm — $2,600\nSame inclusions — Mon-Wed Apr-Oct 10am-10pm — $3,000\nSame inclusions — Mon-Wed Nov-Mar 10am-3pm — $1,700\nSame inclusions — Mon-Wed Nov-Mar 5pm-10pm — $1,900\nSame inclusions — Mon-Wed Nov-Mar 10am-10pm — $2,500\nSame inclusions — Thu Apr-Oct 10am-3pm — $2,600\nSame inclusions — Thu Apr-Oct 5pm-10pm — $3,000\nSame inclusions — Thu Apr-Oct 10am-10pm — $3,600\nSame inclusions — Thu Nov-Mar 10am-3pm — $1,900\nSame inclusions — Thu Nov-Mar 5pm-10pm — $2,500\nSame inclusions — Thu Nov-Mar 10am-10pm — $2,900\nSame inclusions — Fri-Sat Apr-Oct 10am-3pm — $3,000\nSame inclusions — Fri-Sat Apr-Oct 5pm-10pm — $3,600\nSame inclusions — Fri-Sat Apr-Oct 10am-10pm — $4,200\nSame inclusions — Fri-Sat Nov-Mar 10am-3pm — $2,500\nSame inclusions — Fri-Sat Nov-Mar 5pm-10pm — $2,900\nSame inclusions — Fri-Sat Nov-Mar 10am-10pm — $3,300\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65",
+  "Packages and Prices": "Every rental includes: banquet room, 10 round tables, 2 banquet tables, 80 teak chairs, cake table, serving tables, cabaret tables, sign-in table, drink table, 3 easels, projector, event host, exclusive garden and gallery access, centerpieces, large chandelier, bride and groom rooms, prep kitchen, fridge, ice machine, wireless microphone, speaker system, baby grand piano, linens, setup and takedown\nIndoor ceremony — $350\nOutdoor ceremony — $350\nBubble send-off — $75\nStreamer send-off — $50\nFiber-optic wand send-off — $50\nAdditional 60-inch round table with 8 chairs and linens — $35\nCabaret table — $22\nRectangle table — $24\n4-foot sweetheart table — $22\nAdditional linens — $10\nAdditional runners — $8\nAdditional time — $250/hour; after 10pm — $350/hour\nAlcohol charge — $400\nCake cutting service — $65",
   "Time slots": "Mon-Wed Apr-Oct 10am-3pm\nMon-Wed Apr-Oct 5pm-10pm\nMon-Wed Apr-Oct 10am-10pm\nMon-Wed Nov-Mar 10am-3pm\nMon-Wed Nov-Mar 5pm-10pm\nMon-Wed Nov-Mar 10am-10pm\nThu Apr-Oct 10am-3pm\nThu Apr-Oct 5pm-10pm\nThu Apr-Oct 10am-10pm\nThu Nov-Mar 10am-3pm\nThu Nov-Mar 5pm-10pm\nThu Nov-Mar 10am-10pm\nFri-Sat Apr-Oct 10am-3pm\nFri-Sat Apr-Oct 5pm-10pm\nFri-Sat Apr-Oct 10am-10pm\nFri-Sat Nov-Mar 10am-3pm\nFri-Sat Nov-Mar 5pm-10pm\nFri-Sat Nov-Mar 10am-10pm",
   "Length of Rental": "5-12 hours",
   "Style": "Elegant\nLush",
@@ -830,6 +985,10 @@
   "Bride/Groom Rooms": "Bride room\nGroom room",
   "Restrictions": "Licensed bartender required for alcohol\nCandles must be contained so wax does not drip on linens\nNo sparklers\nSelf-catering: no use of ovens, stoves, freezers or utensils",
   "Important Notes": "Prices are 2026 rates; on season April-October, off season November-March.\nSeats 200 theater-style (ceremony).\nCatering has no hidden or mandatory service charges (home page).\nFAQ says final payment is due 3.5 weeks before the event; the Pricing page says 4 weeks.",
-  "Contact Information": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com"
+  "Contact Information": "Phone: 801-763-7173\nEmail: info@alpineartcenter.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "10am–3pm, 5–10pm or all day",
+  "Rates": "Apr–Oct · Mon–Wed · 10am–3pm — $2,400\nApr–Oct · Mon–Wed · 5–10pm — $2,600\nApr–Oct · Mon–Wed · 10am–10pm — $3,000\nApr–Oct · Thu · 10am–3pm — $2,600\nApr–Oct · Thu · 5–10pm — $3,000\nApr–Oct · Thu · 10am–10pm — $3,600\nApr–Oct · Fri–Sat · 10am–3pm — $3,000\nApr–Oct · Fri–Sat · 5–10pm — $3,600\nApr–Oct · Fri–Sat · 10am–10pm — $4,200\nNov–Mar · Mon–Wed · 10am–3pm — $1,700\nNov–Mar · Mon–Wed · 5–10pm — $1,900\nNov–Mar · Mon–Wed · 10am–10pm — $2,500\nNov–Mar · Thu · 10am–3pm — $1,900\nNov–Mar · Thu · 5–10pm — $2,500\nNov–Mar · Thu · 10am–10pm — $2,900\nNov–Mar · Fri–Sat · 10am–3pm — $2,500\nNov–Mar · Fri–Sat · 5–10pm — $2,900\nNov–Mar · Fri–Sat · 10am–10pm — $3,300",
+  "Rules": "Alcohol: Conditions — Required-list bartender; $400 fee; client brings alcohol"
  }
 }

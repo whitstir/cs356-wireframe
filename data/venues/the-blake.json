@@ -229,7 +229,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Full venue rental (The Gallery, The Assembly Hall, The Terrace, bridal suite, kitchen, sound room, decorations room, one included set-up, tables, chairs, decor package) — Sun-Wed — $1,700\nSame inclusions — Thu — $1,900\nSame inclusions — Fri-Sat — $2,600\nEarly access or late checkout — $100/hour\nAlcohol fee (licensed bartender required) — $300"
+     "value": "Full venue rental (The Gallery, The Assembly Hall, The Terrace, bridal suite, kitchen, sound room, decorations room, one included set-up, tables, chairs, decor package)\nEarly access or late checkout — $100/hour\nAlcohol fee (licensed bartender required) — $300"
     }
    ]
   },
@@ -712,6 +712,41 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Licensed bartender; $300 fee"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "10am–10pm",
+ "rates": [
+  {
+   "package": "Full venue rental",
+   "season": "",
+   "days": "Sun–Wed",
+   "hours": "10am–10pm",
+   "price": "$1,700",
+   "note": ""
+  },
+  {
+   "package": "Full venue rental",
+   "season": "",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$1,900",
+   "note": ""
+  },
+  {
+   "package": "Full venue rental",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "10am–10pm",
+   "price": "$2,600",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "the-blake",
   "Venue Name": "The Blake",
@@ -729,7 +764,7 @@
   "Standing Low": "300",
   "Standing High": "350",
   "Standing Capacity": "300-350 (total venue capacity; seated vs standing not stated)",
-  "Packages and Prices": "Full venue rental (The Gallery, The Assembly Hall, The Terrace, bridal suite, kitchen, sound room, decorations room, one included set-up, tables, chairs, decor package) — Sun-Wed — $1,700\nSame inclusions — Thu — $1,900\nSame inclusions — Fri-Sat — $2,600\nEarly access or late checkout — $100/hour\nAlcohol fee (licensed bartender required) — $300",
+  "Packages and Prices": "Full venue rental (The Gallery, The Assembly Hall, The Terrace, bridal suite, kitchen, sound room, decorations room, one included set-up, tables, chairs, decor package)\nEarly access or late checkout — $100/hour\nAlcohol fee (licensed bartender required) — $300",
   "Time slots": "Sun-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm\nEarly access or late checkout $100/hour, until 11pm",
   "Length of Rental": "12 hours (full day)",
   "Style": "Stylish\nContemporary\nModern\nSleek",
@@ -743,6 +778,10 @@
   "Alcohol policy": "Alcohol allowed with a licensed bartender\n$300 alcohol fee",
   "Bride/Groom Rooms": "Bridal suite",
   "Important Notes": "Total capacity 300-350; seated capacity not stated; 120 chairs included",
-  "Contact Information": "Phone: (385) 286-2002\nEmail: theblakevenue@gmail.com\nVenue Director: Gabie"
+  "Contact Information": "Phone: (385) 286-2002\nEmail: theblakevenue@gmail.com\nVenue Director: Gabie",
+  "Days Open": "Mon–Sun",
+  "Hours": "10am–10pm",
+  "Rates": "Full venue rental · Sun–Wed · 10am–10pm — $1,700\nFull venue rental · Thu · 10am–10pm — $1,900\nFull venue rental · Fri–Sat · 10am–10pm — $2,600",
+  "Rules": "Alcohol: Conditions — Licensed bartender; $300 fee"
  }
 }

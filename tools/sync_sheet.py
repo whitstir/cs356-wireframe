@@ -12,8 +12,10 @@ SHEET_ID = "1QW8jezDjK2IZ13M2dSx2Gkv6WDSE3NCMrmlkE8jl2Jg"  # "Wedding Reception 
 TABS = {  # sheet tab -> file
     "Venues": "data/venues.csv",
     "Venue sections": "data/venue-sections.csv",
+    "Rates": "data/rates.csv",
 }
-REQUIRED = {"Venues": "Venue ID"}  # a column that only the new layout has; protects local data from an old-layout sheet
+# Columns only the current layout has; protects local data from an older sheet (Phase 2 added the rule and hours columns and the Rates tab)
+REQUIRED = {"Venues": ["Venue ID", "Rule: Alcohol", "Days Open", "Hours"], "Rates": []}
 NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
       "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships"}
 
@@ -67,12 +69,14 @@ def main():
     changed = []
     for tab, path in TABS.items():
         if tab not in tabs:
+            if tab in REQUIRED:
+                sys.exit(f"stop: the sheet has no '{tab}' tab. Import data/{path.split('/')[-1]} as a new tab first; nothing was written.")
             print(f"skip: the sheet has no '{tab}' tab yet")
             continue
         rows = tabs[tab]
-        need = REQUIRED.get(tab)
-        if need and (not rows or need not in rows[0]):
-            sys.exit(f"stop: the sheet's '{tab}' tab has no '{need}' column (old layout). Import the new tab first; nothing was written.")
+        for need in REQUIRED.get(tab, []):
+            if not rows or need not in rows[0]:
+                sys.exit(f"stop: the sheet's '{tab}' tab has no '{need}' column (old layout). Add it from data/{path.split('/')[-1]} first; nothing was written.")
         rows = [r for r in rows if any(x.strip() for x in r)]
         buf = io.StringIO()
         csv.writer(buf, lineterminator="\n").writerows(rows)

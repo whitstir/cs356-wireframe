@@ -227,7 +227,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Full-day wedding rental 10am-11pm: Mon-Wed — $1,250; Thu — $1,950; Fri & Sun — $2,250; Sat — $2,450\nIncludes 15 wood and steel tables, 150 wooden folding chairs, wood arch, cake table, projector and large screen, speaker system, 1 wireless microphone, 2 adjustable circle chandeliers, strung market lighting, bride/groom room, kitchen prep space, loft, 6 restrooms, 3 floor easels, music/media adaptors\nEarly day-of setup before 10am — $150 per hour (if available)\nNight-before setup — $350 (if available)\nQuinceañera package 10am-2am: Mon-Wed $1,950; Thu $2,150; Fri & Sun $2,350; Sat $2,550\nNon-wedding events, 6-hour block: Mon-Wed $650; Thu-Sun $850"
+     "value": "Includes 15 wood and steel tables, 150 wooden folding chairs, wood arch, cake table, projector and large screen, speaker system, 1 wireless microphone, 2 adjustable circle chandeliers, strung market lighting, bride/groom room, kitchen prep space, loft, 6 restrooms, 3 floor easels, music/media adaptors\nEarly day-of setup before 10am — $150 per hour (if available)\nNight-before setup — $350 (if available)"
     },
     {
      "id": "pricing-deposit",
@@ -700,6 +700,102 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Licensed bartender; $200 fee"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "No glitter either"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "10am–11pm",
+ "rates": [
+  {
+   "package": "Wedding, full day",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "10am–11pm",
+   "price": "$1,250",
+   "note": ""
+  },
+  {
+   "package": "Wedding, full day",
+   "season": "",
+   "days": "Thu",
+   "hours": "10am–11pm",
+   "price": "$1,950",
+   "note": ""
+  },
+  {
+   "package": "Wedding, full day",
+   "season": "",
+   "days": "Fri & Sun",
+   "hours": "10am–11pm",
+   "price": "$2,250",
+   "note": ""
+  },
+  {
+   "package": "Wedding, full day",
+   "season": "",
+   "days": "Sat",
+   "hours": "10am–11pm",
+   "price": "$2,450",
+   "note": ""
+  },
+  {
+   "package": "Quinceañera",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "10am–2am",
+   "price": "$1,950",
+   "note": ""
+  },
+  {
+   "package": "Quinceañera",
+   "season": "",
+   "days": "Thu",
+   "hours": "10am–2am",
+   "price": "$2,150",
+   "note": ""
+  },
+  {
+   "package": "Quinceañera",
+   "season": "",
+   "days": "Fri & Sun",
+   "hours": "10am–2am",
+   "price": "$2,350",
+   "note": ""
+  },
+  {
+   "package": "Quinceañera",
+   "season": "",
+   "days": "Sat",
+   "hours": "10am–2am",
+   "price": "$2,550",
+   "note": ""
+  },
+  {
+   "package": "Non-wedding event, 6-hour block",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "",
+   "price": "$650",
+   "note": ""
+  },
+  {
+   "package": "Non-wedding event, 6-hour block",
+   "season": "",
+   "days": "Thu–Sun",
+   "hours": "",
+   "price": "$850",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "the-bright-building",
   "Venue Name": "The Bright Building",
@@ -717,7 +813,7 @@
   "Standing Low": "350",
   "Standing High": "350",
   "Standing Capacity": "350",
-  "Packages and Prices": "Full-day wedding rental 10am-11pm: Mon-Wed — $1,250; Thu — $1,950; Fri & Sun — $2,250; Sat — $2,450\nIncludes 15 wood and steel tables, 150 wooden folding chairs, wood arch, cake table, projector and large screen, speaker system, 1 wireless microphone, 2 adjustable circle chandeliers, strung market lighting, bride/groom room, kitchen prep space, loft, 6 restrooms, 3 floor easels, music/media adaptors\nEarly day-of setup before 10am — $150 per hour (if available)\nNight-before setup — $350 (if available)\nQuinceañera package 10am-2am: Mon-Wed $1,950; Thu $2,150; Fri & Sun $2,350; Sat $2,550\nNon-wedding events, 6-hour block: Mon-Wed $650; Thu-Sun $850",
+  "Packages and Prices": "Includes 15 wood and steel tables, 150 wooden folding chairs, wood arch, cake table, projector and large screen, speaker system, 1 wireless microphone, 2 adjustable circle chandeliers, strung market lighting, bride/groom room, kitchen prep space, loft, 6 restrooms, 3 floor easels, music/media adaptors\nEarly day-of setup before 10am — $150 per hour (if available)\nNight-before setup — $350 (if available)",
   "Time slots": "Mon 10am-11pm\nTue 10am-11pm\nWed 10am-11pm\nThu 10am-11pm\nFri 10am-11pm\nSat 10am-11pm\nSun 10am-11pm",
   "Length of Rental": "13 hours",
   "Style": "Industrial\nMid-century\nHistoric\nUrban",
@@ -735,6 +831,10 @@
   "Bride/Groom Rooms": "Bride/groom room\nPowder room (getting-ready space)",
   "Restrictions": "No duct tape\nNo confetti\nNo glitter\nCharges apply for banned items, extra cleaning or damage\nEarly setup only when booked and available\nNight-before setup only when available",
   "Important Notes": "Former 1940s car dealership in Provo's historic Auto Row\nWeddings are booked as full days only\nHosting events since 2017",
-  "Contact Information": "Phone: 801-709-0455 (call or text)\nInstagram: @thebrightbuilding"
+  "Contact Information": "Phone: 801-709-0455 (call or text)\nInstagram: @thebrightbuilding",
+  "Days Open": "Mon–Sun",
+  "Hours": "10am–11pm",
+  "Rates": "Wedding, full day · Mon–Wed · 10am–11pm — $1,250\nWedding, full day · Thu · 10am–11pm — $1,950\nWedding, full day · Fri & Sun · 10am–11pm — $2,250\nWedding, full day · Sat · 10am–11pm — $2,450\nQuinceañera · Mon–Wed · 10am–2am — $1,950\nQuinceañera · Thu · 10am–2am — $2,150\nQuinceañera · Fri & Sun · 10am–2am — $2,350\nQuinceañera · Sat · 10am–2am — $2,550\nNon-wedding event, 6-hour block · Mon–Wed — $650\nNon-wedding event, 6-hour block · Thu–Sun — $850",
+  "Rules": "Alcohol: Conditions — Licensed bartender; $200 fee\nConfetti: Not allowed — No glitter either"
  }
 }

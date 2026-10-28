@@ -357,11 +357,11 @@
   // ---------- Venue endpoint ----------
   const DETAIL_GROUPS = [
     ["Overview", [["Description", "Description"], ["Full Address", "Address"], ["Style", "Venue's own style words"]]],
-    ["Pricing & packages", [["Standard Price Range", "Standard price range"], ["Packages and Prices", "Packages and prices"], ["Deposit Policy", "Deposit policy"]]],
-    ["Capacity & timing", [["Seated Capacity", "Seated capacity"], ["Standing Capacity", "Standing capacity"], ["Time slots", "Time slots"], ["Length of Rental", "Length of rental"]]],
+    ["Pricing & packages", [["Standard Price Range", "Standard price range"], ["Rates", "Rates"], ["Packages and Prices", "Packages and prices"], ["Deposit Policy", "Deposit policy"]]],
+    ["Capacity & timing", [["Seated Capacity", "Seated capacity"], ["Standing Capacity", "Standing capacity"], ["Days Open", "Days open"], ["Hours", "Hours"], ["Time slots", "Time slots"], ["Length of Rental", "Length of rental"]]],
     ["Space & decor", [["outside/inside", "Indoor / outdoor"], ["Linens Included", "Linens included"], ["Other Decor Included", "Decor included"], ["Other Decor for Rent", "Decor for rent"], ["Prep Area", "Prep area"], ["Bride/Groom Rooms", "Bride / groom rooms"], ["parking?", "Parking"], ["Accessibility", "Accessibility"]]],
     ["Services", [["sound system", "Sound system"], ["Catering", "Catering"], ["Event Coordinator", "Event coordinator"], ["cleanup crew", "Cleanup crew"], ["extras", "Extras"]]],
-    ["Policies", [["sparklers allowed", "Sparklers"], ["Alcohol policy", "Alcohol policy"], ["Restrictions", "Restrictions"], ["Important Notes", "Important notes"]]],
+    ["Policies", [["Rules", "Rules"], ["sparklers allowed", "Sparklers"], ["Alcohol policy", "Alcohol policy"], ["Restrictions", "Restrictions"], ["Important Notes", "Important notes"]]],
     ["Contact", [["Contact Information", "Contact information"], ["link", "Website"]]],
   ];
 

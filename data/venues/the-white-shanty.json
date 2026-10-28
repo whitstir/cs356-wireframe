@@ -232,7 +232,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)"
+     "value": "Every rental includes: 10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)"
     }
    ]
   },
@@ -760,6 +760,89 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Signed contract; $350 fee"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "Morning, evening or all-day blocks",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "Morning, 8am–2pm or 9am–3pm",
+   "price": "$1,200",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Thu",
+   "hours": "Morning, 8am–2pm or 9am–3pm",
+   "price": "$1,375",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri",
+   "hours": "Morning, 8am–2pm or 9am–3pm",
+   "price": "$1,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "Evening, 3–9pm or 4–10pm",
+   "price": "$2,050",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Thu",
+   "hours": "Evening, 3–9pm or 4–10pm",
+   "price": "$2,350",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri",
+   "hours": "Evening, 3–9pm or 4–10pm",
+   "price": "$2,850",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "All day, 9am–9pm or 10am–10pm",
+   "price": "$2,550",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Thu",
+   "hours": "All day, 9am–9pm or 10am–10pm",
+   "price": "$2,850",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "All day, 9am–9pm or 10am–10pm",
+   "price": "$3,350",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "the-white-shanty",
   "Venue Name": "The White Shanty",
@@ -774,7 +857,7 @@
   "Seated Low": "100",
   "Seated High": "100",
   "Seated Capacity": "100 seated",
-  "Packages and Prices": "10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant — Mon-Wed morning 8am-2pm or 9am-3pm $1,200\nSame inclusions — Thu morning 8am-2pm or 9am-3pm $1,375\nSame inclusions — Fri morning 8am-2pm or 9am-3pm $1,600\nSame inclusions — Mon-Wed evening 3pm-9pm or 4pm-10pm $2,050\nSame inclusions — Thu evening 3pm-9pm or 4pm-10pm $2,350\nSame inclusions — Fri evening 3pm-9pm or 4pm-10pm $2,850\nSame inclusions — Mon-Wed all-day 9am-9pm or 10am-10pm $2,550\nSame inclusions — Thu all-day 9am-9pm or 10am-10pm $2,850\nSame inclusions — Fri-Sat all-day 9am-9pm or 10am-10pm $3,350\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)",
+  "Packages and Prices": "Every rental includes: 10 rectangular 3'x8' farmhouse/industrial tables, 16-foot banquet table, 8-foot live-edge table, 73 chairs, 6 benches, cake table, sign-in table, 40-inch TV, sound system, wireless microphone, outdoor area with firepit, 3 bookcases, pre-hung lighting, variety of plants, backdrop, onsite venue attendant\nSunday — call for pricing and availability\nAdditional hours — starting at $150 per hour (subject to availability)",
   "Time slots": "Mon-Wed 8am-2pm or 9am-3pm\nThu 8am-2pm or 9am-3pm\nFri 8am-2pm or 9am-3pm\nMon-Wed 3pm-9pm or 4pm-10pm\nThu 3pm-9pm or 4pm-10pm\nFri 3pm-9pm or 4pm-10pm\nMon-Wed 9am-9pm or 10am-10pm\nThu 9am-9pm or 10am-10pm\nFri-Sat 9am-9pm or 10am-10pm\nSunday: call for availability",
   "Length of Rental": "6-12 hours",
   "Style": "Industrial\nFarmhouse",
@@ -789,6 +872,10 @@
   "Bride/Groom Rooms": "Bride's room\nGroom's room",
   "Restrictions": "Reserved rental block must include setup and takedown time",
   "Important Notes": "Venue has indoor and outdoor event areas\nSeating for 100 guests\nCentral air and heating\nPhoto shoots: indoor from $150/hour, outdoor only from $50/hour; loft above the venue 50% off when renting the venue",
-  "Contact Information": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011"
+  "Contact Information": "Email: events@whiteshantyvenue.com\nPhone: 801-624-6070\nText: 801-361-1011",
+  "Days Open": "Mon–Sat",
+  "Hours": "Morning, evening or all-day blocks",
+  "Rates": "Mon–Wed · Morning, 8am–2pm or 9am–3pm — $1,200\nThu · Morning, 8am–2pm or 9am–3pm — $1,375\nFri · Morning, 8am–2pm or 9am–3pm — $1,600\nMon–Wed · Evening, 3–9pm or 4–10pm — $2,050\nThu · Evening, 3–9pm or 4–10pm — $2,350\nFri · Evening, 3–9pm or 4–10pm — $2,850\nMon–Wed · All day, 9am–9pm or 10am–10pm — $2,550\nThu · All day, 9am–9pm or 10am–10pm — $2,850\nFri–Sat · All day, 9am–9pm or 10am–10pm — $3,350",
+  "Rules": "Alcohol: Conditions — Signed contract; $350 fee"
  }
 }

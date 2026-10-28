@@ -237,7 +237,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "All-day wedding rental (10am-11pm):\nPeak season (April-October) Monday-Wednesday — $6,000\nPeak season Thursday-Sunday — $7,000\nPeak winter (November-December) Monday-Thursday — $4,000\nPeak winter 6-hour half-day (Monday-Thursday) — $3,000\nPeak winter Friday-Sunday — $5,000\nWinter special (January-March) Monday-Thursday — $3,000\nWinter special Friday-Sunday — $4,000\nCeremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150"
+     "value": "Ceremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150"
     }
    ]
   },
@@ -715,6 +715,73 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "In-house bar service only (add-on)"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "10am–11pm",
+ "rates": [
+  {
+   "package": "All-day wedding rental",
+   "season": "Peak (Apr–Oct)",
+   "days": "Mon–Wed",
+   "hours": "10am–11pm",
+   "price": "$6,000",
+   "note": ""
+  },
+  {
+   "package": "All-day wedding rental",
+   "season": "Peak (Apr–Oct)",
+   "days": "Thu–Sun",
+   "hours": "10am–11pm",
+   "price": "$7,000",
+   "note": ""
+  },
+  {
+   "package": "All-day wedding rental",
+   "season": "Peak winter (Nov–Dec)",
+   "days": "Mon–Thu",
+   "hours": "10am–11pm",
+   "price": "$4,000",
+   "note": ""
+  },
+  {
+   "package": "All-day wedding rental",
+   "season": "Peak winter (Nov–Dec)",
+   "days": "Fri–Sun",
+   "hours": "10am–11pm",
+   "price": "$5,000",
+   "note": ""
+  },
+  {
+   "package": "All-day wedding rental",
+   "season": "Winter special (Jan–Mar)",
+   "days": "Mon–Thu",
+   "hours": "10am–11pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "All-day wedding rental",
+   "season": "Winter special (Jan–Mar)",
+   "days": "Fri–Sun",
+   "hours": "10am–11pm",
+   "price": "$4,000",
+   "note": ""
+  },
+  {
+   "package": "Half day, 6 hours",
+   "season": "Peak winter (Nov–Dec)",
+   "days": "Mon–Thu",
+   "hours": "",
+   "price": "$3,000",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "wild-oak-venue",
   "Venue Name": "The Wild Oak",
@@ -732,7 +799,7 @@
   "Standing Low": "250",
   "Standing High": "300",
   "Standing Capacity": "250 max for revolving guests (wedding pricing page)\n300 for flowing events indoors (2023 event brochure)",
-  "Packages and Prices": "All-day wedding rental (10am-11pm):\nPeak season (April-October) Monday-Wednesday — $6,000\nPeak season Thursday-Sunday — $7,000\nPeak winter (November-December) Monday-Thursday — $4,000\nPeak winter 6-hour half-day (Monday-Thursday) — $3,000\nPeak winter Friday-Sunday — $5,000\nWinter special (January-March) Monday-Thursday — $3,000\nWinter special Friday-Sunday — $4,000\nCeremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150",
+  "Packages and Prices": "Ceremony add-on — $350\nBefore 10am — $100/hour; after 11pm — $350/hour\nPeak-season Thursday-Saturday weddings require at least 2 add-ons: bar service, day-of coordinating, decor or florals ($3,000 minimum)\nDecor packages, florals, bar service, day-of coordinating, graphic design — prices not stated\nClean-up crew (required with food trucks) — $150",
   "Time slots": "All-day rental 10am-11pm\nBefore 10am — $100/hour; after 11pm — $350/hour\nSunday by inquiry",
   "Length of Rental": "13 hours (all-day)\n6-hour half-day (November-December, Monday-Thursday)",
   "Style": "Timeless elegance\nModern design meets rustic charm\nEuropean-inspired ballroom",
@@ -749,6 +816,10 @@
   "Bride/Groom Rooms": "Bride's private room\nGroom's private room",
   "Restrictions": "Set-up and take-down must fit within rental hours\nPeak-season Thursday-Saturday weddings require at least 2 add-ons\nOutside caterers must be licensed, insured and approved\nFood trucks require the $150 clean-up crew",
   "Important Notes": "Event hostess on site during events (2023 event brochure)\nSeparate hourly pricing for non-wedding events\nCapacity figures differ: 250 revolving guests (wedding page) vs 150 seated / 300 flowing (2023 brochure)",
-  "Contact Information": "Phone: 801-810-8829\nEmail: info@thewildoakvenue.com\nInstagram: @thewildoak"
+  "Contact Information": "Phone: 801-810-8829\nEmail: info@thewildoakvenue.com\nInstagram: @thewildoak",
+  "Days Open": "Mon–Sun",
+  "Hours": "10am–11pm",
+  "Rates": "All-day wedding rental · Peak (Apr–Oct) · Mon–Wed · 10am–11pm — $6,000\nAll-day wedding rental · Peak (Apr–Oct) · Thu–Sun · 10am–11pm — $7,000\nAll-day wedding rental · Peak winter (Nov–Dec) · Mon–Thu · 10am–11pm — $4,000\nAll-day wedding rental · Peak winter (Nov–Dec) · Fri–Sun · 10am–11pm — $5,000\nAll-day wedding rental · Winter special (Jan–Mar) · Mon–Thu · 10am–11pm — $3,000\nAll-day wedding rental · Winter special (Jan–Mar) · Fri–Sun · 10am–11pm — $4,000\nHalf day, 6 hours · Peak winter (Nov–Dec) · Mon–Thu — $3,000",
+  "Rules": "Alcohol: Conditions — In-house bar service only (add-on)"
  }
 }

@@ -232,7 +232,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Peak season (May-October), 10am-10pm: Mon-Wed $6,500; Thursday $7,500; Friday or Saturday $8,500\nOff season (November-April), 10am-10pm: Mon-Wed $5,500; Thursday $6,000; Friday or Saturday $6,500\nEvery booking includes exclusive use of the property, onsite hostess, 60-minute coordination meeting, table and chair setup/takedown (3 configurations), bridal suite, groom's room, warming kitchen, AV, piano, fire pit and decor items\nLast-minute booking discount for events within 60 days (contact venue)"
+     "value": "Every booking includes exclusive use of the property, onsite hostess, 60-minute coordination meeting, table and chair setup/takedown (3 configurations), bridal suite, groom's room, warming kitchen, AV, piano, fire pit and decor items\nLast-minute booking discount for events within 60 days (contact venue)"
     }
    ]
   },
@@ -700,6 +700,70 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Events end by 10pm"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "10am–10pm",
+ "rates": [
+  {
+   "package": "Full property (2026 rates)",
+   "season": "Peak (May–Oct)",
+   "days": "Mon–Wed",
+   "hours": "10am–10pm",
+   "price": "$6,500",
+   "note": ""
+  },
+  {
+   "package": "Full property (2026 rates)",
+   "season": "Peak (May–Oct)",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$7,500",
+   "note": ""
+  },
+  {
+   "package": "Full property (2026 rates)",
+   "season": "Peak (May–Oct)",
+   "days": "Fri or Sat",
+   "hours": "10am–10pm",
+   "price": "$8,500",
+   "note": ""
+  },
+  {
+   "package": "Full property (2026 rates)",
+   "season": "Off season (Nov–Apr)",
+   "days": "Mon–Wed",
+   "hours": "10am–10pm",
+   "price": "$5,500",
+   "note": ""
+  },
+  {
+   "package": "Full property (2026 rates)",
+   "season": "Off season (Nov–Apr)",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$6,000",
+   "note": ""
+  },
+  {
+   "package": "Full property (2026 rates)",
+   "season": "Off season (Nov–Apr)",
+   "days": "Fri or Sat",
+   "hours": "10am–10pm",
+   "price": "$6,500",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "walker-farms",
   "Venue Name": "Walker Farms",
@@ -717,7 +781,7 @@
   "Standing Low": "400",
   "Standing High": "400",
   "Standing Capacity": "400",
-  "Packages and Prices": "Peak season (May-October), 10am-10pm: Mon-Wed $6,500; Thursday $7,500; Friday or Saturday $8,500\nOff season (November-April), 10am-10pm: Mon-Wed $5,500; Thursday $6,000; Friday or Saturday $6,500\nEvery booking includes exclusive use of the property, onsite hostess, 60-minute coordination meeting, table and chair setup/takedown (3 configurations), bridal suite, groom's room, warming kitchen, AV, piano, fire pit and decor items\nLast-minute booking discount for events within 60 days (contact venue)",
+  "Packages and Prices": "Every booking includes exclusive use of the property, onsite hostess, 60-minute coordination meeting, table and chair setup/takedown (3 configurations), bridal suite, groom's room, warming kitchen, AV, piano, fire pit and decor items\nLast-minute booking discount for events within 60 days (contact venue)",
   "Time slots": "Mon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
   "Length of Rental": "12 hours",
   "Style": "Barn\nHistoric agricultural architecture\nModernized\nAll-white, light-filled",
@@ -732,6 +796,10 @@
   "Bride/Groom Rooms": "Bridal suite with balcony and private restroom\nGroom's dressing room with TV and private restroom",
   "Restrictions": "No alcohol\nNo smoking\nSetup and cleanup must occur within reserved time\nAll events must end by 10pm",
   "Important Notes": "Each booking includes private, full-day use of the entire property\nPrices shown are 2026 calendar rates",
-  "Contact Information": "Phone: (801) 899-5102\nInstagram: @walkerfarmsliving"
+  "Contact Information": "Phone: (801) 899-5102\nInstagram: @walkerfarmsliving",
+  "Days Open": "Mon–Sat",
+  "Hours": "10am–10pm",
+  "Rates": "Full property (2026 rates) · Peak (May–Oct) · Mon–Wed · 10am–10pm — $6,500\nFull property (2026 rates) · Peak (May–Oct) · Thu · 10am–10pm — $7,500\nFull property (2026 rates) · Peak (May–Oct) · Fri or Sat · 10am–10pm — $8,500\nFull property (2026 rates) · Off season (Nov–Apr) · Mon–Wed · 10am–10pm — $5,500\nFull property (2026 rates) · Off season (Nov–Apr) · Thu · 10am–10pm — $6,000\nFull property (2026 rates) · Off season (Nov–Apr) · Fri or Sat · 10am–10pm — $6,500",
+  "Rules": "Alcohol: Not allowed\nMusic cutoff: Conditions — Events end by 10pm"
  }
 }

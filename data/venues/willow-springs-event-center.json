@@ -232,7 +232,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans) — Nov-Mar Mon-Wed — $1,199\nSame inclusions — Nov-Mar Thu — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays — $1,799\nSame inclusions — Apr-Oct Mon-Wed — $1,749\nSame inclusions — Apr-Oct Thu — $1,999\nSame inclusions — Apr-Oct Fri-Sat and holidays — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour"
+     "value": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans)\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour"
     },
     {
      "id": "pricing-deposit",
@@ -710,6 +710,59 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon–Sat",
+ "hours": "3–10pm",
+ "rates": [
+  {
+   "package": "7-hour rental, entire venue",
+   "season": "Nov–Mar",
+   "days": "Mon–Wed",
+   "hours": "3–10pm",
+   "price": "$1,199",
+   "note": ""
+  },
+  {
+   "package": "7-hour rental, entire venue",
+   "season": "Nov–Mar",
+   "days": "Thu",
+   "hours": "3–10pm",
+   "price": "$1,499",
+   "note": ""
+  },
+  {
+   "package": "7-hour rental, entire venue",
+   "season": "Nov–Mar",
+   "days": "Fri–Sat and holidays",
+   "hours": "3–10pm",
+   "price": "$1,799",
+   "note": ""
+  },
+  {
+   "package": "7-hour rental, entire venue",
+   "season": "Apr–Oct",
+   "days": "Mon–Wed",
+   "hours": "3–10pm",
+   "price": "$1,749",
+   "note": ""
+  },
+  {
+   "package": "7-hour rental, entire venue",
+   "season": "Apr–Oct",
+   "days": "Thu",
+   "hours": "3–10pm",
+   "price": "$1,999",
+   "note": ""
+  },
+  {
+   "package": "7-hour rental, entire venue",
+   "season": "Apr–Oct",
+   "days": "Fri–Sat and holidays",
+   "hours": "3–10pm",
+   "price": "$2,499",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "willow-springs-event-center",
   "Venue Name": "Willow Springs Event Center",
@@ -724,7 +777,7 @@
   "Seated Low": "150",
   "Seated High": "150",
   "Seated Capacity": "150 chairs included",
-  "Packages and Prices": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans) — Nov-Mar Mon-Wed — $1,199\nSame inclusions — Nov-Mar Thu — $1,499\nSame inclusions — Nov-Mar Fri-Sat and holidays — $1,799\nSame inclusions — Apr-Oct Mon-Wed — $1,749\nSame inclusions — Apr-Oct Thu — $1,999\nSame inclusions — Apr-Oct Fri-Sat and holidays — $2,499\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour",
+  "Packages and Prices": "7-hour rental, 3pm-10pm (entire indoor/outdoor venue, full kitchen, bridal suite, tables, chairs, initial table and chair setup, sound system, TVs, projector, wireless microphone, café lights, patio enclosure, heaters and fans)\nBasic decoration package — $325\nCeremony decoration package — $225\nLinens — $16.25\nAdditional hour (up to midnight) — $295/hour",
   "Time slots": "Nov-Mar Mon-Wed 3pm-10pm\nNov-Mar Thu 3pm-10pm\nNov-Mar Fri-Sat and holidays 3pm-10pm\nApr-Oct Mon-Wed 3pm-10pm\nApr-Oct Thu 3pm-10pm\nApr-Oct Fri-Sat and holidays 3pm-10pm",
   "Length of Rental": "7 hours (3pm-10pm); additional hours $295/hour, up to midnight",
   "Style": "White\nBright\nIndoor-outdoor",
@@ -739,6 +792,9 @@
   "Event Coordinator": "On-site event manager (included)",
   "Bride/Groom Rooms": "Bridal suite with private bathroom",
   "Important Notes": "Booking pages say décor packages start at $395, but the pricing page lists $325 and $225 packages\nBooking pages list a contact address of 554 West Spring Creek Place; the venue address on every page is 554 West 1200 North",
-  "Contact Information": "Phone: (385) 375-7756\nEmail: janelle@thewillowsprings.com"
+  "Contact Information": "Phone: (385) 375-7756\nEmail: janelle@thewillowsprings.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "3–10pm",
+  "Rates": "7-hour rental, entire venue · Nov–Mar · Mon–Wed · 3–10pm — $1,199\n7-hour rental, entire venue · Nov–Mar · Thu · 3–10pm — $1,499\n7-hour rental, entire venue · Nov–Mar · Fri–Sat and holidays · 3–10pm — $1,799\n7-hour rental, entire venue · Apr–Oct · Mon–Wed · 3–10pm — $1,749\n7-hour rental, entire venue · Apr–Oct · Thu · 3–10pm — $1,999\n7-hour rental, entire venue · Apr–Oct · Fri–Sat and holidays · 3–10pm — $2,499"
  }
 }

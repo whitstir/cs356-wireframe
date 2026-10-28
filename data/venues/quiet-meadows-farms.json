@@ -233,7 +233,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Peak season Apr-Oct 2026: Fri or Sat 2pm-10pm — $6,600\nPeak season Apr-Oct 2026: Mon-Thu 2pm-10pm — $5,600\nWinter Nov 2026-Mar 2027: Fri or Sat 2pm-10pm — $5,800\nWinter Nov 2026-Mar 2027: Mon-Thu 2pm-10pm — $5,200\nMornings Mon-Sat 8am-12:30pm: peak 2026 — $3,300; winter 2026-27 — $3,200\nReception only, Mon-Thu 4:30pm-10pm — $4,400\nPeak season Apr-Oct 2027: Fri or Sat — $6,800; Thu — $6,400; Mon-Wed — $5,800\nWinter Nov 2027-Mar 2028: Fri or Sat — $6,000; Thu — $5,600; Mon-Wed — $5,000\nMornings 2027: peak — $3,400; winter 2027-28 — $3,200\nAll-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator"
+     "value": "All-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator"
     },
     {
      "id": "pricing-deposit",
@@ -719,6 +719,152 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Preferred-list bartender; $300 fee; 4-hour bar maximum"
+  },
+  {
+   "rule": "Pets",
+   "status": "cond",
+   "note": "Prior approval needed (service animals excepted)"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Also no glitter, rice, bird seed or petals (petals OK during the ceremony)"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "89 decibels maximum; no live bands"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "2–10pm; mornings or all day",
+ "rates": [
+  {
+   "package": "Evening, 2026–27",
+   "season": "Peak (Apr–Oct 2026)",
+   "days": "Fri or Sat",
+   "hours": "2–10pm",
+   "price": "$6,600",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2026–27",
+   "season": "Peak (Apr–Oct 2026)",
+   "days": "Mon–Thu",
+   "hours": "2–10pm",
+   "price": "$5,600",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2026–27",
+   "season": "Winter (Nov 2026–Mar 2027)",
+   "days": "Fri or Sat",
+   "hours": "2–10pm",
+   "price": "$5,800",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2026–27",
+   "season": "Winter (Nov 2026–Mar 2027)",
+   "days": "Mon–Thu",
+   "hours": "2–10pm",
+   "price": "$5,200",
+   "note": ""
+  },
+  {
+   "package": "Morning, 2026–27",
+   "season": "Peak (Apr–Oct 2026)",
+   "days": "Mon–Sat",
+   "hours": "8am–12:30pm",
+   "price": "$3,300",
+   "note": ""
+  },
+  {
+   "package": "Morning, 2026–27",
+   "season": "Winter (Nov 2026–Mar 2027)",
+   "days": "Mon–Sat",
+   "hours": "8am–12:30pm",
+   "price": "$3,200",
+   "note": ""
+  },
+  {
+   "package": "Reception only",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "4:30–10pm",
+   "price": "$4,400",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2027–28",
+   "season": "Peak (Apr–Oct 2027)",
+   "days": "Fri or Sat",
+   "hours": "",
+   "price": "$6,800",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2027–28",
+   "season": "Peak (Apr–Oct 2027)",
+   "days": "Thu",
+   "hours": "",
+   "price": "$6,400",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2027–28",
+   "season": "Peak (Apr–Oct 2027)",
+   "days": "Mon–Wed",
+   "hours": "",
+   "price": "$5,800",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2027–28",
+   "season": "Winter (Nov 2027–Mar 2028)",
+   "days": "Fri or Sat",
+   "hours": "",
+   "price": "$6,000",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2027–28",
+   "season": "Winter (Nov 2027–Mar 2028)",
+   "days": "Thu",
+   "hours": "",
+   "price": "$5,600",
+   "note": ""
+  },
+  {
+   "package": "Evening, 2027–28",
+   "season": "Winter (Nov 2027–Mar 2028)",
+   "days": "Mon–Wed",
+   "hours": "",
+   "price": "$5,000",
+   "note": ""
+  },
+  {
+   "package": "Morning, 2027–28",
+   "season": "Peak (2027)",
+   "days": "",
+   "hours": "",
+   "price": "$3,400",
+   "note": ""
+  },
+  {
+   "package": "Morning, 2027–28",
+   "season": "Winter (2027–28)",
+   "days": "",
+   "hours": "",
+   "price": "$3,200",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "quiet-meadows-farms",
   "Venue Name": "Quiet Meadow Farm",
@@ -734,7 +880,7 @@
   "Standing Low": "225",
   "Standing High": "300",
   "Standing Capacity": "300 max guests (225 in winter season)",
-  "Packages and Prices": "Peak season Apr-Oct 2026: Fri or Sat 2pm-10pm — $6,600\nPeak season Apr-Oct 2026: Mon-Thu 2pm-10pm — $5,600\nWinter Nov 2026-Mar 2027: Fri or Sat 2pm-10pm — $5,800\nWinter Nov 2026-Mar 2027: Mon-Thu 2pm-10pm — $5,200\nMornings Mon-Sat 8am-12:30pm: peak 2026 — $3,300; winter 2026-27 — $3,200\nReception only, Mon-Thu 4:30pm-10pm — $4,400\nPeak season Apr-Oct 2027: Fri or Sat — $6,800; Thu — $6,400; Mon-Wed — $5,800\nWinter Nov 2027-Mar 2028: Fri or Sat — $6,000; Thu — $5,600; Mon-Wed — $5,000\nMornings 2027: peak — $3,400; winter 2027-28 — $3,200\nAll-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator",
+  "Packages and Prices": "All-day rental 10am-10pm — $2,000 more than the 2pm-10pm rate\nEvery rental includes the standard inclusions: farmhouse tables, chairs, decorating package, setup/takedown/cleanup, bridal suite, groom's room, prep kitchen, day-of coordinator",
   "Time slots": "Mon-Sat 2pm-10pm (evening)\nMon-Sat 10am-10pm (all-day, extra $2,000)\nMon-Sat 8am-12:30pm (morning)\nMon-Thu 4:30pm-10pm (reception only)\nClosed Sundays",
   "Length of Rental": "4.5-12 hours",
   "Style": "Rustic\nNatural\nPeaceful",
@@ -752,6 +898,10 @@
   "Bride/Groom Rooms": "Bridal suite\nGroom's room",
   "Restrictions": "Caterer, DJ and bartender must be from the preferred lists\nNo live bands\nNo sparklers, cold sparkler machines, confetti, glitter, rice, bird seed or flower petals (petals allowed during the ceremony)\nNo bounce houses, mechanical bulls or carnival rides\nLawn games must be pre-approved\nNo pets without prior approval (service animals and ceremony animals excepted)\nNo food or décor drop-off before the scheduled time\nNo rehearsals on site\nMaximum 89 decibels (noise ordinance)\nOwn sound equipment limited to a small boombox-style system\nNo smoking except in the designated area\nNo full-size buses",
   "Important Notes": "130-acre property\nMaximum capacity 300 guests (225 in winter season)\nClosed Sundays\nAll event item rentals go through the venue office",
-  "Contact Information": "Phone: (801) 438-9394\nEmail: quietmeadowfarms@gmail.com"
+  "Contact Information": "Phone: (801) 438-9394\nEmail: quietmeadowfarms@gmail.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "2–10pm; mornings or all day",
+  "Rates": "Evening, 2026–27 · Peak (Apr–Oct 2026) · Fri or Sat · 2–10pm — $6,600\nEvening, 2026–27 · Peak (Apr–Oct 2026) · Mon–Thu · 2–10pm — $5,600\nEvening, 2026–27 · Winter (Nov 2026–Mar 2027) · Fri or Sat · 2–10pm — $5,800\nEvening, 2026–27 · Winter (Nov 2026–Mar 2027) · Mon–Thu · 2–10pm — $5,200\nMorning, 2026–27 · Peak (Apr–Oct 2026) · Mon–Sat · 8am–12:30pm — $3,300\nMorning, 2026–27 · Winter (Nov 2026–Mar 2027) · Mon–Sat · 8am–12:30pm — $3,200\nReception only · Mon–Thu · 4:30–10pm — $4,400\nEvening, 2027–28 · Peak (Apr–Oct 2027) · Fri or Sat — $6,800\nEvening, 2027–28 · Peak (Apr–Oct 2027) · Thu — $6,400\nEvening, 2027–28 · Peak (Apr–Oct 2027) · Mon–Wed — $5,800\nEvening, 2027–28 · Winter (Nov 2027–Mar 2028) · Fri or Sat — $6,000\nEvening, 2027–28 · Winter (Nov 2027–Mar 2028) · Thu — $5,600\nEvening, 2027–28 · Winter (Nov 2027–Mar 2028) · Mon–Wed — $5,000\nMorning, 2027–28 · Peak (2027) — $3,400\nMorning, 2027–28 · Winter (2027–28) — $3,200",
+  "Rules": "Alcohol: Conditions — Preferred-list bartender; $300 fee; 4-hour bar maximum\nPets: Conditions — Prior approval needed (service animals excepted)\nConfetti: Not allowed — Also no glitter, rice, bird seed or petals (petals OK during the ceremony)\nMusic cutoff: Conditions — 89 decibels maximum; no live bands"
  }
 }

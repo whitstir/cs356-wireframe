@@ -68,7 +68,7 @@
   const FIELD_LABELS = {
     "Venue Name": "Name", "Description": "Description", "City": "City", "Full Address": "Address",
     "Style": "The venue's own style words", "Standard Price Range": "Standard price range",
-    "Packages and Prices": "Packages and prices", "Deposit Policy": "Deposit", "Seated Capacity": "Seated",
+    "Rates": "Rates", "Packages and Prices": "Packages and prices", "Rules": "Rules", "Days Open": "Days open", "Hours": "Hours", "Deposit Policy": "Deposit", "Seated Capacity": "Seated",
     "Standing Capacity": "Standing", "Time slots": "Time slots", "Length of Rental": "Length of rental",
     "outside/inside": "Indoor / outdoor", "Linens Included": "Linens included", "Other Decor Included": "Decor and furniture included",
     "Other Decor for Rent": "Decor for rent", "Prep Area": "Prep area", "Bride/Groom Rooms": "Bride and groom rooms",
@@ -904,6 +904,76 @@
     if (/allowed|available|included|permitted|welcome|any |open vendor|kitchen/i.test(l)) return "yes";
     return "info";
   }
+  // Rates tab -> tables. Each package becomes a grid (days down, season or hours across); packages that share the
+  // same days sit side by side; a grid with too many gaps is shown as a flat list; one-row packages share one table.
+  const RATE_DIM = { season: "Season", days: "Days", hours: "Hours" };
+  function rateTables(rates, fmt) {
+    if (!rates || !rates.length) return "";
+    const DIMS = ["season", "days", "hours"];
+    const uniq = (rs, f) => [...new Set(rs.map(f))];
+    const price = (r) => (r ? `${fmt(r.price)}${r.note ? `<span class="s">${fmt(r.note)}</span>` : ""}` : `<span class="dx-none">—</span>`);
+    // cols: [{h, s, num}]; rows: [{th, tds: [{html, num}]}]
+    const table = (cap, cols, rows) => `<div class="dx-scroll"><table class="dx-table">${cap ? `<caption>${cap}</caption>` : ""}<thead><tr>`
+      + cols.map((c) => `<th scope="col"${c.num ? ' class="num"' : ""}>${fmt(c.h)}${c.s ? `<span class="s">${fmt(c.s)}</span>` : ""}</th>`).join("") + `</tr></thead><tbody>`
+      + rows.map((r) => `<tr>${r.th != null ? `<th scope="row">${fmt(r.th)}</th>` : ""}${r.tds.map((d) => `<td${d.num ? ' class="num"' : ""}>${d.html}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
+    const fixedOf = (rs) => DIMS.filter((d) => uniq(rs, (r) => r[d]).length === 1 && rs[0][d]);
+    const caption = (name, rs) => [name && `<strong>${fmt(name)}</strong>`, ...fixedOf(rs).map((d) => fmt(rs[0][d]))].filter(Boolean).join(" · ");
+    // Which dims vary; when each day has one set of hours, the hours join the day label instead of getting a column
+    const prep = (rs) => {
+      const vary = DIMS.filter((d) => uniq(rs, (r) => r[d]).length > 1);
+      const join = vary.includes("days") && vary.includes("hours") && uniq(rs, (r) => r.days).every((d) => uniq(rs.filter((r) => r.days === d), (r) => r.hours).length === 1);
+      return { vary: join ? vary.filter((d) => d !== "hours") : vary, key: (r, d) => (d === "days" && join ? `${r.days} · ${r.hours}` : r[d]) };
+    };
+    const priceCol = { h: "Price", num: true };
+    const flat = (cap, rs, vary, key) => table(cap, [...vary.map((d) => ({ h: RATE_DIM[d] })), priceCol],
+      rs.map((r) => ({ tds: [...vary.map((d) => ({ html: fmt(key(r, d)) })), { html: price(r), num: true }] })));
+    const one = (name, rs) => {
+      const { vary, key } = prep(rs), cap = caption(name, rs);
+      if (vary.length === 3) return uniq(rs, (r) => r.season).map((s) => one(name, rs.filter((r) => r.season === s))).join("");
+      if (vary.length === 1) return table(cap, [{ h: RATE_DIM[vary[0]] }, priceCol], rs.map((r) => ({ th: key(r, vary[0]), tds: [{ html: price(r), num: true }] })));
+      if (vary.length !== 2) return flat(cap, rs, vary, key);
+      const rowD = vary.includes("days") ? "days" : vary[0], colD = vary.find((d) => d !== rowD);
+      const rk = uniq(rs, (r) => key(r, rowD)), ck = uniq(rs, (r) => key(r, colD));
+      if (rs.length < 0.6 * rk.length * ck.length) return flat(cap, rs, vary, key);  // too many gaps for a grid
+      return table(cap, [{ h: RATE_DIM[rowD] }, ...ck.map((c) => ({ h: c, num: true }))],
+        rk.map((k) => ({ th: k, tds: ck.map((c) => ({ html: price(rs.find((r) => key(r, rowD) === k && key(r, colD) === c)), num: true })) })));
+    };
+    const pkgs = uniq(rates, (r) => r.package).map((name) => { const rs = rates.filter((r) => r.package === name); return { name, rs, ...prep(rs) }; });
+    const dayList = (p) => p.rs.map((r) => p.key(r, "days")).join("|");
+    const byDay = (p) => p.rs.length > 1 && p.vary.length === 1 && p.vary[0] === "days";
+    const done = new Set();
+    let out = "";
+    pkgs.filter((p) => p.rs.length > 1).forEach((p) => {
+      if (done.has(p)) return;
+      // Packages priced by the same days sit side by side, one column each
+      const peers = byDay(p) ? pkgs.filter((x) => !done.has(x) && byDay(x) && dayList(x) === dayList(p)) : [p];
+      peers.forEach((x) => done.add(x));
+      out += peers.length < 2 ? one(p.name, p.rs)
+        : table("", [{ h: "Days" }, ...peers.map((x) => ({ h: x.name, s: fixedOf(x.rs).filter((d) => d !== "days").map((d) => x.rs[0][d]).join(" · "), num: true }))],
+          p.rs.map((r) => ({ th: p.key(r, "days"), tds: peers.map((x) => ({ html: price(x.rs.find((y) => x.key(y, "days") === p.key(r, "days"))), num: true })) })));
+    });
+    // One-row packages share one table
+    const single = pkgs.filter((p) => p.rs.length === 1);
+    if (single.length) {
+      const dims = DIMS.filter((d) => single.some((p) => p.rs[0][d]));
+      out += table("", [{ h: single.some((p) => p.name) ? "Package" : "" }, ...dims.map((d) => ({ h: RATE_DIM[d] })), priceCol],
+        single.map((p) => ({ th: p.name, tds: [...dims.map((d) => ({ html: fmt(p.rs[0][d]) })), { html: price(p.rs[0]), num: true }] })));
+    }
+    return out;
+  }
+  // "Mon, Wed–Sat" -> which of the 7 days are open; null if a part can't be read
+  const WEEK = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  function openDays(t) {
+    const day = (s) => WEEK.findIndex((d) => s.trim().toLowerCase().startsWith(d.toLowerCase()));
+    const open = new Set();
+    for (const part of (t || "").split(",")) {
+      const [a, b] = part.split(/\s*[–-]\s*/).map(day);
+      if (a < 0 || (b != null && b < 0)) return null;
+      for (let i = a; ; i = (i + 1) % 7) { open.add(i); if (b == null || i === b) break; }
+    }
+    return open.size ? open : null;
+  }
+  const RULE_WORD = { yes: "Allowed", no: "Not allowed", cond: "With conditions" };
   function detailsRedesign(v, q) {
     const fmt = (t) => (q ? highlight(t, q) : esc(t));
     const L = (k) => lines(raw(v, k)).filter((l) => !/^(yes|no|true|false)$/i.test(l));
@@ -954,13 +1024,16 @@
     const paid = [...[...AESTHETICS, ...LIGHTING].map((o) => on("Decor", o, ["rent"])), ...OTHER.map((o) => on("Other", o, ["rent"])),
       ...AV.map((o) => on("Audio/Visual", o, ["addon"])), on("Features", "Event coordinator", ["addon"])].filter(Boolean);
     const extras = L("extras");
+    const open = openDays(v.daysOpen);
     const body = {
       pricing: [
         raw(v, "Standard Price Range") ? `<p class="dx-lede">${fmt(raw(v, "Standard Price Range"))}</p>` : "",
-        priceList(L("Packages and Prices")),
+        rateTables(v.rates, fmt),
+        v.rates && v.rates.length ? sub("Add-ons, fees and notes", priceList(L("Packages and Prices"))) : priceList(L("Packages and Prices")),
         sub("Paying for it", plain(L("Deposit Policy"))),
       ].join(""),
-      hours: kv([["Times", ml(L("Time slots"))], ["Rental length", ml(L("Length of Rental"))]]),
+      hours: (open ? `<div class="dx-week" aria-label="Days open: ${esc(v.daysOpen)}">${WEEK.map((d, i) => `<span class="dx-day${open.has(i) ? "" : " off"}">${d}${open.has(i) ? "" : `<span class="s">Closed</span>`}</span>`).join("")}</div>` : "")
+        + kv([["Days open", open ? "" : fmt(v.daysOpen || "")], ["Usual hours", fmt(v.hours || "")], ["Times", ml(L("Time slots"))], ["Rental length", ml(L("Length of Rental"))]]),
       spaces: kv([["Seated", ml(L("Seated Capacity"))], ["Standing", ml(L("Standing Capacity"))],
         ["Indoors", fmt(on("Features", "Indoors"))], ["Outdoors", fmt(on("Features", "Outdoors"))],
         ["Getting ready", ml(uniq([...L("Bride/Groom Rooms"), on("Features", "Bridal room"), on("Features", "Groom's room")].filter(Boolean)))]]),
@@ -974,7 +1047,12 @@
         sub("For rent or extra cost", priceList(uniq([...L("Other Decor for Rent"), ...extras.filter((l) => /\$/.test(l)), ...L("Event Coordinator").filter((l) => /\$/.test(l)), ...paid]))),
       ].join(""),
       food: [rules(uniq([...L("Catering"), on("Features", "Outside catering allowed")].filter(Boolean))), sub("Alcohol", rules(L("Alcohol policy"))), kv([["Kitchen / prep", ml(L("Prep Area"))]])].join(""),
-      rules: rules(uniq([...L("sparklers allowed"), on("Features", "Sparklers allowed", ["included", "addon"]), ...L("Restrictions")].filter(Boolean))),
+      rules: [
+        // Rule columns first ("Music cutoff" with conditions reads better without "With conditions")
+        (v.rules || []).length ? `<ul class="dx-rules dx-quick">${v.rules.map((r) => `<li class="${r.status}"><span class="ic" aria-hidden="true">${DX_ICON[r.status]}</span><span><strong>${esc(r.rule)}${r.rule === "Music cutoff" && r.status === "cond" ? "" : `: ${RULE_WORD[r.status]}`}</strong>${r.note ? `<small>${fmt(r.note)}</small>` : ""}</span></li>`).join("")}</ul>` : "",
+        (v.rules || []).length ? sub("All rules", rules(uniq([...L("sparklers allowed"), on("Features", "Sparklers allowed", ["included", "addon"]), ...L("Restrictions")].filter(Boolean))))
+          : rules(uniq([...L("sparklers allowed"), on("Features", "Sparklers allowed", ["included", "addon"]), ...L("Restrictions")].filter(Boolean))),
+      ].join(""),
       access: [checks(uniq([...L("Accessibility"), ...group("Accessibility options", ACCESS)])), kv([["Parking", ml(L("parking?"))]])].join(""),
       know: [plain(L("Important Notes")), kv([["Style", fmt(L("Style").join(", "))]])].join(""),
       contact: kv([...L("Contact Information").map((l) => { const m = l.match(/^([^:]{1,20}):\s*(.+)$/); return m ? [m[1], fmt(m[2])] : ["", fmt(l)]; }),
@@ -986,13 +1064,17 @@
     // "3:00pm-9:00pm" -> "3–9pm"; the deposit tile shows just the amount
     const shortTime = (t) => t.replace(/(\d{1,2}):00\s*/g, "$1").replace(/(\d{1,2})\s*(am|pm)\s*[-–]\s*(\d{1,2})\s*/gi, "$1–$3$2").replace(/\s*-\s*/g, "–");
     const deposit = (L("Deposit Policy")[0] || "").match(/\$[\d,]+/);
+    const alcohol = (v.rules || []).find((r) => r.rule === "Alcohol");
     const glance = [
       v.priceMin != null && ["Rental", priceRange(v), priceNote(v)],
       v.seated != null && ["Seats", seatRange(v), v.standing != null ? `${v.standingMin != null && v.standingMin !== v.standing ? v.standingMin + "–" : ""}${v.standing} standing` : ""],
       // only a plain time range ("3–9pm or 4–10pm"); day-specific lines would mislead as a summary
-      /^[\d:–\s]+(am|pm)?[\d:–\s]*(am|pm)(\s+or\s+[\d:–\s]+(am|pm)?[\d:–\s]*(am|pm))?$/i.test(shortTime(L("Time slots")[0] || "")) && ["Hours", shortTime(L("Time slots")[0]), ""],
+      v.hours ? ["Hours", v.hours, ""]
+        : /^[\d:–\s]+(am|pm)?[\d:–\s]*(am|pm)(\s+or\s+[\d:–\s]+(am|pm)?[\d:–\s]*(am|pm))?$/i.test(shortTime(L("Time slots")[0] || "")) && ["Hours", shortTime(L("Time slots")[0]), ""],
+      v.daysOpen && ["Open", v.daysOpen, open && open.size < 7 ? `Closed ${WEEK.filter((_, i) => !open.has(i)).join(", ")}` : open ? "Every day" : ""],
       deposit && ["To book", deposit[0], L("Deposit Policy")[0].replace(deposit[0], "").replace(/^[\s:—–-]+/, "").slice(0, 60)],
-      L("Alcohol policy")[0] && L("Alcohol policy")[0].length <= 34 && ["Alcohol", L("Alcohol policy")[0], ""],
+      alcohol ? ["Alcohol", RULE_WORD[alcohol.status], alcohol.note.slice(0, 60)]
+        : L("Alcohol policy")[0] && L("Alcohol policy")[0].length <= 34 && ["Alcohol", L("Alcohol policy")[0], ""],
     ].filter(Boolean);
 
     return `<details class="details" id="details"${q ? " open" : ""}>

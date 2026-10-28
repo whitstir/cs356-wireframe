@@ -224,7 +224,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site — Mon-Wed morning 10am-3pm $1,000\nSame inclusions — Thu morning 10am-3pm $1,100\nSame inclusions — Fri-Sat morning 10am-3pm $1,200\nSame inclusions — Mon-Wed evening 4pm-10pm $1,350\nSame inclusions — Thu evening 4pm-10pm $1,600\nSame inclusions — Fri-Sat evening 4pm-10pm $1,850\nSame inclusions — Mon-Wed all-day 10am-10pm $1,850\nSame inclusions — Thu all-day 10am-10pm $2,100\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue"
+     "value": "Every rental includes: use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue"
     },
     {
      "id": "pricing-deposit",
@@ -707,6 +707,89 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "10am–3pm, 4–10pm or all day",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "Morning, 10am–3pm",
+   "price": "$1,000",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Thu",
+   "hours": "Morning, 10am–3pm",
+   "price": "$1,100",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "Morning, 10am–3pm",
+   "price": "$1,200",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "Evening, 4–10pm",
+   "price": "$1,350",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Thu",
+   "hours": "Evening, 4–10pm",
+   "price": "$1,600",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "Evening, 4–10pm",
+   "price": "$1,850",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "All day, 10am–10pm",
+   "price": "$1,850",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Thu",
+   "hours": "All day, 10am–10pm",
+   "price": "$2,100",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri–Sat",
+   "hours": "All day, 10am–10pm",
+   "price": "$2,350",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "white-willow-reception-center",
   "Venue Name": "White Willow Reception Center",
@@ -721,7 +804,7 @@
   "Seated Low": "100",
   "Seated High": "100",
   "Seated Capacity": "100 chairs included (no stated maximum)",
-  "Packages and Prices": "Use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site — Mon-Wed morning 10am-3pm $1,000\nSame inclusions — Thu morning 10am-3pm $1,100\nSame inclusions — Fri-Sat morning 10am-3pm $1,200\nSame inclusions — Mon-Wed evening 4pm-10pm $1,350\nSame inclusions — Thu evening 4pm-10pm $1,600\nSame inclusions — Fri-Sat evening 4pm-10pm $1,850\nSame inclusions — Mon-Wed all-day 10am-10pm $1,850\nSame inclusions — Thu all-day 10am-10pm $2,100\nSame inclusions — Fri-Sat all-day 10am-10pm $2,350\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue",
+  "Packages and Prices": "Every rental includes: use of bride's room, groom's room, ballroom, buffet room, parlors, gardens and serving kitchen; staff set up and take down venue inventory; 10 60-inch round tables, 2 6-foot banquet tables, 8 adjustable cocktail tables, 100 white chairs, carved cake table, choice of cake stand; centerpiece bases, greenery, flowers and lanterns; table and floor easels, signs, chalkboards, gift card holders; sound system with wireless microphone; TV; 1-hour personalized consultation; host/hostess on site\nFloor cleaning fee (all rentals) — $50\nHours before 10am or after 10pm — $100 per hour\nVenue access outside rental period — $100 per hour\nTwo-person food service and cleanup staff — $300 for up to 3 hours; extra hours $100 each\nCeremony change-over — $100\nTwo patio heaters — $30\nAdditional 60-inch round table and 10 chairs — $35 per set\nSparklers — $6 per dozen pre-ordered / $9 per dozen day of event\nLinens — extra cost, rented through venue",
   "Time slots": "Mon-Wed 10am-3pm\nThu 10am-3pm\nFri-Sat 10am-3pm\nMon-Wed 4pm-10pm\nThu 4pm-10pm\nFri-Sat 4pm-10pm\nMon-Wed 10am-10pm\nThu 10am-10pm\nFri-Sat 10am-10pm",
   "Length of Rental": "5-12 hours",
   "Style": "Historic\nVintage\nFrench farmhouse",
@@ -739,6 +822,10 @@
   "Bride/Groom Rooms": "Bride's room\nGroom's room",
   "Restrictions": "No cooking in serving kitchen\nNo alcohol on site\nLinens must be rented through venue\nRental period must include setup and takedown\nOutside deliveries must occur during rental period",
   "Important Notes": "Historic 1904 mansion\n95% of home is original\nBallroom added in 1998\n$50 floor cleaning fee added to all rentals",
-  "Contact Information": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com"
+  "Contact Information": "Phone: 801-404-9840\nEmail: events@whitewillowweddings.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "10am–3pm, 4–10pm or all day",
+  "Rates": "Mon–Wed · Morning, 10am–3pm — $1,000\nThu · Morning, 10am–3pm — $1,100\nFri–Sat · Morning, 10am–3pm — $1,200\nMon–Wed · Evening, 4–10pm — $1,350\nThu · Evening, 4–10pm — $1,600\nFri–Sat · Evening, 4–10pm — $1,850\nMon–Wed · All day, 10am–10pm — $1,850\nThu · All day, 10am–10pm — $2,100\nFri–Sat · All day, 10am–10pm — $2,350",
+  "Rules": "Alcohol: Not allowed"
  }
 }

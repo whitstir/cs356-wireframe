@@ -220,7 +220,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Peak season (May-October), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $5,000; Thursday $6,000; Friday-Saturday $7,000\nOff season (November-April), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $3,500; Thursday $4,500; Friday-Saturday $5,500\nOff-season half day, 6 hours Monday-Wednesday — $3,000\nUltimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request"
+     "value": "Ultimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request"
     }
    ]
   },
@@ -675,6 +675,78 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Licensed, insured bartender; $500 fee"
+  },
+  {
+   "rule": "Confetti",
+   "status": "cond",
+   "note": "Only with the $250 projectiles add-on"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "10am–10pm",
+ "rates": [
+  {
+   "package": "12-hour rental, all amenities",
+   "season": "Peak (May–Oct)",
+   "days": "Mon–Wed",
+   "hours": "10am–10pm",
+   "price": "$5,000",
+   "note": ""
+  },
+  {
+   "package": "12-hour rental, all amenities",
+   "season": "Peak (May–Oct)",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$6,000",
+   "note": ""
+  },
+  {
+   "package": "12-hour rental, all amenities",
+   "season": "Peak (May–Oct)",
+   "days": "Fri–Sat",
+   "hours": "10am–10pm",
+   "price": "$7,000",
+   "note": ""
+  },
+  {
+   "package": "12-hour rental, all amenities",
+   "season": "Off season (Nov–Apr)",
+   "days": "Mon–Wed",
+   "hours": "10am–10pm",
+   "price": "$3,500",
+   "note": ""
+  },
+  {
+   "package": "12-hour rental, all amenities",
+   "season": "Off season (Nov–Apr)",
+   "days": "Thu",
+   "hours": "10am–10pm",
+   "price": "$4,500",
+   "note": ""
+  },
+  {
+   "package": "12-hour rental, all amenities",
+   "season": "Off season (Nov–Apr)",
+   "days": "Fri–Sat",
+   "hours": "10am–10pm",
+   "price": "$5,500",
+   "note": ""
+  },
+  {
+   "package": "Half day, 6 hours",
+   "season": "Off season (Nov–Apr)",
+   "days": "Mon–Wed",
+   "hours": "6 hours between 10am and 10pm",
+   "price": "$3,000",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "river-bridge-event-center",
   "Venue Name": "River Bridge Event Center",
@@ -687,7 +759,7 @@
   "Price Basis": "rental",
   "Standard Price Range": "Peak $5,000/$6,000/$7,000; off-season $3,500–$5,500; off-season half day $3,000",
   "Seated Capacity": "Not stated",
-  "Packages and Prices": "Peak season (May-October), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $5,000; Thursday $6,000; Friday-Saturday $7,000\nOff season (November-April), 12-hour rental 10am-10pm with all amenities — Monday-Wednesday $3,500; Thursday $4,500; Friday-Saturday $5,500\nOff-season half day, 6 hours Monday-Wednesday — $3,000\nUltimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request",
+  "Packages and Prices": "Ultimate Event Package (month-of and day-of coordination, ceremony essentials, decorating, 100 sparklers, projectiles) — $2,000\nCeremony Essentials (day-of rehearsal, ceremony coordination) — $750\nDecorating Package — $500\nSparkler Package (100 sparklers) — $100\nProjectiles — $250\nAlcohol fee — $500\nChinaware, chargers, flatware and goblets — price on request",
   "Time slots": "Full day 10am-10pm (Monday-Saturday)\nOff-season half day: 6 hours between 10am-10pm, Monday-Wednesday",
   "Length of Rental": "12 hours\n6 hours (off-season half day)",
   "Style": "Timeless\nElevated\nRefined",
@@ -704,6 +776,10 @@
   "Bride/Groom Rooms": "Bridal suite\nGroom's lounge\nFamily and vendor room",
   "Restrictions": "Projectiles (confetti, rice, petals) only with the $250 add-on; client cleans up projectiles",
   "Important Notes": "Peak season May-October; off season November-April\nAll listed amenities are included in the rental; packages are optional",
-  "Contact Information": "Phone: 801-663-1134\nEmail: info@riverbridgeeventcenter.com"
+  "Contact Information": "Phone: 801-663-1134\nEmail: info@riverbridgeeventcenter.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "10am–10pm",
+  "Rates": "12-hour rental, all amenities · Peak (May–Oct) · Mon–Wed · 10am–10pm — $5,000\n12-hour rental, all amenities · Peak (May–Oct) · Thu · 10am–10pm — $6,000\n12-hour rental, all amenities · Peak (May–Oct) · Fri–Sat · 10am–10pm — $7,000\n12-hour rental, all amenities · Off season (Nov–Apr) · Mon–Wed · 10am–10pm — $3,500\n12-hour rental, all amenities · Off season (Nov–Apr) · Thu · 10am–10pm — $4,500\n12-hour rental, all amenities · Off season (Nov–Apr) · Fri–Sat · 10am–10pm — $5,500\nHalf day, 6 hours · Off season (Nov–Apr) · Mon–Wed · 6 hours between 10am and 10pm — $3,000",
+  "Rules": "Alcohol: Conditions — Licensed, insured bartender; $500 fee\nConfetti: Conditions — Only with the $250 projectiles add-on"
  }
 }

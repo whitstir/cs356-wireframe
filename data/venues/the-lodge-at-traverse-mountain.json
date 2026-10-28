@@ -211,7 +211,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee"
+     "value": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee"
     },
     {
      "id": "pricing-deposit",
@@ -722,6 +722,49 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "Weekdays 5–10pm; Sat 9am–10:30pm",
+ "rates": [
+  {
+   "package": "Event package",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "5–10pm",
+   "price": "$1,850",
+   "note": ""
+  },
+  {
+   "package": "Event package",
+   "season": "",
+   "days": "Thu",
+   "hours": "5–10pm",
+   "price": "$2,100",
+   "note": ""
+  },
+  {
+   "package": "Event package",
+   "season": "",
+   "days": "Fri",
+   "hours": "5–10:30pm",
+   "price": "$2,350",
+   "note": ""
+  },
+  {
+   "package": "Event package",
+   "season": "",
+   "days": "Sat",
+   "hours": "9am–10:30pm",
+   "price": "$2,850",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "the-lodge-at-traverse-mountain",
   "Venue Name": "The Lodge at Traverse Mountain",
@@ -739,7 +782,7 @@
   "Standing Low": "300",
   "Standing High": "300",
   "Standing Capacity": "300 come-and-go reception",
-  "Packages and Prices": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager — Mon-Wed 5pm-10pm — $1,850\nSame inclusions — Thu 5pm-10pm — $2,100\nSame inclusions — Fri 5pm-10:30pm — $2,350\nSame inclusions — Sat 9am-10:30pm — $2,850\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee",
+  "Packages and Prices": "Event package: up to 120 white padded chairs, 14 60-inch round tables, 8 6-foot rectangular serving tables, 8 32-inch bar-height tables, 20 table linens, built-in audio/video, warming kitchen, fireplaces, patio and event manager\nDIY setup and takedown — $250 off any package\nDecor rental, unlimited — $350 (or a la carte)\nExtra linens — additional fee",
   "Time slots": "Mon-Wed 5pm-10pm\nThu 5pm-10pm\nFri 5pm-10:30pm\nSat 9am-10:30pm",
   "Length of Rental": "5-13.5 hours",
   "Style": "Mountain views\nNatural stone and wood",
@@ -757,6 +800,10 @@
   "Bride/Groom Rooms": "Bride's room",
   "Restrictions": "No alcohol\nNo smoking\nNot available during weekday business hours (facility shared with tenants)",
   "Important Notes": "FAQ says the $500 deposit is fully refundable unless the event is cancelled; the cancellation policy says the deposit is non-refundable.\nFAQ says 100 chairs and 12 round tables are on site; the pricing section says up to 120 chairs and 14 round tables.\nCeremony seating up to 150 (without tables).\nMon-Fri events may use the evening before for setup.",
-  "Contact Information": "Phone: (385) 234-1406\nText: (385) 234-1406"
+  "Contact Information": "Phone: (385) 234-1406\nText: (385) 234-1406",
+  "Days Open": "Mon–Sat",
+  "Hours": "Weekdays 5–10pm; Sat 9am–10:30pm",
+  "Rates": "Event package · Mon–Wed · 5–10pm — $1,850\nEvent package · Thu · 5–10pm — $2,100\nEvent package · Fri · 5–10:30pm — $2,350\nEvent package · Sat · 9am–10:30pm — $2,850",
+  "Rules": "Alcohol: Not allowed"
  }
 }

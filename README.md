@@ -116,11 +116,11 @@ Follows the course Tree Test spec:
 **The Google Sheet is the source of truth.** Edit venue info there, not in the repo. The sheet is "Wedding Reception Project" on the team Drive ([open it](https://docs.google.com/spreadsheets/d/1QW8jezDjK2IZ13M2dSx2Gkv6WDSE3NCMrmlkE8jl2Jg/edit)); it must stay shared as "Anyone with the link can view" so GitHub can read it.
 
 ```
-Google Sheet ──(Run workflow)──> data/venues.csv, data/venue-sections.csv ──(tools/build_data.py)──> data/venues.js + data/venues/<id>.json ──> site
+Google Sheet ──(Run workflow)──> data/venues.csv, data/venue-sections.csv, data/rates.csv ──(tools/build_data.py)──> data/venues.js + data/venues/<id>.json ──> site
 ```
 
 **To change venue info**
-1. Edit the sheet (tabs **Venues** and **Venue sections**; keep those tab names exactly).
+1. Edit the sheet (tabs **Venues**, **Venue sections** and **Rates**; keep those tab names exactly).
 2. On GitHub: **Actions → Venue data → Run workflow** (branch `main`). In about a minute it downloads both tabs, rebuilds the site data, and commits the result as "venue-data bot". If nothing changed, it commits nothing.
 3. **`git pull`** before your next local edit, because the workflow committed to `main`.
 4. The live site updates 1–2 minutes later. Browsers may cache `venues.js` for about 10 minutes; for a demo, raise the `?v=` number on the `venues.js` line in [site/index.html](site/index.html) and [index.html](index.html), then push.
@@ -130,7 +130,10 @@ Google Sheet ──(Run workflow)──> data/venues.csv, data/venue-sections.cs
   - `Venue ID` is permanent. It is the page address (`#/venue/<id>`) and the key for photos and style tags, so don't change it, even when renaming a venue.
   - `Price Low` / `Price High` and `Seated Low` / `Seated High` / `Standing Low` / `Standing High` are plain numbers that feed the sliders; leave both blank if the venue doesn't publish one. `Price Basis` is `rental`, `per-person x capacity` or `full-service package`.
   - **Filter columns** are named `<Group>: <Option>` (e.g. `Features: Bridal room`, `Decor: Chandeliers`). A blank cell means no. Otherwise the cell starts with `Included:`, `Add-on:`, `For rent:` or `Included + for rent:`, followed by a short neutral label (e.g. `Included: Bridal suite with balcony`). That label shows under the feature on the venue page, so write it as a plain description, not in the venue's voice ("we", "our", "you", "beautiful").
-  - The other columns (Packages and Prices, Catering, Restrictions…) appear in the venue page's *Detailed information*; one item per line.
+  - **Rule columns** `Rule: Alcohol`, `Rule: Pets`, `Rule: Confetti`, `Rule: Music cutoff`: `Allowed`, `Not allowed` or `Conditions: <what they are>`, optionally followed by a short note (`Not allowed: No dogs`). Leave blank if the venue doesn't say. They show as the quick rules at the top of the Rules section; the full wording stays in `Restrictions` and `Alcohol policy`.
+  - **`Days Open`**: days the venue books events, as days and ranges (`Tue–Sat`, `Mon, Wed–Sat`). It draws the week strip; anything it can't read shows as plain text. **`Hours`**: a short summary for the at-a-glance strip (`3–9pm or 4–10pm`).
+  - The other columns (Packages and Prices, Catering, Restrictions…) appear in the venue page's *Detailed information*; one item per line. Base rental prices belong in the Rates tab; Packages and Prices holds add-ons, fees and what's included.
+- **Rates tab:** one row per base price. Columns: `Venue ID`, `Space / package`, `Season`, `Days`, `Hours`, `Price`, `Note` (`Price` is required; write `On request` if there is none). Leave a column blank when it doesn't apply. The page turns each package into a table: days down the side and season or time block across; packages priced over the same days share one table, and one-row packages are listed together. Write the same `Season`, `Days` and `Hours` wording on every row of a package so the rows line up.
 - **Venue sections tab:** extra sections a venue needs (spaces, ceremony sites, rain plan, lodging…). Columns: `Venue ID`, `Section` (title), `Place After` (one of `overview, pricing, capacity, rooms, included, av, decor, other, food, rules, access, notes, contact`), `Label`, `Value`. One row per item.
 
 **Adding a new venue:** add a row with a new lowercase `Venue ID` (e.g. `new-venue-name`), then in the repo add its style tags to `STYLES` in [tools/build_data.py](tools/build_data.py) (the build warns if it's missing) and, optionally, its photos to [data/photos.js](data/photos.js) under the same ID.
@@ -143,7 +146,7 @@ python3 tools/build_data.py           # rebuild only (after editing data/*.csv b
 ```
 Pushing an edited `data/*.csv` also makes the workflow rebuild automatically, but a hand-edited CSV is overwritten the next time someone syncs from the sheet, so put the change in the sheet too.
 
-**If the workflow fails:** open the failed run on the Actions tab; the last lines name the problem (for example, a filter cell that doesn't start with `Included:` / `Add-on:` / `For rent:`, an unknown `Place After`, a renamed tab, or a sheet that's no longer link-shared). Fix the sheet and run it again. The workflow file is [.github/workflows/venue-data.yml](.github/workflows/venue-data.yml).
+**If the workflow fails:** open the failed run on the Actions tab; the last lines name the problem (for example, a filter cell that doesn't start with `Included:` / `Add-on:` / `For rent:`, an unknown `Place After`, a rule cell that isn't `Allowed` / `Not allowed` / `Conditions:`, a renamed tab, or a sheet that's no longer link-shared). If it says the sheet is missing the `Rates` tab or a `Rule:` / `Days Open` / `Hours` column, the sheet is older than the repo: import that tab or those columns from `data/` first (the check stops so an old sheet can't overwrite newer data). Fix the sheet and run it again. The workflow file is [.github/workflows/venue-data.yml](.github/workflows/venue-data.yml).
 
 ## Editing and publishing
 Saving a file only changes your computer. The live site updates after you **commit and push**, and GitHub Pages takes about 1–2 minutes to rebuild.
@@ -169,6 +172,7 @@ app.js              pages, Explore filters, venue pages, click log, test mode, r
 site/               hi-fi site (index.html, site.css, site.js)
 data/venues.csv     Google Sheet tab "Venues" (downloaded by tools/sync_sheet.py)
 data/venue-sections.csv  Google Sheet tab "Venue sections"
+data/rates.csv      Google Sheet tab "Rates"
 data/venues.js      generated by tools/build_data.py, do not edit by hand
 data/venues/        generated: one JSON per venue (filters + ordered page sections)
 data/photos.js      venue photos for the prototype (not used by the wireframe): linked from each venue's site, labeled, with credit source

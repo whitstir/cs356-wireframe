@@ -727,6 +727,21 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Venue bar only; no outside alcohol"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": "Also no glitter, helium balloons or drones"
+  }
+ ],
+ "daysOpen": "",
+ "hours": "",
+ "rates": [],
  "raw": {
   "Venue ID": "utah-valley-convention-center",
   "Venue Name": "Utah Valley Convention Center",
@@ -755,6 +770,7 @@
   "Event Coordinator": "Assigned UVCC Event Manager\nEvent sales manager",
   "Restrictions": "Timpanogos Terrace requires paying for an indoor backup space ($1,500)\nOutside food and beverage prohibited\nNo helium balloons, glitter, confetti or drones\nFog/smoke machines water-based only, 2 weeks notice, Fire Watch attendant required\nPyrotechnics only via licensed provider with Provo Fire approval",
   "Important Notes": "Grand Ballroom 16,894 sq. ft., divisible into three sections of up to 380 guests each\nCascade Room 6,862 sq. ft. with rooftop Timpanogos Terrace on Level 3\nFacility size: 83,578 sq. ft.\nLEED Silver building; renovated 2022",
-  "Contact Information": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com"
+  "Contact Information": "Phone: (801) 851-2200\nEmail: info@utahvalleycc.com",
+  "Rules": "Alcohol: Conditions — Venue bar only; no outside alcohol\nConfetti: Not allowed — Also no glitter, helium balloons or drones"
  }
 }

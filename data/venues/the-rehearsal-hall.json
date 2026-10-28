@@ -652,6 +652,16 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Bought from Sundance Resort; resort bar only"
+  }
+ ],
+ "daysOpen": "",
+ "hours": "",
+ "rates": [],
  "raw": {
   "Venue ID": "the-rehearsal-hall",
   "Venue Name": "Rehearsal Hall",
@@ -674,6 +684,7 @@
   "Alcohol policy": "Private bar under the resort's liquor licenses\nAll alcohol must be purchased from Sundance Resort",
   "Restrictions": "Couple must hire a wedding planner for weddings with multiple events; day-of coordinator strongly encouraged for single-event weddings\nOn-site day-of wedding contact required\nAll alcohol must be purchased from Sundance Resort",
   "Important Notes": "Resort Wedding Specialist and events team help plan and book (not a day-of coordinator)\nTours by appointment only\nOne of several Sundance Resort event spaces\nCapacities and size from the resort's 2017 floor-plan PDF",
-  "Contact Information": "Phone: 801-223-4070 (Wedding Specialist)\nPhone: 801-225-4107 (Resort)"
+  "Contact Information": "Phone: 801-223-4070 (Wedding Specialist)\nPhone: 801-225-4107 (Resort)",
+  "Rules": "Alcohol: Conditions — Bought from Sundance Resort; resort bar only"
  }
 }

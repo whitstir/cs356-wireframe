@@ -662,6 +662,16 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Bought from Sundance Resort; resort bar only"
+  }
+ ],
+ "daysOpen": "",
+ "hours": "",
+ "rates": [],
  "raw": {
   "Venue ID": "redford-conference-center",
   "Venue Name": "Redford Conference Center",
@@ -684,6 +694,7 @@
   "Alcohol policy": "Private bar functions under resort liquor licenses\nAll alcohol must be purchased from Sundance Resort",
   "Restrictions": "Wedding planner required for weddings with multiple events; strongly encouraged otherwise\nOn-site day-of wedding contact required\nAll alcohol must be bought from the resort\nTours by appointment only",
   "Important Notes": "Building has nearly 3,500 sq. ft. of meeting space; Main Room 3,330 sq. ft. (45 x 74 ft, 20 ft ceiling)\nWraparound reception area; sliding barn-style glass doors open to a lawn\nEnvironmental features: geothermal heating/cooling, reclaimed wood",
-  "Contact Information": "Phone: 801-223-4070\nPhone: 801-225-4107"
+  "Contact Information": "Phone: 801-223-4070\nPhone: 801-225-4107",
+  "Rules": "Alcohol: Conditions — Bought from Sundance Resort; resort bar only"
  }
 }

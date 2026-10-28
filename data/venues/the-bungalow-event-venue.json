@@ -227,7 +227,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Reception rental, 6-hour block (3pm-9pm or 4pm-10pm), all amenities included:\nPeak season (April-October) Tuesday-Friday — $3,000\nPeak season Saturday — $3,400\nOff-peak (November-March) Tuesday-Thursday — $2,600\nOff-peak Friday — $2,800\nOff-peak Saturday — $3,000\nCeremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600"
+     "value": "Ceremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600"
     },
     {
      "id": "pricing-deposit",
@@ -761,6 +761,80 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Beer and wine only; licensed bartender; $600 fee"
+  },
+  {
+   "rule": "Pets",
+   "status": "no",
+   "note": "No dogs"
+  },
+  {
+   "rule": "Confetti",
+   "status": "no",
+   "note": ""
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Off by 10pm (city ordinance)"
+  }
+ ],
+ "daysOpen": "Tue–Sat",
+ "hours": "3–9pm or 4–10pm",
+ "rates": [
+  {
+   "package": "Reception rental, 6-hour block, all amenities included",
+   "season": "Peak (Apr–Oct)",
+   "days": "Tue–Thu",
+   "hours": "3–9pm or 4–10pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "Reception rental, 6-hour block, all amenities included",
+   "season": "Peak (Apr–Oct)",
+   "days": "Fri",
+   "hours": "3–9pm or 4–10pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "Reception rental, 6-hour block, all amenities included",
+   "season": "Peak (Apr–Oct)",
+   "days": "Sat",
+   "hours": "3–9pm or 4–10pm",
+   "price": "$3,400",
+   "note": ""
+  },
+  {
+   "package": "Reception rental, 6-hour block, all amenities included",
+   "season": "Off-peak (Nov–Mar)",
+   "days": "Tue–Thu",
+   "hours": "3–9pm or 4–10pm",
+   "price": "$2,600",
+   "note": ""
+  },
+  {
+   "package": "Reception rental, 6-hour block, all amenities included",
+   "season": "Off-peak (Nov–Mar)",
+   "days": "Fri",
+   "hours": "3–9pm or 4–10pm",
+   "price": "$2,800",
+   "note": ""
+  },
+  {
+   "package": "Reception rental, 6-hour block, all amenities included",
+   "season": "Off-peak (Nov–Mar)",
+   "days": "Sat",
+   "hours": "3–9pm or 4–10pm",
+   "price": "$3,000",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "the-bungalow-event-venue",
   "Venue Name": "The Bungalow",
@@ -778,7 +852,7 @@
   "Standing Low": "300",
   "Standing High": "350",
   "Standing Capacity": "300 indoors (open-house reception)\n350 outdoors (open-house reception)",
-  "Packages and Prices": "Reception rental, 6-hour block (3pm-9pm or 4pm-10pm), all amenities included:\nPeak season (April-October) Tuesday-Friday — $3,000\nPeak season Saturday — $3,400\nOff-peak (November-March) Tuesday-Thursday — $2,600\nOff-peak Friday — $2,800\nOff-peak Saturday — $3,000\nCeremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600",
+  "Packages and Prices": "Ceremony added to a reception (1 extra hour) — $750 peak (70 guests max) / $550 off-peak indoor (40 guests max)\nCeremony only, no reception (Tuesday-Thursday, 3 hours) — $1,000\nSpecial events (Tuesday-Thursday, 3 hours) — $1,500\nAdditional hour for a luncheon — $500\nBungalow staff — $25 per hour per staff member\nAlcohol privilege fee — $600",
   "Time slots": "3:00pm-9:00pm or 4:00pm-10:00pm\nPeak (April-October): Tuesday-Saturday\nOff-peak (November-March): Tuesday-Saturday\nClosed Sunday",
   "Length of Rental": "6 hours (reception)\n3 hours (ceremony only or special event)",
   "Style": "Old-world charm\nFrench country\nEuropean country estate\nModern-day elegance",
@@ -797,6 +871,10 @@
   "Bride/Groom Rooms": "Dressing rooms",
   "Restrictions": "No sparklers, fireworks or floating lanterns\nNo confetti\nMusic off by 10:00pm (city ordinance)\nNo dogs\nNo early access, drop-offs or storage before the event\nFurniture moved only by venue staff\nCake must be from an established professional baker\nHost cleans up send-off and vehicle-decorating mess",
   "Important Notes": "Whole facility is booked exclusively\nOff-peak season: outdoor tables and chairs are stored for winter\nCeremony capacity: 70 outdoors / 40 indoors\nTours by appointment only; closed Sunday",
-  "Contact Information": "Phone: 801-785-2111\nEmail: infobungalowwedding@gmail.com\nInstagram: @bungalowweddings"
+  "Contact Information": "Phone: 801-785-2111\nEmail: infobungalowwedding@gmail.com\nInstagram: @bungalowweddings",
+  "Days Open": "Tue–Sat",
+  "Hours": "3–9pm or 4–10pm",
+  "Rates": "Reception rental, 6-hour block, all amenities included · Peak (Apr–Oct) · Tue–Thu · 3–9pm or 4–10pm — $3,000\nReception rental, 6-hour block, all amenities included · Peak (Apr–Oct) · Fri · 3–9pm or 4–10pm — $3,000\nReception rental, 6-hour block, all amenities included · Peak (Apr–Oct) · Sat · 3–9pm or 4–10pm — $3,400\nReception rental, 6-hour block, all amenities included · Off-peak (Nov–Mar) · Tue–Thu · 3–9pm or 4–10pm — $2,600\nReception rental, 6-hour block, all amenities included · Off-peak (Nov–Mar) · Fri · 3–9pm or 4–10pm — $2,800\nReception rental, 6-hour block, all amenities included · Off-peak (Nov–Mar) · Sat · 3–9pm or 4–10pm — $3,000",
+  "Rules": "Alcohol: Conditions — Beer and wine only; licensed bartender; $600 fee\nPets: Not allowed — No dogs\nConfetti: Not allowed\nMusic cutoff: Conditions — Off by 10pm (city ordinance)"
  }
 }

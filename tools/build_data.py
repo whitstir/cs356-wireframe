@@ -3,6 +3,7 @@
 Run from the repo root:  python3 tools/build_data.py
 Reads   data/venues.csv          (Google Sheet tab "Venues": one row per venue, one column per filter)
         data/venue-sections.csv  (tab "Venue sections": venue-specific sections, one row per item)
+        data/rates.csv           (tab "Rates": one row per base price; optional)
 Writes  data/venues.js           (what the site loads)
         data/venues/<id>.json    (one file per venue: core fields, filters, ordered page sections)
 
@@ -15,6 +16,7 @@ import csv, json, os, re, sys
 
 SRC = "data/venues.csv"
 SECTIONS_SRC = "data/venue-sections.csv"
+RATES_SRC = "data/rates.csv"
 OUT = "data/venues.js"
 OUT_DIR = "data/venues"
 
@@ -126,6 +128,10 @@ FIELD_LABELS = {
     "Accessibility": "Accessibility", "parking?": "Parking", "Important Notes": "Notes",
     "Contact Information": "Contact", "link": "Website",
 }
+# Rule columns on the Venues tab: "Allowed", "Not allowed" or "Conditions: ...", with an optional ": note"
+RULES = ["Alcohol", "Pets", "Confetti", "Music cutoff"]
+RULE_STATUS = [("Not allowed", "no"), ("Allowed", "yes"), ("Conditions", "cond")]
+RATE_COLS = ["Venue ID", "Space / package", "Season", "Days", "Hours", "Price", "Note"]
 PREFIXES = [("Included + for rent", "included+rent"), ("Included", "included"), ("Add-on", "addon"), ("For rent", "rent")]
 
 
@@ -160,6 +166,20 @@ def parse_filter(cell, where):
     fail(f"{where}: cell must start with Included:, Add-on:, For rent: or Included + for rent: (got {cell[:40]!r})")
 
 
+def parse_rule(cell, where):
+    """'Not allowed: No dogs' -> {'status': 'no', 'note': 'No dogs'}; blank -> None."""
+    cell = (cell or "").strip()
+    if not cell:
+        return None
+    for label, status in RULE_STATUS:
+        if cell.lower() == label.lower() or cell.lower().startswith(label.lower() + ":"):
+            note = cell[len(label) + 1:].strip()
+            if status == "cond" and not note:
+                fail(f"{where}: 'Conditions:' needs the conditions after it")
+            return {"status": status, "note": note}
+    fail(f"{where}: rule must be Allowed, Not allowed or Conditions: ... (got {cell[:40]!r})")
+
+
 # Check the section map once: every filter option has exactly one home section
 homes = [fo for _, _, fos in SECTIONS for fo in fos]
 for g, opts in FILTERS.items():
@@ -168,7 +188,7 @@ for g, opts in FILTERS.items():
             fail(f"filter '{g} > {o}' must have exactly one home section (has {homes.count((g, o))})")
 
 
-def build(r, extras):
+def build(r, extras, rates):
     vid = r["Venue ID"].strip() or slug(r["Venue Name"])
     name = r["Venue Name"].strip()
     filters = {}
@@ -194,6 +214,14 @@ def build(r, extras):
         for title2, rows in extras.get(sid, {}).items():
             sections.append({"id": slug(title2), "title": title2, "filters": [], "venueSpecific": True,
                              "items": [{"id": f"{slug(title2)}-{i}", "label": x["Label"], "value": x["Value"]} for i, x in enumerate(rows)]})
+
+    rules = [{"rule": k, **x} for k in RULES if (x := parse_rule(r.get(f"Rule: {k}"), f"{name} / Rule: {k}"))]
+    # Rates and rules as text lines too, for search and the wireframe's detail list
+    status_label = {s: l for l, s in RULE_STATUS}
+    text_fields = {k: "\n".join(t) for k, t in (
+        ("Rates", [" · ".join(p.strip() for p in (x["Space / package"], x["Season"], x["Days"], x["Hours"]) if p.strip())
+                   + f" — {x['Price'].strip()}" + (f" ({x['Note'].strip()})" if x["Note"].strip() else "") for x in rates]),
+        ("Rules", [f"{x['rule']}: {status_label[x['status']]}" + (f" — {x['note']}" if x["note"] else "") for x in rules])) if t}
 
     pl, ph, sl, sh = num(r["Price Low"]), num(r["Price High"]), num(r["Seated Low"]), num(r["Seated High"])
     return {
@@ -221,8 +249,14 @@ def build(r, extras):
                   "Designated lot": bool(re.search(r"lot|stall|spaces|spots|garage|onsite|on-site|ample|private", r.get("parking?") or "", re.I))},
         "filters": filters,
         "sections": sections,
-        # Every sheet field, for search and the "Detailed information" block
-        "raw": {k: v.strip() for k, v in r.items() if k and v and v.strip() and ":" not in k},
+        "rules": rules,
+        "daysOpen": (r.get("Days Open") or "").strip(),
+        "hours": (r.get("Hours") or "").strip(),
+        # Base prices from the Rates tab, in sheet order (add-ons stay in Packages and Prices)
+        "rates": [{"package": x["Space / package"].strip(), "season": x["Season"].strip(), "days": x["Days"].strip(),
+                   "hours": x["Hours"].strip(), "price": x["Price"].strip(), "note": x["Note"].strip()} for x in rates],
+        # Every sheet field, for search and the "Detailed information" block (plus the Rates and rule columns as text lines)
+        "raw": {k: v.strip() for k, v in r.items() if k and v and v.strip() and ":" not in k} | text_fields,
     }
 
 
@@ -234,12 +268,25 @@ if os.path.exists(SECTIONS_SRC):
         if place not in {s[0] for s in SECTIONS}:
             fail(f"venue-sections.csv: '{x['Section']}' has unknown Place After '{place}'")
         extras.setdefault(x["Venue ID"].strip(), {}).setdefault(place, {}).setdefault(x["Section"].strip(), []).append(x)
-venues = [build(r, extras.get(r["Venue ID"].strip(), {})) for r in rows]
+rates = {}
+if os.path.exists(RATES_SRC):
+    rr = csv.DictReader(open(RATES_SRC, encoding="utf-8"))
+    if missing := [c for c in RATE_COLS if c not in (rr.fieldnames or [])]:
+        fail(f"rates.csv is missing column(s) {', '.join(missing)}")
+    for i, x in enumerate(rr, 2):
+        if not any((v or "").strip() for v in x.values()):
+            continue
+        if not x["Price"].strip():
+            fail(f"rates.csv row {i}: Price is blank (write 'On request' if the venue gives none)")
+        rates.setdefault(x["Venue ID"].strip(), []).append(x)
+venues = [build(r, extras.get(r["Venue ID"].strip(), {}), rates.get(r["Venue ID"].strip(), [])) for r in rows]
 ids = [v["id"] for v in venues]
 if len(set(ids)) != len(ids):
     fail("duplicate Venue ID")
 for vid in set(extras) - set(ids):
     fail(f"venue-sections.csv mentions unknown Venue ID '{vid}'")
+for vid in set(rates) - set(ids):
+    fail(f"rates.csv mentions unknown Venue ID '{vid}'")
 for v in venues:
     if not v["styles"]:
         print(f"warning: {v['name']} has no style tags (add its Venue ID to STYLES)")
@@ -252,7 +299,7 @@ for v in venues:
     with open(os.path.join(OUT_DIR, v["id"] + ".json"), "w", encoding="utf-8") as f:
         json.dump(v, f, indent=1, ensure_ascii=False)
 with open(OUT, "w", encoding="utf-8") as f:
-    f.write("// Generated by tools/build_data.py from data/venues.csv and data/venue-sections.csv. Do not edit by hand.\n")
+    f.write("// Generated by tools/build_data.py from data/venues.csv, data/venue-sections.csv and data/rates.csv. Do not edit by hand.\n")
     f.write("window.VENUES = " + json.dumps(venues, indent=1, ensure_ascii=False) + ";\n")
     f.write("window.DECOR_CATEGORIES = " + json.dumps(DECOR_CATEGORIES, indent=1) + ";\n")
 print(f"Wrote {len(venues)} venues to {OUT} and {OUT_DIR}/")

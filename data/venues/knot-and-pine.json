@@ -232,7 +232,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic) — Mon-Wed — $3,500\nSame inclusions — Thu — $4,500\nSame inclusions — Fri or Sat — $4,750\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)"
+     "value": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic)\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)"
     },
     {
      "id": "pricing-deposit",
@@ -765,6 +765,46 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Approved bartender (Copa or The Bar Project); $400 fee"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Turned down at 10pm (city code)"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "6-hour block; setup from 10am",
+ "rates": [
+  {
+   "package": "Venue rental (6-hour event block plus all-day setup access)",
+   "season": "",
+   "days": "Mon–Wed",
+   "hours": "",
+   "price": "$3,500",
+   "note": ""
+  },
+  {
+   "package": "Venue rental (6-hour event block plus all-day setup access)",
+   "season": "",
+   "days": "Thu",
+   "hours": "",
+   "price": "$4,500",
+   "note": ""
+  },
+  {
+   "package": "Venue rental (6-hour event block plus all-day setup access)",
+   "season": "",
+   "days": "Fri or Sat",
+   "hours": "",
+   "price": "$4,750",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "knot-and-pine",
   "Venue Name": "Knot & Pine",
@@ -779,7 +819,7 @@
   "Seated Low": "120",
   "Seated High": "120",
   "Seated Capacity": "Up to 120",
-  "Packages and Prices": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic) — Mon-Wed — $3,500\nSame inclusions — Thu — $4,500\nSame inclusions — Fri or Sat — $4,750\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)",
+  "Packages and Prices": "Venue rental (all-day setup access from 10am plus a 6-hour event block that includes cleanup; tables and chairs for up to 120; bridal suite and groom's loft; prep kitchen; string and bistro lights; sound system with cordless mic)\nCeremony fee (ceremony seating and reset to reception layout) — $100\nExtra hours, up to midnight — $150/hour\nEarly access before 10am — $150\nAlcohol fee — $400\nAdditional photo sessions — $100/hour indoor and outdoor, $50/hour outdoor only\nAdditional venue visits — $50/hour\nHolidays — may incur additional fees (inquire)",
   "Time slots": "Setup access from 10am on the event day (earlier for $150)\n6-hour event block starting when the event begins (includes cleanup)\nEvents end by 10pm unless extended (up to midnight)",
   "Length of Rental": "6-hour event block plus all-day setup access; extendable to midnight at $150/hour",
   "Style": "Rustic charm\nModern elegance\nHistoric",
@@ -799,6 +839,10 @@
   "Bride/Groom Rooms": "Bridal suite with vanity and full-length mirror\nGroom's loft with lounge and TV",
   "Restrictions": "Events end by 10pm unless extended (up to midnight)\nMusic turned down at 10pm (city code)\nLit candles only in enclosed cylinder glass vases; none on the floor during the reception\nDecorations and adhesives must not damage the venue\nTables and chairs may not be removed from the venue\nNo outside alcohol or bartenders",
   "Important Notes": "Pricing page lists one rate per day group with no year; the separate 2026 and 2027 rate tables in the old data are no longer on the site\nHolidays may cost more (inquire)\nSister venue: 5th East Hall in American Fork",
-  "Contact Information": "Phone: (801) 770-4642\nEmail: contactus@knotandpine.com"
+  "Contact Information": "Phone: (801) 770-4642\nEmail: contactus@knotandpine.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "6-hour block; setup from 10am",
+  "Rates": "Venue rental (6-hour event block plus all-day setup access) · Mon–Wed — $3,500\nVenue rental (6-hour event block plus all-day setup access) · Thu — $4,500\nVenue rental (6-hour event block plus all-day setup access) · Fri or Sat — $4,750",
+  "Rules": "Alcohol: Conditions — Approved bartender (Copa or The Bar Project); $400 fee\nMusic cutoff: Conditions — Turned down at 10pm (city code)"
  }
 }

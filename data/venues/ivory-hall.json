@@ -232,7 +232,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,250\nSame inclusions — Sat — $3,750\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300"
+     "value": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300"
     },
     {
      "id": "pricing-deposit",
@@ -730,6 +730,41 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Licensed bartender; $300 fee"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "9am–10pm",
+ "rates": [
+  {
+   "package": "Full-day rental (2027 rates)",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "9am–10pm",
+   "price": "$2,500",
+   "note": ""
+  },
+  {
+   "package": "Full-day rental (2027 rates)",
+   "season": "",
+   "days": "Fri & Sun",
+   "hours": "9am–10pm",
+   "price": "$3,250",
+   "note": ""
+  },
+  {
+   "package": "Full-day rental (2027 rates)",
+   "season": "",
+   "days": "Sat",
+   "hours": "9am–10pm",
+   "price": "$3,750",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "ivory-hall",
   "Venue Name": "The Ivory Hall",
@@ -747,7 +782,7 @@
   "Standing Low": "300",
   "Standing High": "500",
   "Standing Capacity": "300 at once (seated + standing)\n500 open house across the evening",
-  "Packages and Prices": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff — Mon-Thu — $2,500\nSame inclusions — Fri and Sun — $3,250\nSame inclusions — Sat — $3,750\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300",
+  "Packages and Prices": "Full-day rental 9am-10pm with hall, bridal room, prep kitchen, standard décor and furniture, AV, on-site staff\nAdditional hour — $200/hour before midnight, $300/hour after midnight\nNight-before setup — $200/hour, 2-hour minimum (subject to calendar)\nAlcohol fee (licensed bartender required) — $300\nUpstairs Bridal Suite add-on — $500\nDance Floor Package (professional party speakers) — $300",
   "Time slots": "Mon-Thu 9am-10pm\nFri 9am-10pm\nSat 9am-10pm\nSun 9am-10pm",
   "Length of Rental": "13 hours",
   "Style": "Modern\nBright\nFlexible",
@@ -766,6 +801,10 @@
   "Bride/Groom Rooms": "Main-level bridal room included\nUpstairs Bridal Suite — $500 add-on",
   "Restrictions": "Licensed bartender required for alcohol\nAll rentals are full-day 9am-10pm",
   "Important Notes": "4,000 sq. ft. great hall (82 x 48 ft)\nOpen vendor policy\nSetup and takedown included\nNight-before setup billed hourly, opens about 2 months out\nPricing shown is 2027",
-  "Contact Information": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com"
+  "Contact Information": "Phone: (801) 882-7022\nEmail: hello@theivoryhall.com",
+  "Days Open": "Mon–Sun",
+  "Hours": "9am–10pm",
+  "Rates": "Full-day rental (2027 rates) · Mon–Thu · 9am–10pm — $2,500\nFull-day rental (2027 rates) · Fri & Sun · 9am–10pm — $3,250\nFull-day rental (2027 rates) · Sat · 9am–10pm — $3,750",
+  "Rules": "Alcohol: Conditions — Licensed bartender; $300 fee"
  }
 }

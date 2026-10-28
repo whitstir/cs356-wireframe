@@ -206,7 +206,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Venue rental Mon-Thu — $200/hour (3-hour minimum)\nVenue rental Fri or Sat, no tables or chairs — $2,350\nVenue rental Sunday, no tables or chairs — $1,500\nReserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun\nBarteli decorates and sets up — $600\nCleaning — $400\nTable with 8 chairs (blank) — $0\nTable with 8 chairs and table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\nSimple package (venue for the day, tables with covers), 10/15/20/25 tables — Fri-Sat $2,240/$2,485/$2,530/$2,575; Sunday $1,640/$1,685/$1,730/$1,775\nSilver package (venue for the day, decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/$3,050/$3,225; Sunday $1,900/$2,075/$2,250/$2,425\nGold package (Silver plus setup by Barteli), 10/15/20/25 tables — Fri-Sat $3,300/$3,475/$3,650/$3,825; Sunday $2,500/$2,675/$2,850/$3,025\nLuxury package (tables, chairs, decoration, food, cake, music, pictures, video, clean up), 10/15/20/25 tables — $7,960/$9,025/$10,150/$11,160"
+     "value": "Reserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun\nBarteli decorates and sets up — $600\nCleaning — $400\nTable with 8 chairs (blank) — $0\nTable with 8 chairs and table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\nSimple package (venue for the day, tables with covers), 10/15/20/25 tables — Fri-Sat $2,240/$2,485/$2,530/$2,575; Sunday $1,640/$1,685/$1,730/$1,775\nSilver package (venue for the day, decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/$3,050/$3,225; Sunday $1,900/$2,075/$2,250/$2,425\nGold package (Silver plus setup by Barteli), 10/15/20/25 tables — Fri-Sat $3,300/$3,475/$3,650/$3,825; Sunday $2,500/$2,675/$2,850/$3,025\nLuxury package (tables, chairs, decoration, food, cake, music, pictures, video, clean up), 10/15/20/25 tables — $7,960/$9,025/$10,150/$11,160"
     },
     {
      "id": "pricing-deposit",
@@ -631,6 +631,35 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon–Sun",
+ "hours": "Hourly Mon–Thu; day rate Fri–Sun",
+ "rates": [
+  {
+   "package": "Venue rental",
+   "season": "",
+   "days": "Mon–Thu",
+   "hours": "Hourly",
+   "price": "$200/hour",
+   "note": "3-hour minimum"
+  },
+  {
+   "package": "Venue rental",
+   "season": "",
+   "days": "Fri or Sat",
+   "hours": "Day rate",
+   "price": "$2,350",
+   "note": "No tables or chairs"
+  },
+  {
+   "package": "Venue rental",
+   "season": "",
+   "days": "Sun",
+   "hours": "Day rate",
+   "price": "$1,500",
+   "note": "No tables or chairs"
+  }
+ ],
  "raw": {
   "Venue ID": "barteli-event-venue",
   "Venue Name": "Barteli Reception Hall",
@@ -645,7 +674,7 @@
   "Seated Low": "80",
   "Seated High": "200",
   "Seated Capacity": "Packages of 10–25 tables with 8 chairs each (80–200 chairs)",
-  "Packages and Prices": "Venue rental Mon-Thu — $200/hour (3-hour minimum)\nVenue rental Fri or Sat, no tables or chairs — $2,350\nVenue rental Sunday, no tables or chairs — $1,500\nReserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun\nBarteli decorates and sets up — $600\nCleaning — $400\nTable with 8 chairs (blank) — $0\nTable with 8 chairs and table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\nSimple package (venue for the day, tables with covers), 10/15/20/25 tables — Fri-Sat $2,240/$2,485/$2,530/$2,575; Sunday $1,640/$1,685/$1,730/$1,775\nSilver package (venue for the day, decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/$3,050/$3,225; Sunday $1,900/$2,075/$2,250/$2,425\nGold package (Silver plus setup by Barteli), 10/15/20/25 tables — Fri-Sat $3,300/$3,475/$3,650/$3,825; Sunday $2,500/$2,675/$2,850/$3,025\nLuxury package (tables, chairs, decoration, food, cake, music, pictures, video, clean up), 10/15/20/25 tables — $7,960/$9,025/$10,150/$11,160",
+  "Packages and Prices": "Reserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun\nBarteli decorates and sets up — $600\nCleaning — $400\nTable with 8 chairs (blank) — $0\nTable with 8 chairs and table cover — $9\nTable with 8 chairs, table cover, overlay, 8 chair covers and 8 sashes — $35\nSimple package (venue for the day, tables with covers), 10/15/20/25 tables — Fri-Sat $2,240/$2,485/$2,530/$2,575; Sunday $1,640/$1,685/$1,730/$1,775\nSilver package (venue for the day, decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/$3,050/$3,225; Sunday $1,900/$2,075/$2,250/$2,425\nGold package (Silver plus setup by Barteli), 10/15/20/25 tables — Fri-Sat $3,300/$3,475/$3,650/$3,825; Sunday $2,500/$2,675/$2,850/$3,025\nLuxury package (tables, chairs, decoration, food, cake, music, pictures, video, clean up), 10/15/20/25 tables — $7,960/$9,025/$10,150/$11,160",
   "Time slots": "Mon-Thu hourly (3-hour minimum)\nFri-Sat day rate\nSunday day rate",
   "Length of Rental": "Mon-Thu: 3-hour minimum\nFri-Sun: venue for the day (packages)",
   "Other Decor for Rent": "Decoration and setup by Barteli — $600\nTable cover (black, white or ivory) — $9\nDecorated table: cover, overlay, 8 chair covers and 8 sashes — $35\nBlank table with 8 chairs — $0",
@@ -654,6 +683,9 @@
   "Deposit Policy": "Reserve the date — $100\nSecurity deposit — $200 Mon-Thu; $400 Fri-Sun",
   "Catering": "Food included only in the Luxury package",
   "Important Notes": "Venue-only rentals on Fri-Sun do not include tables or chairs; tables with 8 chairs are added per table ($0-$35).\nSeparate English and Spanish phone lines.",
-  "Contact Information": "Phone (English): 385-312-6227\nPhone (Spanish): 801-427-3654\nEmail: bartelis@outlook.com\nInstagram: @bartelirh"
+  "Contact Information": "Phone (English): 385-312-6227\nPhone (Spanish): 801-427-3654\nEmail: bartelis@outlook.com\nInstagram: @bartelirh",
+  "Days Open": "Mon–Sun",
+  "Hours": "Hourly Mon–Thu; day rate Fri–Sun",
+  "Rates": "Venue rental · Mon–Thu · Hourly — $200/hour (3-hour minimum)\nVenue rental · Fri or Sat · Day rate — $2,350 (No tables or chairs)\nVenue rental · Sun · Day rate — $1,500 (No tables or chairs)"
  }
 }

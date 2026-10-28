@@ -243,7 +243,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms) — Weekday 12pm-10pm — $5,000 off-peak (Nov-Mar) or $5,500 peak (Apr-Oct)\nSame inclusions — Friday 10am-10pm — $6,000 off-peak or $6,500 peak\nSame inclusions — Saturday 10am-10pm — $6,500 off-peak or $7,000 peak\nUtah sales tax applies"
+     "value": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms)\nUtah sales tax applies"
     }
    ]
   },
@@ -766,6 +766,75 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "COPA or Cheers and Swizzles bartenders; $250 fee"
+  },
+  {
+   "rule": "Pets",
+   "status": "cond",
+   "note": "Dogs need management approval"
+  },
+  {
+   "rule": "Music cutoff",
+   "status": "cond",
+   "note": "Events end by 10pm (noise ordinance)"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "12–10pm weekdays; 10am–10pm Fri–Sat",
+ "rates": [
+  {
+   "package": "Venue rental",
+   "season": "Off-peak (Nov–Mar)",
+   "days": "Weekday",
+   "hours": "12–10pm",
+   "price": "$5,000",
+   "note": ""
+  },
+  {
+   "package": "Venue rental",
+   "season": "Off-peak (Nov–Mar)",
+   "days": "Fri",
+   "hours": "10am–10pm",
+   "price": "$6,000",
+   "note": ""
+  },
+  {
+   "package": "Venue rental",
+   "season": "Off-peak (Nov–Mar)",
+   "days": "Sat",
+   "hours": "10am–10pm",
+   "price": "$6,500",
+   "note": ""
+  },
+  {
+   "package": "Venue rental",
+   "season": "Peak (Apr–Oct)",
+   "days": "Weekday",
+   "hours": "12–10pm",
+   "price": "$5,500",
+   "note": ""
+  },
+  {
+   "package": "Venue rental",
+   "season": "Peak (Apr–Oct)",
+   "days": "Fri",
+   "hours": "10am–10pm",
+   "price": "$6,500",
+   "note": ""
+  },
+  {
+   "package": "Venue rental",
+   "season": "Peak (Apr–Oct)",
+   "days": "Sat",
+   "hours": "10am–10pm",
+   "price": "$7,000",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "northridge-valley-event-center",
   "Venue Name": "Northridge Valley Wedding and Event Center",
@@ -783,7 +852,7 @@
   "Standing Low": "300",
   "Standing High": "300",
   "Standing Capacity": "300",
-  "Packages and Prices": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms) — Weekday 12pm-10pm — $5,000 off-peak (Nov-Mar) or $5,500 peak (Apr-Oct)\nSame inclusions — Friday 10am-10pm — $6,000 off-peak or $6,500 peak\nSame inclusions — Saturday 10am-10pm — $6,500 off-peak or $7,000 peak\nUtah sales tax applies",
+  "Packages and Prices": "Venue rental (tables and chairs for 200, Something Borrowed decor room with basic decor setup, 5 linens, ceremony arch with drapes and chair setup, sound system, mic, TV on wheels, lawn games, sparkler torches, in-house coordinator, bride's and groom's rooms)\nUtah sales tax applies",
   "Time slots": "Weekday 12pm-10pm\nFriday 10am-10pm\nSaturday 10am-10pm",
   "Length of Rental": "10 hours weekdays; 12 hours Friday and Saturday",
   "Style": "Modern elegance\nTimeless charm\nElegant",
@@ -802,6 +871,10 @@
   "Bride/Groom Rooms": "Bride's suite with back-lit mirrors, chandelier, mini fridge and en-suite bathroom\nGroom's room with mini fridge, full-length mirror, large TV, couch and private bathroom",
   "Restrictions": "Events end by 10pm (city noise ordinance)\nSparklers only on the front patio; cold sparks outdoors only\nFireworks only in winter with fire department approval\nDJs, bands and musicians must be licensed and insured\nDogs need management approval\nTours by appointment only",
   "Important Notes": "Home page lists a rental range of $5,000-$6,000; the pricing page goes up to $7,000 (Saturday peak)\nNo minimum guest count; ceremony seating for up to 150\nUtah sales tax applies",
-  "Contact Information": "Phone: (801) 573-4249\nEmail: jessica@northridge-valley.com"
+  "Contact Information": "Phone: (801) 573-4249\nEmail: jessica@northridge-valley.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "12–10pm weekdays; 10am–10pm Fri–Sat",
+  "Rates": "Venue rental · Off-peak (Nov–Mar) · Weekday · 12–10pm — $5,000\nVenue rental · Off-peak (Nov–Mar) · Fri · 10am–10pm — $6,000\nVenue rental · Off-peak (Nov–Mar) · Sat · 10am–10pm — $6,500\nVenue rental · Peak (Apr–Oct) · Weekday · 12–10pm — $5,500\nVenue rental · Peak (Apr–Oct) · Fri · 10am–10pm — $6,500\nVenue rental · Peak (Apr–Oct) · Sat · 10am–10pm — $7,000",
+  "Rules": "Alcohol: Conditions — COPA or Cheers and Swizzles bartenders; $250 fee\nPets: Conditions — Dogs need management approval\nMusic cutoff: Conditions — Events end by 10pm (noise ordinance)"
  }
 }

@@ -223,7 +223,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "The Castle, 2pm-10pm year-round: Mon-Wed — $5,600; Thu — $6,000; Fri-Sat — $7,200\nThe Barn & Railroad Building, summer (Apr-Sep) 2pm-10pm: Mon-Wed — $4,800; Thu — $5,200; Fri-Sat — $5,600\nThe Barn & Railroad Building, winter (Oct-Mar) 2pm-10pm: Mon-Thu — $3,100; Fri-Sat — $3,600\nRentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)"
+     "value": "Rentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)"
     },
     {
      "id": "pricing-deposit",
@@ -739,6 +739,94 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Beer and wine only; licensed bartender; $1,000 fee"
+  },
+  {
+   "rule": "Pets",
+   "status": "no",
+   "note": "Service animals welcome"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "2–10pm (all day on request)",
+ "rates": [
+  {
+   "package": "The Castle",
+   "season": "Year-round",
+   "days": "Mon–Wed",
+   "hours": "2–10pm",
+   "price": "$5,600",
+   "note": ""
+  },
+  {
+   "package": "The Castle",
+   "season": "Year-round",
+   "days": "Thu",
+   "hours": "2–10pm",
+   "price": "$6,000",
+   "note": ""
+  },
+  {
+   "package": "The Castle",
+   "season": "Year-round",
+   "days": "Fri–Sat",
+   "hours": "2–10pm",
+   "price": "$7,200",
+   "note": ""
+  },
+  {
+   "package": "The Barn & Railroad Building",
+   "season": "Summer (Apr–Sep)",
+   "days": "Mon–Wed",
+   "hours": "2–10pm",
+   "price": "$4,800",
+   "note": ""
+  },
+  {
+   "package": "The Barn & Railroad Building",
+   "season": "Summer (Apr–Sep)",
+   "days": "Thu",
+   "hours": "2–10pm",
+   "price": "$5,200",
+   "note": ""
+  },
+  {
+   "package": "The Barn & Railroad Building",
+   "season": "Summer (Apr–Sep)",
+   "days": "Fri–Sat",
+   "hours": "2–10pm",
+   "price": "$5,600",
+   "note": ""
+  },
+  {
+   "package": "The Barn & Railroad Building",
+   "season": "Winter (Oct–Mar)",
+   "days": "Mon–Wed",
+   "hours": "2–10pm",
+   "price": "$3,100",
+   "note": "Mon–Thu rate"
+  },
+  {
+   "package": "The Barn & Railroad Building",
+   "season": "Winter (Oct–Mar)",
+   "days": "Thu",
+   "hours": "2–10pm",
+   "price": "$3,100",
+   "note": "Mon–Thu rate"
+  },
+  {
+   "package": "The Barn & Railroad Building",
+   "season": "Winter (Oct–Mar)",
+   "days": "Fri–Sat",
+   "hours": "2–10pm",
+   "price": "$3,600",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "wadley-farms",
   "Venue Name": "Wadley Farms",
@@ -756,7 +844,7 @@
   "Standing Low": "250",
   "Standing High": "350",
   "Standing Capacity": "Castle: 350 open-flow\nBarn: 250 open-flow (space description says 300 for an open house)\nRailroad Building with garden: 300 open house",
-  "Packages and Prices": "The Castle, 2pm-10pm year-round: Mon-Wed — $5,600; Thu — $6,000; Fri-Sat — $7,200\nThe Barn & Railroad Building, summer (Apr-Sep) 2pm-10pm: Mon-Wed — $4,800; Thu — $5,200; Fri-Sat — $5,600\nThe Barn & Railroad Building, winter (Oct-Mar) 2pm-10pm: Mon-Thu — $3,100; Fri-Sat — $3,600\nRentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)",
+  "Packages and Prices": "Rentals generally include tables, chairs, linens and setup, plus exclusive use of the rented building (and its surrounding gardens Apr-Sep)\nPremium Estate Package: Castle and Barn, two nights of on-site lodging, private dinner the evening before — starting at $17,500\nCeremony add-on (any venue) — $350\nFull-day 10am-10pm rentals available (price on request)",
   "Time slots": "Mon-Sat 2pm-10pm\nMon-Sat 10am-10pm full-day option\nA la carte hours on request",
   "Length of Rental": "8-12 hours",
   "Style": "Historic\nNatural\nElegant\nRustic",
@@ -775,6 +863,10 @@
   "Bride/Groom Rooms": "Castle bride's dressing room (with balcony)\nCastle groom's dressing room",
   "Restrictions": "Outdoor ceremonies weather-dependent; typically not scheduled Oct-Mar\nAlcohol limited to beer and wine\nCastle requires a caterer from the recommended list\nNo fireworks other than sparklers\nNo pets (service animals welcome)\nNo gatherings or getting-ready groups in the lodging unless part of a package",
   "Important Notes": "Family farm since 1869; 23 acres\nExclusive use of the rented building; its surrounding gardens are included Apr-Sep\nCastle: 4,500 sq ft Great Hall and up to four breakout rooms\nLodging has a two-night minimum",
-  "Contact Information": "Castle: 801-400-5442\nBarn/Railroad Building: 801-404-9996\nEmail: info@wadleyfarms.com"
+  "Contact Information": "Castle: 801-400-5442\nBarn/Railroad Building: 801-404-9996\nEmail: info@wadleyfarms.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "2–10pm (all day on request)",
+  "Rates": "The Castle · Year-round · Mon–Wed · 2–10pm — $5,600\nThe Castle · Year-round · Thu · 2–10pm — $6,000\nThe Castle · Year-round · Fri–Sat · 2–10pm — $7,200\nThe Barn & Railroad Building · Summer (Apr–Sep) · Mon–Wed · 2–10pm — $4,800\nThe Barn & Railroad Building · Summer (Apr–Sep) · Thu · 2–10pm — $5,200\nThe Barn & Railroad Building · Summer (Apr–Sep) · Fri–Sat · 2–10pm — $5,600\nThe Barn & Railroad Building · Winter (Oct–Mar) · Mon–Wed · 2–10pm — $3,100 (Mon–Thu rate)\nThe Barn & Railroad Building · Winter (Oct–Mar) · Thu · 2–10pm — $3,100 (Mon–Thu rate)\nThe Barn & Railroad Building · Winter (Oct–Mar) · Fri–Sat · 2–10pm — $3,600",
+  "Rules": "Alcohol: Conditions — Beer and wine only; licensed bartender; $1,000 fee\nPets: Not allowed — Service animals welcome"
  }
 }

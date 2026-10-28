@@ -723,6 +723,16 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "no",
+   "note": ""
+  }
+ ],
+ "daysOpen": "",
+ "hours": "6- or 8-hour block, your choice",
+ "rates": [],
  "raw": {
   "Venue ID": "barbwire-and-lace",
   "Venue Name": "Barbwire & Lace",
@@ -755,6 +765,8 @@
   "Bride/Groom Rooms": "Separate bride suite\nSeparate groom suite\nBridesmaid room",
   "Restrictions": "No alcohol permitted on the property",
   "Important Notes": "One event scheduled per day\nPayment plan available\nMultiple themed areas and Decor Store inventory available\nTwo full bathrooms with showers; gift room",
-  "Contact Information": "Phone: 801-787-7325\nEmail: barbwire46@hotmail.com"
+  "Contact Information": "Phone: 801-787-7325\nEmail: barbwire46@hotmail.com",
+  "Hours": "6- or 8-hour block, your choice",
+  "Rules": "Alcohol: Not allowed"
  }
 }

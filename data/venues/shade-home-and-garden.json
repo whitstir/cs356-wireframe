@@ -226,7 +226,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "10-hour rental 12pm-10pm, two of three event spaces, tables and chairs in a predetermined layout — Nov-Mar Mon-Thu — $3,000\nSame inclusions — Nov-Mar Fri-Sat — $4,000\nSame inclusions — Apr-Oct Mon-Thu — $4,500\nSame inclusions — Apr-Oct Fri-Sat — $5,500\nDecor rental (entire decor inventory, flat rate) — $200\nAlcohol fee — $500"
+     "value": "10-hour rental 12pm-10pm, two of three event spaces, tables and chairs in a predetermined layout\nDecor rental (entire decor inventory, flat rate) — $200\nAlcohol fee — $500"
     }
    ]
   },
@@ -765,6 +765,54 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Preferred bartender; $500 fee"
+  },
+  {
+   "rule": "Confetti",
+   "status": "cond",
+   "note": "Only if approved"
+  }
+ ],
+ "daysOpen": "Mon–Sat",
+ "hours": "12–10pm",
+ "rates": [
+  {
+   "package": "10-hour rental, two of three event spaces",
+   "season": "Nov–Mar",
+   "days": "Mon–Thu",
+   "hours": "12–10pm",
+   "price": "$3,000",
+   "note": ""
+  },
+  {
+   "package": "10-hour rental, two of three event spaces",
+   "season": "Nov–Mar",
+   "days": "Fri–Sat",
+   "hours": "12–10pm",
+   "price": "$4,000",
+   "note": ""
+  },
+  {
+   "package": "10-hour rental, two of three event spaces",
+   "season": "Apr–Oct",
+   "days": "Mon–Thu",
+   "hours": "12–10pm",
+   "price": "$4,500",
+   "note": ""
+  },
+  {
+   "package": "10-hour rental, two of three event spaces",
+   "season": "Apr–Oct",
+   "days": "Fri–Sat",
+   "hours": "12–10pm",
+   "price": "$5,500",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "shade-home-and-garden",
   "Venue Name": "Shade Weddings and Events",
@@ -782,7 +830,7 @@
   "Standing Low": "200",
   "Standing High": "400",
   "Standing Capacity": "Glasshouse: 280 reception\nVineyard: 400 reception\nGreenhouse: 200 reception",
-  "Packages and Prices": "10-hour rental 12pm-10pm, two of three event spaces, tables and chairs in a predetermined layout — Nov-Mar Mon-Thu — $3,000\nSame inclusions — Nov-Mar Fri-Sat — $4,000\nSame inclusions — Apr-Oct Mon-Thu — $4,500\nSame inclusions — Apr-Oct Fri-Sat — $5,500\nDecor rental (entire decor inventory, flat rate) — $200\nAlcohol fee — $500",
+  "Packages and Prices": "10-hour rental 12pm-10pm, two of three event spaces, tables and chairs in a predetermined layout\nDecor rental (entire decor inventory, flat rate) — $200\nAlcohol fee — $500",
   "Time slots": "12pm-10pm",
   "Length of Rental": "10 hours",
   "Style": "Greenhouse\nVineyard\nNatural\nModern\nMinimalist",
@@ -799,6 +847,10 @@
   "Bride/Groom Rooms": "2 wedding suites / dressing rooms",
   "Restrictions": "Two of three event spaces included per rental\nPreferred bartender required for alcohol\nNo open flames or confetti unless approved (Events page)",
   "Important Notes": "The Glasshouse is included in every rental; the Vineyard is used for June-October weddings and the Greenhouse for November-May weddings.\nNon-wedding events rent hourly: Glasshouse $400/hour, Vineyard or Greenhouse $300/hour, 3-hour minimum.",
-  "Contact Information": "Phone: (385) 225-7981\nEmail: shadeweddings@gmail.com"
+  "Contact Information": "Phone: (385) 225-7981\nEmail: shadeweddings@gmail.com",
+  "Days Open": "Mon–Sat",
+  "Hours": "12–10pm",
+  "Rates": "10-hour rental, two of three event spaces · Nov–Mar · Mon–Thu · 12–10pm — $3,000\n10-hour rental, two of three event spaces · Nov–Mar · Fri–Sat · 12–10pm — $4,000\n10-hour rental, two of three event spaces · Apr–Oct · Mon–Thu · 12–10pm — $4,500\n10-hour rental, two of three event spaces · Apr–Oct · Fri–Sat · 12–10pm — $5,500",
+  "Rules": "Alcohol: Conditions — Preferred bartender; $500 fee\nConfetti: Conditions — Only if approved"
  }
 }

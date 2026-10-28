@@ -214,7 +214,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Main Level + Stewart Sculpture Garden: 6.5-hour private after-hours rental with event hosts and basic table and chair setup — Mon, Tue, Thu, Fri or Sat 4pm-10:30pm — $1,730-$2,130 ($600 deposit)\nMain Level only, same inclusions — $925-$1,135 ($300 deposit)\nSculpture Garden only, same inclusions — $805-$995 ($300 deposit)\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25"
+     "value": "Private after-hours rentals (6.5 hours) include event hosts and basic table and chair setup\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25"
     },
     {
      "id": "pricing-deposit",
@@ -747,6 +747,35 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon, Tue, Thu–Sat",
+ "hours": "4–10:30pm",
+ "rates": [
+  {
+   "package": "Main Level + Stewart Sculpture Garden",
+   "season": "",
+   "days": "Mon, Tue, Thu–Sat",
+   "hours": "4–10:30pm",
+   "price": "$1,730–$2,130",
+   "note": "$600 deposit"
+  },
+  {
+   "package": "Main Level only",
+   "season": "",
+   "days": "Mon, Tue, Thu–Sat",
+   "hours": "4–10:30pm",
+   "price": "$925–$1,135",
+   "note": "$300 deposit"
+  },
+  {
+   "package": "Sculpture Garden only",
+   "season": "",
+   "days": "Mon, Tue, Thu–Sat",
+   "hours": "4–10:30pm",
+   "price": "$805–$995",
+   "note": "$300 deposit"
+  }
+ ],
  "raw": {
   "Venue ID": "springville-museum-of-art",
   "Venue Name": "Springville Museum of Art",
@@ -764,7 +793,7 @@
   "Standing Low": "400",
   "Standing High": "750",
   "Standing Capacity": "750 (Main Level + Garden)\n450 (Main Level)\n400 (Garden)",
-  "Packages and Prices": "Main Level + Stewart Sculpture Garden: 6.5-hour private after-hours rental with event hosts and basic table and chair setup — Mon, Tue, Thu, Fri or Sat 4pm-10:30pm — $1,730-$2,130 ($600 deposit)\nMain Level only, same inclusions — $925-$1,135 ($300 deposit)\nSculpture Garden only, same inclusions — $805-$995 ($300 deposit)\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25",
+  "Packages and Prices": "Private after-hours rentals (6.5 hours) include event hosts and basic table and chair setup\nAdditional gallery (private after-hours) — $115-$150/hour ($100 deposit)\nSemi-private daytime rental (Atrium or Garden), 1.5 hours — $80-$105/hour ($100 deposit)\nSpecialty setup or mid-event setup change — $40+\nSpecialty audio/visual setup — $69.50/hour\nUpright piano (select locations) — $25",
   "Time slots": "Private events: Mon, Tue, Thu, Fri, Sat 4pm-10:30pm\nSemi-private (Atrium, Garden): Tue-Sat 10:30am-3:30pm; Sun 3:30pm-5:30pm",
   "Length of Rental": "6.5 hours (private after-hours); 1.5 hours (semi-private)",
   "Style": "Historic\nSpanish colonial-style\nElegant\nUnique\nAffordable",
@@ -779,6 +808,9 @@
   "Event Coordinator": "Event coordinator Gina Woolf (tours, scheduling, floor-plan approval)\nEvent hosts included with the rental",
   "Restrictions": "Closed Sundays and holidays\nTours by appointment (Tue 11am-2pm, Wed 5pm-8pm, some Saturdays)\nFloor plan must be approved by the event coordinator one week before the event\nNothing may be placed between the dashed line and the walls; grey areas are closed during events\nWrought-iron tables only in the Atrium; piano not usable in the Swanson Gallery",
   "Important Notes": "Rates come from an undated rate-sheet PDF on smofa.org that the current Rentals page no longer links; the Rentals page and FAQ say to contact the event coordinator for rates\nWeddings are listed on the Main Level + Garden sheet; the Main Level and Garden sheets list receptions\nPhoto sessions are free with a booked rental (otherwise $40 per 1.5 hours)",
-  "Contact Information": "Phone: 801-489-2727\nEvent coordinator: 801-491-5711\nEmail: SMAinfo@springvilleutah.gov\nEmail: gwoolf@springville.org"
+  "Contact Information": "Phone: 801-489-2727\nEvent coordinator: 801-491-5711\nEmail: SMAinfo@springvilleutah.gov\nEmail: gwoolf@springville.org",
+  "Days Open": "Mon, Tue, Thu–Sat",
+  "Hours": "4–10:30pm",
+  "Rates": "Main Level + Stewart Sculpture Garden · Mon, Tue, Thu–Sat · 4–10:30pm — $1,730–$2,130 ($600 deposit)\nMain Level only · Mon, Tue, Thu–Sat · 4–10:30pm — $925–$1,135 ($300 deposit)\nSculpture Garden only · Mon, Tue, Thu–Sat · 4–10:30pm — $805–$995 ($300 deposit)"
  }
 }

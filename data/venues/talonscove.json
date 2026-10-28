@@ -234,7 +234,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Half day 4-11pm — $3,800\n2/3 day 1-11pm — $4,200\nFull day 10am-11pm — $4,600\nLuncheon rental, 4 hours (9am-1pm or 10am-2pm) — price on request\nWedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request"
+     "value": "Wedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request"
     }
    ]
   },
@@ -699,6 +699,49 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Bar service $600 for 4 hours; alcohol not included"
+  }
+ ],
+ "daysOpen": "",
+ "hours": "4–11pm, 1–11pm or 10am–11pm",
+ "rates": [
+  {
+   "package": "Half day",
+   "season": "",
+   "days": "",
+   "hours": "4–11pm",
+   "price": "$3,800",
+   "note": ""
+  },
+  {
+   "package": "2/3 day",
+   "season": "",
+   "days": "",
+   "hours": "1–11pm",
+   "price": "$4,200",
+   "note": ""
+  },
+  {
+   "package": "Full day",
+   "season": "",
+   "days": "",
+   "hours": "10am–11pm",
+   "price": "$4,600",
+   "note": ""
+  },
+  {
+   "package": "Luncheon, 4 hours",
+   "season": "",
+   "days": "",
+   "hours": "9am–1pm or 10am–2pm",
+   "price": "On request",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "talonscove",
   "Venue Name": "TalonsCove",
@@ -713,7 +756,7 @@
   "Seated Low": "200",
   "Seated High": "200",
   "Seated Capacity": "200 formal dining",
-  "Packages and Prices": "Half day 4-11pm — $3,800\n2/3 day 1-11pm — $4,200\nFull day 10am-11pm — $4,600\nLuncheon rental, 4 hours (9am-1pm or 10am-2pm) — price on request\nWedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request",
+  "Packages and Prices": "Wedding ceremony package (125 outdoor chairs, portable speaker with microphone, 50 sparklers) — $400\nMulti-room setup and transitions — $200\nBar service (4 hours, alcohol not included) — $600\nFood service staffing — $250\nWedding planning through partner planner — price on request",
   "Time slots": "Full day 10am-11pm\n2/3 day 1-11pm\nHalf day 4-11pm\nLuncheon 9am-1pm or 10am-2pm",
   "Length of Rental": "4-13 hours",
   "Style": "Elegant\nScenic\nGolf-course\nMountain",
@@ -730,6 +773,9 @@
   "Bride/Groom Rooms": "2 dressing rooms with seating, full-length mirrors and vanities",
   "Restrictions": "All setup and cleanup must fit within the rental block\nKitchen is for food staging only",
   "Important Notes": "Ballroom is listed as 3,000 sq ft on the wedding site and 3,500 sq ft on the golf club site",
-  "Contact Information": "Phone: (801) 407-3030\nEmail: info@talonscoveweddings.com\nEmail: info@talonscove.com"
+  "Contact Information": "Phone: (801) 407-3030\nEmail: info@talonscoveweddings.com\nEmail: info@talonscove.com",
+  "Hours": "4–11pm, 1–11pm or 10am–11pm",
+  "Rates": "Half day · 4–11pm — $3,800\n2/3 day · 1–11pm — $4,200\nFull day · 10am–11pm — $4,600\nLuncheon, 4 hours · 9am–1pm or 10am–2pm — On request",
+  "Rules": "Alcohol: Conditions — Bar service $600 for 4 hours; alcohol not included"
  }
 }

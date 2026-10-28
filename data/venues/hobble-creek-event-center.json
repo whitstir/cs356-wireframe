@@ -229,7 +229,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Weekday rental (Mon-Thu), 6 hours 4pm-10pm (up to 96 crossback chairs, 12 tables, 12 linens, color of choice, cake table, gift table, table and chair setup, AV system) — $1,500\nSame inclusions — weekday 12 hours — $2,500\nSame inclusions — weekend (Fri-Sun) 6 hours 4pm-10pm — $2,000\nSame inclusions — weekend 12 hours — $3,000\nClassic Decor package — $350\nPremier decor package — $500"
+     "value": "Every rental includes up to 96 crossback chairs, 12 tables, 12 linens (color of choice), cake table, gift table, table and chair setup and AV system\nClassic Decor package — $350\nPremier decor package — $500"
     },
     {
      "id": "pricing-deposit",
@@ -810,6 +810,49 @@
    ]
   }
  ],
+ "rules": [
+  {
+   "rule": "Alcohol",
+   "status": "cond",
+   "note": "Licensed, insured bartender"
+  }
+ ],
+ "daysOpen": "Mon–Sun",
+ "hours": "4–10pm or 12 hours",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekday (Mon–Thu)",
+   "hours": "6 hours, 4–10pm",
+   "price": "$1,500",
+   "note": "Starting price"
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekday (Mon–Thu)",
+   "hours": "12 hours",
+   "price": "$2,500",
+   "note": "Starting price"
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekend (Fri–Sun)",
+   "hours": "6 hours, 4–10pm",
+   "price": "$2,000",
+   "note": "Starting price"
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Weekend (Fri–Sun)",
+   "hours": "12 hours",
+   "price": "$3,000",
+   "note": "Starting price"
+  }
+ ],
  "raw": {
   "Venue ID": "hobble-creek-event-center",
   "Venue Name": "Hobble Creek Event Center",
@@ -824,7 +867,7 @@
   "Seated Low": "96",
   "Seated High": "96",
   "Seated Capacity": "Up to 96 chairs included",
-  "Packages and Prices": "Weekday rental (Mon-Thu), 6 hours 4pm-10pm (up to 96 crossback chairs, 12 tables, 12 linens, color of choice, cake table, gift table, table and chair setup, AV system) — $1,500\nSame inclusions — weekday 12 hours — $2,500\nSame inclusions — weekend (Fri-Sun) 6 hours 4pm-10pm — $2,000\nSame inclusions — weekend 12 hours — $3,000\nClassic Decor package — $350\nPremier decor package — $500",
+  "Packages and Prices": "Every rental includes up to 96 crossback chairs, 12 tables, 12 linens (color of choice), cake table, gift table, table and chair setup and AV system\nClassic Decor package — $350\nPremier decor package — $500",
   "Time slots": "Weekday (Mon-Thu) 4pm-10pm, or 12-hour rental\nWeekend (Fri-Sun) 4pm-10pm, or 12-hour rental\nTimes can be adjusted",
   "Length of Rental": "6 hours or 12 hours; rental time must include setup and takedown",
   "Style": "Scenic\nSeasonal\nLush",
@@ -841,6 +884,10 @@
   "Event Coordinator": "Venue team provides coordination, setup and planning support",
   "Restrictions": "No ceremonies on the golf course; use off-site rented areas such as Kelly's Grove or Jolley's Ranch\nCouple photos on the golf course only with a staff member\nRental time must include setup and takedown\nOutside caterers may not use the Sand Trap Café kitchen",
   "Important Notes": "Rental rates and decor packages are published as images linked from the Services page; prices are listed as 'starting from'\nRental includes up to 96 crossback chairs; no guest capacity is stated",
-  "Contact Information": "Phone: (801) 636-1920\nEmail: hobblecreekevents@gmail.com"
+  "Contact Information": "Phone: (801) 636-1920\nEmail: hobblecreekevents@gmail.com",
+  "Days Open": "Mon–Sun",
+  "Hours": "4–10pm or 12 hours",
+  "Rates": "Weekday (Mon–Thu) · 6 hours, 4–10pm — $1,500 (Starting price)\nWeekday (Mon–Thu) · 12 hours — $2,500 (Starting price)\nWeekend (Fri–Sun) · 6 hours, 4–10pm — $2,000 (Starting price)\nWeekend (Fri–Sun) · 12 hours — $3,000 (Starting price)",
+  "Rules": "Alcohol: Conditions — Licensed, insured bartender"
  }
 }

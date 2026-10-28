@@ -221,7 +221,7 @@
     {
      "id": "pricing-packages-add-ons",
      "label": "Packages & add-ons",
-     "value": "Sunday-Thursday, 11am-11pm — $1,800\nFriday, 12pm-1am — $2,300\nSaturday, 12pm-1am — $3,400\nAdditional hour — $150 per hour"
+     "value": "Additional hour — $150 per hour"
     }
    ]
   },
@@ -641,6 +641,35 @@
    ]
   }
  ],
+ "rules": [],
+ "daysOpen": "Mon–Sun",
+ "hours": "11am–11pm; Fri–Sat 12pm–1am",
+ "rates": [
+  {
+   "package": "",
+   "season": "",
+   "days": "Sun–Thu",
+   "hours": "11am–11pm",
+   "price": "$1,800",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Fri",
+   "hours": "12pm–1am",
+   "price": "$2,300",
+   "note": ""
+  },
+  {
+   "package": "",
+   "season": "",
+   "days": "Sat",
+   "hours": "12pm–1am",
+   "price": "$3,400",
+   "note": ""
+  }
+ ],
  "raw": {
   "Venue ID": "orion-event-venue",
   "Venue Name": "Orion Event Venue",
@@ -655,7 +684,7 @@
   "Seated Low": "200",
   "Seated High": "200",
   "Seated Capacity": "200 chairs and 20 round tables provided",
-  "Packages and Prices": "Sunday-Thursday, 11am-11pm — $1,800\nFriday, 12pm-1am — $2,300\nSaturday, 12pm-1am — $3,400\nAdditional hour — $150 per hour",
+  "Packages and Prices": "Additional hour — $150 per hour",
   "Time slots": "Sunday-Thursday 11am-11pm\nFriday-Saturday 12pm-1am",
   "Length of Rental": "12-13 hours",
   "Style": "Modern\nElegant",
@@ -666,6 +695,9 @@
   "Prep Area": "Warming kitchen\nStandard-size refrigerator and freezer\nWarming oven",
   "Event Coordinator": "On-site staff\nPlanning meeting with the venue's event planner",
   "Important Notes": "Spanish spoken (Hablamos español)\nAlso hosts quinceañeras and corporate events",
-  "Contact Information": "Phone: (801) 806-4880 (text preferred)\nEmail: orioneventvenue@gmail.com\nInstagram: @orioneventvenue"
+  "Contact Information": "Phone: (801) 806-4880 (text preferred)\nEmail: orioneventvenue@gmail.com\nInstagram: @orioneventvenue",
+  "Days Open": "Mon–Sun",
+  "Hours": "11am–11pm; Fri–Sat 12pm–1am",
+  "Rates": "Sun–Thu · 11am–11pm — $1,800\nFri · 12pm–1am — $2,300\nSat · 12pm–1am — $3,400"
  }
 }
