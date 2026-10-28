@@ -785,6 +785,7 @@
     $("#results-h").innerHTML = `${plural(list.length, "venue")}<span class="small muted" style="font-family:var(--sans)"> of ${VENUES.length}</span>`;
     $("#results").innerHTML = st.q && isHelp(st.q) ? emptyHtml(st)
       : list.length ? `<div class="card-grid">${sorted(list).map((v) => card(v, st.q)).join("")}</div>` : emptyHtml(st);
+    resultsToTop();
     const c = chipsFor(st);
     $("#chips").innerHTML = c.map((x) => `<span class="chip">${esc(x.label)}<button type="button" data-act="unchip" data-f="${x.f}" data-v="${esc(x.v || "")}" aria-label="Remove ${esc(x.label)}" data-log="Remove filter: ${esc(x.label)}">×</button></span>`).join("")
       + (c.length > 1 ? `<button type="button" class="textbtn" data-act="clear" data-log="Clear all filters">Clear all</button>` : "");
@@ -1033,6 +1034,16 @@
     wireCrumbSearch(S.st.q);
     S.open = keepOpen;
     $$(".fgroup").forEach((d) => { d.open = S.open.has(d.dataset.sec); });
+    resultsToTop();
+  }
+  // A shorter result list can't hold the old scroll spot, so the browser would drop the reader near the end of the list.
+  // If they're below the top of the results, bring the results back to the top instead (the sticky filters stay put).
+  function resultsToTop() {
+    const head = $(".results-head");
+    if (!head) return;
+    const headerH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--header-h")) || 0;
+    const top = Math.max(0, head.getBoundingClientRect().top + scrollY - headerH - 16);
+    if (scrollY > top) scrollTo({ top, behavior: "instant" });
   }
 
   // ---------- Click recording (exportable log) ----------
