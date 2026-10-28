@@ -424,6 +424,10 @@ th { font-weight: 500; background: var(--rose-tint); white-space: nowrap; }
 .dx-table tbody th { font-weight: 500; background: none; }  /* site-wide th has a rose fill */
 .dx-table .num { text-align: right; font-variant-numeric: tabular-nums; }
 .dx-scroll { overflow-x: auto; }
+.dx-table thead th { letter-spacing: .06em; padding: 10px 8px; }
+.dx-kv .dx-k { color: var(--ink-600); }
+.dx-table .nw { white-space: nowrap; }  /* short row labels such as Tue–Thu */
+.dx-table td:not(.num) { overflow-wrap: anywhere; }
 .dx-table caption { text-align: left; font-size: 13px; color: var(--ink-600); padding-bottom: 8px; }
 .dx-table caption strong { color: var(--ink); font-weight: 500; }
 .dx-table .s { display: block; font-size: 12px; font-weight: 400; color: var(--ink-600); text-transform: none; letter-spacing: 0; }
@@ -457,8 +461,18 @@ th { font-weight: 500; background: var(--rose-tint); white-space: nowrap; }
 @media (max-width: 700px) {
   .dx-body { padding: 0 16px 24px; }
   .dx-glance { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dx-tile { padding: 10px 12px; }
+  .dx-tile .v { font-size: 18px; }
   .dx-rules { grid-template-columns: 1fr; }
   .dx-table th, .dx-table td { padding: 8px 6px; }
+  /* Venue-section tables become one card per row */
+  .dx-stack thead { display: none; }
+  .dx-stack, .dx-stack tbody, .dx-stack tr, .dx-stack th, .dx-stack td { display: block; }
+  .dx-stack tr { border: 1px solid var(--line); border-radius: 4px; padding: 10px 12px; margin-bottom: 10px; }
+  .dx-stack tbody th { padding: 0 0 6px; border: 0; font-size: 15px; }
+  .dx-table.dx-stack td { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 3px 0; border: 0; text-align: left; overflow-wrap: break-word; }
+  .dx-stack td::before { content: attr(data-label); color: var(--ink-600); font-size: 12px; }
+  .dx-stack td:empty { display: none; }
   .dx-day { font-size: 12px; }
   .dx-kv { grid-template-columns: 1fr; gap: 2px; }
   .dx-kv dd { margin-bottom: 10px; }

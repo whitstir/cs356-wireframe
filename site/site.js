@@ -915,7 +915,7 @@
     // cols: [{h, s, num}]; rows: [{th, tds: [{html, num}]}]
     const table = (cap, cols, rows) => `<div class="dx-scroll"><table class="dx-table">${cap ? `<caption>${cap}</caption>` : ""}<thead><tr>`
       + cols.map((c) => `<th scope="col"${c.num ? ' class="num"' : ""}>${fmt(c.h)}${c.s ? `<span class="s">${fmt(c.s)}</span>` : ""}</th>`).join("") + `</tr></thead><tbody>`
-      + rows.map((r) => `<tr>${r.th != null ? `<th scope="row">${fmt(r.th)}</th>` : ""}${r.tds.map((d) => `<td${d.num ? ' class="num"' : ""}>${d.html}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
+      + rows.map((r) => `<tr>${r.th != null ? `<th scope="row">${String(r.th).length <= 12 ? `<span class="nw">${fmt(r.th)}</span>` : fmt(r.th)}</th>` : ""}${r.tds.map((d) => `<td${d.num ? ' class="num"' : ""}>${d.html}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
     const fixedOf = (rs) => DIMS.filter((d) => uniq(rs, (r) => r[d]).length === 1 && rs[0][d]);
     const caption = (name, rs) => [name && `<strong>${fmt(name)}</strong>`, ...fixedOf(rs).map((d) => fmt(rs[0][d]))].filter(Boolean).join(" · ");
     // Which dims vary; when each day has one set of hours, the hours join the day label instead of getting a column
@@ -1004,12 +1004,17 @@
       const parsed = s.items.map((it) => { if (!it.value.trim()) return []; const kvs = it.value.split(" · ").map((p) => p.match(/^([^:]{1,28}):\s*(.+)$/)); return kvs.every(Boolean) ? kvs.map((m) => [m[1], m[2]]) : null; });
       const tab = s.items.filter((_, i) => parsed[i]), rest = s.items.filter((_, i) => !parsed[i]);
       let body = "";
-      if (tab.length >= 2) {
-        const rowsKv = tab.map((it) => Object.fromEntries(parsed[s.items.indexOf(it)]));
-        const cols = [...new Set(rowsKv.flatMap((r) => Object.keys(r)))];
+      const rowsKv = tab.map((it) => Object.fromEntries(parsed[s.items.indexOf(it)]));
+      const cols = [...new Set(rowsKv.flatMap((r) => Object.keys(r)))];
+      // A table only when it would be mostly filled and not too wide; otherwise each item lists its own details
+      const dense = rowsKv.reduce((n, r) => n + Object.keys(r).length, 0) >= 0.6 * rowsKv.length * cols.length && cols.length <= 8;
+      if (tab.length >= 2 && !dense) {
+        body += `<dl class="dx-kv">${tab.map((it, i) => `<dt>${fmt(it.label)}</dt><dd>${Object.entries(rowsKv[i]).map(([k, x]) => `<span class="dx-k">${esc(k)}:</span> ${fmt(x)}`).join("<br>")}</dd>`).join("")}</dl>`;
+      } else if (tab.length >= 2) {
         const isNum = (c) => rowsKv.every((r) => r[c] == null || /^[\d,.$–\-\s/+]+$/.test(r[c]));
-        body += `<div class="dx-scroll"><table class="dx-table"><thead><tr><th scope="col"></th>${cols.map((c) => `<th scope="col"${isNum(c) ? ' class="num"' : ""}>${esc(c)}</th>`).join("")}</tr></thead><tbody>`
-          + tab.map((it, i) => `<tr><th scope="row">${fmt(it.label)}</th>${cols.map((c) => `<td${isNum(c) ? ' class="num"' : ""}>${rowsKv[i][c] != null ? fmt(rowsKv[i][c]) : ""}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
+        // dx-stack: on phones each row becomes a card with labeled lines (data-label)
+        body += `<div class="dx-scroll"><table class="dx-table dx-stack"><thead><tr><th scope="col"></th>${cols.map((c) => `<th scope="col"${isNum(c) ? ' class="num"' : ""}>${esc(c)}</th>`).join("")}</tr></thead><tbody>`
+          + tab.map((it, i) => `<tr><th scope="row">${fmt(it.label)}</th>${cols.map((c) => `<td${isNum(c) ? ' class="num"' : ""} data-label="${esc(c)}">${rowsKv[i][c] != null ? fmt(rowsKv[i][c]) : ""}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
       } else rest.unshift(...tab);
       body += kv(rest.map((it) => [it.label, fmt(it.value)]));
       return sub(s.title, body);
@@ -1065,6 +1070,8 @@
     const shortTime = (t) => t.replace(/(\d{1,2}):00\s*/g, "$1").replace(/(\d{1,2})\s*(am|pm)\s*[-–]\s*(\d{1,2})\s*/gi, "$1–$3$2").replace(/\s*-\s*/g, "–");
     const deposit = (L("Deposit Policy")[0] || "").match(/\$[\d,]+/);
     const alcohol = (v.rules || []).find((r) => r.rule === "Alcohol");
+    // Tile notes keep their first clause so the tiles stay short; the full text is in the section below
+    const brief = (t) => { const c = t.split(/;\s*/)[0]; return c.length > 32 ? c.slice(0, c.lastIndexOf(" ", 30)) + "…" : c; };
     const glance = [
       v.priceMin != null && ["Rental", priceRange(v), priceNote(v)],
       v.seated != null && ["Seats", seatRange(v), v.standing != null ? `${v.standingMin != null && v.standingMin !== v.standing ? v.standingMin + "–" : ""}${v.standing} standing` : ""],
@@ -1081,7 +1088,7 @@
       <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span></span><span class="chev" aria-hidden="true"></span></summary>
       <div class="dx-body">
         <nav class="dx-jump" aria-label="Jump to">${secs.map(([id, title]) => `<a href="#" data-act="jump" data-to="sec-${id}" data-log="Details jump: ${esc(title)}">${esc(title)}</a>`).join("")}</nav>
-        ${glance.length ? `<div class="dx-glance">${glance.map(([e, val, s]) => `<div class="dx-tile"><span class="eyebrow">${esc(e)}</span><span class="v">${fmt(val)}</span>${s ? `<span class="s">${fmt(s)}</span>` : ""}</div>`).join("")}</div>` : ""}
+        ${glance.length ? `<div class="dx-glance">${glance.map(([e, val, s]) => `<div class="dx-tile"><span class="eyebrow">${esc(e)}</span><span class="v">${fmt(val)}</span>${s ? `<span class="s">${fmt(brief(s))}</span>` : ""}</div>`).join("")}</div>` : ""}
         ${secs.map(([id, title, b]) => `<section class="dx-sec" id="sec-${id}"><h3>${esc(title)}</h3>${b}</section>`).join("")}
       </div></details>`;
   }
