@@ -1,0 +1,687 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Combined Lo-Fi Prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Same lo-fi look as the A/B/C drafts: grey boxes, placeholder photos, blue-pencil notes tying each part to a team answer or decision. */
+:root {
+  --paper: #eef0ee; --card: #ffffff; --ink: #1d2120; --muted: #5f6763; --line: #c9cecb; --line-strong: #8d9490;
+  --ph: #e2e5e3; --ph-line: #c3c8c5; --note: #2747c4; --note-bg: #e6ebfb; --sel: #1d2120; --sel-fg: #ffffff;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #151817; --card: #1e2221; --ink: #e6e9e7; --muted: #9aa29e; --line: #353b39; --line-strong: #69716d;
+    --ph: #2a2f2d; --ph-line: #3e4542; --note: #8ea4ff; --note-bg: #232a45; --sel: #e6e9e7; --sel-fg: #151817;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #151817; --card: #1e2221; --ink: #e6e9e7; --muted: #9aa29e; --line: #353b39; --line-strong: #69716d;
+  --ph: #2a2f2d; --ph-line: #3e4542; --note: #8ea4ff; --note-bg: #232a45; --sel: #e6e9e7; --sel-fg: #151817;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.5; margin: 0; }
+.shell { max-width: 1280px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; display: grid; gap: 18px; }
+.shell > * { min-width: 0; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--note); outline-offset: 2px; }
+a { color: inherit; }
+
+/* ---------- review header ---------- */
+.top { display: grid; gap: 10px; }
+.top h1 { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 4vw, 38px); line-height: 1.05; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.top p { margin: 0; color: var(--muted); max-width: 72ch; }
+.toggle { display: inline-flex; gap: 8px; align-items: center; color: var(--muted); font-size: 13px; }
+.brief { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 20px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; }
+.brief .lbl { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+.brief table { border-collapse: collapse; width: 100%; font-size: 13px; }
+.brief td { border-bottom: 1px solid var(--line); padding: 5px 8px 5px 0; vertical-align: top; }
+.brief td:first-child { font-family: var(--mono); color: var(--note); white-space: nowrap; width: 1%; }
+.brief ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+@media (max-width: 760px) { .brief { grid-template-columns: 1fr; } }
+
+/* ---------- browser frame ---------- */
+.frame { border: 1px solid var(--line-strong); border-radius: 10px; background: var(--card); overflow: hidden; }
+.chrome { display: flex; gap: 10px; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--line); background: var(--paper); }
+.dots { display: flex; gap: 5px; } .dots i { width: 9px; height: 9px; border-radius: 50%; border: 1px solid var(--line-strong); display: block; }
+.url { flex: 1; min-width: 0; font-family: var(--mono); font-size: 12px; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.viewport { min-height: 620px; }
+
+/* ---------- blue-pencil notes ---------- */
+.note { display: inline-flex; align-items: center; gap: 4px; font-family: var(--mono); font-size: 11px; line-height: 1.3; color: var(--note); background: var(--note-bg); border: 1px dashed var(--note); border-radius: 4px; padding: 1px 6px; vertical-align: middle; font-weight: 500; }
+.notes-off .note { display: none !important; }
+
+/* ---------- lo-fi building blocks ---------- */
+.lf h1, .lf h2, .lf h3 { font-family: var(--body); font-weight: 600; margin: 0; text-wrap: balance; }
+.lf .muted { color: var(--muted); }
+.lf .btn { border: 1px solid var(--line-strong); background: var(--card); border-radius: var(--r); padding: 6px 12px; }
+.lf .btn.solid { background: var(--sel); color: var(--sel-fg); border-color: var(--sel); }
+.lf .link { background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+.search { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--card); padding: 6px 8px 6px 14px; }
+.search input { border: 0; outline: 0; background: transparent; flex: 1; min-width: 0; padding: 4px 0; }
+.search:focus-within { outline: 2px solid var(--note); outline-offset: 1px; }
+.search .ico { width: 14px; height: 14px; border: 2px solid var(--muted); border-radius: 50%; position: relative; flex: none; }
+.search .ico::after { content: ""; position: absolute; width: 2px; height: 6px; background: var(--muted); right: -4px; bottom: -5px; transform: rotate(-45deg); }
+
+.ph { position: relative; background: var(--ph); overflow: hidden; aspect-ratio: 4 / 3; max-width: 100%; border-radius: var(--r);
+  background-image: linear-gradient(to top right, transparent calc(50% - 1px), var(--ph-line) 50%, transparent calc(50% + 1px)),
+                    linear-gradient(to top left, transparent calc(50% - 1px), var(--ph-line) 50%, transparent calc(50% + 1px)); }
+.ph .cap { position: absolute; left: 8px; bottom: 8px; font-family: var(--mono); font-size: 11px; background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; color: var(--muted); }
+.ph .arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line-strong); background: var(--card); display: grid; place-items: center; font-size: 14px; line-height: 1; padding: 0; }
+.ph .arrow.prev { left: 8px; } .ph .arrow.next { right: 8px; }
+.ph .pips { position: absolute; right: 8px; bottom: 10px; display: flex; gap: 4px; }
+.ph .pips i { width: 6px; height: 6px; border-radius: 50%; background: var(--card); border: 1px solid var(--line-strong); display: block; }
+.ph .pips i.on { background: var(--ink); border-color: var(--ink); }
+
+.chk { display: flex; align-items: center; gap: 8px; padding: 3px 0; cursor: pointer; }
+.chk input { margin: 0; accent-color: var(--ink); width: 15px; height: 15px; flex: none; }
+.chk .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+.chk.zero { color: var(--muted); }
+.sub { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 8px 0 2px; }
+.modes { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 6px 8px; border: 1px dashed var(--line-strong); border-radius: var(--r); margin: 4px 0 6px; }
+.modes .chk { padding: 0; }
+.range { display: grid; gap: 4px; }
+.range .vals { display: flex; justify-content: space-between; font-variant-numeric: tabular-nums; font-size: 13px; }
+/* one slider, two handles: two range inputs stacked on a single track, only the thumbs take clicks */
+.dual { position: relative; height: 24px; }
+.dual .track, .dual .fill { position: absolute; top: 50%; height: 4px; transform: translateY(-50%); border-radius: 2px; }
+.dual .track { left: 0; right: 0; background: var(--line); }
+.dual .fill { background: var(--ink); }
+.dual input { position: absolute; inset: 0; width: 100%; height: 24px; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
+.dual input::-webkit-slider-runnable-track { background: transparent; height: 24px; }
+.dual input::-moz-range-track { background: transparent; }
+.dual input::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 16px; height: 16px; margin-top: 4px; border-radius: 50%; background: var(--card); border: 2px solid var(--ink); cursor: pointer; }
+.dual input::-moz-range-thumb { pointer-events: auto; width: 12px; height: 12px; border-radius: 50%; background: var(--card); border: 2px solid var(--ink); cursor: pointer; }
+.lf select { width: 100%; border: 1px solid var(--line-strong); border-radius: var(--r); padding: 6px 8px; background: var(--card); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line-strong); border-radius: 999px; padding: 3px 6px 3px 10px; background: var(--card); font-size: 13px; }
+.chip button { border: 0; background: none; padding: 0 4px; font-size: 14px; line-height: 1; color: var(--muted); }
+.pill { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; font-size: 12px; color: var(--muted); }
+mark { background: var(--note-bg); color: inherit; border-bottom: 1px solid var(--note); }
+.empty { border: 1px dashed var(--line-strong); border-radius: var(--r); padding: 24px; text-align: center; color: var(--muted); }
+.toast { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; border: 1px solid var(--ink); border-radius: var(--r); padding: 8px 12px; background: var(--card); }
+
+/* top nav with Location / Style menus */
+.lnav { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 12px 20px; border-bottom: 1px solid var(--line); }
+.lnav .brand { font-weight: 600; background: none; border: 0; padding: 0; margin-right: auto; font-size: 15px; }
+.dd { position: relative; }
+.dd summary { list-style: none; cursor: pointer; padding: 4px 2px; }
+.dd summary::-webkit-details-marker { display: none; }
+.dd summary::after { content: " ▾"; color: var(--muted); }
+.dd .menu { position: absolute; z-index: 5; top: 100%; left: 0; min-width: 190px; background: var(--card); border: 1px solid var(--line-strong); border-radius: var(--r); padding: 6px; display: grid; box-shadow: 0 8px 24px rgb(0 0 0 / .12); }
+.dd .menu.cols { grid-template-columns: repeat(2, minmax(0, 1fr)); min-width: 300px; }
+.dd:last-of-type .menu { left: auto; right: 0; }
+.dd .menu button { text-align: left; background: none; border: 0; padding: 5px 8px; border-radius: 4px; }
+.dd .menu button:hover { background: var(--ph); }
+.lnav .navbtn { background: none; border: 0; padding: 4px 2px; }
+
+/* ---------- home (draft A) ---------- */
+.home { padding: 28px 20px; display: grid; gap: 28px; }
+.hero { display: grid; gap: 12px; max-width: 640px; }
+.hero h1 { font-size: 28px; }
+.pop { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.styles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.styles button { background: none; border: 0; padding: 0; text-align: left; display: grid; gap: 6px; }
+@media (max-width: 640px) { .styles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ---------- explore (draft A sidebar + B undo bar) ---------- */
+.ex { display: grid; grid-template-columns: 260px minmax(0, 1fr); min-height: 620px; }
+.side { border-right: 1px solid var(--line); padding: 14px 16px; display: grid; align-content: start; gap: 2px; max-height: 820px; overflow: auto; }
+.side details { border-bottom: 1px solid var(--line); padding: 8px 0; }
+.side summary { cursor: pointer; font-weight: 500; display: flex; justify-content: space-between; gap: 8px; }
+.side summary .on { font-size: 12px; color: var(--muted); font-weight: 400; }
+.side .inner { padding-top: 6px; }
+.main { padding: 14px 18px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; }
+.card { display: grid; gap: 6px; align-content: start; }
+.card .name { background: none; border: 0; padding: 0; text-align: left; font-weight: 600; font-size: 15px; }
+.card .meta { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; color: var(--muted); }
+.card .snip { font-size: 13px; }
+.card .snip b { font-weight: 500; color: var(--muted); }
+.filterbtn { display: none; }
+@media (max-width: 760px) {
+  .ex { grid-template-columns: 1fr; }
+  .side { border-right: 0; border-bottom: 1px solid var(--line); max-height: none; }
+  .side.closed { display: none; }
+  .filterbtn { display: inline-block; }
+}
+
+/* ---------- venue page ---------- */
+.vp { padding: 20px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.vp > *, .vp .head > * { min-width: 0; overflow-wrap: anywhere; }
+.vp .head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.vp h1 { font-size: 26px; }
+.vp .gal { display: grid; grid-template-columns: 2fr 1fr; gap: 8px; }
+.vp .gal .sidep { display: grid; gap: 8px; }
+.vp .gal > .ph { aspect-ratio: 16 / 9; } /* full-width page: keep the main photo from getting too tall */
+.vp .gal .sidep .ph { aspect-ratio: auto; height: 100%; min-height: 90px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); border: 1px solid var(--line); border-radius: var(--r); }
+.facts div { padding: 10px 12px; border-right: 1px solid var(--line); }
+.facts div:last-child { border-right: 0; }
+.facts b { display: block; font-size: 12px; font-weight: 500; color: var(--muted); }
+.vp .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+.vp .box { border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; min-width: 0; }
+.vp .box h3 { font-size: 14px; margin-bottom: 6px; }
+.vp .box ul { margin: 0; padding-left: 18px; }
+.vp .pre { white-space: pre-line; overflow-wrap: anywhere; }
+/* ---------- Features: a dropdown that opens into a tile grid ---------- */
+.feat { border: 1px solid var(--line-strong); border-radius: var(--r); }
+.feat > summary { cursor: pointer; padding: 12px 16px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.feat > summary { list-style: none; }
+.feat > summary::-webkit-details-marker { display: none; }
+.feat > summary::after { content: "▾"; margin-left: auto; color: var(--muted); }
+.feat[open] > summary::after { content: "▴"; }
+.feat > summary h2 { font-size: 18px; display: inline; }
+.feat > summary .n { color: var(--muted); }
+.feat > summary .also { color: var(--muted); font-size: 13px; }
+.feat .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; padding: 4px 16px 16px; }
+.feat .t { border: 1px solid var(--line-strong); border-radius: var(--r); padding: 10px 12px; display: grid; gap: 2px; align-content: start; }
+.feat .t b { font-weight: 600; font-size: 13px; }
+.feat .t .d { font-size: 12px; color: var(--muted); }
+.feat .t.no { border-style: dashed; border-color: var(--line); color: var(--muted); }
+.feat .t.no b { font-weight: 400; }
+.feat .t.wide { grid-column: span 2; }
+.feat .t.wide .d { font-size: 13px; color: var(--ink); }
+.feat .t.wide.no .d { color: var(--muted); }
+@media (max-width: 400px) { .feat .t.wide { grid-column: auto; } }
+/* contact: plain text right under the description */
+.contact { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; font-size: 13px; }
+.contact b { font-weight: 600; }
+/* City: dropdown of checkboxes */
+.msel { position: relative; }
+.msel > summary { list-style: none; cursor: pointer; border: 1px solid var(--line-strong); border-radius: var(--r); padding: 6px 28px 6px 8px; background: var(--card); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; position: relative; }
+.msel > summary::-webkit-details-marker { display: none; }
+.msel > summary::after { content: "▾"; position: absolute; right: 9px; color: var(--muted); }
+.msel[open] > summary::after { content: "▴"; }
+.msel .list { border: 1px solid var(--line-strong); border-top: 0; border-radius: 0 0 var(--r) var(--r); padding: 4px 8px; max-height: 240px; overflow: auto; background: var(--card); }
+.alld { border: 1px solid var(--line); border-radius: var(--r); }
+.alld summary { cursor: pointer; padding: 10px 14px; font-weight: 600; }
+.alld dl { margin: 0; display: grid; grid-template-columns: minmax(140px, 220px) minmax(0, 1fr); }
+.alld dt, .alld dd { margin: 0; padding: 8px 14px; border-top: 1px solid var(--line); }
+.alld dt { color: var(--muted); font-size: 13px; }
+.alld dd { white-space: pre-line; overflow-wrap: anywhere; }
+.alld .hit { background: var(--note-bg); }
+@media (max-width: 640px) { .vp .gal { grid-template-columns: 1fr; } .vp .gal .sidep { grid-template-columns: 1fr 1fr; } .alld dl { grid-template-columns: 1fr; } .alld dd { border-top: 0; padding-top: 0; } }
+</style>
+
+<div class="shell" id="shell">
+  <div class="top">
+    <h1>Utah County venues: combined lo-fi prototype</h1>
+    <p>Draft A as the base, with B’s Undo bar, a photo carousel on every card, and search across every field. Built only from the team’s answers on 2026-10-12. Lo-fi on purpose, so we agree on structure before any visual design. All 46 real venues; filters, counts, search, Undo and photo arrows work.</p>
+    <label class="toggle"><input type="checkbox" id="notes-toggle" checked> Show notes</label>
+  </div>
+  <div class="brief">
+    <div><div class="lbl">Where each team answer shows up</div>
+      <table><tbody>
+        <tr><td>Q1</td><td>Location and Style (menus and home-page style tiles) <b>replace</b> your filters and show an <b>Undo</b> bar on Explore. Taken from draft B.</td></tr>
+        <tr><td>Q2</td><td>Explore keeps draft A’s <b>always-visible filter sidebar</b>, collapsible groups, “N on” counts, removable chips and Clear all.</td></tr>
+        <tr><td>Q3</td><td>Every result card has a <b>photo carousel</b> (front photo plus 2–4 more, arrows and dots).</td></tr>
+        <tr><td>Q4</td><td>Search matches <b>every field that has content</b>. Blank, “No”/“FALSE” and “not stated” fields never match. Cards show which field matched.</td></tr>
+        <tr><td>Q5</td><td>The stations group is still called <b>“Other”</b>.</td></tr>
+        <tr><td>Q6</td><td>Home page has a <b>photo tile for each Style</b>.</td></tr>
+        <tr><td>Q7</td><td>Every venue opens a <b>full venue page</b>, which lists every field the venue has.</td></tr>
+        <tr><td>Q8</td><td><b>Laptop first.</b> Still stacks at phone width with no sideways scrolling.</td></tr>
+      </tbody></table></div>
+    <div><div class="lbl">Still open for the team</div>
+      <ul>
+        <li>Decor and Other each have their own Included / For rent toggle. One shared toggle, or keep two? (Kept as two here, matching the hierarchy.)</li>
+        <li>Q1 covers Location and Style. Should the Explore link, Popular searches and the home search box also show Undo when they clear filters? (Here they start fresh with no Undo, as in draft B.)</li>
+      </ul></div>
+  </div>
+  <div id="stage"></div>
+</div>
+
+<script>
+window.VENUES_SLIM = /*__VENUE_DATA__*/[];
+</script>
+<script>
+(function () {
+  "use strict";
+  const alpha = (a, b) => a.localeCompare(b, "en", { sensitivity: "base" });
+  const VENUES = window.VENUES_SLIM.slice().sort((a, b) => alpha(a.name, b.name));
+  const BY_ID = Object.fromEntries(VENUES.map((v) => [v.id, v]));
+  const STYLES = ["Classic", "Luxury", "Modern", "Outdoors", "Rustic"];
+  const CITIES = [...new Set(VENUES.map((v) => v.city).filter(Boolean))].sort(alpha);
+  const AV = ["Microphone", "Projector", "Sound system", "TV"];
+  const ACCESS = ["Accessible parking", "ADA restrooms", "Elevator", "Wheelchair accessible"];
+  const FEATURES = ["Bridal room", "Cleanup crew", "Event coordinator", "Groom's room", "Indoors",
+    "Linens included", "Outdoors", "Outside catering allowed", "Sparklers allowed"];
+  const AESTHETICS = ["Centerpieces", "Ceremony arch / backdrop", "Draping / chair covers", "Fireplace", "Greenery / florals", "Signs / easels"];
+  const LIGHTING = ["Candles / lanterns", "Chandeliers", "String / bistro lights"];
+  const OTHER = ["Cake table", "Drink / beverage station", "Firepit", "Photo booth / backdrop", "Piano", "Sweetheart table"];
+  const PMAX = 10000, PSTEP = 250, CMAX = 1000, CSTEP = 25;
+  const PHOTO_LABELS = ["Reception hall", "Ceremony space", "Grounds", "Details"];
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const money = (n) => "$" + n.toLocaleString("en-US");
+  const pText = (n) => (n >= PMAX ? money(PMAX) + "+" : money(n));
+  const cText = (n) => (n >= CMAX ? CMAX + "+" : String(n));
+  const note = (d, text) => `<span class="note">${esc(d)}${text ? " · " + esc(text) : ""}</span>`;
+
+  // ---------- search: every field that has content (Q4) ----------
+  // Each venue carries `fields`: [label, text] for every CSV column with real information
+  // (build step drops blank, "No", "FALSE" and "not stated" values), plus its filter tags.
+  VENUES.forEach((v) => {
+    const tags = [...v.styles,
+      ...Object.keys(v.flags).filter((k) => v.flags[k]),
+      ...Object.keys(v.av).filter((k) => v.av[k]),
+      ...Object.keys(v.access).filter((k) => v.access[k]),
+      ...Object.keys(v.decor)];
+    v.search = [...v.fields, ["Filters", tags.join(", ")]].filter(([, t]) => t).map(([l, t]) => [l, t, t.toLowerCase()]);
+  });
+  const words = (q) => q.toLowerCase().split(/\s+/).filter(Boolean);
+  function searchHit(v, q) {
+    const ws = words(q);
+    return ws.every((w) => v.search.some(([, , low]) => low.includes(w)));
+  }
+  function hitFields(v, q) {
+    const ws = words(q);
+    return v.search.filter(([, , low]) => ws.some((w) => low.includes(w)));
+  }
+  function highlight(text, q) {
+    let s = esc(text);
+    words(q).forEach((w) => { s = s.replace(new RegExp("(" + reEsc(esc(w)) + ")", "ig"), "<mark>$1</mark>"); });
+    return s;
+  }
+  function snippet(v, q) {
+    const ws = words(q);
+    if (!ws.length) return "";
+    const hits = hitFields(v, q);
+    if (!hits.length) return "";
+    const [label, text, low] = hits[0];
+    const flat = text.replace(/\s*\n\s*/g, " · "), at = flat.toLowerCase().indexOf(ws.find((w) => low.includes(w)));
+    const start = Math.max(0, at - 45), end = Math.min(flat.length, Math.max(at, 0) + 80);
+    const piece = (start > 0 ? "…" : "") + flat.slice(start, end) + (end < flat.length ? "…" : "");
+    const more = hits.length > 1 ? ` <span class="muted">+${hits.length - 1} more</span>` : "";
+    return `<b>Matched in ${esc(label)}:</b> ${highlight(piece, q)}${more}`;
+  }
+
+  // ---------- filter state & matching (updated hierarchy) ----------
+  function fresh() {
+    return { q: "", pmin: 0, pmax: PMAX, cmin: 0, cmax: CMAX, styles: [], cities: [],
+      decor: [], dmodes: [], other: [], omodes: [], av: [], access: [], flags: [] };
+  }
+  const clone = (st) => JSON.parse(JSON.stringify(st));
+  const ARRAYS = ["styles", "cities", "decor", "dmodes", "other", "omodes", "av", "access", "flags"];
+  function matches(v, st) {
+    if (!searchHit(v, st.q)) return false;
+    if (st.pmin > 0 || st.pmax < PMAX) {
+      if (v.priceMin == null) return false;
+      const hi = st.pmax >= PMAX ? Infinity : st.pmax;
+      if (!(v.priceMin <= hi && v.priceMax >= st.pmin)) return false;
+    }
+    if (st.cmin > 0 || st.cmax < CMAX) {
+      if (v.seated == null) return false;
+      const hi = st.cmax >= CMAX ? Infinity : st.cmax;
+      if (v.seated < st.cmin || v.seated > hi) return false;
+    }
+    if (st.styles.length && !st.styles.some((s) => v.styles.includes(s))) return false;
+    if (st.cities.length && !st.cities.includes(v.city)) return false;
+    const dm = st.dmodes.length ? st.dmodes : ["included", "rent"];
+    if (!st.decor.every((i) => (v.decor[i] || []).some((m) => dm.includes(m)))) return false;
+    const om = st.omodes.length ? st.omodes : ["included", "rent"];
+    if (!st.other.every((i) => (v.decor[i] || []).some((m) => om.includes(m)))) return false;
+    if (!st.av.every((k) => v.av[k])) return false;
+    if (!st.access.every((k) => v.access[k])) return false;
+    if (!st.flags.every((k) => v.flags[k])) return false;
+    return true;
+  }
+  const results = (st) => VENUES.filter((v) => matches(v, st));
+  function countWith(st, f, val) {
+    const s = clone(st);
+    // Cities are either/or, so each city's count is that city alone (with the other filters still applied).
+    if (f === "cities") s.cities = [val]; else if (!s[f].includes(val)) s[f].push(val);
+    return results(s).length;
+  }
+  function activeCount(st) {
+    let n = ARRAYS.reduce((a, k) => a + (k.endsWith("modes") ? 0 : st[k].length), 0);
+    if (st.q) n++;
+    if (st.pmin > 0 || st.pmax < PMAX) n++;
+    if (st.cmin > 0 || st.cmax < CMAX) n++;
+    return n;
+  }
+  function chipsFor(st) {
+    const out = [];
+    if (st.q) out.push({ label: `Search: “${st.q}”`, f: "q" });
+    if (st.pmin > 0 || st.pmax < PMAX) out.push({ label: `Price ${pText(st.pmin)}–${pText(st.pmax)}`, f: "price" });
+    if (st.cmin > 0 || st.cmax < CMAX) out.push({ label: `${cText(st.cmin)}–${cText(st.cmax)} guests`, f: "cap" });
+    st.cities.forEach((v) => out.push({ label: `City: ${v}`, f: "cities", v }));
+    st.styles.forEach((v) => out.push({ label: `Style: ${v}`, f: "styles", v }));
+    ["flags", "access", "av", "decor", "other"].forEach((f) => st[f].forEach((v) => out.push({ label: v, f, v })));
+    return out;
+  }
+  function chipSummary(st) { return chipsFor(st).map((c) => c.label).join(", "); }
+  function removeChip(st, f, v) {
+    if (f === "q") st.q = "";
+    else if (f === "price") { st.pmin = 0; st.pmax = PMAX; }
+    else if (f === "cap") { st.cmin = 0; st.cmax = CMAX; }
+    else st[f] = st[f].filter((x) => x !== v);
+  }
+  const PRESETS = {
+    budget: { label: "Budget Venues", apply: (st) => { st.pmin = 0; st.pmax = 2000; } },
+    spacious: { label: "Spacious Venues", apply: (st) => { st.cmin = 200; st.cmax = CMAX; } },
+    catering: { label: "Outside catering allowed", apply: (st) => { st.flags.push("Outside catering allowed"); } },
+  };
+  function queryString(st) {
+    const q = new URLSearchParams();
+    if (st.q) q.set("search", st.q);
+    if (st.pmin > 0 || st.pmax < PMAX) q.set("price", `${st.pmin}-${st.pmax}`);
+    if (st.cmin > 0 || st.cmax < CMAX) q.set("guests", `${st.cmin}-${st.cmax}`);
+    ARRAYS.forEach((k) => st[k].length && q.set(k, st[k].join(",")));
+    const s = q.toString();
+    return s ? "?" + s : "";
+  }
+
+  // ---------- shared renderers ----------
+  function photoCount(v) { let h = 0; for (const c of v.id) h = (h * 31 + c.charCodeAt(0)) >>> 0; return 3 + (h % 3); } // front + 2–4 (D6)
+  const photoIdx = {};
+  function photoLabel(i) { return i === 0 ? "Front of venue" : PHOTO_LABELS[(i - 1) % PHOTO_LABELS.length]; }
+  function carousel(v) {
+    const n = photoCount(v), i = photoIdx[v.id] || 0;
+    return `<div class="ph" data-car="${v.id}">
+      <span class="cap">${photoLabel(i)} · ${i + 1}/${n}</span>
+      <button class="arrow prev" data-act="photo" data-id="${v.id}" data-dir="-1" aria-label="Previous photo of ${esc(v.name)}">‹</button>
+      <button class="arrow next" data-act="photo" data-id="${v.id}" data-dir="1" aria-label="Next photo of ${esc(v.name)}">›</button>
+      <span class="pips">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</span>
+    </div>`;
+  }
+  function staticPhoto(label) { return `<div class="ph"><span class="cap">${esc(label)}</span></div>`; }
+  function priceLine(v) { return v.priceText && v.priceMin != null ? v.priceText : "Price on request"; }
+  function capLine(v) { return v.seated != null ? `${v.seated} seated` : "Capacity not listed"; }
+
+  function checks(st, f, list, withCount = true) {
+    return list.map((val) => {
+      const on = st[f].includes(val);
+      const n = withCount ? countWith(st, f, val) : null;
+      return `<label class="chk ${n === 0 && !on ? "zero" : ""}"><input type="checkbox" data-f="${f}" value="${esc(val)}" ${on ? "checked" : ""}> ${esc(val)}${withCount ? `<span class="n" data-cnt="${f}|${esc(val)}">${n}</span>` : ""}</label>`;
+    }).join("");
+  }
+  function modes(st, f, label) {
+    return `<div class="modes"><span class="muted" style="font-size:12px">${label}</span>
+      <label class="chk"><input type="checkbox" data-f="${f}" value="included" ${st[f].includes("included") ? "checked" : ""}> Included</label>
+      <label class="chk"><input type="checkbox" data-f="${f}" value="rent" ${st[f].includes("rent") ? "checked" : ""}> For rent</label></div>`;
+  }
+  function range(st, key) {
+    const isP = key === "p";
+    const lo = isP ? st.pmin : st.cmin, hi = isP ? st.pmax : st.cmax, max = isP ? PMAX : CMAX, step = isP ? PSTEP : CSTEP, fmt = isP ? pText : cText;
+    const nm = isP ? "Price" : "Seated guests";
+    return `<div class="range"><div class="vals"><span data-rv="${key}lo">${fmt(lo)}</span><span data-rv="${key}hi">${fmt(hi)}</span></div>
+      <div class="dual" data-dual="${key}"><span class="track"></span><span class="fill" style="${fillStyle(lo, hi, max)}"></span>
+        <input type="range" aria-label="${nm} minimum" data-range="${key}" data-end="lo" min="0" max="${max}" step="${step}" value="${lo}" style="z-index:${loOnTop(lo, hi, max) ? 3 : 1}">
+        <input type="range" aria-label="${nm} maximum" data-range="${key}" data-end="hi" min="0" max="${max}" step="${step}" value="${hi}" style="z-index:2"></div></div>`;
+  }
+  function fillStyle(lo, hi, max) { return `left:${(lo / max) * 100}%;width:${((hi - lo) / max) * 100}%`; }
+  // When both handles sit together at the top, the minimum handle must stay grabbable.
+  function loOnTop(lo, hi, max) { return lo === hi && lo > max / 2; }
+  function citySelect(st) {
+    const label = st.cities.length ? st.cities.join(", ") : "Any city";
+    return `<details class="msel"><summary aria-label="Cities" data-citylabel>${esc(label)}</summary><div class="list">${checks(st, "cities", CITIES)}</div></details>`;
+  }
+
+  // The updated Explore hierarchy, in order: Price first, then alphabetical. Parking removed (D4).
+  function sections(st) {
+    return [
+      { key: "price", title: "Price", html: range(st, "p") },
+      { key: "access", title: "Accessibility options", html: checks(st, "access", ACCESS) },
+      { key: "av", title: "Audio/Visual", html: checks(st, "av", AV) },
+      { key: "cap", title: "Capacity (seated guests)", html: range(st, "c") },
+      { key: "cities", title: "City", html: citySelect(st) },
+      { key: "decor", title: "Decor", html: modes(st, "dmodes", "Show items that are") +
+          `<div class="sub">Aesthetics</div>${checks(st, "decor", AESTHETICS)}<div class="sub">Lighting items</div>${checks(st, "decor", LIGHTING)}` },
+      { key: "flags", title: "Features", html: checks(st, "flags", FEATURES) },
+      { key: "other", title: "Other", note: note("D3 · Q5", "kept as “Other”"), html: modes(st, "omodes", "Show items that are") + checks(st, "other", OTHER) },
+      { key: "styles", title: "Style", note: note("D2", "a venue can have several"), html: checks(st, "styles", STYLES, false) },
+    ];
+  }
+  function sectionActive(st, key) {
+    if (key === "price") return st.pmin > 0 || st.pmax < PMAX ? 1 : 0;
+    if (key === "cap") return st.cmin > 0 || st.cmax < CMAX ? 1 : 0;
+    return (st[key] || []).length;
+  }
+  function chipRow(st) {
+    const c = chipsFor(st);
+    if (!c.length) return "";
+    return `<div class="chips">${c.map((x) => `<span class="chip">${esc(x.label)}<button data-act="unchip" data-f="${x.f}" data-v="${esc(x.v || "")}" aria-label="Remove ${esc(x.label)}">×</button></span>`).join("")}
+      <button class="link" data-act="clear">Clear all</button></div>`;
+  }
+
+  // ---------- pages ----------
+  const S = { st: fresh(), page: "home", vid: null, undo: null, sideOpen: false, open: new Set() };
+
+  // ---------- venue page: Features dropdown ----------
+  // Each feature tile shows, where the venue wrote something about it, that text.
+  const FEATURE_INFO = {
+    "Indoors": {},
+    "Outdoors": {},
+    "Bridal room": { field: "Bride & groom rooms", only: /brid/i },
+    "Groom's room": { field: "Bride & groom rooms", only: /groom/i },
+    "Event coordinator": { field: "Event coordinator" },
+    "Cleanup crew": { field: "Cleanup" },
+    "Linens included": { field: "Linens" },
+    "Outside catering allowed": { field: "Catering" },
+    "Sparklers allowed": { field: "Sparklers" },
+  };
+  const FEATURE_GROUPS = [
+    ["Spaces", ["Indoors", "Outdoors", "Bridal room", "Groom's room"]],
+    ["Services", ["Event coordinator", "Cleanup crew", "Linens included"]],
+    ["Policies", ["Outside catering allowed", "Sparklers allowed"]],
+  ];
+  function featureDetail(v, f) {
+    const info = FEATURE_INFO[f];
+    const t = info.field && (v.fields.find(([l]) => l === info.field) || [])[1];
+    if (!t) return "";
+    // Drop bare yes/included lines; for shared fields (bride & groom rooms) keep only this feature's lines.
+    const lines = t.split("\n").map((s) => s.trim()).filter((s) => s && !/^(yes|included)$/i.test(s) && (!info.only || info.only.test(s)));
+    if (info.only && lines.length === 1 && lines[0].length < 20) return "";
+    return lines.slice(0, 2).join("\n") + (lines.length > 2 ? " …" : "");
+  }
+  // Features dropdown: one flat grid of boxes, no subtitles. The nine features each get a box;
+  // Parking, Accessibility, Audio/Visual, Decor and Other are one box each, describing what's there.
+  function featuresSection(v) {
+    const all = FEATURE_GROUPS.flatMap(([, fs]) => fs), n = all.filter((f) => v.flags[f]).length;
+    const tile = (name, d, yes = true, cls = "") => `<div class="t ${yes ? "" : "no"} ${cls}"><b>${name}</b>${d ? `<span class="d">${esc(d)}</span>` : ""}</div>`;
+    const lower = (t) => (/^[A-Z][a-z]/.test(t) ? t[0].toLowerCase() + t.slice(1) : t); // keep "TV", "HD", "ADA…"
+    const sentence = (list) => { const l = list.map((t, i) => (i ? lower(t) : t)); return (l.length < 2 ? l.join("") : l.slice(0, -1).join(", ") + " and " + l[l.length - 1]) + "."; };
+    const lines = (label) => ((v.fields.find(([l]) => l === label) || [])[1] || "").split("\n").map((l) => l.trim()).filter((l) => l && !/^yes$/i.test(l));
+    const box = (name, text, empty) => (text ? tile(name, text, true, "wide") : tile(name, empty, false, "wide"));
+    const parking = lines("Parking"), avLines = lines("Sound / AV");
+    const access = ACCESS.filter((k) => v.access[k]), av = AV.filter((k) => v.av[k]);
+    const items = (list) => {
+      const inc = list.filter((i) => (v.decor[i] || []).includes("included")), rent = list.filter((i) => (v.decor[i] || []).includes("rent"));
+      return [inc.length ? "Included: " + sentence(inc) : "", rent.length ? "For rent: " + sentence(rent) : ""].filter(Boolean).join(" ");
+    };
+    const boxes = [
+      ...all.map((f) => (v.flags[f] ? tile(esc(f), featureDetail(v, f).split("\n")[0] || "Yes") : tile(esc(f), "Not listed", false))),
+      box(`Parking ${note("D4")}`, parking.length ? sentence(parking) : "", "Not listed by the venue"),
+      box("Accessibility", access.length ? sentence(access) : "", "No accessibility details listed"),
+      box("Audio/Visual", avLines.length || av.length ? sentence(avLines.length ? avLines : av) : "", "No audio/visual equipment listed"),
+      box("Decor", items([...AESTHETICS, ...LIGHTING]), "No decor listed"),
+      box(`Other ${note("D3")}`, items(OTHER), "Nothing listed"),
+    ];
+    return `<details class="feat"><summary><h2>Features</h2><span class="n">${n} feature${n === 1 ? "" : "s"} listed</span><span class="also">· plus Parking, Accessibility, Audio/Visual, Decor, Other</span></summary>
+      <div class="tiles">${boxes.join("")}</div></details>`;
+  }
+
+
+  // Filter groups start collapsed; only groups with a filter already set (from a popular search,
+  // Location or Style) open. After that, groups stay as the user left them.
+  function openActive() { S.open = new Set(sections(S.st).map((s) => s.key).filter((k) => sectionActive(S.st, k))); }
+
+  function navMenus() {
+    return `<details class="dd"><summary>Location</summary><div class="menu cols">${CITIES.map((c) => `<button data-act="nav" data-kind="city" data-v="${esc(c)}">${esc(c)}</button>`).join("")}</div></details>
+      <details class="dd"><summary>Style</summary><div class="menu">${STYLES.map((s) => `<button data-act="nav" data-kind="style" data-v="${s}">${s}</button>`).join("")}</div></details>
+      <button class="navbtn" data-act="go" data-page="explore" data-fresh="1">Explore</button>`;
+  }
+
+  function home() {
+    return `<div class="home">
+      <div class="hero"><h1>Find a reception venue in Utah County</h1>
+        <form class="search" data-act="search-go"><span class="ico"></span><input id="home-q" placeholder="Search anything: “piano”, “barn”, “Provo”, “outside catering”" aria-label="Search every venue detail"><button class="btn solid">Search</button></form>
+        <div>${note("D7 · Q4", "searches every field that has content")}</div>
+        <div class="pop"><span class="muted">Popular searches:</span>${Object.entries(PRESETS).map(([k, p]) => `<button class="btn" data-act="preset" data-k="${k}">${p.label}</button>`).join("")} ${note("D5", "renamed")}</div>
+      </div>
+      <div style="display:grid;gap:10px"><h2 style="font-size:16px">Browse by style ${note("Q6", "photo tile for each style")}</h2>
+        <div class="styles">${STYLES.map((s) => `<button data-act="nav" data-kind="style" data-v="${s}">${staticPhoto(s + " example photo")}<span>${s} <span class="muted">(${VENUES.filter((v) => v.styles.includes(s)).length})</span></span></button>`).join("")}</div></div>
+    </div>`;
+  }
+
+  function explore() {
+    const st = S.st, secs = sections(st), open = S.open;
+    return `<div class="ex">
+      <aside class="side ${S.sideOpen ? "" : "closed"}" aria-label="Filters">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:6px"><strong>Filters</strong><button class="link" data-act="clear">Clear all</button></div>
+        <div style="padding-bottom:4px">${note("Q2", "always-visible sidebar (draft A)")}</div>
+        ${secs.map((s) => `<details ${open.has(s.key) ? "open" : ""} data-sec="${s.key}"><summary><span>${s.title}</span><span class="on" data-on="${s.key}">${sectionActive(st, s.key) ? sectionActive(st, s.key) + " on" : ""}</span></summary><div class="inner">${s.note ? `<div style="margin-bottom:4px">${s.note}</div>` : ""}${s.html}</div></details>`).join("")}
+        <div class="muted" style="font-size:12px;padding-top:8px">No Parking filter. ${note("D4", "parking is on the venue page")}</div>
+      </aside>
+      <section class="main">
+        ${S.undo ? `<div class="toast" role="status"><span>Showing <strong>${esc(S.undo.label)}</strong>. Your other filters were cleared (${esc(S.undo.summary)}). ${note("Q1", "replace + Undo (draft B)")}</span><span><button class="btn" data-act="undo">Undo</button> <button class="link" data-act="dismiss">Dismiss</button></span></div>` : ""}
+        <div class="search"><span class="ico"></span><input id="ex-q" data-q value="${esc(st.q)}" placeholder="Search every venue detail" aria-label="Search every venue detail"></div>
+        <div class="bar"><div><button class="btn filterbtn" data-act="toggle-side">Filters (${activeCount(st)})</button> <strong data-count></strong></div><span>${note("D7 · Q4")} ${note("D6 · Q3", "carousel on every card")}</span></div>
+        <div data-chips></div>
+        <div data-results></div>
+      </section></div>`;
+  }
+  function resultCards(st, list) {
+    if (!list.length) return `<div class="empty">No venues match. Remove a filter above to see more.</div>`;
+    return `<div class="grid">${list.map((v) => `<article class="card">${carousel(v)}
+      <button class="name" data-act="venue" data-id="${v.id}">${esc(v.name)}</button>
+      <div class="meta"><span>${esc(v.city || "—")}</span><span>${esc(priceLine(v))}</span><span>${esc(capLine(v))}</span></div>
+      ${st.q ? `<div class="snip">${snippet(v, st.q)}</div>` : ""}
+      <div class="chips">${v.styles.map((s) => `<span class="pill">${s}</span>`).join("")}</div></article>`).join("")}</div>`;
+  }
+
+  function venuePage(v) {
+    const q = S.st.q;
+    const hits = q ? hitFields(v, q).map(([l]) => l).filter((l) => l !== "Filters") : [];
+    const field = (label) => (v.fields.find(([l]) => l === label) || [])[1];
+    return `<div class="vp">
+      <div><button class="link" data-act="go" data-page="explore">‹ Back to results</button></div>
+      <div class="head"><div><h1>${esc(v.name)}</h1><div class="muted">${esc(v.city || "City not listed")}${field("Address") ? " · " + esc(field("Address").split("\n")[0]) : ""}</div></div>
+        <div class="chips">${v.styles.map((s) => `<span class="pill">${esc(s)}</span>`).join("")} ${note("D2")}</div></div>
+      <div class="gal">${carousel(v)}<div class="sidep">${Array.from({ length: Math.min(photoCount(v) - 1, 2) }, (_, k) => staticPhoto(photoLabel(k + 1))).join("")}</div></div>
+      <div>${note("Q7", "full venue page for every venue")} ${note("D6", "front photo + 2–4 more")}</div>
+      <div class="facts"><div><b>Price</b>${esc(priceLine(v))}</div><div><b>Seated</b>${esc(v.seatedText || "—")}</div><div><b>Standing</b>${esc(v.standingText || "—")}</div><div><b>City</b>${esc(v.city || "—")}</div></div>
+      <div><h2 style="font-size:16px;margin-bottom:6px">About this venue</h2><p style="margin:0">${esc(v.description)}</p></div>
+      ${field("Contact") || v.link ? `<div class="contact"><b>Contact</b>${(field("Contact") || "").split("\n").map((l) => l.trim()).filter(Boolean).map((l) => `<span>${esc(l)}</span>`).join("")}${v.link ? `<a href="${esc(v.link)}" target="_blank" rel="noopener">Venue website ↗</a>` : ""}</div>` : ""}
+      ${featuresSection(v)}
+      <details class="alld" ${q ? "open" : ""}><summary>Everything this venue lists ${note("Q4", "the fields search looks through")}</summary>
+        ${hits.length ? `<div style="padding:0 14px 10px">Your search “${esc(q)}” matched: ${hits.map(esc).join(", ")}</div>` : ""}
+        <dl>${v.fields.map(([l, t]) => { const hit = hits.includes(l); return `<dt class="${hit ? "hit" : ""}">${esc(l)}</dt><dd class="${hit ? "hit" : ""}">${q && hit ? highlight(t, q) : esc(t)}</dd>`; }).join("")}</dl>
+      </details>
+    </div>`;
+  }
+
+  // ---------- shell ----------
+  const stage = document.getElementById("stage");
+  function urlFor() {
+    if (S.page === "home") return "utahcountyvenues.com/";
+    if (S.page === "venue") return "utahcountyvenues.com/venues/" + S.vid;
+    return "utahcountyvenues.com/explore" + queryString(S.st);
+  }
+  function render() {
+    const body = S.page === "home" ? home() : S.page === "venue" ? venuePage(BY_ID[S.vid]) : explore();
+    stage.innerHTML = `<div class="frame"><div class="chrome"><span class="dots"><i></i><i></i><i></i></span><span class="url" data-url>${esc(urlFor())}</span></div>
+      <div class="viewport lf"><nav class="lnav"><button class="brand" data-act="go" data-page="home">Utah County Wedding Venues</button>${navMenus()}</nav>${body}</div></div>`;
+    if (S.page === "explore") refresh();
+  }
+  function refresh() {
+    if (S.page !== "explore") return;
+    const st = S.st, list = results(st);
+    const r = stage.querySelector("[data-results]"); if (r) r.innerHTML = resultCards(st, list);
+    const c = stage.querySelector("[data-chips]"); if (c) c.innerHTML = chipRow(st);
+    stage.querySelectorAll("[data-count]").forEach((el) => (el.textContent = `Showing ${list.length} of ${VENUES.length} venues`));
+    stage.querySelectorAll("[data-cnt]").forEach((el) => {
+      const [f, val] = el.dataset.cnt.split("|");
+      const n = countWith(st, f, val); el.textContent = n;
+      el.closest(".chk").classList.toggle("zero", n === 0 && !st[f].includes(val));
+    });
+    stage.querySelectorAll("[data-citylabel]").forEach((el) => (el.textContent = st.cities.length ? st.cities.join(", ") : "Any city"));
+    stage.querySelectorAll("[data-on]").forEach((el) => { const n = sectionActive(st, el.dataset.on); el.textContent = n ? n + " on" : ""; });
+    const fb = stage.querySelector(".filterbtn"); if (fb) fb.textContent = `Filters (${activeCount(st)})`;
+    const u = stage.querySelector("[data-url]"); if (u) u.textContent = urlFor();
+  }
+  function go(page, id) { S.page = page; S.vid = id || null; render(); stage.scrollIntoView({ block: "nearest" }); }
+
+  document.getElementById("notes-toggle").addEventListener("change", (e) => document.getElementById("shell").classList.toggle("notes-off", !e.target.checked));
+
+  stage.addEventListener("click", (e) => {
+    const el = e.target.closest("[data-act]");
+    if (!el) return;
+    const act = el.dataset.act;
+    if (el.closest(".dd")) el.closest(".dd").open = false;
+    if (act === "go") { if (el.dataset.fresh) { S.st = fresh(); S.undo = null; openActive(); } go(el.dataset.page); }
+    else if (act === "venue") go("venue", el.dataset.id);
+    else if (act === "preset") { S.st = fresh(); PRESETS[el.dataset.k].apply(S.st); S.undo = null; openActive(); go("explore"); }
+    else if (act === "nav") {
+      // Q1: Location and Style replace current filters; if anything was set, offer Undo.
+      const kind = el.dataset.kind, v = el.dataset.v;
+      const label = kind === "city" ? "City: " + v : "Style: " + v;
+      S.undo = activeCount(S.st) ? { prev: clone(S.st), label, summary: chipSummary(S.st) } : null;
+      S.st = fresh();
+      if (kind === "city") S.st.cities.push(v); else S.st.styles.push(v);
+      openActive();
+      go("explore");
+    }
+    else if (act === "photo") {
+      const v = BY_ID[el.dataset.id], n = photoCount(v);
+      photoIdx[v.id] = ((photoIdx[v.id] || 0) + Number(el.dataset.dir) + n) % n;
+      stage.querySelectorAll(`[data-car="${v.id}"]`).forEach((box) => { box.outerHTML = carousel(v); });
+    }
+    else if (act === "unchip") { removeChip(S.st, el.dataset.f, el.dataset.v); render(); }
+    else if (act === "clear") { S.st = fresh(); render(); }
+    else if (act === "toggle-side") { S.sideOpen = !S.sideOpen; render(); }
+    else if (act === "undo") { S.st = S.undo.prev; S.undo = null; openActive(); render(); }
+    else if (act === "dismiss") { S.undo = null; render(); }
+  });
+  stage.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const q = e.target.querySelector("input").value.trim();
+    S.st = fresh(); S.st.q = q; S.undo = null; openActive(); go("explore");
+  });
+  stage.addEventListener("toggle", (e) => {
+    const sec = e.target.dataset && e.target.dataset.sec;
+    if (sec) { if (e.target.open) S.open.add(sec); else S.open.delete(sec); }
+  }, true);
+  stage.addEventListener("change", (e) => {
+    const el = e.target, f = el.dataset.f;
+    if (!f) return;
+    const st = S.st;
+    if (el.type === "checkbox") st[f] = el.checked ? [...new Set([...st[f], el.value])] : st[f].filter((x) => x !== el.value);
+    else st[f] = el.value;
+    refresh();
+  });
+  let qTimer;
+  stage.addEventListener("input", (e) => {
+    const el = e.target;
+    if (el.hasAttribute("data-q")) { clearTimeout(qTimer); qTimer = setTimeout(() => { S.st.q = el.value.trim(); refresh(); }, 160); }
+    if (el.dataset.range) {
+      const key = el.dataset.range, isP = key === "p", st = S.st, val = Number(el.value);
+      const loK = isP ? "pmin" : "cmin", hiK = isP ? "pmax" : "cmax";
+      if (el.dataset.end === "lo") { st[loK] = Math.min(val, st[hiK]); el.value = st[loK]; }
+      else { st[hiK] = Math.max(val, st[loK]); el.value = st[hiK]; }
+      const fmt = isP ? pText : cText;
+      stage.querySelectorAll(`[data-rv="${key}lo"]`).forEach((s) => (s.textContent = fmt(st[loK])));
+      stage.querySelectorAll(`[data-rv="${key}hi"]`).forEach((s) => (s.textContent = fmt(st[hiK])));
+      const dual = el.closest(".dual"), max = isP ? PMAX : CMAX;
+      dual.querySelector(".fill").style.cssText = fillStyle(st[loK], st[hiK], max);
+      dual.querySelector('[data-end="lo"]').style.zIndex = loOnTop(st[loK], st[hiK], max) ? 3 : 1;
+      refresh();
+    }
+  });
+  document.addEventListener("click", (e) => { document.querySelectorAll(".dd[open]").forEach((dd) => { if (!dd.contains(e.target)) dd.open = false; }); });
+
+  render();
+})();
+</script>
