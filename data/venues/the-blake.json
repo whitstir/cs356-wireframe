@@ -122,7 +122,7 @@
   },
   "Features > Outdoors": {
    "status": "included",
-   "wording": "The Terrace (Outdoor)'; 'included at no additional charge"
+   "wording": "The Terrace (Outdoor); included at no additional charge"
   },
   "Features > Outside catering allowed": {
    "status": "included",
@@ -138,7 +138,7 @@
   },
   "Decor > Ceremony arch / backdrop": {
    "status": "included+rent",
-   "wording": "Hexagon Wedding Arch'; 'Copper Arch (Rental)"
+   "wording": "Hexagon Wedding Arch; Copper Arch (Rental)"
   },
   "Decor > Draping / chair covers": {
    "status": "no",
@@ -150,11 +150,11 @@
   },
   "Decor > Greenery / florals": {
    "status": "included",
-   "wording": "Features: Greenery wall'; 'Bud Vases"
+   "wording": "Features: Greenery wall; Bud Vases"
   },
   "Decor > Signs / easels": {
    "status": "included",
-   "wording": "Easels'; 'Neon Sign - \"Mr. and Mrs."
+   "wording": "Easels; Neon Sign - \"Mr. and Mrs.\""
   },
   "Decor > Candles / lanterns": {
    "status": "included",
@@ -174,7 +174,7 @@
   },
   "Other > Drink / beverage station": {
    "status": "included+rent",
-   "wording": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)"
+   "wording": "Drink Dispensers; Drink Trough; Lemonade Bar (Rental)"
   },
   "Other > Firepit": {
    "status": "no",
@@ -253,7 +253,7 @@
      "label": "Outdoors",
      "filter": "Features > Outdoors",
      "status": "included",
-     "value": "The Terrace (Outdoor)'; 'included at no additional charge"
+     "value": "The Terrace (Outdoor); included at no additional charge"
     },
     {
      "id": "capacity-seated",
@@ -443,7 +443,7 @@
      "label": "Ceremony arch / backdrop",
      "filter": "Decor > Ceremony arch / backdrop",
      "status": "included+rent",
-     "value": "Hexagon Wedding Arch'; 'Copper Arch (Rental)"
+     "value": "Hexagon Wedding Arch; Copper Arch (Rental)"
     },
     {
      "id": "decor-draping-chair-covers",
@@ -464,14 +464,14 @@
      "label": "Greenery / florals",
      "filter": "Decor > Greenery / florals",
      "status": "included",
-     "value": "Features: Greenery wall'; 'Bud Vases"
+     "value": "Features: Greenery wall; Bud Vases"
     },
     {
      "id": "decor-signs-easels",
      "label": "Signs / easels",
      "filter": "Decor > Signs / easels",
      "status": "included",
-     "value": "Easels'; 'Neon Sign - \"Mr. and Mrs."
+     "value": "Easels; Neon Sign - \"Mr. and Mrs.\""
     },
     {
      "id": "decor-candles-lanterns",
@@ -548,7 +548,7 @@
      "label": "Drink / beverage station",
      "filter": "Other > Drink / beverage station",
      "status": "included+rent",
-     "value": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)"
+     "value": "Drink Dispensers; Drink Trough; Lemonade Bar (Rental)"
     },
     {
      "id": "other-firepit",

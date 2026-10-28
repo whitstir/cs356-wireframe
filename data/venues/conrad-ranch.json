@@ -137,7 +137,7 @@
   },
   "Features > Outside catering allowed": {
    "status": "included",
-   "wording": "Own caterer or own food"
+   "wording": "Outside caterer or self-catering"
   },
   "Features > Sparklers allowed": {
    "status": "included",
@@ -669,7 +669,7 @@
      "label": "Outside catering allowed",
      "filter": "Features > Outside catering allowed",
      "status": "included",
-     "value": "Own caterer or own food"
+     "value": "Outside caterer or self-catering"
     },
     {
      "id": "food-catering",

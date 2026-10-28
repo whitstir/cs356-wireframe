@@ -76,7 +76,7 @@
   },
   "Audio/Visual > TV": {
    "status": "included",
-   "wording": "42\" TV'; Board Room '64\" Smart TV"
+   "wording": "42\" TV; Board Room 64\" Smart TV"
   },
   "Features > Bridal room": {
    "status": "included",
@@ -108,7 +108,7 @@
   },
   "Features > Outside catering allowed": {
    "status": "included",
-   "wording": "Own caterer and vendors"
+   "wording": "Outside caterer and vendors"
   },
   "Features > Sparklers allowed": {
    "status": "no",
@@ -417,7 +417,7 @@
      "label": "TV",
      "filter": "Audio/Visual > TV",
      "status": "included",
-     "value": "42\" TV'; Board Room '64\" Smart TV"
+     "value": "42\" TV; Board Room 64\" Smart TV"
     },
     {
      "id": "av-equipment",
@@ -584,7 +584,7 @@
      "label": "Outside catering allowed",
      "filter": "Features > Outside catering allowed",
      "status": "included",
-     "value": "Own caterer and vendors"
+     "value": "Outside caterer and vendors"
     },
     {
      "id": "food-catering",

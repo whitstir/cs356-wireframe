@@ -79,7 +79,7 @@
   },
   "Audio/Visual > Microphone": {
    "status": "included",
-   "wording": "Inclusions With All Venues: 'Microphone"
+   "wording": "Inclusions With All Venues: Microphone"
   },
   "Audio/Visual > Projector": {
    "status": "no",
@@ -135,7 +135,7 @@
   },
   "Decor > Ceremony arch / backdrop": {
    "status": "included",
-   "wording": "Included Decor: '2 Golden Arches"
+   "wording": "Included Decor: 2 Golden Arches"
   },
   "Decor > Draping / chair covers": {
    "status": "no",
@@ -378,7 +378,7 @@
      "label": "Microphone",
      "filter": "Audio/Visual > Microphone",
      "status": "included",
-     "value": "Inclusions With All Venues: 'Microphone"
+     "value": "Inclusions With All Venues: Microphone"
     },
     {
      "id": "av-projector",
@@ -435,7 +435,7 @@
      "label": "Ceremony arch / backdrop",
      "filter": "Decor > Ceremony arch / backdrop",
      "status": "included",
-     "value": "Included Decor: '2 Golden Arches"
+     "value": "Included Decor: 2 Golden Arches"
     },
     {
      "id": "decor-draping-chair-covers",

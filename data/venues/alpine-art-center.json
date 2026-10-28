@@ -127,7 +127,7 @@
   },
   "Features > Outside catering allowed": {
    "status": "included",
-   "wording": "Own catering"
+   "wording": "Self-catering or outside caterer"
   },
   "Features > Sparklers allowed": {
    "status": "no",
@@ -155,7 +155,7 @@
   },
   "Decor > Signs / easels": {
    "status": "included",
-   "wording": "3 floor easels'; 'Personalized sign at entrance"
+   "wording": "3 floor easels; Personalized sign at entrance"
   },
   "Decor > Candles / lanterns": {
    "status": "no",
@@ -163,7 +163,7 @@
   },
   "Decor > Chandeliers": {
    "status": "included",
-   "wording": "Includes: 'Large Chandelier"
+   "wording": "Includes: Large Chandelier"
   },
   "Decor > String / bistro lights": {
    "status": "no",
@@ -505,7 +505,7 @@
      "label": "Signs / easels",
      "filter": "Decor > Signs / easels",
      "status": "included",
-     "value": "3 floor easels'; 'Personalized sign at entrance"
+     "value": "3 floor easels; Personalized sign at entrance"
     },
     {
      "id": "decor-candles-lanterns",
@@ -519,7 +519,7 @@
      "label": "Chandeliers",
      "filter": "Decor > Chandeliers",
      "status": "included",
-     "value": "Includes: 'Large Chandelier"
+     "value": "Includes: Large Chandelier"
     },
     {
      "id": "decor-string-bistro-lights",
@@ -608,7 +608,7 @@
      "label": "Outside catering allowed",
      "filter": "Features > Outside catering allowed",
      "status": "included",
-     "value": "Own catering"
+     "value": "Self-catering or outside caterer"
     },
     {
      "id": "food-catering",

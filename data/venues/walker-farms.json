@@ -129,7 +129,7 @@
   },
   "Features > Outside catering allowed": {
    "status": "included",
-   "wording": "Own vendors"
+   "wording": "Outside vendors"
   },
   "Features > Sparklers allowed": {
    "status": "no",
@@ -580,7 +580,7 @@
      "label": "Outside catering allowed",
      "filter": "Features > Outside catering allowed",
      "status": "included",
-     "value": "Own vendors"
+     "value": "Outside vendors"
     },
     {
      "id": "food-catering",

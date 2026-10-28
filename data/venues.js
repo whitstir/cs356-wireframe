@@ -6844,7 +6844,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own food or any caterer"
+    "wording": "Self-catering or any caterer"
    },
    "Features > Sparklers allowed": {
     "status": "addon",
@@ -7287,7 +7287,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own food or any caterer"
+      "value": "Self-catering or any caterer"
      },
      {
       "id": "food-catering",
@@ -9980,7 +9980,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own caterer or own food"
+    "wording": "Outside caterer or self-catering"
    },
    "Features > Sparklers allowed": {
     "status": "included",
@@ -10512,7 +10512,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own caterer or own food"
+      "value": "Outside caterer or self-catering"
      },
      {
       "id": "food-catering",
@@ -10860,7 +10860,7 @@ window.VENUES = [
    },
    "Features > Outdoors": {
     "status": "included",
-    "wording": "The Terrace (Outdoor)'; 'included at no additional charge"
+    "wording": "The Terrace (Outdoor); included at no additional charge"
    },
    "Features > Outside catering allowed": {
     "status": "included",
@@ -10876,7 +10876,7 @@ window.VENUES = [
    },
    "Decor > Ceremony arch / backdrop": {
     "status": "included+rent",
-    "wording": "Hexagon Wedding Arch'; 'Copper Arch (Rental)"
+    "wording": "Hexagon Wedding Arch; Copper Arch (Rental)"
    },
    "Decor > Draping / chair covers": {
     "status": "no",
@@ -10888,11 +10888,11 @@ window.VENUES = [
    },
    "Decor > Greenery / florals": {
     "status": "included",
-    "wording": "Features: Greenery wall'; 'Bud Vases"
+    "wording": "Features: Greenery wall; Bud Vases"
    },
    "Decor > Signs / easels": {
     "status": "included",
-    "wording": "Easels'; 'Neon Sign - \"Mr. and Mrs."
+    "wording": "Easels; Neon Sign - \"Mr. and Mrs.\""
    },
    "Decor > Candles / lanterns": {
     "status": "included",
@@ -10912,7 +10912,7 @@ window.VENUES = [
    },
    "Other > Drink / beverage station": {
     "status": "included+rent",
-    "wording": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)"
+    "wording": "Drink Dispensers; Drink Trough; Lemonade Bar (Rental)"
    },
    "Other > Firepit": {
     "status": "no",
@@ -10991,7 +10991,7 @@ window.VENUES = [
       "label": "Outdoors",
       "filter": "Features > Outdoors",
       "status": "included",
-      "value": "The Terrace (Outdoor)'; 'included at no additional charge"
+      "value": "The Terrace (Outdoor); included at no additional charge"
      },
      {
       "id": "capacity-seated",
@@ -11181,7 +11181,7 @@ window.VENUES = [
       "label": "Ceremony arch / backdrop",
       "filter": "Decor > Ceremony arch / backdrop",
       "status": "included+rent",
-      "value": "Hexagon Wedding Arch'; 'Copper Arch (Rental)"
+      "value": "Hexagon Wedding Arch; Copper Arch (Rental)"
      },
      {
       "id": "decor-draping-chair-covers",
@@ -11202,14 +11202,14 @@ window.VENUES = [
       "label": "Greenery / florals",
       "filter": "Decor > Greenery / florals",
       "status": "included",
-      "value": "Features: Greenery wall'; 'Bud Vases"
+      "value": "Features: Greenery wall; Bud Vases"
      },
      {
       "id": "decor-signs-easels",
       "label": "Signs / easels",
       "filter": "Decor > Signs / easels",
       "status": "included",
-      "value": "Easels'; 'Neon Sign - \"Mr. and Mrs."
+      "value": "Easels; Neon Sign - \"Mr. and Mrs.\""
      },
      {
       "id": "decor-candles-lanterns",
@@ -11286,7 +11286,7 @@ window.VENUES = [
       "label": "Drink / beverage station",
       "filter": "Other > Drink / beverage station",
       "status": "included+rent",
-      "value": "Drink Dispensers'; 'Drink Trough'; 'Lemonade Bar (Rental)"
+      "value": "Drink Dispensers; Drink Trough; Lemonade Bar (Rental)"
      },
      {
       "id": "other-firepit",
@@ -18590,7 +18590,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own vendors"
+    "wording": "Outside vendors"
    },
    "Features > Sparklers allowed": {
     "status": "no",
@@ -19041,7 +19041,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own vendors"
+      "value": "Outside vendors"
      },
      {
       "id": "food-catering",
@@ -22478,7 +22478,7 @@ window.VENUES = [
    },
    "Audio/Visual > Microphone": {
     "status": "included",
-    "wording": "Inclusions With All Venues: 'Microphone"
+    "wording": "Inclusions With All Venues: Microphone"
    },
    "Audio/Visual > Projector": {
     "status": "no",
@@ -22534,7 +22534,7 @@ window.VENUES = [
    },
    "Decor > Ceremony arch / backdrop": {
     "status": "included",
-    "wording": "Included Decor: '2 Golden Arches"
+    "wording": "Included Decor: 2 Golden Arches"
    },
    "Decor > Draping / chair covers": {
     "status": "no",
@@ -22777,7 +22777,7 @@ window.VENUES = [
       "label": "Microphone",
       "filter": "Audio/Visual > Microphone",
       "status": "included",
-      "value": "Inclusions With All Venues: 'Microphone"
+      "value": "Inclusions With All Venues: Microphone"
      },
      {
       "id": "av-projector",
@@ -22834,7 +22834,7 @@ window.VENUES = [
       "label": "Ceremony arch / backdrop",
       "filter": "Decor > Ceremony arch / backdrop",
       "status": "included",
-      "value": "Included Decor: '2 Golden Arches"
+      "value": "Included Decor: 2 Golden Arches"
      },
      {
       "id": "decor-draping-chair-covers",
@@ -23379,7 +23379,7 @@ window.VENUES = [
    },
    "Decor > Draping / chair covers": {
     "status": "rent",
-    "wording": "8 Chair Covers, 8 Chair Sashes' — $35"
+    "wording": "8 Chair Covers, 8 Chair Sashes — $35"
    },
    "Decor > Fireplace": {
     "status": "no",
@@ -23634,7 +23634,7 @@ window.VENUES = [
       "label": "Draping / chair covers",
       "filter": "Decor > Draping / chair covers",
       "status": "rent",
-      "value": "8 Chair Covers, 8 Chair Sashes' — $35"
+      "value": "8 Chair Covers, 8 Chair Sashes — $35"
      },
      {
       "id": "decor-fireplace",
@@ -24064,7 +24064,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own caterer"
+    "wording": "Outside caterer"
    },
    "Features > Sparklers allowed": {
     "status": "included",
@@ -24517,7 +24517,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own caterer"
+      "value": "Outside caterer"
      },
      {
       "id": "food-catering",
@@ -24882,7 +24882,7 @@ window.VENUES = [
    },
    "Audio/Visual > TV": {
     "status": "included",
-    "wording": "42\" TV'; Board Room '64\" Smart TV"
+    "wording": "42\" TV; Board Room 64\" Smart TV"
    },
    "Features > Bridal room": {
     "status": "included",
@@ -24914,7 +24914,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own caterer and vendors"
+    "wording": "Outside caterer and vendors"
    },
    "Features > Sparklers allowed": {
     "status": "no",
@@ -25223,7 +25223,7 @@ window.VENUES = [
       "label": "TV",
       "filter": "Audio/Visual > TV",
       "status": "included",
-      "value": "42\" TV'; Board Room '64\" Smart TV"
+      "value": "42\" TV; Board Room 64\" Smart TV"
      },
      {
       "id": "av-equipment",
@@ -25390,7 +25390,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own caterer and vendors"
+      "value": "Outside caterer and vendors"
      },
      {
       "id": "food-catering",
@@ -25742,7 +25742,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own catering"
+    "wording": "Self-catering or outside caterer"
    },
    "Features > Sparklers allowed": {
     "status": "no",
@@ -25770,7 +25770,7 @@ window.VENUES = [
    },
    "Decor > Signs / easels": {
     "status": "included",
-    "wording": "3 floor easels'; 'Personalized sign at entrance"
+    "wording": "3 floor easels; Personalized sign at entrance"
    },
    "Decor > Candles / lanterns": {
     "status": "no",
@@ -25778,7 +25778,7 @@ window.VENUES = [
    },
    "Decor > Chandeliers": {
     "status": "included",
-    "wording": "Includes: 'Large Chandelier"
+    "wording": "Includes: Large Chandelier"
    },
    "Decor > String / bistro lights": {
     "status": "no",
@@ -26120,7 +26120,7 @@ window.VENUES = [
       "label": "Signs / easels",
       "filter": "Decor > Signs / easels",
       "status": "included",
-      "value": "3 floor easels'; 'Personalized sign at entrance"
+      "value": "3 floor easels; Personalized sign at entrance"
      },
      {
       "id": "decor-candles-lanterns",
@@ -26134,7 +26134,7 @@ window.VENUES = [
       "label": "Chandeliers",
       "filter": "Decor > Chandeliers",
       "status": "included",
-      "value": "Includes: 'Large Chandelier"
+      "value": "Includes: Large Chandelier"
      },
      {
       "id": "decor-string-bistro-lights",
@@ -26223,7 +26223,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own catering"
+      "value": "Self-catering or outside caterer"
      },
      {
       "id": "food-catering",
@@ -31742,7 +31742,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own catering or food at no extra cost"
+    "wording": "Outside food or caterer at no extra cost"
    },
    "Features > Sparklers allowed": {
     "status": "no",
@@ -32155,7 +32155,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own catering or food at no extra cost"
+      "value": "Outside food or caterer at no extra cost"
      },
      {
       "id": "food-catering",
@@ -33361,7 +33361,7 @@ window.VENUES = [
    },
    "Features > Outside catering allowed": {
     "status": "included",
-    "wording": "Own catering or in-house catering"
+    "wording": "Outside caterer or in-house catering"
    },
    "Features > Sparklers allowed": {
     "status": "no",
@@ -33779,7 +33779,7 @@ window.VENUES = [
       "label": "Outside catering allowed",
       "filter": "Features > Outside catering allowed",
       "status": "included",
-      "value": "Own catering or in-house catering"
+      "value": "Outside caterer or in-house catering"
      },
      {
       "id": "food-catering",

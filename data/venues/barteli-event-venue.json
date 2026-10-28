@@ -124,7 +124,7 @@
   },
   "Decor > Draping / chair covers": {
    "status": "rent",
-   "wording": "8 Chair Covers, 8 Chair Sashes' — $35"
+   "wording": "8 Chair Covers, 8 Chair Sashes — $35"
   },
   "Decor > Fireplace": {
    "status": "no",
@@ -379,7 +379,7 @@
      "label": "Draping / chair covers",
      "filter": "Decor > Draping / chair covers",
      "status": "rent",
-     "value": "8 Chair Covers, 8 Chair Sashes' — $35"
+     "value": "8 Chair Covers, 8 Chair Sashes — $35"
     },
     {
      "id": "decor-fireplace",

@@ -433,6 +433,7 @@ th { font-weight: 500; background: var(--rose-tint); white-space: nowrap; }
 .dx-table caption strong { color: var(--ink); font-weight: 500; }
 .dx-table .s { display: block; font-size: 12px; font-weight: 400; color: var(--ink-600); text-transform: none; letter-spacing: 0; }
 .dx-table .dx-none { color: var(--muted-mark); }
+.dx-table .dx-cont { display: none; }  /* package name on a tier's later rows: only needed when rows stack as cards on phones */
 .dx-week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
 .dx-day { text-align: center; padding: 10px 0; border-radius: 4px; font-size: 13px; font-weight: 500; background: var(--rose-tint); color: var(--rose-shade); }
 .dx-day.off { background: none; border: 1px dashed var(--line); color: var(--muted-mark); font-weight: 400; }
@@ -471,6 +472,7 @@ th { font-weight: 500; background: var(--rose-tint); white-space: nowrap; }
   .dx-stack, .dx-stack tbody, .dx-stack tr, .dx-stack th, .dx-stack td { display: block; }
   .dx-stack tr { border: 1px solid var(--line); border-radius: 4px; padding: 10px 12px; margin-bottom: 10px; }
   .dx-stack tbody th { padding: 0 0 6px; border: 0; font-size: 15px; }
+  .dx-stack .dx-cont { display: block; }
   .dx-table.dx-stack td { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 3px 0; border: 0; text-align: left; overflow-wrap: break-word; }
   .dx-stack td::before { content: attr(data-label); color: var(--ink-600); font-size: 12px; }
   .dx-stack td:empty { display: none; }

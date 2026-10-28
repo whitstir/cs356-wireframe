@@ -991,16 +991,103 @@
     }
     return open.size ? open : null;
   }
+  // "3:00pm-9:00pm" -> "3–9pm", "10am-3pm" -> "10am–3pm", "9am-12am" stays "9am–12am"; words like "full-day" keep their hyphen
+  const shortTime = (t) => t.replace(/(\d{1,2}):00(?=\s*(am|pm))/gi, "$1")
+    .replace(/(\d{1,2}(?::\d{2})?)\s*(am|pm)\s*[-–]\s*(\d{1,2}(?::\d{2})?)\s*(am|pm)/gi, (m, a, p, b, q) => (p.toLowerCase() === q.toLowerCase() && !/^12/.test(b) ? `${a}–${b}${q}` : `${a}${p}–${b}${q}`))
+    .replace(/(\d)\s*-\s*(\d)/g, "$1–$2");
+  // "Mon, Wed–Sat" style label for a set of day indexes
+  const dayLabel = (set) => {
+    if (set.size === 7) return "Every day";
+    const out = [];
+    for (let i = 0; i < 7; i++) {
+      if (!set.has(i)) continue;
+      let j = i; while (set.has(j + 1)) j++;
+      out.push(j === i ? WEEK[i] : `${WEEK[i]}–${WEEK[j]}`);
+      i = j;
+    }
+    return out.join(", ");
+  };
+  // Time slots arrive as one line per day × season × slot ("Mon-Wed Apr-Oct 10am-3pm", "Thu Apr-Oct 10am-3pm", …).
+  // Group them: one line per set of days that shares the same times, with the season dropped when every season matches.
+  // Lines that don't start with days or a season ("Closed Sunday", "Luncheon Mon-Thu 9am-2pm") keep their place and wording.
+  const DAY_W = "(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*", MON_W = "(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*";
+  const SLOT_DAYS = new RegExp(`^(${DAY_W}(?:\\s*[–-]\\s*${DAY_W})?(?:\\s*,\\s*${DAY_W}(?:\\s*[–-]\\s*${DAY_W})?)*)(\\s+and holidays)?:?\\s+`, "i");
+  const SLOT_SEASON = new RegExp(`^(${MON_W}\\s*[–-]\\s*${MON_W}):?\\s+`, "i");
+  function groupTimes(ls) {
+    const slots = [], out = [];
+    let at = -1;
+    ls.forEach((l) => {
+      let s = l.trim(), days = null, hol = false, season = "";
+      for (let k = 0; k < 2; k++) {
+        let m;
+        if (!season && (m = s.match(SLOT_SEASON))) { season = m[1].replace(/\s*[–-]\s*/, "–"); s = s.slice(m[0].length); }
+        else if (!days && (m = s.match(SLOT_DAYS)) && openDays(m[1])) { days = openDays(m[1]); hol = !!m[2]; s = s.slice(m[0].length); }
+      }
+      if ((days || season) && /^\d/.test(s)) { if (at < 0) { at = out.length; out.push(null); } slots.push({ days: days || new Set(WEEK.keys()), hol, season, time: shortTime(s) }); }
+      else out.push(shortTime(l));
+    });
+    if (!slots.length) return out;
+    // times per (days, season), in the order they first appear
+    const per = new Map();
+    for (const x of slots) {
+      const k = `${[...x.days].sort().join()}|${x.hol}|${x.season}`;
+      if (!per.has(k)) per.set(k, { days: x.days, hol: x.hol, season: x.season, times: [] });
+      if (!per.get(k).times.includes(x.time)) per.get(k).times.push(x.time);
+    }
+    let rows = [...per.values()];
+    // drop the season where every season has the same times for those days
+    const seasons = new Set(rows.map((r) => r.season).filter(Boolean));
+    if (seasons.size > 1) {
+      const byDays = new Map();
+      rows.forEach((r) => { const k = `${[...r.days].sort().join()}|${r.hol}`; if (!byDays.has(k)) byDays.set(k, []); byDays.get(k).push(r); });
+      rows = [...byDays.values()].flatMap((rs) => (rs.length === seasons.size && rs.every((r) => r.season && r.times.join("|") === rs[0].times.join("|"))
+        ? [{ ...rs[0], season: "" }] : rs));
+    }
+    // then join days that share the same times and season
+    const merged = new Map();
+    for (const r of rows) {
+      const k = `${r.season}|${r.times.join("|")}`;
+      if (!merged.has(k)) merged.set(k, { ...r, days: new Set(r.days) });
+      else { const m = merged.get(k); r.days.forEach((d) => m.days.add(d)); m.hol = m.hol || r.hol; }
+    }
+    const lines = [...merged.values()].map((r) => `${dayLabel(r.days)}${r.hol ? " and holidays" : ""}${r.season ? ` (${r.season})` : ""}: ${r.times.join(" · ")}`);
+    out.splice(at, 1, ...lines);
+    return out;
+  }
   const RULE_WORD = { yes: "Allowed", no: "Not allowed", cond: "With conditions" };
   function detailsRedesign(v, q) {
     const fmt = (t) => (q ? highlight(t, q) : esc(t));
     const L = (k) => lines(raw(v, k)).filter((l) => !/^(yes|no|true|false)$/i.test(l));
-    const seen = new Set(), key = (t) => t.toLowerCase().replace(/[^a-z0-9$]+/g, " ").trim();
-    const uniq = (ls) => ls.filter((l) => { const k = key(l); if (!k || seen.has(k)) return false; seen.add(k); return true; });
+    // Two lines count as the same when they share the same words, ignoring order, possessives, plurals, "&"/"+" for "and"
+    // and filler ("Bride room" = "Bride's Room", "Bridal suite" = "Bridal room", "Projector & screen" = "Projector and screen").
+    const KEY_FILLER = new Set(["a", "an", "the", "our", "and", "with", "for", "seating", "included", "includes", "available", "provided"]);
+    const seen = new Set(), key = (t) => [...new Set((t.toLowerCase().replace(/\bon[\s-]site\b/g, "onsite").replace(/['’]s(?![a-z])/g, "").match(/[a-z0-9$]+/g) || [])
+      .map((w) => STEMS[w] || (w.length > 3 && /[^s]s$/.test(w) ? w.slice(0, -1) : w)).map((w) => STEMS[w] || w).filter((w) => !KEY_FILLER.has(w)))].sort().join(" ");
+    // drop a line whose words all appear in a longer one ("Grooms Room" next to "Groom's/family room")
+    const covered = (ls) => ls.filter((l, i) => { const w = key(l).split(" "); return !ls.some((m, j) => j !== i && key(m) !== key(l) && w.every((x) => key(m).split(" ").includes(x))); });
+    const uniq = (ls) => ls.filter((l) => { const k = key(l) || l.trim().toLowerCase(); if (!k || seen.has(k)) return false; seen.add(k); return true; });
+    // "Silver package (decorated tables), 10/15/20/25 tables — Fri-Sat $2,700/$2,875/…; Sunday $1,900/…" -> one tier per row,
+    // one column per size; consecutive tiers with the same sizes share a table
+    const tierOf = (l) => {
+      const m = l.match(/^(.+?)(?:\s*\((.+)\))?,\s*((?:\d+\/)+\d+)\s+(\w+)\s+[—–]\s+(.+)$/);
+      if (!m) return null;
+      const sizes = m[3].split("/");
+      const segs = m[5].split(/;\s*/).map((p) => p.match(/^(.*?)\s*((?:\$[\d,]+\/)+\$[\d,]+)$/));
+      if (!segs.every((x) => x && x[2].split("/").length === sizes.length)) return null;
+      return { name: m[1], desc: m[2] || "", sizes, unit: m[4], segs: segs.map((x) => [x[1].replace(/\s*-\s*/g, "–"), x[2].split("/")]) };
+    };
+    const tierTable = (ts) => `<div class="dx-scroll"><table class="dx-table dx-stack"><thead><tr><th scope="col">Package</th><th scope="col">Days</th>${ts[0].sizes.map((n) => `<th scope="col" class="num"><span class="nw">${esc(`${n} ${ts[0].unit}`)}</span></th>`).join("")}</tr></thead><tbody>`
+      + ts.map((t) => t.segs.map(([days, ps], i) => `<tr>${i ? `<th scope="row" class="dx-cont">${fmt(t.name)}</th>` : `<th scope="row"${t.segs.length > 1 ? ` rowspan="${t.segs.length}"` : ""}>${fmt(t.name)}${t.desc ? `<span class="s">${fmt(t.desc)}</span>` : ""}</th>`}`
+        + `<td data-label="Days">${days ? `<span class="nw">${fmt(days)}</span>` : `<span class="dx-none">—</span>`}</td>${ps.map((p, k) => `<td class="num" data-label="${esc(`${t.sizes[k]} ${t.unit}`)}">${fmt(p)}</td>`).join("")}</tr>`).join("")).join("")
+      + `</tbody></table></div>`;
     const priceList = (ls) => {
-      let out = "", rows = [];
-      const flush = () => { if (rows.length) { out += `<ul class="dx-prices">${rows.join("")}</ul>`; rows = []; } };
+      let out = "", rows = [], tiers = [];
+      const flushTiers = () => { if (tiers.length) { out += tierTable(tiers); tiers = []; } };
+      const flush = () => { if (rows.length) { out += `<ul class="dx-prices">${rows.join("")}</ul>`; rows = []; } flushTiers(); };
       ls.forEach((l) => {
+        const t = tierOf(l);
+        if (t) { if (rows.length) { out += `<ul class="dx-prices">${rows.join("")}</ul>`; rows = []; } if (tiers.length && tiers[0].sizes.join() !== t.sizes.join()) flushTiers(); tiers.push(t); return; }
+        flushTiers();
         const m = l.match(/^(.+?)\s+[—–]\s+(.+)$/);
         if (m && /\$|%|free|request|included/i.test(m[2])) rows.push(`<li><span class="what">${fmt(m[1])}</span><span class="dx-lead"></span><span class="p">${fmt(m[2])}</span></li>`);
         else if (/:$/.test(l)) { flush(); out += `<p class="dx-sub">${fmt(l.replace(/:$/, ""))}</p>`; }
@@ -1018,9 +1105,20 @@
     const on = (g, o, ok = ["included", "included+rent"]) => { const f = v.filters && v.filters[`${g} > ${o}`]; return f && ok.includes(f.status) ? f.wording : ""; };
 
     // Venue-specific sections: items written as "Key: value · Key: value" become a table; others a label list
-    const vsec = (s) => {
-      const parsed = s.items.map((it) => { if (!it.value.trim()) return []; const kvs = it.value.split(" · ").map((p) => p.match(/^([^:]{1,28}):\s*(.+)$/)); return kvs.every(Boolean) ? kvs.map((m) => [m[1], m[2]]) : null; });
-      const tab = s.items.filter((_, i) => parsed[i]), rest = s.items.filter((_, i) => !parsed[i]);
+    // Capacity lines already shown as Seated / Standing aren't repeated in a venue's own Spaces sections
+    const capSeen = new Set([...L("Seated Capacity"), ...L("Standing Capacity")].map(key));
+    const vsec = (s, place) => {
+      // "Examples: Chicken cordon bleu: $29.95 · Spaghetti: $20.95" is one list under "Examples", not one example plus new keys
+      const kvParts = (val) => val.split(" · ").reduce((acc, p) => {
+        const last = acc[acc.length - 1];
+        if (last && last.list) { last[1] += ` · ${p}`; return acc; }
+        const m = p.match(/^([^:]{1,28}):\s*(.+)$/);
+        acc.push(m ? Object.assign([m[1], m[2]], { list: /^[^:]{1,40}:\s+\S/.test(m[2]) }) : null);
+        return acc;
+      }, []);
+      const parsed = s.items.map((it) => { if (!it.value.trim()) return []; const kvs = kvParts(it.value); return kvs.every(Boolean) ? kvs.map((m) => [m[0], m[1]]) : null; });
+      const tab = s.items.filter((_, i) => parsed[i]);
+      let rest = s.items.filter((_, i) => !parsed[i]);
       let body = "";
       const rowsKv = tab.map((it) => Object.fromEntries(parsed[s.items.indexOf(it)]));
       const cols = [...new Set(rowsKv.flatMap((r) => Object.keys(r)))];
@@ -1034,13 +1132,14 @@
         body += `<div class="dx-scroll"><table class="dx-table dx-stack"><thead><tr><th scope="col"></th>${cols.map((c) => `<th scope="col"${isNum(c) ? ' class="num"' : ""}>${esc(c)}</th>`).join("")}</tr></thead><tbody>`
           + tab.map((it, i) => `<tr><th scope="row">${fmt(it.label)}</th>${cols.map((c) => `<td${isNum(c) ? ' class="num"' : ""} data-label="${esc(c)}">${rowsKv[i][c] != null ? fmt(rowsKv[i][c]) : ""}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
       } else rest.unshift(...tab);
+      if (place === "spaces") rest = rest.filter((it) => { const k = key(`${it.label} ${it.value}`); if (capSeen.has(k)) return false; capSeen.add(k); return true; });
       body += kv(rest.map((it) => [it.label, fmt(it.value)]));
       return sub(s.title, body);
     };
     const extra = {};
     (v.sections || []).filter((s) => s.venueSpecific).forEach((s) => {
       const place = DX_PLACE[(v.sections.slice(0, v.sections.indexOf(s)).reverse().find((x) => !x.venueSpecific) || {}).id] || "know";
-      (extra[place] = extra[place] || []).push(vsec(s));
+      (extra[place] = extra[place] || []).push(vsec(s, place));
     });
 
     const group = (g, opts) => opts.map((o) => on(g, o)).filter(Boolean);
@@ -1048,6 +1147,12 @@
       ...AV.map((o) => on("Audio/Visual", o, ["addon"])), on("Features", "Event coordinator", ["addon"])].filter(Boolean);
     const extras = L("extras");
     const open = openDays(v.daysOpen);
+    // Getting ready: the room list, plus a feature's wording for a room the list doesn't mention (a line naming neither
+    // bride nor groom, like "2 dressing rooms", covers both) or when it says everything the list's line does and more
+    const rooms = L("Bride/Groom Rooms"), words = (t) => key(t).split(" ");
+    const roomNote = (re, f) => { const w = f && words(f); return f && (!rooms.some((l) => re.test(l) || !/brid|groom/i.test(l))
+      || rooms.some((l) => re.test(l) && words(l).every((x) => w.includes(x)))) ? f : ""; };
+    const readyRooms = [...rooms, roomNote(/brid/i, on("Features", "Bridal room")), roomNote(/groom/i, on("Features", "Groom's room"))].filter(Boolean);
     const body = {
       pricing: [
         raw(v, "Standard Price Range") ? `<p class="dx-lede">${fmt(raw(v, "Standard Price Range"))}</p>` : "",
@@ -1056,10 +1161,11 @@
         sub("Paying for it", plain(L("Deposit Policy"))),
       ].join(""),
       hours: (open ? `<div class="dx-week" aria-label="Days open: ${esc(v.daysOpen)}">${WEEK.map((d, i) => `<span class="dx-day${open.has(i) ? "" : " off"}">${d}${open.has(i) ? "" : `<span class="s">Closed</span>`}</span>`).join("")}</div>` : "")
-        + kv([["Days open", open ? "" : fmt(v.daysOpen || "")], ["Usual hours", fmt(v.hours || "")], ["Times", ml(L("Time slots"))], ["Rental length", ml(L("Length of Rental"))]]),
+        + kv([["Days open", open ? "" : fmt(v.daysOpen || "")], ["At a glance", fmt(v.hours || "")], ["Times by day", ml(groupTimes(L("Time slots")))], ["Rental length", ml(L("Length of Rental"))]]),
       spaces: kv([["Seated", ml(L("Seated Capacity"))], ["Standing", ml(L("Standing Capacity"))],
-        ["Indoors", fmt(on("Features", "Indoors"))], ["Outdoors", fmt(on("Features", "Outdoors"))],
-        ["Getting ready", ml(uniq([...L("Bride/Groom Rooms"), on("Features", "Bridal room"), on("Features", "Groom's room")].filter(Boolean)))]]),
+        ...(on("Features", "Indoors") && on("Features", "Indoors") === on("Features", "Outdoors") ? [["Indoors & outdoors", fmt(on("Features", "Indoors"))]]
+          : [["Indoors", fmt(on("Features", "Indoors"))], ["Outdoors", fmt(on("Features", "Outdoors"))]]),
+        ["Getting ready", ml(covered(uniq(readyRooms)))]]),
       included: [
         `<span id="sec-decor"></span><span id="sec-other"></span><span id="sec-av"></span>`,
         sub("Furniture & decor", checks(uniq([...L("Other Decor Included"), on("Features", "Linens included"), ...group("Decor", [...AESTHETICS, ...LIGHTING]), ...group("Other", OTHER)]))),
@@ -1078,14 +1184,15 @@
       ].join(""),
       access: [checks(uniq([...L("Accessibility"), ...group("Accessibility options", ACCESS)])), kv([["Parking", ml(L("parking?"))]])].join(""),
       know: [plain(L("Important Notes")), kv([["Style", fmt(L("Style").join(", "))]])].join(""),
-      contact: kv([...L("Contact Information").map((l) => { const m = l.match(/^([^:]{1,20}):\s*(.+)$/); return m ? [m[1], fmt(m[2])] : ["", fmt(l)]; }),
+      // rows with the same value share one label ("Phone / Text")
+      contact: kv([...L("Contact Information").map((l) => { const m = l.match(/^([^:]{1,20}):\s*(.+)$/); return m ? [m[1], fmt(m[2])] : ["", fmt(l)]; })
+          .reduce((acc, [k, x]) => { const same = k && acc.find(([k2, x2]) => k2 && x2 === x); if (same) same[0] += ` / ${k}`; else acc.push([k, x]); return acc; }, []),
         ["Website", /^https?:/i.test(raw(v, "link")) ? `<a href="${esc(raw(v, "link"))}" target="_blank" rel="noopener" data-log="Venue website (details)">${esc(raw(v, "link").replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a>` : ""],
         ["Address", fmt(raw(v, "Full Address"))]]),
     };
     const secs = DX.map(([id, title]) => [id, title, (body[id] || "") + (extra[id] || []).join("")]).filter(([, , b]) => b.replace(/<span id="sec-\w+"><\/span>/g, "").trim());
 
-    // "3:00pm-9:00pm" -> "3–9pm"; the deposit tile shows just the amount
-    const shortTime = (t) => t.replace(/(\d{1,2}):00\s*/g, "$1").replace(/(\d{1,2})\s*(am|pm)\s*[-–]\s*(\d{1,2})\s*/gi, "$1–$3$2").replace(/\s*-\s*/g, "–");
+    // the deposit tile shows just the amount
     const deposit = (L("Deposit Policy")[0] || "").match(/\$[\d,]+/);
     const alcohol = (v.rules || []).find((r) => r.rule === "Alcohol");
     // Tile notes keep their first clause so the tiles stay short; the full text is in the section below
