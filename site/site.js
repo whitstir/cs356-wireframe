@@ -226,6 +226,7 @@
   // Real photos come from ../data/photos.js, linked from each venue's own website (credited on the
   // venue page and on #/credits). A venue without photos keeps the placeholder look.
   const PHOTOS = window.PHOTOS || {};
+  const LOOKS = window.LOOKS || {}; // ../data/looks.js (tools/build_looks.py): how alike each pair of venues looks
   // Lead photo is the front if there is one, then the indoor (reception hall), then the outdoor.
   const KIND_ORDER = { front: 0, indoor: 1, outdoor: 2, extra: 3 };
   const shots = (v) => (PHOTOS[v.id] ? PHOTOS[v.id].photos.slice().sort((a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind]) : []);
@@ -1249,12 +1250,17 @@
   }
   // With Explore filters on, venues matching all of them come first, then the most of them; style/city likeness breaks ties.
   // With no filters, it's style/city likeness alone.
+  // Sorted by how alike the photos look (../data/looks.js, 0-1). Explore filters are a boost, not a requirement:
+  // up to +0.3 for the share of filters a venue matches, +0.1 more for matching all of them, so a close look-alike
+  // can still beat a weak one that fits every filter. A venue without photos falls back to style/city likeness.
   function similar(v, st) {
     const one = chipsFor(st).map((c) => { const s = clone(st); chipsFor(s).forEach((o) => { if (o !== c && !(o.f === c.f && o.v === c.v)) removeChip(s, o.f, o.v); }); return s; });
-    const like = (x) => x.styles.filter((s) => v.styles.includes(s)).length * 2 + (x.city === v.city ? 1 : 0);
-    const score = (x) => one.length ? (matches(x, st) ? 1000 : 0) + one.filter((s) => matches(x, s)).length * 10 + like(x) : like(x);
-    return VENUES.filter((x) => x.id !== v.id).map((x) => [x, score(x)])
-      .filter(([x, s]) => one.length ? s >= 10 : s > 0).sort((a, b) => b[1] - a[1] || alpha(a[0].name, b[0].name)).slice(0, 4).map(([x]) => x);
+    const looks = LOOKS[v.id] ? Object.fromEntries(LOOKS[v.id]) : null;
+    const like = (x) => (x.styles.filter((s) => v.styles.includes(s)).length * 2 + (x.city === v.city ? 1 : 0)) / 9;
+    const look = (x) => looks ? looks[x.id] ?? 0 : like(x);
+    const boost = (x) => one.length ? 0.3 * one.filter((s) => matches(x, s)).length / one.length + (matches(x, st) ? 0.1 : 0) : 0;
+    return VENUES.filter((x) => x.id !== v.id).map((x) => [x, look(x) + boost(x)])
+      .sort((a, b) => b[1] - a[1] || alpha(a[0].name, b[0].name)).slice(0, 4).map(([x]) => x);
   }
   function viewVenue(v) {
     document.title = `${v.name} — Utah County Wedding Venues`;
@@ -1262,10 +1268,7 @@
     const contact = raw(v, "Contact Information"), phone = (contact.match(/Phone:\s*([\d().\-\s]{7,})/i) || [])[1];
     const link = raw(v, "link"), n = photoCount(v), addr = raw(v, "Full Address");
     const seatedSub = v.seatedText && v.seatedText.trim() !== String(v.seated) ? lines(v.seatedText).join(" · ") : "";
-    const lastSt = S.lastState || fresh(), sims = similar(v, lastSt);
-    const simTitle = activeCount(lastSt)
-      ? `More venues for <span class="accent">${esc(activeCount(lastSt) === 1 ? filterCrumb(lastSt) : "your filters")}</span>`
-      : `More <span class="accent">${esc(v.styles.join(" & "))}</span> venues`;
+    const sims = similar(v, S.lastState || fresh());
     app.innerHTML = `
       <div class="wrap venue-top">
         ${crumbRow(crumbs([...exploreCrumbs(S.lastState || fresh()), [v.name]]))}
@@ -1306,7 +1309,7 @@
         </aside>
       </div>
       ${sims.length ? `<section class="band-cream section" id="similar" aria-labelledby="sim-h"><div class="wrap">
-        <div class="section-head"><div><p class="eyebrow">You might also like</p><h2 class="display-l" id="sim-h">${simTitle}</h2></div></div>
+        <div class="section-head"><div><p class="eyebrow">You might also like</p><h2 class="display-l" id="sim-h">Venues with a <span class="accent">similar look</span></h2></div></div>
         <div class="similar-grid">${sims.map((x) => card(x)).join("")}</div></div></section>` : ""}`;
   }
 
