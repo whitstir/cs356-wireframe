@@ -1247,9 +1247,14 @@
       <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span></span><span class="chev" aria-hidden="true"></span></summary>
       ${rows}</details>`;
   }
-  function similar(v) {
-    return VENUES.filter((x) => x.id !== v.id).map((x) => [x, x.styles.filter((s) => v.styles.includes(s)).length * 2 + (x.city === v.city ? 1 : 0)])
-      .filter(([, s]) => s > 0).sort((a, b) => b[1] - a[1] || alpha(a[0].name, b[0].name)).slice(0, 4).map(([x]) => x);
+  // With Explore filters on, venues matching all of them come first, then the most of them; style/city likeness breaks ties.
+  // With no filters, it's style/city likeness alone.
+  function similar(v, st) {
+    const one = chipsFor(st).map((c) => { const s = clone(st); chipsFor(s).forEach((o) => { if (o !== c && !(o.f === c.f && o.v === c.v)) removeChip(s, o.f, o.v); }); return s; });
+    const like = (x) => x.styles.filter((s) => v.styles.includes(s)).length * 2 + (x.city === v.city ? 1 : 0);
+    const score = (x) => one.length ? (matches(x, st) ? 1000 : 0) + one.filter((s) => matches(x, s)).length * 10 + like(x) : like(x);
+    return VENUES.filter((x) => x.id !== v.id).map((x) => [x, score(x)])
+      .filter(([x, s]) => one.length ? s >= 10 : s > 0).sort((a, b) => b[1] - a[1] || alpha(a[0].name, b[0].name)).slice(0, 4).map(([x]) => x);
   }
   function viewVenue(v) {
     document.title = `${v.name} — Utah County Wedding Venues`;
@@ -1257,7 +1262,10 @@
     const contact = raw(v, "Contact Information"), phone = (contact.match(/Phone:\s*([\d().\-\s]{7,})/i) || [])[1];
     const link = raw(v, "link"), n = photoCount(v), addr = raw(v, "Full Address");
     const seatedSub = v.seatedText && v.seatedText.trim() !== String(v.seated) ? lines(v.seatedText).join(" · ") : "";
-    const sims = similar(v);
+    const lastSt = S.lastState || fresh(), sims = similar(v, lastSt);
+    const simTitle = activeCount(lastSt)
+      ? `More venues for <span class="accent">${esc(activeCount(lastSt) === 1 ? filterCrumb(lastSt) : "your filters")}</span>`
+      : `More <span class="accent">${esc(v.styles.join(" & "))}</span> venues`;
     app.innerHTML = `
       <div class="wrap venue-top">
         ${crumbRow(crumbs([...exploreCrumbs(S.lastState || fresh()), [v.name]]))}
@@ -1298,7 +1306,7 @@
         </aside>
       </div>
       ${sims.length ? `<section class="band-cream section" id="similar" aria-labelledby="sim-h"><div class="wrap">
-        <div class="section-head"><div><p class="eyebrow">You might also like</p><h2 class="display-l" id="sim-h">More <span class="accent">${esc(v.styles.join(" & "))}</span> venues</h2></div></div>
+        <div class="section-head"><div><p class="eyebrow">You might also like</p><h2 class="display-l" id="sim-h">${simTitle}</h2></div></div>
         <div class="similar-grid">${sims.map((x) => card(x)).join("")}</div></div></section>` : ""}`;
   }
 
