@@ -260,9 +260,9 @@
       <div class="dots" aria-label="Photo ${i + 1} of ${n}">${Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join("")}</div>
     </div>`;
   }
-  const priceLine = (v) => (v.priceMin == null ? "Price on request"
-    : (v.priceMax !== v.priceMin ? `${money(v.priceMin)} – ${money(v.priceMax)}` : money(v.priceMin))
-      + (v.priceBasis === "per-person x capacity" ? " (per-person × guests)" : v.priceBasis === "full-service package" ? " (full-service package)" : ""));
+  const priceNote = (v) => (v.priceBasis === "per-person x capacity" ? "per-person × guests" : v.priceBasis === "full-service package" ? "full-service package" : "");
+  const priceRange = (v) => (v.priceMin == null ? "Price on request" : v.priceMax !== v.priceMin ? `${money(v.priceMin)} – ${money(v.priceMax)}` : money(v.priceMin));
+  const priceLine = (v) => priceRange(v) + (v.priceMin != null && priceNote(v) ? ` (${priceNote(v)})` : "");
   const seatRange = (v) => (v.seatedMin != null && v.seatedMin !== v.seated ? `${v.seatedMin}–${v.seated}` : String(v.seated));
   const seatsLine = (v) => (v.seated != null ? `Seats ${seatRange(v)}` : "Seats not listed");
   function card(v, q = "") {
@@ -271,9 +271,9 @@
       <div class="card-body">
         <p class="eyebrow">${esc(v.city || "City not listed")}</p>
         <a class="card-name" href="#/venue/${v.id}" data-log="Venue: ${esc(v.name)}">${esc(v.name)}</a>
-        <p class="small muted" style="margin:0">${esc(v.styles.join(" · "))}</p>
         ${q ? `<p class="snip" style="margin:0">${snippet(v, q)}</p>` : ""}
-        <div class="card-meta"><span>${esc(priceLine(v))}</span><span class="small muted">${esc(seatsLine(v))}</span></div>
+        <p class="small muted card-styles">${esc(v.styles.join(" · "))}</p>
+        <div class="card-meta"><span${priceNote(v) ? ` title="${esc(priceNote(v))}"` : ""}>${esc(priceRange(v))}</span><span class="small muted">${esc(seatsLine(v))}</span></div>
       </div></article>`;
   }
 
@@ -285,7 +285,7 @@
       `<a href="${exploreHash({ ...fresh(), styles: [s] })}" data-nav="styles" data-v="${s}" data-log="Style: ${s}">${s} <span>${VENUES.filter((v) => v.styles.includes(s)).length}</span></a>`).join("");
     const top = ["Provo", "Orem", "Lehi", "Alpine", "Spanish Fork"].filter((c) => CITIES.includes(c));
     $("#site-footer").innerHTML = `<div class="wrap footer-inner">
-        <div class="footer-brand"><p class="display-l">Utah County</p></div>
+        <div class="footer-brand"><p class="display-l">Utah County</p><p class="footer-sub">Wedding Venues</p></div>
         <nav class="footer-col" aria-label="Location"><p class="eyebrow">Location</p>${top.map((c) => `<a href="${exploreHash({ ...fresh(), cities: [c] })}" data-nav="cities" data-v="${esc(c)}" data-log="Footer Location: ${esc(c)}">${esc(c)}</a>`).join("")}
           <a href="#/explore" data-fresh data-open="cities" data-log="Footer: All ${CITIES.length} cities">All ${CITIES.length} cities</a></nav>
         <nav class="footer-col" aria-label="Style"><p class="eyebrow">Style</p>${STYLES.map((s) => `<a href="${exploreHash({ ...fresh(), styles: [s] })}" data-nav="styles" data-v="${s}" data-log="Footer Style: ${s}">${s}</a>`).join("")}</nav>
@@ -903,7 +903,7 @@
         return items.length ? `<div class="drow" id="sec-${esc(s.id)}"><p class="eyebrow">${esc(s.title)}</p><dl>${items.join("")}</dl></div>` : "";
       }).join("");
       return `<details class="details" id="details"${q ? " open" : ""}>
-      <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span><span class="small muted">Pricing, capacity, what's included, food, rules and contact, in the venue's own words${q ? `. Matches for “${esc(q)}” are highlighted.` : "."}</span></span><span class="chev" aria-hidden="true"></span></summary>
+      <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span></span><span class="chev" aria-hidden="true"></span></summary>
       ${rows}</details>`;
     }
     const hitLabels = q ? hitFields(v, q).map(([l]) => l) : [];
@@ -915,7 +915,7 @@
       return items.length ? `<div class="drow"><p class="eyebrow">${esc(title)}</p><dl>${items.join("")}</dl></div>` : "";
     }).join("");
     return `<details class="details" id="details"${q ? " open" : ""}>
-      <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span><span class="small muted">Pricing, times, food, rules and contact: everything the venue lists${q ? `. Matches for “${esc(q)}” are highlighted.` : "."}</span></span><span class="chev" aria-hidden="true"></span></summary>
+      <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span></span><span class="chev" aria-hidden="true"></span></summary>
       ${rows}</details>`;
   }
   function similar(v) {
@@ -936,7 +936,7 @@
           <div><p class="eyebrow">${esc([v.city || "City not listed", ...v.styles].join("  ·  "))}</p><h1 class="display-l">${esc(v.name)}</h1></div>
           <div class="venue-actions">
             ${phone ? `<a class="btn btn-outline" href="tel:${esc(phone.replace(/[^\d]/g, ""))}" data-log="Call venue">Call ${esc(phone.trim())} ${I.chevR}</a>` : ""}
-            ${/^https?:/i.test(link) ? `<a class="btn btn-accent" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (top)">Visit website</a>` : ""}
+            ${/^https?:/i.test(link) ? `<a class="btn btn-primary" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (top)">Visit website</a>` : ""}
           </div>
         </div>
         <div class="gallery">
@@ -963,8 +963,8 @@
           ${addr ? `<div class="kv"><p class="eyebrow">Address</p><p class="pre" style="margin:0">${esc(addr)}</p></div>` : ""}
           ${contact ? `<div class="kv"><p class="eyebrow">Contact</p><p class="pre" style="margin:0">${esc(contact)}</p></div>` : ""}
           ${/^https?:/i.test(link) ? `<a class="btn btn-primary" href="${esc(link)}" target="_blank" rel="noopener" data-log="Visit website (plan a visit)">Visit website</a>` : ""}
-          ${sims.length ? `<a class="btn btn-outline" href="#similar" data-act="to-similar" data-log="Compare with similar">Compare with similar ${I.chevR}</a>` : ""}
-          <a class="btn btn-accent" href="#details" data-act="to-details" data-log="Detailed information (plan a visit)">Detailed information ${I.chevR}</a>
+          <a class="btn btn-more" href="#details" data-act="to-details" data-log="Detailed information (plan a visit)">Detailed information ${I.chevR}</a>
+          ${sims.length ? `<a class="btn btn-more" href="#similar" data-act="to-similar" data-log="Compare with similar">Compare with similar ${I.chevR}</a>` : ""}
         </aside>
       </div>
       ${sims.length ? `<section class="band-cream section" id="similar" aria-labelledby="sim-h"><div class="wrap">

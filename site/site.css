@@ -145,8 +145,15 @@ main:focus { outline: none; }
 
 /* ---------- footer ---------- */
 .site-footer { background: var(--ink); color: #e9e5e1; }
-.footer-inner { display: flex; flex-wrap: wrap; gap: 48px 80px; padding-block: 72px 40px; }
-.footer-brand { flex: 1 1 320px; display: grid; gap: 14px; align-content: start; }
+/* Brand, then Location / Style / Explore always side by side (brand gets its own row on narrower screens) */
+.footer-inner { display: grid; grid-template-columns: minmax(200px, 1fr) repeat(3, auto); gap: 48px 80px; padding-block: 72px 40px; }
+.footer-brand { display: grid; gap: 6px; align-content: start; }
+.footer-brand .display-l { margin: 0; line-height: 1.1; }
+.footer-sub { margin: 0; font-size: 12px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--rose-tint); }  /* matches the header logo's "Wedding Venues" */
+@media (max-width: 900px) {
+  .footer-inner { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 24px; padding-block: 56px 32px; }
+  .footer-brand { grid-column: 1 / -1; }
+}
 .footer-brand .display-l { color: var(--ivory); }
 .footer-col { display: grid; gap: 10px; align-content: start; }
 .footer-col .eyebrow { color: var(--rose-tint); margin-bottom: 4px; }
@@ -214,11 +221,15 @@ main:focus { outline: none; }
 .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 28px 22px; }
 .card { position: relative; display: flex; flex-direction: column; background: var(--white); border-radius: 4px; overflow: hidden; box-shadow: var(--shadow); }
 .card .carousel { height: 220px; }
-.card-body { display: grid; gap: 8px; padding: 20px 22px 22px; flex: 1; align-content: start; }
+.card-body { display: flex; flex-direction: column; gap: 8px; padding: 20px 22px 22px; flex: 1; }  /* flex so .card-meta's margin-top: auto pins price/seats to the card bottom */
 .card-name { font-family: var(--serif); font-weight: 500; font-size: 26px; line-height: 1.2; text-decoration: none; }
 .card-name::after { content: ""; position: absolute; inset: 0; z-index: 1; }
 .card:hover .card-name { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
-.card-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-top: 10px; margin-top: auto; border-top: 1px solid var(--line); }
+/* Styles, then price over seats, pinned to the card bottom so they line up across a row.
+   One line each (no wrapping), so every card's footer is the same height. */
+.card-styles { margin: auto 0 0; }
+.card-meta { display: grid; gap: 2px; padding-top: 10px; border-top: 1px solid var(--line); }
+.card-meta > span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card .snip { font-size: 13px; line-height: 1.5; }
 .card .snip b { font-weight: 500; color: var(--rose-shade); }
 mark { background: var(--rose-tint); color: inherit; padding: 0 1px; }
@@ -269,11 +280,11 @@ mark { background: var(--rose-tint); color: inherit; padding: 0 1px; }
 .cat li { margin: 2px 0; }
 .cat .tag { font-size: 12px; color: var(--rose-shade); }
 .cat .none { color: var(--ink-600); margin: 4px 0 0; }
-.details { background: var(--white); border: 1px solid var(--line); border-radius: 4px; }
+.details { background: var(--white); border: 1px solid var(--accent); border-radius: 4px; }  /* green accent, like the Compare and More information buttons */
 .details > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 20px 24px; }
 .details > summary::-webkit-details-marker { display: none; }
 .details > summary .t { flex: 1; display: grid; gap: 4px; }
-.details > summary .chev { width: 10px; height: 10px; border-color: var(--rose-shade); }
+.details > summary .chev { width: 10px; height: 10px; border-color: var(--accent); }
 .details[open] > summary .chev { transform: rotate(-135deg) translate(-2px, -2px); }
 .drow { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 8px 24px; padding: 16px 24px; border-top: 1px solid var(--line); }
 .drow .eyebrow { padding-top: 3px; }
@@ -289,6 +300,7 @@ mark { background: var(--rose-tint); color: inherit; padding: 0 1px; }
 .visit .kv .eyebrow { color: var(--ink-600); }
 .visit .pre { white-space: pre-line; overflow-wrap: anywhere; }
 .visit .btn { width: 100%; }
+.visit .btn-more { padding: 14px 28px; font-size: 13px; }  /* same size as the other sidebar buttons */
 .similar-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; }
 
 /* ---------- overlays, test mode, log ---------- */
@@ -343,7 +355,7 @@ th { font-weight: 500; background: var(--rose-tint); white-space: nowrap; }
   .filters.closed { display: none; }
   .filters-toggle { display: inline-flex; }
   .venue-body { grid-template-columns: 1fr; }
-  .visit { position: static; }
+  .visit { position: static; order: -1; }  /* one column: Plan a visit sits right under the Price / Capacity / Style bar */
   .similar-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery { height: auto; grid-template-columns: 1fr; }
   .gallery .carousel { height: 360px; border-radius: 4px; }
