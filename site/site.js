@@ -323,6 +323,23 @@
   const crumbSearch = () => `<form class="crumb-search" id="crumb-search" role="search">${I.search}
     <input type="search" id="crumb-q" placeholder="Search names, features, descriptions" aria-label="Search every venue detail" autocomplete="off"></form>`;
   const crumbRow = (inner) => `<div class="crumb-row">${inner}${crumbSearch()}</div>`;
+  // Breadcrumb trail: [label, href, extra attributes] per step; the last step is the current page (not a link).
+  function crumbs(steps) {
+    return `<nav aria-label="Breadcrumb"><ol class="crumbs">${steps.map(([label, href, attrs = ""], i) => i === steps.length - 1
+      ? `<li aria-current="page">${esc(label)}</li>`
+      : `<li><a href="${esc(href)}" ${attrs} data-log="Breadcrumb: ${esc(label)}">${esc(label)}</a></li>`).join("")}</ol></nav>`;
+  }
+  // The filtered-results step: the single filter's name, or how many filters are on.
+  function filterCrumb(st) {
+    const c = chipsFor(st);
+    return c.length === 1 ? c[0].label.replace(/^(City|Style): /, "") : `${c.length} filters`;
+  }
+  // Home / Explore, plus the filtered results when filters are on. "Explore" always goes to all venues.
+  function exploreCrumbs(st) {
+    const steps = [["Home", "#/"], ["Explore", "#/explore", "data-fresh"]];
+    if (activeCount(st)) steps.push([filterCrumb(st), exploreHash(st)]);
+    return steps;
+  }
   function wireCrumbSearch(value) {
     const cq = $("#crumb-q");
     if (cq) { cq.value = value; attachSuggest($("#crumb-search"), cq, "Breadcrumb search"); }
@@ -711,7 +728,7 @@
     S.fromLink = false;
     app.innerHTML = `
       <div class="wrap title-band">
-        ${crumbRow(`<ol class="crumbs"><li><a href="#/" data-log="Breadcrumb: Home">Home</a></li><li>Explore</li></ol>`)}
+        ${crumbRow(`<div id="explore-crumbs">${crumbs(exploreCrumbs(S.st))}</div>`)}
         <h1 class="display-l">Explore <span class="accent">venues</span></h1>
       </div>
       <div class="wrap">
@@ -796,6 +813,7 @@
     });
     $$("[data-on]").forEach((el) => (el.textContent = onText(st, el.dataset.on)));
     $(".filters-toggle").textContent = `Filters${activeCount(st) ? ` (${activeCount(st)})` : ""}`;
+    $("#explore-crumbs").innerHTML = crumbs(exploreCrumbs(st));
     S.lastState = clone(st);
     S.lastExplore = exploreHash(st);
     history.replaceState(null, "", location.pathname + location.search + S.lastExplore);
@@ -1135,7 +1153,8 @@
     const sims = similar(v);
     app.innerHTML = `
       <div class="wrap venue-top">
-        ${crumbRow(`<a class="back" href="${esc(S.lastExplore)}" data-log="Back to results">${I.chevL} Back to results</a>`)}
+        ${crumbRow(crumbs([...exploreCrumbs(S.lastState || fresh()), [v.name]]))}
+        <a class="back" href="${esc(S.lastExplore)}" data-log="Back to results">${I.chevL} Back to results</a>
         <div class="venue-title">
           <div><p class="eyebrow">${esc([v.city || "City not listed", ...v.styles].join("  ·  "))}</p><h1 class="display-l">${esc(v.name)}</h1></div>
           <div class="venue-actions">
@@ -1193,7 +1212,7 @@
   // ---------- Not found ----------
   function viewNotFound() {
     document.title = "Page not found — Utah County Wedding Venues";
-    app.innerHTML = `<div class="wrap page">${crumbRow(`<ol class="crumbs"><li><a href="#/">Home</a></li><li>Page not found</li></ol>`)}<h1 class="display-l">Page not found</h1><p class="body-l muted">Use the menu above, or <a href="#/explore" data-fresh>explore all venues</a>.</p></div>`;
+    app.innerHTML = `<div class="wrap page">${crumbRow(crumbs([["Home", "#/"], ["Page not found"]]))}<h1 class="display-l">Page not found</h1><p class="body-l muted">Use the menu above, or <a href="#/explore" data-fresh>explore all venues</a>.</p></div>`;
   }
 
   // ---------- Page-level clicks ----------
@@ -1324,7 +1343,7 @@
     document.title = "Click log — Utah County Wedding Venues";
     const log = load(KEY_LOG, []);
     app.innerHTML = `<div class="wrap page">
-      ${crumbRow(`<ol class="crumbs"><li><a href="#/">Home</a></li><li>Click log</li></ol>`)}
+      ${crumbRow(crumbs([["Home", "#/"], ["Click log"]]))}
       <h1 class="display-l">Click log</h1>
       <p class="muted">${plural(log.length, "click")} recorded in this browser, newest first.</p>
       <div class="actions" data-nolog>
