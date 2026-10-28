@@ -890,7 +890,121 @@
     const ls = lines(fieldText(k, t)), fmt = (x) => (q ? highlight(x, q) : esc(x));
     return ls.length > 1 ? `<ul>${ls.map((l) => `<li>${fmt(l)}</li>`).join("")}</ul>` : fmt(ls[0] || "");
   }
+  // ---------- Detailed information, redesigned (prototype-drafts/details-mockup.html) ----------
+  // Built from the sheet's own columns. Lines that don't match a pattern still show as plain text, so nothing is lost.
+  const DX = [["pricing", "Pricing"], ["hours", "Hours"], ["spaces", "Spaces & capacity"], ["included", "What's included"],
+    ["food", "Food & drink"], ["rules", "Rules"], ["access", "Accessibility & parking"], ["know", "Good to know"], ["contact", "Contact"]];
+  // Where each venue-specific section (Venue sections tab, "Place After") lands in the redesign
+  const DX_PLACE = { overview: "know", pricing: "pricing", capacity: "spaces", rooms: "spaces", included: "included", av: "included",
+    decor: "included", other: "included", food: "food", rules: "rules", access: "access", notes: "know", contact: "contact" };
+  const DX_ICON = { yes: "✓", no: "✕", cond: "!", info: "•" };
+  function dxIcon(l) {
+    if (/^no\b|not allowed|not permitted|prohibited|\bnot\b.*\ballowed\b/i.test(l)) return "no";
+    if (/required|must|only\b|fee|\$|limit|until|by \d|before|after|approv|licensed|insured|minimum|maximum/i.test(l)) return "cond";
+    if (/allowed|available|included|permitted|welcome|any |open vendor|kitchen/i.test(l)) return "yes";
+    return "info";
+  }
+  function detailsRedesign(v, q) {
+    const fmt = (t) => (q ? highlight(t, q) : esc(t));
+    const L = (k) => lines(raw(v, k)).filter((l) => !/^(yes|no|true|false)$/i.test(l));
+    const seen = new Set(), key = (t) => t.toLowerCase().replace(/[^a-z0-9$]+/g, " ").trim();
+    const uniq = (ls) => ls.filter((l) => { const k = key(l); if (!k || seen.has(k)) return false; seen.add(k); return true; });
+    const priceList = (ls) => {
+      let out = "", rows = [];
+      const flush = () => { if (rows.length) { out += `<ul class="dx-prices">${rows.join("")}</ul>`; rows = []; } };
+      ls.forEach((l) => {
+        const m = l.match(/^(.+?)\s+[—–]\s+(.+)$/);
+        if (m && /\$|%|free|request|included/i.test(m[2])) rows.push(`<li><span class="what">${fmt(m[1])}</span><span class="dx-lead"></span><span class="p">${fmt(m[2])}</span></li>`);
+        else if (/:$/.test(l)) { flush(); out += `<p class="dx-sub">${fmt(l.replace(/:$/, ""))}</p>`; }
+        else { flush(); out += `<p class="dx-line">${fmt(l)}</p>`; }
+      });
+      flush();
+      return out;
+    };
+    const rules = (ls) => (ls.length ? `<ul class="dx-rules">${ls.map((l) => { const k = dxIcon(l); return `<li class="${k}"><span class="ic" aria-hidden="true">${DX_ICON[k]}</span><span>${fmt(l)}</span></li>`; }).join("")}</ul>` : "");
+    const checks = (ls) => (ls.length ? `<ul class="dx-checks">${ls.map((t) => `<li>${fmt(t)}</li>`).join("")}</ul>` : "");
+    const plain = (ls) => (ls.length ? `<ul class="dx-plain">${ls.map((t) => `<li>${fmt(t)}</li>`).join("")}</ul>` : "");
+    const kv = (pairs) => { const p = pairs.filter(([, x]) => x); return p.length ? `<dl class="dx-kv">${p.map(([k, x]) => `<dt>${esc(k)}</dt><dd>${x}</dd>`).join("")}</dl>` : ""; };
+    const ml = (ls) => ls.map(fmt).join("<br>");
+    const sub = (t, body) => (body ? `<p class="dx-sub">${esc(t)}</p>${body}` : "");
+    const on = (g, o, ok = ["included", "included+rent"]) => { const f = v.filters && v.filters[`${g} > ${o}`]; return f && ok.includes(f.status) ? f.wording : ""; };
+
+    // Venue-specific sections: items written as "Key: value · Key: value" become a table; others a label list
+    const vsec = (s) => {
+      const parsed = s.items.map((it) => { if (!it.value.trim()) return []; const kvs = it.value.split(" · ").map((p) => p.match(/^([^:]{1,28}):\s*(.+)$/)); return kvs.every(Boolean) ? kvs.map((m) => [m[1], m[2]]) : null; });
+      const tab = s.items.filter((_, i) => parsed[i]), rest = s.items.filter((_, i) => !parsed[i]);
+      let body = "";
+      if (tab.length >= 2) {
+        const rowsKv = tab.map((it) => Object.fromEntries(parsed[s.items.indexOf(it)]));
+        const cols = [...new Set(rowsKv.flatMap((r) => Object.keys(r)))];
+        const isNum = (c) => rowsKv.every((r) => r[c] == null || /^[\d,.$–\-\s/+]+$/.test(r[c]));
+        body += `<div class="dx-scroll"><table class="dx-table"><thead><tr><th scope="col"></th>${cols.map((c) => `<th scope="col"${isNum(c) ? ' class="num"' : ""}>${esc(c)}</th>`).join("")}</tr></thead><tbody>`
+          + tab.map((it, i) => `<tr><th scope="row">${fmt(it.label)}</th>${cols.map((c) => `<td${isNum(c) ? ' class="num"' : ""}>${rowsKv[i][c] != null ? fmt(rowsKv[i][c]) : ""}</td>`).join("")}</tr>`).join("") + `</tbody></table></div>`;
+      } else rest.unshift(...tab);
+      body += kv(rest.map((it) => [it.label, fmt(it.value)]));
+      return sub(s.title, body);
+    };
+    const extra = {};
+    (v.sections || []).filter((s) => s.venueSpecific).forEach((s) => {
+      const place = DX_PLACE[(v.sections.slice(0, v.sections.indexOf(s)).reverse().find((x) => !x.venueSpecific) || {}).id] || "know";
+      (extra[place] = extra[place] || []).push(vsec(s));
+    });
+
+    const group = (g, opts) => opts.map((o) => on(g, o)).filter(Boolean);
+    const paid = [...[...AESTHETICS, ...LIGHTING].map((o) => on("Decor", o, ["rent"])), ...OTHER.map((o) => on("Other", o, ["rent"])),
+      ...AV.map((o) => on("Audio/Visual", o, ["addon"])), on("Features", "Event coordinator", ["addon"])].filter(Boolean);
+    const extras = L("extras");
+    const body = {
+      pricing: [
+        raw(v, "Standard Price Range") ? `<p class="dx-lede">${fmt(raw(v, "Standard Price Range"))}</p>` : "",
+        priceList(L("Packages and Prices")),
+        sub("Paying for it", plain(L("Deposit Policy"))),
+      ].join(""),
+      hours: kv([["Times", ml(L("Time slots"))], ["Rental length", ml(L("Length of Rental"))]]),
+      spaces: kv([["Seated", ml(L("Seated Capacity"))], ["Standing", ml(L("Standing Capacity"))],
+        ["Indoors", fmt(on("Features", "Indoors"))], ["Outdoors", fmt(on("Features", "Outdoors"))],
+        ["Getting ready", ml(uniq([...L("Bride/Groom Rooms"), on("Features", "Bridal room"), on("Features", "Groom's room")].filter(Boolean)))]]),
+      included: [
+        `<span id="sec-decor"></span><span id="sec-other"></span><span id="sec-av"></span>`,
+        sub("Furniture & decor", checks(uniq([...L("Other Decor Included"), on("Features", "Linens included"), ...group("Decor", [...AESTHETICS, ...LIGHTING]), ...group("Other", OTHER)]))),
+        sub("Sound & screens", checks(uniq([...L("sound system"), ...group("Audio/Visual", AV)]))),
+        sub("People", checks(uniq([...L("Event Coordinator").filter((l) => !/\$/.test(l)), on("Features", "Event coordinator")].filter(Boolean)))),
+        sub("Also included", checks(uniq(extras.filter((l) => !/\$/.test(l))))),
+        kv([["Cleanup", ml(uniq([...L("cleanup crew"), on("Features", "Cleanup crew")].filter(Boolean)))]]),
+        sub("For rent or extra cost", priceList(uniq([...L("Other Decor for Rent"), ...extras.filter((l) => /\$/.test(l)), ...L("Event Coordinator").filter((l) => /\$/.test(l)), ...paid]))),
+      ].join(""),
+      food: [rules(uniq([...L("Catering"), on("Features", "Outside catering allowed")].filter(Boolean))), sub("Alcohol", rules(L("Alcohol policy"))), kv([["Kitchen / prep", ml(L("Prep Area"))]])].join(""),
+      rules: rules(uniq([...L("sparklers allowed"), on("Features", "Sparklers allowed", ["included", "addon"]), ...L("Restrictions")].filter(Boolean))),
+      access: [checks(uniq([...L("Accessibility"), ...group("Accessibility options", ACCESS)])), kv([["Parking", ml(L("parking?"))]])].join(""),
+      know: [plain(L("Important Notes")), kv([["Style", fmt(L("Style").join(", "))]])].join(""),
+      contact: kv([...L("Contact Information").map((l) => { const m = l.match(/^([^:]{1,20}):\s*(.+)$/); return m ? [m[1], fmt(m[2])] : ["", fmt(l)]; }),
+        ["Website", /^https?:/i.test(raw(v, "link")) ? `<a href="${esc(raw(v, "link"))}" target="_blank" rel="noopener" data-log="Venue website (details)">${esc(raw(v, "link").replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a>` : ""],
+        ["Address", fmt(raw(v, "Full Address"))]]),
+    };
+    const secs = DX.map(([id, title]) => [id, title, (body[id] || "") + (extra[id] || []).join("")]).filter(([, , b]) => b.replace(/<span id="sec-\w+"><\/span>/g, "").trim());
+
+    // "3:00pm-9:00pm" -> "3–9pm"; the deposit tile shows just the amount
+    const shortTime = (t) => t.replace(/(\d{1,2}):00\s*/g, "$1").replace(/(\d{1,2})\s*(am|pm)\s*[-–]\s*(\d{1,2})\s*/gi, "$1–$3$2").replace(/\s*-\s*/g, "–");
+    const deposit = (L("Deposit Policy")[0] || "").match(/\$[\d,]+/);
+    const glance = [
+      v.priceMin != null && ["Rental", priceRange(v), priceNote(v)],
+      v.seated != null && ["Seats", seatRange(v), v.standing != null ? `${v.standingMin != null && v.standingMin !== v.standing ? v.standingMin + "–" : ""}${v.standing} standing` : ""],
+      // only a plain time range ("3–9pm or 4–10pm"); day-specific lines would mislead as a summary
+      /^[\d:–\s]+(am|pm)?[\d:–\s]*(am|pm)(\s+or\s+[\d:–\s]+(am|pm)?[\d:–\s]*(am|pm))?$/i.test(shortTime(L("Time slots")[0] || "")) && ["Hours", shortTime(L("Time slots")[0]), ""],
+      deposit && ["To book", deposit[0], L("Deposit Policy")[0].replace(deposit[0], "").replace(/^[\s:—–-]+/, "").slice(0, 60)],
+      L("Alcohol policy")[0] && L("Alcohol policy")[0].length <= 34 && ["Alcohol", L("Alcohol policy")[0], ""],
+    ].filter(Boolean);
+
+    return `<details class="details" id="details"${q ? " open" : ""}>
+      <summary data-log="Detailed information (open/close)"><span class="t"><span class="heading-s">Detailed information</span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="dx-body">
+        <nav class="dx-jump" aria-label="Jump to">${secs.map(([id, title]) => `<a href="#" data-act="jump" data-to="sec-${id}" data-log="Details jump: ${esc(title)}">${esc(title)}</a>`).join("")}</nav>
+        ${glance.length ? `<div class="dx-glance">${glance.map(([e, val, s]) => `<div class="dx-tile"><span class="eyebrow">${esc(e)}</span><span class="v">${fmt(val)}</span>${s ? `<span class="s">${fmt(s)}</span>` : ""}</div>`).join("")}</div>` : ""}
+        ${secs.map(([id, title, b]) => `<section class="dx-sec" id="sec-${id}"><h3>${esc(title)}</h3>${b}</section>`).join("")}
+      </div></details>`;
+  }
   function detailsSection(v, q) {
+    if (v.sections) return detailsRedesign(v, q);
     // Ordered sections from the build (data/audit/STAGE3-DESIGN.md); each item has an anchor id for "More information" links.
     if (v.sections) {
       const ws = q ? words(q) : [];

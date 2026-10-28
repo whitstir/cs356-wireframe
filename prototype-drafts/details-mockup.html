@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detailed information mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="../site/site.css">
+  <style>
+    /* Mockup only: the redesigned "Detailed information" for The Bungalow. Uses the site's tokens from site.css. */
+    body { background: var(--ivory); }
+    .mock-note { max-width: 860px; margin: 32px auto 0; padding: 0 16px; }
+    .mock-note p { margin: 6px 0 0; }
+    .dx-wrap { max-width: 860px; margin: 24px auto 96px; padding: 0 16px; }
+
+    .details { background: var(--white); border: 1px solid var(--accent); border-radius: 4px; }
+    .details > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 20px 24px; }
+    .details > summary::-webkit-details-marker { display: none; }
+    .details > summary .t { flex: 1; }
+    .details > summary .chev { width: 10px; height: 10px; border-right: 1.5px solid var(--accent); border-bottom: 1.5px solid var(--accent); transform: rotate(45deg); }
+    .details[open] > summary .chev { transform: rotate(-135deg) translate(-2px, -2px); }
+    .dx-body { padding: 0 24px 28px; display: grid; gap: 36px; }
+
+    /* Jump links */
+    .dx-jump { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 0 0; border-top: 1px solid var(--line); }
+    .dx-jump a { font-size: 12px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 6px 12px; }
+    .dx-jump a:hover { background: var(--accent); color: var(--accent-ink); }
+
+    /* At a glance */
+    .dx-glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+    .dx-tile { background: var(--rose-tint); border-radius: 4px; padding: 12px 14px; display: grid; gap: 2px; align-content: start; }
+    .dx-tile .v { font-family: var(--serif); font-size: 21px; font-weight: 500; line-height: 1.15; }
+    .dx-tile .s { font-size: 12px; color: var(--ink-600); }
+
+    /* Section headings */
+    .dx-sec { display: grid; gap: 14px; scroll-margin-top: 24px; }
+    .dx-sec > h3 { font-family: var(--serif); font-weight: 500; font-size: 26px; margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--rose-tint); }
+    .dx-sub { font-size: 12px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--rose-shade); margin: 6px 0 0; }
+
+    /* Tables */
+    .dx-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .dx-table caption { text-align: left; font-size: 13px; color: var(--ink-600); padding-bottom: 8px; }
+    .dx-table th, .dx-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; }
+    .dx-table thead th { font-size: 11px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-600); background: var(--ivory); }
+    .dx-table thead th .s { display: block; text-transform: none; letter-spacing: 0; font-size: 12px; }
+    .dx-table td.num, .dx-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .dx-table tbody th { font-weight: 500; background: none; white-space: normal; }  /* site.css gives every th a rose fill */
+    .dx-table thead th { white-space: normal; }
+    .dx-scroll { overflow-x: auto; }
+
+    /* Price list with leaders */
+    .dx-prices { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; }
+    .dx-prices li { display: flex; align-items: baseline; gap: 8px; }
+    .dx-prices .what { flex: none; max-width: 70%; }
+    .dx-prices .what small { display: block; color: var(--ink-600); font-size: 12px; }
+    .dx-prices .dx-lead { flex: 1; border-bottom: 1px dotted var(--muted-mark); transform: translateY(-4px); min-width: 16px; }
+    .dx-prices .p { flex: none; font-variant-numeric: tabular-nums; font-weight: 500; text-align: right; }
+
+    /* Timeline */
+    .dx-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; counter-reset: s; }
+    .dx-steps li { position: relative; padding: 0 12px 0 0; display: grid; gap: 2px; align-content: start; }
+    .dx-steps li::before { content: ""; display: block; height: 2px; background: var(--rose); margin: 7px 0 12px 16px; }
+    .dx-steps li::after { content: ""; position: absolute; left: 0; top: 0; width: 12px; height: 12px; border-radius: 50%; background: var(--white); border: 2px solid var(--rose-shade); }
+    .dx-steps li:last-child::before { background: none; }
+    .dx-steps .when { font-size: 12px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--rose-shade); }
+    .dx-steps .what { font-size: 14px; }
+
+    /* Week strip */
+    .dx-week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+    .dx-day { text-align: center; padding: 10px 0; border-radius: 4px; font-size: 13px; font-weight: 500; background: var(--rose-tint); color: var(--rose-shade); }
+    .dx-day.off { background: none; border: 1px dashed var(--line); color: var(--muted-mark); font-weight: 400; }
+    .dx-day .s { display: block; font-size: 11px; font-weight: 400; }
+
+    /* Included items: checklist in columns, so every item starts on the same left edge (like the Features checklist) */
+    .dx-checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px 24px; margin: 0; padding: 0; list-style: none; font-size: 14px; }
+    .dx-checks li { display: grid; grid-template-columns: 18px 1fr; gap: 10px; align-items: start; }
+    .dx-checks li::before { content: "✓"; width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center; font-size: 11px; font-weight: 600; line-height: 1; background: #e3eee8; color: var(--accent); margin-top: 1px; }
+
+    /* Allowed / not allowed */
+    .dx-rules { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 24px; font-size: 14px; }
+    .dx-rules li { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; }
+    .dx-rules .ic { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 600; line-height: 1; }
+    .dx-rules .yes .ic { background: #e3eee8; color: var(--accent); }
+    .dx-rules .no .ic { background: var(--rose-tint); color: var(--rose-shade); }
+    .dx-rules .cond .ic { background: #f3ecdc; color: #7a5b1e; }
+    .dx-rules small { display: block; color: var(--ink-600); font-size: 12px; }
+
+    /* Key / value grid */
+    .dx-kv { display: grid; grid-template-columns: 180px 1fr; gap: 10px 20px; margin: 0; font-size: 14px; }
+    .dx-kv dt { color: var(--ink-600); }
+    .dx-kv dd { margin: 0; }
+    .dx-two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    .dx-callout { background: var(--ivory); border-left: 3px solid var(--rose); padding: 10px 14px; font-size: 14px; }
+
+    @media (max-width: 700px) {
+      .dx-glance { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .dx-rules, .dx-two { grid-template-columns: 1fr; }
+      .dx-kv { grid-template-columns: 1fr; gap: 2px; }
+      .dx-kv dd { margin-bottom: 10px; }
+      .dx-steps { grid-template-columns: 1fr; gap: 14px; }
+      .dx-steps li { padding-left: 24px; }
+      .dx-steps li::before { display: none; }
+      .dx-body { padding: 0 16px 24px; }
+      .dx-day { font-size: 12px; }
+      .dx-prices li { flex-wrap: wrap; }
+      .dx-prices .what { max-width: 100%; }
+      .dx-prices .p { margin-left: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="mock-note">
+    <p class="eyebrow">Mockup · not on the live site</p>
+    <h1 class="heading-m">The Bungalow: Detailed information, redesigned</h1>
+    <p class="small muted">Every fact from today's section is here, regrouped. Starts collapsed on the real page; open here so you can review it. Click the title to collapse.</p>
+  </div>
+
+  <div class="dx-wrap">
+    <details class="details" open>
+      <summary><span class="t"><span class="heading-s">Detailed information</span></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="dx-body">
+
+        <nav class="dx-jump" aria-label="Jump to">
+          <a href="#dx-pricing">Pricing</a><a href="#dx-hours">Hours</a><a href="#dx-spaces">Spaces</a><a href="#dx-included">What's included</a><a href="#dx-food">Food &amp; drink</a><a href="#dx-rules">Rules</a><a href="#dx-know">Good to know</a><a href="#dx-contact">Contact</a>
+        </nav>
+
+        <div class="dx-glance" aria-label="At a glance">
+          <div class="dx-tile"><span class="eyebrow">Rental</span><span class="v">$2,600 – $3,400</span><span class="s">6-hour reception, by season and day</span></div>
+          <div class="dx-tile"><span class="eyebrow">Hours</span><span class="v">3–9pm or 4–10pm</span><span class="s">Music off by 10pm</span></div>
+          <div class="dx-tile"><span class="eyebrow">Open</span><span class="v">Tue – Sat</span><span class="s">Closed Sunday</span></div>
+          <div class="dx-tile"><span class="eyebrow">To book</span><span class="v">$700</span><span class="s">Nonrefundable retainer</span></div>
+          <div class="dx-tile"><span class="eyebrow">Alcohol</span><span class="v">Beer &amp; wine</span><span class="s">$600 fee, licensed bartender</span></div>
+        </div>
+
+        <section class="dx-sec" id="dx-pricing">
+          <h3>Pricing</h3>
+          <div class="dx-scroll">
+            <table class="dx-table">
+              <caption>Reception rental: 6-hour block (3–9pm or 4–10pm), all amenities included</caption>
+              <thead><tr><th scope="col">Day</th><th scope="col" class="num">Peak<span class="s">April – October</span></th><th scope="col" class="num">Off-peak<span class="s">November – March</span></th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Tuesday – Thursday</th><td class="num">$3,000</td><td class="num">$2,600</td></tr>
+                <tr><th scope="row">Friday</th><td class="num">$3,000</td><td class="num">$2,800</td></tr>
+                <tr><th scope="row">Saturday</th><td class="num">$3,400</td><td class="num">$3,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="dx-sub">Ceremonies, other events and fees</p>
+          <ul class="dx-prices">
+            <li><span class="what">Ceremony with a reception<small>1 extra hour; chairs, music, rehearsal and coordination</small></span><span class="dx-lead"></span><span class="p">$750 peak · $550 off-peak</span></li>
+            <li><span class="what">Ceremony only<small>Tue–Thu, 3 hours; chairs, music, rehearsal and coordination</small></span><span class="dx-lead"></span><span class="p">$1,000</span></li>
+            <li><span class="what">Special event<small>Tue–Thu, 3 hours, all amenities</small></span><span class="dx-lead"></span><span class="p">$1,500</span></li>
+            <li><span class="what">Extra hour for a luncheon</span><span class="dx-lead"></span><span class="p">$500</span></li>
+            <li><span class="what">Staff for table clearing and cleanup</span><span class="dx-lead"></span><span class="p">$25 / hour each</span></li>
+            <li><span class="what">Alcohol privilege fee</span><span class="dx-lead"></span><span class="p">$600</span></li>
+            <li><span class="what">Credit or debit card fee</span><span class="dx-lead"></span><span class="p">4%</span></li>
+          </ul>
+
+          <p class="dx-sub">Paying for it</p>
+          <ol class="dx-steps">
+            <li><span class="when">To book</span><span class="what">$700 nonrefundable retainer secures the date</span></li>
+            <li><span class="when">30 days before</span><span class="what">Final payment due</span></li>
+            <li><span class="when">How to pay</span><span class="what">Cash, check, cashier's check or card (4% fee)</span></li>
+          </ol>
+        </section>
+
+        <section class="dx-sec" id="dx-hours">
+          <h3>Hours</h3>
+          <div class="dx-week" aria-label="Days open">
+            <span class="dx-day off">Mon<span class="s">Closed</span></span>
+            <span class="dx-day">Tue</span><span class="dx-day">Wed</span><span class="dx-day">Thu</span><span class="dx-day">Fri</span><span class="dx-day">Sat</span>
+            <span class="dx-day off">Sun<span class="s">Closed</span></span>
+          </div>
+          <dl class="dx-kv">
+            <dt>Reception times</dt><dd>3:00–9:00pm or 4:00–10:00pm (6 hours)</dd>
+            <dt>Ceremony only / special event</dt><dd>3 hours</dd>
+            <dt>Seasons</dt><dd>Peak April–October · Off-peak November–March (same days)</dd>
+          </dl>
+        </section>
+
+        <section class="dx-sec" id="dx-spaces">
+          <h3>Spaces &amp; capacity</h3>
+          <div class="dx-glance">
+            <div class="dx-tile"><span class="eyebrow">Sit-down dinner</span><span class="v">70</span><span class="s">Indoors</span></div>
+            <div class="dx-tile"><span class="eyebrow">Open house</span><span class="v">300</span><span class="s">Indoors</span></div>
+            <div class="dx-tile"><span class="eyebrow">Open house</span><span class="v">350</span><span class="s">Outdoors</span></div>
+            <div class="dx-tile"><span class="eyebrow">Ceremony</span><span class="v">70 / 40</span><span class="s">Outdoors / indoors</span></div>
+          </div>
+          <div class="dx-scroll">
+            <table class="dx-table">
+              <caption>165 chairs in all</caption>
+              <thead><tr><th scope="col">Space</th><th scope="col" class="num">Seated</th><th scope="col" class="num">Tables</th><th scope="col">Setting</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Reception hall</th><td class="num">75</td><td class="num">11</td><td>Indoor</td></tr>
+                <tr><th scope="row">Upstairs</th><td class="num">40</td><td class="num">10</td><td>Indoor</td></tr>
+                <tr><th scope="row">Outdoors</th><td class="num">50</td><td class="num">9</td><td>Outdoor, seasonal</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <dl class="dx-kv">
+            <dt>Getting ready</dt><dd>Dressing rooms</dd>
+            <dt>Also yours for the day</dt><dd>The whole building and gardens: dining hall, greeting room, gazebo with 3 serving tables, indoor buffet, fireplace</dd>
+          </dl>
+          <p class="dx-callout"><strong>Rain plan:</strong> in bad weather an outdoor ceremony can move indoors.</p>
+        </section>
+
+        <section class="dx-sec" id="dx-included">
+          <h3>What's included</h3>
+          <p class="dx-sub">Furniture &amp; decor</p>
+          <ul class="dx-checks">
+            <li>Tables &amp; chairs</li><li>Ivory linens</li><li>Centerpieces</li><li>Standing &amp; table easels</li><li>Bistro &amp; twinkle lights (in &amp; out)</li><li>Lanterns on shepherd's hooks</li><li>Cake table</li><li>Sign-in table</li><li>Gift table</li><li>Birdcage for cards</li>
+          </ul>
+          <p class="dx-sub">Sound &amp; screens</p>
+          <ul class="dx-checks">
+            <li>Sound system (in &amp; out)</li><li>Wireless microphone</li><li>TV for slideshows (HDTV; DVD, USB or laptop)</li><li>Wireless internet</li>
+          </ul>
+          <p class="dx-sub">People</p>
+          <ul class="dx-checks"><li>Event coordinator</li></ul>
+          <div class="dx-two">
+            <dl class="dx-kv" style="grid-template-columns: 1fr"><dt>Cleanup</dt><dd>Staff take down venue items and clean restrooms. The host and vendors clean up what they bring, including catering and send-off mess. Extra cleanup help is $25 / hour per staff member.</dd></dl>
+            <dl class="dx-kv" style="grid-template-columns: 1fr"><dt>For rent</dt><dd>A large selection of decor and kitchen supplies (ask the venue)</dd></dl>
+          </div>
+        </section>
+
+        <section class="dx-sec" id="dx-food">
+          <h3>Food &amp; drink</h3>
+          <ul class="dx-rules">
+            <li class="cond"><span class="ic">!</span><span>Outside caterer required<small>Any established professional caterer; signs the Brought-In Food Policy</small></span></li>
+            <li class="no"><span class="ic">✕</span><span>Homemade food<small>No food made by family or friends</small></span></li>
+            <li class="cond"><span class="ic">!</span><span>Alcohol: beer and wine only<small>$600 fee; licensed, insured bartender; host or bartender brings alcohol, cups and ice</small></span></li>
+            <li class="yes"><span class="ic">✓</span><span>Kitchen for warming and prep<small>Caterer completes a checklist; no ice maker, limited freezer</small></span></li>
+          </ul>
+          <p class="small muted" style="margin:0">The caterer or host brings plates, cups, utensils, napkins, a water dispenser and ice. Cake must come from an established professional baker.</p>
+        </section>
+
+        <section class="dx-sec" id="dx-rules">
+          <h3>Rules</h3>
+          <ul class="dx-rules">
+            <li class="no"><span class="ic">✕</span><span>Sparklers, fireworks, floating lanterns<small>Fire hazard</small></span></li>
+            <li class="no"><span class="ic">✕</span><span>Confetti</span></li>
+            <li class="no"><span class="ic">✕</span><span>Dogs</span></li>
+            <li class="no"><span class="ic">✕</span><span>Early access, drop-offs or storage</span></li>
+            <li class="cond"><span class="ic">!</span><span>Music off by 10:00pm<small>City ordinance</small></span></li>
+            <li class="cond"><span class="ic">!</span><span>Furniture moved by venue staff only</span></li>
+            <li class="cond"><span class="ic">!</span><span>Host cleans up send-off and car-decorating mess</span></li>
+          </ul>
+        </section>
+
+        <section class="dx-sec" id="dx-know">
+          <h3>Good to know</h3>
+          <dl class="dx-kv">
+            <dt>Booking</dt><dd>The whole facility is booked for one event at a time</dd>
+            <dt>Winter</dt><dd>Outdoor tables and chairs are stored November–March</dd>
+            <dt>Tours</dt><dd>By appointment; closed Sunday</dd>
+            <dt>Parking</dt><dd>Parking lot</dd>
+            <dt>Style</dt><dd>Old-world, French country, European country estate</dd>
+          </dl>
+        </section>
+
+        <section class="dx-sec" id="dx-contact">
+          <h3>Contact</h3>
+          <dl class="dx-kv">
+            <dt>Phone</dt><dd>801-785-2111</dd>
+            <dt>Email</dt><dd>infobungalowwedding@gmail.com</dd>
+            <dt>Instagram</dt><dd>@bungalowweddings</dd>
+            <dt>Website</dt><dd><a href="https://www.bungalowwedding.com/" target="_blank" rel="noopener">bungalowwedding.com</a></dd>
+            <dt>Address</dt><dd>235 South 100 West, Pleasant Grove, UT 84062</dd>
+          </dl>
+        </section>
+
+      </div>
+    </details>
+  </div>
+</body>
+</html>
